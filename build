@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pandoc --toc --template GitHub.html5 all.md -o index.html
+

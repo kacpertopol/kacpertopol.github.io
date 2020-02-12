@@ -1,0 +1,49 @@
+#!/usr/bin/python
+
+# pandoc --toc --template GitHub.html5 all.md -o index.htm 
+
+import os
+this_dir = os.path.dirname(os.path.realpath(__file__))
+
+all_md = "";
+
+if(not(os.path.isfile(os.path.join(this_dir , "meta")))):
+    with open("meta" , "w") as mta:
+        mta.write("""---
+title: Place Title Here
+---""")
+
+def process_dir(node):
+    root , dirs , files = node
+    #info = None
+
+    dirname = os.path.split(root)[-1]
+    title = dirname.replace("_" , " ")
+    anchour = "#"+dirname.replace("_" , "-")
+
+    print(title)
+    print(anchour)
+
+    #content = None
+
+    #if("info" in files):
+    #    with open(os.path.join(root , "info") , "r") as ifile:
+    #        info = ifile.read().strip()
+    #else:
+    #    raise ValueError("Expecting -info- file inside each section.")
+
+    #if("content.md" in files):
+    #    with open(os.path.join(root , "content.md") , "r") as cfile:
+    #        content = cfile.read()
+    #    content.replace("---ThisDir---" , root)
+    #else:
+    #    raise ValueError("Expecting -content.md- file inside each section.")
+    
+    #result = [info , ]
+    
+    #if(dirs == []):
+    #    return 
+
+
+for node in os.walk(os.path.join(this_dir , "content")):
+    process_dir(node)

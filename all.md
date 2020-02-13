@@ -3,7 +3,7 @@ title: Kacper Topolnicki
 toc-title: TOC 
 ---
 
-![](./KT.jpg)
+![](./KT_1.jpg)
 
 
 

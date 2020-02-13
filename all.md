@@ -3,7 +3,7 @@ title: Kacper Topolnicki
 toc-title: TOC 
 ---
 
-![](./KT_1.jpg)
+[![](./KacperTopolnicki.jpg)](https://sites.google.com/view/gr-natalka/main)
 
 
 

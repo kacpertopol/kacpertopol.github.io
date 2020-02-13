@@ -5,6 +5,9 @@ import argparse
 
 this_dir = os.path.dirname(os.path.realpath(__file__))
 
+def make_anchour(s):
+    return "#" + s.lower().replace("_" , "-").replace(" " , "-").replace("(" , "").replace(")" , "").replace("/" , "-").replace("\\" , "-")
+
 def process_dir(all_md , toc_md , level , directory , pre = None , up = None , nxt = None , toc = "TOC"):
     """
     all_md : [str]
@@ -16,7 +19,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
     """
     dirname = os.path.split(directory)[-1][4:]
     title = dirname.replace("_" , " ")
-    anchour = "#"+dirname.replace("_" , "-").lower()
+    anchour = make_anchour(dirname) 
 
     if(up != None):
         toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + anchour  + ")\n")
@@ -35,7 +38,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         all_md.append("\n\n")
     else:
         toc_md.append("\n\n" + "# " + toc + "\n\n")
-        anchour = "#"+toc.lower().replace(" " , "-")
+        anchour = make_anchour(toc) 
 
     subDirs = []
     for f in os.listdir(directory):
@@ -47,9 +50,9 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         pre_anchour = None
         nxt_anchour = None
         if(ii != 0):
-            pre_anchour = "#"+ subDirs[ii - 1][4:].replace("_" , "-").lower()
+            pre_anchour = make_anchour(subDirs[ii - 1][4:])
         if(ii != len(subDirs) - 1):
-            nxt_anchour = "#"+ subDirs[ii + 1][4:].replace("_" , "-").lower()
+            nxt_anchour = make_anchour(subDirs[ii + 1][4:])
         process_dir(all_md , toc_md , level + 1 , os.path.join(directory , subDirs[ii]) , pre = pre_anchour , up = anchour , nxt = nxt_anchour)
 
 

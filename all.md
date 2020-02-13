@@ -10,180 +10,63 @@ toc-title: TOC
 # TOC
 
 * [Contact](#contact)
-* [First Section](#first-section)
-	* [First Subsection](#first-subsection)
-	* [Second Subsection](#second-subsection)
-* [Second Section](#second-section)
-	* [Sub](#sub)
+* [Teaching](#teaching)
+	* [Algorithms and Data Structures (summer 2019-2020)](#algorithms-and-data-structures-summer-2019-2020)
+	* [Algebra and Geometry (summer 2019-2020)](#algebra-and-geometry-summer-2019-2020)
 
 
 
 # Contact
 
-* work
-	* where: Jagiellonian University, Faculty of Physics Astronomy and Applied computer Science
-	* e-mail: kacper.topolnicki@uj.edu.pl
-	* adress: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland
-	* room: B-2-25
-	* tel.: (+48) 12 664 4869  
+* where: Jagiellonian University, Faculty of Physics Astronomy and Applied computer Science
+* e-mail: kacper.topolnicki@uj.edu.pl
+* adress: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland
+* room: B-2-25
+* tel.: (+48) 12 664 4869  
 
 
- [↑](#toc) [→](#first-section)
-
-
-
-# First Section
-
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-
-
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-
-Trying some math:
-$$\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + 2}}} $$
-
-You can click this [Some File](start/001_First_Section/someFile) to download some file.
-
-
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-
-
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-
-
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
-This is the first section.
+ [↑](#toc) [→](#teaching)
 
 
 
- [←](#contact) [↑](#toc) [→](#second-section)
+# Teaching
 
 
 
-## First Subsection
-
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-
-
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-
-
- [↑](#first-section) [→](#second-subsection)
+ [←](#contact) [↑](#toc)
 
 
 
-## Second Subsection
+## Algorithms and Data Structures (summer 2019-2020)
+
+A new set of exercises will be made available every week. Each 
+exercise can be implemented in your language of choice - with one caveat.
+Please don't use languages that rely strongly on functional programming
+(haskell, lisp) because your solutions might diverge from the 
+lectured material. At the end of the semester you will be graded based
+on the number of exercises that were solved (the grading curve will be
+determined at the end of the semester). 
+
+There will additionally be a test (related to concepts from the lecture)
+and a final project. You need a positive grade from the exercises, the test,
+and the project to get a positive final grade. The final grade will be a weighted
+average:
+
+* number of exercises (60%)
+* test (20%)
+* final project (20%)
 
 
 
- [←](#first-subsection) [↑](#first-section)
+ [↑](#teaching) [→](#algebra-and-geometry-summer-2019-2020)
 
 
 
-# Second Section
+## Algebra and Geometry (summer 2019-2020)
 
 
 
- [←](#first-section) [↑](#toc)
-
-
-
-## Sub
-
-
-
- [↑](#second-section)
+ [←](#algorithms-and-data-structures-summer-2019-2020) [↑](#teaching)
 
 
 

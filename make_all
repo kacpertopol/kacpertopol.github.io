@@ -43,9 +43,9 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         pre_anchour = None
         nxt_anchour = None
         if(ii != 0):
-            pre_anchour = "#"+ subDirs[ii - 1].replace("_" , "-").lower()
+            pre_anchour = "#"+ subDirs[ii - 1][4:].replace("_" , "-").lower()
         if(ii != len(subDirs) - 1):
-            nxt_anchour = "#"+ subDirs[ii + 1].replace("_" , "-").lower()
+            nxt_anchour = "#"+ subDirs[ii + 1][4:].replace("_" , "-").lower()
         process_dir(all_md , toc_md , level + 1 , os.path.join(directory , subDirs[ii]) , pre = pre_anchour , up = anchour , nxt = nxt_anchour)
 
 

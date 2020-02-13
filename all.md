@@ -126,7 +126,7 @@ This is the first section.
 
 
 
- [↑](#intro) [→](#002-second-section)
+ [↑](#intro) [→](#second-section)
 
 
 
@@ -148,7 +148,7 @@ This is a subsection.
 This is a subsection.
 
 
- [↑](#first-section) [→](#002-second-subsection)
+ [↑](#first-section) [→](#second-subsection)
 
 
 
@@ -156,7 +156,7 @@ This is a subsection.
 
 
 
- [←](#001-first-subsection) [↑](#first-section)
+ [←](#first-subsection) [↑](#first-section)
 
 
 
@@ -164,7 +164,7 @@ This is a subsection.
 
 
 
- [←](#001-first-section) [↑](#intro)
+ [←](#first-section) [↑](#intro)
 
 
 

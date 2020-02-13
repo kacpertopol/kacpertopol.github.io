@@ -5,24 +5,34 @@ toc-title: TOC
 
 ![](./KT.jpg)
 
-* [INTRO](#intro)
-	* [First Section](#first-section)
-		* [First Subsection](#first-subsection)
-		* [Second Subsection](#second-subsection)
-	* [Second Section](#second-section)
-		* [Sub](#sub)
+
+
+# TOC
+
+* [Contact](#contact)
+* [First Section](#first-section)
+	* [First Subsection](#first-subsection)
+	* [Second Subsection](#second-subsection)
+* [Second Section](#second-section)
+	* [Sub](#sub)
 
 
 
-# INTRO
+# Contact
+
+* work
+	* where: Faculty of Physics Astronomy and Applied computer Science
+	* e-mail: kacper.topolnicki@uj.edu.pl
+	* adress: prof. St. Łojasiewicza 11, 30-348 Kraków
+	* room: B-2-25
+	* tel.: (+48) 12 664 4869  
+
+
+ [↑](#toc) [→](#first-section)
 
 
 
-
-
-
-
-## First Section
+# First Section
 
 This is the first section.
 This is the first section.
@@ -41,7 +51,7 @@ This is the first section.
 
 The directory is:
 
-You can click this [Some File](./001_INTRO/001_First_Section/someFile) to download some file.
+You can click this [Some File](start/001_First_Section/someFile) to download some file.
 
 
 This is the first section.
@@ -126,11 +136,11 @@ This is the first section.
 
 
 
- [↑](#intro) [→](#second-section)
+ [←](#contact) [↑](#toc) [→](#second-section)
 
 
 
-### First Subsection
+## First Subsection
 
 This is a subsection.
 This is a subsection.
@@ -152,7 +162,7 @@ This is a subsection.
 
 
 
-### Second Subsection
+## Second Subsection
 
 
 
@@ -160,15 +170,15 @@ This is a subsection.
 
 
 
-## Second Section
+# Second Section
 
 
 
- [←](#first-section) [↑](#intro)
+ [←](#first-section) [↑](#toc)
 
 
 
-### Sub
+## Sub
 
 
 

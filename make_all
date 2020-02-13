@@ -5,33 +5,37 @@ import argparse
 
 this_dir = os.path.dirname(os.path.realpath(__file__))
 
-def process_dir(all_md , toc_md , level , directory , pre = None , up = None , nxt = None):
+def process_dir(all_md , toc_md , level , directory , pre = None , up = None , nxt = None , toc = "TOC"):
     """
     all_md : [str]
         String containing the main markdown file for the site.
     toc_md : [str]
         String containing the table of contents
     level : int
-        Level in the tree, starting with 1
+        Level in the tree, starting with 0
     """
     dirname = os.path.split(directory)[-1][4:]
     title = dirname.replace("_" , " ")
     anchour = "#"+dirname.replace("_" , "-").lower()
 
-    toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + anchour  + ")\n")
-
-    all_md.append("\n\n" + ("#" * level) + " " + title + "\n\n")
-    if(os.path.isfile(os.path.join(directory , "content.md"))):
-        with open(os.path.join(directory , "content.md") , "r") as c:
-            all_md.append(c.read().replace("---ThisDir---" , directory))
-    all_md.append("\n\n")
-    if(pre != None):
-        all_md.append(" [←](" + pre + ")")
     if(up != None):
-        all_md.append(" [↑](" + up + ")")
-    if(nxt != None):
-        all_md.append(" [→](" + nxt + ")")
-    all_md.append("\n\n")
+        toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + anchour  + ")\n")
+
+        all_md.append("\n\n" + ("#" * level) + " " + title + "\n\n")
+        if(os.path.isfile(os.path.join(directory , "content.md"))):
+            with open(os.path.join(directory , "content.md") , "r") as c:
+                all_md.append(c.read().replace("---ThisDir---" , directory))
+        all_md.append("\n\n")
+        if(pre != None):
+            all_md.append(" [←](" + pre + ")")
+        if(up != None):
+            all_md.append(" [↑](" + up + ")")
+        if(nxt != None):
+            all_md.append(" [→](" + nxt + ")")
+        all_md.append("\n\n")
+    else:
+        toc_md.append("\n\n" + "# " + toc + "\n\n")
+        anchour = "#"+toc.lower().replace(" " , "-")
 
     subDirs = []
     for f in os.listdir(directory):
@@ -54,11 +58,14 @@ if(__name__ == "__main__"):
     Make static website.
     """)
     parser.add_argument("-d" , "--directory" , help = "Directory with website.")
-    parser.add_argument("start" , help = "First directory.")
+    parser.add_argument("-t" , "--toc" , help = "Name for table of contents.")
     args = parser.parse_args()
 
     if(args.directory != None):
         os.chdir(args.directory)
+    
+    if(args.toc == None):
+        args.toc = "TOC"
 
     meta = ""
     if(os.path.exists("meta.md")):
@@ -74,7 +81,7 @@ if(__name__ == "__main__"):
 
     all_markdown = []
     toc_markdown = []
-    process_dir(all_markdown , toc_markdown , 1 , args.start)
+    process_dir(all_markdown , toc_markdown , 0 , "start" , toc = args.toc)
 
     index_md = meta + init + "".join(toc_markdown) + "\n" + "".join(all_markdown) + "\n"
 

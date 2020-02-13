@@ -25,7 +25,7 @@ toc-title: TOC
 * tel.: (+48) 12 664 4869  
 
 
- [↑](#toc) [→](#teaching)
+ [↑](#toc "toc") [→](#teaching "teaching")
 
 
 
@@ -33,7 +33,7 @@ toc-title: TOC
 
 
 
- [←](#contact) [↑](#toc)
+ [←](#contact "contact") [↑](#toc "toc")
 
 
 
@@ -58,7 +58,7 @@ average:
 
 
 
- [↑](#teaching) [→](#algebra-and-geometry-summer-2019-2020)
+ [↑](#teaching "teaching") [→](#algebra-and-geometry-summer-2019-2020 "algebra and geometry summer 2019 2020")
 
 
 
@@ -66,7 +66,7 @@ average:
 
 
 
- [←](#algorithms-and-data-structures-summer-2019-2020) [↑](#teaching)
+ [←](#algorithms-and-data-structures-summer-2019-2020 "algorithms and data structures summer 2019 2020") [↑](#teaching "teaching")
 
 
 

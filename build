@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./make_all "./001_TOC" > all.md
+./make_all "./001_INTRO" > all.md
 
 pandoc --mathjax --template GitHub.html5 all.md -o index.html
 

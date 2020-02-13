@@ -5,7 +5,7 @@ import argparse
 
 this_dir = os.path.dirname(os.path.realpath(__file__))
 
-def process_dir(all_md , toc_md , level , directory):
+def process_dir(all_md , toc_md , level , directory , pre = None , up = None , nxt = None):
     """
     all_md : [str]
         String containing the main markdown file for the site.
@@ -24,6 +24,14 @@ def process_dir(all_md , toc_md , level , directory):
     if(os.path.isfile(os.path.join(directory , "content.md"))):
         with open(os.path.join(directory , "content.md") , "r") as c:
             all_md.append(c.read().replace("---ThisDir---" , directory))
+    all_md.append("\n\n")
+    if(pre != None):
+        all_md.append(" [←](" + pre + ")")
+    if(up != None):
+        all_md.append(" [↑](" + up + ")")
+    if(nxt != None):
+        all_md.append(" [→](" + nxt + ")")
+    all_md.append("\n\n")
 
     subDirs = []
     for f in os.listdir(directory):
@@ -31,8 +39,14 @@ def process_dir(all_md , toc_md , level , directory):
             subDirs.append(f)
     subDirs.sort(key = lambda s : int(s[0:3]))
    
-    for f in subDirs:
-        process_dir(all_md , toc_md , level + 1 , os.path.join(directory , f))
+    for ii in range(len(subDirs)):
+        pre_anchour = None
+        nxt_anchour = None
+        if(ii != 0):
+            pre_anchour = "#"+ subDirs[ii - 1].replace("_" , "-").lower()
+        if(ii != len(subDirs) - 1):
+            nxt_anchour = "#"+ subDirs[ii + 1].replace("_" , "-").lower()
+        process_dir(all_md , toc_md , level + 1 , os.path.join(directory , subDirs[ii]) , pre = pre_anchour , up = anchour , nxt = nxt_anchour)
 
 
 if(__name__ == "__main__"):

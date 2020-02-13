@@ -1,29 +1,3 @@
----
-title: Kacper Topolnicki
-toc-title: TOC 
----
-
-![](./KT.jpg)
-
-* [INTRO](#intro)
-	* [First Section](#first-section)
-		* [First Subsection](#first-subsection)
-		* [Second Subsection](#second-subsection)
-	* [Second Section](#second-section)
-		* [Sub](#sub)
-
-
-
-# INTRO
-
-
-
-
-
-
-
-## First Section
-
 This is the first section.
 This is the first section.
 This is the first section.
@@ -41,7 +15,7 @@ This is the first section.
 
 The directory is:
 
-You can click this [Some File](./001_INTRO/001_First_Section/someFile) to download some file.
+You can click this [Some File](---ThisDir---/someFile) to download some file.
 
 
 This is the first section.
@@ -123,56 +97,4 @@ This is the first section.
 This is the first section.
 This is the first section.
 This is the first section.
-
-
-
- [↑](#intro) [→](#002-second-section)
-
-
-
-### First Subsection
-
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-
-
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-This is a subsection.
-
-
- [↑](#first-section) [→](#002-second-subsection)
-
-
-
-### Second Subsection
-
-
-
- [←](#001-first-subsection) [↑](#first-section)
-
-
-
-## Second Section
-
-
-
- [←](#001-first-section) [↑](#intro)
-
-
-
-### Sub
-
-
-
- [↑](#second-section)
-
-
 

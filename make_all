@@ -1,0 +1,67 @@
+#!/usr/bin/python
+
+import os
+import argparse
+
+this_dir = os.path.dirname(os.path.realpath(__file__))
+
+def process_dir(all_md , toc_md , level , directory):
+    """
+    all_md : [str]
+        String containing the main markdown file for the site.
+    toc_md : [str]
+        String containing the table of contents
+    level : int
+        Level in the tree, starting with 1
+    """
+    dirname = os.path.split(directory)[-1][4:]
+    title = dirname.replace("_" , " ")
+    anchour = "#"+dirname.replace("_" , "-").lower()
+
+    toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + anchour  + ")\n")
+
+    all_md.append("\n\n" + ("#" * level) + " " + title + "\n\n")
+    if(os.path.isfile(os.path.join(directory , "content.md"))):
+        with open(os.path.join(directory , "content.md") , "r") as c:
+            all_md.append(c.read().replace("---ThisDir---" , directory))
+
+    subDirs = []
+    for f in os.listdir(directory):
+        if(os.path.isdir(os.path.join(directory , f))):
+            subDirs.append(f)
+    subDirs.sort(key = lambda s : int(s[0:3]))
+   
+    for f in subDirs:
+        process_dir(all_md , toc_md , level + 1 , os.path.join(directory , f))
+
+
+if(__name__ == "__main__"):
+    parser = argparse.ArgumentParser(description = """
+    Make static website.
+    """)
+    parser.add_argument("-d" , "--directory" , help = "Directory with website.")
+    parser.add_argument("start" , help = "First directory.")
+    args = parser.parse_args()
+
+    if(args.directory != None):
+        os.chdir(args.directory)
+
+    meta = ""
+    if(os.path.exists("meta.md")):
+        with open("meta.md" , "r") as f:
+            meta = f.read()
+            meta = meta + "\n"
+
+    init = ""
+    if(os.path.exists("init.md")):
+        with open("init.md" , "r") as f:
+            init = f.read()
+            init = init + "\n"
+
+    all_markdown = []
+    toc_markdown = []
+    process_dir(all_markdown , toc_markdown , 1 , args.start)
+
+    index_md = meta + init + "".join(toc_markdown) + "\n" + "".join(all_markdown) + "\n"
+
+    print(index_md)

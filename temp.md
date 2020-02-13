@@ -1,9 +1,4 @@
----
-title: Kacper Topolnicki
-toc-title: TOC 
----
-
-![](./KT.jpg)
+This is some init.
 
 * [TOC](#toc)
 	* [First Section](#first-section)

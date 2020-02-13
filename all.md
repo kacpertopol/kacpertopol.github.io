@@ -37,7 +37,7 @@ This is the first section.
 
 The directory is:
 
-./001_TOC/001_First_Section
+You can click this [Some File](./001_TOC/001_First_Section/someFile) to download some file.
 
 
 ### First Subsection

@@ -15,4 +15,4 @@ This is the first section.
 
 The directory is:
 
----ThisDir---
+You can click this [Some File](---ThisDir---/someFile) to download some file.

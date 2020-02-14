@@ -6,7 +6,7 @@ import argparse
 this_dir = os.path.dirname(os.path.realpath(__file__))
 
 def make_anchour(s):
-    return "#" + s.lower().replace("_" , "-").replace(" " , "-").replace("(" , "").replace(")" , "").replace("/" , "-").replace("\\" , "-")
+    return "#" + s.lower().replace("_" , "-").replace(" " , "-").replace("(" , "").replace(")" , "").replace("/" , "-").replace("\\" , "-").replace("," , "")
 
 def process_dir(all_md , toc_md , level , directory , pre = None , up = None , nxt = None , toc = "TOC"):
     """

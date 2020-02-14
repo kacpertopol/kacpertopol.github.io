@@ -28,7 +28,7 @@ toc-title: TOC
 * tel.: (+48) 12 664 4869  
 
 
- [↑](#toc "toc") [→](#teaching "teaching")
+[↑](#toc "toc")[→](#teaching "teaching")
 
 
 
@@ -36,7 +36,7 @@ toc-title: TOC
 
 
 
- [←](#contact "contact") [↑](#toc "toc") [→](#fun "fun")
+[←](#contact "contact")[↑](#toc "toc")[→](#fun "fun")
 
 
 
@@ -77,17 +77,17 @@ average:
 
 
 
- [↑](#teaching "teaching") [→](#algebra-and-geometry-practical-classes-2019-2020 "algebra and geometry practical classes 2019 2020")
+[↑](#teaching "teaching")[→](#algebra-and-geometry-practical-classes-2019-2020 "algebra and geometry practical classes 2019 2020")
 
 
 
 ### Set 1
 
-1. TODO
-2. TODO
+1. $\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \pi}}}}}$
+2. $e = \lim\limits_{n \to \infty} \left(1 + \frac{1}{n} \right)^{n}$
 
 
- [↑](#algorithms-and-data-structures-computer-lab-summer-2019-2020 "algorithms and data structures computer lab summer 2019 2020")
+[↑](#algorithms-and-data-structures-computer-lab-summer-2019-2020 "algorithms and data structures computer lab summer 2019 2020")
 
 
 
@@ -95,7 +95,7 @@ average:
 
 
 
- [←](#algorithms-and-data-structures-computer-lab-summer-2019-2020 "algorithms and data structures computer lab summer 2019 2020") [↑](#teaching "teaching")
+[←](#algorithms-and-data-structures-computer-lab-summer-2019-2020 "algorithms and data structures computer lab summer 2019 2020")[↑](#teaching "teaching")
 
 
 
@@ -103,7 +103,7 @@ average:
 
 
 
- [←](#teaching "teaching") [↑](#toc "toc")
+[←](#teaching "teaching")[↑](#toc "toc")
 
 
 
@@ -150,7 +150,7 @@ average:
  
 
 
- [↑](#fun "fun")
+[↑](#fun "fun")
 
 
 

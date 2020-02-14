@@ -31,13 +31,13 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         all_md.append("\n\n")
         if(pre != None):
             nme = pre[1:].replace("-" , " ")
-            all_md.append(" [←](" + pre + " \"" + nme + "\"" + ")")
+            all_md.append("[←](" + pre + " \"" + nme + "\"" + ")")
         if(up != None):
             nme = up[1:].replace("-" , " ")
-            all_md.append(" [↑](" + up + " \"" + nme + "\"" + ")")
+            all_md.append("[↑](" + up + " \"" + nme + "\"" + ")")
         if(nxt != None):
             nme = nxt[1:].replace("-" , " ")
-            all_md.append(" [→](" + nxt + " \"" + nme + "\"" + ")")
+            all_md.append("[→](" + nxt + " \"" + nme + "\"" + ")")
         all_md.append("\n\n")
     else:
         toc_md.append("\n\n" + "# " + toc + "\n\n")

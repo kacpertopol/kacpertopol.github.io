@@ -42,7 +42,7 @@ toc-title: TOC
 
 ## Algorithms and Data Structures (computer lab, summer 2019-2020)
 
-A new set of exercises will be made available, on average every week. Each 
+A new set of exercises will be made available, on average, every week. Each 
 exercise can be implemented in your language of choice, with some caveats:
 
 * Please don't use languages that rely strongly on functional programming
@@ -58,7 +58,7 @@ determined at the end of the semester). Submitting solutions:
 * Solutions to exercises can be sent to <kacper.topolnicki@uj.edu.pl> from
   your university (!) e-mail address. 
 * The title of the message must contain the word "hornswogglingrabidrabbit"
-  surrounded by white spaces, the set, and exercise numbers.
+  surrounded by white spaces, the set number, and exercise number.
 * The attachment  should have a `.zip` file with your program. 
   * The `.zip` archive should unpack to a single directory
     with a bash script `run` that does all the work.  

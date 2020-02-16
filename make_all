@@ -65,6 +65,7 @@ if(__name__ == "__main__"):
     """)
     parser.add_argument("-d" , "--directory" , help = "Directory with website.")
     parser.add_argument("-t" , "--toc" , help = "Name for table of contents.")
+    parser.add_argument("start" , help = "First node directory.")
     args = parser.parse_args()
 
     if(args.directory != None):
@@ -87,7 +88,7 @@ if(__name__ == "__main__"):
 
     all_markdown = []
     toc_markdown = []
-    process_dir(all_markdown , toc_markdown , 0 , "start" , toc = args.toc)
+    process_dir(all_markdown , toc_markdown , 0 , args.start , toc = args.toc)
 
     index_md = meta + init + "".join(toc_markdown) + "\n" + "".join(all_markdown) + "\n"
 

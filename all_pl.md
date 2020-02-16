@@ -7,7 +7,7 @@ toc-title: TOC
 
 <center>
 -------------------------------------------------
- [PL](./index_pl.html)  [EN](./index_en.html) 
+ [PL](./pl.html)  [EN](./en.html) 
 -------------------------------------------------
 </center>
 

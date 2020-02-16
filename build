@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ./make_all -t "TOC" "./start/pl" > all_pl.md
-pandoc --mathjax --template GitHub.html5 all_pl.md -o index_pl.html
+pandoc --mathjax --template GitHub.html5 all_pl.md -o pl.html
 
 ./make_all -t "TOC" "./start/en" > all_en.md
-pandoc --mathjax --template GitHub.html5 all_en.md -o index_en.html
+pandoc --mathjax --template GitHub.html5 all_en.md -o en.html
 
-cp index_en.html index.html
+cp en.html index.html

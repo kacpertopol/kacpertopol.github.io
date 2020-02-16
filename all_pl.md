@@ -29,7 +29,7 @@ toc-title: TOC
 # Kontakt
 
 * miejsce pracy: Jagiellonian University, Faculty of Physics Astronomy and Applied computer Science
-* e-mail: kacper.topolnicki@uj.edu.pl
+* e-mail: <kacper.topolnicki@uj.edu.pl>
 * adres: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland
 * pokój: B-2-25
 * tel.: (+48) 12 664 4869  

@@ -3,7 +3,13 @@
 ./make_all -t "TOC" "./start/pl" > all_pl.md
 pandoc --mathjax --template GitHub.html5 all_pl.md -o pl.html
 
+./make_all -t "TOC" "./start/pl" > all_en_inv.md
+pandoc --mathjax --template GitHubINV.html5 all_pl.md -o pl_inv.html
+
 ./make_all -t "TOC" "./start/en" > all_en.md
 pandoc --mathjax --template GitHub.html5 all_en.md -o en.html
+
+./make_all -t "TOC" "./start/en" > all_en_inv.md
+pandoc --mathjax --template GitHubINV.html5 all_en.md -o en_inv.html
 
 cp en.html index.html

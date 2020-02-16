@@ -85,6 +85,7 @@ $-- by the CSS file in the finalized template:
   </style>
 $-------------------------------------------------------------------------------
   <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">p{text-align: justify;}</style>
 $-------------------------------------------------------------------------------
 $if(quotes)$
   <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>

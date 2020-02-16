@@ -19,7 +19,7 @@ toc-title: TOC
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
-		* [Set 1](#set-1)
+		* [Zestaw 1](#zestaw-1)
 	* [Algebra i Geometria (ćwiczenia, lato, 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
@@ -36,9 +36,9 @@ toc-title: TOC
 
 
 <center>
-
+-------------------------
 [↑](#toc "toc")[→](#nauczanie "nauczanie")
-
+-------------------------
 </center>
 
 
@@ -48,9 +48,9 @@ toc-title: TOC
 
 
 <center>
-
+-------------------------
 [←](#kontakt "kontakt")[↑](#toc "toc")[→](#fun "fun")
-
+-------------------------
 </center>
 
 
@@ -94,23 +94,23 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 
 <center>
-
+-------------------------
 [↑](#nauczanie "nauczanie")[→](#algebra-i-geometria-ćwiczenia-lato-2019-2020 "algebra i geometria ćwiczenia lato 2019 2020")
-
+-------------------------
 </center>
 
 
 
-### Set 1
+### Zestaw 1
 
 1. $\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \pi}}}}}$
 2. $e = \lim\limits_{n \to \infty} \left(1 + \frac{1}{n} \right)^{n}$
 
 
 <center>
-
+-------------------------
 [↑](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 "algorytmy i struktury danych lab komputerowe lato 2019 2020")
-
+-------------------------
 </center>
 
 
@@ -120,9 +120,9 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 
 <center>
-
+-------------------------
 [←](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 "algorytmy i struktury danych lab komputerowe lato 2019 2020")[↑](#nauczanie "nauczanie")
-
+-------------------------
 </center>
 
 
@@ -132,9 +132,9 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 
 <center>
-
+-------------------------
 [←](#nauczanie "nauczanie")[↑](#toc "toc")
-
+-------------------------
 </center>
 
 
@@ -183,9 +183,9 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 
 <center>
-
+-------------------------
 [↑](#fun "fun")
-
+-------------------------
 </center>
 
 

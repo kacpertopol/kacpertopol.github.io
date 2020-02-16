@@ -28,22 +28,17 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         if(os.path.isfile(os.path.join(directory , "content.md"))):
             with open(os.path.join(directory , "content.md") , "r") as c:
                 all_md.append(c.read().replace("---ThisDir---" , directory))
-        #all_md.append("\n\n<center>\n-------------------------\n")
         all_md.append("\n<div style=\"text-align: center\">")
         if(pre != None):
             nme = pre[1:].replace("-" , " ")
-            #all_md.append("[←](" + pre + " \"" + nme + "\"" + ")")
             all_md.append("<a href = " + pre + " title = \"" + nme + "\">←</a>")
         if(up != None):
             nme = up[1:].replace("-" , " ")
-            #all_md.append("[↑](" + up + " \"" + nme + "\"" + ")")
             all_md.append("<a href = " + up + " title = \"" + nme + "\">↑</a>")
         if(nxt != None):
             nme = nxt[1:].replace("-" , " ")
-            #all_md.append("[→](" + nxt + " \"" + nme + "\"" + ")")
             all_md.append("<a href = " + nxt + " title = \"" + nme + "\">→</a>")
         all_md.append("</div>")
-        #all_md.append("\n-------------------------\n</center>\n\n")
     else:
         toc_md.append("\n\n" + "# " + toc + "\n\n")
         anchour = make_anchour(toc) 

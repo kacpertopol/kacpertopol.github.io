@@ -34,26 +34,12 @@ toc-title: TOC
 * room: B-2-25
 * tel.: (+48) 12 664 4869  
 
-
-<center>
--------------------------
-[↑](#toc "toc")[→](#teaching "teaching")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #toc title = "toc">↑</a><a href = #teaching title = "teaching">→</a></div>
 
 # Teaching
 
 
-
-<center>
--------------------------
-[←](#contact "contact")[↑](#toc "toc")[→](#fun "fun")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #contact title = "contact">←</a><a href = #toc title = "toc">↑</a><a href = #fun title = "fun">→</a></div>
 
 ## Algorithms and Data Structures (computer lab, summer 2019-2020)
 
@@ -91,52 +77,24 @@ average:
 * final project (20%)
 
 
-
-<center>
--------------------------
-[↑](#teaching "teaching")[→](#algebra-and-geometry-practical-classes-summer-2019-2020 "algebra and geometry practical classes summer 2019 2020")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #teaching title = "teaching">↑</a><a href = #algebra-and-geometry-practical-classes-summer-2019-2020 title = "algebra and geometry practical classes summer 2019 2020">→</a></div>
 
 ### Set 1
 
 1. $\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \pi}}}}}$
 2. $e = \lim\limits_{n \to \infty} \left(1 + \frac{1}{n} \right)^{n}$
 
-
-<center>
--------------------------
-[↑](#algorithms-and-data-structures-computer-lab-summer-2019-2020 "algorithms and data structures computer lab summer 2019 2020")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #algorithms-and-data-structures-computer-lab-summer-2019-2020 title = "algorithms and data structures computer lab summer 2019 2020">↑</a></div>
 
 ## Algebra and Geometry (practical classes, summer, 2019-2020)
 
 
-
-<center>
--------------------------
-[←](#algorithms-and-data-structures-computer-lab-summer-2019-2020 "algorithms and data structures computer lab summer 2019 2020")[↑](#teaching "teaching")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #algorithms-and-data-structures-computer-lab-summer-2019-2020 title = "algorithms and data structures computer lab summer 2019 2020">←</a><a href = #teaching title = "teaching">↑</a></div>
 
 # Fun
 
 
-
-<center>
--------------------------
-[←](#teaching "teaching")[↑](#toc "toc")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #teaching title = "teaching">←</a><a href = #toc title = "toc">↑</a></div>
 
 ## Podcasts
 
@@ -180,12 +138,5 @@ average:
 
  
 
-
-<center>
--------------------------
-[↑](#fun "fun")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #fun title = "fun">↑</a></div>
 

@@ -34,26 +34,12 @@ toc-title: TOC
 * pokój: B-2-25
 * tel.: (+48) 12 664 4869  
 
-
-<center>
--------------------------
-[↑](#toc "toc")[→](#nauczanie "nauczanie")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #toc title = "toc">↑</a><a href = #nauczanie title = "nauczanie">→</a></div>
 
 # Nauczanie
 
 
-
-<center>
--------------------------
-[←](#kontakt "kontakt")[↑](#toc "toc")[→](#fun "fun")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #kontakt title = "kontakt">←</a><a href = #toc title = "toc">↑</a><a href = #fun title = "fun">→</a></div>
 
 ## Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)
 
@@ -92,52 +78,24 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 * projekt (20%)
 
 
-
-<center>
--------------------------
-[↑](#nauczanie "nauczanie")[→](#algebra-i-geometria-ćwiczenia-lato-2019-2020 "algebra i geometria ćwiczenia lato 2019 2020")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>
 
 ### Zestaw 1
 
 1. $\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \pi}}}}}$
 2. $e = \lim\limits_{n \to \infty} \left(1 + \frac{1}{n} \right)^{n}$
 
-
-<center>
--------------------------
-[↑](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 "algorytmy i struktury danych lab komputerowe lato 2019 2020")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">↑</a></div>
 
 ## Algebra i Geometria (ćwiczenia, lato, 2019-2020)
 
 
-
-<center>
--------------------------
-[←](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 "algorytmy i struktury danych lab komputerowe lato 2019 2020")[↑](#nauczanie "nauczanie")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">←</a><a href = #nauczanie title = "nauczanie">↑</a></div>
 
 # Fun
 
 
-
-<center>
--------------------------
-[←](#nauczanie "nauczanie")[↑](#toc "toc")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #nauczanie title = "nauczanie">←</a><a href = #toc title = "toc">↑</a></div>
 
 ## Podkasty
 
@@ -181,12 +139,5 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
  
 
-
-<center>
--------------------------
-[↑](#fun "fun")
--------------------------
-</center>
-
-
+<div style="text-align: center"><a href = #fun title = "fun">↑</a></div>
 

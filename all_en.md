@@ -39,6 +39,7 @@ toc-title: TOC
 # Teaching
 
 
+<div style="text-align: center"><a href = #contact title = "contact">←</a><a href = #toc title = "toc">↑</a><a href = #fun title = "fun">→</a></div>
 
 ## Algorithms and Data Structures (computer lab, summer 2019-2020)
 
@@ -88,10 +89,12 @@ average:
 ## Algebra and Geometry (practical classes, summer, 2019-2020)
 
 
+<div style="text-align: center"><a href = #algorithms-and-data-structures-computer-lab-summer-2019-2020 title = "algorithms and data structures computer lab summer 2019 2020">←</a><a href = #teaching title = "teaching">↑</a></div>
 
 # Fun
 
 
+<div style="text-align: center"><a href = #teaching title = "teaching">←</a><a href = #toc title = "toc">↑</a></div>
 
 ## Podcasts
 

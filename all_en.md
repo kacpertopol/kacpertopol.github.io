@@ -34,7 +34,11 @@ toc-title: TOC
 * tel.: (+48) 12 664 4869  
 
 
+<center>
+
 [↑](#toc "toc")[→](#teaching "teaching")
+
+</center>
 
 
 
@@ -42,7 +46,11 @@ toc-title: TOC
 
 
 
+<center>
+
 [←](#contact "contact")[↑](#toc "toc")[→](#fun "fun")
+
+</center>
 
 
 
@@ -83,7 +91,11 @@ average:
 
 
 
+<center>
+
 [↑](#teaching "teaching")[→](#algebra-and-geometry-practical-classes-summer-2019-2020 "algebra and geometry practical classes summer 2019 2020")
+
+</center>
 
 
 
@@ -93,7 +105,11 @@ average:
 2. $e = \lim\limits_{n \to \infty} \left(1 + \frac{1}{n} \right)^{n}$
 
 
+<center>
+
 [↑](#algorithms-and-data-structures-computer-lab-summer-2019-2020 "algorithms and data structures computer lab summer 2019 2020")
+
+</center>
 
 
 
@@ -101,7 +117,11 @@ average:
 
 
 
+<center>
+
 [←](#algorithms-and-data-structures-computer-lab-summer-2019-2020 "algorithms and data structures computer lab summer 2019 2020")[↑](#teaching "teaching")
+
+</center>
 
 
 
@@ -109,7 +129,11 @@ average:
 
 
 
+<center>
+
 [←](#teaching "teaching")[↑](#toc "toc")
+
+</center>
 
 
 
@@ -156,7 +180,11 @@ average:
  
 
 
+<center>
+
 [↑](#fun "fun")
+
+</center>
 
 
 

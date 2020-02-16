@@ -28,7 +28,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         if(os.path.isfile(os.path.join(directory , "content.md"))):
             with open(os.path.join(directory , "content.md") , "r") as c:
                 all_md.append(c.read().replace("---ThisDir---" , directory))
-        all_md.append("\n\n")
+        all_md.append("\n\n<center>\n\n")
         if(pre != None):
             nme = pre[1:].replace("-" , " ")
             all_md.append("[←](" + pre + " \"" + nme + "\"" + ")")
@@ -38,7 +38,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         if(nxt != None):
             nme = nxt[1:].replace("-" , " ")
             all_md.append("[→](" + nxt + " \"" + nme + "\"" + ")")
-        all_md.append("\n\n")
+        all_md.append("\n\n</center>\n\n")
     else:
         toc_md.append("\n\n" + "# " + toc + "\n\n")
         anchour = make_anchour(toc) 

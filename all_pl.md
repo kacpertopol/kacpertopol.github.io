@@ -34,7 +34,11 @@ toc-title: TOC
 * tel.: (+48) 12 664 4869  
 
 
+<center>
+
 [↑](#toc "toc")[→](#nauczanie "nauczanie")
+
+</center>
 
 
 
@@ -42,7 +46,11 @@ toc-title: TOC
 
 
 
+<center>
+
 [←](#kontakt "kontakt")[↑](#toc "toc")[→](#fun "fun")
+
+</center>
 
 
 
@@ -84,7 +92,11 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 
 
+<center>
+
 [↑](#nauczanie "nauczanie")[→](#algebra-i-geometria-ćwiczenia-lato-2019-2020 "algebra i geometria ćwiczenia lato 2019 2020")
+
+</center>
 
 
 
@@ -94,7 +106,11 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 2. $e = \lim\limits_{n \to \infty} \left(1 + \frac{1}{n} \right)^{n}$
 
 
+<center>
+
 [↑](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 "algorytmy i struktury danych lab komputerowe lato 2019 2020")
+
+</center>
 
 
 
@@ -102,7 +118,11 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 
 
+<center>
+
 [←](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 "algorytmy i struktury danych lab komputerowe lato 2019 2020")[↑](#nauczanie "nauczanie")
+
+</center>
 
 
 
@@ -110,7 +130,11 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 
 
+<center>
+
 [←](#nauczanie "nauczanie")[↑](#toc "toc")
+
+</center>
 
 
 
@@ -157,7 +181,11 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
  
 
 
+<center>
+
 [↑](#fun "fun")
+
+</center>
 
 
 

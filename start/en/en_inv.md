@@ -56,7 +56,7 @@ At the end of the semester you will be graded based
 on the number of exercises that were solved (the grading curve will be
 determined at the end of the semester). Submitting solutions:
 
-* Solutions to exercises can be sent to <kacper.topolnicki@uj.edu.pl> from
+* Solutions to exercises must be sent to <kacper.topolnicki@uj.edu.pl> from
   your university (!) e-mail address. 
 * The title of the message must contain the word "AISD220192020"
   surrounded by white spaces, the set number, and exercise number.

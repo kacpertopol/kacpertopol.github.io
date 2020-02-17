@@ -56,7 +56,7 @@ zastrzeżeniami:
 Pod koniec semestru będziecie państwo oceniani na podstawie ilości rozwiązanych
 zadań (skala ocen zostanie ustalona pod koniec semestru). Oddawanie zadań:
 
-* Zadania można wysyłać na adres <kacper.topolnicki@uj.edu.pl> z
+* Zadania należy wysyłać na adres <kacper.topolnicki@uj.edu.pl> z
   państwa uniwersyteckiego (!) adresu e-mail. 
 * Temat wiadomości powinien zawierać słowo "AISD220192020"
   otoczone spacjami. W temacie powinna się znaleźć również informacja 

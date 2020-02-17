@@ -20,7 +20,7 @@ toc-title: TOC
 * [Teaching](#teaching)
 	* [Algorithms and Data Structures (computer lab, summer 2019-2020)](#algorithms-and-data-structures-computer-lab-summer-2019-2020)
 		* [Set 1](#set-1)
-	* [Algebra and Geometry (practical classes, summer, 2019-2020)](#algebra-and-geometry-practical-classes-summer-2019-2020)
+	* [Algebra and Geometry (practical classes, summer 2019-2020)](#algebra-and-geometry-practical-classes-summer-2019-2020)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
 
@@ -86,7 +86,7 @@ average:
 
 <div style="text-align: center"><a href = #algorithms-and-data-structures-computer-lab-summer-2019-2020 title = "algorithms and data structures computer lab summer 2019 2020">↑</a></div>
 
-## Algebra and Geometry (practical classes, summer, 2019-2020)
+## Algebra and Geometry (practical classes, summer 2019-2020)
 
 
 <div style="text-align: center"><a href = #algorithms-and-data-structures-computer-lab-summer-2019-2020 title = "algorithms and data structures computer lab summer 2019 2020">←</a><a href = #teaching title = "teaching">↑</a></div>
@@ -139,4 +139,3 @@ average:
  
 
 <div style="text-align: center"><a href = #fun title = "fun">↑</a></div>
-

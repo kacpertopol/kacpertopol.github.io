@@ -2,11 +2,14 @@
 
 import os
 import argparse
+import subprocess
 
 this_dir = os.path.dirname(os.path.realpath(__file__))
 
 def make_anchour(s):
     return "#" + s.lower().replace("_" , "-").replace(" " , "-").replace("(" , "").replace(")" , "").replace("/" , "-").replace("\\" , "-").replace("," , "")
+
+args = None
 
 def process_dir(all_md , toc_md , level , directory , pre = None , up = None , nxt = None , toc = "TOC"):
     """
@@ -17,11 +20,14 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
     level : int
         Level in the tree, starting with 0
     """
+    global args
     dirname = os.path.split(directory)[-1][4:]
     title = dirname.replace("_" , " ")
     anchour = make_anchour(dirname) 
 
-    if(up != None):
+    isRoot = (os.path.isfile(os.path.join(directory , "meta.md"))) and (os.path.isfile(os.path.join(directory , "init.md")))
+
+    if(not isRoot):
         toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + anchour  + ")\n")
 
         all_md.append("\n\n" + ("#" * level) + " " + title + "\n\n")
@@ -63,28 +69,31 @@ if(__name__ == "__main__"):
     parser = argparse.ArgumentParser(description = """
     Make static website.
     """)
-    parser.add_argument("-d" , "--directory" , help = "Directory with website.")
     parser.add_argument("-t" , "--toc" , help = "Name for table of contents.")
+    parser.add_argument("command" , help = "Command to create html from markdown. Expects two arguments: the output html file and the md file.")
     parser.add_argument("start" , help = "First node directory.")
+    parser.add_argument("mdpath" , help = "Path for markdown.")
+    parser.add_argument("htmlpath" , help = "Path for html.")
     args = parser.parse_args()
 
-    if(args.directory != None):
-        os.chdir(args.directory)
-    
     if(args.toc == None):
         args.toc = "TOC"
 
     meta = ""
-    if(os.path.exists("meta.md")):
-        with open("meta.md" , "r") as f:
+    if(os.path.exists(os.path.join(args.start , "meta.md"))):
+        with open(os.path.join(args.start , "meta.md") , "r") as f:
             meta = f.read()
             meta = meta + "\n"
+    else:
+        raise ValueError("No meta.md file in root directory.")
 
     init = ""
-    if(os.path.exists("init.md")):
-        with open("init.md" , "r") as f:
+    if(os.path.exists(os.path.join(args.start , "init.md"))):
+        with open(os.path.join(args.start , "init.md") , "r") as f:
             init = f.read()
             init = init + "\n"
+    else:
+        raise ValueError("No init.md file in root directory.")
 
     all_markdown = []
     toc_markdown = []
@@ -92,4 +101,7 @@ if(__name__ == "__main__"):
 
     index_md = meta + init + "".join(toc_markdown) + "\n" + "".join(all_markdown) + "\n"
 
-    print(index_md)
+    with open(args.mdpath , "w") as f:
+        f.write(index_md)
+    
+    subprocess.run(args.command + " " + args.htmlpath + " " + args.mdpath , shell = True) 

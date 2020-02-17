@@ -1,6 +1,5 @@
 ---
-title: Kacper Topolnicki
-toc-title: TOC 
+title : Some more fun
 ---
 
 [![](./start/en/020_Fun/012_New_Fun/KacperTopolnicki.jpg)](https://sites.google.com/view/gr-natalka/main)

@@ -1,4 +1,3 @@
 ---
-title: Kacper Topolnicki
-toc-title: TOC 
+title : Some more fun
 ---

@@ -1,3 +1,3 @@
 ---
-title : Sets
+title : Exercise sets
 ---

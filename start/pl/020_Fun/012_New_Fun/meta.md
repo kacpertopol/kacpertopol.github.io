@@ -1,3 +1,0 @@
----
-title : Some more fun
----

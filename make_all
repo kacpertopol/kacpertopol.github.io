@@ -105,9 +105,11 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         with open(os.path.join(directory , nnme + ".md") , "w") as f:
             f.write(index_md)
         
-        subprocess.run(args.command + " " + os.path.join(directory , nnme + ".html") + " " + os.path.join(directory , nnme + ".md") , shell = True) 
+        #subprocess.run(args.command + " " + os.path.join(directory , nnme + ".html") + " " + os.path.join(directory , nnme + ".md") , shell = True) 
+        subprocess.run(args.command.split() + [os.path.join(directory , nnme + ".html")] + [os.path.join(directory , nnme + ".md")]) 
         
-        subprocess.run("cp " + os.path.join(directory , nnme + ".html") + " " + os.path.join(args.htmlpath , nnme + ".html") , shell = True) 
+        #subprocess.run("cp " + os.path.join(directory , nnme + ".html") + " " + os.path.join(args.htmlpath , nnme + ".html") , shell = True) 
+        subprocess.run(["cp"] + [os.path.join(directory , nnme + ".html")] + [os.path.join(args.htmlpath , nnme + ".html")]) 
 
 if(__name__ == "__main__"):
     parser = argparse.ArgumentParser(description = """
@@ -126,5 +128,4 @@ if(__name__ == "__main__"):
     all_markdown = []
     toc_markdown = []
     process_dir(all_markdown , toc_markdown , 0 , args.start , toc = args.toc)
-    #subprocess.run("cp " + os.path.join(args.start , args.name + ".html") + " " + args.htmlpath , shell = True) 
     

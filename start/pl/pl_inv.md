@@ -19,12 +19,10 @@ toc-title: TOC
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
-		* [Zestaw 1](#zestaw-1)
+		* [Zestawy zadań](./0pl_inv.html)
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
-	* [New Fun](./0pl_inv.html)
-	* [New Fun](./00pl_inv.html)
 
 
 
@@ -83,12 +81,9 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 <div style="text-align: center"><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>
 
-### Zestaw 1
+### [Zestawy zadań](./0pl_inv.html)
 
-1. $\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \pi}}}}}$
-2. $e = \lim\limits_{n \to \infty} \left(1 + \frac{1}{n} \right)^{n}$
 
-<div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">↑</a></div>
 
 ## Algebra i Geometria (ćwiczenia, lato 2019-2020)
 
@@ -142,12 +137,4 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
  
 
-<div style="text-align: center"><a href = #fun title = "fun">↑</a><a href = #new-fun title = "new fun">→</a></div>
-
-## [New Fun](./0pl_inv.html)
-
-
-
-## [New Fun](./00pl_inv.html)
-
-
+<div style="text-align: center"><a href = #fun title = "fun">↑</a></div>

@@ -19,12 +19,10 @@ toc-title: TOC
 * [Contact](#contact)
 * [Teaching](#teaching)
 	* [Algorithms and Data Structures (computer lab, summer 2019-2020)](#algorithms-and-data-structures-computer-lab-summer-2019-2020)
-		* [Set 1](#set-1)
+		* [Exercise sets](./0en_inv.html)
 	* [Algebra and Geometry (practical classes, summer 2019-2020)](#algebra-and-geometry-practical-classes-summer-2019-2020)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
-	* [New Fun](./0en_inv.html)
-	* [New Fun](./00en_inv.html)
 
 
 
@@ -82,12 +80,9 @@ average:
 
 <div style="text-align: center"><a href = #teaching title = "teaching">↑</a><a href = #algebra-and-geometry-practical-classes-summer-2019-2020 title = "algebra and geometry practical classes summer 2019 2020">→</a></div>
 
-### Set 1
+### [Exercise sets](./0en_inv.html)
 
-1. $\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \pi}}}}}$
-2. $e = \lim\limits_{n \to \infty} \left(1 + \frac{1}{n} \right)^{n}$
 
-<div style="text-align: center"><a href = #algorithms-and-data-structures-computer-lab-summer-2019-2020 title = "algorithms and data structures computer lab summer 2019 2020">↑</a></div>
 
 ## Algebra and Geometry (practical classes, summer 2019-2020)
 
@@ -141,12 +136,4 @@ average:
 
  
 
-<div style="text-align: center"><a href = #fun title = "fun">↑</a><a href = #new-fun title = "new fun">→</a></div>
-
-## [New Fun](./0en_inv.html)
-
-
-
-## [New Fun](./00en_inv.html)
-
-
+<div style="text-align: center"><a href = #fun title = "fun">↑</a></div>

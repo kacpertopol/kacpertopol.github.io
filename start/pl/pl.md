@@ -3,7 +3,7 @@ title: Kacper Topolnicki
 toc-title: TOC 
 ---
 
-[![](./KacperTopolnicki.jpg)](https://sites.google.com/view/gr-natalka/main)
+[![](./start/pl/KacperTopolnicki.jpg)](https://sites.google.com/view/gr-natalka/main)
 
 <center>
 ☀️ [PL](./pl.html)  [EN](./en.html) 
@@ -23,6 +23,7 @@ toc-title: TOC
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
+	* [New Fun](./_pl.html)
 
 
 
@@ -139,4 +140,8 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
  
 
-<div style="text-align: center"><a href = #fun title = "fun">↑</a></div>
+<div style="text-align: center"><a href = #fun title = "fun">↑</a><a href = #new-fun title = "new fun">→</a></div>
+
+## [New Fun](./_pl.html)
+
+

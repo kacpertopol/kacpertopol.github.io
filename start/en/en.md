@@ -3,7 +3,7 @@ title: Kacper Topolnicki
 toc-title: TOC 
 ---
 
-[![](./KacperTopolnicki.jpg)](https://sites.google.com/view/gr-natalka/main)
+[![](./start/en/KacperTopolnicki.jpg)](https://sites.google.com/view/gr-natalka/main)
 
 <center>
 ☀️ [PL](./pl.html)  [EN](./en.html) 
@@ -23,6 +23,7 @@ toc-title: TOC
 	* [Algebra and Geometry (practical classes, summer 2019-2020)](#algebra-and-geometry-practical-classes-summer-2019-2020)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
+	* [New Fun](./_en.html)
 
 
 
@@ -138,4 +139,8 @@ average:
 
  
 
-<div style="text-align: center"><a href = #fun title = "fun">↑</a></div>
+<div style="text-align: center"><a href = #fun title = "fun">↑</a><a href = #new-fun title = "new fun">→</a></div>
+
+## [New Fun](./_en.html)
+
+

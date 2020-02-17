@@ -39,7 +39,6 @@ toc-title: TOC
 # Nauczanie
 
 
-<div style="text-align: center"><a href = #kontakt title = "kontakt">←</a><a href = #toc title = "toc">↑</a><a href = #fun title = "fun">→</a></div>
 
 ## Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)
 
@@ -88,12 +87,10 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 ## Algebra i Geometria (ćwiczenia, lato 2019-2020)
 
 
-<div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">←</a><a href = #nauczanie title = "nauczanie">↑</a></div>
 
 # Fun
 
 
-<div style="text-align: center"><a href = #nauczanie title = "nauczanie">←</a><a href = #toc title = "toc">↑</a></div>
 
 ## Podkasty
 

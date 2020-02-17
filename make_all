@@ -32,20 +32,23 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + anchour  + ")\n")
 
         all_md.append("\n\n" + ("#" * level) + " " + title + "\n\n")
+        isContent = False
         if(os.path.isfile(os.path.join(directory , "content.md"))):
+            isContent = True
             with open(os.path.join(directory , "content.md") , "r") as c:
                 all_md.append(c.read().replace("---ThisDir---" , directory))
-        all_md.append("\n<div style=\"text-align: center\">")
-        if(pre != None):
-            nme = pre[1:].replace("-" , " ")
-            all_md.append("<a href = " + pre + " title = \"" + nme + "\">←</a>")
-        if(up != None):
-            nme = up[1:].replace("-" , " ")
-            all_md.append("<a href = " + up + " title = \"" + nme + "\">↑</a>")
-        if(nxt != None):
-            nme = nxt[1:].replace("-" , " ")
-            all_md.append("<a href = " + nxt + " title = \"" + nme + "\">→</a>")
-        all_md.append("</div>")
+        if(isContent):
+            all_md.append("\n<div style=\"text-align: center\">")
+            if(pre != None):
+                nme = pre[1:].replace("-" , " ")
+                all_md.append("<a href = " + pre + " title = \"" + nme + "\">←</a>")
+            if(up != None):
+                nme = up[1:].replace("-" , " ")
+                all_md.append("<a href = " + up + " title = \"" + nme + "\">↑</a>")
+            if(nxt != None):
+                nme = nxt[1:].replace("-" , " ")
+                all_md.append("<a href = " + nxt + " title = \"" + nme + "\">→</a>")
+            all_md.append("</div>")
 
         subDirs = []
         for f in os.listdir(directory):
@@ -105,10 +108,8 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         with open(os.path.join(directory , nnme + ".md") , "w") as f:
             f.write(index_md)
         
-        #subprocess.run(args.command + " " + os.path.join(directory , nnme + ".html") + " " + os.path.join(directory , nnme + ".md") , shell = True) 
         subprocess.run(args.command.split() + [os.path.join(directory , nnme + ".html")] + [os.path.join(directory , nnme + ".md")]) 
         
-        #subprocess.run("cp " + os.path.join(directory , nnme + ".html") + " " + os.path.join(args.htmlpath , nnme + ".html") , shell = True) 
         subprocess.run(["cp"] + [os.path.join(directory , nnme + ".html")] + [os.path.join(args.htmlpath , nnme + ".html")]) 
 
 if(__name__ == "__main__"):

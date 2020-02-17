@@ -24,6 +24,7 @@ toc-title: TOC
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
 	* [New Fun](./_en_inv.html)
+	* [New Fun](./__en_inv.html)
 
 
 
@@ -142,5 +143,9 @@ average:
 <div style="text-align: center"><a href = #fun title = "fun">↑</a><a href = #new-fun title = "new fun">→</a></div>
 
 ## [New Fun](./_en_inv.html)
+
+
+
+## [New Fun](./__en_inv.html)
 
 

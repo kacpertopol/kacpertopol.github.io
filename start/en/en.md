@@ -23,8 +23,8 @@ toc-title: TOC
 	* [Algebra and Geometry (practical classes, summer 2019-2020)](#algebra-and-geometry-practical-classes-summer-2019-2020)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
-	* [New Fun](./_en.html)
-	* [New Fun](./__en.html)
+	* [New Fun](./0en.html)
+	* [New Fun](./00en.html)
 
 
 
@@ -142,10 +142,10 @@ average:
 
 <div style="text-align: center"><a href = #fun title = "fun">↑</a><a href = #new-fun title = "new fun">→</a></div>
 
-## [New Fun](./_en.html)
+## [New Fun](./0en.html)
 
 
 
-## [New Fun](./__en.html)
+## [New Fun](./00en.html)
 
 

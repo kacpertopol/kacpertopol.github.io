@@ -23,8 +23,8 @@ toc-title: TOC
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
-	* [New Fun](./_pl.html)
-	* [New Fun](./__pl.html)
+	* [New Fun](./0pl.html)
+	* [New Fun](./00pl.html)
 
 
 
@@ -143,10 +143,10 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 <div style="text-align: center"><a href = #fun title = "fun">↑</a><a href = #new-fun title = "new fun">→</a></div>
 
-## [New Fun](./_pl.html)
+## [New Fun](./0pl.html)
 
 
 
-## [New Fun](./__pl.html)
+## [New Fun](./00pl.html)
 
 

@@ -58,8 +58,8 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
             nxt_anchour = None
             isSubRoot = (os.path.isfile(os.path.join(directory , subDirs[ii] , "meta.md"))) and (os.path.isfile(os.path.join(directory , subDirs[ii] ,  "init.md")))
             if(isSubRoot):
-                toc_md.append(("\t" * (level - 0)) + "* [" + subDirs[ii][4:].replace("_" , " ")  + "](" + os.path.join(args.htmlpath , "_" * (num + 1) + args.name + ".html")  + ")\n")
-                all_md.append("\n\n" + ("#" * (level + 1)) + " [" + subDirs[ii][4:].replace("_" , " ")  + "](" + os.path.join(args.htmlpath , "_" * (num + 1) + args.name + ".html")  + ")" + "\n\n")
+                toc_md.append(("\t" * (level - 0)) + "* [" + subDirs[ii][4:].replace("_" , " ")  + "](" + os.path.join(args.htmlpath , "0" * (num + 1) + args.name + ".html")  + ")\n")
+                all_md.append("\n\n" + ("#" * (level + 1)) + " [" + subDirs[ii][4:].replace("_" , " ")  + "](" + os.path.join(args.htmlpath , "0" * (num + 1) + args.name + ".html")  + ")" + "\n\n")
             if(ii != 0):
                 pre_anchour = make_anchour(subDirs[ii - 1][4:])
             if(ii != len(subDirs) - 1):
@@ -100,7 +100,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
 
         index_md = meta + init + "".join(toc_markdown) + "\n" + "".join(all_markdown) + "\n"
 
-        nnme = thisnum * "_" + args.name 
+        nnme = thisnum * "0" + args.name 
 
         with open(os.path.join(directory , nnme + ".md") , "w") as f:
             f.write(index_md)

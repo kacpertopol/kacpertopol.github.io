@@ -1,5 +1,6 @@
 Nowy zestaw zadań będzie udostępniany, zazwyczaj, co tydzień. Każde 
-ćwiczenie może być zaimplementowane w państwa ulubionym języku, z pewnymi
+ćwiczenie może być zaimplementowane w państwa ulubionym języku (najlepiej
+c, c++, fortran, java, python), z pewnymi
 zastrzeżeniami:
 
 * Proszę nie korzystać z języków, które są w znacznym stopniu oparte
@@ -13,7 +14,7 @@ zadań (skala ocen zostanie ustalona pod koniec semestru). Oddawanie zadań:
 
 * Zadania można wysyłać na adres <kacper.topolnicki@uj.edu.pl> z
   państwa uniwersyteckiego (!) adresu e-mail. 
-* Temat wiadomości powinien zawierać słowo "hornswogglingrabidrabbit"
+* Temat wiadomości powinien zawierać słowo "AISD220192020"
   otoczone spacjami. W temacie powinna się znaleźć również informacja 
   o numerze zestawu i numerze zadania.
 * W załączniku powinien się znaleźć plik `.zip` z programem rozwiązującym zadanie. 

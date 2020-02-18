@@ -69,15 +69,51 @@ SOFTWARE.
 <h1 class="title">Exercise sets</h1>
 </header>
 <p><a href="https://en.wikipedia.org/wiki/Algorithm"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1024px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg" /></a></p>
+<p><strong>TODO</strong> ENGLISH VERSION</p>
 <h1 id="toc">TOC</h1>
 <ul>
 <li><a href="#1">1</a></li>
 </ul>
 <h1 id="section">1</h1>
-<ol type="1">
-<li><span class="math inline">\(\frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \pi}}}}}\)</span></li>
-<li><span class="math inline">\(e = \lim\limits_{n \to \infty} \left(1 + \frac{1}{n} \right)^{n}\)</span></li>
-</ol>
+<center>
+<strong>A</strong>
+</center>
+<p>Proszę zaimplementować typ danych <code>setSimple</code> reprezentujący matematyczny zbiór oraz operacje które dla dwóch zbiorów <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span> realizują:</p>
+<ul>
+<li>sumę zbiorów <span class="math inline">\(A \cup B\)</span></li>
+<li>część wspólną zbiorów <span class="math inline">\(A \cap B\)</span></li>
+<li>różnicę zbiorów <span class="math inline">\(A - B\)</span></li>
+<li>sprawdzanie identyczności zbiorów <span class="math inline">\(A \equiv B\)</span></li>
+</ul>
+<p>oraz dla elementu <span class="math inline">\(x\)</span> i zbioru <span class="math inline">\(A\)</span> realizują:</p>
+<ul>
+<li>wstawianie <span class="math inline">\(x\)</span> do zbioru <span class="math inline">\(A\)</span></li>
+<li>usuwanie <span class="math inline">\(x\)</span> ze zbioru <span class="math inline">\(A\)</span></li>
+<li>sprawdzanie czy <span class="math inline">\(x \in A\)</span></li>
+</ul>
+<p>Proszę założyć, że istnieje skończona liczba <span class="math inline">\(N\)</span> możliwych elementów. Można sobie na przykład wyobrazić, że wszystkie rozpatrywane przez nas zbiory są podzbiorami pewnego zbioru <span class="math inline">\(\Omega\)</span> zawierającego <span class="math inline">\(N\)</span> elementów. Dzięki takiemu założeniu implementacja każdego z rozpytywanych zbiorów może być oparta na jednowymiarowej tablicy o rozmiarze <span class="math inline">\(N\)</span>. Każdy index <span class="math inline">\(i = 1 \ldots N\)</span> (lub <span class="math inline">\(i = 0 \ldots N-1\)</span>) tej tablicy odpowiadałby jednemu z elementów <span class="math inline">\(\Omega\)</span>. Wartość przechowywana w tablicy pod indeksem <span class="math inline">\(i\)</span> (lub <span class="math inline">\(i - 1\)</span>) wskazuje na to czy dany element należy (np. <code>true</code> , <code>1</code>) do rozpatrywanego zbioru czy nie (np. <code>false</code> , <code>0</code>).</p>
+<p>Państwa implementację proszę wykorzystać w programie, który bada złożoność obliczeniową poszczególnych operacji. Dla każdej z zaimplementowanych operacji program powinien produkować jeden plik, który może być uruchomiony z wykorzystaniem programu <a href="http://www.gnuplot.info/">gnuplot</a>. W wiadomości e-mail proszę opisać podejście wykorzystane do badania złożoności obliczeniowej i skonfrontować Państwa wyniki z wartościami teoretycznymi.</p>
+<center>
+<strong>B</strong>
+</center>
+<p>Proszę zaimplementować typ danych <code>setLinked</code> reprezentujący matematyczny zbiór oraz wszystkie operacje z zadania <strong>A</strong>. Tym razem w implementacji proszę wykorzystać posortowane listy łączone.</p>
+<p>Podobnie jak w poprzednim zadaniu państwa implementację proszę wykorzystać w programie, który bada złożoność obliczeniową poszczególnych operacji. Dla każdej z zaimplementowanych operacji program powinien produkować jeden plik, który może być uruchomiony z wykorzystaniem programu <a href="http://www.gnuplot.info/">gnuplot</a>. W wiadomości e-mail proszę opisać podejście wykorzystane do badania złożoności obliczeniowej i skonfrontować Państwa wyniki z wartościami teoretycznymi.</p>
+<center>
+<strong>C</strong>
+</center>
+<p>Korzystając z wyników zadań <strong>A</strong> oraz <strong>B</strong> proszę się zastanowić która implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesłać za pośrednictwem e-mail. Uwaga: to zadanie może być zaliczone pod warunkiem prawidłowego wykonania <strong>A</strong> oraz <strong>B</strong>.</p>
+<center>
+<strong>D</strong>
+</center>
+<p>Proszę zaimplementować typ danych <code>dictionarySimple</code>, będący uproszczoną wersją zbioru, posiadającą jedynie trzy operacje:</p>
+<ul>
+<li>wstawianie <span class="math inline">\(x\)</span> do zbioru <span class="math inline">\(A\)</span></li>
+<li>usuwanie <span class="math inline">\(x\)</span> ze zbioru <span class="math inline">\(A\)</span></li>
+<li>sprawdzanie czy <span class="math inline">\(x \in A\)</span></li>
+</ul>
+<p>Tym razem w zbiorze przechowywane będą ciągi znaków o długości <span class="math inline">\(50\)</span>. W implementacji proszę wykorzystać jednowymiarową tablicę, której elementy są ciągami znaków.</p>
+<p>Podobnie jak w poprzednich zadaniach państwa implementację proszę wykorzystać w programie, który bada złożoność obliczeniową poszczególnych metod (lub funkcji). Dla każdej z zaimplementowanych operacji program powinien produkować jeden plik, który może być uruchomiony z wykorzystaniem programu <a href="http://www.gnuplot.info/">gnuplot</a>. W wiadomości e-mail proszę opisać podejście wykorzystane do badania złożoności obliczeniowej i skonfrontować Państwa wyniki z wartościami teoretycznymi.</p>
+<p>Dodatkowo proszę porównać te wyniki do Państwa wyników z <strong>A</strong> oraz <strong>B</strong> i zastanowić się która implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesłać za pośrednictwem e-mail.</p>
 <div style="text-align: center">
 <a href = #toc title = "toc">↑</a>
 </div>

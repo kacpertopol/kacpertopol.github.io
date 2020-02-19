@@ -2,7 +2,9 @@
 title : Zestawy zadań
 ---
 
+<center>
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1024px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg)](https://en.wikipedia.org/wiki/Algorithm)
+</center>
 
 
 
@@ -117,4 +119,4 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 Dodatkowo proszę porównać te wyniki do Państwa wyników z **A** oraz **B** i zastanowić się która
 implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesłać za pośrednictwem e-mail.
 
-<div style="text-align: center"><a href = #zawartość: title = "zawartość:">↑</a></div>
+<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a></div>

@@ -21,6 +21,7 @@ toc-title: TOC
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
 		* [Zestawy zadań](./0pl_inv.html)
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
+		* [Zestawy zadań](./00pl_inv.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
 
@@ -34,7 +35,7 @@ toc-title: TOC
 * pokój: B-2-25
 * tel.: (+48) 12 664 4869  
 
-<div style="text-align: center"><a href = #zawartość: title = "zawartość:">↑</a><a href = #nauczanie title = "nauczanie">→</a></div>
+<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #nauczanie title = "nauczanie">→</a></div>
 
 # Nauczanie
 
@@ -86,6 +87,30 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 
 ## Algebra i Geometria (ćwiczenia, lato 2019-2020)
+
+Na ocenę z ćwiczeń składać się będzie ocena z aktywności na zajęciach
+oraz ocena z trzech kolokwiów. Aktywność będzie oceniana na podstawie
+ilości zadeklarowanych zadań (skala ocen będzie ustalona pod koniec
+semestru). Uwaga: Jeżeli student nie będzie potrafił
+rozwiązać przy tablicy zadeklarowanego zadania to wszystkie poprzednie
+deklaracje będą likwidowane. Przyłapany student będzie musiał 
+oddawać rozwiązanie wszystkich zadeklarowanych zadań w formie pisemnej.
+To masa pracy dla studenta i prowadzącego dlatego nie zachęcam to 
+tego typu szachrajstw :-)
+
+Ocena końcowa będzie średnią ważoną:
+
+* 20% I kolokwium
+* 20% II kolokwium
+* 20% III kolokwium
+* 40% aktywność na ćwiczeniach
+
+Przy czym aby uzyskać pozytywną ocenę z ćwiczeń należy mieć pozytywną ocenę
+z wszystkich kolokwiów oraz aktywności.
+
+<div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">←</a><a href = #nauczanie title = "nauczanie">↑</a></div>
+
+### [Zestawy zadań](./00pl_inv.html)
 
 
 

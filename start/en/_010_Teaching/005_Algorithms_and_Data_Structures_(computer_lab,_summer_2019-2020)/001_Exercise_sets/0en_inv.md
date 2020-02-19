@@ -18,4 +18,4 @@ title : Exercise sets
 **English version under construction...**
 </center>
 
-<div style="text-align: center"><a href = #content: title = "content:">↑</a></div>
+<div style="text-align: center"><a href = #content title = "content">↑</a></div>

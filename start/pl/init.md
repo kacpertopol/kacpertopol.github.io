@@ -1,4 +1,6 @@
+<center>
 [![](---ThisDir---/KacperTopolnicki.jpg)](https://sites.google.com/view/gr-natalka/main)
+</center>
 
 <center>
 ☀️ [PL](./pl.html)  [EN](./en.html) 

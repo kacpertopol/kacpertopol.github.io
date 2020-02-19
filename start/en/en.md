@@ -14,7 +14,7 @@ toc-title: TOC
 
 
 
-# TOC
+# Content:
 
 * [Contact](#contact)
 * [Teaching](#teaching)
@@ -34,7 +34,7 @@ toc-title: TOC
 * room: B-2-25
 * tel.: (+48) 12 664 4869  
 
-<div style="text-align: center"><a href = #toc title = "toc">↑</a><a href = #teaching title = "teaching">→</a></div>
+<div style="text-align: center"><a href = #content: title = "content:">↑</a><a href = #teaching title = "teaching">→</a></div>
 
 # Teaching
 

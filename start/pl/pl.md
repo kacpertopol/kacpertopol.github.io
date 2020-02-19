@@ -14,7 +14,7 @@ toc-title: TOC
 
 
 
-# TOC
+# Zawartość:
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
@@ -34,7 +34,7 @@ toc-title: TOC
 * pokój: B-2-25
 * tel.: (+48) 12 664 4869  
 
-<div style="text-align: center"><a href = #toc title = "toc">↑</a><a href = #nauczanie title = "nauczanie">→</a></div>
+<div style="text-align: center"><a href = #zawartość: title = "zawartość:">↑</a><a href = #nauczanie title = "nauczanie">→</a></div>
 
 # Nauczanie
 

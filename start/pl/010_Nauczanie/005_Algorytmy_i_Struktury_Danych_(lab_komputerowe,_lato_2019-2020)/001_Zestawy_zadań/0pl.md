@@ -6,7 +6,7 @@ title : Zestawy zadań
 
 
 
-# TOC
+# Zawartość:
 
 * [1](#1)
 
@@ -117,4 +117,4 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 Dodatkowo proszę porównać te wyniki do Państwa wyników z **A** oraz **B** i zastanowić się która
 implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesłać za pośrednictwem e-mail.
 
-<div style="text-align: center"><a href = #toc title = "toc">↑</a></div>
+<div style="text-align: center"><a href = #zawartość: title = "zawartość:">↑</a></div>

@@ -3,9 +3,9 @@
 make_light='pandoc --mathjax --template GitHub.html5 -o'
 make_dark='pandoc --mathjax --template GitHubINV.html5 -o'
 
-./make_all -t "TOC" "$make_light" "./start/pl" "./" "pl"
-./make_all -t "TOC" "$make_dark" "./start/pl" "./" "pl_inv"
-./make_all -t "TOC" "$make_light" "./start/en" "./" "en"
-./make_all -t "TOC" "$make_dark" "./start/en" "./" "en_inv"
+./make_all -t "Zawartość:" "$make_light" "./start/pl" "./" "pl"
+./make_all -t "Zawartość:" "$make_dark" "./start/pl" "./" "pl_inv"
+./make_all -t "Content:" "$make_light" "./start/en" "./" "en"
+./make_all -t "Content:" "$make_dark" "./start/en" "./" "en_inv"
 
 cp pl_inv.html index.html

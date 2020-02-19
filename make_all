@@ -67,7 +67,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
                 pre_anchour = make_anchour(subDirs[ii - 1][4:])
             if(ii != len(subDirs) - 1):
                 nxt_anchour = make_anchour(subDirs[ii + 1][4:])
-            process_dir(all_md , toc_md , level + 1 , os.path.join(directory , subDirs[ii]) , pre = pre_anchour , up = anchour , nxt = nxt_anchour)
+            process_dir(all_md , toc_md , level + 1 , os.path.join(directory , subDirs[ii]) , pre = pre_anchour , up = anchour , nxt = nxt_anchour , toc = args.toc)
     else:
         num = num + 1 #increment the number of root directories
         thisnum = num
@@ -89,7 +89,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
                 pre_anchour = make_anchour(subDirs[ii - 1][4:])
             if(ii != len(subDirs) - 1):
                 nxt_anchour = make_anchour(subDirs[ii + 1][4:])
-            process_dir(all_markdown , toc_markdown , 1 , os.path.join(directory , subDirs[ii]) , pre = pre_anchour , up = anchour , nxt = nxt_anchour)
+            process_dir(all_markdown , toc_markdown , 1 , os.path.join(directory , subDirs[ii]) , pre = pre_anchour , up = anchour , nxt = nxt_anchour , toc = args.toc)
 
         meta = ""
         with open(os.path.join(directory , "meta.md") , "r") as f:

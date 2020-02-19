@@ -10,11 +10,11 @@ title : Zestawy zadań
 
 # Zawartość:
 
-* [1](#1)
+* [Zestaw 1](#zestaw-1)
 
 
 
-# 1
+# Zestaw 1
 
 <center>
 **A** 

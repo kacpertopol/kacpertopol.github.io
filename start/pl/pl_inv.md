@@ -18,6 +18,7 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
+	* [Konsultacje](#konsultacje)
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
 		* [Zestawy zadań](./0pl_inv.html)
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
@@ -29,10 +30,10 @@ toc-title: TOC
 
 # Kontakt
 
-* miejsce pracy: Jagiellonian University, Faculty of Physics Astronomy and Applied computer Science
+* miejsce pracy: Uniwersytet Jagielloński, Wydział Fizyki, Astronomii i Informatyki Stosowanej
 * e-mail: <kacper.topolnicki@uj.edu.pl>
 * adres: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland
-* pokój: B-2-25
+* pokój: B-2-25 (II piętro)
 * tel.: (+48) 12 664 4869  
 
 <div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #nauczanie title = "nauczanie">→</a></div>
@@ -40,6 +41,14 @@ toc-title: TOC
 # Nauczanie
 
 
+
+## Konsultacje
+
+Czwartki, 10:00 - 12:00, WFAIS, pokój B-2-25 (II piętro). 
+Na domofonie proszę wybrać numer wewnętrzny $4859$ i podać
+numer drzwi.
+
+<div style="text-align: center"><a href = #nauczanie title = "nauczanie">↑</a><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">→</a></div>
 
 ## Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)
 
@@ -80,7 +89,7 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 * projekt (20%)
 
 
-<div style="text-align: center"><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>
+<div style="text-align: center"><a href = #konsultacje title = "konsultacje">←</a><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>
 
 ### [Zestawy zadań](./0pl_inv.html)
 

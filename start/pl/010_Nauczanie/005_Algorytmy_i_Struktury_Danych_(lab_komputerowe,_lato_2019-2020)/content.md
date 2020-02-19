@@ -17,10 +17,11 @@ zadań (skala ocen zostanie ustalona pod koniec semestru). Oddawanie zadań:
 * Temat wiadomości powinien zawierać słowo "AISD220192020"
   otoczone spacjami. W temacie powinna się znaleźć również informacja 
   o numerze zestawu i numerze zadania.
+* Jeżeli zadanie wymaga komentarza, proszę go umieścić w treści e-mail
+  lub w załączniku. Proszę pisać krótko.
 * W załączniku powinien się znaleźć plik `.zip` z programem rozwiązującym zadanie. 
   * Plik `.zip` powinien się rozpakować do pojedynczego katalogu. Katalog powinien
 	  zawierać skrypt bash `run`, który wykonuje całą pracę.
-    with a bash script `run` that does all the work. 
 
 Wszystkie programy będą uruchamiane w maszynie wirtualnej z Ubuntu. 
 To na wypadek gdyby ktoś próbował czegoś niecnego :-)

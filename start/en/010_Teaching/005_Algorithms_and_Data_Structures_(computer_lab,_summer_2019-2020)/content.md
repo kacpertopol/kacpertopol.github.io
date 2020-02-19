@@ -16,6 +16,8 @@ determined at the end of the semester). Submitting solutions:
   your university (!) e-mail address. 
 * The title of the message must contain the word "AISD220192020"
   surrounded by white spaces, the set number, and exercise number.
+* If the exercise requires a comment, please place it directly in 
+  your e-mail or in the attachment. Please be brief.
 * The attachment  should have a `.zip` file with your program. 
   * The `.zip` archive should unpack to a single directory
     with a bash script `run` that does all the work.  

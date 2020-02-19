@@ -2,6 +2,10 @@
 **A** 
 </center>
 
+<center>
+(1 punkt)
+</center>
+
 Proszę zaimplementować typ danych `setSimple` reprezentujący
 matematyczny zbiór oraz operacje
 które dla dwóch zbiorów $A$, $B$ realizują:
@@ -40,6 +44,10 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 **B** 
 </center>
 
+<center>
+(1 punkt)
+</center>
+
 Proszę zaimplementować typ danych `setLinked` reprezentujący
 matematyczny zbiór oraz wszystkie operacje z zadania **A**.
 Tym razem w implementacji proszę wykorzystać posortowane listy łączone.
@@ -56,12 +64,20 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 **C**
 </center>
 
+<center>
+(1 punkt)
+</center>
+
 Korzystając z wyników zadań **A** oraz **B** proszę się zastanowić która implementacja
 jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesłać za pośrednictwem e-mail.
 Uwaga: to zadanie może być zaliczone pod warunkiem prawidłowego wykonania **A** oraz **B**.
 
 <center>
 **D**
+</center>
+
+<center>
+(1 punkt)
 </center>
 
 Proszę zaimplementować typ danych `dictionarySimple`, będący uproszczoną wersją zbioru, 

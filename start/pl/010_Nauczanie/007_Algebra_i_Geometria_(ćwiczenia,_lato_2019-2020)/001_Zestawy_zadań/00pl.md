@@ -201,7 +201,7 @@ Podać miejsce geometryczne punktów na płaszczyźnie zespolonej spełniającyc
 * $|z - 1 - i| = 2$
 * $|z + 2 - i| = |z - 3 + 4i|$
 * $|z + i| + |z - i| = 4$
-* $\mid |z + i| - |z - i| \mid = \sqrt{2}$
+* $\mid \, |z + i| - |z - i| \mid = \sqrt{2}$
 
 <center>
 **L**

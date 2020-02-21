@@ -118,7 +118,7 @@ Ocena końcowa będzie średnią ważoną:
 
 Przy czym aby uzyskać pozytywną ocenę z ćwiczeń należy mieć pozytywną ocenę
 z wszystkich kolokwiów oraz aktywności. Egzamin pisemny z przedmiotu odbędzie 
-się 19 czerwca w godzinach $9:00$ - $12:00$.
+się 19 czerwca w godzinach 9:00 - 12:00.
 
 <div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">←</a><a href = #nauczanie title = "nauczanie">↑</a></div>
 

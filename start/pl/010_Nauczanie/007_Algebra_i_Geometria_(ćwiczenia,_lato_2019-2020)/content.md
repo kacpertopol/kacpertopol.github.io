@@ -16,4 +16,5 @@ Ocena końcowa będzie średnią ważoną:
 * 40% aktywność na ćwiczeniach
 
 Przy czym aby uzyskać pozytywną ocenę z ćwiczeń należy mieć pozytywną ocenę
-z wszystkich kolokwiów oraz aktywności.
+z wszystkich kolokwiów oraz aktywności. Egzamin pisemny z przedmiotu odbędzie 
+się 19 czerwca w godzinach $9:00$ - $12:00$.

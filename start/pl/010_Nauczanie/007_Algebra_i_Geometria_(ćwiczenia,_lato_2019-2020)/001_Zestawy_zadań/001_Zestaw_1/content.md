@@ -128,7 +128,7 @@ Podać moduły i fazy liczb zespolonych:
 * $-1$
 * $-i$
 * $1 + i$
-* $-2 = \frac{2 \sqrt{3}}{3} i$
+* $-2 + \frac{2 \sqrt{3}}{3} i$
 * $-3 - \sqrt{3} i$
 
 <center>

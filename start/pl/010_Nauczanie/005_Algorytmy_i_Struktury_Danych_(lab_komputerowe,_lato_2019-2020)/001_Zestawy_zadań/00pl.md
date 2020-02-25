@@ -16,6 +16,12 @@ title : Zestawy zadań
 
 # Zestaw 1
 
+***
+<center>
+25 II 2020
+</center>
+***
+
 <center>
 **A** 
 </center>

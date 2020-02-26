@@ -16,6 +16,8 @@ title : Dodatkowe materiały
 
 # gnuplot
 
+* [Główna strona](http://www.gnuplot.info/) programu gnuplot.
+
 * [Przykładowy skrypt](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/099_Dodatkowe_materiały/010_gnuplot/przyklad_gnuplot) programu `gnuplot` zawierający dane do narysowania wykresu
   * Aby uruchomić skrypt wystarczy nadać mu uprawnienia do wykonywania:
     

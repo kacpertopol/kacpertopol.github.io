@@ -1,3 +1,5 @@
+* [Główna strona](http://www.gnuplot.info/) programu gnuplot.
+
 * [Przykładowy skrypt](---ThisDir---/przyklad_gnuplot) programu `gnuplot` zawierający dane do narysowania wykresu
   * Aby uruchomić skrypt wystarczy nadać mu uprawnienia do wykonywania:
     

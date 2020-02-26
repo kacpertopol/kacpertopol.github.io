@@ -3,7 +3,7 @@ title : Publikacje
 ---
 
 <center>
-![](./start/pl/003_CV/001_Publikacje/WOS_02_2020.jpg)
+![](./start/en/001_Publications/WOS_02_2020.jpg)
 </center>
 
 <center>
@@ -12,14 +12,14 @@ title : Publikacje
 
 
 
-# Zawartość:
+# Content:
 
-* [Artykuły (WOS, II, 2020)](#artykuły-wos-ii-2020)
-* [Publikacje konferencyjne (WOS, II, 2020)](#publikacje-konferencyjne-wos-ii-2020)
+* [Regular articles (WOS, II, 2020)](#regular-articles-wos-ii-2020)
+* [Conference proceedings (WOS, II, 2020)](#conference-proceedings-wos-ii-2020)
 
 
 
-# Artykuły (WOS, II, 2020)
+# Regular articles (WOS, II, 2020)
 
 *From response functions to cross sections in neutrino scattering off thedeuteron and trinucleons*    
 Golak, J , Skibinski, R , **Topolnicki**, K , Witala, H , Grassi, A , Kamada, H , Marcucci, LE     
@@ -166,9 +166,9 @@ Golak, J , Rozpedzik, D , Skibinski, R , **Topolnicki**, K , Witala, H , Glockle
 Eur. Phys. J. A 43 : 10 (2010) [DOI: 10.1140/epja/i2009-10903-6](https://dx.doi.org/10.1140/epja/i2009-10903-6)
 
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #publikacje-konferencyjne-wos-ii-2020 title = "publikacje konferencyjne wos ii 2020">→</a></div>
+<div style="text-align: center"><a href = #content title = "content">↑</a><a href = #conference-proceedings-wos-ii-2020 title = "conference proceedings wos ii 2020">→</a></div>
 
-# Publikacje konferencyjne (WOS, II, 2020)
+# Conference proceedings (WOS, II, 2020)
 
 *THEORETICAL UNCERTAINTIES IN THE DESCRIPTION OF THE NUCLEON-DEUTERONELASTIC SCATTERING AT E=135 MeV*    
 Volkotrub, Y , Skibinski, R , Golak, J , **Topolnicki**, K , Witala, H     
@@ -281,4 +281,4 @@ Few-Body Syst. 50 : 3 (2011) [DOI: 10.1007/s00601-010-0204-7](https://dx.doi.org
 21st European Conference on Few-Body Problems in Physics, AUG 30-SEP 03, 2010, Salamanca, SPAIN
 
 
-<div style="text-align: center"><a href = #artykuły-wos-ii-2020 title = "artykuły wos ii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #regular-articles-wos-ii-2020 title = "regular articles wos ii 2020">←</a><a href = #content title = "content">↑</a></div>

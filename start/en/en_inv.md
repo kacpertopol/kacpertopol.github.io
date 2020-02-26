@@ -19,8 +19,7 @@ toc-title: TOC
 # Content:
 
 * [Contact](#contact)
-* [CV](#cv)
-	* [Publications](./0en_inv.html)
+* [Publications](./0en_inv.html)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
 
@@ -34,13 +33,9 @@ toc-title: TOC
 * room: B-2-25 (II floor)
 * tel.: (+48) 12 664 4869  
 
-<div style="text-align: center"><a href = #content title = "content">↑</a><a href = #cv title = "cv">→</a></div>
+<div style="text-align: center"><a href = #content title = "content">↑</a><a href = #publications title = "publications">→</a></div>
 
-# CV
-
-
-
-## [Publications](./0en_inv.html)
+# [Publications](./0en_inv.html)
 
 
 

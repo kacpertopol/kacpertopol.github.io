@@ -19,8 +19,7 @@ toc-title: TOC
 # Zawartość:
 
 * [Kontakt](#kontakt)
-* [CV](#cv)
-	* [Publikacje](./0pl.html)
+* [Publikacje](./0pl.html)
 * [Nauczanie](#nauczanie)
 	* [Konsultacje](#konsultacje)
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
@@ -41,13 +40,9 @@ toc-title: TOC
 * pokój: B-2-25 (II piętro)
 * tel.: (+48) 12 664 4869  
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #cv title = "cv">→</a></div>
+<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #publikacje title = "publikacje">→</a></div>
 
-# CV
-
-
-
-## [Publikacje](./0pl.html)
+# [Publikacje](./0pl.html)
 
 
 

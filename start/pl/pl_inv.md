@@ -58,7 +58,7 @@ toc-title: TOC
 ## Konsultacje
 
 Czwartki, 10:00 - 12:00, WFAIS, pokój B-2-25 (II piętro). 
-Na domofonie proszę wybrać numer wewnętrzny $4859$ i podać
+Na domofonie proszę wybrać numer wewnętrzny $4869$ i podać
 numer drzwi.
 
 <div style="text-align: center"><a href = #nauczanie title = "nauczanie">↑</a><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">→</a></div>

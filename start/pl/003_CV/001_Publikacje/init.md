@@ -3,5 +3,5 @@
 </center>
 
 <center>
-[source: Web of Science](http://www.webofknowledge.com)
+[source: Web of Science, II, 2020](http://www.webofknowledge.com)
 </center>

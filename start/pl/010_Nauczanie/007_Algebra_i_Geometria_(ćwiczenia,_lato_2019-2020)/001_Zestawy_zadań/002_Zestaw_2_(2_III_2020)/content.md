@@ -1,8 +1,6 @@
-***
 <center>
-2 III 2020
+**$\Omega$**
 </center>
-***
 
 Proszę zrobić niedokończone zadania z poprzednich zajęć. 
 Dodatkowo proszę spróbować wykonać następujące ćwiczenia:

@@ -10,17 +10,11 @@ title : Zestawy zadań
 
 # Zawartość:
 
-* [Zestaw 1](#zestaw-1)
+* [Zestaw 1 (25 II 2020)](#zestaw-1-25-ii-2020)
 
 
 
-# Zestaw 1
-
-***
-<center>
-25 II 2020
-</center>
-***
+# Zestaw 1 (25 II 2020)
 
 <center>
 **A** 

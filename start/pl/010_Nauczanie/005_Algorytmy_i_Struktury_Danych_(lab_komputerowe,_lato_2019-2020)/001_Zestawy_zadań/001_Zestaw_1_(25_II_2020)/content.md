@@ -1,9 +1,3 @@
-***
-<center>
-25 II 2020
-</center>
-***
-
 <center>
 **A** 
 </center>

@@ -60,10 +60,6 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         for ii in range(len(subDirs)):
             pre_anchour = None
             nxt_anchour = None
-            isSubRoot = (os.path.isfile(os.path.join(directory , subDirs[ii] , "meta.md"))) and (os.path.isfile(os.path.join(directory , subDirs[ii] ,  "init.md")))
-            if(isSubRoot):
-                toc_md.append(("\t" * (level - 0)) + "* [" + subDirs[ii][4:].replace("_" , " ")  + "](" + os.path.join(args.htmlpath , "0" * (num + 1) + args.name + ".html")  + ")\n")
-                all_md.append("\n\n" + ("#" * (level + 1)) + " [" + subDirs[ii][4:].replace("_" , " ")  + "](" + os.path.join(args.htmlpath , "0" * (num + 1) + args.name + ".html")  + ")" + "\n\n")
             if(ii != 0):
                 pre_anchour = make_anchour(subDirs[ii - 1][4:])
             if(ii != len(subDirs) - 1):
@@ -72,7 +68,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
     else:
         num = num + 1 #increment the number of root directories
         thisnum = num
-
+ 
         subDirs = []
         for f in os.listdir(directory):
             if(os.path.isdir(os.path.join(directory , f))):
@@ -113,6 +109,9 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         subprocess.run(args.command.split() + [os.path.join(directory , nnme + ".html")] + [os.path.join(directory , nnme + ".md")]) 
         
         subprocess.run(["cp"] + [os.path.join(directory , nnme + ".html")] + [os.path.join(args.htmlpath , nnme + ".html")]) 
+        
+        toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")\n")
+        all_md.append("\n\n" + ("#" * level) + " [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")" + "\n\n")
 
 if(__name__ == "__main__"):
     parser = argparse.ArgumentParser(description = """

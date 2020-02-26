@@ -1,0 +1,61 @@
+#!/usr/bin/gnuplot
+#  ^
+# / \
+#  |
+#  |
+# Pierwsza linijka pliku, rospoczynająca się od 
+# znaczka hash oraz wykrzyknika wskazuje systemowi
+# operacyjnemu program który ma wykorzystać do uruchomienia
+# pliku. W moim systemie program gnuplot ma ścieżkę:
+#    /usr/bin/gnuplot
+# ale nie wykluczone, że u państwa ta ścieżka będzie inna.
+# Aby sprawdzić gdzie zainstawowany jest program gnuplot
+# wustarczy uruchomić komendę:
+#    $ which gnuplot
+
+
+# Tytuł wykresu:
+set title "Zależność czasu wykonania operacji od wielkości inputu."
+
+# Opisu osi poziomej oraz pionowej:
+set xlabel "n"
+set ylabel "czas [s]"
+
+# Zakres osi poziomej:
+set xrange [0 : 10]
+
+# Definicja funkcji:
+f(x) = x * x
+
+# Komenda wykonująca rysunek.
+# W miejsce "-" można wstawić ścieżkę do pliku
+# z danymi. Wersja komendy z "-" wczutuje dane
+# aż do napotkania literki "e".
+# Dodatkowe polecenia:
+#    with points
+#    with lines
+# wskazują gnuplotowi, że wykresy należy rysować 
+# korzystając odpowiednio z punktów oraz linii. Natomiast
+#    title "wyniki symulacji"
+#    title "n^2"
+# wskazują gnuplotowi jak oznaczyć wykresy w legendzie.
+plot "-" with points title "wyniki symulacji" , f(x) with lines title "n^2"
+1 1.1
+2 4.5
+3 9.1
+4 16.5
+5 24.55
+6 30.3
+7 45.2
+8 57.6
+9 75.4 
+e
+
+# Poniżej zapobiegamy program gnuplot przed zamknięciem,
+# zanim zobaczymy wykres.
+pause -1 "Wciśnij dowolny klawisz aby kontynuować."
+
+# Mam nadzieję, że zadania przekonaja Państwa, że umiejętność
+# tworzenia rysunków jest cenna. Więcej informacji, dokumentacji
+# oraz przykładów mozna znaleźć na stronie:
+#    http://www.gnuplot.info/ 

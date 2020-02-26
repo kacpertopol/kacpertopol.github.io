@@ -25,8 +25,9 @@ toc-title: TOC
 	* [Konsultacje](#konsultacje)
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
 		* [Zestawy zadań](./00pl.html)
+		* [Dodatkowe materiały](./000pl.html)
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
-		* [Zestawy zadań](./000pl.html)
+		* [Zestawy zadań](./0000pl.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
 
@@ -107,6 +108,10 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 
 
+### [Dodatkowe materiały](./000pl.html)
+
+
+
 ## Algebra i Geometria (ćwiczenia, lato 2019-2020)
 
 Na ocenę z ćwiczeń składać się będzie ocena z aktywności na zajęciach
@@ -132,7 +137,7 @@ się 19 czerwca w godzinach 9:00 - 12:00.
 
 <div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">←</a><a href = #nauczanie title = "nauczanie">↑</a></div>
 
-### [Zestawy zadań](./000pl.html)
+### [Zestawy zadań](./0000pl.html)
 
 
 

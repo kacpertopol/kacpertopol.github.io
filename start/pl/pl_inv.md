@@ -19,14 +19,14 @@ toc-title: TOC
 # Zawartość:
 
 * [Kontakt](#kontakt)
-* [Publikacje](./0pl_inv.html)
 * [Nauczanie](#nauczanie)
 	* [Konsultacje](#konsultacje)
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
-		* [Zestawy zadań](./00pl_inv.html)
-		* [Dodatkowe materiały](./000pl_inv.html)
+		* [Zestawy zadań](./0pl_inv.html)
+		* [Dodatkowe materiały](./00pl_inv.html)
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
-		* [Zestawy zadań](./0000pl_inv.html)
+		* [Zestawy zadań](./000pl_inv.html)
+* [Curriculum vitae](./0000pl_inv.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
 
@@ -40,11 +40,7 @@ toc-title: TOC
 * pokój: B-2-25 (II piętro)
 * tel.: (+48) 12 664 4869  
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #publikacje title = "publikacje">→</a></div>
-
-# [Publikacje](./0pl_inv.html)
-
-
+<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #nauczanie title = "nauczanie">→</a></div>
 
 # Nauczanie
 
@@ -99,11 +95,11 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 
 <div style="text-align: center"><a href = #konsultacje title = "konsultacje">←</a><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>
 
-### [Zestawy zadań](./00pl_inv.html)
+### [Zestawy zadań](./0pl_inv.html)
 
 
 
-### [Dodatkowe materiały](./000pl_inv.html)
+### [Dodatkowe materiały](./00pl_inv.html)
 
 
 
@@ -132,7 +128,11 @@ się 19 czerwca w godzinach 9:00 - 12:00.
 
 <div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">←</a><a href = #nauczanie title = "nauczanie">↑</a></div>
 
-### [Zestawy zadań](./0000pl_inv.html)
+### [Zestawy zadań](./000pl_inv.html)
+
+
+
+# [Curriculum vitae](./0000pl_inv.html)
 
 
 

@@ -10,18 +10,12 @@ title : Zestawy zadań
 
 # Zawartość:
 
-* [Zestaw 1](#zestaw-1)
-* [Zestaw 2](#zestaw-2)
+* [Zestaw 1 (24 II 2020)](#zestaw-1-24-ii-2020)
+* [Zestaw 2 (2 III 2020)](#zestaw-2-2-iii-2020)
 
 
 
-# Zestaw 1
-
-***
-<center>
-24 II 2020
-</center>
-***
+# Zestaw 1 (24 II 2020)
 
 <center>
 **A**
@@ -273,15 +267,13 @@ Rozwiązać w liczbach zespolonych równania
 * $(5 - 5 i) z^2 - (3 - 2 i) z + 1 = 0$
 * $z^4 + z^2 + 1 = 0$
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-2 title = "zestaw 2">→</a></div>
+<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-2-2-iii-2020 title = "zestaw 2 2 iii 2020">→</a></div>
 
-# Zestaw 2
+# Zestaw 2 (2 III 2020)
 
-***
 <center>
-2 III 2020
+**$\Omega$**
 </center>
-***
 
 Proszę zrobić niedokończone zadania z poprzednich zajęć. 
 Dodatkowo proszę spróbować wykonać następujące ćwiczenia:
@@ -349,4 +341,4 @@ $$\cos(x) = \sum_{n = 0}^{\infty} \frac{(-1)^{n}}{(2 n)!} x^{2 n}$$
 Korzystając z wyników zadania **B** proszę policzyć $(\cos(\phi) + i \sin(\phi))^{k}$
 zakładając, że $\phi$ jest liczbą rzeczywistą.
 
-<div style="text-align: center"><a href = #zestaw-1 title = "zestaw 1">←</a><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #zestaw-1-24-ii-2020 title = "zestaw 1 24 ii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

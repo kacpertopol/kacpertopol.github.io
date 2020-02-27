@@ -1,5 +1,5 @@
 ---
-title : Curriculim vitae
+title : Kacper Topolnicki, CV
 ---
 
 

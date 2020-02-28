@@ -20,10 +20,10 @@ title : Kacper Topolnicki, CV
 
 # Personal details
 
-* *date of birth*: 19 August 1985
-* *adress*: Chmieleniec 12 m. 90, Kraków, Poland
+* *date of birth*: 19 August 1985 
+* adres: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland (room B-2-25)
 * *telephone*: (+48) 12 664 4869
-* *e-mail*: <kacper.topolnicki@gmail.com> 
+* *e-mail*: <kacper.topolnicki@uj.edu.pl> 
 
 
 <div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #education title = "education">→</a></div>
@@ -44,7 +44,7 @@ title : Kacper Topolnicki, CV
     great opportunity and had a big impact on my research.
 * International PhD Studies (**2010-2014**)
   * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
-  * *description*: On my second year of regular PhD studies I started [International PhD Studies in Applied Nuclear Physics and Innovative Technologies](http://www.ips.if.uj.edu.pl/). 
+  * *description*: On my second year of regular PhD studies I switched over to the [International PhD Studies in Applied Nuclear Physics and Innovative Technologies](http://www.ips.if.uj.edu.pl/). 
     The studies lasted for four years. My chosen topic “Few-nucleon fusion reactions” was
     being supervised of professor Jacek Golak.
 * Ph.D. studies in Physics (**2009-2014**)
@@ -72,9 +72,9 @@ title : Kacper Topolnicki, CV
 
 # Positions
 
-* **2020-**: Adjunkt (english equivalent: assistant proffesor) 
+* **2020-**: Adiunkt (polish name, english equivalent: assistant proffesor) 
   * *institution*: Institute of Physics, Jagiellonian University, Kraków, Poland
-* **2017-2020**: 3 years, Asystent naukowy (english equivalent: research assistant)
+* **2017-2020**: 3 years, Asystent naukowy (polish name, english equivalent: research assistant)
   * *institution*: Institute of Physics, Jagiellonian University, Kraków, Poland
 * **2015**: $\approx$ 0.5 year, Post-doc
 	* *institution*: Texas A&M University Commerce

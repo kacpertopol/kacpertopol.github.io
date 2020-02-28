@@ -12,7 +12,7 @@
     great opportunity and had a big impact on my research.
 * International PhD Studies (**2010-2014**)
   * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
-  * *description*: On my second year of regular PhD studies I started [International PhD Studies in Applied Nuclear Physics and Innovative Technologies](http://www.ips.if.uj.edu.pl/). 
+  * *description*: On my second year of regular PhD studies I switched over to the [International PhD Studies in Applied Nuclear Physics and Innovative Technologies](http://www.ips.if.uj.edu.pl/). 
     The studies lasted for four years. My chosen topic “Few-nucleon fusion reactions” was
     being supervised of professor Jacek Golak.
 * Ph.D. studies in Physics (**2009-2014**)

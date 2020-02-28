@@ -34,3 +34,5 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 * kolokwium (20%)
 * projekt (20%)
 
+Aktualną liczbę zadań można odczytać z [tabelki](---ThisDir---/publicResults.pdf).
+W pierwszej kolumnie znajduję się anonimowy identyfikator.

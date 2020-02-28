@@ -23,11 +23,9 @@ toc-title: TOC
 	* [Konsultacje](#konsultacje)
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
 		* [Zestawy zadań](./0pl_inv.html)
-		* [Wyniki](#wyniki)
 		* [Dodatkowe materiały](./00pl_inv.html)
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
 		* [Zestawy zadań](./000pl_inv.html)
-		* [Wyniki](#wyniki)
 * [Curriculum vitae](./0000pl_inv.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
@@ -94,19 +92,14 @@ końcowego aby otrzymać pozytywną ocenę z ćwiczeń. Ocena z ćwiczeń będzi
 * kolokwium (20%)
 * projekt (20%)
 
+Aktualną liczbę zadań można odczytać z [tabelki](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/publicResults.pdf).
+W pierwszej kolumnie znajduję się anonimowy identyfikator.
 
 <div style="text-align: center"><a href = #konsultacje title = "konsultacje">←</a><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>
 
 ### [Zestawy zadań](./0pl_inv.html)
 
 
-
-### Wyniki
-
-Aktualną liczbę zadań można odczytać z [tabelki](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/005_Wyniki/publicResults.pdf).
-W pierwszej kolumnie znajduję się anonimowy identyfikator.
-
-<div style="text-align: center"><a href = #zestawy-zadań title = "zestawy zadań">←</a><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">↑</a><a href = #dodatkowe-materiały title = "dodatkowe materiały">→</a></div>
 
 ### [Dodatkowe materiały](./00pl_inv.html)
 
@@ -135,22 +128,18 @@ Przy czym aby uzyskać pozytywną ocenę z ćwiczeń należy mieć pozytywną oc
 z wszystkich kolokwiów oraz aktywności. Egzamin pisemny z przedmiotu odbędzie 
 się 19 czerwca w godzinach 9:00 - 12:00.
 
+Aktualne wyniki grupy 1 można sprawdzić w
+[tabelce](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/publicWyniki_GR_1.pdf), 
+natomiast grupy 7 w 
+[tablece](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/publicWyniki_GR_7.pdf).
+W pierwszej kolumnie znajduje się anonimowy
+identyfikator studenta.
+
 <div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">←</a><a href = #nauczanie title = "nauczanie">↑</a></div>
 
 ### [Zestawy zadań](./000pl_inv.html)
 
 
-
-### Wyniki
-
-Aktualne wyniki grupy 1 można sprawdzić w
-[tabelce](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/010_Wyniki/publicWyniki_GR_1.pdf), 
-natomiast grupy 7 w 
-[tablece](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/010_Wyniki/publicWyniki_GR_7.pdf).
-W pierwszej kolumnie znajduje się anonimowy
-identyfikator studenta.
-
-<div style="text-align: center"><a href = #zestawy-zadań title = "zestawy zadań">←</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">↑</a></div>
 
 # [Curriculum vitae](./0000pl_inv.html)
 

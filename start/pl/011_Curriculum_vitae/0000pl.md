@@ -20,10 +20,10 @@ title : Kacper Topolnicki, CV
 
 # Personal details
 
-* *date of birth*: 19 August 1985
-* *adress*: Chmieleniec 12 m. 90, Kraków, Poland
+* *date of birth*: 19 August 1985 
+* adres: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland (room B-2-25)
 * *telephone*: (+48) 12 664 4869
-* *e-mail*: <kacper.topolnicki@gmail.com> 
+* *e-mail*: <kacper.topolnicki@uj.edu.pl> 
 
 
 <div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #education title = "education">→</a></div>

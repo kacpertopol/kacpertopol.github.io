@@ -45,6 +45,13 @@ oraz dla elementu $x$ i zbioru $A$ realizują:
 * sprawdzanie czy $x \in A$
 
 Tym razem proszę wykrzystać haszowanie otwarte.
+Państwa implementację proszę wykorzystać w programie, który bada
+złożoność obliczeniową poszczególnych operacji.
+Dla każdej z zaimplementowanych operacji program powinien produkować jeden plik,
+który może być uruchomiony z wykorzystaniem programu [gnuplot](http://www.gnuplot.info/). 
+W wiadomości e-mail proszę
+opisać podejście wykorzystane do badania złożoności obliczeniowej
+i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 
 <center>
 **C** 

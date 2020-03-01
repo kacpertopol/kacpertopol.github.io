@@ -68,3 +68,12 @@ jest lepsza i w jakiej sytuacji. Swoją odpowiedź (popartą odpowiednimi wykres
 Aby ułatwić Państwu zadanie, proszę założyć, że elementami przechowywanymi
 we wszystkich zbiorach są słowa składające się z 4 liter (bez polskich znaków).
 Można wykorzystać zadanie **A**.
+
+<center>
+**UWAGI**
+</center>
+
+* Dla każdej implementacji typu danych oraz dla każdej zaimplementowanej operacji proszę dodatkowo:
+  * zamieścić w Państwa programie test sprawdzający czy operacje są zaimplementowane prawidłowo
+  * aby ułatwic Państwu pracę możemy się umówić, że w teście będzie sprawdzana niewielka ilość
+	  przypadków - na tyle mała aby można było je wypisać na ekranie komputera i przeanalizować

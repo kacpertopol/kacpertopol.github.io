@@ -120,6 +120,18 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 Dodatkowo proszę porównać te wyniki do Państwa wyników z **A** oraz **B** i zastanowić się która
 implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesłać za pośrednictwem e-mail.
 
+<center>
+**UWAGI**
+</center>
+
+* Dla każdej implementacji typu danych oraz dla każdej zaimplementowanej operacji proszę dodatkowo:
+  * zamieścić w Państwa programie test sprawdzający czy operacje są zaimplementowane prawidłowo
+  * aby ułatwic Państwu pracę możemy się umówić, że w teście będzie sprawdzana niewielka ilość
+	  przypadków - na tyle mała aby można było je wypisać na ekranie komputera i przeanalizować
+		ręcznie
+	  
+
+
 <div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-2-3-iii-2020 title = "zestaw 2 3 iii 2020">→</a></div>
 
 # Zestaw 2 (3 III 2020)
@@ -194,5 +206,14 @@ jest lepsza i w jakiej sytuacji. Swoją odpowiedź (popartą odpowiednimi wykres
 Aby ułatwić Państwu zadanie, proszę założyć, że elementami przechowywanymi
 we wszystkich zbiorach są słowa składające się z 4 liter (bez polskich znaków).
 Można wykorzystać zadanie **A**.
+
+<center>
+**UWAGI**
+</center>
+
+* Dla każdej implementacji typu danych oraz dla każdej zaimplementowanej operacji proszę dodatkowo:
+  * zamieścić w Państwa programie test sprawdzający czy operacje są zaimplementowane prawidłowo
+  * aby ułatwic Państwu pracę możemy się umówić, że w teście będzie sprawdzana niewielka ilość
+	  przypadków - na tyle mała aby można było je wypisać na ekranie komputera i przeanalizować
 
 <div style="text-align: center"><a href = #zestaw-1-25-ii-2020 title = "zestaw 1 25 ii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

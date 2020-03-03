@@ -1,0 +1,36 @@
+# Wykres będzie zapisany do pliku example.pdf:
+set terminal pdf
+set output "example.pdf"
+
+# Tytuł wykresu:
+set title "Zależność czasu wykonania operacji od wielkości inputu."
+
+# Opisu osi poziomej oraz pionowej:
+set xlabel "n"
+set ylabel "czas [s]"
+
+# Zakres osi poziomej:
+set xrange [0 : 10]
+
+# Definicja funkcji:
+f(x) = x * x
+
+# Komenda wykonująca rysunek.
+# Plik "dane" zawiera dane do rysunku.
+# Dodatkowe polecenia:
+#    with points
+#    with lines
+# wskazują gnuplotowi, że wykresy należy rysować 
+# korzystając odpowiednio z punktów oraz linii. Natomiast
+#    title "wyniki symulacji"
+#    title "n^2"
+# wskazują gnuplotowi jak oznaczyć wykresy w legendzie.
+plot "dane" with points title "wyniki symulacji" , f(x) with lines title "n^2"
+
+# Tym razem nie musimy czekać.
+#pause -1 "Wciśnij dowolny klawisz aby kontynuować."
+
+# Mam nadzieję, że zadania przekonaja Państwa, że umiejętność
+# tworzenia rysunków jest cenna. Więcej informacji, dokumentacji
+# oraz przykładów mozna znaleźć na stronie:
+#    http://www.gnuplot.info/ 

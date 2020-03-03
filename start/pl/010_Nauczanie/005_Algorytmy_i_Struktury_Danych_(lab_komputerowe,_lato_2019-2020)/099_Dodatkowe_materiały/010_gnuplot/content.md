@@ -13,5 +13,11 @@
   * Aby uruchomić program wystarczy w katalogu zawierającym dane oraz program wykonać:
 	  
     `$ gnuplot przyklad1_gnuplot`
+
   * Zalecam tworzenie skryptów tak jak w pierwszym podpunkcie. Dzieki temu dane oraz instrukcje 
 	  potrzebne do ich narysowania trzymane są w jednym miejscu. 
+* [Jeszcze jeden przykład](---ThisDir---/przyklad2_gnuplot), tym razem wykres jest zapisywany do pliku `example.pdf`.
+  * Aby uruchomić program wystarczy w katalogu zawierającym dane oraz program wykonać:
+	  
+    `$ gnuplot przyklad2_gnuplot`
+  * Dane są wczytywane z pliku [dane](---ThisDir---/dane)

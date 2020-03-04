@@ -77,3 +77,7 @@ Można wykorzystać zadanie **A**.
   * zamieścić w Państwa programie test sprawdzający czy operacje są zaimplementowane prawidłowo
   * aby ułatwic Państwu pracę możemy się umówić, że w teście będzie sprawdzana niewielka ilość
 	  przypadków - na tyle mała aby można było je wypisać na ekranie komputera i przeanalizować
+* Badając złożoność obliczeniową operacji, proszę się zastanowić jak powina
+  wyglądać zależność $t(n)$ czasu wykonania problemu ($t$) od rozmiaru 
+	problemu ($n$)
+	i nanieść tą hipotezę na odpowiedni wykres.

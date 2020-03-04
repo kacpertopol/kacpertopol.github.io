@@ -129,6 +129,10 @@ implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesł
   * aby ułatwic Państwu pracę możemy się umówić, że w teście będzie sprawdzana niewielka ilość
 	  przypadków - na tyle mała aby można było je wypisać na ekranie komputera i przeanalizować
 		ręcznie
+* Badając złożoność obliczeniową operacji, proszę się zastanowić jak powina
+  wyglądać zależność $t(n)$ czasu wykonania problemu ($t$) od rozmiaru 
+	problemu ($n$)
+	i nanieść tą hipotezę na odpowiedni wykres.
 	  
 
 
@@ -215,5 +219,9 @@ Można wykorzystać zadanie **A**.
   * zamieścić w Państwa programie test sprawdzający czy operacje są zaimplementowane prawidłowo
   * aby ułatwic Państwu pracę możemy się umówić, że w teście będzie sprawdzana niewielka ilość
 	  przypadków - na tyle mała aby można było je wypisać na ekranie komputera i przeanalizować
+* Badając złożoność obliczeniową operacji, proszę się zastanowić jak powina
+  wyglądać zależność $t(n)$ czasu wykonania problemu ($t$) od rozmiaru 
+	problemu ($n$)
+	i nanieść tą hipotezę na odpowiedni wykres.
 
 <div style="text-align: center"><a href = #zestaw-1-25-ii-2020 title = "zestaw 1 25 ii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

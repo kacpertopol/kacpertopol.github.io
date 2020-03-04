@@ -135,7 +135,7 @@ implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesł
   * dwa wykresy [wykres 1](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/setSorted.pdf), [wykres 2](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/setSortedReversed.pdf) 
     oraz dwa skrypty gnuplot [skrypt 1](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/DATAtestAddElementsSetLinkedSorted), [skrypt 2](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/DATAtestAddElementsSetLinkedSortedRev) 
     dla posortowanej listy łączonej
-    * dlaczego dostajemy tak dramatycznie różne wyniki, proszę dokładnie przeczytać opis wykresów :-)
+    * dlaczego te wyniki tak dramatycznie się różnią? Proszę dokładnie przeczytać opis wykresów :-)
 * Badając złożoność obliczeniową operacji, proszę się zastanowić jak powina
   wyglądać zależność $t(n)$ czasu wykonania problemu ($t$) od rozmiaru 
 	problemu ($n$)

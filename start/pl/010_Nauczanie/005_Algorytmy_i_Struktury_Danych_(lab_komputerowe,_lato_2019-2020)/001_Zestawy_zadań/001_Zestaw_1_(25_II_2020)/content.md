@@ -116,7 +116,7 @@ implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesł
   * dwa wykresy [wykres 1](---ThisDir---/setSorted.pdf), [wykres 2](---ThisDir---/setSortedReversed.pdf) 
     oraz dwa skrypty gnuplot [skrypt 1](---ThisDir---/DATAtestAddElementsSetLinkedSorted), [skrypt 2](---ThisDir---/DATAtestAddElementsSetLinkedSortedRev) 
     dla posortowanej listy łączonej
-    * dlaczego dostajemy tak dramatycznie różne wyniki, proszę dokładnie przeczytać opis wykresów :-)
+    * dlaczego te wyniki tak dramatycznie się różnią? Proszę dokładnie przeczytać opis wykresów :-)
 * Badając złożoność obliczeniową operacji, proszę się zastanowić jak powina
   wyglądać zależność $t(n)$ czasu wykonania problemu ($t$) od rozmiaru 
 	problemu ($n$)

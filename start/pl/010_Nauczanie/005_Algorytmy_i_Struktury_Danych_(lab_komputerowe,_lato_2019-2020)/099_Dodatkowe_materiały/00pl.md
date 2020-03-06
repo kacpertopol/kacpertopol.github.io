@@ -11,6 +11,7 @@ title : Dodatkowe materiały
 # Zawartość:
 
 * [gnuplot](#gnuplot)
+* [Przydatne odnośniki](#przydatne-odnośniki)
 
 
 
@@ -40,4 +41,10 @@ title : Dodatkowe materiały
     `$ gnuplot przyklad2_gnuplot`
   * Dane są wczytywane z pliku [dane](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/099_Dodatkowe_materiały/010_gnuplot/dane)
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #przydatne-odnośniki title = "przydatne odnośniki">→</a></div>
+
+# Przydatne odnośniki
+
+* [Practical Algorithms and Data Structures](https://bradfieldcs.com/algos/)
+
+<div style="text-align: center"><a href = #gnuplot title = "gnuplot">←</a><a href = #zawartość title = "zawartość">↑</a></div>

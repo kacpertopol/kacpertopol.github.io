@@ -110,16 +110,21 @@ implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesł
   * aby ułatwic Państwu pracę możemy się umówić, że w teście będzie sprawdzana niewielka ilość
 	  przypadków - na tyle mała aby można było je wypisać na ekranie komputera i przeanalizować
 		ręcznie
-* Kilka przykładów, w których badana jest złożonosć operacji dodawania elementu
-  do zbioru
-  * [wykres](---ThisDir---/setSimple.pdf) oraz [skrypt gnuplot](---ThisDir---/DATAtestAddElementsSetSimple) dla implementacji wykorzystującej tablicę, której elementami są wartości logiczne
-  * dwa wykresy [wykres 1](---ThisDir---/setSorted.pdf), [wykres 2](---ThisDir---/setSortedReversed.pdf) 
-    oraz dwa skrypty gnuplot [skrypt 1](---ThisDir---/DATAtestAddElementsSetLinkedSorted), [skrypt 2](---ThisDir---/DATAtestAddElementsSetLinkedSortedRev) 
-    dla posortowanej listy łączonej
-    * dlaczego te wyniki tak dramatycznie się różnią? Proszę dokładnie przeczytać opis wykresów :-)
 * Badając złożoność obliczeniową operacji, proszę się zastanowić jak powina
   wyglądać zależność $t(n)$ czasu wykonania problemu ($t$) od rozmiaru 
 	problemu ($n$)
 	i nanieść tą hipotezę na odpowiedni wykres.
+* Kilka przykładów, w których badana jest złożonosć operacji dodawania elementu
+  do zbioru
+  * [wykres](---ThisDir---/setSimple.pdf) oraz [skrypt gnuplot](---ThisDir---/DATAtestAddElementsSetSimple) i [dane do skryptu](---ThisDir---/DATASS) dla implementacji wykorzystującej tablicę, której elementami są wartości logiczne
+  * dwa wykresy [wykres 1](---ThisDir---/setSorted.pdf), [wykres 2](---ThisDir---/setSortedReversed.pdf) 
+    oraz dwa skrypty gnuplot [skrypt 1](---ThisDir---/DATAtestAddElementsSetLinkedSorted), [skrypt 2](---ThisDir---/DATAtestAddElementsSetLinkedSortedRev) 
+    dla posortowanej listy łączonej. Dodatkowo dane do [skrypt 1](---ThisDir---/DATASLS) oraz [skrypt 2](---ThisDir---/DATASLSR).
+    * dlaczego te wyniki tak dramatycznie się różnią? Proszę dokładnie przeczytać opis wykresów :-)
+  * proszę się zastanowić jak ma się dopasowanie do otrzymanych wyników odpowiedniej krzywej do złożonoći
+    obliczeniowej
+* Sprawdzenie złożoności obliczeniowej dla każdej z operacji może być trochę pracochłonne.
+  Kryteria zaliczenia zadań są złagodzone: wystarczy jeden wykres dla wybranej operacji.
+  Ale proszę go jednak zrobić porządnie :-)
 	  
 

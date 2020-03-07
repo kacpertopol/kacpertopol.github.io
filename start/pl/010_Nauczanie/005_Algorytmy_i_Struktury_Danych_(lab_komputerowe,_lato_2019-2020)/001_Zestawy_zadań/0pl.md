@@ -145,7 +145,10 @@ implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesł
 * Sprawdzenie złożoności obliczeniowej dla każdej z operacji może być trochę pracochłonne.
   Kryteria zaliczenia zadań są złagodzone: wystarczy jeden wykres dla wybranej operacji.
   Ale proszę go jednak zrobić porządnie :-)
-	  
+* W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. 
+  Nie powinno mieć to większego znaczenia
+  jeżeli pewne warunki są spełnione. Jakie to warunki?
+    * Wskazówka: $\equiv$, $\lt$, $\gt$
 
 
 <div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-2-3-iii-2020 title = "zestaw 2 3 iii 2020">→</a></div>
@@ -235,5 +238,13 @@ Można wykorzystać zadanie **A**.
   wyglądać zależność $t(n)$ czasu wykonania problemu ($t$) od rozmiaru 
 	problemu ($n$)
 	i nanieść tą hipotezę na odpowiedni wykres.
+* Sprawdzenie złożoności obliczeniowej dla każdej z operacji może być trochę pracochłonne.
+  Kryteria zaliczenia zadań są złagodzone: wystarczy jeden wykres dla wybranej operacji.
+  Ale proszę go jednak zrobić porządnie :-)
+* W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. 
+  Nie powinno mieć to większego znaczenia
+  jeżeli pewne warunki są spełnione. Jakie to warunki?
+    * Wskazówka: $\equiv$, $\lt$, $\gt$
+
 
 <div style="text-align: center"><a href = #zestaw-1-25-ii-2020 title = "zestaw 1 25 ii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

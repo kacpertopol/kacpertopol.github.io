@@ -1,7 +1,7 @@
 set title "SET implemented using unsorted linked lists"
 set label "The hoizontal axis is the problem size (n). \n\
 The vertical axis is the measured time (t). \n\
-In each problem a series of integers integers 0 ... (n <= 511) \n\
+In each problem a series of integers integers 0 ... 511 \n\
 is added to an, initialy empty, set. \n\
 Furthermore, in each single problem this process is repeated 1000 times." at graph 0.1 , 0.9
 set xlabel "n"

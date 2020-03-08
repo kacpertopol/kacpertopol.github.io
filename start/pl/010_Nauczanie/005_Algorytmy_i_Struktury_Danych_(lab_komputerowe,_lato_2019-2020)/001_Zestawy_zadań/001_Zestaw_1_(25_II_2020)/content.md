@@ -3,6 +3,10 @@
 </center>
 
 <center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+<center>
 (1 punkt)
 </center>
 
@@ -45,6 +49,10 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 </center>
 
 <center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+<center>
 (1 punkt)
 </center>
 
@@ -74,6 +82,10 @@ Uwaga: to zadanie może być zaliczone pod warunkiem prawidłowego wykonania **A
 
 <center>
 **D**
+</center>
+
+<center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
 </center>
 
 <center>

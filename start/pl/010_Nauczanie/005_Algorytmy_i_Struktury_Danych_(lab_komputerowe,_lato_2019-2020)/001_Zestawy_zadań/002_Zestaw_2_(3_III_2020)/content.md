@@ -3,7 +3,7 @@
 </center>
 
 <center>
-[\[źródło\]](https://doi.org/10.1002/bimj.4710260406)
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
 </center>
 
 <center>
@@ -23,6 +23,10 @@ takie przyporządkowanie dla zbiorów:
 
 <center>
 **B** 
+</center>
+
+<center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
 </center>
 
 <center>

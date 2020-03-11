@@ -20,13 +20,14 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
+	* [Coronavirus](./0pl.html)
 	* [Konsultacje](#konsultacje)
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
-		* [Zestawy zadań](./0pl.html)
-		* [Dodatkowe materiały](./00pl.html)
+		* [Zestawy zadań](./00pl.html)
+		* [Dodatkowe materiały](./000pl.html)
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
-		* [Zestawy zadań](./000pl.html)
-* [Curriculum vitae](./0000pl.html)
+		* [Zestawy zadań](./0000pl.html)
+* [Curriculum vitae](./00000pl.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
 
@@ -46,13 +47,17 @@ toc-title: TOC
 
 
 
+## [Coronavirus](./0pl.html)
+
+
+
 ## Konsultacje
 
 Czwartki, 10:00 - 12:00, WFAIS, pokój B-2-25 (II piętro). 
 Na domofonie proszę wybrać numer wewnętrzny $4869$ i podać
 numer drzwi.
 
-<div style="text-align: center"><a href = #nauczanie title = "nauczanie">↑</a><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">→</a></div>
+<div style="text-align: center"><a href = #coronavirus title = "coronavirus">←</a><a href = #nauczanie title = "nauczanie">↑</a><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">→</a></div>
 
 ## Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)
 
@@ -97,11 +102,11 @@ W pierwszej kolumnie znajduję się anonimowy identyfikator.
 
 <div style="text-align: center"><a href = #konsultacje title = "konsultacje">←</a><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>
 
-### [Zestawy zadań](./0pl.html)
+### [Zestawy zadań](./00pl.html)
 
 
 
-### [Dodatkowe materiały](./00pl.html)
+### [Dodatkowe materiały](./000pl.html)
 
 
 
@@ -137,11 +142,11 @@ identyfikator studenta.
 
 <div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">←</a><a href = #nauczanie title = "nauczanie">↑</a></div>
 
-### [Zestawy zadań](./000pl.html)
+### [Zestawy zadań](./0000pl.html)
 
 
 
-# [Curriculum vitae](./0000pl.html)
+# [Curriculum vitae](./00000pl.html)
 
 
 

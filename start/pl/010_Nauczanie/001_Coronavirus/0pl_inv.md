@@ -11,6 +11,7 @@ title : Coronavirus
 # Zawartość:
 
 * [Skype](#skype)
+* [Obecności](#obecności)
 * [Algebra i Gemetria](#algebra-i-gemetria)
 * [Algorytmy i Struktury Danych](#algorytmy-i-struktury-danych)
 
@@ -32,7 +33,15 @@ aby dołączyć do rozmowy (UWAGA nie wszystkie przeglądarki
 są wspierane - Google Chrome powinien działać).
 
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #algebra-i-gemetria title = "algebra i gemetria">→</a></div>
+<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #obecności title = "obecności">→</a></div>
+
+# Obecności
+
+Z przyczyn technicznych podarujemy sobie sprawdzanie obecności ale
+bardzo prosiłbym, w miarę możliwości, pojawiać się na **Skype**
+w czasie gdy normalnie mielibyśmy zajęcia.
+
+<div style="text-align: center"><a href = #skype title = "skype">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #algebra-i-gemetria title = "algebra i gemetria">→</a></div>
 
 # Algebra i Gemetria
 
@@ -43,7 +52,7 @@ Dodatkowo do czasu odwołania:
 * moga się zmienić zasady oceniania, proszę monitorować zmiany na stronie
 
 
-<div style="text-align: center"><a href = #skype title = "skype">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #algorytmy-i-struktury-danych title = "algorytmy i struktury danych">→</a></div>
+<div style="text-align: center"><a href = #obecności title = "obecności">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #algorytmy-i-struktury-danych title = "algorytmy i struktury danych">→</a></div>
 
 # Algorytmy i Struktury Danych
 

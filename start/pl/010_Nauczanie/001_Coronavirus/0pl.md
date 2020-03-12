@@ -32,6 +32,9 @@ który można wykorzystać
 aby dołączyć do rozmowy (UWAGA nie wszystkie przeglądarki
 są wspierane - Google Chrome powinien działać).
 
+Jeżeli ktoś ma problemy techniczne z połączeniem
+to proszę je zgłaszać na <kacper.topolnicki@uj.edu.pl>.
+W temacie wiadomości proszę umieścić "SKYPE2020".
 
 <div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #obecności title = "obecności">→</a></div>
 

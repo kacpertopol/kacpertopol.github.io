@@ -4,7 +4,7 @@ gdy normalnie mielibyśmy zajęcia w budynku WFAIS. Bepośrednio
 przed zajęciami na stronie pojawi się link:
 
 <center>
-[SKYPE: https://join.skype.com/lEefXx2sVgzD](https://join.skype.com/lEefXx2sVgzD)
+**MYŚLĘ, ŻE CZWARTKOWĄ PRÓBĘ GENERALNĄ MOŻNA UZNAĆ ZA SUKCESS - TUTAJ POJAWIĄ SIĘ LINKI DO SKYPE** 
 </center>
 
 który można wykorzystać

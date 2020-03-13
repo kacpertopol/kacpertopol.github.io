@@ -587,21 +587,6 @@ Wskazówka: poszukiwać rozwiązań w postaci $x(t) = a \sin(t) + b \cos(t)$
 Znaleźć wielomian trzeciego stopnia $X(t) = a + b t + c t^{2} + d t^{3}$, o którym wiadomo, że
 dla $t = 0 , 1 , 2 , 3$ przybiera wartości $1 , 2 , 3 , 4$ odpowiednio.
 
-<center>
-**G**
-</center>
 
-<center>
-(2 punkty)
-</center>
-
-<center>
-[doktor Tomasz]
-</center>
-
-*Proszę mi wybaczyć, nie mogłem się powstrzymać. Odrobinka czarnego homoru:*
-
-Zakładając, że liczba potwierdzonych przypadków nowego wirusa w Polsce będzie spełniać równanie logistyczne
-proszę policzyć ile studentów dożyje zaliczenia.
 
 <div style="text-align: center"><a href = #zestaw-3-9-iii-2020 title = "zestaw 3 9 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

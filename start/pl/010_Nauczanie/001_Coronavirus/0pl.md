@@ -14,7 +14,7 @@ title : Coronavirus
 * [Obecności](#obecności)
 * [Algebra i Gemetria](#algebra-i-gemetria)
 * [Algorytmy i Struktury Danych](#algorytmy-i-struktury-danych)
-* [Ewolucja czasowa wirusa](#ewolucja-czasowa-wirusa)
+* [Ewolucja czasowa przewidywań rozwoju epidemii](#ewolucja-czasowa-przewidywań-rozwoju-epidemii)
 
 
 
@@ -68,9 +68,9 @@ Dodatkowo do czasu odwołania:
 * moga się zmienić zasady oceniania, proszę monitorować zmiany na stronie
 
 
-<div style="text-align: center"><a href = #algebra-i-gemetria title = "algebra i gemetria">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #ewolucja-czasowa-wirusa title = "ewolucja czasowa wirusa">→</a></div>
+<div style="text-align: center"><a href = #algebra-i-gemetria title = "algebra i gemetria">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #ewolucja-czasowa-przewidywań-rozwoju-epidemii title = "ewolucja czasowa przewidywań rozwoju epidemii">→</a></div>
 
-# Ewolucja czasowa wirusa
+# Ewolucja czasowa przewidywań rozwoju epidemii
 
 **UWAGA**
 
@@ -105,25 +105,25 @@ Na wykresach BF (Best Fit - najlepsze dopasowanie), CF (Confidence Band - pasmo 
 **Włochy**
 
 <center>
-![](./start/pl/010_Nauczanie/001_Coronavirus/015_Ewolucja_czasowa_wirusa/IT.gif)
+![](./start/pl/010_Nauczanie/001_Coronavirus/015_Ewolucja_czasowa_przewidywań_rozwoju_epidemii/IT.gif)
 </center>
 
 **Niemcy**
 
 <center>
-![](./start/pl/010_Nauczanie/001_Coronavirus/015_Ewolucja_czasowa_wirusa/GR.gif)
+![](./start/pl/010_Nauczanie/001_Coronavirus/015_Ewolucja_czasowa_przewidywań_rozwoju_epidemii/GR.gif)
 </center>
 
 **Korea Południowa**
 
 <center>
-![](./start/pl/010_Nauczanie/001_Coronavirus/015_Ewolucja_czasowa_wirusa/SK.gif)
+![](./start/pl/010_Nauczanie/001_Coronavirus/015_Ewolucja_czasowa_przewidywań_rozwoju_epidemii/SK.gif)
 </center>
 
 **Japonia**
 
 <center>
-![](./start/pl/010_Nauczanie/001_Coronavirus/015_Ewolucja_czasowa_wirusa/JP.gif)
+![](./start/pl/010_Nauczanie/001_Coronavirus/015_Ewolucja_czasowa_przewidywań_rozwoju_epidemii/JP.gif)
 </center>
 
 

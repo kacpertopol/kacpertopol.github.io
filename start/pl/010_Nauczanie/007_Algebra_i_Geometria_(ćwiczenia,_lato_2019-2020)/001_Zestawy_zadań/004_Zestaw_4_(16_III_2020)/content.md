@@ -19,7 +19,7 @@ Dodatkowo proszę spróbować wykonać następujące ćwiczenia:
 
 Policzyć:
 
-$$\sum_{k = 1}^{n} \sin(k \alpha) = Im(\sum_{k = 1}^{n} \sin(k \alpha))$$
+$$\sum_{k = 1}^{n} \sin(k \alpha) = Im(\sum_{k = 1}^{n} \exp(i k \alpha))$$
 
 <center>
 **B**

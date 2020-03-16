@@ -26,7 +26,7 @@ gdy normalnie mielibyśmy zajęcia w budynku WFAIS. Bepośrednio
 przed zajęciami na stronie pojawi się link:
 
 <center>
-**MYŚLĘ, ŻE CZWARTKOWĄ PRÓBĘ GENERALNĄ MOŻNA UZNAĆ ZA SUKCESS - TUTAJ POJAWIĄ SIĘ LINKI DO SKYPE** 
+<https://join.skype.com/gjI5birAxQfP>
 </center>
 
 który można wykorzystać

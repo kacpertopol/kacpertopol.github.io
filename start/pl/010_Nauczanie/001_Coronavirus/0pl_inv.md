@@ -26,7 +26,7 @@ gdy normalnie mielibyśmy zajęcia w budynku WFAIS. Bepośrednio
 przed zajęciami na stronie pojawi się link:
 
 <center>
-<https://join.skype.com/b3mIMlI10I4o>
+<https://join.skype.com/h46CQNs9pTSV>
 </center>
 
 który można wykorzystać

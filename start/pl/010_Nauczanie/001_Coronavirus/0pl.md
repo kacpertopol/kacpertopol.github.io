@@ -26,7 +26,7 @@ gdy normalnie mielibyśmy zajęcia w budynku WFAIS. Bepośrednio
 przed zajęciami na stronie pojawi się link:
 
 <center>
-<https://join.skype.com/h46CQNs9pTSV>
+**TU POJAWI SIĘ LINK DO SKYPE BEZPOŚREDNIO PRZED ZAJĘCIAMI**
 </center>
 
 który można wykorzystać
@@ -62,6 +62,17 @@ Dodatkowo do czasu odwołania:
 <div style="text-align: center"><a href = #obecności title = "obecności">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #algorytmy-i-struktury-danych title = "algorytmy i struktury danych">→</a></div>
 
 # Algorytmy i Struktury Danych
+
+Proponuję następującą formulę prowadzenia zajęć:
+
+* krótkie omówienie zajęć ($\approx 45$ minut)
+* indywidualne konsultacje na **Skype** ($\approx 45$ minut)
+
+Bardzo proszę osoby, które chcą omówić zadania indywidualnie aby 
+pozostały dostępne na **Skype** po ogólnym omówieniu zadań.
+Mój login **Skype** to *live:kacpertopol*.
+Prosiłbym o cierpliwość, na każdych zajęciach będzie kilka osób, z którymi
+chciałbym porozmawiać. Gdy przyjdzie Państwa kolej napiszę wiadomość.
 
 Dodatkowo do czasu odwołania:
 

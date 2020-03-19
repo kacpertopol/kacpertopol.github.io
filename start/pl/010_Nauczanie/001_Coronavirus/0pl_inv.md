@@ -25,7 +25,7 @@ gdy normalnie mielibyśmy zajęcia w budynku WFAIS. Bepośrednio
 przed zajęciami / konsultacjami na stronie pojawi się link:
 
 <center>
-**KONSULTACJE:** <https://join.skype.com/h5kM79STuuRs>
+**LINK POJAWI SIĘ TUTAJ**
 </center>
 
 który można wykorzystać

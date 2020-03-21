@@ -27,6 +27,7 @@ toc-title: TOC
 		* [Dodatkowe materiały](./000pl.html)
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
 		* [Zestawy zadań](./0000pl.html)
+		* [Kolokwia](#kolokwia)
 * [Curriculum vitae](./00000pl.html)
 * [Fun](#fun)
 	* [Ewolucja czasowa przewidywań rozwoju epidemii](#ewolucja-czasowa-przewidywań-rozwoju-epidemii)
@@ -146,6 +147,20 @@ identyfikator studenta.
 ### [Zestawy zadań](./0000pl.html)
 
 
+
+### Kolokwia
+
+Poniżej znajdują sie linki do kolokwiów. Aby rozwiązać sprawdzian należy
+się zalogować swoim uniwersyteckim adresem e-mail
+oraz hasłem. Od momentu rozpoczęcia będziecie mieli Państwo 30 minut na ukończenie.
+Proszę aby osoby z grupy porannej i popołudniowej korzystały z właściwego linku:
+
+* Grupa poranna, sprawdzian bedzie aktywny 23 III 2020 od 9:30 do 10:00
+  * <https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm286zQ6q481WTxOpQNiHRakjpVURjEzN1FTSUxGNDFEODRUSTZYMEpJUklUQy4u>
+* Grupa południowa, sprawdzian będzie aktywny 23 III 2020 od 13:30 do 14:00
+  * <https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm286zQ6q481WTxOpQNiHRakjpVUN1Y4WVFMTTFROVBNS1FZVlRDUkVUM1FXTS4u>
+
+<div style="text-align: center"><a href = #zestawy-zadań title = "zestawy zadań">←</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">↑</a></div>
 
 # [Curriculum vitae](./00000pl.html)
 

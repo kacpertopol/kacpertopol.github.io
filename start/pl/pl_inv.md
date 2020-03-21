@@ -157,7 +157,7 @@ Proszę aby osoby z grupy porannej i popołudniowej korzystały z właściwego l
 
 * Grupa poranna, sprawdzian bedzie aktywny 23 III 2020 od 9:30 do 10:00
   * <https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm286zQ6q481WTxOpQNiHRakjpVURjEzN1FTSUxGNDFEODRUSTZYMEpJUklUQy4u>
-* Grupa południowa, sprawdzian będzie aktywny 23 III 2020 od 13:30 do 14:00
+* Grupa południowa, sprawdzian będzie aktywny 23 III 2020 od 12:30 do 13:00
   * <https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm286zQ6q481WTxOpQNiHRakjpVUN1Y4WVFMTTFROVBNS1FZVlRDUkVUM1FXTS4u>
 
 <div style="text-align: center"><a href = #zestawy-zadań title = "zestawy zadań">←</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">↑</a></div>

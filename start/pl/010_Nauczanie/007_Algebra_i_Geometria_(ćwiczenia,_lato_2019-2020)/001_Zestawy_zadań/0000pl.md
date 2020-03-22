@@ -588,6 +588,37 @@ Wskazówka: poszukiwać rozwiązań w postaci $x(t) = a \sin(t) + b \cos(t)$
 Znaleźć wielomian trzeciego stopnia $X(t) = a + b t + c t^{2} + d t^{3}$, o którym wiadomo, że
 dla $t = 0 , 1 , 2 , 3$ przybiera wartości $1 , 2 , 3 , 4$ odpowiednio.
 
+<center>
+**G**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+<center>
+[zadania sugerowane prof. Edwarda Malca]
+</center>
+
+Sprawdzić, że ogół liniowych kombinacji $\sin(t)$, $\cos(t)$
+(tzn. ogół wyrażeń postaci $a \sin(t) + b \cos(t)$ gdzie $a$ i $b$
+są rzeczywiste) tworzy przestrzeń liniową. $t$ jest parametrem, dowolnym
+(np. z przedziału $(0 , \pi)$).
+
+<center>
+**H**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+<center>
+[zadania sugerowane prof. Edwarda Malca]
+</center>
+
+Pokazać, że wektory $\sin(t)$, $\cos(t)$ są liniowo niezależne.
+
 
 
 <div style="text-align: center"><a href = #zestaw-3-9-iii-2020 title = "zestaw 3 9 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-5-23-iii-2020 title = "zestaw 5 23 iii 2020">→</a></div>
@@ -621,6 +652,9 @@ $$x + y - z = -2$$
 $$3 x - 5 y + 13 z = 18$$
 
 $$ x - 2 y + 5 z = k $$
+
+Policzyć rzędy macierzy współczynników $A$ oraz uzupełnionej o 
+kolumnę wyrazów wolnych $(A|b)$.
 
 <center>
 **B**
@@ -768,6 +802,20 @@ oraz macierz $B$ rozszerzoną o kolumnę wyrazów wolnych
 Policzyć - korzystając wprost z podanej na wykładzie definicji - 
 rzędy obu macierzy. Czy są one równe? Czy układ ten posiada rozwiązania?
 
+<center>
+**I**
+</center>
 
+<center>
+(2 punkty)
+</center>
+
+<center>
+[zadania sugerowane prof. Edwarda Malca]
+</center>
+
+Policzyć liczbę liniowo niezależnych kolumn (wierszy) macierzy współczynników 
+$A$ oraz uzupełnionej o kolumne wyrazów wolnyc (A | b); patrz zadanie **A**. 
+Porównaać wynik.
 
 <div style="text-align: center"><a href = #zestaw-4-16-iii-2020 title = "zestaw 4 16 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

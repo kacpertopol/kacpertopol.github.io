@@ -26,6 +26,9 @@ $$3 x - 5 y + 13 z = 18$$
 
 $$ x - 2 y + 5 z = k $$
 
+Policzyć rzędy macierzy współczynników $A$ oraz uzupełnionej o 
+kolumnę wyrazów wolnych $(A|b)$.
+
 <center>
 **B**
 </center>
@@ -172,4 +175,18 @@ oraz macierz $B$ rozszerzoną o kolumnę wyrazów wolnych
 Policzyć - korzystając wprost z podanej na wykładzie definicji - 
 rzędy obu macierzy. Czy są one równe? Czy układ ten posiada rozwiązania?
 
+<center>
+**I**
+</center>
 
+<center>
+(2 punkty)
+</center>
+
+<center>
+[zadania sugerowane prof. Edwarda Malca]
+</center>
+
+Policzyć liczbę liniowo niezależnych kolumn (wierszy) macierzy współczynników 
+$A$ oraz uzupełnionej o kolumne wyrazów wolnyc (A | b); patrz zadanie **A**. 
+Porównaać wynik.

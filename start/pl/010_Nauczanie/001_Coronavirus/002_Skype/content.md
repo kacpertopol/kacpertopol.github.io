@@ -4,7 +4,7 @@ gdy normalnie mielibyśmy zajęcia w budynku WFAIS. Bepośrednio
 przed zajęciami / konsultacjami na stronie pojawi się link:
 
 <center>
-<https://join.skype.com/hMP53rIXW4ES>
+**TUTAJ POJAWI SIĘ LINK**
 </center>
 
 który można wykorzystać

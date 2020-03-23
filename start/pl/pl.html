@@ -99,7 +99,6 @@ SOFTWARE.
 <li><a href="./00000pl.html">Curriculum vitae</a></li>
 <li><a href="#fun">Fun</a>
 <ul>
-<li><a href="#ewolucja-czasowa-przewidywań-rozwoju-epidemii">Ewolucja czasowa przewidywań rozwoju epidemii</a></li>
 <li><a href="#podkasty">Podkasty</a></li>
 </ul></li>
 </ul>
@@ -195,45 +194,6 @@ SOFTWARE.
 </div>
 <h1 id="curriculum-vitae"><a href="./00000pl.html">Curriculum vitae</a></h1>
 <h1 id="fun">Fun</h1>
-<h2 id="ewolucja-czasowa-przewidywań-rozwoju-epidemii">Ewolucja czasowa przewidywań rozwoju epidemii</h2>
-<p><strong>UWAGA</strong></p>
-<p>Wykresy poniżej to tylko spekulacja, nie należy ich wykorzystywać do praktycznych celów.</p>
-<p><strong>Równanie logistyczne</strong></p>
-<p>Istnieją dość dobre argumenty sugerujące, że ewolucja epidemii powinna spełniać <a href="https://en.wikipedia.org/wiki/Logistic_function">równanie logistyczne</a>. Jest również świetne <a href="https://youtu.be/Kas0tIxDvrg">wideo</a> na ten temat.</p>
-<p>Rozwiązanie równania logistycznego</p>
-<p><span class="math display">\[\frac{d}{d t} n(t) = r n(t) (1 - \frac{n(t)}{k})\]</span></p>
-<p>ma ogólną postać</p>
-<p><span class="math display">\[n(t) = \frac{k}{1 + \frac{k - p_{0}}{p_{0}} \exp(-r t)}\]</span></p>
-<p>gdzie <span class="math inline">\(r\)</span> określa tępo geometrycznego wzrostu liczny przypadków <span class="math inline">\(n(t)\)</span> na początku rozwoju epidemii (czas <span class="math inline">\(t \approx 0\)</span>), współczynnik <span class="math inline">\(k\)</span> jest związany z wielkością populacji natomiast <span class="math inline">\(p_{0}\)</span> jest swobodnym parametrem rozwiązania.</p>
-<p>Zakładając dodatkowo, że epidemia rozpoczęła się w czasie <span class="math inline">\(t_{0}\)</span>, czyli dokonując podmiany <span class="math inline">\(t \rightarrow t - t_{0}\)</span>, krzywą logistyczną można dopasować do <a href="https://github.com/CSSEGISandData/COVID-19">danych JHU CSSE</a>. Współczynnikami dopasowania są <span class="math inline">\(k\)</span>, <span class="math inline">\(p_{0}\)</span> , <span class="math inline">\(r\)</span>. Przyjmuję, że <span class="math inline">\(t_{0}\)</span> to czas pojawienia się pierwszego potwierdzonego przypadku minus <span class="math inline">\(1\)</span> dzień. Poniżej znajdują się wykresy przedstawiające ewolucję przewidywań opartych na tym dopasowaniu ze zwiększającą się liczbą dostępnych danych. Na wykresach BF (Best Fit - najlepsze dopasowanie), CF (Confidence Band - pasmo ufności), zielona linia pionowa (piątek 18 III 2020), czerwona linia pionowa (<span class="math inline">\(t_{0}\)</span>), niebieskie punkty (dane).</p>
-<p>Dodatkowe uwagi:</p>
-<ul>
-<li>dopasowanie do danych dotyczących zgonów wychodziło bardzo kiepsko, nie zamieszczam tych wykresów</li>
-<li>z danych dotyczących Włoch oraz Niemiec usunąłem początkowe zera</li>
-<li>w niektórych przypadkach musiałem majstrować przy początkowych parametrach dopasowania</li>
-<li>animacja uwzględnia tylko te dopasowania, których rezultatem były sensowne parametry</li>
-<li>dopasowanie zakłada taki sam błąd wyznaczania ilości potwierdzonych przypadków dla każdego dnia, czy to poprawnie?</li>
-<li>rysowanie pasm ufności w Mathematice jest możliwe jedynie dla modeli bez dodatkowych obwarowań na parametry dopasowania dlatego pasma ufności mogą wchodzić w obszar liczb ujemnych</li>
-</ul>
-<p><strong>Włochy</strong></p>
-<center>
-<img src="./start/pl/020_Fun/005_Ewolucja_czasowa_przewidywań_rozwoju_epidemii/IT.gif" />
-</center>
-<p><strong>Niemcy</strong></p>
-<center>
-<img src="./start/pl/020_Fun/005_Ewolucja_czasowa_przewidywań_rozwoju_epidemii/GR.gif" />
-</center>
-<p><strong>Korea Południowa</strong></p>
-<center>
-<img src="./start/pl/020_Fun/005_Ewolucja_czasowa_przewidywań_rozwoju_epidemii/SK.gif" />
-</center>
-<p><strong>Japonia</strong></p>
-<center>
-<img src="./start/pl/020_Fun/005_Ewolucja_czasowa_przewidywań_rozwoju_epidemii/JP.gif" />
-</center>
-<div style="text-align: center">
-<a href = #fun title = "fun">↑</a><a href = #podkasty title = "podkasty">→</a>
-</div>
 <h2 id="podkasty">Podkasty</h2>
 <ul>
 <li><p><a href="https://www.npr.org/podcasts/452538884/radiolab">Radiolab</a> <a href="http://feeds.feedburner.com/radiolab"><img src="./start/pl/020_Fun/010_Podkasty/feed-icon-14x14.png" /></a></p>
@@ -256,7 +216,7 @@ SOFTWARE.
 <p>Wspaniałe, krótkie opowiadania.</p></li>
 </ul>
 <div style="text-align: center">
-<a href = #ewolucja-czasowa-przewidywań-rozwoju-epidemii title = "ewolucja czasowa przewidywań rozwoju epidemii">←</a><a href = #fun title = "fun">↑</a>
+<a href = #fun title = "fun">↑</a>
 </div>
 </article>
 </body>

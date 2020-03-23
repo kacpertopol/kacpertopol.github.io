@@ -183,7 +183,7 @@ Może zaczniemy jednak nagrywać?
 </center>
 
 [Chaotyczne notatki z rana](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_23_03_2020_rano.pdf),
-[chaotyczne notatki z południa](--ThisDir---/algebra_23_03_2020_poludnie.pdf)
+[chaotyczne notatki z południa](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_23_03_2020_poludnie.pdf)
 oraz [nieco mniej chaotyczny notebook](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_23_03_2020_send.nb).
 
 <div style="text-align: center"><a href = #kolokwia title = "kolokwia">←</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">↑</a></div>

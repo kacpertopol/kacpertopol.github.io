@@ -13,5 +13,5 @@ Może zaczniemy jednak nagrywać?
 </center>
 
 [Chaotyczne notatki z rana](---ThisDir---/algebra_23_03_2020_rano.pdf),
-[chaotyczne notatki z południa](--ThisDir---/algebra_23_03_2020_poludnie.pdf)
+[chaotyczne notatki z południa](---ThisDir---/algebra_23_03_2020_poludnie.pdf)
 oraz [nieco mniej chaotyczny notebook](---ThisDir---/algebra_23_03_2020_send.nb).

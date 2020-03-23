@@ -28,6 +28,7 @@ toc-title: TOC
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
 		* [Zestawy zadań](./0000pl_inv.html)
 		* [Kolokwia](#kolokwia)
+		* [Materiały dodatkowe](#materiały-dodatkowe)
 * [Curriculum vitae](./00000pl_inv.html)
 * [Fun](#fun)
 	* [Ewolucja czasowa przewidywań rozwoju epidemii](#ewolucja-czasowa-przewidywań-rozwoju-epidemii)
@@ -163,7 +164,29 @@ Proszę aby osoby z grupy porannej i popołudniowej korzystały z właściwego l
 * Grupa południowa, sprawdzian będzie aktywny 23 III 2020 od 12:30 do 13:00
   * <https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm286zQ6q481WTxOpQNiHRakjpVUN1Y4WVFMTTFROVBNS1FZVlRDUkVUM1FXTS4u>
 
-<div style="text-align: center"><a href = #zestawy-zadań title = "zestawy zadań">←</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">↑</a></div>
+<div style="text-align: center"><a href = #zestawy-zadań title = "zestawy zadań">←</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">↑</a><a href = #materiały-dodatkowe title = "materiały dodatkowe">→</a></div>
+
+### Materiały dodatkowe
+
+Trochę wacham się, czy zamieścić tutaj notatki ze Skypowania. 
+Są dość chaotyczne i pisane jak kura pazurem :-) Ale niech będzie ... 
+Może zaczniemy jednak nagrywać?
+
+<center>
+**16 III 2020**
+</center>
+
+[Chaotyczne notatki z południa](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_16_03_2020.pdf).
+
+<center>
+**23 III 2020**
+</center>
+
+[Chaotyczne notatki z rana](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_23_03_2020_rano.pdf),
+[chaotyczne notatki z południa](--ThisDir---/algebra_23_03_2020_poludnie.pdf)
+oraz [nieco mniej chaotyczny notebook](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_23_03_2020_send.nb).
+
+<div style="text-align: center"><a href = #kolokwia title = "kolokwia">←</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">↑</a></div>
 
 # [Curriculum vitae](./00000pl_inv.html)
 

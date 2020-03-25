@@ -1,10 +1,9 @@
-W związku z zarządzeniem Pani Dziekan zajęcia będą prowadzone
-za pośrednictwem internetu. Będę dostępny na **Skype** w godzinach
+Będę dostępny na **Skype** w godzinach
 gdy normalnie mielibyśmy zajęcia w budynku WFAIS. Bepośrednio
-przed zajęciami / konsultacjami na stronie pojawi się link:
+przed zajęciami na stronie pojawi się link:
 
 <center>
-<https://join.skype.com/c6mFuSp2RlWk>
+**TUTAJ, PRZED PONIEDZIAŁKOWYMI ORAZ WTORKOWYMI ZAJĘCIAMI POJAWI SIĘ LINK DO ROZMOWY NA SKYPE**
 </center>
 
 który można wykorzystać

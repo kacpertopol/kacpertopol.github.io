@@ -10,6 +10,7 @@ title : Coronavirus
 
 # Zawartość:
 
+* [Nauczanie zdalne](#nauczanie-zdalne)
 * [Zoom](#zoom)
 * [Skype](#skype)
 * [Obecności](#obecności)
@@ -17,6 +18,19 @@ title : Coronavirus
 * [Algorytmy i Struktury Danych](#algorytmy-i-struktury-danych)
 
 
+
+# Nauczanie zdalne
+
+W związku z zarządzeniem Pani Dziekan zajęcia będą prowadzone
+za pośrednictwem internetu. Zajęcia poniedziałkowe oraz wtorkowe
+będą prowadzone, przynajmniej przez jakiś czas, za pośrednictwem
+*Skype*. W czwartek 26 III 2020 będziemy testować program *zoom*
+i zdecydujemy czy lepiej korzystać z tej platformy. Poniżej 
+znajdują się dodatkowe informacje dotyczące tych programów,
+dane potrzebne do dołączenia do rozmów na *Skype* oraz *zoom*
+oraz informacje dotyczące samych zajęć.
+
+<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #zoom title = "zoom">→</a></div>
 
 # Zoom
 
@@ -71,7 +85,7 @@ dla Państwa sprzętu ale ich wykonanie jest na własną odpowiedzialność.
 **1** Najpierw należy otworzyć preferencje:
 
 <center>
-![krok 1](./start/pl/010_Nauczanie/001_Coronavirus/001_Zoom/step1.jpg)
+![krok 1](./start/pl/010_Nauczanie/001_Coronavirus/003_Zoom/step1.jpg)
 </center>
 
 **2** Następnie w zakładce "Video" można obrócić (2 razy) obraz z kamery
@@ -79,31 +93,30 @@ o $90$ stopni (po zajęciach obrót o $180$ stopni powinien przywrócić
 normalny obraz):
 
 <center>
-![krok 2](./start/pl/010_Nauczanie/001_Coronavirus/001_Zoom/step2.jpg)
+![krok 2](./start/pl/010_Nauczanie/001_Coronavirus/003_Zoom/step2.jpg)
 </center>
 
 **3** Kolejnym krokiem jest pochylenie laptopa tak aby kamerka widziała całą kartkę papieru,
 na której można swobodnie pisać:
 
 <center>
-![krok 2](./start/pl/010_Nauczanie/001_Coronavirus/001_Zoom/step3r.jpg)
+![krok 2](./start/pl/010_Nauczanie/001_Coronavirus/003_Zoom/step3r.jpg)
 </center>
 
 
 
 
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #skype title = "skype">→</a></div>
+<div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #skype title = "skype">→</a></div>
 
 # Skype
 
-W związku z zarządzeniem Pani Dziekan zajęcia będą prowadzone
-za pośrednictwem internetu. Będę dostępny na **Skype** w godzinach
+Będę dostępny na **Skype** w godzinach
 gdy normalnie mielibyśmy zajęcia w budynku WFAIS. Bepośrednio
-przed zajęciami / konsultacjami na stronie pojawi się link:
+przed zajęciami na stronie pojawi się link:
 
 <center>
-<https://join.skype.com/c6mFuSp2RlWk>
+**TUTAJ, PRZED PONIEDZIAŁKOWYMI ORAZ WTORKOWYMI ZAJĘCIAMI POJAWI SIĘ LINK DO ROZMOWY NA SKYPE**
 </center>
 
 który można wykorzystać

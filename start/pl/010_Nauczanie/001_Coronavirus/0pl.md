@@ -63,7 +63,7 @@ zwykłych zajęć. Obecnie jest to nie możliwe ale są sposoby aby to
 doświadczenie emulować.
 Osobiście na ćwiczeniach piszę rysikiem po tablecie graficznym (WACOM ONE). 
 NIE ZACHĘCAM Państwa do zakupów, są równie dobre i znacznie tańsze metody ...
-Wystarczy laptop z kaperką.
+Wystarczy laptop z kamerką.
 
 **UWAGA** Poniższe kroki nie wydają się zbytnio niebezpieczne
 dla Państwa sprzętu ale ich wykonanie jest na własną odpowiedzialność.
@@ -82,7 +82,7 @@ normalny obraz):
 ![krok 2](./start/pl/010_Nauczanie/001_Coronavirus/001_Zoom/step2.jpg)
 </center>
 
-**3** Kolejnym krokiem jest pochylenie laptopa tak aby widoczna była kartka papieru,
+**3** Kolejnym krokiem jest pochylenie laptopa tak aby kamerka widziała całą kartkę papieru,
 na której można swobodnie pisać:
 
 <center>

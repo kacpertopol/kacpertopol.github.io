@@ -11,6 +11,7 @@ title : Coronavirus
 # Zawartość:
 
 * [Nauczanie zdalne](#nauczanie-zdalne)
+* [LINKI DO ZAJĘĆ](#linki-do-zajęć)
 * [Zoom](#zoom)
 * [Skype](#skype)
 * [Obecności](#obecności)
@@ -31,7 +32,34 @@ znajdują się dodatkowe informacje dotyczące tych programów,
 dane potrzebne do dołączenia do rozmów na *Skype* oraz *zoom*
 oraz informacje dotyczące samych zajęć.
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #zoom title = "zoom">→</a></div>
+<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #linki-do-zajęć title = "linki do zajęć">→</a></div>
+
+# LINKI DO ZAJĘĆ
+
+<center>
+**Konsultacje - ZOOM**
+</center>
+
+Dane potrzebne aby dołączyć do zajęć.
+
+```
+Kacper Topolnicki is inviting you to a scheduled Zoom meeting.
+
+Topic: Konsultacje
+Time: Mar 26, 2020 10:00 AM Warsaw
+
+Join Zoom Meeting
+https://zoom.us/j/491190831?pwd=djNBd0hkM2djRStQYTR5UmtZUW44Zz09
+
+Meeting ID: 491 190 831
+Password: 049840
+```
+
+Konsultacje odbędą się za pośrednictwem programu *zoom*.
+Więcej informacji na temat tego programu znajduje się niżej.
+
+
+<div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zoom title = "zoom">→</a></div>
 
 # Zoom
 
@@ -49,25 +77,7 @@ są wersje na różne systemy operacyjne.
 
 Po uruchomieniu aplikacji *zoom* i zalogowaniu się
 wystarczy wcisnąć *Join* i następnie podać "Meeting ID"
-oraz "password". Przed zajęciami zarówno hasło jak i numer
-spotkania zostaną umieszczone poniżej.
-
-<center>
-**Dane potrzebne do dołączenia do spotkania**
-</center>
-
-```
-Kacper Topolnicki is inviting you to a scheduled Zoom meeting.
-
-Topic: Konsultacje
-Time: Mar 26, 2020 10:00 AM Warsaw
-
-Join Zoom Meeting
-https://zoom.us/j/491190831?pwd=djNBd0hkM2djRStQYTR5UmtZUW44Zz09
-
-Meeting ID: 491 190 831
-Password: 049840
-```
+oraz "password". 
 
 <center>
 **Korzystanie z ZOOM jak z tablicy**
@@ -108,19 +118,13 @@ na której można swobodnie pisać:
 
 
 
-<div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #skype title = "skype">→</a></div>
+<div style="text-align: center"><a href = #linki-do-zajęć title = "linki do zajęć">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #skype title = "skype">→</a></div>
 
 # Skype
 
 Będę dostępny na **Skype** w godzinach
 gdy normalnie mielibyśmy zajęcia w budynku WFAIS. Bepośrednio
-przed zajęciami na stronie pojawi się link:
-
-<center>
-**TUTAJ, PRZED PONIEDZIAŁKOWYMI ORAZ WTORKOWYMI ZAJĘCIAMI POJAWI SIĘ LINK DO ROZMOWY NA SKYPE**
-</center>
-
-który można wykorzystać
+przed zajęciami w **LINKI DO ZAJĘĆ** pojawi się link, który można wykorzystać
 aby dołączyć do rozmowy (UWAGA nie wszystkie przeglądarki
 są wspierane - Google Chrome powinien działać).
 

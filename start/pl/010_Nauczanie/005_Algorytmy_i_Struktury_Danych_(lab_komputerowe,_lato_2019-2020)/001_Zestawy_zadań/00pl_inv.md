@@ -15,6 +15,7 @@ title : Zestawy zadań
 * [Zestaw 3 (10 III 2020)](#zestaw-3-10-iii-2020)
 * [Zestaw 4 (10 III 2020)](#zestaw-4-10-iii-2020)
 * [Zestaw 5 (24 III 2020)](#zestaw-5-24-iii-2020)
+* [Zestaw 6 (31 III 2020)](#zestaw-6-31-iii-2020)
 
 
 
@@ -362,4 +363,43 @@ jednej wybranej operacji (wykres oraz opis).
 
 Proszę dokończyć zadania z poprzednich zestawów.
 
-<div style="text-align: center"><a href = #zestaw-4-10-iii-2020 title = "zestaw 4 10 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #zestaw-4-10-iii-2020 title = "zestaw 4 10 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-6-31-iii-2020 title = "zestaw 6 31 iii 2020">→</a></div>
+
+# Zestaw 6 (31 III 2020)
+
+<center>
+**A** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę zapoznać się z pakietem [Graphviz](https://graphviz.gitlab.io/). Następnie
+korzystając z programu *dot* proszę stworzyć plik *jpg* z grafem:
+
+* zawierającym trzy wierzchołki
+* zawierającym połączenia, w obydwu kierunkach, pomiędzy wszystkimi wierzchołkami
+
+Przykładowy [plik z prostrzym grafem](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/006_Zestaw_6_(31_III_2020)/smallGraph) oraz [rezultat](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/006_Zestaw_6_(31_III_2020)/smallGraph.jpg).
+Aby stworzyć obrazek wystarczy w linii komend uruchomić:
+
+```
+$ dot -Tjpg smallGraph -o smallGraph.jpg
+```
+
+[Tutaj](https://www.graphviz.org/pdf/dotguide.pdf) można znaleźć przewodnik po programie *dot*. 
+
+<center>
+**B** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o metodę tworzącą plik,
+który może być wykorzystany przez program *dot* do narysowania grafu.
+
+
+<div style="text-align: center"><a href = #zestaw-5-24-iii-2020 title = "zestaw 5 24 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

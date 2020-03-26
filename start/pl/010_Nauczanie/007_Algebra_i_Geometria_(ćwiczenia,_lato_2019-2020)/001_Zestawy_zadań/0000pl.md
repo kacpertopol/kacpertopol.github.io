@@ -15,6 +15,7 @@ title : Zestawy zadań
 * [Zestaw 3 (9 III 2020)](#zestaw-3-9-iii-2020)
 * [Zestaw 4 (16 III 2020)](#zestaw-4-16-iii-2020)
 * [Zestaw 5 (23 III 2020)](#zestaw-5-23-iii-2020)
+* [Zestaw 6 (30 III 2020)](#zestaw-6-30-iii-2020)
 
 
 
@@ -722,7 +723,7 @@ Policzyć $e^{i \alpha C}$, gdzie $C$ jest macierzą zdefiniowaną w zadaniu **B
 [zadania sugerowane prof. Edwarda Malca]
 </center>
 
-Rozwiązać równania macierzowe:
+Rozwiązać równania macierzowe ($X$ jest macierzą kwadratową):
 
 $$X A = 1$$
 
@@ -773,6 +774,9 @@ Uzasadnij, że taki układ ma zawsze rozwiązania.
 Pokaż, że jeśli $Rz(A) = n$, gdzie $n$ to liczba niewiadomych, to jedynym rozwiązaniem jest 
 $x_{1} = x_{2} = \ldots = x_{n} = 0$.
 
+*Wskazówka*: Rzędem $Rz(A)$ macierzy $A$ nazywamy liczbę niezerowych skrajych elementów w jej
+postaci trójkątnej (patrz wykład $4$).
+
 <center>
 **G**
 </center>
@@ -818,4 +822,16 @@ Policzyć liczbę liniowo niezależnych kolumn (wierszy) macierzy współczynnik
 $A$ oraz uzupełnionej o kolumne wyrazów wolnyc (A | b); patrz zadanie **A**. 
 Porównaać wynik.
 
-<div style="text-align: center"><a href = #zestaw-4-16-iii-2020 title = "zestaw 4 16 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #zestaw-4-16-iii-2020 title = "zestaw 4 16 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-6-30-iii-2020 title = "zestaw 6 30 iii 2020">→</a></div>
+
+# Zestaw 6 (30 III 2020)
+
+<center>
+**$\Omega$**
+</center>
+
+Proszę zrobić niedokończone zadania z poprzednich zajęć. 
+
+
+
+<div style="text-align: center"><a href = #zestaw-5-23-iii-2020 title = "zestaw 5 23 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

@@ -95,7 +95,7 @@ Policzyć $e^{i \alpha C}$, gdzie $C$ jest macierzą zdefiniowaną w zadaniu **B
 [zadania sugerowane prof. Edwarda Malca]
 </center>
 
-Rozwiązać równania macierzowe:
+Rozwiązać równania macierzowe ($X$ jest macierzą kwadratową):
 
 $$X A = 1$$
 
@@ -145,6 +145,9 @@ Uzasadnij, że taki układ ma zawsze rozwiązania.
 
 Pokaż, że jeśli $Rz(A) = n$, gdzie $n$ to liczba niewiadomych, to jedynym rozwiązaniem jest 
 $x_{1} = x_{2} = \ldots = x_{n} = 0$.
+
+*Wskazówka*: Rzędem $Rz(A)$ macierzy $A$ nazywamy liczbę niezerowych skrajych elementów w jej
+postaci trójkątnej (patrz wykład $4$).
 
 <center>
 **G**

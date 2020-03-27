@@ -12,6 +12,7 @@ title : Coronavirus
 
 * [Nauczanie zdalne](#nauczanie-zdalne)
 * [LINKI DO ZAJĘĆ](#linki-do-zajęć)
+* [JAK MNIE ZNALEŹĆ](#jak-mnie-znaleźć)
 * [Zoom](#zoom)
 * [Skype](#skype)
 * [Obecności](#obecności)
@@ -38,7 +39,28 @@ oraz informacje dotyczące samych zajęć.
 
 W TEJ CZĘŚCI POJAWIĄ SIĘ DANE POTRZEBNE DO DOŁĄCZENIA DO ZAJĘĆ NA ZOOM LUB SKYPE.
 
-<div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zoom title = "zoom">→</a></div>
+<div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>
+
+# JAK MNIE ZNALEŹĆ
+
+<center>
+**zoom**
+</center>
+
+Po założeniu darmowego konta na *zoom* oraz zalogowaniu się (w przeglądarce internetowej)
+można zaakceptować zaproszenie do dołączenia do moich kontaktów poprzez link:
+
+<https://zoom.us/im/add?code=VFc9E7IG6lh0S63SfCX1PaAqJ0miP2FlJ7yJ6H9xNYI.BQgAAAFxG-uQSwAnjQAWamVoQ3lndkVRWk9lSTA2UFRvWjB5QQQAZAAAFlktbllQdTJlUlRXY1Vxb09Xc0ZOT1EAAAAAAAAAAA>
+
+<center>
+**Skype**
+</center>
+
+Można znaleźć mnie na skype pod nazwą:
+
+*live:kacpertopol*
+
+<div style="text-align: center"><a href = #linki-do-zajęć title = "linki do zajęć">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zoom title = "zoom">→</a></div>
 
 # Zoom
 
@@ -75,7 +97,7 @@ dla Państwa sprzętu ale ich wykonanie jest na własną odpowiedzialność.
 **1** Najpierw należy otworzyć preferencje:
 
 <center>
-![krok 1](./start/pl/010_Nauczanie/001_Coronavirus/003_Zoom/step1.jpg)
+![krok 1](./start/pl/010_Nauczanie/001_Coronavirus/004_Zoom/step1.jpg)
 </center>
 
 **2** Następnie w zakładce "Video" można obrócić (2 razy) obraz z kamery
@@ -83,21 +105,21 @@ o $90$ stopni (po zajęciach obrót o $180$ stopni powinien przywrócić
 normalny obraz):
 
 <center>
-![krok 2](./start/pl/010_Nauczanie/001_Coronavirus/003_Zoom/step2.jpg)
+![krok 2](./start/pl/010_Nauczanie/001_Coronavirus/004_Zoom/step2.jpg)
 </center>
 
 **3** Kolejnym krokiem jest pochylenie laptopa tak aby kamerka widziała całą kartkę papieru,
 na której można swobodnie pisać:
 
 <center>
-![krok 2](./start/pl/010_Nauczanie/001_Coronavirus/003_Zoom/step3r.jpg)
+![krok 2](./start/pl/010_Nauczanie/001_Coronavirus/004_Zoom/step3r.jpg)
 </center>
 
 
 
 
 
-<div style="text-align: center"><a href = #linki-do-zajęć title = "linki do zajęć">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #skype title = "skype">→</a></div>
+<div style="text-align: center"><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #skype title = "skype">→</a></div>
 
 # Skype
 

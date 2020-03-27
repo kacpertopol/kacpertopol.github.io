@@ -36,28 +36,7 @@ oraz informacje dotyczące samych zajęć.
 
 # LINKI DO ZAJĘĆ
 
-<center>
-**Konsultacje - ZOOM**
-</center>
-
-Dane potrzebne aby dołączyć do zajęć.
-
-```
-Kacper Topolnicki is inviting you to a scheduled Zoom meeting.
-
-Topic: Konsultacje
-Time: Mar 26, 2020 10:00 AM Warsaw
-
-Join Zoom Meeting
-https://zoom.us/j/491190831?pwd=djNBd0hkM2djRStQYTR5UmtZUW44Zz09
-
-Meeting ID: 491 190 831
-Password: 049840
-```
-
-Konsultacje odbędą się za pośrednictwem programu *zoom*.
-Więcej informacji na temat tego programu znajduje się niżej.
-
+W TEJ CZĘŚCI POJAWIĄ SIĘ DANE POTRZEBNE DO DOŁĄCZENIA DO ZAJĘĆ NA ZOOM LUB SKYPE.
 
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zoom title = "zoom">→</a></div>
 

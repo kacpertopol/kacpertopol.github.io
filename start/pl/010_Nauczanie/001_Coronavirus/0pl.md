@@ -37,7 +37,17 @@ oraz informacje dotyczące samych zajęć.
 
 # LINKI DO ZAJĘĆ
 
-W TEJ CZĘŚCI POJAWIĄ SIĘ DANE POTRZEBNE DO DOŁĄCZENIA DO ZAJĘĆ NA ZOOM LUB SKYPE.
+<center>
+**Algebra, poniedziałek, 8:30**
+</center>
+
+Tym razem spróbujemy zoom (rano pojawi się również link do Skype jako backup). Aby 
+dołączyć do zajęć, po założeniu darmowego konta i instalacji aplikacji zoom
+wystarczy wcisnąć "Join" i wpisać dane:
+```
+Meeting ID: 732 678 826
+Password: 098090
+```
 
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>
 

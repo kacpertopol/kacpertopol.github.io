@@ -13,4 +13,4 @@ Password: 069911
 "Backup", link do Skype:
 <center>
 <https://join.skype.com/pM5TN1NBIfqL>
-</center>i
+</center>

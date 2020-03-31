@@ -48,7 +48,7 @@ Password: 069911
 "Backup", link do Skype:
 <center>
 <https://join.skype.com/pM5TN1NBIfqL>
-</center>i
+</center>
 
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>
 

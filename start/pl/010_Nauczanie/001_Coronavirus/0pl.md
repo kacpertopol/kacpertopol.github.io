@@ -24,12 +24,8 @@ title : Coronavirus
 # Nauczanie zdalne
 
 W związku z zarządzeniem Pani Dziekan zajęcia będą prowadzone
-za pośrednictwem internetu. Zajęcia poniedziałkowe oraz wtorkowe
-będą prowadzone, przynajmniej przez jakiś czas, za pośrednictwem
-*Skype*. W czwartek 26 III 2020 będziemy testować program *zoom*
-i zdecydujemy czy lepiej korzystać z tej platformy 
-(proszę monitorować zmiany na stronie). Poniżej 
-znajdują się dodatkowe informacje dotyczące tych programów,
+za pośrednictwem internetu. Poniżej 
+znajdują się dodatkowe informacje dotyczące programów *Skype* oraz *zoom*,
 dane potrzebne do dołączenia do rozmów na *Skype* oraz *zoom*
 oraz informacje dotyczące samych zajęć.
 
@@ -38,21 +34,21 @@ oraz informacje dotyczące samych zajęć.
 # LINKI DO ZAJĘĆ
 
 <center>
-**Algebra, poniedziałek, 12:00**
+**AiSD2, wtorek 16:00**
 </center>
 
 Tym razem spróbujemy zoom (rano pojawi się również link do Skype jako "backup"). Aby 
 dołączyć do zajęć, po założeniu darmowego konta i instalacji aplikacji zoom
 wystarczy wcisnąć "Join" i wpisać dane:
 ```
-Meeting ID: 231 301 609
-Password: 040532
+Meeting ID: 852 392 509
+Password: 069911
 ```
 
 "Backup", link do Skype:
 <center>
-<https://join.skype.com/G1qS4YE6eD42>
-</center>
+<https://join.skype.com/pM5TN1NBIfqL>
+</center>i
 
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>
 

@@ -1,16 +1,12 @@
 <center>
-**AiSD2, wtorek 16:00**
+**Konsultacje, czwartek 10:00-11:00 (dzisiaj trochę krócej)**
 </center>
 
-Tym razem spróbujemy zoom (rano pojawi się również link do Skype jako "backup"). Aby 
+Tym razem spróbujemy zoom (bedę również dostępny na Skype). Aby 
 dołączyć do zajęć, po założeniu darmowego konta i instalacji aplikacji zoom
 wystarczy wcisnąć "Join" i wpisać dane:
-```
-Meeting ID: 852 392 509
-Password: 069911
-```
 
-"Backup", link do Skype:
-<center>
-<https://join.skype.com/pM5TN1NBIfqL>
-</center>
+```
+Meeting ID: 653 590 802
+Password: 003249
+```

@@ -27,9 +27,9 @@ toc-title: TOC
 		* [Dodatkowe materiały](./000pl_inv.html)
 	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
 		* [Zestawy zadań](./0000pl_inv.html)
-		* [Kolokwia](#kolokwia)
-		* [Materiały dodatkowe](#materiały-dodatkowe)
-* [Curriculum vitae](./00000pl_inv.html)
+		* [Kolokwia](./00000pl_inv.html)
+		* [Materiały dodatkowe](./000000pl_inv.html)
+* [Curriculum vitae](./0000000pl_inv.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
 
@@ -148,46 +148,15 @@ identyfikator studenta.
 
 
 
-### Kolokwia
+### [Kolokwia](./00000pl_inv.html)
 
-Poniżej znajdują sie linki do kolokwiów. Aby rozwiązać sprawdzian należy
-się zalogować swoim uniwersyteckim adresem e-mail
-oraz hasłem. 
-Rozwiązania będzie można zatwierdzać odpowiednio do 10:00 (grupa poranna) oraz do 13:00 (drupa południowa),
-w związku z tym opłaca się uruchomić link odpowiednio o 9:30 lub 12:30 by mieć najwięcej czasu na 
-rozwiązanie - 30 minut.
-Proszę aby osoby z grupy porannej i popołudniowej korzystały z właściwego linku:
 
-* Grupa poranna, sprawdzian bedzie aktywny 23 III 2020 od 9:30 do 10:00
-  * <https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm286zQ6q481WTxOpQNiHRakjpVURjEzN1FTSUxGNDFEODRUSTZYMEpJUklUQy4u>
-* Grupa południowa, sprawdzian będzie aktywny 23 III 2020 od 12:30 do 13:00
-  * <https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm286zQ6q481WTxOpQNiHRakjpVUN1Y4WVFMTTFROVBNS1FZVlRDUkVUM1FXTS4u>
 
-<div style="text-align: center"><a href = #zestawy-zadań title = "zestawy zadań">←</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">↑</a><a href = #materiały-dodatkowe title = "materiały dodatkowe">→</a></div>
+### [Materiały dodatkowe](./000000pl_inv.html)
 
-### Materiały dodatkowe
 
-Trochę wacham się, czy zamieścić tutaj notatki ze Skypowania. 
-Są dość chaotyczne i pisane jak kura pazurem :-) Ale niech będzie ... 
-Może zaczniemy jednak nagrywać?
 
-<center>
-**16 III 2020**
-</center>
-
-[Chaotyczne notatki z południa](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_16_03_2020.pdf).
-
-<center>
-**23 III 2020**
-</center>
-
-[Chaotyczne notatki z rana](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_23_03_2020_rano.pdf),
-[chaotyczne notatki z południa](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_23_03_2020_poludnie.pdf)
-oraz [nieco mniej chaotyczny notebook](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/004_Materiały_dodatkowe/algebra_23_03_2020_send.nb).
-
-<div style="text-align: center"><a href = #kolokwia title = "kolokwia">←</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">↑</a></div>
-
-# [Curriculum vitae](./00000pl_inv.html)
+# [Curriculum vitae](./0000000pl_inv.html)
 
 
 

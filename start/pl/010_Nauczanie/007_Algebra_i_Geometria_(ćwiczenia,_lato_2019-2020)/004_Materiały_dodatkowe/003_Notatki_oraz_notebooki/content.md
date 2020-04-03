@@ -15,3 +15,12 @@ Może zaczniemy jednak nagrywać?
 [Chaotyczne notatki z rana](---ThisDir---/algebra_23_03_2020_rano.pdf),
 [chaotyczne notatki z południa](---ThisDir---/algebra_23_03_2020_poludnie.pdf)
 oraz [nieco mniej chaotyczny notebook](---ThisDir---/algebra_23_03_2020_send.nb).
+
+<center>
+**30 III 2020**
+</center>
+
+[Chaotyczne notatki z rana](---ThisDir---/algebra_30_03_2020_rano.pdf),
+[chaotyczne notatki z południa](---ThisDir---/algebra_30_03_2020_poludnie.pdf)
+oraz [nieco mniej chaotyczny notebook](---ThisDir---/algebra_30_03_2020_rano.nb).
+

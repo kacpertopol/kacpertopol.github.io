@@ -144,4 +144,3 @@ Znak $^{T}$ oznacza operację transponowania.
 * Sprawdzić, czy te wektory są liniowo niezależne.
 
 * Czy można zapisać wektor $\hat{z} = (1 , 1 , 1)^{T}$ jako liniową kombinację wektorów $\hat{e}_{2}$ i $\hat{e}_{3}$
-

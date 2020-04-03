@@ -986,5 +986,4 @@ Znak $^{T}$ oznacza operację transponowania.
 
 * Czy można zapisać wektor $\hat{z} = (1 , 1 , 1)^{T}$ jako liniową kombinację wektorów $\hat{e}_{2}$ i $\hat{e}_{3}$
 
-
 <div style="text-align: center"><a href = #zestaw-6-30-iii-2020 title = "zestaw 6 30 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

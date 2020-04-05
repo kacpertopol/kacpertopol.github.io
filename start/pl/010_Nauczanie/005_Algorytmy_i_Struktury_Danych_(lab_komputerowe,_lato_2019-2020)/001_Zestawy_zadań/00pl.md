@@ -466,5 +466,4 @@ z wcześniej zaimplementowanych przez Państwa reprezentacji grafu lub skorzysta
 Państwa wynik końcowy proszę przedstawić w formie rysunku.
 
 
-
 <div style="text-align: center"><a href = #zestaw-6-31-iii-2020 title = "zestaw 6 31 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

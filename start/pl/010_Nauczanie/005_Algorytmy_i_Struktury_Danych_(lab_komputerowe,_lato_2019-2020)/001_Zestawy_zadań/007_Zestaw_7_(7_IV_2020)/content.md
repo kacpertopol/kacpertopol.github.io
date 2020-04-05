@@ -56,4 +56,3 @@ taką trasę skoczka po szachownicy, aby każde pole było odwiedzone jedynie ra
 z wcześniej zaimplementowanych przez Państwa reprezentacji grafu lub skorzystać z gotowych bibliotek.
 Państwa wynik końcowy proszę przedstawić w formie rysunku.
 
-

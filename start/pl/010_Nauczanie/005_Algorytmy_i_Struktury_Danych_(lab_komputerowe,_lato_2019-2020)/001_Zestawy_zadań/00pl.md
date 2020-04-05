@@ -16,6 +16,7 @@ title : Zestawy zadań
 * [Zestaw 4 (10 III 2020)](#zestaw-4-10-iii-2020)
 * [Zestaw 5 (24 III 2020)](#zestaw-5-24-iii-2020)
 * [Zestaw 6 (31 III 2020)](#zestaw-6-31-iii-2020)
+* [Zestaw 7 (7 IV 2020)](#zestaw-7-7-iv-2020)
 
 
 
@@ -402,4 +403,68 @@ Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o metod
 który może być wykorzystany przez program *dot* do narysowania grafu.
 
 
-<div style="text-align: center"><a href = #zestaw-5-24-iii-2020 title = "zestaw 5 24 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #zestaw-5-24-iii-2020 title = "zestaw 5 24 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-7-7-iv-2020 title = "zestaw 7 7 iv 2020">→</a></div>
+
+# Zestaw 7 (7 IV 2020)
+
+<center>
+**A** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę zaimplementować ADT graph, posiadający wszystkie operacje z zadania **A** w zestawie 4.
+Tym razem proszę wykorzystać reprezentację w której dla każdego wierzchołka przechowywana jest
+list sąsiadów.
+
+<center>
+**B** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+<center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+Proszę się zastanowić jak wykorzystać reprezentację grafową do rozwiązania problemu 
+znalezienia minimalnej liczby "faz" sygnalizacji świetlnej na skrzyżowaniu (strzałeczki
+oznaczają ulice jednokierunkowe):
+
+<center>
+[![](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/007_Zestaw_7_(7_IV_2020)/ul.jpg)](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)
+</center>
+
+Sygnalizacja świetlna w każdej "fazie" powinna zezwalać na ruch przez skrzyżowanie
+jedynie tym samochodom, których trajektorie nie będą się przecinać. Aby usprawnić działanie
+skrzyżowania, liczba tych etapów powinna być jak najmniejsza. 
+
+Wykorzystując jedną z napisanych przez Państwa implementacji grafów oraz zadanie **A** z poprzedniego
+zestawu proszę narysować reprezentację grafową takiego skrzyżowania.
+
+Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406).
+
+<center>
+**C** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+<center>
+[[źródło](https://bradfieldcs.com/algos/graphs/knights-tour/)]
+</center>
+
+Na szachownicy, na określonej pozycji, znajduje się pojedyncza figura  - skoczek (koń). Proszę znaleźć
+taką trasę skoczka po szachownicy, aby każde pole było odwiedzone jedynie raz. Można wykorzystać jedną
+z wcześniej zaimplementowanych przez Państwa reprezentacji grafu lub skorzystać z gotowych bibliotek.
+Państwa wynik końcowy proszę przedstawić w formie rysunku.
+
+
+
+<div style="text-align: center"><a href = #zestaw-6-31-iii-2020 title = "zestaw 6 31 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

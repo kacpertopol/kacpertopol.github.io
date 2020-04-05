@@ -417,7 +417,8 @@ który może być wykorzystany przez program *dot* do narysowania grafu.
 
 Proszę zaimplementować ADT graph, posiadający wszystkie operacje z zadania **A** w zestawie 4.
 Tym razem proszę wykorzystać reprezentację w której dla każdego wierzchołka przechowywana jest
-list sąsiadów.
+list sąsiadów. Sprawdzić złożoność obliczeniową wybranej operacji i porównać
+z zadaniem **A** zestawu 4.
 
 <center>
 **B** 

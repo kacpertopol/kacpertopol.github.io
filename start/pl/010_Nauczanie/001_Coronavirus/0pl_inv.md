@@ -34,7 +34,7 @@ oraz informacje dotyczące samych zajęć.
 # LINKI DO ZAJĘĆ
 
 <center>
-**Algebra z geometrią, poniedziałek 8:30-10:00**
+**Algebra z geometrią, poniedziałek 12:00-13:30**
 </center>
 
 Tym razem spróbujemy zoom (bedę również dostępny na Skype). Aby 
@@ -42,8 +42,8 @@ dołączyć do zajęć, po założeniu darmowego konta i instalacji aplikacji zo
 wystarczy wcisnąć "Join" i wpisać dane:
 
 ```
-Meeting ID: 715 658 600
-Password: 034422
+Meeting ID: 194 557 173
+Password: 032129
 ```
 
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>

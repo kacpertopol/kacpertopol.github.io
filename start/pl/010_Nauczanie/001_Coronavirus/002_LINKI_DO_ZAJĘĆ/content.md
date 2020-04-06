@@ -10,4 +10,3 @@ wystarczy wcisnąć "Join" i wpisać dane:
 Meeting ID: 194 557 173
 Password: 032129
 ```
-

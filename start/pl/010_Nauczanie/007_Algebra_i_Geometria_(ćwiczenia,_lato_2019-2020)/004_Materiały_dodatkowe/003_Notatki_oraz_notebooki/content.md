@@ -24,3 +24,10 @@ oraz [nieco mniej chaotyczny notebook](---ThisDir---/algebra_23_03_2020_send.nb)
 [chaotyczne notatki z południa](---ThisDir---/algebra_30_03_2020_poludnie.pdf)
 oraz [nieco mniej chaotyczny notebook](---ThisDir---/algebra_30_03_2020_rano.nb).
 
+<center>
+**6 IV 2020**
+</center>
+
+[Nagranie z południowych zajęć](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EbxLZyGziEpHoLWuU2Aj7C4BguyKd_ByZRNgI1nSKTdAmA?e=N5BSaH),
+[chaotyczne notatki rana](---ThisDir---/algebra_06_04_2020_poludnie.pdf) oraz
+[nieco mniej chaotyczny notebook](---ThisDir---/algebra_06_04_2020.nb).

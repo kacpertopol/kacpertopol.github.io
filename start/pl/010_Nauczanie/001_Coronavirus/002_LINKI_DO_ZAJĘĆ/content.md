@@ -1,5 +1,5 @@
 <center>
-**AISD2, poniedziałek 12:00-13:30**
+**AISD2, poniedziałek 16:00-17:30**
 </center>
 
 Tym razem spróbujemy zoom (bedę również dostępny na Skype). Aby 

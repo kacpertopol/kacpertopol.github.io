@@ -34,7 +34,7 @@ oraz informacje dotyczące samych zajęć.
 # LINKI DO ZAJĘĆ
 
 <center>
-**AISD2, poniedziałek 16:00-17:30**
+**Konsultacje**
 </center>
 
 Tym razem spróbujemy zoom (bedę również dostępny na Skype). Aby 
@@ -42,8 +42,8 @@ dołączyć do zajęć, po założeniu darmowego konta i instalacji aplikacji zo
 wystarczy wcisnąć "Join" i wpisać dane:
 
 ```
-Meeting ID: 210 340 879
-Password: 092606
+Meeting ID: 871 827 263
+Password: 032962
 ```
 
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>

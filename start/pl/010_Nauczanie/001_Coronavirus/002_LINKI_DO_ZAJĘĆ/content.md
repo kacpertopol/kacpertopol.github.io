@@ -1,12 +1,5 @@
 <center>
-**Konsultacje**
+**Wesołych Świąt**
 </center>
 
-Tym razem spróbujemy zoom (bedę również dostępny na Skype). Aby 
-dołączyć do zajęć, po założeniu darmowego konta i instalacji aplikacji zoom
-wystarczy wcisnąć "Join" i wpisać dane:
-
-```
-Meeting ID: 871 827 263
-Password: 032962
-```
+Niedługo pojawią się nowe zestawy zadań a w przyszłym tygodniu link do zajęć.

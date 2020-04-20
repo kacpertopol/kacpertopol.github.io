@@ -34,13 +34,13 @@ oraz informacje dotyczące samych zajęć.
 # LINKI DO ZAJĘĆ
 
 <center>
-**Algebra, poniedziałek 8:30 - 10:00**
+**Algebra, poniedziałek 12:00 - 13:30**
 </center>
 
 Zajęcia będą prowadzone za pośrednictwem zoom:
 ```
-Meeting ID: 981 0920 5681
-Password: 074087
+Meeting ID: 973 0610 9293
+Password: 015145
 ```
 
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>

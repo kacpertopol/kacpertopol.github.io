@@ -1,5 +1,9 @@
 <center>
-**Wesołych Świąt**
+**Algebra, poniedziałek 8:30 - 10:00**
 </center>
 
-Niedługo pojawią się nowe zestawy zadań a w przyszłym tygodniu link do zajęć.
+Zajęcia będą prowadzone za pośrednictwem zoom:
+```
+Meeting ID: 981 0920 5681
+Password: 074087
+```

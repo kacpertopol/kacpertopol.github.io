@@ -17,6 +17,7 @@ title : Zestawy zadań
 * [Zestaw 5 (24 III 2020)](#zestaw-5-24-iii-2020)
 * [Zestaw 6 (31 III 2020)](#zestaw-6-31-iii-2020)
 * [Zestaw 7 (7 IV 2020)](#zestaw-7-7-iv-2020)
+* [Zestaw 8 (21 IV 2020)](#zestaw-8-21-iv-2020)
 
 
 
@@ -467,4 +468,31 @@ z wcześniej zaimplementowanych przez Państwa reprezentacji grafu lub skorzysta
 Państwa wynik końcowy proszę przedstawić w formie rysunku.
 
 
-<div style="text-align: center"><a href = #zestaw-6-31-iii-2020 title = "zestaw 6 31 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #zestaw-6-31-iii-2020 title = "zestaw 6 31 iii 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-8-21-iv-2020 title = "zestaw 8 21 iv 2020">→</a></div>
+
+# Zestaw 8 (21 IV 2020)
+
+<center>
+**A** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+<center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+Korzystając wyników zadania **B** z poprzedniego zestawu, proszę napisać
+program minimalizujący liczbę "faz" sygnalizacji świetlnej dla skrzyżowania:
+
+<center>
+[![](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/008_Zestaw_8_(21_IV_2020)/ul.jpg)](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)
+</center>
+
+Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406).
+
+
+
+<div style="text-align: center"><a href = #zestaw-7-7-iv-2020 title = "zestaw 7 7 iv 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

@@ -34,14 +34,11 @@ oraz informacje dotyczące samych zajęć.
 # LINKI DO ZAJĘĆ
 
 <center>
-**AISD2, wtorek 16:00 - 17:30**
+**Konsultacje**
 </center>
 
-Zajęcia będą prowadzone za pośrednictwem zoom:
-```
-Meeting ID: 934 2853 7593
-Password: 077550
-```
+Nie będziemy robić osobnego spotkania. 
+Będę dostępny na zoom oraz skype.
 
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>
 

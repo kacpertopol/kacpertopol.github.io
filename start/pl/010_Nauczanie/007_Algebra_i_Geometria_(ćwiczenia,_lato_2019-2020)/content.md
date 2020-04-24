@@ -8,6 +8,28 @@ oddawać rozwiązanie wszystkich zadeklarowanych zadań w formie pisemnej.
 To masa pracy dla studenta i prowadzącego dlatego nie zachęcam to 
 tego typu szachrajstw :-)
 
+<center>
+**UWAGA** 
+</center>
+
+Stare zasady oceniania (poniżej) mogą się zmienić ze względu
+na pandemię. 
+
+Aktualne wyniki grupy 1 można sprawdzić w
+[tabelce](---ThisDir---/GR_1.csv), 
+natomiast grupy 7 w 
+[tablece](---ThisDir---/GR_7.csv).
+W pierwszej kolumnie znajduje się anonimowy
+identyfikator studenta. Identyfikatory się zmieniły dlatego
+proszę o indywidualny kontakt aby otrzymac nowy numerek.
+Tabelki zawierają punkty za odpowidnie zadania i są w formacie CSV (comma separated values), powinno się
+móc je zaimportować do arkusza kalkulacyjnego.
+
+
+<center>
+**STARE ZASADY**
+</center>
+
 Ocena końcowa będzie średnią ważoną:
 
 * 20% I kolokwium

@@ -18,7 +18,7 @@ title : Zestawy zadań
 * [Zestaw 6 (30 III 2020)](#zestaw-6-30-iii-2020)
 * [Zestaw 7 (6 IV 2020)](#zestaw-7-6-iv-2020)
 * [Zestaw 8 (20 IV 2020)](#zestaw-8-20-iv-2020)
-* [Zestaw 8 (27 IV 2020)](#zestaw-8-27-iv-2020)
+* [Zestaw 9 (27 IV 2020)](#zestaw-9-27-iv-2020)
 
 
 
@@ -1185,9 +1185,9 @@ $$A x = b$$
 
 gdzie $b = (1 , 0 , 0)^{T}$. Znaleźć rozwiązania.
 
-<div style="text-align: center"><a href = #zestaw-7-6-iv-2020 title = "zestaw 7 6 iv 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-8-27-iv-2020 title = "zestaw 8 27 iv 2020">→</a></div>
+<div style="text-align: center"><a href = #zestaw-7-6-iv-2020 title = "zestaw 7 6 iv 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-9-27-iv-2020 title = "zestaw 9 27 iv 2020">→</a></div>
 
-# Zestaw 8 (27 IV 2020)
+# Zestaw 9 (27 IV 2020)
 
 <center>
 **$\Omega$**

@@ -1,6 +1,9 @@
 <center>
-**Konsultacje**
+**Algebra 8:30 - 10:00**
 </center>
 
-Nie będziemy robić osobnego spotkania. 
-Będę dostępny na zoom oraz skype.
+Zajęcia będą prowadzone przez *zoom*:
+```
+Meeting ID: 836 5629 7619
+Password: 020404
+```

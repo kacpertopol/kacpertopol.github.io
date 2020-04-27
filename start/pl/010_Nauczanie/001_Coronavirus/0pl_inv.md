@@ -34,11 +34,14 @@ oraz informacje dotyczące samych zajęć.
 # LINKI DO ZAJĘĆ
 
 <center>
-**Konsultacje**
+**Algebra 8:30 - 10:00**
 </center>
 
-Nie będziemy robić osobnego spotkania. 
-Będę dostępny na zoom oraz skype.
+Zajęcia będą prowadzone przez *zoom*:
+```
+Meeting ID: 836 5629 7619
+Password: 020404
+```
 
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>
 

@@ -43,6 +43,16 @@ Meeting ID: 889 7527 3358
 Password: 083790
 ```
 
+<center>
+**ASID2, wtorek 16:00 - 17:30**
+</center>
+
+Zajęcia będą prowadzone przez *zoom*:
+```
+Meeting ID: 894 7367 9926
+Password: 097384
+```
+
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>
 
 # JAK MNIE ZNALEŹĆ

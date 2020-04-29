@@ -17,3 +17,10 @@ Zajęcia będą prowadzone przez *zoom*:
 Meeting ID: 894 7367 9926
 Password: 097384
 ```
+
+<center>
+**Konsultacje, środa 12:00 - 14:00**
+</center>
+
+Nie ma oddzielnego spotkania. Jestem osiągalny na *zoom*
+oraz *Skype*.

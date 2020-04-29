@@ -53,6 +53,13 @@ Meeting ID: 894 7367 9926
 Password: 097384
 ```
 
+<center>
+**Konsultacje, środa 12:00 - 14:00**
+</center>
+
+Nie ma oddzielnego spotkania. Jestem osiągalny na *zoom*
+oraz *Skype*.
+
 <div style="text-align: center"><a href = #nauczanie-zdalne title = "nauczanie zdalne">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #jak-mnie-znaleźć title = "jak mnie znaleźć">→</a></div>
 
 # JAK MNIE ZNALEŹĆ

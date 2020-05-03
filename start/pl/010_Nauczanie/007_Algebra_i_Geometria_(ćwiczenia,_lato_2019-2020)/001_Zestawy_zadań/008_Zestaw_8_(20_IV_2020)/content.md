@@ -163,7 +163,7 @@ $$x + 3 y + z = 5$$
 <center>
 
 <center>
-**G**
+**H**
 </center>
 
 <center>

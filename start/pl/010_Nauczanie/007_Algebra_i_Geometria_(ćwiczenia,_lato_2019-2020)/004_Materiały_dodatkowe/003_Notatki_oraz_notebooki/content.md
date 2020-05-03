@@ -38,3 +38,11 @@ oraz [nieco mniej chaotyczny notebook](---ThisDir---/algebra_30_03_2020_rano.nb)
 
 [Nagranie z południowych zajęć](https://us02web.zoom.us/rec/share/2vB4HoHc6l9JGNL37kWGZPdwJZi1T6a8h3RM_KYImRsM1wQL_mu5E80rYhrsCbMT?startTime=1587376995000)
 
+<center>
+**27 IV 2020**
+</center>
+
+[Nagranie z południowych zajęć](https://us02web.zoom.us/rec/share/49IpI-_Q60ZJHtbTwR6OZKksMaS-X6a81CRP8vEMmUtM4kl9rh78Z4HcKEifZJHD?startTime=1587982263000).
+[Notebook Mathematici](---ThisDir---/algebra_27_04_2020.nb) gdzie konstruowana jest przestrzeń
+liniowa jednoargumentowych funkcji (definicja dodawania wektorów, mnożenia wektora przez liczbę
+oraz iloczyn skalarny wektorów).

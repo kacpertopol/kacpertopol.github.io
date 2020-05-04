@@ -1369,7 +1369,7 @@ $$\left(
 \left(
 \begin{array}{c}
  k_{t} \\
- ku_{t + 1} \\
+ ku_{t} \\
 \end{array}
 \right)$$
 
@@ -1392,7 +1392,7 @@ Znaleźć obie populacje po 5 latach w każdym z następujących stanów począt
 
 * $k_{0} = 100$, $ku_{0} = 200$
 
-* $k_{0} = 500$, $ku_{0}$
+* $k_{0} = 500$, $ku_{0} = 600$
 
 <center>
 **C**

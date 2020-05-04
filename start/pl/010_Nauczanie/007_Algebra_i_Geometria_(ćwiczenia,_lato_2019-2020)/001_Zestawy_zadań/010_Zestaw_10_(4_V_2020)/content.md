@@ -107,4 +107,3 @@ Znaleźć wartości i wektory własne macierzy:
 
 Znaleźć elementy macierzowe macierzy $A$ w bazie ich
 wektorów własnych.
-

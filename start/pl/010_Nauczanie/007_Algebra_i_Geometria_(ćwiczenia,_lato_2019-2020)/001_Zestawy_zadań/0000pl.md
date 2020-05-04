@@ -1426,5 +1426,4 @@ Znaleźć wartości i wektory własne macierzy:
 Znaleźć elementy macierzowe macierzy $A$ w bazie ich
 wektorów własnych.
 
-
 <div style="text-align: center"><a href = #zestaw-9-27-iv-2020 title = "zestaw 9 27 iv 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

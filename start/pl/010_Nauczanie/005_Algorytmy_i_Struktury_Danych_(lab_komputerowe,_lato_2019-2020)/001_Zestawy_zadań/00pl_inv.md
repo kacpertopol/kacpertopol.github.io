@@ -599,7 +599,7 @@ Wskazówka: źródło.
 
 Pracujecie Państwo w budynku biurowym w którym plan elewacji wygląda następująco:
 
-![](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/010_Zestaw_10_(05_V_2020)/plan.jpg)
+![](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/010_Zestaw_10_(05_V_2020)/plan1.png)
 
 Korzystając z algorytmu Dijkstry proszę znaleźć najkrótszy czas
 przejścia z każdego pomieszczenia do klatki chodowej *A* oraz do ubikacji *J*.

@@ -606,7 +606,7 @@ przejścia z każdego pomieszczenia do klatki chodowej *A* oraz do ubikacji *J*.
 Liczby znajdujące się na strzałeczkach oznaczają średni czas potrzebny
 na przejęcie z jednego pomieszczenia do drugiego.
 
-[[wskazówka](https://bradfieldcs.com/algos/)]
+[[wskazówka](https://bradfieldcs.com/algos/)] 
 
 <center>
 **B** 

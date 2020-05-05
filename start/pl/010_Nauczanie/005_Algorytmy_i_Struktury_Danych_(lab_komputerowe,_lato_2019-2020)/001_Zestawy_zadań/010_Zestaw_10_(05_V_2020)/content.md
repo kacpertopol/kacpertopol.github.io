@@ -8,7 +8,7 @@
 
 Pracujecie Państwo w budynku biurowym w którym plan elewacji wygląda następująco:
 
-![](---ThisDir---/plan.jpg)
+![](---ThisDir---/plan1.png)
 
 Korzystając z algorytmu Dijkstry proszę znaleźć najkrótszy czas
 przejścia z każdego pomieszczenia do klatki chodowej *A* oraz do ubikacji *J*.

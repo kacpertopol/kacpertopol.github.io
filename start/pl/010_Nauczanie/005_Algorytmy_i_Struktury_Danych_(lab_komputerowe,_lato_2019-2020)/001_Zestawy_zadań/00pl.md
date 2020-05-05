@@ -606,10 +606,6 @@ przejścia z każdego pomieszczenia do klatki chodowej *A* oraz do ubikacji *J*.
 Liczby znajdujące się na strzałeczkach oznaczają średni czas potrzebny
 na przejęcie z jednego pomieszczenia do drugiego.
 
-Swój wynik proszę przedstawić w formie tabelki. Rzędy i kolumby tabelki odpowiadają
-pomieszczeniom *A* - *J* natomiast elementy tabelki zawierają czasy przejścia. 
-Przejście z jednego pomieszczenia do tego samego pomieszczenia trwa $0$.
-
 [[wskazówka](https://bradfieldcs.com/algos/)]
 
 <center>

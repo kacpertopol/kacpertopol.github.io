@@ -19,6 +19,7 @@ title : Zestawy zadań
 * [Zestaw 7 (7 IV 2020)](#zestaw-7-7-iv-2020)
 * [Zestaw 8 (21 IV 2020)](#zestaw-8-21-iv-2020)
 * [Zestaw 9 (28 IV 2020)](#zestaw-9-28-iv-2020)
+* [Zestaw 10 (05 V 2020)](#zestaw-10-05-v-2020)
 
 
 
@@ -584,4 +585,45 @@ Proszę uogólnić swój program, tak aby przyjmował dowolny graf $G$.
 
 Wskazówka: źródło.
 
-<div style="text-align: center"><a href = #zestaw-8-21-iv-2020 title = "zestaw 8 21 iv 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #zestaw-8-21-iv-2020 title = "zestaw 8 21 iv 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-10-05-v-2020 title = "zestaw 10 05 v 2020">→</a></div>
+
+# Zestaw 10 (05 V 2020)
+
+<center>
+**A** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Pracujecie Państwo w budynku biurowym w którym plan elewacji wygląda następująco:
+
+![](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/010_Zestaw_10_(05_V_2020)/plan.jpg)
+
+Korzystając z algorytmu Dijkstry proszę znaleźć najkrótszy czas
+przejścia z każdego pomieszczenia do klatki chodowej *A* oraz do ubikacji *J*.
+Liczby znajdujące się na strzałeczkach oznaczają średni czas potrzebny
+na przejęcie z jednego pomieszczenia do drugiego.
+
+Swój wynik proszę przedstawić w formie tabelki. Rzędy i kolumby tabelki odpowiadają
+pomieszczeniom *A* - *J* natomiast elementy tabelki zawierają czasy przejścia. 
+Przejście z jednego pomieszczenia do tego samego pomieszczenia trwa $0$.
+
+[[wskazówka](https://bradfieldcs.com/algos/)]
+
+<center>
+**B** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Praca biurowa wzmaga apetyt. Korzystając z algorytmu Dijkstry oraz planu elewacji
+z zadania **A** proszę znaleźć najkrótszą ścieżkę z aneksu kuchennego *I*
+do pokoju szefa *D*.
+
+[[wskazówka](https://bradfieldcs.com/algos/)]
+
+<div style="text-align: center"><a href = #zestaw-9-28-iv-2020 title = "zestaw 9 28 iv 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

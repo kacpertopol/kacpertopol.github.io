@@ -72,7 +72,7 @@ Plik w formacie CSV można otworzyć w arkuszu kalkulacyjnym. Pierwsza kolumna z
 Prezentacje projektów końcowych odbędą się 2 VI oraz 9 VI. Na prezentację projektu będzie 10 minut
 (7 minut na demonstrację oraz omówienie + 3 minuty na dyskusję). Prezentacje będą się odbywać zgodnie z
 kolejnością 
-numerów albumów (od najmniejszego do największego - zgodnie z kolejnością studentów w USOS). 
+numerów albumów (od najmniejszego do największego - można sprawdzić w USOS). 
 Oceniana będzie jakość projektu, demonstracji oraz dyskusji.
 
 

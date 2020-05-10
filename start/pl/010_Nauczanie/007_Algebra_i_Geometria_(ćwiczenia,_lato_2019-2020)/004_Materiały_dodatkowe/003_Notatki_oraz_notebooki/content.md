@@ -46,3 +46,12 @@ oraz [nieco mniej chaotyczny notebook](---ThisDir---/algebra_30_03_2020_rano.nb)
 [Notebook Mathematici](---ThisDir---/algebra_27_04_2020.nb) gdzie konstruowana jest przestrzeń
 liniowa jednoargumentowych funkcji (definicja dodawania wektorów, mnożenia wektora przez liczbę
 oraz iloczyn skalarny wektorów).
+
+<center>
+**4 V 2020**
+</center>
+
+[Nagranie z południowych zajęć](https://us02web.zoom.us/rec/share/5NMlP-yvy21OXZWR8GGOc6kKIJn1aaa8gCgZrqEEykeHMzGSLLUPryIZH2wMXURt?startTime=1588587111000).
+[Notebook Mathematici](---ThisDir---/algebra_04_05_2020.nb) gdzie konstruowana jest przestrzeń
+liniowa jednoargumentowych funkcji (definicja dodawania wektorów, mnożenia wektora przez liczbę
+oraz iloczyn skalarny wektorów).

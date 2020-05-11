@@ -61,6 +61,6 @@ oraz iloczyn skalarny wektorów).
 </center>
 
 Fantastycznie (w mojej skromnej opinii) zrobiona [seria nagrań](https://www.youtube.com/playlist?list=PLZHQObOWTQDPHP40bzkb0TKLRPwQGAoC-) 
-związanych z algebrą - może się przydać do powtórki przed egzaminem. Dzisiaj oglądaliśmy
-o [wektorach własnych](https://youtu.be/PFDu9oVAE-g). [Notebook](---ThisDir---/algebra_11_05_2020.nb) Mathematici, powiązany
+związanych z algebrą - może się przydać do powtórki przed egzaminem (dostępne napisy w języku polskim). Dzisiaj oglądaliśmy
+o [wektorach własnych](https://youtu.be/PFDu9oVAE-g) (dostępne napisy w języku polskim). [Notebook](---ThisDir---/algebra_11_05_2020.nb) Mathematici, powiązany
 z wartościami i wektorami własnymi, zmianą bazy.

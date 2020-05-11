@@ -55,3 +55,12 @@ oraz iloczyn skalarny wektorów).
 [Notebook Mathematici](---ThisDir---/algebra_04_05_2020.nb) gdzie konstruowana jest przestrzeń
 liniowa jednoargumentowych funkcji (definicja dodawania wektorów, mnożenia wektora przez liczbę
 oraz iloczyn skalarny wektorów).
+
+<center>
+**11 V 2020**
+</center>
+
+Fantastycznie (w mojej skromnej opinii) zrobiona [seria nagrań](https://www.youtube.com/playlist?list=PLZHQObOWTQDPHP40bzkb0TKLRPwQGAoC-) 
+związanych z algebrą - może się przydać do powtórki przed egzaminem. Dzisiaj oglądaliśmy
+o [wektorach własnych](https://youtu.be/PFDu9oVAE-g). [Notebook](---ThisDir---/algebra_11_05_2020.nb) Mathematici, powiązany
+z wartościami i wektorami własnymi, zmianą bazy.

@@ -63,4 +63,5 @@ oraz iloczyn skalarny wektorów).
 Fantastycznie (w mojej skromnej opinii) zrobiona [seria nagrań](https://www.youtube.com/playlist?list=PLZHQObOWTQDPHP40bzkb0TKLRPwQGAoC-) 
 związanych z algebrą - może się przydać do powtórki przed egzaminem (dostępne napisy w języku polskim). Dzisiaj oglądaliśmy
 o [wektorach własnych](https://youtu.be/PFDu9oVAE-g) (dostępne napisy w języku polskim). [Notebook](---ThisDir---/algebra_11_05_2020.nb) Mathematici, powiązany
-z wartościami i wektorami własnymi, zmianą bazy.
+z wartościami i wektorami własnymi, zmianą bazy. [Nagranie](https://us02web.zoom.us/rec/share/2M1SM4H-1kRLH7OVznn4d5Z4R4v7eaa80CMa-6YJmBuXBjIoEMfw4U6W2OUQk9p-?startTime=1589193223000)
+z zajęć południowych.

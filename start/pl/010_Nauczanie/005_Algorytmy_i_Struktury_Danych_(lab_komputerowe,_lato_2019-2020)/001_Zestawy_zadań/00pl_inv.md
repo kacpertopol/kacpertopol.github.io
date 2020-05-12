@@ -20,7 +20,7 @@ title : Zestawy zadań
 * [Zestaw 8 (21 IV 2020)](#zestaw-8-21-iv-2020)
 * [Zestaw 9 (28 IV 2020)](#zestaw-9-28-iv-2020)
 * [Zestaw 10 (05 V 2020)](#zestaw-10-05-v-2020)
-* [Zestaw 10 (12 V 2020)](#zestaw-10-12-v-2020)
+* [Zestaw 11 (12 V 2020)](#zestaw-11-12-v-2020)
 
 
 
@@ -623,9 +623,9 @@ do pokoju szefa *D*.
 
 [[wskazówka](https://bradfieldcs.com/algos/)]
 
-<div style="text-align: center"><a href = #zestaw-9-28-iv-2020 title = "zestaw 9 28 iv 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-10-12-v-2020 title = "zestaw 10 12 v 2020">→</a></div>
+<div style="text-align: center"><a href = #zestaw-9-28-iv-2020 title = "zestaw 9 28 iv 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-11-12-v-2020 title = "zestaw 11 12 v 2020">→</a></div>
 
-# Zestaw 10 (12 V 2020)
+# Zestaw 11 (12 V 2020)
 
 <center>
 **A** 
@@ -636,7 +636,7 @@ do pokoju szefa *D*.
 </center>
 
 Średnie czasy przejazdu samochodem pomiędzy polskimi miastami
-można odczytać z [tabelki](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/011_Zestaw_10_(12_V_2020)/czasy) (dane pochodzą z google maps). W pierwszych
+można odczytać z [tabelki](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/011_Zestaw_11_(12_V_2020)/czasy) (dane pochodzą z google maps). W pierwszych
 dwóch kolumnach znajdują się miasta a w trzeciej kolumnie
 znajduje się czas przejazdu w minutach. Proszę znaleźć
 najkrótszy czas przejazdu pomiędzy wszystkimi parami miast.
@@ -654,9 +654,9 @@ odpowiadają najkrótszym czasom przejazdu.
 (1 punkt)
 </center>
 
-Korzystająć z [tabelki czasów przejazdu](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/011_Zestaw_10_(12_V_2020)/czasy) (dane pochodzą z google maps)
+Korzystająć z [tabelki czasów przejazdu](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/011_Zestaw_11_(12_V_2020)/czasy) (dane pochodzą z google maps)
 proszę znaleźć najszybszą trasę pomiędzy wszystkimi parami miast.
-Korzystając z programu *dot* (lub innego programu) oraz [tabelki ze współrzędnymi geograficznymi miast](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/011_Zestaw_10_(12_V_2020)/positions)
+Korzystając z programu *dot* (lub innego programu) oraz [tabelki ze współrzędnymi geograficznymi miast](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/011_Zestaw_11_(12_V_2020)/positions)
 (pierwsza kolumna zawiera nazwę miasta, druga oraz trzecia kolumna zawiera współrzędne geograficzne)
 proszę zaznaczyć na grafie wszystkie miasta oraz najszybsze trasy pomiędzy parami miast (jeden rysunek
 dla każdej pary). 

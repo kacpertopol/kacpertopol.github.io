@@ -32,4 +32,8 @@ Korzystając z programu *dot* (lub innego programu) oraz [tabelki ze współrzę
 proszę zaznaczyć na grafie wszystkie miasta oraz najszybsze trasy pomiędzy parami miast (jeden rysunek
 dla każdej pary). 
 
-*Wskazówka*: proszę skorzystać z [algorytmu Floyda Warszalla](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm).
+*Wskazówka 1*: proszę skorzystać z [algorytmu Floyda Warszalla](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm).
+
+*Wskazówka 2*: Przykładowy [plik do programu dot](---ThisDir---/example_dot) gdzie 
+podane są współrzędne wierzchołków. Wykonanie polecenia `dot -Kfdp -n -Tpng example_dot -o example_dot.png`
+powinno skutkować stworzeniem [pliku](---ThisDir---/example_dot.png).

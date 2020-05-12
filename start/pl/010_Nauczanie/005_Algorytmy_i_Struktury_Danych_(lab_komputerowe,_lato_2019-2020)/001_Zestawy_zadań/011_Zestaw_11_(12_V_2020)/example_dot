@@ -1,0 +1,11 @@
+graph G {
+koty [pos="1.0,0.0!"]; 
+koty -- kuty; 
+kuty [pos="2.0,1.0!"]; 
+kuty -- kumy; 
+kumy [pos="3.0,0.0!"]; 
+kumy -- kuma; 
+kuma [pos="4.0,1.0!"]; 
+kuma -- puma; 
+puma [pos="4.0,0.0!"]; 
+}

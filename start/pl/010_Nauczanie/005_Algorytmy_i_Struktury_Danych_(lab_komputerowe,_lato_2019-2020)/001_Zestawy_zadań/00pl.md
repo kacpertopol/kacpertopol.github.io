@@ -664,7 +664,7 @@ dla każdej pary).
 *Wskazówka 1*: proszę skorzystać z [algorytmu Floyda Warszalla](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm).
 
 *Wskazówka 2*: Przykładowy [plik do programu dot](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/011_Zestaw_11_(12_V_2020)/example_dot) gdzie 
-podane są współrzędne wierzchołków. Wykonanie polecenia `dot -Kfdp -n -Tpng example_dot -o example_dot.png`
+podane są współrzędne wierzchołków. Wykonanie polecenia [[źródło](https://stackoverflow.com/questions/5343899/how-to-force-node-position-x-and-y-in-graphviz)]`dot -Kfdp -n -Tpng example_dot -o example_dot.png`
 powinno skutkować stworzeniem [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/011_Zestaw_11_(12_V_2020)/example_dot.png).
 
 <div style="text-align: center"><a href = #zestaw-10-05-v-2020 title = "zestaw 10 05 v 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

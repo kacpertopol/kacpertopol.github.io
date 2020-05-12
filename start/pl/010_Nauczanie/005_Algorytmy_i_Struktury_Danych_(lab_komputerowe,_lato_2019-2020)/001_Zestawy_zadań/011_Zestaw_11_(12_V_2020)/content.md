@@ -35,5 +35,5 @@ dla każdej pary).
 *Wskazówka 1*: proszę skorzystać z [algorytmu Floyda Warszalla](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm).
 
 *Wskazówka 2*: Przykładowy [plik do programu dot](---ThisDir---/example_dot) gdzie 
-podane są współrzędne wierzchołków. Wykonanie polecenia `dot -Kfdp -n -Tpng example_dot -o example_dot.png`
+podane są współrzędne wierzchołków. Wykonanie polecenia [[źródło](https://stackoverflow.com/questions/5343899/how-to-force-node-position-x-and-y-in-graphviz)]`dot -Kfdp -n -Tpng example_dot -o example_dot.png`
 powinno skutkować stworzeniem [pliku](---ThisDir---/example_dot.png).

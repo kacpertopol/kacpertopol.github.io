@@ -75,6 +75,8 @@ kolejnością
 numerów albumów (od najmniejszego do największego - można sprawdzić w USOS). 
 Oceniana będzie jakość projektu, demonstracji oraz dyskusji.
 
+Uwaga: O zadaniach można porozmawiać (w celu zaliczenia zadań) dodatkowo we wtorki $15:00 - 15:45$.
+Oprócz tego terminu możemy porozmawiac również podczas zajęć oraz konsultacji.
 
 <div style="text-align: center"><a href = #konsultacje title = "konsultacje">←</a><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>
 

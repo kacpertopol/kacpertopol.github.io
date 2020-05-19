@@ -12,3 +12,5 @@ kolejnością
 numerów albumów (od najmniejszego do największego - można sprawdzić w USOS). 
 Oceniana będzie jakość projektu, demonstracji oraz dyskusji.
 
+Uwaga: O zadaniach można porozmawiać (w celu zaliczenia zadań) dodatkowo we wtorki $15:00 - 15:45$.
+Oprócz tego terminu możemy porozmawiac również podczas zajęć oraz konsultacji.

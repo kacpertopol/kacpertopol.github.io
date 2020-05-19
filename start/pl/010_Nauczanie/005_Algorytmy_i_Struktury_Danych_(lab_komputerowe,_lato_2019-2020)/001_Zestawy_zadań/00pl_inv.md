@@ -21,6 +21,7 @@ title : Zestawy zadań
 * [Zestaw 9 (28 IV 2020)](#zestaw-9-28-iv-2020)
 * [Zestaw 10 (05 V 2020)](#zestaw-10-05-v-2020)
 * [Zestaw 11 (12 V 2020)](#zestaw-11-12-v-2020)
+* [Zestaw 12 (19 V 2020)](#zestaw-12-19-v-2020)
 
 
 
@@ -667,4 +668,43 @@ dla każdej pary).
 podane są współrzędne wierzchołków. Wykonanie polecenia [[źródło](https://stackoverflow.com/questions/5343899/how-to-force-node-position-x-and-y-in-graphviz)]`dot -Kfdp -n -Tpng example_dot -o example_dot.png`
 powinno skutkować stworzeniem [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/011_Zestaw_11_(12_V_2020)/example_dot.png).
 
-<div style="text-align: center"><a href = #zestaw-10-05-v-2020 title = "zestaw 10 05 v 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #zestaw-10-05-v-2020 title = "zestaw 10 05 v 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-12-19-v-2020 title = "zestaw 12 19 v 2020">→</a></div>
+
+# Zestaw 12 (19 V 2020)
+
+<center>
+**A** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Prowadzicie Państwo internetowy zapewniający dostęp do gier za pośrednictwem
+strumienia danych. Gry są uruchamiane na serwerach w waszej firmie 
+i chcecie rozsyłać obraz oraz dźwięk do swoich użytkowników z jak 
+najmniejszym opóźnieniem.
+Zbadaliście sieć połączeń pomiędzy waszą firmą
+oraz komputerami $127$ klientów (jesteście raczkującą firmą)
+oraz zapisaliście ją w 
+[pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/012_Zestaw_12_(19_V_2020)/randgraph). Pierwsze dwie kolumny zawierają
+indywidualne numery komputerów (numer $1$ to wasza firma, numery 
+$2 \ldots 128$ to komputery klientów) pomiędzy, którymi są połączenia.
+Trzecia kolumna zawiera średnie opóźnienie sygnału z danymi 
+dla danego połączenia. Aby znaleźć optymalną ścieżkę sygnału z 
+danymi od waszej firmy (numerek $0$) do klientów należy skonstruować minimalne drzewo
+rozpinające graf połączeń. Proszę korzystając z algorytmu Prima
+policzyć takie drzewo. [wskazówka](https://bradfieldcs.com/algos/graphs/prims-spanning-tree-algorithm/).
+
+<center>
+**B** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę znaleźć drzewko z poprzedniego zadania korzystając z algorytmu
+Kruskala. Proszę porównać efektywność obydwu algorytmów.
+
+<div style="text-align: center"><a href = #zestaw-11-12-v-2020 title = "zestaw 11 12 v 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

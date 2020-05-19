@@ -20,7 +20,7 @@ Trzecia kolumna zawiera średnie opóźnienie sygnału z danymi
 dla danego połączenia. Aby znaleźć optymalną ścieżkę sygnału z 
 danymi od waszej firmy (numerek $0$) do klientów należy skonstruować minimalne drzewo
 rozpinające graf połączeń. Proszę korzystając z algorytmu Prima
-policzyć takie drzewo. [wskazówka](https://bradfieldcs.com/algos/graphs/prims-spanning-tree-algorithm/).
+policzyć takie drzewo. [Wskazówka](https://bradfieldcs.com/algos/graphs/prims-spanning-tree-algorithm/).
 
 <center>
 **B** 
@@ -31,4 +31,5 @@ policzyć takie drzewo. [wskazówka](https://bradfieldcs.com/algos/graphs/prims-
 </center>
 
 Proszę znaleźć drzewko z poprzedniego zadania korzystając z algorytmu
-Kruskala. Proszę porównać efektywność obydwu algorytmów.
+Kruskala. Proszę porównać efektywność obydwu algorytmów. 
+[Wskazówka](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-using-stl-in-c/)

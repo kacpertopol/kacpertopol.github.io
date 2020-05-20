@@ -107,16 +107,13 @@ tego typu szachrajstw :-)
 Stare zasady oceniania (poniżej) mogą się zmienić ze względu
 na pandemię. 
 
-Aktualne wyniki grupy 1 można sprawdzić w
-[tabelce](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/GR_1.csv), 
-natomiast grupy 7 w 
-[tablece](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/GR_7.csv).
+Aktualne wyniki można sprawdzić w tabelce
+[tabelce](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/20_05_2020.csv), 
 W pierwszej kolumnie znajduje się anonimowy
-identyfikator studenta. Identyfikatory się zmieniły dlatego
-proszę o indywidualny kontakt aby otrzymac nowy numerek.
+identyfikator studenta. 
+Proszę o indywidualny kontakt aby otrzymac ten numerek.
 Tabelki zawierają punkty za odpowidnie zadania i są w formacie CSV (comma separated values), powinno się
 móc je zaimportować do arkusza kalkulacyjnego.
-
 
 <center>
 **STARE ZASADY**

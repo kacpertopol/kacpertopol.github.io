@@ -23,7 +23,7 @@ $$f(x , y) = (x_{1})^{2} + (x_{2})^{2} + (x_{2})^{2} + 2 x_{1} x_{2}$$
 
 * Znaleźć macierz formy oraz jej wektory i wartości własne
 
-* Sprowadzić formę kwadratową do postaci kanonicznej a $a (y_{1})^{2} + b (y_{1})^{2} + c (y_{1})^{2}$
+* Sprowadzić formę kwadratową do postaci kanonicznej a $a (y_{1})^{2} + b (y_{2})^{2} + c (y_{3})^{2}$
 za pomocą przekształcenia ortogonalnego. Wyrazić współrzędne $y_{1} , y_{2} , y_{3}$ za pomocą
 $x_{1} , x_{2} , x_{3}$.
 

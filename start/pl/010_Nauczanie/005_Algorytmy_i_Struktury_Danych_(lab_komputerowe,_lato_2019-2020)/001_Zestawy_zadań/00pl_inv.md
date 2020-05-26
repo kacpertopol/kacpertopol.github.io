@@ -721,9 +721,10 @@ Kruskala. Proszę porównać efektywność obydwu algorytmów.
 (1 punkt)
 </center>
 
-W [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/g1), [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/g2) oraz [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/g3)
+[[żródło](https://www.wolfram.com/mathematica/)] W [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/g1), [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/g2) oraz [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/g3)
 zapisane są grafy (skierowane oraz nie skierowane) w postaci macierzowej (1 - oznacza istninie krawędzi).
 Proszę napisać program badający cykliczność grafów i wykorzystać go do zbadanie tych trzech przykładów.
+[Wskazówka](https://eduinf.waw.pl/inf/alg/001_search/0132.php).
 
 <center>
 **B** 
@@ -736,6 +737,6 @@ Proszę napisać program badający cykliczność grafów i wykorzystać go do zb
 W [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/h1), [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/h2) oraz [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/h3)
 zapisane są grafy (skierowane oraz nie skierowane) w postaci macierzowej (1 - oznacza istninie krawędzi).
 Proszę napisać program badający spójność grafów i wykorzystać go do zbadanie tych trzech przykładów.
-
+[Wskazówka](https://eduinf.waw.pl/inf/alg/001_search/0128a.php).
 
 <div style="text-align: center"><a href = #zestaw-12-19-v-2020 title = "zestaw 12 19 v 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

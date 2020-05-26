@@ -72,8 +72,7 @@ Plik w formacie CSV można otworzyć w arkuszu kalkulacyjnym. Pierwsza kolumna z
 Prezentacje projektów końcowych odbędą się 2 VI oraz 9 VI. Na prezentację projektu będzie 10 minut
 (7 minut na demonstrację oraz omówienie + 3 minuty na dyskusję). Prezentacje będą się odbywać zgodnie z
 kolejnością 
-numerów albumów (od najmniejszego do największego - można sprawdzić w USOS). 
-Oceniana będzie jakość projektu, demonstracji oraz dyskusji.
+numerów albumów (od najmniejszego do największego - można sprawdzić w USOS):
 
 | NAZWISKO | IMIE | TEMAT PREZENTACJI | TERMIN |
 | -------- | ---- | ----------------- | ------ | 
@@ -93,7 +92,9 @@ Oceniana będzie jakość projektu, demonstracji oraz dyskusji.
 | Sroka | Jakub | ... | 9 VI 17:00 - 17:10 | 
 | Nagórzański | Kamil | GRA "WORD LADDER" DLA DWÓCH OSÓB | 9 VI 17:10 - 17:20 | 
 
-Uwaga: O zadaniach można porozmawiać (w celu zaliczenia zadań) dodatkowo we wtorki $15:00 - 15:45$.
+Oceniana będzie jakość projektu, demonstracji oraz dyskusji.
+
+UWAGA: O zadaniach można porozmawiać (w celu zaliczenia zadań) dodatkowo we wtorki $15:00 - 15:45$.
 Oprócz tego terminu możemy porozmawiac również podczas zajęć oraz konsultacji.
 
 <div style="text-align: center"><a href = #konsultacje title = "konsultacje">←</a><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>

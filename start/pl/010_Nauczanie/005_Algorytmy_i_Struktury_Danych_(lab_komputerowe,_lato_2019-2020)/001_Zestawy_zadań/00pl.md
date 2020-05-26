@@ -22,6 +22,7 @@ title : Zestawy zadań
 * [Zestaw 10 (05 V 2020)](#zestaw-10-05-v-2020)
 * [Zestaw 11 (12 V 2020)](#zestaw-11-12-v-2020)
 * [Zestaw 12 (19 V 2020)](#zestaw-12-19-v-2020)
+* [Zestaw 13 (26 V 2020)](#zestaw-13-26-v-2020)
 
 
 
@@ -708,4 +709,33 @@ Proszę znaleźć drzewko z poprzedniego zadania korzystając z algorytmu
 Kruskala. Proszę porównać efektywność obydwu algorytmów. 
 [Wskazówka](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-using-stl-in-c/)
 
-<div style="text-align: center"><a href = #zestaw-11-12-v-2020 title = "zestaw 11 12 v 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>
+<div style="text-align: center"><a href = #zestaw-11-12-v-2020 title = "zestaw 11 12 v 2020">←</a><a href = #zawartość title = "zawartość">↑</a><a href = #zestaw-13-26-v-2020 title = "zestaw 13 26 v 2020">→</a></div>
+
+# Zestaw 13 (26 V 2020)
+
+<center>
+**A** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+W [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/g1), [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/g2) oraz [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/g3)
+zapisane są grafy (skierowane oraz nie skierowane) w postaci macierzowej (1 - oznacza istninie krawędzi).
+Proszę napisać program badający cykliczność grafów i wykorzystać go do zbadanie tych trzech przykładów.
+
+<center>
+**B** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+W [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/h1), [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/h2) oraz [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/001_Zestawy_zadań/013_Zestaw_13_(26_V_2020)/h3)
+zapisane są grafy (skierowane oraz nie skierowane) w postaci macierzowej (1 - oznacza istninie krawędzi).
+Proszę napisać program badający spójność grafów i wykorzystać go do zbadanie tych trzech przykładów.
+
+
+<div style="text-align: center"><a href = #zestaw-12-19-v-2020 title = "zestaw 12 19 v 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

@@ -66,7 +66,7 @@ Ocena końcowa będzie średnią ważoną:
 * zadania (60%)
 * projekt (40%)
 
-Aktualną liczbę zadań można odczytać z [tabelki](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/asid2_27_05_2020_shuf.csv).
+Aktualną liczbę zadań można odczytać z [tabelki](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/asid2_27_03_2020_shuf.csv).
 Plik w formacie CSV można otworzyć w arkuszu kalkulacyjnym. Pierwsza kolumna zawiera anonimowy identyfikator.
 Skala ocen za zadania:
 

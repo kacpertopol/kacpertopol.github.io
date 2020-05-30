@@ -3,7 +3,7 @@ Ocena końcowa będzie średnią ważoną:
 * zadania (60%)
 * projekt (40%)
 
-Aktualną liczbę zadań można odczytać z [tabelki](---ThisDir---/asid2_27_05_2020_shuf.csv).
+Aktualną liczbę zadań można odczytać z [tabelki](---ThisDir---/asid2_27_03_2020_shuf.csv).
 Plik w formacie CSV można otworzyć w arkuszu kalkulacyjnym. Pierwsza kolumna zawiera anonimowy identyfikator.
 Skala ocen za zadania:
 

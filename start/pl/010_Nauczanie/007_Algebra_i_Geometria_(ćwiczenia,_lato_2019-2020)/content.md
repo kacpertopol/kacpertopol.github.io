@@ -1,13 +1,3 @@
-Na ocenę z ćwiczeń składać się będzie ocena z aktywności na zajęciach
-oraz ocena z trzech kolokwiów. Aktywność będzie oceniana na podstawie
-ilości zadeklarowanych zadań (skala ocen będzie ustalona pod koniec
-semestru). Uwaga: Jeżeli student nie będzie potrafił
-rozwiązać przy tablicy zadeklarowanego zadania to wszystkie poprzednie
-deklaracje będą likwidowane. Przyłapany student będzie musiał 
-oddawać rozwiązanie wszystkich zadeklarowanych zadań w formie pisemnej.
-To masa pracy dla studenta i prowadzącego dlatego nie zachęcam to 
-tego typu szachrajstw :-)
-
 <center>
 **UWAGA** 
 </center>
@@ -16,12 +6,37 @@ Stare zasady oceniania (poniżej) mogą się zmienić ze względu
 na pandemię. 
 
 Aktualne wyniki można sprawdzić w tabelce
-[tabelce](---ThisDir---/20_05_2020.csv), 
+[tabelce](---ThisDir---/algebra_27_05_2020_shuf.csv), 
 W pierwszej kolumnie znajduje się anonimowy
 identyfikator studenta. 
-Proszę o indywidualny kontakt aby otrzymac ten numerek.
-Tabelki zawierają punkty za odpowidnie zadania i są w formacie CSV (comma separated values), powinno się
+Proszę o indywidualny kontakt aby otrzymać ten numerek.
+Tabelki zawierają punkty za odpowiednie zadania i są w formacie CSV (comma separated values), powinno się
 móc je zaimportować do arkusza kalkulacyjnego.
+
+Aby uzyskać pozytywną ocenę z ćwiczeń należy mieć 
+kolokwia zaliczone przynajmniej na 3.0 oraz pozytywną ocenę z zadań.
+Na ocenę końcową składać się będzie ocena z kolokwiów (średnia ocena z kolokwiów z wagą 35%)
+oraz ocena z zadań (z wagą 75%). Skala ocen za zadania jest następująca:
+
+| ZAKRES PUNKTÓW | OCENA |
+| -------------- | ----- |
+| 40 - 55        | 3.0   |
+| 56 - 70        | 3.5   |
+| 71 - 85        | 4.0   |
+| 86 - 90        | 4.5   |
+| 91 -           | 5.0   |
+
+Osoby nie spełniające warunków zaliczenia będą miały możliwość na ostatnich zajęciach (8 VI)
+poprawić ocenę. Zajęcia te przeznaczone są na kolokwium zaliczeniowe. Będzie ono miało formę
+ustną i będzie się odbywać za pośrednictwem zoom. Dodatkowo osoby te są proszone
+o AKTYWNE uczestnictwo w dodatkowych zajęciach powtórkowych do egzaminu: 
+
+* 6,7 VI oraz 13,14 VI 
+* godzina 10:00 - 13:00
+* za pośrednictwem zoom - można dołączyć tak jak na zwykłe zajęcia
+
+Uwaga: zajęcia te są jedynie dodatkiem. Aby zdać egzamin wymagana jest również 
+praca indywidualna. 
 
 <center>
 **STARE ZASADY**

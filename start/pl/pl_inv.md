@@ -95,7 +95,7 @@ numerów albumów (od najmniejszego do największego - można sprawdzić w USOS)
 | Chudy | Dominik | WIZUALIZACJA ALGORYTMU DIJKSTRY W PYGAME. SZUKANIE NAJKRÓTSZEJ ŚCIEŻKI Z PUNKTU A DO PUNKTU B | 2 VI 17:10 - 17:20 | 
 | Halbiniak | Natalia | PROBLEM UKŁADANIA SPOTKAŃ POMIĘDZY DRUŻYNAMI W LIDZE SPORTOWEJ | 2 VI 17:20 - 17:30 | 
 | Gędłek | Katarzyna | ALGORYTM MIN MAX ORAZ JEGO ZASTOSOWANIE W GRACH | 9 VI 16:00 - 16:10 | 
-| Nowak | Radosław | ... | 9 VI 16:10 - 16:20 | 
+| Nowak | Radosław | SZUKANIE MINIMALNEGO DRZEWA ROZPINAJĄCEGO PRZY POMOCY ALGORYTMU PRIMA | 9 VI 16:10 - 16:20 | 
 | Malczewski | Mateusz | ALGORYTM A\* W SILNIKU UNITY  | 9 VI 16:20 - 16:30 | 
 | Suchan | Barbara | ... | 9 VI 16:30 - 16:40 | 
 | Kapusta | Paweł | PATHFINDING Z A\* | 9 VI 16:40 - 16:50 | 

@@ -65,3 +65,15 @@ związanych z algebrą - może się przydać do powtórki przed egzaminem (dost�
 o [wektorach własnych](https://youtu.be/PFDu9oVAE-g) (dostępne napisy w języku polskim). [Notebook](---ThisDir---/algebra_11_05_2020.nb) Mathematici, powiązany
 z wartościami i wektorami własnymi, zmianą bazy. [Nagranie](https://us02web.zoom.us/rec/share/2M1SM4H-1kRLH7OVznn4d5Z4R4v7eaa80CMa-6YJmBuXBjIoEMfw4U6W2OUQk9p-?startTime=1589193223000)
 z zajęć południowych.
+
+<center>
+**25 V 2020**
+</center>
+
+[Nagranie z południowych zajęć](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EVjGRIW85PZCl4flz8YOc4IBy40ho-C2J7EWM_WVX3P8bQ?e=rBYvpt)
+
+<center>
+**01 VI 2020**
+</center>
+
+[Nagranie z południowych zajęć](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EYNnx31RC9tGr-OCqguRTxcBZtDmUiBXwPE-u2SD8Y6DOg?e=QvgizT)

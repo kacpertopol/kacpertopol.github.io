@@ -1788,7 +1788,7 @@ wektorowego:
 </center>
 
 Niech dany będzie trójkąt o wierzchołkach 
-$A\vec{A} = (1 , 1 , 1)^{T}$, $\vec{B} = (-1 , -2 , -1)^{T}$,
-$\vec{C} = (1 , 0 , 1)^{t}$. Policzyć pole powierzchni trójkąta.
+$\vec{A} = (1 , 1 , 1)^{T}$, $\vec{B} = (-1 , -2 , -1)^{T}$,
+$\vec{C} = (1 , 0 , 1)^{T}$. Policzyć pole powierzchni trójkąta.
 
 <div style="text-align: center"><a href = #zestaw-13-25-v-2020 title = "zestaw 13 25 v 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

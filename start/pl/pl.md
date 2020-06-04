@@ -128,7 +128,7 @@ Stare zasady oceniania (poniżej) mogą się zmienić ze względu
 na pandemię. 
 
 Aktualne wyniki można sprawdzić w tabelce
-[tabelce](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/algebra_27_05_2020_shuf.csv), 
+[tabelce](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/tabelka_04_06_2020_shuf.csv), 
 W pierwszej kolumnie znajduje się anonimowy
 identyfikator studenta. 
 Proszę o indywidualny kontakt aby otrzymać ten numerek.

@@ -6,7 +6,7 @@ Stare zasady oceniania (poniżej) mogą się zmienić ze względu
 na pandemię. 
 
 Aktualne wyniki można sprawdzić w tabelce
-[tabelce](---ThisDir---/algebra_27_05_2020_shuf.csv), 
+[tabelce](---ThisDir---/tabelka_04_06_2020_shuf.csv), 
 W pierwszej kolumnie znajduje się anonimowy
 identyfikator studenta. 
 Proszę o indywidualny kontakt aby otrzymać ten numerek.

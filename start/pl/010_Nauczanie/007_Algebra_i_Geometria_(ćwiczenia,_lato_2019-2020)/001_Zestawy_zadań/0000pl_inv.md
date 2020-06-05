@@ -1925,7 +1925,9 @@ Uzasadnić, że transfromacja $C$ dwu baz w tej samej przestrzeni
 wektorowej (patrz definicja w notatkach z wykładu) jest nieosobliwa,
 tzn. $det(C) \ne 0$.
 
-WSKAZÓWKA: TODO (pojawi się wkrótce)
+WSKAZÓWKA: Czy pamiętają Państwo [wykład](https://youtu.be/Ip3X9LOh2dk)? Proszę się zastanowić co się dzieje gry
+rozważamy przypadek $2$ wymiarowy - wektory na płaszczyźnie. Co się dzieje gdy zadziałamy na te wektory macierzą
+$C$ gdy $det(C) \rightarrow 0$?
 
 <center>
 **H**
@@ -1967,7 +1969,7 @@ Pokazać (szkicując ideę dowodu, ale bez szczegółów), że:
 
 * wyznaczniki macierzy hermitowskich są rzeczywiste
 
-WSKAZÓWKA: TODO (pojawi się wkrótce)
+WSKAZÓWKA: Jakie są właściwości wyznacznika? Czy $A^{\dagger} = (\bar{A})^{T}$?
 
 <center>
 **J**
@@ -2003,6 +2005,8 @@ W Wikipedii można znaleźć postać macierzy Pauliego.
 Udowodnić, że macierze podobne $A$ i $\widetilde{A}$, $\widetilde{A} = C^{-1} A C$,
 mają te same wyznaczniki i wartości własne.
 
-WSKAZÓWKA: TODO (pojawi się wkrótce)
+WSKAZÓWKA: $C$ jest macierzą nieosobliwą, co z tego wynika dla jej wyznacznika? Jaki jest wyznacznik iloczynu macierzy?
+Jaki jest wyznacznik macierzy odwrtonej? Co by się stało gdybyśmy od obu stron równania odjeli macierz jednostkową, 
+ewentualnie pomnożoną przez pewną stałą?
 
 <div style="text-align: center"><a href = #zestaw-14-01-vi-2020 title = "zestaw 14 01 vi 2020">←</a><a href = #zawartość title = "zawartość">↑</a></div>

@@ -12,7 +12,8 @@
 </center>
 
 * [Przykład 3 x 3](https://youtu.be/0c7dt2SQfLw) (napisy po polsku), [przykład n x n](https://youtu.be/H9BWRYJNIv4) (napisy po polsku, trochę wykładu trochę przykładów),
-  [fajny przykład](https://youtu.be/QV0jsTiobU4) (praktyczny przykład - proszę spróbować to policzyć).
+  [fajny przykład](https://youtu.be/QV0jsTiobU4) (praktyczny przykład - proszę spróbować to policzyć),
+	[kolejny sposób](https://youtu.be/nu87kfmwNfU)
 
 <center>
 **ROZWIĄZYWANIE UKŁADÓW RÓWNAŃ LINIOWYCH**

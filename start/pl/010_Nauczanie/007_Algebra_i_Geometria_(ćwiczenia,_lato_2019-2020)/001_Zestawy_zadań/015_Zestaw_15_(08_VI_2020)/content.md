@@ -129,7 +129,7 @@ tzn. $det(C) \ne 0$.
 
 WSKAZÓWKA: Czy pamiętają Państwo [wykład](https://youtu.be/Ip3X9LOh2dk)? Proszę się zastanowić co się dzieje gry
 rozważamy przypadek $2$ wymiarowy - wektory na płaszczyźnie. Co się dzieje gdy zadziałamy na te wektory macierzą
-$C$ gdy $det(C) \rightarrow 0$?
+$C$ gdy $det(C) \rightarrow 0$? Czy wnioski można uogólnić do większej liczby wymiarów?
 
 <center>
 **H**

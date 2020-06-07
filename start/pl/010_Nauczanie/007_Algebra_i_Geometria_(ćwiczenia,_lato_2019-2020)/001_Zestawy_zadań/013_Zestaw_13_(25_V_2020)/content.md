@@ -27,6 +27,9 @@ $$f(x , y) = (x_{1})^{2} + (x_{2})^{2} + (x_{3})^{2} + 2 x_{1} x_{2}$$
 za pomocą przekształcenia ortogonalnego. Wyrazić współrzędne $y_{1} , y_{2} , y_{3}$ za pomocą
 $x_{1} , x_{2} , x_{3}$.
 
+UWAGA: Macierz formy powinna być symetryczna. Proszę się zastanowić dlaczego? Jakie są własności
+macierzy symetrycznych w kontekście problemu włanego?
+
 <center>
 **B**
 </center>

@@ -100,7 +100,7 @@ numerów albumów (od najmniejszego do największego - można sprawdzić w USOS)
 | Suchan | Barbara | ... | 9 VI 16:30 - 16:40 | 
 | Kapusta | Paweł | PATHFINDING Z A\* | 9 VI 16:40 - 16:50 | 
 | Sękowski | Wojciech | GENERATOR LABIRYNTÓW OPARTY NA ALGORYTMIE PRIMA LUB ALGORYTMIE KRUSKALA  | 9 VI 16:50 - 17:00 | 
-| Sroka | Jakub | ... | 9 VI 17:00 - 17:10 | 
+| Sroka | Jakub | ALGORYTM DIJKSTRY I JEGO ZASTOWANIE W GRACH | 9 VI 17:00 - 17:10 | 
 | Rudnicka | Sandra | SZUKANIE ŚCIEŻKI HAMILTONA ORAZ EULERA W SEKWENCJONOWANIU DNA | 9 VI 17:10 - 17:20 | 
 
 Oceniana będzie jakość projektu, demonstracji oraz dyskusji.

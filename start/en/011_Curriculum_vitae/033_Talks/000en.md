@@ -88,4 +88,3 @@ XI 2011
 Collegium Maius UJ, Krakw, Poland        
 VI 2010                                                                
 
-<div style="text-align: center"><a href = #content title = "content">↑</a></div>

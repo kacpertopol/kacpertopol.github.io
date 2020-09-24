@@ -207,7 +207,6 @@ Eur. Phys. J. A 43 : 10 (2010)
 [DOI: 10.1140/epja/i2009-10903-6](https://dx.doi.org/10.1140/epja/i2009-10903-6)
 
 
-<div style="text-align: center"><a href = #content title = "content">↑</a><a href = #conference-proceedings title = "conference proceedings">→</a></div>
 
 # Conference proceedings
 
@@ -344,4 +343,3 @@ Few-Body Syst. 50 : 3 (2011)
 [DOI: 10.1007/s00601-010-0204-7](https://dx.doi.org/10.1007/s00601-010-0204-7)
 
 
-<div style="text-align: center"><a href = #regular-articles title = "regular articles">←</a><a href = #content title = "content">↑</a></div>

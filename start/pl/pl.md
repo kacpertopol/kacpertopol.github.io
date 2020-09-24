@@ -20,16 +20,11 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Coronavirus](./0pl.html)
+	* [COVID](./0pl.html)
 	* [Konsultacje](#konsultacje)
-	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)](#algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020)
-		* [Zestawy zadań](./00pl.html)
-		* [Dodatkowe materiały](./000pl.html)
-	* [Algebra i Geometria (ćwiczenia, lato 2019-2020)](#algebra-i-geometria-ćwiczenia-lato-2019-2020)
-		* [Zestawy zadań](./0000pl.html)
-		* [Kolokwia](./00000pl.html)
-		* [Materiały dodatkowe](./000000pl.html)
-* [Curriculum vitae](./0000000pl.html)
+	* [Metody Statystyczne (wykład, zima 2020-2021)](./00pl.html)
+	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./000pl.html)
+* [Curriculum vitae](./0000pl.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
 
@@ -42,14 +37,16 @@ toc-title: TOC
 * adres: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland
 * pokój: B-2-25 (II piętro)
 * tel.: (+48) 12 664 4869  
+* SKYPE: użytkownik *live:kacpertopol*
+* ZOOM: użytkownik z adresem e-mail <kacper.topolnicki@uj.edu.pl>
+* MS TEAMS: użytkownik z adresem e-mail <kacper.topolnicki@uj.edu.pl>
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a><a href = #nauczanie title = "nauczanie">→</a></div>
 
 # Nauczanie
 
 
 
-## [Coronavirus](./0pl.html)
+## [COVID](./0pl.html)
 
 
 
@@ -57,146 +54,16 @@ toc-title: TOC
 
 Środa, 12:00 - 14:00, Skype
 
-<div style="text-align: center"><a href = #coronavirus title = "coronavirus">←</a><a href = #nauczanie title = "nauczanie">↑</a><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">→</a></div>
 
-## Algorytmy i Struktury Danych (lab komputerowe, lato 2019-2020)
-
-Ocena końcowa będzie średnią ważoną:
-
-* zadania (60%)
-* projekt (40%)
-
-Aktualną liczbę zadań można odczytać z [tabelki](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2019-2020)/asid2_27_03_2020_shuf.csv).
-Plik w formacie CSV można otworzyć w arkuszu kalkulacyjnym. Pierwsza kolumna zawiera anonimowy identyfikator.
-Skala ocen za zadania:
-
-| ZAKRES PUNKTÓW | OCENA | 
-| -------------- | ----- |
-| 12 - 14        | 3.0   |
-| 15 - 17        | 3.5   |
-| 18 - 20        | 4.0   |
-| 21 - 23        | 4.5   |
-| 24 -           | 5.0   | 
-
-Uwaga, z tabelki nie usunąłem kilku osób, które na początku semestru zmieniły grupę - stąd zerowe wyniki :-)
-
-Prezentacje projektów końcowych odbędą się 2 VI oraz 9 VI. Na prezentację projektu będzie 10 minut
-(7 minut na demonstrację oraz omówienie + 3 minuty na dyskusję). Prezentacje będą się odbywać zgodnie z
-kolejnością 
-numerów albumów (od najmniejszego do największego - można sprawdzić w USOS):
-
-| NAZWISKO | IMIE | TEMAT PREZENTACJI | TERMIN |
-| -------- | ---- | ----------------- | ------ | 
-| Hampel | Kacper | ... | 2 VI 16:00 - 16:10 | 
-| Brzeziak | Juliusz | ... | 2 VI 16:10 - 16:20 | 
-| Nagórzański | Kamil | GRA "WORD LADDER" DLA DWÓCH OSÓB | 2 VI 16:30 - 16:40 | 
-| Buczek | Krzysztof | AUTOMAT KOMÓRKOWY | 2 VI 16:50 - 17:00 | 
-| Mrożek | Klaudia | ... | 2 VI 17:00 - 17:10 | 
-| Chudy | Dominik | WIZUALIZACJA ALGORYTMU DIJKSTRY W PYGAME. SZUKANIE NAJKRÓTSZEJ ŚCIEŻKI Z PUNKTU A DO PUNKTU B | 2 VI 17:10 - 17:20 | 
-| Halbiniak | Natalia | PROBLEM UKŁADANIA SPOTKAŃ POMIĘDZY DRUŻYNAMI W LIDZE SPORTOWEJ | 2 VI 17:20 - 17:30 | 
-| Gędłek | Katarzyna | ALGORYTM MIN MAX ORAZ JEGO ZASTOSOWANIE W GRACH | 9 VI 16:00 - 16:10 | 
-| Nowak | Radosław | SZUKANIE MINIMALNEGO DRZEWA ROZPINAJĄCEGO PRZY POMOCY ALGORYTMU PRIMA | 9 VI 16:10 - 16:20 | 
-| Malczewski | Mateusz | ALGORYTM A\* W SILNIKU UNITY  | 9 VI 16:20 - 16:30 | 
-| Suchan | Barbara | ... | 9 VI 16:30 - 16:40 | 
-| Kapusta | Paweł | PATHFINDING Z A\* | 9 VI 16:40 - 16:50 | 
-| Sękowski | Wojciech | GENERATOR LABIRYNTÓW OPARTY NA ALGORYTMIE PRIMA LUB ALGORYTMIE KRUSKALA  | 9 VI 16:50 - 17:00 | 
-| Sroka | Jakub | ALGORYTM DIJKSTRY I JEGO ZASTOWANIE W GRACH | 9 VI 17:00 - 17:10 | 
-| Rudnicka | Sandra | SZUKANIE ŚCIEŻKI HAMILTONA ORAZ EULERA W SEKWENCJONOWANIU DNA | 9 VI 17:10 - 17:20 | 
-
-Oceniana będzie jakość projektu, demonstracji oraz dyskusji.
-
-UWAGA: O zadaniach można porozmawiać (w celu zaliczenia zadań) dodatkowo we wtorki $15:00 - 15:45$.
-Oprócz tego terminu możemy porozmawiac również podczas zajęć oraz konsultacji.
-
-<div style="text-align: center"><a href = #konsultacje title = "konsultacje">←</a><a href = #nauczanie title = "nauczanie">↑</a><a href = #algebra-i-geometria-ćwiczenia-lato-2019-2020 title = "algebra i geometria ćwiczenia lato 2019 2020">→</a></div>
-
-### [Zestawy zadań](./00pl.html)
+## [Metody Statystyczne (wykład, zima 2020-2021)](./00pl.html)
 
 
 
-### [Dodatkowe materiały](./000pl.html)
+## [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./000pl.html)
 
 
 
-## Algebra i Geometria (ćwiczenia, lato 2019-2020)
-
-<center>
-**UWAGA** 
-</center>
-
-Stare zasady oceniania (poniżej) mogą się zmienić ze względu
-na pandemię. 
-
-Aktualne wyniki można sprawdzić w tabelce
-[tabelce](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/algebra_15_06_2020_shuf.csv), 
-W pierwszej kolumnie znajduje się anonimowy
-identyfikator studenta. 
-Proszę o indywidualny kontakt aby otrzymać ten numerek.
-Tabelki zawierają punkty za odpowiednie zadania i są w formacie CSV (comma separated values), powinno się
-móc je zaimportować do arkusza kalkulacyjnego.
-
-Aby uzyskać pozytywną ocenę z ćwiczeń należy mieć 
-kolokwia zaliczone przynajmniej na 3.0 oraz pozytywną ocenę z zadań.
-Na ocenę końcową składać się będzie ocena z kolokwiów (średnia ocena z kolokwiów z wagą 35%)
-oraz ocena z zadań (z wagą 75%). Skala ocen za zadania jest następująca:
-
-| ZAKRES PUNKTÓW | OCENA |
-| -------------- | ----- |
-| 40 - 55        | 3.0   |
-| 56 - 70        | 3.5   |
-| 71 - 85        | 4.0   |
-| 86 - 90        | 4.5   |
-| 91 -           | 5.0   |
-
-Osoby nie spełniające warunków zaliczenia będą miały możliwość na ostatnich zajęciach (8 VI)
-poprawić ocenę. Zajęcia te przeznaczone są na kolokwium zaliczeniowe. Będzie ono miało formę
-ustną i będzie się odbywać za pośrednictwem zoom. Dodatkowo osoby te są proszone
-o AKTYWNE uczestnictwo w dodatkowych zajęciach powtórkowych do egzaminu: 
-
-* 6,7 VI oraz 13,14 VI 
-* godzina 10:00 - 13:00
-* za pośrednictwem zoom - można dołączyć tak jak na zwykłe zajęcia
-
-Uwaga: zajęcia te są jedynie dodatkiem. Aby zdać egzamin wymagana jest również 
-praca indywidualna. 
-
-<center>
-**STARE ZASADY**
-</center>
-
-Ocena końcowa będzie średnią ważoną:
-
-* 20% I kolokwium
-* 20% II kolokwium
-* 20% III kolokwium
-* 40% aktywność na ćwiczeniach
-
-Przy czym aby uzyskać pozytywną ocenę z ćwiczeń należy mieć pozytywną ocenę
-z wszystkich kolokwiów oraz aktywności. Egzamin pisemny z przedmiotu odbędzie 
-się 19 czerwca w godzinach 9:00 - 12:00.
-
-Aktualne wyniki grupy 1 można sprawdzić w
-[tabelce](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/publicWyniki_GR_1.pdf), 
-natomiast grupy 7 w 
-[tablece](./start/pl/010_Nauczanie/007_Algebra_i_Geometria_(ćwiczenia,_lato_2019-2020)/publicWyniki_GR_7.pdf).
-W pierwszej kolumnie znajduje się anonimowy
-identyfikator studenta.
-
-<div style="text-align: center"><a href = #algorytmy-i-struktury-danych-lab-komputerowe-lato-2019-2020 title = "algorytmy i struktury danych lab komputerowe lato 2019 2020">←</a><a href = #nauczanie title = "nauczanie">↑</a></div>
-
-### [Zestawy zadań](./0000pl.html)
-
-
-
-### [Kolokwia](./00000pl.html)
-
-
-
-### [Materiały dodatkowe](./000000pl.html)
-
-
-
-# [Curriculum vitae](./0000000pl.html)
+# [Curriculum vitae](./0000pl.html)
 
 
 
@@ -246,4 +113,3 @@ identyfikator studenta.
 
  
 
-<div style="text-align: center"><a href = #fun title = "fun">↑</a></div>

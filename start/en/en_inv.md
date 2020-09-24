@@ -33,7 +33,6 @@ toc-title: TOC
 * room: B-2-25 (II floor)
 * tel.: (+48) 12 664 4869  
 
-<div style="text-align: center"><a href = #content title = "content">↑</a><a href = #curriculum-vitae title = "curriculum vitae">→</a></div>
 
 # [Curriculum vitae](./0en_inv.html)
 
@@ -85,4 +84,3 @@ toc-title: TOC
 
  
 
-<div style="text-align: center"><a href = #fun title = "fun">↑</a></div>

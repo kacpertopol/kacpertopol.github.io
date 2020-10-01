@@ -6,6 +6,19 @@ title : Zestawy zadań
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Old_Fashioned_Gym_%287981005513%29.jpg/800px-Old_Fashioned_Gym_%287981005513%29.jpg)](https://commons.wikimedia.org/wiki/File:Old_Fashioned_Gym_(7981005513).jpg)
 </center>
 
+
+
+
+
+# Zawartość:
+
+* [Ocenianie](#ocenianie)
+* [Zestaw 1 (8 X 2020)](#zestaw-1-8-x-2020)
+
+
+
+# Ocenianie
+
 - Ćwiczenia można oddawać na każdych zajęciach,
   wystarczy zademonstrować działanie programu. 
 - Ćwiczenia z zestawu przypadającego na dane zajęcia
@@ -14,13 +27,6 @@ title : Zestawy zadań
   wystawiana na podstawie całkowitej ilości
   punktów uzyskanych z rozwiązania ćwiczeń. 
 
-
-
-
-
-# Zawartość:
-
-* [Zestaw 1 (8 X 2020)](#zestaw-1-8-x-2020)
 
 
 

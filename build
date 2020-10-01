@@ -8,4 +8,4 @@ make_dark='pandoc --mathjax --template GitHubINV.html5 -o'
 ./make_all -t "Content:" "$make_light" "./start/en" "./" "en"
 ./make_all -t "Content:" "$make_dark" "./start/en" "./" "en_inv"
 
-cp pl_inv.html index.html
+cp pl.html index.html

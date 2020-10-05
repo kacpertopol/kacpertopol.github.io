@@ -12,7 +12,7 @@ title : Metody Statystyczne
 
 * [Organizacja](#organizacja)
 * [Link do zajęć](#link-do-zajęć)
-* [Wykłady](#wykłady)
+* [Wykłady (Kacper Topolnicki)](#wykłady-kacper-topolnicki)
 * [Ćwiczenia (Vitalii Urbanevych)](#ćwiczenia-vitalii-urbanevych)
 
 
@@ -68,7 +68,7 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 - Passcode: 4P3Zcm
 
 
-# Wykłady
+# Wykłady (Kacper Topolnicki)
 
 TODO
 

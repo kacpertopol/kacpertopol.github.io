@@ -19,13 +19,31 @@ title : Metody Statystyczne
 
 # Organizacja
 
+<center>
+**WYKŁAD**
+</center>
+
+Wykład będzie prowadzony zdalnie z wykorzystaniem *ZOOM*. Na ocenę z wykładu końcową składać się będą:
+
+- kolokwium końcowe (30% oceny)
+- ocena z ćwiczeń (70% oceny)
+
+Ocena z ćwiczeń bedzie wystawiana na podstawie ilości oddanych zadań.
+
+<center>
+**ĆWICZENIA**
+</center>
+
 TODO
+
+
+
 
 
 # Link do zajęć
 
 <center>
-**ZOOM**
+**WYKŁAD - ZOOM**
 <center>
 
 - link: <https://us02web.zoom.us/j/81066425946?pwd=UGxWdjFRMHZXOXdpcmU4ZG42VXIzdz09>
@@ -33,6 +51,16 @@ TODO
 - Meeting ID: 810 6642 5946
 
 - Passcode: 8kt3fY
+
+<center>
+**ĆWICZENIA - ZOOM**
+<center>
+
+- link: <https://us02web.zoom.us/j/86822792090?pwd=QlBuOTBtajVSU204ekhBUE5WU0xnZz09>
+
+- Meeting ID: 868 2279 2090
+
+- Passcode: 4P3Zcm
 
 
 # Wykłady

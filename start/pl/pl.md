@@ -22,7 +22,7 @@ toc-title: TOC
 * [Nauczanie](#nauczanie)
 	* [COVID](./0pl.html)
 	* [Konsultacje](#konsultacje)
-	* [Metody Statystyczne (wykład, zima 2020-2021)](./00pl.html)
+	* [Metody Statystyczne (zima 2020-2021)](./00pl.html)
 	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./000pl.html)
 * [Curriculum vitae](./00000pl.html)
 * [Fun](#fun)
@@ -55,7 +55,7 @@ toc-title: TOC
 Środa, 12:00 - 14:00, Skype
 
 
-## [Metody Statystyczne (wykład, zima 2020-2021)](./00pl.html)
+## [Metody Statystyczne (zima 2020-2021)](./00pl.html)
 
 
 

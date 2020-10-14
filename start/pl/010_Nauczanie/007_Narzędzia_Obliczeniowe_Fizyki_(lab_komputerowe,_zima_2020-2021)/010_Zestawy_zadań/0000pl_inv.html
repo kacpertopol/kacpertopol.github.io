@@ -139,6 +139,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li><a href="#ocenianie">Ocenianie</a></li>
 <li><a href="#zestaw-1-8-x-2020">Zestaw 1 (8 X 2020)</a></li>
+<li><a href="#zestaw-2-15-x-2020">Zestaw 2 (15 X 2020)</a></li>
 </ul>
 <h1 id="ocenianie">Ocenianie</h1>
 <ul>
@@ -205,6 +206,111 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 (2 punkty)
 </center>
 <p>Korzystając z implementacji z zadania <strong>B</strong> proszę stworzyć uruchamialny skrypt. Skrypt powinien z linii poleceń pobierać pojedyńczy argument, liczbe wyrazów w ciągu Fibonacciego. Państwa program powinien następnie wypisywać na ekranie odpowiednią liczbę początkowych wyrazów tego ciągu.</p>
+<h1 id="zestaw-2-15-x-2020">Zestaw 2 (15 X 2020)</h1>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<p>Ostatnie twierdzenie Fermata:</p>
+<ul>
+<li><a href="https://pl.wikipedia.org/wiki/Wielkie_twierdzenie_Fermata">wiki</a>, <a href="https://youtu.be/qiNcEguuFSA">youtube</a></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę, z wykorzystaniem funkcji</p>
+<pre><code>FullSimplify</code></pre>
+<p>sprawdzić czy istnieją liczby całkowite <span class="math inline">\(x\)</span> , <span class="math inline">\(y\)</span> , <span class="math inline">\(z\)</span> oraz <span class="math inline">\(n\)</span>, które spełniają:</p>
+<ul>
+<li><span class="math inline">\(x^n + y^n = z^n\)</span></li>
+<li><span class="math inline">\(n &gt; 2\)</span></li>
+<li><span class="math inline">\(x y z \ne 0\)</span> (żadna z tych liczb nie jest równa 0)</li>
+</ul>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Proszę skonstruować krótki dowód wyniku z zadania <strong>A</strong>. Zeskanowane wyprowadzienie można mi wysłać pocztą elektroniczną.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę z wykorzystaniem funkcji</p>
+<pre><code>If</code></pre>
+<p>zaimplementować funkcję <span class="math inline">\(f(x , y)\)</span>, która przyjmuje wartość <span class="math inline">\(1\)</span> gdy punkt <span class="math inline">\((x , y)\)</span> wpada w dwu-wymiarowy pierścień o zewnętrznym promieniu <span class="math inline">\(1\)</span> oraz wewnętrznym promieniu <span class="math inline">\(\frac{1}{2}\)</span> ze środkiem w środku układu współrzędnych. W przeciwnym wypadku funkcja przyjmuje wartość <span class="math inline">\(0\)</span>. Proszę tą funkcję narysować z wykorzystaniem</p>
+<pre><code>RegionPlot</code></pre>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Korzystając z funkcji:</p>
+<pre><code>Integrate</code></pre>
+<p>proszę policzyć pole pierścienia z zadania <strong>C</strong>. Wskazówka: Całka <span class="math inline">\(f(x , y)\)</span> po <span class="math inline">\(x\)</span> oraz <span class="math inline">\(y\)</span> w zakresie od <span class="math inline">\(-1\)</span> do <span class="math inline">\(1\)</span> zwróci pole koła. Dlaczego?</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Ciało o masie <span class="math inline">\(1\)</span> kg porusza się po trajektorii <span class="math inline">\(r(t)\)</span> zaimplementowanej jako:</p>
+<pre><code>(*t - czas w sekundach*)
+(*{x , y} - zwracana pozycja w metrach*)
+r[t_] := {Cos[t] , Sin[t]};</code></pre>
+<p>Proszę policzyć jaka siła musi działać na to ciało jeżeli założymy, że porusza się ono zgodnie z zasadami Newtona. Można w tym celu wykrozystać funkcję:</p>
+<pre><code>D</code></pre>
+<p>Proszę skonstruować funkcję, która dla zadanego czasu będzie zwracała graficzną reprezentację ciała oraz działającej na niego siły.</p>
+<center>
+<strong>F</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Korzystając z funkcji:</p>
+<pre><code>Import</code></pre>
+<p>oraz</p>
+<pre><code>Cases</code></pre>
+<p>Proszę napisać program który:</p>
+<ul>
+<li>pobierze ze <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">strony</a> pliki CSV związane z przebiegiem globalnej pandemii (potwierdzone przypadki, śmierci, wyzdrowienia)</li>
+<li>zwróci wykres nowych przypadków (śmierci, wyzdrowień) dla Polski z ostatnich czterech tygodni</li>
+</ul>
+<center>
+<strong>G</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Korzystająć z <a href="https://pl.wikipedia.org/wiki/Pochodna_funkcji">definicji pochodnej</a> oraz funkcji:</p>
+<pre><code>Limit</code></pre>
+<p>Proszę policzyc pochodne <span class="math inline">\(f&#39;(x)\)</span> następujacych funkcji:</p>
+<ul>
+<li><span class="math inline">\(f(x) = ln(x)\)</span></li>
+<li><span class="math inline">\(f(x) = exp(x)\)</span></li>
+<li><span class="math inline">\(f(x) = x^{2}\)</span></li>
+</ul>
+<center>
+<strong>H</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Korzystając z</p>
+<pre><code>Manipulate</code></pre>
+<p>proszę napisać program, który będzie manipulował wykresem funkcji <span class="math inline">\(f(x) = exp(x) sin(4 x)\)</span>. Implementacja powinna pozwalać na wykonanie operacji:</p>
+<ul>
+<li>przesunięcia wykresu funkcji w górę lub dół</li>
+<li>przesunięcia wykresu funkcji w lewo lub prawo</li>
+<li>odbicie funkcji względem osi pionowej</li>
+<li>odbicie funkcji względem osi posiomej</li>
+</ul>
 </article>
 </body>
 </html>

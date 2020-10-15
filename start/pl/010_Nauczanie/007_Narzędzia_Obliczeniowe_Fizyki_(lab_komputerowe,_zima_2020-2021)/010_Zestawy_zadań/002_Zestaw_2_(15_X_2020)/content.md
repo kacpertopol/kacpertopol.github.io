@@ -117,8 +117,8 @@ Cases
 Proszę napisać program który:
 
 - pobierze ze [strony](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
-  pliki CSV związane z przebiegiem globalnej pandemii (potwierdzone przypadki, śmierci, wyzdrowienia)
-- zwróci wykres nowych przypadków (śmierci, wyzdrowień) dla Polski z ostatnich czterech tygodni
+  plik CSV zawierający dane dotyczące liczby potwierdzonych przypadków
+- zwróci wykres nowych przypadków dla Polski z ostatnich czterech tygodni
 
 <center>
 **G**

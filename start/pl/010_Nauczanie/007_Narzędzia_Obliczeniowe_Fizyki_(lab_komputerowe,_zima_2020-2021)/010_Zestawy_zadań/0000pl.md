@@ -145,10 +145,36 @@ odpowiednią liczbę początkowych wyrazów tego ciągu.
 **MATERIAŁY DODATKOWE**
 </center>
 
+W razie kłopotów:
+
+- *Evaluation - Quit Kernel - Local* resetuje jądro mathematici.
+  Wszystkie definicje zmiennych, funkcji, ... zostaną usunięte.
+- *Evaluation - Abort Evaluation* przerywa aktualnie wykonywane zadanie
+
 Ostatnie twierdzenie Fermata:
 
 - [wiki](https://pl.wikipedia.org/wiki/Wielkie_twierdzenie_Fermata), 
   [youtube](https://youtu.be/qiNcEguuFSA)
+
+Szablony, wzrce: *Help - Wolfram Documentation* i w okienku:
+
+- *guide/Patterns*
+- *tutorial/Patterns*
+
+Chaotyczny notebook z zadań (lepiej przyjrzeć się wykładowi profesora):
+
+- [bałagan](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/002_Zestaw_2_(15_X_2020)/nof_15_10_2020_zajecia.nb)
+
+Zadanie A:
+
+- proszę dokładnie :-) przyjrzeć się wszystkim rozdziałom dokumentacji  
+```
+FullSimplify
+```
+
+Liczenie objetości bąbelków (proszę zajrzeć równiez do drugiego wykładu profesora):
+
+- [objętość bąbelków](---Thisdir---/nof_15_10_2020_zajecia_1.nb)
 
 <center>
 **A**

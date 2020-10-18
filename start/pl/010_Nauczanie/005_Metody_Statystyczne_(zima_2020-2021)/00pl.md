@@ -87,6 +87,8 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
   - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/fgp.zip) z rysunkami funkcji gęstości prawdopodobieństwa
 - [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EfTfTfuFUqZLmpmjoTbBXIsBKA-UwlkDye92ebZnI3iHbw?e=xO8zWw) wykładu
   - korzystam z nowego programu, udało się nagrać jedynie mniej więcej połowę, przepraszam :-(
+- prawdopodobieństwo obiektywne i subiektywne, Bayesian and frequentist interpretation
+  - link pojawi się wkrótce
 
 
 # Ćwiczenia (Vitalii Urbanevych)

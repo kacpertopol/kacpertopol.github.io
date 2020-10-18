@@ -1,6 +1,6 @@
 <center>
 **WYKŁAD - ZOOM**
-<center>
+</center>
 
 - link: <https://us02web.zoom.us/j/81066425946?pwd=UGxWdjFRMHZXOXdpcmU4ZG42VXIzdz09>
 
@@ -10,7 +10,7 @@
 
 <center>
 **ĆWICZENIA - ZOOM**
-<center>
+</center>
 
 - link: <https://us02web.zoom.us/j/86822792090?pwd=QlBuOTBtajVSU204ekhBUE5WU0xnZz09>
 

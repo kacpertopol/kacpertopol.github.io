@@ -18,3 +18,7 @@
   - korzystam z nowego programu, udało się nagrać jedynie mniej więcej połowę, przepraszam :-(
 - prawdopodobieństwo obiektywne i subiektywne, Bayesian and frequentist interpretation
   - link pojawi się wkrótce
+- problem MH
+  - [numberphile na youtube](https://youtu.be/4Lb-6rxZxx0)
+  - [dłuższe wyjaśnienie](https://youtu.be/ugbWqWCcxrg)
+  - [artykuł na wikipedii](https://en.wikipedia.org/wiki/Monty_Hall_problem)

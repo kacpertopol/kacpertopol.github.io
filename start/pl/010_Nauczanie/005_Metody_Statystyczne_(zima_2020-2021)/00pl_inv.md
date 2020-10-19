@@ -23,7 +23,7 @@ title : Metody Statystyczne
 **TRYB PROWADZENIA ZAJĘĆ**
 </center>
 
-Zgodnie z nowym [komunikatem](---ThisDir/komunikat.pdf) zarówno wykład jak i ćwiczenia będą prowadzone
+Zgodnie z nowym [komunikatem](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/001_Organizacja/komunikat.pdf) zarówno wykład jak i ćwiczenia będą prowadzone
 w trybie zdalnym.
 
 <center>

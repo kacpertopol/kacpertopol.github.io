@@ -2,7 +2,7 @@
 **TRYB PROWADZENIA ZAJĘĆ**
 </center>
 
-Zgodnie z nowym [komunikatem](---ThisDir/komunikat.pdf) zarówno wykład jak i ćwiczenia będą prowadzone
+Zgodnie z nowym [komunikatem](---ThisDir---/komunikat.pdf) zarówno wykład jak i ćwiczenia będą prowadzone
 w trybie zdalnym.
 
 <center>

@@ -42,7 +42,7 @@ będzie ono miało wpływ jedynie na ocenę z wykładu.
 **ĆWICZENIA (Vitalii Urbanevych)**
 </center>
 
-Wykład będzie prowadzony zdalnie z wykorzystaniem *ZOOM*.
+Ćwiczenia będą prowadzone zdalnie z wykorzystaniem *ZOOM*.
 
 Przed każdym spotkaniem studenci otrzymają zestaw zadań (będzie on udostępniany na tej stronie). Minimalnym warunkiem zaliczenia jest wykonanie co najmniej dwóch zadań z każdego zestawu. Jednak liczba wykonanych zadań wpłynie na ocenę końcową, więc im więcej zadań zastanie wykonane, tym lepiej. Konkretna skala ocen będzie podana przed końcem semestru.
 

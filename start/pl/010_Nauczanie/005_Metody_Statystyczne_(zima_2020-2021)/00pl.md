@@ -82,7 +82,8 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 - [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/wykład_2020-10-17-Note-11-22.pdf)
 - notebooki Mathematici
   - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
-  - [instrukcja](https://kacpertopol.github.io/000pl.html) instalowania Mathematici dla studentów, proszę przeczytać stronkę i PDF
+  - instalowania Mathematici dla studentów zajduje się w tekście [strony](https://kacpertopol.github.io/000pl.html), 
+	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony
   - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/mh.zip) Mathematici z symulacją problemu Montiego Halla (źródło obrazków: [samochód](https://commons.wikimedia.org/wiki/File:Blue_old_car.svg), [koza](https://commons.wikimedia.org/wiki/File:Goat_cartoon_04.svg))
   - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/fgp.zip) z rysunkami funkcji gęstości prawdopodobieństwa
 - [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EfTfTfuFUqZLmpmjoTbBXIsBKA-UwlkDye92ebZnI3iHbw?e=xO8zWw) wykładu

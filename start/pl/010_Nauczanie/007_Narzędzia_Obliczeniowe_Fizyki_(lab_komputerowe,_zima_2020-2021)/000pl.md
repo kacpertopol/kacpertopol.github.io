@@ -23,40 +23,17 @@ title : Narzędzia Obliczeniowe Fizyki
 **ZAJĘCIA**
 </center>
 
-Nasza grupa ćwiczeniowa będzie podzielona na dwie części
-zgodnie z tym co zostało podane w wiadomości do wszystkich studentów.
-
-Na pierwsze zajęcia (8 X) przychodzi część A, na drugie część B, 
-na trzecie część A, na czwarte B, itd. Studenci, którzy nie są obecni 
-na zajęciach w instytucie fizyki mają obowiązek uczestniczyć za 
-pośrednictwem platformy ZOOM (zajęcia będę prowadził jednocześnie przez ZOOM oraz na miejscu). 
-Na każdych zajęciach będzie zbierana lista obecności (zarówno osób uczestniczący 
-na miejscu jak i zdalnie). Dopuszczalne są dwie nieusprawiedliwione nieobecności.
-
-<center>
-**MASECZKI ORAZ DEZYNFEKCJA**
-</center>
-
-Pani dziekan wprowadziła wymóg noszenia maseczek na korytarzach i podczas wchodzenia 
-do sal (proszę się zapoznać z [tym komunikatem](https://fais.uj.edu.pl/documents/41628/144484288/komunikat_dziekana_20200917.pdf/464d30b7-cbdb-4415-816b-65a430770cf4)). Bardzo proszę jednak aby Państwo 
-nosili maseczki również po zajęciu miejsc w sali komputerowej. 
-
-Nie jestem w stanie tego wyegzekwować, mogę co najwyżej popatrzyć na studenta 
-w gorzką dezaprobatą :-) Nie wydaje mi się aby to było wielkim poświęceniem 
-(pod warunkiem, że maseczki są świeże i wyprane) a wygląda na to, że zasłanianie 
-ust oraz nosa rzeczywiście ogranicza rozprzestrzenianie się wirusa (zachęcam 
-do [lektury](https://informacje.pan.pl/images/2020/opracowanie-covid19-14-09-2020/ZrozumiecCovid19_opracowanie_PAN.pdf)). 
-Można to potraktować jako drobną uprzejmość w stosunku do 
-kolegów, prowadzącego oraz osób (również starszych) z którymi mają Państwo na co dzień kontakt. 
-
-Dodatkowo proszę o częstą dezynfekcję dłoni, min przed wejściem na zajęcia.
+Zgodnie z nowym [komuniatem](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/001_Organizacja/komunikat.pdf) zajęcia będą prowadzone
+w trybie zdalnym. Bedziemy korzystać z platformy ZOOM.
+Dodatkowe informacje o tym programie znajdują się na [stronie](https://kacpertopol.github.io/0pl.html)
+a poniżej można znaleźć informacje potrzebne do dołączenia do zajęć.
 
 <center>
 **MATHEMATICA**
 </center>
 
 Na zajęciach będziemy korzystać z programu Mathematica. Bardzo proszę, 
-przed pierwszymi zajęciami (8 X) zapoznać się z
+przed zapoznać się z
 [instrukcją](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) 
 na stronie:
 

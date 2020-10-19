@@ -1,11 +1,4 @@
 <center>
-**TRYB PROWADZENIA ZAJĘĆ**
-</center>
-
-Zgodnie z nowym [komunikatem](---ThisDir/komunikat.pdf) zarówno wykład jak i ćwiczenia będą prowadzone
-w trybie zdalnym.
-
-<center>
 **WYKŁAD (Kacper Topolnicki)**
 </center>
 
@@ -21,7 +14,7 @@ będzie ono miało wpływ jedynie na ocenę z wykładu.
 **ĆWICZENIA (Vitalii Urbanevych)**
 </center>
 
-Wykład będzie prowadzony zdalnie z wykorzystaniem *ZOOM*.
+W związku z obecna sytuacją epidemiologiczną grupy ćwiczeniowe będą dodatkowo podzielone na dwie części (szczegóły podziału zostaną wysłane do studentów). Na pierwsze zajęcia przychodzi część A, na drugie część B, na trzecie część A, itd. Studenci, którzy nie są obecni na zajęciach w instytucie fizyki mają obowiązek uczestniczyć za pośrednictwem platformy ZOOM (zajęcia będą prowadzone jednocześnie przez ZOOM oraz na miejscu). Na każdych zajęciach będzie zbierana lista obecności (zarówno osób uczestniczący na miejscu jak i zdalnie). Dopuszczalna jest jedna nieusprawiedliwiona nieobecność. Dodatkowo proszę pamiętać o częstej dezynfekcji rąk (obowiązkowo podczas wejścia na salę komputerową) oraz monitorować bieżące zarządzenia związane z COVID.
 
 Przed każdym spotkaniem studenci otrzymają zestaw zadań (będzie on udostępniany na tej stronie). Minimalnym warunkiem zaliczenia jest wykonanie co najmniej dwóch zadań z każdego zestawu. Jednak liczba wykonanych zadań wpłynie na ocenę końcową, więc im więcej zadań zastanie wykonane, tym lepiej. Konkretna skala ocen będzie podana przed końcem semestru.
 

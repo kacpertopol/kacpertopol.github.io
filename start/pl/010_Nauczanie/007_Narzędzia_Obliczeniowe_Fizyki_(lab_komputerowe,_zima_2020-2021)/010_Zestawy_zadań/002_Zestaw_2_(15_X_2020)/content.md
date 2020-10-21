@@ -144,6 +144,11 @@ Proszę napisać program który:
 
 - pobierze ze [strony](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
   plik CSV zawierający dane dotyczące liczby potwierdzonych przypadków
+  - można skopiować link <https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv>
+  - wykorzystać go w funkcji 
+  ```
+  Import
+  ```
 - zwróci wykres nowych przypadków dla Polski z ostatnich czterech tygodni
 
 <center>

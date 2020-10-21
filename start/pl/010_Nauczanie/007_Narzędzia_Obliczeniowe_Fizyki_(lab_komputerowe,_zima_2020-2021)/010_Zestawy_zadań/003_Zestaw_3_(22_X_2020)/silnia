@@ -1,0 +1,22 @@
+#!/usr/local/Wolfram/Mathematica/12.1/Executables/wolframscript
+(* 
+UWAGA:
+- pierwsza linija inna niż w hello.wls, może nie działać
+- ... zawsze można ją zastąpić inną ...
+*)
+
+(*
+REKURENCYJNA DEFINICJA SILNI:
+*)
+silnia[1] = 1;
+silnia[n_] := n silnia[n - 1];
+
+(*
+ARGUMENT SKRYPTU:
+- zmienna $ScriptCommandLine zawiera listę z komendą, która została wywołana aby uruchomić skrypt
+- funkcja ToExpression[...] zamienia argument (ciąg znaków z lini poleceń) na liczbę
+*)
+arg = ToExpression[$ScriptCommandLine[[2]]];
+
+(*wypisywanie na ekranie listy potęg:*)
+Print[Table[silnia[i] , {i , 1 , arg}]];

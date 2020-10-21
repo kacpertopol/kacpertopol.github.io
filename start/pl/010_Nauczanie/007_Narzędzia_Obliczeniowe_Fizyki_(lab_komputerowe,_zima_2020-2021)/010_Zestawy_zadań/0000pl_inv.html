@@ -140,6 +140,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="#ocenianie">Ocenianie</a></li>
 <li><a href="#zestaw-1-8-x-2020">Zestaw 1 (8 X 2020)</a></li>
 <li><a href="#zestaw-2-15-x-2020">Zestaw 2 (15 X 2020)</a></li>
+<li><a href="#zestaw-3-22-x-2020">Zestaw 3 (22 X 2020)</a></li>
 </ul>
 <h1 id="ocenianie">Ocenianie</h1>
 <ul>
@@ -303,7 +304,12 @@ r[t_] := {Cos[t] , Sin[t]};</code></pre>
 <pre><code>Cases</code></pre>
 <p>Proszę napisać program który:</p>
 <ul>
-<li>pobierze ze <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">strony</a> plik CSV zawierający dane dotyczące liczby potwierdzonych przypadków</li>
+<li>pobierze ze <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">strony</a> plik CSV zawierający dane dotyczące liczby potwierdzonych przypadków
+<ul>
+<li>można skopiować link <a href="https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" class="uri">https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv</a></li>
+<li>wykorzystać go w funkcji</li>
+</ul>
+<pre><code>Import</code></pre></li>
 <li>zwróci wykres nowych przypadków dla Polski z ostatnich czterech tygodni</li>
 </ul>
 <center>
@@ -335,6 +341,172 @@ r[t_] := {Cos[t] , Sin[t]};</code></pre>
 <li>odbicie funkcji względem osi pionowej</li>
 <li>odbicie funkcji względem osi posiomej</li>
 </ul>
+<h1 id="zestaw-3-22-x-2020">Zestaw 3 (22 X 2020)</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Korzystająć z:</p>
+<pre><code>NSolve</code></pre>
+<p>proszę znaleźć wartści <span class="math inline">\(x\)</span> dla których zachodzi:</p>
+<ul>
+<li><span class="math inline">\(f(x) = 0\)</span>, gdzie <span class="math inline">\(f(x) = \frac{\sin{x^{2}}}{x^{2}}\)</span></li>
+<li><span class="math inline">\(x &lt; 2 \pi\)</span></li>
+<li><span class="math inline">\(x &gt; 0\)</span></li>
+</ul>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Korzystając z funkcji</p>
+<pre><code>Plot</code></pre>
+<p>oraz opcjonalnych argumentów:</p>
+<pre><code>GridLines -&gt; ... ,
+PlotStyle -&gt; ... ,
+Frame -&gt; ... ,
+Axes -&gt; ... ,
+FrameLabel -&gt; ...</code></pre>
+<p>Proszę narysować wykres funkcji <span class="math inline">\(f(x)\)</span> z zadania <strong>A</strong> w przedziale o <span class="math inline">\(0\)</span> do <span class="math inline">\(2 \pi\)</span>. Wykres powinien:</p>
+<ul>
+<li>być narysowany czerwoną linią</li>
+<li>zawierać pionowe linie w miejscach gdzie w <strong>A</strong> wyliczono <span class="math inline">\(f(x) = 0\)</span></li>
+<li>zamiast osi posiadać ramkę</li>
+<li>zawiera opis pionowej oraz poziomej osi na ramce</li>
+</ul>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę wprowadzić definicje dwóch macierzy w postaci zagnieżdżonych list:</p>
+<p><span class="math display">\[
+A =  \left(
+\begin{array}{cc}
+ 1 &amp; 0 \\
+ 0 &amp; 1 \\
+\end{array}
+\right)
+\]</span></p>
+<p><span class="math display">\[
+B =  \left(
+\begin{array}{cc}
+ 0 &amp; -1 \\
+ 1 &amp; 0 \\
+\end{array}
+\right)
+\]</span></p>
+<p>oraz sprawdzić z wykorzystaniem funkcji</p>
+<pre><code>Dot</code></pre>
+<p>ile wynoszą <a href="https://pl.wikipedia.org/wiki/Mno%C5%BCenie_macierzy">iloczyny macierzy</a>:</p>
+<ul>
+<li><span class="math inline">\(A.A\)</span></li>
+<li><span class="math inline">\(B.B\)</span></li>
+<li><span class="math inline">\(\left( a_{1} A + b_{1} B \right).\left( a_{2} A + b_{2} B \right)\)</span></li>
+<li><span class="math inline">\(\left( a_{2} A + b_{2} B \right).\left( a_{1} A + b_{1} B \right)\)</span></li>
+</ul>
+<p>gdzie <span class="math inline">\(a_{1}\)</span>, <span class="math inline">\(b_{1}\)</span>, <span class="math inline">\(a_{2}\)</span>, <span class="math inline">\(b_{2}\)</span> są liczbami rzeczywistymi. Czy można te wyniki wykorzystać do reprezentacji <a href="https://pl.wikipedia.org/wiki/Liczby_zespolone">liczb zespolonych</a>? Dlaczego?</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Proszę powtórzyć rachunki z zadania <strong>C</strong> dla macierzy:</p>
+<p><span class="math display">\[
+A = \left(
+\begin{array}{cc}
+ 1 &amp; 0 \\
+ -1 &amp; 1 \\
+\end{array}
+\right)
+\]</span></p>
+<p><span class="math display">\[
+B = \left(
+\begin{array}{cc}
+ 1 &amp; 1 \\
+ 1 &amp; 0 \\
+\end{array}
+\right)
+\]</span></p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Liczenie eksponenty liczby <span class="math inline">\(x\)</span>: <span class="math display">\[ 
+e^{x}
+\]</span> można uogólnić do macierzy z wykorzystaniem rozwinięcia <span class="math display">\[
+e^{x} = \sum_{k = 0}^{\infty} \frac{x^{k}}{k!} = 1 + x + \frac{1}{2} x^{2} + \frac{1}{6} x^{3} + \ldots
+\]</span> oraz zastępując mnożenie, mnożeniem macierzowym. W Mathematice eksponentę z macierzy można policzyć wykorzystując:</p>
+<pre><code>MatrixExp</code></pre>
+<p>Proszę:</p>
+<ul>
+<li><p>policzyć <span class="math inline">\(e^{B \phi}\)</span> gdzie <span class="math inline">\(B\)</span> jest macierzą z zadania <strong>C</strong></p></li>
+<li><p>wykorzystując</p>
+<pre><code>Solve</code></pre>
+<p>zapisać ten wynik w postaci <span class="math inline">\(a A + b B\)</span> gdzie macierze <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span> są z zadania <strong>C</strong> natomiast <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span> są nieznanymi liczbami</p></li>
+</ul>
+<p>Jak ten wynik ma się do liczb zespolonych?</p>
+<center>
+<strong>F</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Proszę wykorzystać wzorzec:</p>
+<pre><code>f[c_][z_] := ...</code></pre>
+<p>aby zaimplementować funkcję <span class="math display">\[
+f_{c}(z) = z^{2} + c
+\]</span></p>
+<p>Następnie, korzystając z wzorca:</p>
+<pre><code>k[n_][c_] := ...</code></pre>
+<p>funkcji:</p>
+<pre><code>Nest</code></pre>
+<p>oraz implementacji funkcji <span class="math inline">\(f\)</span> proszę zaimplementować funkcję <span class="math inline">\(k_{n}(c)\)</span> która dla danej liczby zespolonej <span class="math inline">\(c\)</span> oraz początkowej liczby zespolonej <span class="math inline">\(z_{0} = 0\)</span> wielokrotnie aplikuje funkcję <span class="math inline">\(f\)</span>:</p>
+<p><span class="math display">\[k_{1}(c) = f_{c}(z_{0})\]</span> <span class="math display">\[k_{2}(c) = f_{c}(f_{c}(z_{0}))\]</span> <span class="math display">\[k_{3}(c) = f_{c}(f_{c}(f_{c}(z_{0})))\]</span> <span class="math display">\[\ldots\]</span></p>
+<p>Wykorzystując</p>
+<pre><code>RegionPlot
+Abs</code></pre>
+<p>proszę narysować funkcję <span class="math inline">\(1 / |k_{5}(x + i y)|\)</span> gdzie <span class="math inline">\(-2 &lt; x &lt; 1\)</span> oraz <span class="math inline">\(-1.5 &lt; y &lt; 1\)</span>. Co otrzymujemy? Czy można <span class="math inline">\(1/||\)</span> zastąpić inną funkcją?</p>
+<center>
+<strong>G</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Wykorzystując</p>
+<pre><code>Limit</code></pre>
+<p>proszę policzyć granice (WSKAZÓWKA: proszę zajrzeć do dokumentacji ;-) :</p>
+<ul>
+<li><span class="math inline">\(\lim_{x \rightarrow 0^{+}} \frac{|x|}{\sin x}\)</span></li>
+<li><span class="math inline">\(\lim_{x \rightarrow 0^{-}} \frac{|x|}{\sin x}\)</span></li>
+</ul>
+<p>oraz narysować wykres funkcji <span class="math inline">\(\frac{|x|}{\sin x}\)</span>.</p>
+<center>
+<strong>H</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę wykonać zadanie <strong>A</strong> biorąc pochodną funkcji <span class="math inline">\(f(x)\)</span>, <span class="math inline">\(f&#39;(x)\)</span>, zamiast <span class="math inline">\(f(x)\)</span>.</p>
+<center>
+<strong>I</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Wykorzystując</p>
+<pre><code>DiscretePlot
+DiscreteLimit</code></pre>
+<p>proszę narysować wykres funkcji: <span class="math display">\[
+f(k) = \sin(k \pi / 16) / k
+\]</span> , gdzie <span class="math inline">\(k\)</span> jest liczbą całkowitą, oraz znaleźć jej granicę przy <span class="math inline">\(k \rightarrow \infty\)</span>.</p>
 </article>
 </body>
 </html>

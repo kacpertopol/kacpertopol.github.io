@@ -114,10 +114,11 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 - notebooki Mathematici
   - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
   - instrukcja instalowania Mathematici dla studentów zajduje się w tekście [strony](https://kacpertopol.github.io/000pl.html), 
-	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony
-	- proszę czytać komentarze
+	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony	
   - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/examples.nb) rozkład normalny 2D
+	  - proszę czytać komentarze
   - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
+	  - proszę czytać komentarze
 - nagranie pojawi się niedługo TODO
 - wyniki eksperymentu pojawią się niedługo TODO
   - [źródło](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) eksperymentu

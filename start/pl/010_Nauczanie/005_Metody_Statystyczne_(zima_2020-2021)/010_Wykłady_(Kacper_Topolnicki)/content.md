@@ -22,3 +22,24 @@
   - [numberphile na youtube](https://youtu.be/4Lb-6rxZxx0)
   - [dłuższe wyjaśnienie](https://youtu.be/ugbWqWCcxrg)
   - [artykuł na wikipedii](https://en.wikipedia.org/wiki/Monty_Hall_problem)
+
+<center>
+**wykład 2**
+</center>
+
+<center>
+(25 X 2020)
+</center>
+
+- nieco mniej chaotyczne [slajdy](---ThisDir---/ms_2.pdf)
+- notebooki Mathematici
+  - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
+  - instrukcja instalowania Mathematici dla studentów zajduje się w tekście [strony](https://kacpertopol.github.io/000pl.html), 
+	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony
+	- proszę czytać komentarze
+  - [notebook](---ThisDir---/examples.nb) rozkład normalny 2D
+  - [notebook](---ThisDir---/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
+- nagranie pojawi się niedługo TODO
+- wyniki eksperymentu pojawią się niedługo TODO
+  - [źródło](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) eksperymentu
+- linki do YouTube pojawią się wkrótce TODO

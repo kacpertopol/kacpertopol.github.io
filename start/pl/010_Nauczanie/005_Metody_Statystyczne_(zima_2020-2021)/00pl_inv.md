@@ -102,6 +102,27 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
   - [dłuższe wyjaśnienie](https://youtu.be/ugbWqWCcxrg)
   - [artykuł na wikipedii](https://en.wikipedia.org/wiki/Monty_Hall_problem)
 
+<center>
+**wykład 2**
+</center>
+
+<center>
+(25 X 2020)
+</center>
+
+- nieco mniej chaotyczne [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/ms_2.pdf)
+- notebooki Mathematici
+  - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
+  - instrukcja instalowania Mathematici dla studentów zajduje się w tekście [strony](https://kacpertopol.github.io/000pl.html), 
+	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony
+	- proszę czytać komentarze
+  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/examples.nb) rozkład normalny 2D
+  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
+- nagranie pojawi się niedługo TODO
+- wyniki eksperymentu pojawią się niedługo TODO
+  - [źródło](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) eksperymentu
+- linki do YouTube pojawią się wkrótce TODO
+
 
 # Ćwiczenia (Vitalii Urbanevych)
 

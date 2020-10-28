@@ -344,9 +344,11 @@ Implementacja powinna pozwalać na wykonanie operacji:
 </center>
 
 - [wprowadzenie](https://youtu.be/5PcpBw5Hbwo) do liczb zespolonych
-  - nie oglądałem tego wykładu do końca z reguły Grant doskonale tłumaczy, polecam
+  - nie oglądałem tego wykładu do końca ale Grant Sanderson zazwyczaj doskonale tłumaczy, polecam
 - chaotyczne [notatki](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/003_Zestaw_3_(22_X_2020)/2020-10-22-Note-17-36.pdf)
+  - lepiej zerknąć do wykładu *3Blue1Brown* lub Państwa notatek z matematyki 
 - chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/003_Zestaw_3_(22_X_2020)/Notebook.nb)
+  - lepiej zerknąć do wykładu *3Blue1Brown* lub Państwa notatek z matematyki 
 - pisanie pakietów
   - przykład [pakietu](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/003_Zestaw_3_(22_X_2020)/Przyklad.wl)
   - [przykład](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/003_Zestaw_3_(22_X_2020)/przyklad_pakiet.nb) wykorzystania

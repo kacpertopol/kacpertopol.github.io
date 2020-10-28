@@ -5,9 +5,11 @@
 - [wprowadzenie](https://youtu.be/5PcpBw5Hbwo) do liczb zespolonych
   - nie oglądałem tego wykładu do końca ale Grant Sanderson zazwyczaj doskonale tłumaczy, polecam
 - chaotyczne [notatki](---ThisDir---/2020-10-22-Note-17-36.pdf)
-  - lepiej zerknąć do wykładu *3Blue1Brown* lub Państwa notatek z matematyki 
+  - lepiej zerknąć do wykładu *3Blue1Brown* 
+  - ... lub Państwa notatek z matematyki 
 - chaotyczny [notebook](---ThisDir---/Notebook.nb)
-  - lepiej zerknąć do wykładu *3Blue1Brown* lub Państwa notatek z matematyki 
+  - lepiej zerknąć do wykładu *3Blue1Brown* 
+  - ... lub Państwa notatek z matematyki 
 - pisanie pakietów
   - przykład [pakietu](---ThisDir---/Przyklad.wl)
   - [przykład](---ThisDir---/przyklad_pakiet.nb) wykorzystania

@@ -2,6 +2,8 @@
 **METRIAŁY DODATKOWE**
 </center>
 
+- [wprowadzenie](https://youtu.be/5PcpBw5Hbwo) do liczb zespolonych
+  - nie oglądałem tego wykładu do końca z reguły Grant doskonale tłumaczy, polecam
 - chaotyczne [notatki](---ThisDir---/2020-10-22-Note-17-36.pdf)
 - chaotyczny [notebook](---ThisDir---/Notebook.nb)
 - pisanie pakietów

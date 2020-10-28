@@ -343,6 +343,8 @@ Implementacja powinna pozwalać na wykonanie operacji:
 **METRIAŁY DODATKOWE**
 </center>
 
+- [wprowadzenie](https://youtu.be/5PcpBw5Hbwo) do liczb zespolonych
+  - nie oglądałem tego wykładu do końca z reguły Grant doskonale tłumaczy, polecam
 - chaotyczne [notatki](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/003_Zestaw_3_(22_X_2020)/2020-10-22-Note-17-36.pdf)
 - chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/003_Zestaw_3_(22_X_2020)/Notebook.nb)
 - pisanie pakietów

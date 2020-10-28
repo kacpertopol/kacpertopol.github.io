@@ -59,6 +59,11 @@ Wynik prosze porównać z rozwinięciem $sin(x + i y)$ za pomocą
 ```
 ComplexExpand
 ```
+dla kilku wartości $x$ oraz $y$. Dodatkowo z wykorzystaniem
+```
+ContourPlot
+```
+proszę narysować wykres części rzeczywistej oraz urojonej $sin(x + i y)$.
 
 <center>
 **D**

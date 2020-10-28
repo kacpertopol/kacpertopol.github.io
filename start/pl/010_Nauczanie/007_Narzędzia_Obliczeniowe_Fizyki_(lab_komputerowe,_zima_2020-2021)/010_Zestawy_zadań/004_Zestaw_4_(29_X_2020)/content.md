@@ -1,16 +1,4 @@
 <center>
-**METRIAŁY DODATKOWE**
-</center>
-
-- chaotyczne [notatki](---ThisDir---/2020-10-22-Note-17-36.pdf)
-- chaotyczny [notebook](---ThisDir---/Notebook.nb)
-- pisanie pakietów
-  - przykład [pakietu](---ThisDir---/Przyklad.wl)
-  - [przykład](---ThisDir---/przyklad_pakiet.nb) wykorzystania
-- nagranie prezentacji
-  - TODO
-
-<center>
 **A**
 </center>
 

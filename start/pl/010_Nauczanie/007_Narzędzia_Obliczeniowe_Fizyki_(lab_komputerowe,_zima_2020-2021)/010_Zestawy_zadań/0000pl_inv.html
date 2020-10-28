@@ -543,7 +543,93 @@ f(k) = \sin(k \pi / 16) / k
 <center>
 (2 punkt)
 </center>
-<p>TODO</p>
+<ul>
+<li><p>Korzystająć z wyniku zadania <strong>E</strong> z zestawu trzeciego proszę uzasadnić: <span class="math display">\[
+exp(i \phi) = cos(\phi) + i sin(\phi)
+\]</span> gdzie <span class="math inline">\(\phi\)</span> jest liczbą rzeczywistą.</p></li>
+<li><p>Proszę potwierdzić tą zależność rozwijając <span class="math inline">\(exp(i \phi)\)</span> z wykorzystaniem:</p>
+<pre><code>ComplexExpand</code></pre>
+<p>(Funkcja ta rozwija dowolne wyrażenie zakładając, że wszystkie występujące w niej niewiadome są rzeczywiste.) oraz wyliczyc ile wynosi:</p></li>
+</ul>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę uogólnić zadanie <strong>E</strong> z zestawu trzeciego i z wykorzystaniem</p>
+<pre><code>MatrixExp</code></pre>
+<p>policzyć <span class="math inline">\(e^{x A + y B}\)</span> gdzie <span class="math inline">\(x, y\)</span> są liczbami rzeczywistymi. Jak ten wynik ma się do liczb zespolonych?</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Korzystająć z równań Cauchiego-Riemana (bez paniki, objaśnię na zajęciach i podam przykład) oraz</p>
+<pre><code>DSolve</code></pre>
+<p>proszę policzyć funkcję <span class="math display">\[
+sin(x + i y)
+\]</span> gdzie <span class="math inline">\(x , y\)</span> są liczbami rzeczywistymi przy założeniu, że jest ona analityczna i znamy jej wartości dla <span class="math inline">\(sin(x + i 0) = sin(x)\)</span>.</p>
+<p>Wynik prosze porównać z rozwinięciem <span class="math inline">\(sin(x + i y)\)</span> za pomocą</p>
+<pre><code>ComplexExpand</code></pre>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(4 punkt)
+</center>
+<p>Zajmiemy się obiektamu typu</p>
+<pre><code>cn[x , y]</code></pre>
+<p>gdzie <span class="math inline">\(x , y\)</span> są liczbami rzeczywistymi. Dla wyrażeń tego typu zdefiniowane są operacje</p>
+<pre><code>plus[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 + x2 , y1 + y2]</code></pre>
+<pre><code>times[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 x2 - y1 y2 , x1 y2 + y1 x2]</code></pre>
+<pre><code>re[cn[x_ , y_]] := x</code></pre>
+<p>oraz</p>
+<pre><code>im[cn[x_ , y_]] := y</code></pre>
+<p>które nazywamy dodawaniem, mnożeniem, braniem części rzeczywistej oraz braniem części urojonej.</p>
+<p>Łatwo się domyślić, że obiekty tego typu mogą reprezentować liczby zespolone. Proszę to sprawdzić i zdefiniować funkcję</p>
+<pre><code>power</code></pre>
+<p>która dla liczby całkowitej <span class="math inline">\(n\)</span> oraz obiektu typu jak wyżej <span class="math inline">\(z\)</span></p>
+<pre><code>power[n][z]</code></pre>
+<p>zwraca potęgę <span class="math inline">\(z^{n}\)</span>. Wskazówka: można skorzystać z funkcji</p>
+<pre><code>Nest</code></pre>
+<p>ale przypadek podnoszenia do potęgi <span class="math inline">\(0\)</span> trzeba rozważać osobno.</p>
+<p>Wiedząc, że <span class="math display">\[
+Re(e^{i \phi}) = cos(\phi)
+\]</span> oraz <span class="math display">\[
+Im(e^{i \phi}) = sin(\phi)
+\]</span> proszę policzyć <span class="math inline">\(cos(1)\)</span> oraz <span class="math inline">\(sin(1)\)</span> z wykorzystaniem rozwinięcia eksponenty w szereg <span class="math display">\[
+e^{z} = exp(z) = \sum_{k = 0}^{\infty} \frac{z^{n}}{n!}
+\]</span> Proszę szereg obciąć po <span class="math inline">\(100\)</span> wyrazach i skorzystać z własnej implementacji podnoszenia do potęgi. Wynik proszę porównać z</p>
+<pre><code>N[Cos[1]]</code></pre>
+<p>oraz</p>
+<pre><code>N[Sin[1]]</code></pre>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Korzystając z funkcji</p>
+<pre><code>Solve</code></pre>
+<p>proszę znaleźć współrzędne <span class="math inline">\((x , y)\)</span> punktów na płaszczyźnie, które leżą na przecięciu</p>
+<ul>
+<li>prostej przechodzącej przez punkty <span class="math inline">\((-1 , 1)\)</span>, <span class="math inline">\((1 , 2)\)</span></li>
+<li>okręgu o środku w <span class="math inline">\((\frac{1}{2} , \frac{1}{2})\)</span> i promieniu <span class="math inline">\(2\)</span></li>
+</ul>
+<p>Dodatkowo proszę tą sytuację narysować (w Mathematica).</p>
+<center>
+<strong>F</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę znaleźć wszystkie pierwiastki równania:</p>
+<p><span class="math display">\[
+z^{4} + z^{2} + 1 == 0
+\]</span></p>
+<p>oraz nanieść rozwiązania na płaszczyznę zespoloną (w Mathematice).</p>
 </article>
 </body>
 </html>

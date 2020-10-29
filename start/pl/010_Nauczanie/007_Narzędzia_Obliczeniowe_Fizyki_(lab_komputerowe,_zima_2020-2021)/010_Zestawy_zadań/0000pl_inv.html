@@ -544,12 +544,12 @@ f(k) = \sin(k \pi / 16) / k
 (2 punkt)
 </center>
 <ul>
-<li><p>Korzystająć z wyniku zadania <strong>E</strong> z zestawu trzeciego proszę uzasadnić: <span class="math display">\[
+<li><p>Korzystając z wyniku zadania <strong>E</strong> z zestawu trzeciego proszę uzasadnić: <span class="math display">\[
 exp(i \phi) = cos(\phi) + i sin(\phi)
 \]</span> gdzie <span class="math inline">\(\phi\)</span> jest liczbą rzeczywistą.</p></li>
 <li><p>Proszę potwierdzić tą zależność rozwijając <span class="math inline">\(exp(i \phi)\)</span> z wykorzystaniem:</p>
 <pre><code>ComplexExpand</code></pre>
-<p>(Funkcja ta rozwija dowolne wyrażenie zakładając, że wszystkie występujące w niej niewiadome są rzeczywiste.) oraz wyliczyc ile wynosi:</p></li>
+<p>Funkcja ta rozwija dowolne wyrażenie zakładając, że wszystkie występujące w niej niewiadome są rzeczywiste.</p></li>
 </ul>
 <center>
 <strong>B</strong>
@@ -566,12 +566,12 @@ exp(i \phi) = cos(\phi) + i sin(\phi)
 <center>
 (2 punkt)
 </center>
-<p>Korzystająć z równań Cauchiego-Riemana (bez paniki, objaśnię na zajęciach i podam przykład) oraz</p>
+<p>Korzystając z równań Cauchiego-Riemana (bez paniki, objaśnię na zajęciach i podam przykład) oraz</p>
 <pre><code>DSolve</code></pre>
 <p>proszę policzyć funkcję <span class="math display">\[
 sin(x + i y)
-\]</span> gdzie <span class="math inline">\(x , y\)</span> są liczbami rzeczywistymi przy założeniu, że jest ona analityczna i znamy jej wartości dla <span class="math inline">\(sin(x + i 0) = sin(x)\)</span>.</p>
-<p>Wynik prosze porównać z rozwinięciem <span class="math inline">\(sin(x + i y)\)</span> za pomocą</p>
+\]</span> gdzie <span class="math inline">\(x , y\)</span> są liczbami rzeczywistymi przy założeniu, że jest ona analityczna (z założenia tego wynika, między innymi, że posiada ona pochodne) i znamy jej wartości dla <span class="math inline">\(sin(x + i 0) = sin(x)\)</span>.</p>
+<p>Wynik proszę porównać z rozwinięciem <span class="math inline">\(sin(x + i y)\)</span> za pomocą</p>
 <pre><code>ComplexExpand</code></pre>
 <p>dla kilku wartości <span class="math inline">\(x\)</span> oraz <span class="math inline">\(y\)</span>. Dodatkowo z wykorzystaniem</p>
 <pre><code>ContourPlot</code></pre>
@@ -582,7 +582,7 @@ sin(x + i y)
 <center>
 (4 punkt)
 </center>
-<p>Zajmiemy się obiektamu typu</p>
+<p>Zajmiemy się obiektami typu</p>
 <pre><code>cn[x , y]</code></pre>
 <p>gdzie <span class="math inline">\(x , y\)</span> są liczbami rzeczywistymi. Dla wyrażeń tego typu zdefiniowane są operacje</p>
 <pre><code>plus[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 + x2 , y1 + y2]</code></pre>
@@ -633,6 +633,18 @@ e^{z} = exp(z) = \sum_{k = 0}^{\infty} \frac{z^{n}}{n!}
 z^{4} + z^{2} + 1 == 0
 \]</span></p>
 <p>oraz nanieść rozwiązania na płaszczyznę zespoloną (w Mathematice).</p>
+<center>
+<strong>G</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Proszę przygotować pakiet który dla danej funkcji <span class="math inline">\(f\)</span> jednego argumentu rzeczywistego <span class="math inline">\(x\)</span>:</p>
+<ul>
+<li>rysuje jej wykres z zaznaczonymi, lokalnymi, minimami maksimami (na rysunku powinny pojawić się również współrzędne oraz informacja czy mamy do czynienia z minimum czy z maksimim)</li>
+<li>rysuje styczną do funkcji w zadanym miejscu</li>
+<li>liczy pole i zaznacza je na wykresie dla zadanego zakresu <span class="math inline">\(x\)</span></li>
+</ul>
 </article>
 </body>
 </html>

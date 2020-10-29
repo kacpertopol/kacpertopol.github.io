@@ -613,7 +613,7 @@ $$
 (2 punkt)
 </center>
 
-- Korzystająć z wyniku zadania **E** z zestawu trzeciego proszę uzasadnić:
+- Korzystając z wyniku zadania **E** z zestawu trzeciego proszę uzasadnić:
   $$
   exp(i \phi) = cos(\phi) + i sin(\phi)
   $$ 
@@ -624,8 +624,8 @@ $$
   ```
   ComplexExpand
   ```
-(Funkcja ta rozwija dowolne wyrażenie zakładając, że wszystkie występujące w niej
-niewiadome są rzeczywiste.) oraz wyliczyc ile wynosi:
+Funkcja ta rozwija dowolne wyrażenie zakładając, że wszystkie występujące w niej
+niewiadome są rzeczywiste.
 
 <center>
 **B**
@@ -650,7 +650,7 @@ do liczb zespolonych?
 (2 punkt)
 </center>
 
-Korzystająć z równań Cauchiego-Riemana (bez paniki, objaśnię na zajęciach i podam przykład)
+Korzystając z równań Cauchiego-Riemana (bez paniki, objaśnię na zajęciach i podam przykład)
 oraz 
 ```
 DSolve
@@ -659,10 +659,10 @@ proszę policzyć funkcję
 $$
 sin(x + i y)
 $$ gdzie $x , y$ są liczbami rzeczywistymi
-przy założeniu, że jest ona analityczna
+przy założeniu, że jest ona analityczna (z założenia tego wynika, między innymi, że posiada ona pochodne)
 i znamy jej wartości dla $sin(x + i 0) = sin(x)$. 
 
-Wynik prosze porównać z rozwinięciem $sin(x + i y)$ za pomocą
+Wynik proszę porównać z rozwinięciem $sin(x + i y)$ za pomocą
 ```
 ComplexExpand
 ```
@@ -680,7 +680,7 @@ proszę narysować wykres części rzeczywistej oraz urojonej $sin(x + i y)$.
 (4 punkt)
 </center>
 
-Zajmiemy się obiektamu typu
+Zajmiemy się obiektami typu
 ```
 cn[x , y]
 ```
@@ -773,4 +773,19 @@ z^{4} + z^{2} + 1 == 0
 $$
 
 oraz nanieść rozwiązania na płaszczyznę zespoloną (w Mathematice).
+
+<center>
+**G**
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzeczywistego $x$:
+
+- rysuje jej wykres z zaznaczonymi, lokalnymi, minimami maksimami (na rysunku powinny pojawić się również współrzędne
+  oraz informacja czy mamy do czynienia z minimum czy z maksimim)
+- rysuje styczną do funkcji w zadanym miejscu
+- liczy pole i zaznacza je na wykresie dla zadanego zakresu $x$
 

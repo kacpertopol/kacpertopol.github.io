@@ -129,7 +129,8 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
     - $13$ osób uznało, że bardziej prawdopodobna jest sytuacja: Linda jest kasjerką w banku
   - Czy potraficie Państwo uzasadnić dlaczego $12$ osób, czyli prawie połowa osób, się myli?
   - [źródło](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) eksperymentu
-- linki do YouTube pojawią się wkrótce TODO
+- YouTube
+  - jest mnóstwo materiałów, proszę sobie wpisać hasła takie jak "Jacobian", "change of variables"
 
 
 # Ćwiczenia (Vitalii Urbanevych)

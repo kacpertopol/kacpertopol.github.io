@@ -32,6 +32,9 @@
 </center>
 
 - nieco mniej chaotyczne [slajdy](---ThisDir---/ms_2.pdf)
+- nowe, króciutkie, [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EX1qBOu3wMZMsWNJ-P-RwGsB_EaE442MA47rd7ud6a3PUQ?e=3aUffc)
+  - postanowiłem sporządzić od zera nowe nagranie do "mniej chaotycznych" slajdów
+  - jest bardzo krótkie, pomijam wiele obliczeń - proszę je jednak dokładnie prześledzić
 - notebooki Mathematici
   - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
   - instrukcja instalowania Mathematici dla studentów zajduje się w tekście [strony](https://kacpertopol.github.io/000pl.html), 
@@ -41,6 +44,10 @@
   - [notebook](---ThisDir---/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
 	  - proszę czytać komentarze
 - nagranie pojawi się niedługo TODO
-- wyniki eksperymentu pojawią się niedługo TODO
+- wyniki eksperymentu:
+  - tak na prawdę interesujące są jedynie dwie sytuacje: 
+    - $12$ osób uznało, że bardziej prawdopodobna jest stytuacja: Linda jest kasjerką oraz aktywną członkinią ruchu feministycznego
+    - $13$ osób uznało, że bardziej prawdopodobna jest sytuacja: Linda jest kasjerką w banku
+  - Czy potraficie Państwo uzasadnić dlaczego $12$ osób, czyli prawie połowa osób, się myli?
   - [źródło](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) eksperymentu
 - linki do YouTube pojawią się wkrótce TODO

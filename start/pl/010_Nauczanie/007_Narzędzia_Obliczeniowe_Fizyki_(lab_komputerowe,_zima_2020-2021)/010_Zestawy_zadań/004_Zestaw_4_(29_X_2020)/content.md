@@ -1,9 +1,18 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [slajdy](---ThisDir---/2020-10-29-Note-19-14.pdf) z zajęć
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQzo1_M0FJ9HiTFxa9Qpz1kBzSofMK0J7AemZtXKergK7g?e=2QoPhm) z zajęć
+- [notebook](---ThisDir---/poisson.nb) rozwiązujący równanie laplaca
+- chaotyczny [notebook](---ThisDir---/cwiczenia.nb) z zajęć
+
+<center>
 **A**
 </center>
 
 <center>
-(2 punkt)
+(2 punkty)
 </center>
 
 - Korzystając z wyniku zadania **E** z zestawu trzeciego proszę uzasadnić:
@@ -25,7 +34,7 @@ niewiadome są rzeczywiste.
 </center>
 
 <center>
-(2 punkt)
+(2 punkty)
 </center>
 
 Proszę uogólnić zadanie **E** z zestawu trzeciego i z wykorzystaniem
@@ -40,7 +49,7 @@ do liczb zespolonych?
 </center>
 
 <center>
-(2 punkt)
+(3 punkty)
 </center>
 
 Korzystając z równań Cauchiego-Riemana (bez paniki, objaśnię na zajęciach i podam przykład)
@@ -70,7 +79,7 @@ proszę narysować wykres części rzeczywistej oraz urojonej $sin(x + i y)$.
 </center>
 
 <center>
-(4 punkt)
+(4 punkty)
 </center>
 
 Zajmiemy się obiektami typu
@@ -136,7 +145,7 @@ N[Sin[1]]
 </center>
 
 <center>
-(2 punkt)
+(2 punkty)
 </center>
 
 Korzystając z funkcji 
@@ -156,7 +165,7 @@ Dodatkowo proszę tą sytuację narysować (w Mathematica).
 </center>
 
 <center>
-(2 punkt)
+(2 punkty)
 </center>
 
 Proszę znaleźć wszystkie pierwiastki równania:
@@ -172,7 +181,7 @@ oraz nanieść rozwiązania na płaszczyznę zespoloną (w Mathematice).
 </center>
 
 <center>
-(3 punkt)
+(3 punkty, obowiązkowe)
 </center>
 
 Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzeczywistego $x$:

@@ -26,7 +26,10 @@ title : Zestawy zadań
   wystarczy zademonstrować działanie programu oraz króciutko
 	o nim opowiedzieć.
 - Ćwiczenia z zestawu przypadającego na dane zajęcia
-  można oddawać na tych zajęciach lub dwóch kolejnych.
+  można oddawać do końca semestru ale ...
+  - ... jeżeli pod koniec semestru braknie czasu na zajęciach aby 
+    zadanie oddać to nie zostanie ono zalicone 
+  - W związku z tym proszę nie zwlekać z oddawaniem zadań.
 - Ocena z zadań będzie
   wystawiana na podstawie całkowitej ilości
   punktów uzyskanych z rozwiązania ćwiczeń. 
@@ -606,11 +609,20 @@ $$
 # Zestaw 4 (29 X 2020)
 
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/004_Zestaw_4_(29_X_2020)/2020-10-29-Note-19-14.pdf) z zajęć
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQzo1_M0FJ9HiTFxa9Qpz1kBzSofMK0J7AemZtXKergK7g?e=2QoPhm) z zajęć
+- [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/004_Zestaw_4_(29_X_2020)/poisson.nb) rozwiązujący równanie laplaca
+- chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/004_Zestaw_4_(29_X_2020)/cwiczenia.nb) z zajęć
+
+<center>
 **A**
 </center>
 
 <center>
-(2 punkt)
+(2 punkty)
 </center>
 
 - Korzystając z wyniku zadania **E** z zestawu trzeciego proszę uzasadnić:
@@ -632,7 +644,7 @@ niewiadome są rzeczywiste.
 </center>
 
 <center>
-(2 punkt)
+(2 punkty)
 </center>
 
 Proszę uogólnić zadanie **E** z zestawu trzeciego i z wykorzystaniem
@@ -647,7 +659,7 @@ do liczb zespolonych?
 </center>
 
 <center>
-(2 punkt)
+(3 punkty)
 </center>
 
 Korzystając z równań Cauchiego-Riemana (bez paniki, objaśnię na zajęciach i podam przykład)
@@ -677,7 +689,7 @@ proszę narysować wykres części rzeczywistej oraz urojonej $sin(x + i y)$.
 </center>
 
 <center>
-(4 punkt)
+(4 punkty)
 </center>
 
 Zajmiemy się obiektami typu
@@ -743,7 +755,7 @@ N[Sin[1]]
 </center>
 
 <center>
-(2 punkt)
+(2 punkty)
 </center>
 
 Korzystając z funkcji 
@@ -763,7 +775,7 @@ Dodatkowo proszę tą sytuację narysować (w Mathematica).
 </center>
 
 <center>
-(2 punkt)
+(2 punkty)
 </center>
 
 Proszę znaleźć wszystkie pierwiastki równania:
@@ -779,7 +791,7 @@ oraz nanieść rozwiązania na płaszczyznę zespoloną (w Mathematice).
 </center>
 
 <center>
-(3 punkt)
+(3 punkty, obowiązkowe)
 </center>
 
 Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzeczywistego $x$:

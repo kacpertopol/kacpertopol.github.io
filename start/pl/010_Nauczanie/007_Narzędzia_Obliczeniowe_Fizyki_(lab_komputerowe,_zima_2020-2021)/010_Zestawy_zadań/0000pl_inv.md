@@ -912,6 +912,7 @@ Przy czym
 
 - kolumna o numerze $N + 1$ jest utożsamiona z kolumną $1$ 
 - kolumna o numerze $-1$ jest utożsamiona z kolumną $N$
+- $\Delta = \frac{1}{N}$
 
 Proszę policzyć wartości oraz wektory własne dla tej macierzy. Wektory własne dla najmniejszych wartości własnych 
 proszę narysować i zastanowić się jakie równanie reprezentuje ta macierz i co tak naprawdę zostało 

@@ -109,5 +109,9 @@ Przy czym
 - proszę rachunek przeprowadzić dla różnych wartości $N$, na początek można przyjąć $N = 100$
 
 Proszę policzyć wartości oraz wektory własne dla tej macierzy. Wektory własne dla najmniejszych wartości własnych 
-proszę narysować i zastanowić się jakie równanie reprezentuje ta macierz i co tak naprawdę zostało 
+proszę narysować z wykorzystaniem
+```
+ListPlot
+```
+i zastanowić się jakie równanie reprezentuje ta macierz i co tak naprawdę zostało 
 policzone.

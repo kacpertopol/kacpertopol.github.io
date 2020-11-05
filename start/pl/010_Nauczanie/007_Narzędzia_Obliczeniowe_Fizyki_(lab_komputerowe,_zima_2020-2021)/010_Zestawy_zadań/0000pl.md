@@ -911,11 +911,12 @@ Dana jest macierz $N \times N$ $A$, której elementy $A_{i , j}$ przyjmują wart
 Przy czym 
 
 - kolumna o numerze $N + 1$ jest utożsamiona z kolumną $1$ 
-- kolumna o numerze $-1$ jest utożsamiona z kolumną $N$
+- kolumna o numerze $0$ jest utożsamiona z kolumną $N$
 - $\Delta = \frac{1}{N}$
 - proszę rachunek przeprowadzić dla różnych wartości $N$, na początek można przyjąć $N = 100$
 
-Proszę policzyć wartości oraz wektory własne dla tej macierzy. Wektory własne dla najmniejszych wartości własnych 
+Proszę policzyć wartości oraz wektory własne dla tej macierzy. Wektory własne dla wartości własnych 
+o najmniejszej wartości bezwzględnej
 proszę narysować z wykorzystaniem
 ```
 ListPlot

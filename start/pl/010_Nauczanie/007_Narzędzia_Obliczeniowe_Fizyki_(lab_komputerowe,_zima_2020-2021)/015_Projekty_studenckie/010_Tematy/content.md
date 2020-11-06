@@ -17,7 +17,7 @@ $v$. Pakiet powinien implementować następujące funkcje:
 - zmiana długości pręta
 - wizualizacja ewolucji czasowej fali
 
-Ciekawostka, fale rozchodzące się w strunie były wykorzystywane w pamięci RAM:
+Ciekawostka. Fale rozchodzące się w strunie były wykorzystywane w pamięci RAM:
 
 <!--BEGIN_HTML
 <div>

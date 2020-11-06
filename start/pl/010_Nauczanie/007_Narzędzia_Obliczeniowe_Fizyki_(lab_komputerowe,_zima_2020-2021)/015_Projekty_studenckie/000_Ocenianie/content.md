@@ -2,7 +2,8 @@
   oraz demonstracyjnego *notebooka*
 - Ostatnie zajęcia w semestrze będą poświęcone na prezentacje projektów
   - należy przygotować prezentację w postaci "slajdów" (*PowerPoint*, *Beamer*, ...)
-  - każdy student będzie miał $10$ - $15$ minut na zaprezentowanie swojego projektu ("slajdy" + demonstracja)
+  - każdy student będzie miał $10$ - $15$ minut (nieco więcej jezeli projekt jest realizowany przez dwóch studentów) 
+    na zaprezentowanie swojego projektu ("slajdy" + demonstracja)
 - Oceniana będzie
   - jakość prezentacji
   - jakość wykonania projektu

@@ -3,7 +3,7 @@
 </center>
 
 <center>
-*projekt oczekuje na realizatora*
+*projekt oczekuje na realizatora / realizatorkę*
 </center>
 
 Proszę przyjrzeć się zadaniu **E** z zestawu $5$ (05 XI 2020). Korzystając z macierzy

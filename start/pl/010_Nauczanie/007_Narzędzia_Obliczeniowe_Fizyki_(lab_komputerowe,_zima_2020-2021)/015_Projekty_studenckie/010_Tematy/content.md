@@ -15,6 +15,23 @@ $v$. Pakiet powinien implementować następujące funkcje:
 - zmiana warunków początkowych (wstępnego rozkładu naprężeń w drucie)
 - zmiana prędkości rozchodzenia się fali
 - zmiana długości pręta
+- wizualizacja ewolucji czasowej fali
+
+Ciekawostka, fale rozchodzące się w strunie były wykorzystywane w pamięci RAM:
+
+<!--BEGIN_HTML
+<div>
+  <div style="position:relative;padding-top:28.13%;">
+	<iframe 
+	   style="position:absolute;top:0;left:25%;width:50%;height:100%;" 
+	   src="https://www.youtube.com/embed/2BIx2x-Q2fE" 
+	   frameborder="0" 
+	   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+	   allowfullscreen>
+	</iframe>
+  </div>
+</div>
+END_HTML-->
 
 <center>
 **WIECEJ TEMATÓW WKRÓTCE!**

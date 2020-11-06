@@ -24,7 +24,7 @@ toc-title: TOC
 	* [Konsultacje](#konsultacje)
 	* [Metody Statystyczne (zima 2020-2021)](./00pl.html)
 	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./000pl.html)
-* [Curriculum vitae](./00000pl.html)
+* [Curriculum vitae](./000000pl.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
 
@@ -63,7 +63,7 @@ toc-title: TOC
 
 
 
-# [Curriculum vitae](./00000pl.html)
+# [Curriculum vitae](./000000pl.html)
 
 
 

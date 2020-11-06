@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+html_file="$1"
+md_file="$2"
+
+echo $html_file $md_file
+
+pandoc --mathjax --template GitHubINV.html5 "$md_file" | sed '/BEGIN_HTML/d' | sed '/END_HTML/d' > $html_file

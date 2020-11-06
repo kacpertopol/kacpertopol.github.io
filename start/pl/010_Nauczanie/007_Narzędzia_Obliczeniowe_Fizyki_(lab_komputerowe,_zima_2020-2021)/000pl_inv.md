@@ -14,6 +14,7 @@ title : Narzędzia Obliczeniowe Fizyki
 * [Link do zajęć](#link-do-zajęć)
 * [Wykład (prof Jacek Golak)](#wykład-prof-jacek-golak)
 * [Zestawy zadań](./0000pl_inv.html)
+* [Projekty studenckie](./00000pl_inv.html)
 
 
 
@@ -83,5 +84,9 @@ Wykłady profesora Jacka Golaka bedą dostępne na stronie:
 
 
 # [Zestawy zadań](./0000pl_inv.html)
+
+
+
+# [Projekty studenckie](./00000pl_inv.html)
 
 

@@ -17,7 +17,7 @@
 Proszę policzyć potencjał elektryczny $U$ we wszystkich punktach $(i = 1 \ldots N , j = 1 \ldots N)$ kratownicy:
 
 <center>
-![](---ThisDir---/kratownica.jpg)
+![](---ThisDir---/kratownica.jpg) 
 </center>
 
 zakładająć: 

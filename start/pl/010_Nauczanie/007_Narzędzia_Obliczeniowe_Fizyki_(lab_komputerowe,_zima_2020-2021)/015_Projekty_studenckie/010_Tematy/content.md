@@ -7,15 +7,18 @@
 </center>
 
 Proszę przyjrzeć się zadaniu **E** z zestawu $5$ (05 XI 2020). Korzystając z macierzy
-zdefiniowanej w tym zadaniu proszę rozwiązać równanie falowe z periodycznymi
-warunkami brzegowymi. Można sobie wyobrazić, że fala rozchodzi się 
-drucie o długości $L$, który ma kształt okręgu a fala rozchodzi się z prędkością
+podobnej do zdefiniowanej w tym zadaniu proszę rozwiązać równanie falowe z periodycznymi
+warunkami brzegowymi w dwóch wymiarach. Można sobie wyobrazić, że fala rozchodzi się 
+na kwadratowej płycie o długości boku $L$. Periodyczność warunków brzegowych polega na tym,
+że "sklejamy" lewą oraz prawą krawędź płyty oraz górną i dolną krawędź. Powstaje obiekt
+przypominający powierzchnię torusa. 
+Proszę założyć, że fala rozchodzi się z prędkością
 $v$. Pakiet powinien implementować następujące funkcje:
 
 - zmiana warunków początkowych (wstępnego rozkładu naprężeń w drucie)
 - zmiana prędkości rozchodzenia się fali
-- zmiana długości pręta
-- wizualizacja ewolucji czasowej fali
+- zmiana długości boku $L$
+- wizualizacja ewolucji czasowej fali w trzech wymiarach na powierzchni torusa
 
 Ciekawostka. Fale rozchodzące się w strunie były wykorzystywane w pamięci RAM:
 
@@ -40,7 +43,7 @@ END_HTML-->
 </center>
 
 <center>
-*projekt oczekuje na dwie realizujące osoby*
+*G. Ż. oraz M. J.*
 </center>
 
 Symulacja uładów optycznych w dwóch wymiarach.

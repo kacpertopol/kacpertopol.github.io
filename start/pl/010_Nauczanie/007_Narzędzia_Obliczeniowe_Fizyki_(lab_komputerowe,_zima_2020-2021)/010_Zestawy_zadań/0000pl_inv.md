@@ -806,6 +806,14 @@ Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzecz
 # Zestaw 5 (05 XI 2020)
 
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- zawartość ["tablicy"](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/005_Zestaw_5_(05_XI_2020)/zajecia.pdf)
+- włączyłem nagrywanie trochę późno więc [krótkie nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXmBMJJtiGtAv5MUsU--zJ4BSf-ZUyXcsAaQGKsRDATUYA?e=R4ugNv) z zajęć
+- chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/005_Zestaw_5_(05_XI_2020)/zajecia.nb) z zajęć 
+
+<center>
 **A**
 </center>
 
@@ -817,7 +825,7 @@ Proszę policzyć potencjał elektryczny $U$ we wszystkich punktach $(i = 1 \ldo
 
 <center>
 ![](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/005_Zestaw_5_(05_XI_2020)/kratownica.jpg)
-</center>
+<center>
 
 zakładająć: 
 

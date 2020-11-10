@@ -1,4 +1,12 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- zawartość ["tablicy"](---ThisDir---/zajecia.pdf)
+- włączyłem nagrywanie trochę późno więc [krótkie nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXmBMJJtiGtAv5MUsU--zJ4BSf-ZUyXcsAaQGKsRDATUYA?e=R4ugNv) z zajęć
+- chaotyczny [notebook](---ThisDir---/zajecia.nb) z zajęć 
+
+<center>
 **A**
 </center>
 
@@ -10,7 +18,7 @@ Proszę policzyć potencjał elektryczny $U$ we wszystkich punktach $(i = 1 \ldo
 
 <center>
 ![](---ThisDir---/kratownica.jpg)
-</center>
+<center>
 
 zakładająć: 
 

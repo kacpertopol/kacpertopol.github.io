@@ -826,7 +826,7 @@ Proszę policzyć potencjał elektryczny $U$ we wszystkich punktach $(i = 1 \ldo
 
 <center>
 ![](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/005_Zestaw_5_(05_XI_2020)/kratownica.jpg)
-<center>
+</center>
 
 zakładająć: 
 

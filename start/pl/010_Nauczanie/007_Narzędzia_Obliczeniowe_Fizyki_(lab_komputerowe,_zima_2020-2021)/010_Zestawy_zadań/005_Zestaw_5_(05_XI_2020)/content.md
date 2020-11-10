@@ -18,7 +18,7 @@ Proszę policzyć potencjał elektryczny $U$ we wszystkich punktach $(i = 1 \ldo
 
 <center>
 ![](---ThisDir---/kratownica.jpg)
-<center>
+</center>
 
 zakładająć: 
 

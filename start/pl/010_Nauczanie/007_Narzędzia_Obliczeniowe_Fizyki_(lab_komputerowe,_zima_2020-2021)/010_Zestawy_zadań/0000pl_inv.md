@@ -825,7 +825,7 @@ Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzecz
 Proszę policzyć potencjał elektryczny $U$ we wszystkich punktach $(i = 1 \ldots N , j = 1 \ldots N)$ kratownicy:
 
 <center>
-![](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/005_Zestaw_5_(05_XI_2020)/kratownica.jpg)
+![](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/005_Zestaw_5_(05_XI_2020)/kratownica.jpg) 
 </center>
 
 zakładająć: 
@@ -913,9 +913,9 @@ obraca wektorem wokół pewnej osi. Proszę znaleźć tą oś.
 
 Dana jest macierz $N \times N$ $A$, której elementy $A_{i , j}$ przyjmują wartości równe $0$ wszędzie oprócz:
 
-- $A_{i , i} = -\frac{1}{\Delta^{2}}$
-- $A_{i , i - 1} = \frac{1}{2 \Delta^{2}}$
-- $A_{i , i + 1} = \frac{1}{2 \Delta^{2}}$
+- $A_{i , i} = -\frac{1}{2 \Delta^{2}}$
+- $A_{i , i - 1} = \frac{1}{\Delta^{2}}$
+- $A_{i , i + 1} = \frac{1}{\Delta^{2}}$
 
 Przy czym 
 

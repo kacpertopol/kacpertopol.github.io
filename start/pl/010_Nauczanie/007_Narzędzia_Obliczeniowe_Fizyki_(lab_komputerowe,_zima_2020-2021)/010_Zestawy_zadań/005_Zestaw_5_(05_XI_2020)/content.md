@@ -105,9 +105,9 @@ obraca wektorem wokół pewnej osi. Proszę znaleźć tą oś.
 
 Dana jest macierz $N \times N$ $A$, której elementy $A_{i , j}$ przyjmują wartości równe $0$ wszędzie oprócz:
 
-- $A_{i , i} = -\frac{1}{\Delta^{2}}$
-- $A_{i , i - 1} = \frac{1}{2 \Delta^{2}}$
-- $A_{i , i + 1} = \frac{1}{2 \Delta^{2}}$
+- $A_{i , i} = -\frac{1}{2 \Delta^{2}}$
+- $A_{i , i - 1} = \frac{1}{\Delta^{2}}$
+- $A_{i , i + 1} = \frac{1}{\Delta^{2}}$
 
 Przy czym 
 

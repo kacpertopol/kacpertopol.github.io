@@ -1,4 +1,12 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXpQa3ULMbBEt8whl25KFcoByKyTMNVdqH5aqebtSGMYqg?e=UPleAF)
+- chaotyczne [slajdy](---ThisDir---/zajecia.pdf) 
+- ocenzurowany (bez rozwiązania WH) [notebook](---ThisDir---/cenzura.nb) 
+
+<center>
 **A**
 </center>
 

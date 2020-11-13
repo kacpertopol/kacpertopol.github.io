@@ -937,6 +937,14 @@ policzone.
 # Zestaw 6 (12 XI 2020)
 
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXpQa3ULMbBEt8whl25KFcoByKyTMNVdqH5aqebtSGMYqg?e=UPleAF)
+- chaotyczne [slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/006_Zestaw_6_(12_XI_2020)/zajecia.pdf) 
+- ocenzurowany (bez rozwiązania WH) [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/006_Zestaw_6_(12_XI_2020)/cenzura.nb) 
+
+<center>
 **A**
 </center>
 

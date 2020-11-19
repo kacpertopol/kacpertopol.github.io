@@ -19,6 +19,7 @@ title : Zestawy zadań
 * [Zestaw 4 (29 X 2020)](#zestaw-4-29-x-2020)
 * [Zestaw 5 (05 XI 2020)](#zestaw-5-05-xi-2020)
 * [Zestaw 6 (12 XI 2020)](#zestaw-6-12-xi-2020)
+* [Zestaw 7 (19 XI 2020)](#zestaw-7-19-xi-2020)
 
 
 
@@ -1001,4 +1002,120 @@ Proszę zaimplementować własną wersję funkcji liczącej pochodną.
 W rachunkach proszę stosować symbole rozpoczynające się z małej
 litery (na przykład "sin" zamiast "Sin") aby uniknąć konfliktu
 z wbudowanymi w Mathematicę definicjami. 
+
+
+# Zestaw 7 (19 XI 2020)
+
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [płaszczyzna](https://mathworld.wolfram.com/Plane.html)
+- [dwie płaszczyzny](https://mathworld.wolfram.com/Plane-PlaneIntersection.html)
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Proszę zdefiniować typ danych opisujący płaszczyznę w przestrzeni
+trój wymiarowej
+
+- płaszczyznę powinien określać zestaw (współrzędnych) trzech punktów do niej należących
+- wzorzec definiujący ten typ danych powinien sprawdzać czy mamy do czynienia z trzema różnymi
+  punktami 
+
+Mając ten typ danych proszę zaimplementować funkcję, która rysyje tą płaszczyznę. Wskazówka,
+proszę zajrzeć do dokumentacji:
+
+```
+InfinitePlane
+```
+
+oraz
+
+```
+Graphics2D
+```
+<center>
+**B**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Korzystając z typu danych zdefiniowanego w zadaniu **A** proszę napisać funkcję zwracającą
+wektor normalny do płaszczyzny. Dodatkowo proszę narysować kilka płaszczyzn oraz
+wykorzystująć:
+```
+Arrow
+```
+kilka odpowiednich wektorów normalnych mających początek zaczeopiony w tych płaszczyznach.
+
+Proszę zwrócić uwagę, że kolejnośc punktów w typie danych 
+z **A** ma znaczenie. 
+
+<center>
+**C**
+</center>
+
+<center>
+(3 punkty)
+</center>
+
+Proszę zaimplementować funkcję, która biorąc jako argument typ danych z zadania **A**
+zwróci *funkcję*, która:
+
+- pobiera dwie liczby rzeczywiste
+- zwraca współrzędne punktu leżącego na płaszczyźnie.
+
+Wzkazówka. Korzystając z funkcji
+```
+Orthogonalize
+```
+oraz 
+```
+Normalize
+```
+proszę wprowadzić dwu wymiarowy układ współrzędnych na tej płaszczyźnie. 
+
+<center>
+**C**
+</center>
+
+<center>
+(3 punkty)
+</center>
+
+Proszę zaimplementować funkcję, która korzystając z typu danych w zadaniu **A**:
+
+- pobierze dwie płaszczyzny
+- zwróci *funkcję* pobierającą jedną liczbę rzeczywistą i zwracającą współrzędne
+  punktu leżącego na przecięciu tych dwóch płaszczyzn
+- proszę sprawdzić czy plaszczyzny nie są przypadkiem równoległe, jeżeli są proszę "rzucić" wyjątek wykorzystująć
+```
+Throw
+```
+
+<center>
+**D**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Proszę policzyć równanie ruchu dla ciała o masie $1$ zawieszonego na sprężynie
+o stałej sprężystości $1$ korzystając z formalizmu Lagrangea. Rachunek ten proszę
+przeprowadzic w Mathematice. Następnie proszę rozwiązać
+otrzymane równanie ruchu korzystając z 
+```
+NDSolve
+```
+zakładając, że na początku ciało było w pozycji równowagi i miało prędkość początkową
+$0.5$.
 

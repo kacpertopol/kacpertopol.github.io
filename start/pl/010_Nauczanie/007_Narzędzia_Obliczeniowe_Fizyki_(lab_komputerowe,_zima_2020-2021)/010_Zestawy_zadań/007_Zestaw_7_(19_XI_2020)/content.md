@@ -3,7 +3,7 @@
 </center>
 
 - [płaszczyzna](https://mathworld.wolfram.com/Plane.html)
-
+- [dwie płaszczyzny](https://mathworld.wolfram.com/Plane-PlaneIntersection.html)
 
 <center>
 **A**
@@ -75,4 +75,38 @@ Normalize
 ```
 proszę wprowadzić dwu wymiarowy układ współrzędnych na tej płaszczyźnie. 
 
+<center>
+**C**
+</center>
 
+<center>
+(3 punkty)
+</center>
+
+Proszę zaimplementować funkcję, która korzystając z typu danych w zadaniu **A**:
+
+- pobierze dwie płaszczyzny
+- zwróci *funkcję* pobierającą jedną liczbę rzeczywistą i zwracającą współrzędne
+  punktu leżącego na przecięciu tych dwóch płaszczyzn
+- proszę sprawdzić czy plaszczyzny nie są przypadkiem równoległe, jeżeli są proszę "rzucić" wyjątek wykorzystująć
+```
+Throw
+```
+
+<center>
+**D**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Proszę policzyć równanie ruchu dla ciała o masie $1$ zawieszonego na sprężynie
+o stałej sprężystości $1$ korzystając z formalizmu Lagrangea. Rachunek ten proszę
+przeprowadzic w Mathematice. Następnie proszę rozwiązać
+otrzymane równanie ruchu korzystając z 
+```
+NDSolve
+```
+zakładając, że na początku ciało było w pozycji równowagi i miało prędkość początkową
+$0.5$.

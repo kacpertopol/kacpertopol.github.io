@@ -109,4 +109,4 @@ otrzymane równanie ruchu korzystając z
 NDSolve
 ```
 zakładając, że na początku ciało było w pozycji równowagi i miało prędkość początkową
-$0.5$.
+$0.5$. Jednostki masy oraz odległości są dowolne.

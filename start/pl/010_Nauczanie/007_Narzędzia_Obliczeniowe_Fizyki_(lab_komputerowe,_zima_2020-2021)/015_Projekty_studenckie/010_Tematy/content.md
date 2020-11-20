@@ -137,7 +137,7 @@ Pakiet powinien implementować następujące funkcje:
 - określanie, które punkty łączące są podporami
 - określanie, które punkty łączące są obciążone
 - wizualizacja mostu
-- rachunek naprężeń mostu zakładająć, że punkty łączące nie zmienią położenia
+- rachunek naprężeń mostu zakładając, że punkty łączące nie zmienią położenia
 - wizualizacja naprężeń w moście
 
 <!--BEGIN_HTML
@@ -157,5 +157,33 @@ END_HTML-->
 
 <br/><br/>
 
+<center>
+**LICZENIE PI**
+</center>
 
+<center>
+*projekt oczekuje na dwie realizujące osoby*
+</center>
+
+Proszę uważnie obejrzeć film jak również części 2 oraz 3 z opisu na *Youtube*.
+Projekt polega za zaimplementowaniu takiej symulacji. Pakiet powinien
+implementować:
+
+- wybór masy obydwu klocków
+- wizualizację ewolucji czasowej klocków
+- tworzeniu "dźwięku" wydawanego podczas zderzeń
+
+<!--BEGIN_HTML
+<div>
+  <div style="position:relative;padding-top:28.13%;">
+	<iframe 
+	   style="position:absolute;top:0;left:25%;width:50%;height:100%;" 
+	   src="https://www.youtube.com/embed/jsYwFizhncE"
+	   frameborder="0" 
+	   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+	   allowfullscreen>
+	</iframe>
+  </div>
+</div>
+END_HTML-->
 

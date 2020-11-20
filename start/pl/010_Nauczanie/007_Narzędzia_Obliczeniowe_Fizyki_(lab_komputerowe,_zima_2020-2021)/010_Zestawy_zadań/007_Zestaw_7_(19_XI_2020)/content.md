@@ -4,6 +4,8 @@
 
 - [płaszczyzna](https://mathworld.wolfram.com/Plane.html)
 - [dwie płaszczyzny](https://mathworld.wolfram.com/Plane-PlaneIntersection.html)
+- [chaotyczne slajdy](---ThisDir---/all.pdf)
+- [chaotyczne nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EUX8oe3H3YNBqorS5Gv4MjYBeI8CrButWBguYT8-eOmq5g?e=reCbhb)
 
 <center>
 **A**
@@ -76,7 +78,7 @@ Normalize
 proszę wprowadzić dwu wymiarowy układ współrzędnych na tej płaszczyźnie. 
 
 <center>
-**C**
+**D**
 </center>
 
 <center>
@@ -94,16 +96,19 @@ Throw
 ```
 
 <center>
-**D**
+**E**
 </center>
 
 <center>
 (2 punkty)
 </center>
 
-Proszę policzyć równanie ruchu dla ciała o masie $1$ zawieszonego na sprężynie
-o stałej sprężystości $1$ korzystając z formalizmu Lagrangea. Rachunek ten proszę
-przeprowadzic w Mathematice. Następnie proszę rozwiązać
+Proszę policzyć równanie ruchu dla paciorka o masie $1$ nanizanego na
+poziomy pręt. Paciorek porusza się bez tarcia po pręcie i 
+jest dodatkowo połączony ze ścianą sprężynką o 
+stałej sprężystości $1$.
+Rachunek proszę przeprowadzić korzystając z formalizmu Lagrangea 
+w Mathematice. Następnie proszę rozwiązać
 otrzymane równanie ruchu korzystając z 
 ```
 NDSolve

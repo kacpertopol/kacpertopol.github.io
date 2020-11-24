@@ -22,7 +22,7 @@ oraz "password".
 Byłoby doskonale gdyby mogli Państwo pisać na tablicy jak podczas
 zwykłych zajęć. Obecnie jest to nie możliwe ale są sposoby aby to
 doświadczenie emulować.
-Osobiście na ćwiczeniach piszę rysikiem po tablecie graficznym (WACOM ONE). 
+Przez dłuższy czas korzystałem na ćwiczeniach z tabletu graficznego (WACOM ONE). 
 NIE ZACHĘCAM Państwa do zakupów, są równie dobre i znacznie tańsze metody ...
 Wystarczy laptop z kamerką.
 

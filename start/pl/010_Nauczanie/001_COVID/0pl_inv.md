@@ -77,7 +77,7 @@ Wystarczy laptop z kamerką.
 
 Jeden sposób jest opisany wcześniej w rozdziale **cam_board**. 
 Można uzyskać, nieco uboższy, ale podobny efekt w *ZOOM* bez
-instalowania dodatkowych programów. Poniżej znajdują się
+instalowania dodatkowych programów. Poniżej znajduje się
 lista potrzebnych kroków.
 
 **UWAGA** Poniższe kroki nie wydają się zbytnio niebezpieczne

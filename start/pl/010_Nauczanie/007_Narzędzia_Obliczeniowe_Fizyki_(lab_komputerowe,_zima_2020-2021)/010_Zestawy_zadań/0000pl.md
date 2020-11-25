@@ -1129,6 +1129,6 @@ $0.5$. Jednostki masy oraz odległości są dowolne.
 # Zestaw 8 (26 XI 2020)
 
 Na te zajęcia nie ma nowych zadań. 
-Będzie trochę więcej czasu na indywidualne konsultacje
+Będziemy mieli więcej czasu na indywidualne konsultacje
 oraz aby porozmawiac o projektach.
 

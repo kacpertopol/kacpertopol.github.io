@@ -20,6 +20,7 @@ title : Zestawy zadań
 * [Zestaw 5 (05 XI 2020)](#zestaw-5-05-xi-2020)
 * [Zestaw 6 (12 XI 2020)](#zestaw-6-12-xi-2020)
 * [Zestaw 7 (19 XI 2020)](#zestaw-7-19-xi-2020)
+* [Zestaw 8 (26 XI 2020)](#zestaw-8-26-xi-2020)
 
 
 
@@ -1123,4 +1124,11 @@ NDSolve
 ```
 zakładając, że na początku ciało było w pozycji równowagi i miało prędkość początkową
 $0.5$. Jednostki masy oraz odległości są dowolne.
+
+
+# Zestaw 8 (26 XI 2020)
+
+Na te zajęcia nie ma nowych zadań. 
+Będzie trochę więcej czasu na indywidualne konsultacje
+oraz aby porozmawiac o projektach.
 

@@ -3,7 +3,7 @@
 </center>
 
 <center>
-*projekt oczekuje na dwie realizujące osoby*
+*D.M. oraz A.K.*
 </center>
 
 Proszę przyjrzeć się zadaniu **E** z zestawu $5$ (05 XI 2020). Korzystając z macierzy
@@ -86,7 +86,7 @@ END_HTML-->
 </center>
 
 <center>
-*projekt oczekuje na dwie realizujące osoby*
+*R.S. oraz jedna dodatkowa osoba*
 </center>
 
 Rachunek potencjału oraz pola elektrycznego w systemie
@@ -126,7 +126,7 @@ END_HTML-->
 </center>
 
 <center>
-*projekt oczekuje na dwie realizujące osoby*
+*J. K. oraz B. P.*
 </center>
 
 Rachunek naprężeń w dwu wymiarowym moście skonstruowanym z makaronu spaghetti.
@@ -162,7 +162,7 @@ END_HTML-->
 </center>
 
 <center>
-*projekt oczekuje na dwie realizujące osoby*
+*A. B. oraz M. P.*
 </center>
 
 Proszę uważnie obejrzeć film jak również części 2 oraz 3 z opisu na *Youtube*.

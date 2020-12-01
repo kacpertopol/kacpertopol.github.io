@@ -1142,6 +1142,7 @@ oraz aby porozmawiac o projektach.
 
 - [macierz wymiarowości oraz twierdzenie Buckinghama](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
 - [momenty bezwładności](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
+- [analiza wymiarowa i bomba atomowa](https://youtu.be/_gaCAFcW6OY)
 
 <center>
 **A**

@@ -146,6 +146,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="#zestaw-6-12-xi-2020">Zestaw 6 (12 XI 2020)</a></li>
 <li><a href="#zestaw-7-19-xi-2020">Zestaw 7 (19 XI 2020)</a></li>
 <li><a href="#zestaw-8-26-xi-2020">Zestaw 8 (26 XI 2020)</a></li>
+<li><a href="#zestaw-9-3-xii-2020">Zestaw 9 (3 XII 2020)</a></li>
 </ul>
 <h1 id="ocenianie">Ocenianie</h1>
 <ul>
@@ -861,6 +862,49 @@ z^{4} + z^{2} + 1 == 0
 <p>zakładając, że na początku ciało było w pozycji równowagi i miało prędkość początkową <span class="math inline">\(0.5\)</span>. Jednostki masy oraz odległości są dowolne.</p>
 <h1 id="zestaw-8-26-xi-2020">Zestaw 8 (26 XI 2020)</h1>
 <p>Na te zajęcia nie ma nowych zadań. Będziemy mieli więcej czasu na indywidualne konsultacje oraz aby porozmawiac o projektach.</p>
+<h1 id="zestaw-9-3-xii-2020">Zestaw 9 (3 XII 2020)</h1>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem">macierz wymiarowości oraz twierdzenie Buckinghama</a></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(3 punkty)
+</center>
+<p>Kolejne zastosowania macierzy…</p>
+<p>Proszę napisać funkcję, która tworzy macierz wymiarowości. Funkcja powinna pobierać:</p>
+<ul>
+<li>listę jednostek bazowych (np <code>{t , m , l}</code> oznaczające odpowiednio czas, masę oraz odległość)</li>
+<li>listę wielkości fizycznych związanych z danym problemem (pojedyncza wielkość może być np w reprezentacji korzystającej z potęg jednostek bazowych <code>{-2 , 0 , 1}</code> co można rozszyfrować jako <span class="math inline">\(t^{-2} m^{0} l^{1}\)</span> czyli wymiar przyspieszenia)</li>
+</ul>
+<p>Proszę sprawdzić działanie tej funkcji dla problemów:</p>
+<ul>
+<li>oscylacji wahadła matematycznego (interesujące wielkości fizyczne to: okres wahania, masa wahadła , długość wahadła , przyśpieszenie ziemskie)</li>
+<li>ochładzania cieczy z wykorzystaniem kostek lodu (interesujące wielkości fizyczne to: długość charakterystyczna dla kostek lodu, czas , temperatura, przewodnictwo cieplne, objętościowe ciepło właściwe)</li>
+</ul>
+<p>oraz porównać z <a href="https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem">wikipedią</a>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Korzystając z wyników zadania <strong>A</strong> oraz funkcji <code>NullSpace</code> proszę sprawdzić z jakich bezwymiarowych wielkości można skonstruować prawa fizyczne rządzące obydwoma problemami:</p>
+<ul>
+<li>oscylacji wahadła matematycznego (interesujące wielkości fizyczne to: okres wahania, masa wahadła , długość wahadła , przyśpieszenie ziemskie)</li>
+<li>ochładzania cieczy z wykorzystaniem kostek lodu (interesujące wielkości fizyczne to: długość charakterystyczna dla kostek lodu, czas , temperatura, przewodnictwo cieplne, objętościowe ciepło właściwe)</li>
+</ul>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Proszę rozwiązać ponownie zadanie <strong>B</strong> ale tym razem z wykorzystaniem wbudowanej w Mathemaitcę funkcji <code>DimensionalCombinations</code>.</p>
 </article>
 </body>
 </html>

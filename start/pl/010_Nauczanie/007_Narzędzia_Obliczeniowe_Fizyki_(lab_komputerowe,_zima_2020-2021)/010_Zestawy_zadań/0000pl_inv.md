@@ -1215,7 +1215,7 @@ Proszę zaimplementować trzy funkcje
 zwracające:
 
 - masę bryły
-- środek ciężkości bryły
+- środek masy bryły
 - moment bezwładności bryły
 
 Argumentem wszystkich tych trzech funkcji powinna być funkcja biorąca 
@@ -1234,7 +1234,7 @@ Wskazówka: można skorzystać z funkcji `NIntegrate`.
 </center>
 
 Proszę wykorzystać zadanie **D** oraz funkcję `DensityPlot`
-do narysowania kilku figur oraz zaznaczenia ich środków ciężkości.
+do narysowania kilku figur oraz zaznaczenia ich środków masy.
 W opisie wykresu powinna znaleźć się masa bryły oraz jej 
-moment bezwładności względem środka ciężkości.
+moment bezwładności względem środka masy.
 

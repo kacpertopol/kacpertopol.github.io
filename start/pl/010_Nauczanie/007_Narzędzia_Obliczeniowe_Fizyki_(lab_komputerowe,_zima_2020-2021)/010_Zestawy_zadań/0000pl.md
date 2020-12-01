@@ -1141,6 +1141,7 @@ oraz aby porozmawiac o projektach.
 </center>
 
 - [macierz wymiarowości oraz twierdzenie Buckinghama](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
+- [momenty bezwładności](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
 
 <center>
 **A**
@@ -1195,4 +1196,45 @@ obydwoma problemami:
 
 Proszę rozwiązać ponownie zadanie **B** ale tym razem z wykorzystaniem 
 wbudowanej w Mathemaitcę funkcji `DimensionalCombinations`.
+
+<center>
+**D**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Rozważamy bryły sztywne na płaszczyńnie. 
+Zakładamy, że płaskie bryły znajdują się w płaszczyźnie $x$ - $y$ oraz:
+
+- $-1 < x < 1$
+- $-1 < y < 1$
+
+Proszę zaimplementować trzy funkcje
+zwracające:
+
+- masę bryły
+- środek ciężkości bryły
+- moment bezwładności bryły
+
+Argumentem wszystkich tych trzech funkcji powinna być funkcja biorąca 
+współrzędne na płaszczyźnie i zwracająca gęstość (powierzchniową) bryły.
+
+Wyniki proszę porównać z [wartościami tablicowymi]((https://pl.wikipedia.org/wiki/Lista_moment%C3%B3w_bezw%C5%82adno%C5%9Bci)) 
+
+Wskazówka: można skorzystać z funkcji `NIntegrate`.
+
+<center>
+**E**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Proszę wykorzystać zadanie **D** oraz funkcję `DensityPlot`
+do narysowania kilku figur oraz zaznaczenia ich środków ciężkości.
+W opisie wykresu powinna znaleźć się masa bryły oraz jej 
+moment bezwładności względem środka ciężkości.
 

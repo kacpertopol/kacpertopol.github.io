@@ -1205,7 +1205,7 @@ wbudowanej w Mathemaitcę funkcji `DimensionalCombinations`.
 (2 punkty)
 </center>
 
-Rozważamy bryły sztywne na płaszczyńnie. 
+Rozważamy bryły sztywne na płaszczyźnie. 
 Zakładamy, że płaskie bryły znajdują się w płaszczyźnie $x$ - $y$ oraz:
 
 - $-1 < x < 1$

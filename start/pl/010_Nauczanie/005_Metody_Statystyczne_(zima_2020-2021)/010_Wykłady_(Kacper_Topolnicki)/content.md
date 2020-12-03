@@ -43,7 +43,6 @@
 	  - proszę czytać komentarze
   - [notebook](---ThisDir---/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
 	  - proszę czytać komentarze
-- nagranie pojawi się niedługo TODO
 - wyniki eksperymentu:
   - tak na prawdę interesujące są jedynie dwie sytuacje: 
     - $12$ osób uznało, że bardziej prawdopodobna jest stytuacja: Linda jest kasjerką oraz aktywną członkinią ruchu feministycznego

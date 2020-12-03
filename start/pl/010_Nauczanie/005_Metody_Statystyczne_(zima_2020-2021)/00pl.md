@@ -122,7 +122,6 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 	  - proszę czytać komentarze
   - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
 	  - proszę czytać komentarze
-- nagranie pojawi się niedługo TODO
 - wyniki eksperymentu:
   - tak na prawdę interesujące są jedynie dwie sytuacje: 
     - $12$ osób uznało, że bardziej prawdopodobna jest stytuacja: Linda jest kasjerką oraz aktywną członkinią ruchu feministycznego
@@ -144,4 +143,14 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 </center>
 
 - [Plik](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/013_Ćwiczenia_(Vitalii_Urbanevych)/1_Urbanevych_2020.pdf) PDF z zestawem zadań.
+
+<center>
+**zestaw 1**
+</center>
+
+<center>
+(5 XII 2020)
+</center>
+
+- [Plik](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/013_Ćwiczenia_(Vitalii_Urbanevych)/2_Urbanevych_2020_new.pdf) PDF z zestawem zadań.
 

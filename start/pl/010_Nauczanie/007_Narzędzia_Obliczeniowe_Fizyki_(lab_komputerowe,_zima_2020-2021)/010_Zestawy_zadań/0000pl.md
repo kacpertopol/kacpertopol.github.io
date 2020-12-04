@@ -1143,6 +1143,9 @@ oraz aby porozmawiac o projektach.
 - [macierz wymiarowości oraz twierdzenie Buckinghama](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
 - [momenty bezwładności](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
 - [analiza wymiarowa i bomba atomowa](https://youtu.be/_gaCAFcW6OY)
+- [notatki](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/009_Zestaw_9_(3_XII_2020)/notatki.pdf)
+  - nagrania nie będzie, bardzo przepraszam (nie nagrał się dźwięk, całe szczęście udało mi się rozwiązać ten problem i mam nadzieję, 
+    że następnym razem nie będzie już problemów)
 
 <center>
 **A**
@@ -1222,7 +1225,7 @@ zwracające:
 Argumentem wszystkich tych trzech funkcji powinna być funkcja biorąca 
 współrzędne na płaszczyźnie i zwracająca gęstość (powierzchniową) bryły.
 
-Wyniki proszę porównać z [wartościami tablicowymi]((https://pl.wikipedia.org/wiki/Lista_moment%C3%B3w_bezw%C5%82adno%C5%9Bci)) 
+Wyniki proszę porównać z [wartościami tablicowymi](https://en.wikipedia.org/wiki/List_of_moments_of_inertia) 
 
 Wskazówka: można skorzystać z funkcji `NIntegrate`.
 

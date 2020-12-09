@@ -147,6 +147,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="#zestaw-7-19-xi-2020">Zestaw 7 (19 XI 2020)</a></li>
 <li><a href="#zestaw-8-26-xi-2020">Zestaw 8 (26 XI 2020)</a></li>
 <li><a href="#zestaw-9-3-xii-2020">Zestaw 9 (3 XII 2020)</a></li>
+<li><a href="#zestaw-10-10-xii-2020">Zestaw 10 (10 XII 2020)</a></li>
 </ul>
 <h1 id="ocenianie">Ocenianie</h1>
 <ul>
@@ -938,6 +939,65 @@ z^{4} + z^{2} + 1 == 0
 (2 punkty)
 </center>
 <p>Proszę wykorzystać zadanie <strong>D</strong> oraz funkcję <code>DensityPlot</code> do narysowania kilku figur oraz zaznaczenia ich środków masy. W opisie wykresu powinna znaleźć się masa bryły oraz jej moment bezwładności względem środka masy.</p>
+<h1 id="zestaw-10-10-xii-2020">Zestaw 10 (10 XII 2020)</h1>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Parallel_axis_theorem">twierdzenie Steinera</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Moment_of_inertia#Motion_in_space_of_a_rigid_body,_and_the_inertia_matrix">moment bezwładności</a></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Korzystając z zadania <strong>D</strong> z zestawu 9 proszę przetestować <a href="https://en.wikipedia.org/wiki/Parallel_axis_theorem">twierdzenie Steinera</a>. Aby to zrobić należy zdefiniować dwie identyczne bryły sztywne. Pierwsza jest umieszczona tak aby jej środek masy pokrywał się z początkiem układu współrzędnych. Druga jest przesunięta, powiedzmy w kierunku osi <em>x</em>, o <span class="math inline">\(\Delta\)</span>. Następnie można policzyć oraz porównać ich momenty bezwładności.</p>
+<p>UWAGA: obydwie bryły powinny się mieścić w okienku zdefiniowanym w zadaniu <strong>D</strong> czyli <span class="math inline">\(-1 \lt x \lt 1\)</span> oraz <span class="math inline">\(-1 \lt y \lt 1\)</span>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Rozważamy sztywno względem siebie ułożone masy punktowe w trzech wymiarach:</p>
+<center>
+<img src="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/010_Zestaw_10_(10_XII_2020)/cross.png" />
+</center>
+<p>Każdy punkt o numerze <span class="math inline">\(i\)</span> ma wapółrzędne <span class="math inline">\(r_{i}\)</span>, masę <span class="math inline">\(m_{i} = 1\)</span> (dowolna jednostka masy), każde ramię krzyża ma długość <span class="math inline">\(2\)</span> (dowolna jednosta odległości) a punkty są rozmieszczone co <span class="math inline">\(0.2\)</span> (dowolna jednostka odległości).</p>
+<p>Proszę w mathematice skonstruować taki system, narysować go oraz policzyc momenty mezwładności:</p>
+<p><span class="math display">\[I_{xx} = \sum_{1 = 1}^{N} m_{i} (y_{i}^{2} + z_{i}^{2})\]</span> <span class="math display">\[I_{yy} = \sum_{1 = 1}^{N} m_{i} (x_{i}^{2} + z_{i}^{2})\]</span> <span class="math display">\[I_{zz} = \sum_{1 = 1}^{N} m_{i} (x_{i}^{2} + y_{i}^{2})\]</span></p>
+<p><span class="math display">\[I_{xy} = \sum_{1 = 1}^{N} m_{i} (x_{i} y_{i})\]</span> <span class="math display">\[I_{xz} = \sum_{1 = 1}^{N} m_{i} (x_{i} z_{i})\]</span> <span class="math display">\[I_{yz} = \sum_{1 = 1}^{N} m_{i} (y_{i} z_{i})\]</span></p>
+<p>Wskazówka: Można skorzystać z <code>Riffle</code> , <code>Partition</code> , <code>Map</code> , <code>Union</code> , <code>Join</code> oraz <code>Table</code>.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Proszę policzyć macierz momentów bezwładności dla systemu z zadania <strong>B</strong>:</p>
+<p><span class="math display">\[
+I_{CM} = \left(
+\begin{array}{ccc}
+ I_{xx} &amp; -I_{xy} &amp; -I_{xz} \\
+ -I_{xy} &amp; I_{yy} &amp; -I_{yz} \\
+ -I_{xz} &amp; -I_{yz} &amp; I_{zz} \\
+\end{array}
+\right)
+\]</span></p>
+<p>Tym razem proszę skorzystać z zależności:</p>
+<p><span class="math display">\[
+I_{CM} = \sum_{i = 1}^{N} -m_{i} \left[\widetilde{r_{i}}\right].\left[\widetilde{r_{i}}\right]
+\]</span></p>
+<p>gdzie <span class="math inline">\(\left[\widetilde{x}\right]\)</span> jest macierzą reprezentującą operator liczenia iloczynu skalarnego z <span class="math inline">\(x\)</span>. Proszę ten wynik porównać z zadaniem <strong>B</strong>.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Proszę przesunąć wszystkie punkty systemu z zadania <strong>B</strong> o <span class="math inline">\(1\)</span> w kierunku <span class="math inline">\(x\)</span>. Następnie proszę policzyć, metodą z zadania <strong>C</strong>, macierz momentów bezwładności i porównać ją z macierzą liczoną z twierdzenia Steinera.</p>
 </article>
 </body>
 </html>

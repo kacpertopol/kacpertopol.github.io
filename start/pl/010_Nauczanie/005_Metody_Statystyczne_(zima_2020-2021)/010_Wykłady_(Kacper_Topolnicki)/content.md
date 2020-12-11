@@ -1,3 +1,8 @@
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [slajdy](---ThisDir---/wyklad_RomanSkibinski.zip) z wykładu Romana Skibińskiego
 
 <center>
 **wykład 1**

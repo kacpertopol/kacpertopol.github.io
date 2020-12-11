@@ -77,6 +77,11 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 
 # Wykłady (Kacper Topolnicki)
 
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/wyklad_RomanSkibinski.zip) z wykładu Romana Skibińskiego
 
 <center>
 **wykład 1**

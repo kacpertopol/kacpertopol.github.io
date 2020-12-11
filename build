@@ -3,6 +3,8 @@
 #make_light='pandoc --mathjax --template GitHub.html5 -o'
 #make_dark='pandoc --mathjax --template GitHubINV.html5 -o'
 
+cp -r ./start/pl/010_Nauczanie/009_Advanced_Statistics_I_\(zima_2020-2021\) ./start/en/010_Teaching/
+
 make_light='/home/kacper/GIT_HUB/quick_note/NOTES/1515260167183_c71ec7ef-1cb2-44a9-8720-ff42665d5ebc/FILES/kacpertopol.github.io/make_light'
 make_dark='/home/kacper/GIT_HUB/quick_note/NOTES/1515260167183_c71ec7ef-1cb2-44a9-8720-ff42665d5ebc/FILES/kacpertopol.github.io/make_dark'
 

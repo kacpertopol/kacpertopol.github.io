@@ -19,7 +19,9 @@ toc-title: TOC
 # Content:
 
 * [Contact](#contact)
-* [Curriculum vitae](./0en_inv.html)
+* [Teaching](#teaching)
+	* [Advanced Statistics I (zima 2020-2021)](./0en_inv.html)
+* [Curriculum vitae](./000en_inv.html)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
 
@@ -34,7 +36,15 @@ toc-title: TOC
 * tel.: (+48) 12 664 4869  
 
 
-# [Curriculum vitae](./0en_inv.html)
+# Teaching
+
+
+
+## [Advanced Statistics I (zima 2020-2021)](./0en_inv.html)
+
+
+
+# [Curriculum vitae](./000en_inv.html)
 
 
 

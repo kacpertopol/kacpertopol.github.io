@@ -19,7 +19,7 @@ title : Exercise sets
 # Set 1
 
 <center>
-**SET 0**
+**SET 1**
 </center>
 
 <center>

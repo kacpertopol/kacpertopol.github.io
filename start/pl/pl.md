@@ -20,11 +20,11 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [COVID](./0pl.html)
-	* [Konsultacje](#konsultacje)
-	* [Metody Statystyczne (zima 2020-2021)](./00pl.html)
-	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./000pl.html)
-	* [Advanced Statistics I (zima 2020-2021)](./000000pl.html)
+	* [Metody Statystyczne (zima 2020-2021)](./0pl.html)
+	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./00pl.html)
+	* [Advanced Statistics I (zima 2020-2021)](./00000pl.html)
+* [COVID](./0000000pl.html)
+* [Konsultacje](#konsultacje)
 * [Curriculum vitae](./00000000pl.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
@@ -47,25 +47,27 @@ toc-title: TOC
 
 
 
-## [COVID](./0pl.html)
+## [Metody Statystyczne (zima 2020-2021)](./0pl.html)
 
 
 
-## Konsultacje
-
-Środa, 12:00 - 14:00, Skype
-
-
-## [Metody Statystyczne (zima 2020-2021)](./00pl.html)
+## [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./00pl.html)
 
 
 
-## [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./000pl.html)
+## [Advanced Statistics I (zima 2020-2021)](./00000pl.html)
 
 
 
-## [Advanced Statistics I (zima 2020-2021)](./000000pl.html)
+# [COVID](./0000000pl.html)
 
+
+
+# Konsultacje
+
+Proszę o wiadomość na <kacper.topolnicki@uj.edu.pl>
+w celu umówienia konkretnego terminu. Konsultacje
+mogą odbyć się za pośrednictwem *ZOOM*, *MS Teams* lub *Skype*.
 
 
 # [Curriculum vitae](./00000000pl.html)

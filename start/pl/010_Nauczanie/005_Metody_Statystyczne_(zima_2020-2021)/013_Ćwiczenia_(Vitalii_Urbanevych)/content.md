@@ -17,3 +17,13 @@
 </center>
 
 - [Plik](---ThisDir---/2_Urbanevych_2020_new.pdf) PDF z zestawem zadań.
+
+<center>
+**zestaw 3**
+</center>
+
+<center>
+(19 XII 2020)
+</center>
+
+- [Plik](---ThisDir---/3_Urbanevych_2020_new.pdf) PDF z zestawem zadań.

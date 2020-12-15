@@ -78,6 +78,13 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 # Wykłady (Kacper Topolnicki)
 
 <center>
+**LITERATURA**
+</center>
+
+- [*Probability, Random Processes, and Statistical Analysis* Hisashi Kobayashi, Brian L. Mark, William Turin](https://www.cambridge.org/core/books/probability-random-processes-and-statistical-analysis/1909C657E4758038B54C4235B3AD0FDF)
+- [*Probability and Statistics for Computer Scientists* Michael Baron](https://www.routledge.com/Probability-and-Statistics-for-Computer-Scientists/Baron/p/book/9781138044487)
+
+<center>
 **MATERIAŁY DODATKOWE**
 </center>
 
@@ -173,4 +180,14 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 </center>
 
 - [Plik](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/013_Ćwiczenia_(Vitalii_Urbanevych)/2_Urbanevych_2020_new.pdf) PDF z zestawem zadań.
+
+<center>
+**zestaw 3**
+</center>
+
+<center>
+(19 XII 2020)
+</center>
+
+- [Plik](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/013_Ćwiczenia_(Vitalii_Urbanevych)/3_Urbanevych_2020_new.pdf) PDF z zestawem zadań.
 

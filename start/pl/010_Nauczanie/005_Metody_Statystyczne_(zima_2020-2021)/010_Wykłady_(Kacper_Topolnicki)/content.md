@@ -56,3 +56,18 @@
   - [źródło](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) eksperymentu
 - YouTube
   - jest mnóstwo materiałów, proszę sobie wpisać hasła takie jak "Jacobian", "change of variables"
+
+<center>
+**wykład 3**
+</center>
+
+<center>
+(5 XII 2020)
+</center>
+
+- [slajdy](---ThisDir---/wyklad_3.pdf)
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBsxDYXSPzcV5jFv6P1qqAzg)
+- [notebook Mathematici](---ThisDir---/05_12_2020.nb)
+  - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
+- krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
+  potrafią Państwo powiedzieć czym jest stan stacjonarny?

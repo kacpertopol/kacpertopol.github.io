@@ -9,7 +9,7 @@
 - [Plik](---ThisDir---/1_Urbanevych_2020.pdf) PDF z zestawem zadań.
 
 <center>
-**zestaw 1**
+**zestaw 2**
 </center>
 
 <center>

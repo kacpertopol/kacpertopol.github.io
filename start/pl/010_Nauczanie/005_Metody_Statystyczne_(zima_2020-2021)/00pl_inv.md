@@ -136,6 +136,21 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 - YouTube
   - jest mnóstwo materiałów, proszę sobie wpisać hasła takie jak "Jacobian", "change of variables"
 
+<center>
+**wykład 3**
+</center>
+
+<center>
+(5 XII 2020)
+</center>
+
+- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBsxDYXSPzcV5jFv6P1qqAzg)
+- [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
+  - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
+- krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
+  potrafią Państwo powiedzieć czym jest stan stacjonarny?
+
 
 # Ćwiczenia (Vitalii Urbanevych)
 
@@ -150,7 +165,7 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 - [Plik](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/013_Ćwiczenia_(Vitalii_Urbanevych)/1_Urbanevych_2020.pdf) PDF z zestawem zadań.
 
 <center>
-**zestaw 1**
+**zestaw 2**
 </center>
 
 <center>

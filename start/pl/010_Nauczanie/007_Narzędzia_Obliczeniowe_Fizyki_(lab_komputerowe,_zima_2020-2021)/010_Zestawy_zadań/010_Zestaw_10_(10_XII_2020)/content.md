@@ -4,6 +4,7 @@
 
 - [twierdzenie Steinera](https://en.wikipedia.org/wiki/Parallel_axis_theorem)
 - [moment bezwładności](https://en.wikipedia.org/wiki/Moment_of_inertia#Motion_in_space_of_a_rigid_body,_and_the_inertia_matrix)
+- [chaotyczne notatki](---ThisDir---/notatki.pdf)
 
 <center>
 **A**

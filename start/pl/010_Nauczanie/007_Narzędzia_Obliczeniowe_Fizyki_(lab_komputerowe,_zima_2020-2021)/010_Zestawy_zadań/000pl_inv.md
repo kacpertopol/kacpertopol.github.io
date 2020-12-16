@@ -23,6 +23,7 @@ title : Zestawy zadań
 * [Zestaw 8 (26 XI 2020)](#zestaw-8-26-xi-2020)
 * [Zestaw 9 (3 XII 2020)](#zestaw-9-3-xii-2020)
 * [Zestaw 10 (10 XII 2020)](#zestaw-10-10-xii-2020)
+* [Zestaw 11 (17 XII 2020)](#zestaw-11-17-xii-2020)
 
 
 
@@ -1252,6 +1253,7 @@ moment bezwładności względem środka masy.
 
 - [twierdzenie Steinera](https://en.wikipedia.org/wiki/Parallel_axis_theorem)
 - [moment bezwładności](https://en.wikipedia.org/wiki/Moment_of_inertia#Motion_in_space_of_a_rigid_body,_and_the_inertia_matrix)
+- [chaotyczne notatki](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/010_Zestaw_10_(10_XII_2020)/notatki.pdf)
 
 <center>
 **A**
@@ -1340,4 +1342,37 @@ Proszę ten wynik porównać z zadaniem **B**.
 
 Proszę przesunąć wszystkie punkty systemu z zadania **B** o $1$ w kierunku $x$. Następnie proszę policzyć,
 metodą z zadania **C**, macierz momentów bezwładności i porównać ją z macierzą liczoną z twierdzenia Steinera.
+
+
+# Zestaw 11 (17 XII 2020)
+
+Na zajęciach chciałbym głównie porozmawiać z każdym z Państwa o projektach
+końcowych, kolokwium, zaliczeniach ... oraz złożyć życzenia świąteczne i noworoczne.
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Proszę wyobrazić sobie wachadło fizyczne
+stworzone z wykorzystaniem 
+dowolnej, dwu wymiarowej bryły sztywnej z zadania **D** z zestawu 9.
+Wachadło może się swobodnie obracać wokół "idealnego" (brak tarcia oraz masy)
+zawiasu umieszczonego poza środkiem masy bryły. Równania ruchu dla wachadła
+proszę rozwiązać z wykorzystaniem funkcji `NDSolve`.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Wykorzystując zadanie **A** proszę tak dobrać warunki początkowe wachadła
+aby zademonstrować chaos w tym układzie.
+
 

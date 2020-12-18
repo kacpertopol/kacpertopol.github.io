@@ -2,6 +2,12 @@ Na zajęciach chciałbym głównie porozmawiać z każdym z Państwa o projektac
 końcowych, kolokwium, zaliczeniach ... oraz złożyć życzenia świąteczne i noworoczne.
 
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [slajdy z zajęć](---ThisDir---/notatki.pdf)
+
+<center>
 **A**
 </center>
 

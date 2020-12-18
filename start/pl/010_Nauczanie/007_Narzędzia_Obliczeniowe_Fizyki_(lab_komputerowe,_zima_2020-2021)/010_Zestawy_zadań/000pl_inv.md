@@ -1350,6 +1350,12 @@ Na zajęciach chciałbym głównie porozmawiać z każdym z Państwa o projektac
 końcowych, kolokwium, zaliczeniach ... oraz złożyć życzenia świąteczne i noworoczne.
 
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [slajdy z zajęć](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/011_Zestaw_11_(17_XII_2020)/notatki.pdf)
+
+<center>
 **A**
 </center>
 

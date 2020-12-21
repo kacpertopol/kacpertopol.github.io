@@ -10,6 +10,11 @@
 </center>
 
 - [slajdy](---ThisDir---/wyklad_RomanSkibinski.zip) z wykładu Romana Skibińskiego
+- [instrukcja](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) installacji programu Mathematica
+  ze [strony](https://fais.uj.edu.pl/dla-studentow/studia-z-mathematica)
+  - **UWAGA** wszędzie gdzie to konieczne należy wpisywać uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail stanowi metodę weryfikacji, że jesteście państwo studentami uczelni. Informacja o aktywacji studenckich kont pocztowych dostępna jest [tutaj](https://pomocit.uj.edu.pl/poczta_studenci) 
+    w zakładce “Aktywacja kont pocztowych dla studentów i doktorantów”.
+
 
 <center>
 **wykład 1**
@@ -78,3 +83,24 @@
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
 - krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
   potrafią Państwo powiedzieć czym jest stan stacjonarny?
+
+<center>
+**wykład 4**
+</center>
+
+<center>
+(20 XII 2020)
+</center>
+
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMBAaFP9pROfy775_cdJffWCw?e=LHUlmi) 
+- [slajdy](---ThisDir---/20_12_2020.pdf)
+- wykład korzystał również z:
+  - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
+  - [unikalność rozwiązania](http://www.stat.yale.edu/~jtc5/251/readings/Basics%20of%20Applied%20Stochastic%20Processes_Serfozo.pdf) 
+  - [dodatkowy wykład 1](https://mast.queensu.ca/~stat455/lecturenotes/set3.pdf)
+  - [dodatkowy wykład 2](https://siamak.isoperimetric.info/teaching/markov/files/equilibrium-2.pdf)
+  - [dodatkowy wykład 3](http://math.uchicago.edu/~may/REU2017/REUPapers/Freedman.pdf)
+- notebooki Mathematici 
+  - [Bernulli](---ThisDir---/20_12_2020.nb)
+  - [Markov](---ThisDir---/20_12_2020.nb)
+  - TODO: Metoda Funkcji Generującej

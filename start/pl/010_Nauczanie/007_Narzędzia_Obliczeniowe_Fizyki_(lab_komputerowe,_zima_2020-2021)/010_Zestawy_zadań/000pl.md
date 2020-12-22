@@ -364,8 +364,6 @@ Implementacja powinna pozwalać na wykonanie operacji:
 - pisanie pakietów
   - przykład [pakietu](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/003_Zestaw_3_(22_X_2020)/Przyklad.wl)
   - [przykład](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/003_Zestaw_3_(22_X_2020)/przyklad_pakiet.nb) wykorzystania
-- nagranie prezentacji
-  - TODO
 
 <center>
 **A**
@@ -620,7 +618,7 @@ $$
 </center>
 
 - [slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/004_Zestaw_4_(29_X_2020)/2020-10-29-Note-19-14.pdf) z zajęć
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQzo1_M0FJ9HiTFxa9Qpz1kBzSofMK0J7AemZtXKergK7g?e=2QoPhm) z zajęć
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQzo1_M0FJ9HiTFxa9Qpz1kBiR8Mi8Gwqeur09PRbxyv6w?e=NDes4C) z zajęć
 - [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/004_Zestaw_4_(29_X_2020)/poisson.nb) rozwiązujący równanie laplaca
 - chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/004_Zestaw_4_(29_X_2020)/cwiczenia.nb) z zajęć
 
@@ -816,7 +814,7 @@ Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzecz
 </center>
 
 - zawartość ["tablicy"](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/005_Zestaw_5_(05_XI_2020)/zajecia.pdf)
-- włączyłem nagrywanie trochę późno więc [krótkie nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXmBMJJtiGtAv5MUsU--zJ4BSf-ZUyXcsAaQGKsRDATUYA?e=R4ugNv) z zajęć
+- włączyłem nagrywanie trochę późno więc [krótkie nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXmBMJJtiGtAv5MUsU--zJ4Bmr50Q07mb1L9aErwpg1DnA?e=w6L47b) z zajęć
 - chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/005_Zestaw_5_(05_XI_2020)/zajecia.nb) z zajęć 
 
 <center>
@@ -945,7 +943,7 @@ policzone.
 **MATERIAŁY DODATKOWE**
 </center>
 
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXpQa3ULMbBEt8whl25KFcoByKyTMNVdqH5aqebtSGMYqg?e=UPleAF)
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXpQa3ULMbBEt8whl25KFcoB6CLu1oYHgvTW7GMGNzby4g?e=Zlos8O)
 - chaotyczne [slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/006_Zestaw_6_(12_XI_2020)/zajecia.pdf) 
 - ocenzurowany (bez rozwiązania WH) [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/006_Zestaw_6_(12_XI_2020)/cenzura.nb) 
 
@@ -1017,7 +1015,7 @@ z wbudowanymi w Mathematicę definicjami.
 - [płaszczyzna](https://mathworld.wolfram.com/Plane.html)
 - [dwie płaszczyzny](https://mathworld.wolfram.com/Plane-PlaneIntersection.html)
 - [chaotyczne slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/007_Zestaw_7_(19_XI_2020)/all.pdf)
-- [chaotyczne nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EUX8oe3H3YNBqorS5Gv4MjYBeI8CrButWBguYT8-eOmq5g?e=reCbhb)
+- [chaotyczne nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EUX8oe3H3YNBqorS5Gv4MjYBQ0yVeJ874TyZo4TTOcjY4w?e=IH9H4l)
 
 <center>
 **A**

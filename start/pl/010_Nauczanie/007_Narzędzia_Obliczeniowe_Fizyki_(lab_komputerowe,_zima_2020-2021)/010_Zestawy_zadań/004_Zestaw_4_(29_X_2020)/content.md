@@ -3,7 +3,7 @@
 </center>
 
 - [slajdy](---ThisDir---/2020-10-29-Note-19-14.pdf) z zajęć
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQzo1_M0FJ9HiTFxa9Qpz1kBzSofMK0J7AemZtXKergK7g?e=2QoPhm) z zajęć
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQzo1_M0FJ9HiTFxa9Qpz1kBiR8Mi8Gwqeur09PRbxyv6w?e=NDes4C) z zajęć
 - [notebook](---ThisDir---/poisson.nb) rozwiązujący równanie laplaca
 - chaotyczny [notebook](---ThisDir---/cwiczenia.nb) z zajęć
 

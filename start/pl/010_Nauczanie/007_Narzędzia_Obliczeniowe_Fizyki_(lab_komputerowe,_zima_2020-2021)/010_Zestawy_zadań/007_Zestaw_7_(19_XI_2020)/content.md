@@ -5,7 +5,7 @@
 - [płaszczyzna](https://mathworld.wolfram.com/Plane.html)
 - [dwie płaszczyzny](https://mathworld.wolfram.com/Plane-PlaneIntersection.html)
 - [chaotyczne slajdy](---ThisDir---/all.pdf)
-- [chaotyczne nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EUX8oe3H3YNBqorS5Gv4MjYBeI8CrButWBguYT8-eOmq5g?e=reCbhb)
+- [chaotyczne nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EUX8oe3H3YNBqorS5Gv4MjYBQ0yVeJ874TyZo4TTOcjY4w?e=IH9H4l)
 
 <center>
 **A**

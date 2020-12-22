@@ -13,8 +13,6 @@
 - pisanie pakietów
   - przykład [pakietu](---ThisDir---/Przyklad.wl)
   - [przykład](---ThisDir---/przyklad_pakiet.nb) wykorzystania
-- nagranie prezentacji
-  - TODO
 
 <center>
 **A**

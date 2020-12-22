@@ -31,7 +31,7 @@
 	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony
   - [notebook](---ThisDir---/mh.zip) Mathematici z symulacją problemu Montiego Halla (źródło obrazków: [samochód](https://commons.wikimedia.org/wiki/File:Blue_old_car.svg), [koza](https://commons.wikimedia.org/wiki/File:Goat_cartoon_04.svg))
   - [notebook](---ThisDir---/fgp.zip) z rysunkami funkcji gęstości prawdopodobieństwa
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EfTfTfuFUqZLmpmjoTbBXIsBKA-UwlkDye92ebZnI3iHbw?e=xO8zWw) wykładu
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EfTfTfuFUqZLmpmjoTbBXIsBumimbv9xevBuN4CsBcrlaA?e=w5x3ik) wykładu
   - korzystam z nowego programu, udało się nagrać jedynie mniej więcej połowę, przepraszam :-(
 - prawdopodobieństwo obiektywne i subiektywne, Bayesian and frequentist interpretation
   - link pojawi się wkrótce
@@ -49,7 +49,7 @@
 </center>
 
 - nieco mniej chaotyczne [slajdy](---ThisDir---/ms_2.pdf)
-- nowe, króciutkie, [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EX1qBOu3wMZMsWNJ-P-RwGsB_EaE442MA47rd7ud6a3PUQ?e=3aUffc)
+- nowe, króciutkie, [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EX1qBOu3wMZMsWNJ-P-RwGsBAachwZlIjVar_SU-cAlSEQ)
   - postanowiłem sporządzić od zera nowe nagranie do "mniej chaotycznych" slajdów
   - jest bardzo krótkie, pomijam wiele obliczeń - proszę je jednak dokładnie prześledzić
 - notebooki Mathematici
@@ -78,7 +78,7 @@
 </center>
 
 - [slajdy](---ThisDir---/wyklad_3.pdf)
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBsxDYXSPzcV5jFv6P1qqAzg)
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
 - [notebook Mathematici](---ThisDir---/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
 - krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
@@ -92,7 +92,7 @@
 (20 XII 2020)
 </center>
 
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMBAaFP9pROfy775_cdJffWCw?e=LHUlmi) 
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=I2YRqC) 
 - [slajdy](---ThisDir---/20_12_2020.pdf)
 - wykład korzystał również z:
   - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)

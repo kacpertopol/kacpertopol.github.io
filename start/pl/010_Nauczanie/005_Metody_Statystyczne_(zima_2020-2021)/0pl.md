@@ -110,7 +110,7 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony
   - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/mh.zip) Mathematici z symulacją problemu Montiego Halla (źródło obrazków: [samochód](https://commons.wikimedia.org/wiki/File:Blue_old_car.svg), [koza](https://commons.wikimedia.org/wiki/File:Goat_cartoon_04.svg))
   - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/fgp.zip) z rysunkami funkcji gęstości prawdopodobieństwa
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EfTfTfuFUqZLmpmjoTbBXIsBKA-UwlkDye92ebZnI3iHbw?e=xO8zWw) wykładu
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EfTfTfuFUqZLmpmjoTbBXIsBumimbv9xevBuN4CsBcrlaA?e=w5x3ik) wykładu
   - korzystam z nowego programu, udało się nagrać jedynie mniej więcej połowę, przepraszam :-(
 - prawdopodobieństwo obiektywne i subiektywne, Bayesian and frequentist interpretation
   - link pojawi się wkrótce
@@ -128,7 +128,7 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 </center>
 
 - nieco mniej chaotyczne [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/ms_2.pdf)
-- nowe, króciutkie, [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EX1qBOu3wMZMsWNJ-P-RwGsB_EaE442MA47rd7ud6a3PUQ?e=3aUffc)
+- nowe, króciutkie, [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EX1qBOu3wMZMsWNJ-P-RwGsBAachwZlIjVar_SU-cAlSEQ)
   - postanowiłem sporządzić od zera nowe nagranie do "mniej chaotycznych" slajdów
   - jest bardzo krótkie, pomijam wiele obliczeń - proszę je jednak dokładnie prześledzić
 - notebooki Mathematici
@@ -157,7 +157,7 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 </center>
 
 - [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBsxDYXSPzcV5jFv6P1qqAzg)
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
 - [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
 - krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
@@ -171,7 +171,7 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 (20 XII 2020)
 </center>
 
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMBAaFP9pROfy775_cdJffWCw?e=LHUlmi) 
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=I2YRqC) 
 - [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
 - wykład korzystał również z:
   - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)

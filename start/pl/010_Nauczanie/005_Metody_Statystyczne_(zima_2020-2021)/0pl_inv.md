@@ -217,3 +217,14 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 
 - [Plik](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/013_Ćwiczenia_(Vitalii_Urbanevych)/3_Urbanevych_2020_new.pdf) PDF z zestawem zadań.
 
+<center>
+**zestaw 4**
+</center>
+
+<center>
+(9 I 2021)
+</center>
+
+- [Plik](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/013_Ćwiczenia_(Vitalii_Urbanevych)/4_Urbanevych_2020.pdf) PDF z zestawem zadań.
+
+

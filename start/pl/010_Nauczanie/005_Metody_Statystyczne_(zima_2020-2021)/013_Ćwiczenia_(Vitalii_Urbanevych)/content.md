@@ -27,3 +27,14 @@
 </center>
 
 - [Plik](---ThisDir---/3_Urbanevych_2020_new.pdf) PDF z zestawem zadań.
+
+<center>
+**zestaw 4**
+</center>
+
+<center>
+(9 I 2021)
+</center>
+
+- [Plik](---ThisDir---/4_Urbanevych_2020.pdf) PDF z zestawem zadań.
+

@@ -181,7 +181,7 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
   - [dodatkowy wykład 3](http://math.uchicago.edu/~may/REU2017/REUPapers/Freedman.pdf)
 - notebooki Mathematici 
   - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
-  - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
+  - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
   - TODO: Metoda Funkcji Generującej
 
 

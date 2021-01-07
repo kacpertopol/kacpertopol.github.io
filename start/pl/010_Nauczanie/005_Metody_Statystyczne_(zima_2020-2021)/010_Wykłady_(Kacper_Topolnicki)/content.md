@@ -102,5 +102,5 @@
   - [dodatkowy wykład 3](http://math.uchicago.edu/~may/REU2017/REUPapers/Freedman.pdf)
 - notebooki Mathematici 
   - [Bernulli](---ThisDir---/20_12_2020.nb)
-  - [Markov](---ThisDir---/20_12_2020.nb)
+  - [Markov](---ThisDir---/20_12_2020_1.nb)
   - TODO: Metoda Funkcji Generującej

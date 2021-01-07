@@ -24,6 +24,7 @@ title : Zestawy zadań
 * [Zestaw 9 (3 XII 2020)](#zestaw-9-3-xii-2020)
 * [Zestaw 10 (10 XII 2020)](#zestaw-10-10-xii-2020)
 * [Zestaw 11 (17 XII 2020)](#zestaw-11-17-xii-2020)
+* [Zestaw 12 (1 I 2021)](#zestaw-12-1-i-2021)
 
 
 
@@ -1379,4 +1380,25 @@ proszę rozwiązać z wykorzystaniem funkcji `NDSolve`.
 Wykorzystując zadanie **A** proszę tak dobrać warunki początkowe wachadła
 aby zademonstrować chaos w tym układzie.
 
+
+
+# Zestaw 12 (1 I 2021)
+
+Na te zajęcia nie ma nowego zestawy zadań. Chciałbym porozmawiać, między innymi,
+z osobami mającymi kłopoty z zadaniami.
+
+Poniżej znajduje się lista zagadnień na kolokwium w przyszłym tygodniu (14 I 2021). 
+Jak widać nie obejmuje ono wszystkich zagadnień z ćwiczeń a jedynie liczby zespolone i macierze.
+Kolokwium będzie trwało 30 minut i będzie należało w tym czasie rozwiązać na kartkach papieru
+dwa prościutkie zadania rachunkowe. Natępnie zeskanowane kartki (polecam aplikację CamScanner)
+będzie należało przesłać na mój adres e-mail <kacper.topolnicki@uj.edu.pl>. Kolokwium będzie się
+odbywać przy włączonych kamerkach :-) 
+
+- liczby zespolone
+  - reprezentacja w postaci pary liczb 
+  - reprezentacja w postaci macierzowej
+  - wzór Eulera
+- macierze
+  - reprezentacja układów równań liniowych
+  - macierz wymiarowości oraz twierdzenie Buckinghama
 

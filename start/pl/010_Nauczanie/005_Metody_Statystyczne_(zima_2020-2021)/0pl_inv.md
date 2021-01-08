@@ -27,6 +27,25 @@ Zgodnie z nowym [komunikatem](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(
 w trybie zdalnym.
 
 <center>
+**ZAKRES MATERIAŁU**
+</center>
+
+- prawdopodobieństwo w podejściu aksjomatycznym
+- właściwości prawdopodobieństwa
+- interpretacje prawdopodobieństwa
+- zmienne losowe
+- rozkłady prawdopodobieństwa
+- wielowymiarowe zmienne losowe
+- zmiana zmiennych losowych
+- estymacja punktowa, przedziałowa
+- procesy stochastyczne
+- łańcuchy Markova
+- rodzaje łańcuchów Markova
+- stany stacjonarne
+- procesy liczące
+- procesy kolejkowe
+
+<center>
 **WYKŁAD (Kacper Topolnicki)**
 </center>
 

@@ -104,3 +104,18 @@
   - [Bernulli](---ThisDir---/20_12_2020.nb)
   - [Markov](---ThisDir---/20_12_2020_1.nb)
   - TODO: Metoda Funkcji Generującej
+
+<center>
+**wykład 5**
+</center>
+
+<center>
+(10 I 2021)
+</center>
+
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=jCgjar)
+- [slajdy](---ThisDir---/wyklad_5.pdf)
+- [notebook](---ThisDir---/autocorrelation.nb) Mathematici 
+  - wystarczy uruchomić notebook (Evaluate Notebook)
+  - TODO - pojawi się uzupełniona wersja z wartościami oczekiwanymi dla procesu liczącego Bernulliego
+

@@ -14,3 +14,6 @@ make_dark='/home/kacper/GIT_HUB/quick_note/NOTES/1515260167183_c71ec7ef-1cb2-44a
 ./make_all -t "Content:" "$make_dark" "./start/en" "./" "en_inv"
 
 cp pl.html index.html
+
+cd ./blog
+./build

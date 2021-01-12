@@ -1,0 +1,155 @@
+#!/usr/bin/env python
+
+import subprocess
+import os
+import re
+import datetime
+
+class globalBlog:
+    ok = True
+    md = []
+    mdString = ""
+
+def makeDate(name):
+    return (datetime.date.fromisoformat(name[0:10]) , name)
+
+def makeMD():
+
+    posts = []
+    mdString = ""
+
+    files = os.listdir(".")
+    files = list(filter(lambda name : not (re.match("\d\d\d\d-\d\d-\d\d\.md" , name) == None) , files))
+
+    files = list(map(makeDate , files))
+    files.sort(key = lambda x : x[0])
+    for f in files:
+        (date , filename) = f
+        postTitle = ""
+        postAbstract = ""
+        postLink = ""
+        postDate = str(date)
+        postContent = ""
+        with open(filename , "r") as post:
+            for line in post.readlines():
+                if(line[0:11] == "---title---"):
+                    postTitle = line[12:]
+                elif(line[0:14] == "---abstract---"):
+                    postAbstract += line[14:]
+                elif(line[0:10] == "---link---"):
+                    postLink = line[10:]
+                else:
+                    postContent += line 
+        posts.append((postDate , postTitle.strip() , postAbstract.strip(), postLink.strip() , postContent.strip()))
+
+    meta = ""
+
+    with open("meta" , "r") as f:
+        meta += f.read() 
+
+    for post in posts:
+        (postDate , postTitle , postAbstract , postLink , postContent) = post
+        
+        r = "\n# " + postTitle + "\n"
+        
+        r += "<center>\n"
+        r += "*" + postDate + "*\n"
+        r += "</center>\n"
+       
+        r += "\n" + postContent + "\n\n\n"
+
+        postName = str(postDate) + "_gen"
+
+        lightMeta = "---\n" + meta + "inv : \"" + postName + "_dark.html\"\nhme : \"blog.html\"" + "\n---\n" 
+        with open(postName + "_light.md" , "w") as f:
+            f.write(lightMeta + "\n" + r)
+        #subprocess.run(["pandoc" , "--mathjax" , "--template" , "./light.html" , postName + "_light.md" , "-o" , postName + "_light.html"])
+        subprocess.run("pandoc --mathjax --template ./light.html " + postName + "_light.md | sed '/BEGIN_HTML/d' | sed '/END_HTML/d' > " + postName + "_light.html" , shell = True)
+        
+        darkMeta = "---\n" + meta + "inv : \"" + postName + "_light.html\"\nhme : \"blogdark.html\"" + "\n---\n" 
+        with open(postName + "_dark.md" , "w") as f:
+            f.write(darkMeta + "\n" + r)
+        #subprocess.run(["pandoc" , "--mathjax" , "--template" , "./dark.html" , postName + "_dark.md" , "-o" , postName + "_dark.html"])
+        subprocess.run("pandoc --mathjax --template ./dark.html " + postName + "_dark.md | sed '/BEGIN_HTML/d' | sed '/END_HTML/d' > " + postName + "_dark.html" , shell = True)
+
+    result = ""
+    
+    n = 1
+    for post in posts:
+        (postDate , postTitle , postAbstract , postLink , postContent) = post
+        
+        if(n == 1):
+            result += "\n# " + postTitle + "\n"
+        else:
+            result += "\n# [" + postTitle + "](./" + str(postDate) + "_gen_light.html)\n"
+        
+        result += "<center>\n"
+        result += "*" + postDate + "*\n"
+        result += "</center>\n"
+       
+        if(n == 1):
+            result += "\n" + postContent + "\n\n\n"
+        else:
+            result += "\n" + postAbstract + "\n\n\n"
+        n += 1
+     
+    lightMeta = "---\n" + meta + "inv : \" blogdark.html\"\nhme : \"blog.html\"\n---\n" 
+    with open("blog_gen_light.md" , "w") as f:
+        f.write(lightMeta + "\n" + result)
+    #subprocess.run(["pandoc" , "--mathjax" , "--template" , "light.html" , "blog_gen_light.md" , "-o" , "blog.html"])
+    subprocess.run("pandoc --mathjax --template light.html blog_gen_light.md | sed '/BEGIN_HTML/d' | sed '/END_HTML/d' > blog.html" , shell = True)
+
+    result = ""
+    
+    n = 1
+    for post in posts:
+        (postDate , postTitle , postAbstract , postLink , postContent) = post
+        
+        if(n == 1):
+            result += "\n# " + postTitle + "\n"
+        else:
+            result += "\n# [" + postTitle + "](./" + str(postDate) + "_gen_dark.html)\n"
+        
+        result += "<center>\n"
+        result += "*" + postDate + "*\n"
+        result += "</center>\n"
+       
+        if(n == 1):
+            result += "\n" + postContent + "\n\n\n"
+        else:
+            result += "\n" + postAbstract + "\n\n\n"
+        n += 1
+
+    darkMeta = "---\n" + meta + "inv : \" blog.html\"\nhme : \"blogdark.html\"\n---\n" 
+    with open("blog_gen_dark.md" , "w") as f:
+        f.write(darkMeta + "\n" + result)
+    #subprocess.run(["pandoc" , "--mathjax" , "--template" , "dark.html" , "blog_gen_dark.md" , "-o" , "blogdark.html"])
+    subprocess.run("pandoc --mathjax --template dark.html blog_gen_dark.md | sed '/BEGIN_HTML/d' | sed '/END_HTML/d' > blogdark.html" , shell = True)
+
+
+if(__name__ == "__main__"):
+
+    ok = True
+    
+    print("Checking dependencies")
+    try:
+        pandocOut = subprocess.run(["pandoc" , "--version"] , capture_output = True)
+        ok = ok and (pandocOut.returncode == 0)
+        print("pandoc : " , "SUCCESS" if (pandocOut.returncode == 0) else "FAIL")
+    except FileNotFoundError:
+        ok = False
+        print("pandoc : " , "FAIL")
+    try:
+        pandocOut = subprocess.run(["sed" , "--version"] , capture_output = True)
+        ok = ok and (pandocOut.returncode == 0)
+        print("sed : " , "SUCCESS" if (pandocOut.returncode == 0) else "FAIL")
+    except:
+        ok = False
+        print("sed : " , "FAIL")
+
+    if(not ok):
+        print("Missing dependencies. Exiting.")
+        exit(1)
+    
+    makeMD()
+

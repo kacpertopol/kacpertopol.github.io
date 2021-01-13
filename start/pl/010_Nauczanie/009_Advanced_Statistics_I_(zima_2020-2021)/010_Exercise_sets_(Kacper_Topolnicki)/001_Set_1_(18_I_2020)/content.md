@@ -54,4 +54,4 @@ using `numpy` and compare execution times of both implementations.
 </center>
 
 Plot the function $f(x) = \left(\sin{x^{2}}\right)^{2}$ for $0 < x < \sqrt{2 \pi}$ and calculate the integral
-$\int_{-1}^{1} f(x) dx$ using *SciPy*.
+$\int_{0}^{\sqrt{2 \pi}} f(x) dx$ using *SciPy*.

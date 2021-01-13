@@ -45,3 +45,13 @@ This example does not have much to do with statistics but it demonstrates the
 powerful capabilities of the `numpy` library. Please rewrite this script without
 using `numpy` and compare execution times of both implementations.
 
+<center>
+**D**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Plot the function $f(x) = \left(\sin{x^{2}}\right)^{2}$ for $0 < x < \sqrt{2 \pi}$ and calculate the integral
+$\int_{-1}^{1} f(x) dx$ using *SciPy*.

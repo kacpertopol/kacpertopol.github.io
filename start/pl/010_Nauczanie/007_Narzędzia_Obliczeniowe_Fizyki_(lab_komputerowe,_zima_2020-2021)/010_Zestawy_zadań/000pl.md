@@ -24,7 +24,8 @@ title : Zestawy zadań
 * [Zestaw 9 (3 XII 2020)](#zestaw-9-3-xii-2020)
 * [Zestaw 10 (10 XII 2020)](#zestaw-10-10-xii-2020)
 * [Zestaw 11 (17 XII 2020)](#zestaw-11-17-xii-2020)
-* [Zestaw 12 (1 I 2021)](#zestaw-12-1-i-2021)
+* [Zestaw 12 (7 I 2021)](#zestaw-12-7-i-2021)
+* [Zestaw 12 (14 I 2021)](#zestaw-12-14-i-2021)
 
 
 
@@ -1382,7 +1383,7 @@ aby zademonstrować chaos w tym układzie.
 
 
 
-# Zestaw 12 (1 I 2021)
+# Zestaw 12 (7 I 2021)
 
 Na te zajęcia nie ma nowego zestawy zadań. Chciałbym porozmawiać, między innymi,
 z osobami mającymi kłopoty z zadaniami.
@@ -1401,4 +1402,15 @@ odbywać przy włączonych kamerkach :-)
 - macierze
   - reprezentacja układów równań liniowych
   - macierz wymiarowości oraz twierdzenie Buckinghama
+
+
+# Zestaw 12 (14 I 2021)
+
+Kolokwium!
+
+- odpowiedzi należy pisać ręcznie, zeskanować i wysłać na adres <kacper.topolnicki@uj.edu.pl>
+- na rozwiązanie zadań będzie 30 minut
+
+Dodatkowo omówione zostaną zadania z którymi mieli Państwo kłopoty.
+
 

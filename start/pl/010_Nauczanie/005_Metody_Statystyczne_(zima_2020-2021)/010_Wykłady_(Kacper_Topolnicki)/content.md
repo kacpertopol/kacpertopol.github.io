@@ -9,7 +9,6 @@
 **MATERIAŁY DODATKOWE**
 </center>
 
-- [slajdy](---ThisDir---/wyklad_RomanSkibinski.zip) z wykładu Romana Skibińskiego
 - [instrukcja](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) installacji programu Mathematica
   ze [strony](https://fais.uj.edu.pl/dla-studentow/studia-z-mathematica)
   - **UWAGA** wszędzie gdzie to konieczne należy wpisywać uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail stanowi metodę weryfikacji, że jesteście państwo studentami uczelni. Informacja o aktywacji studenckich kont pocztowych dostępna jest [tutaj](https://pomocit.uj.edu.pl/poczta_studenci) 

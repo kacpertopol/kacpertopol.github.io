@@ -25,7 +25,7 @@ title : Zestawy zadań
 * [Zestaw 10 (10 XII 2020)](#zestaw-10-10-xii-2020)
 * [Zestaw 11 (17 XII 2020)](#zestaw-11-17-xii-2020)
 * [Zestaw 12 (7 I 2021)](#zestaw-12-7-i-2021)
-* [Zestaw 12 (14 I 2021)](#zestaw-12-14-i-2021)
+* [Zestaw 13 (14 I 2021)](#zestaw-13-14-i-2021)
 
 
 
@@ -1404,7 +1404,7 @@ odbywać przy włączonych kamerkach :-)
   - macierz wymiarowości oraz twierdzenie Buckinghama
 
 
-# Zestaw 12 (14 I 2021)
+# Zestaw 13 (14 I 2021)
 
 Kolokwium!
 

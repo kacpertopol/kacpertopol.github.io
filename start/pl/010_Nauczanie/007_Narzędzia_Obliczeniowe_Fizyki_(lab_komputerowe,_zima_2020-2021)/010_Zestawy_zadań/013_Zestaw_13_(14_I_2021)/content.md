@@ -5,3 +5,5 @@ Kolokwium!
 
 Dodatkowo omówione zostaną zadania z którymi mieli Państwo kłopoty.
 
+- [chaotyczny notebook](---ThisDir---/14_01_2021.nb)
+

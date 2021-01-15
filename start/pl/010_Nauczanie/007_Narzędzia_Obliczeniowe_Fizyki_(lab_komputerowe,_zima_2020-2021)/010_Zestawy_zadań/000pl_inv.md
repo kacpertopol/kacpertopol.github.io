@@ -1413,4 +1413,6 @@ Kolokwium!
 
 Dodatkowo omówione zostaną zadania z którymi mieli Państwo kłopoty.
 
+- [chaotyczny notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/013_Zestaw_13_(14_I_2021)/14_01_2021.nb)
+
 

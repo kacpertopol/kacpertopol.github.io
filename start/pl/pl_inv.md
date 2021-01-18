@@ -28,6 +28,7 @@ toc-title: TOC
 * [Curriculum vitae](./00000000pl_inv.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
+	* [Blog](#blog)
 
 
 
@@ -119,4 +120,9 @@ mogą odbyć się za pośrednictwem *ZOOM*, *MS Teams* lub *Skype*.
   Wspaniałe, krótkie opowiadania.
 
  
+
+
+## Blog
+
+Zapraszam do [czytania](https://kacpertopol.github.io/myblog/). 
 

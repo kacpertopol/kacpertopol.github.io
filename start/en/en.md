@@ -24,6 +24,7 @@ toc-title: TOC
 * [Curriculum vitae](./000en.html)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
+	* [Blog](#blog)
 
 
 
@@ -93,4 +94,9 @@ toc-title: TOC
   Wonderfull short stories.
 
  
+
+
+## Blog
+
+My blog is available [here](https://kacpertopol.github.io/myblog/). 
 

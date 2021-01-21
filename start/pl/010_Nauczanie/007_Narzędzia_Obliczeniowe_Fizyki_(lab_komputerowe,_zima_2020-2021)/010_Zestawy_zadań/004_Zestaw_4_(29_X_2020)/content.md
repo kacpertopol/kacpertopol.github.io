@@ -181,7 +181,7 @@ oraz nanieść rozwiązania na płaszczyznę zespoloną (w Mathematice).
 </center>
 
 <center>
-(3 punkty, obowiązkowe)
+(3 punkty)
 </center>
 
 Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzeczywistego $x$:

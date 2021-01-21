@@ -26,6 +26,7 @@ title : Zestawy zadań
 * [Zestaw 11 (17 XII 2020)](#zestaw-11-17-xii-2020)
 * [Zestaw 12 (7 I 2021)](#zestaw-12-7-i-2021)
 * [Zestaw 13 (14 I 2021)](#zestaw-13-14-i-2021)
+* [Zestaw 14 (21 I 2021)](#zestaw-14-21-i-2021)
 
 
 
@@ -798,7 +799,7 @@ oraz nanieść rozwiązania na płaszczyznę zespoloną (w Mathematice).
 </center>
 
 <center>
-(3 punkty, obowiązkowe)
+(3 punkty)
 </center>
 
 Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzeczywistego $x$:
@@ -1415,4 +1416,12 @@ Dodatkowo omówione zostaną zadania z którymi mieli Państwo kłopoty.
 
 - [chaotyczny notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/010_Zestawy_zadań/013_Zestaw_13_(14_I_2021)/14_01_2021.nb)
 
+
+
+# Zestaw 14 (21 I 2021)
+
+Zgodnie z obietnicą dalej brak nowych zadań. Dzisiaj 
+jest ostatnia (prawie, można się jeszcze spróbować umówić na konsultacje)
+szansa na oddanie zadań. Spotkanie ogólne będzie bardzo krótkie,
+jak najszybciej przejdziemy do części zadaniowej.
 

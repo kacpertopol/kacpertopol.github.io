@@ -23,9 +23,10 @@ toc-title: TOC
 	* [Metody Statystyczne (zima 2020-2021)](./0pl_inv.html)
 	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./00pl_inv.html)
 	* [Advanced Statistics I (zima 2020-2021)](./00000pl_inv.html)
-* [COVID](./0000000pl_inv.html)
+	* [Numerical calculations using Mathematica (summer 2020-2021)](./0000000pl_inv.html)
+* [COVID](./00000000pl_inv.html)
 * [Konsultacje](#konsultacje)
-* [Curriculum vitae](./00000000pl_inv.html)
+* [Curriculum vitae](./000000000pl_inv.html)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
 	* [Blog](#blog)
@@ -60,7 +61,11 @@ toc-title: TOC
 
 
 
-# [COVID](./0000000pl_inv.html)
+## [Numerical calculations using Mathematica (summer 2020-2021)](./0000000pl_inv.html)
+
+
+
+# [COVID](./00000000pl_inv.html)
 
 
 
@@ -71,7 +76,7 @@ w celu umówienia konkretnego terminu. Konsultacje
 mogą odbyć się za pośrednictwem *ZOOM*, *MS Teams* lub *Skype*.
 
 
-# [Curriculum vitae](./00000000pl_inv.html)
+# [Curriculum vitae](./000000000pl_inv.html)
 
 
 

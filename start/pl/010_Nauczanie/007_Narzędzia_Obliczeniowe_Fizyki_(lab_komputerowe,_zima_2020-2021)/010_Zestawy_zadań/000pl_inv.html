@@ -62,6 +62,7 @@ SOFTWARE.
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -122,7 +123,7 @@ code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -173,23 +174,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>w nowym okienku mozna wpisać treść programu</p></li>
 <li><p>po zakończeniu edycji zapisujemy skrypt i zamykamy okienko (to ważne, Mathematica korzysta z mechanizmu uniemożliwiającego jednoczesną edycję oraz wykonanie skryptu)</p></li>
 <li><p>w terminalu (pod linuxem <a href="https://help.ubuntu.com/community/UsingTheTerminal">tak</a>, pod windows <a href="https://www.wikihow.com/Open-Terminal-in-Windows">tak</a>) nawigujemy do katalogu gdzie znajduje się skrypt i uruchamiamy komendą (pod linux, pod windows jest trochę inaczej - proszę samodzielnie po eksperymentować):</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>  <span class="ex">...</span> $ ./nazwa_skryptu.wls</span></code></pre></div></li>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span> $ ./nazwa_skryptu.wls</span></code></pre></div></li>
 </ul>
 <p>Tworzenie skryptu, metoda 2 (linux ale bardziej uniwersalna w tym systemie):</p>
 <ul>
 <li><p>otwieramy ulubiony edytor tekstu</p></li>
 <li><p>wpisujemy do pliku program</p></li>
 <li><p>w pierwszej linijce (tzw linijka “hash bang!”, musi być zawsze pierwsza, nad nią nie mogą się znajdować puste linie) dodatkowo dodajemy:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="co">#!/usr/bin/env wolframscript</span></span></code></pre></div></li>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/bin/env wolframscript</span></span></code></pre></div></li>
 <li><p>linijka ta informuje system operacyjny, który program powinien być wykorzystany do zinterpretowaniu programu zawartego w skrypcie</p></li>
 <li><p>alternatywnie można zamieścić bezpośrednią ścieżkę do programu, na moim systemie wygląda ona następująco:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="co">#!/usr/local/Wolfram/Mathematica/12.1/Executables/wolframscript</span></span></code></pre></div></li>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/local/Wolfram/Mathematica/12.1/Executables/wolframscript</span></span></code></pre></div></li>
 <li><p>teraz wystarczy nawigować w terminalu do katalogu zawierającego skrypt, zezwolilć aby nasz skrypt był wykonany:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a>  <span class="ex">...</span> $ chmod +x nazwa_skryptu</span></code></pre></div></li>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span> $ chmod +x nazwa_skryptu</span></code></pre></div></li>
 <li><p>… i go wykonać:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true"></a>  <span class="ex">...</span> $ ./nazwa_skryptu</span></code></pre></div></li>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span> $ ./nazwa_skryptu</span></code></pre></div></li>
 <li><p>skrype można również wykonać z argumentami, np:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a>  <span class="ex">...</span> $ ./silnia 5</span></code></pre></div></li>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span> $ ./silnia 5</span></code></pre></div></li>
 </ul>
 <p>Kilka przykładowych skryptów:</p>
 <ul>

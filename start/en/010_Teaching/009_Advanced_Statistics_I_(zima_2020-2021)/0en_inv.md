@@ -37,11 +37,8 @@ TODO
 
 # Lectures (Roman Skibiński)
 
-<center>
-**TODO**
-</center>
-
-TODO
+Lecture notes and lecture recordings are available 
+via MS Teams.
 
 
 # [Exercise sets (Kacper Topolnicki)](./00en_inv.html)

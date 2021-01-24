@@ -1,4 +1,43 @@
 <center>
+**ZAGADNIENIA DO KOLOKWIUM**
+</center>
+
+Na kolokwium moga pojawić się następujące zagadnienia:
+
+- aksjomaty prawdopodobieństwa
+- twierdzenie Bayesa
+- ciągłe zmienne losowe
+  - rozkład Cauchiego
+    - właściwości, wzór
+  - rozkład normalny
+    - właściwości, wzór
+  - zamiana zmiennych losowych (przypadek 1D)
+- estymacja punktowa
+  - estymator zgodny
+  - estymator nie obciążony
+- estymacja przedziałowa
+  - przedział ufności
+- łańcuchy Markova
+  - definicja
+  - macierz prawdopodobieństwa
+  - czym jest stan stacjonarny, czy zawsze istnieje?
+- procesy liczące
+  - Bernulli
+    - przykład
+	- macierz prawdopodobieństw
+  - Poisson
+    - jak się ma do Bernulliego?
+- procesy kolejkowe
+  - prawo Little'a
+  - klasyfikacja procesów kolejkowych
+  - M/M/1
+    - podstawowe własności
+
+
+Jeżeli zadanie na kolokwium będzie wymagać przeprowadzenia obliczeń to będą to BARDZO proste rachunki.
+Nie przewiduję skomplikowanych wyprowadzeń.
+
+<center>
 **LITERATURA**
 </center>
 

@@ -133,7 +133,9 @@ Na kolokwium moga pojawić się następujące zagadnienia:
 
 
 Jeżeli zadanie na kolokwium będzie wymagać przeprowadzenia obliczeń to będą to BARDZO proste rachunki.
-Nie przewiduję skomplikowanych wyprowadzeń.
+Nie przewiduję skomplikowanych wyprowadzeń. Kolokwium pisane jest na karteczkach przy włączonych kamerach. 
+Po ukończeniu będzie należało karteczki zeskanować / sfotografować i przesłać na <kacper.topolnicki@uj.edu.pl>.
+Czas trwania to około $30$ minut.
 
 <center>
 **LITERATURA**

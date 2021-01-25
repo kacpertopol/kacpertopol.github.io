@@ -1,4 +1,29 @@
 <center>
+**Additional Materials**
+</center>
+
+- simple plotting
+  - [script](---ThisDir---/plots.py) with simple plots
+  - [line by line](---ThisDir---/plots.pdf) guide to the script (I suggest that you read this first)
+    - some comments in the guide do not apply to *Windows*
+- numerical integration
+  - [script](---ThisDir---/integrals.py)
+  - [line by line](---ThisDir---/integrals.pdf) guide to the script (I suggest that you read this first)
+    - some comments in the guide do not apply to *Windows*
+- `csv` import and export
+  - [script](---ThisDir---/numpycsv.py)
+  - [line by line](---ThisDir---/numpycsv.pdf) guide to the script (I suggest that you read this first)
+    - some comments in the guide do not apply to *Windows*
+- additional links
+  - [official python 3 tutorial](https://docs.python.org/3/tutorial/)
+  - [SciPy website](https://www.scipy.org/)
+  - [pyplot tutorial](https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py)
+  - [plot legends in pyplot](https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.legend.html)
+  - [scipy quad function for integrals](https://docs.scipy.org/doc/scipy/reference/tutorial/integrate.html)
+  - [ipython documentation](https://ipython.readthedocs.io/en/stable/index.html)
+ 
+
+<center>
 **SET 1**
 </center>
 

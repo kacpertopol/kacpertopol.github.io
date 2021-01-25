@@ -3,6 +3,9 @@
 #make_light='pandoc --mathjax --template GitHub.html5 -o'
 #make_dark='pandoc --mathjax --template GitHubINV.html5 -o'
 
+rm -r ./start/en/011_Curriculum_vitae
+cp -r ./start/pl/014_Curriculum_vitae ./start/en/011_Curriculum_vitae
+
 rm -r ./start/en/010_Teaching/009_Advanced_Statistics_I_\(zima_2020-2021\)
 cp -r ./start/pl/010_Nauczanie/009_Advanced_Statistics_I_\(zima_2020-2021\) ./start/en/010_Teaching/
 

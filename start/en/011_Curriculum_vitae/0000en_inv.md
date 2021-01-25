@@ -12,7 +12,7 @@ title : Kacper Topolnicki, CV
 * [Positions](#positions)
 * [Skills](#skills)
 * [Grants](#grants)
-* [Publications (WOS, II 2020)](./00000en_inv.html)
+* [Publications (WOS, I 2021)](./00000en_inv.html)
 * [Talks](./000000en_inv.html)
 * [Other interests](#other-interests)
 
@@ -122,7 +122,7 @@ title : Kacper Topolnicki, CV
 
 
 
-# [Publications (WOS, II 2020)](./00000en_inv.html)
+# [Publications (WOS, I 2021)](./00000en_inv.html)
 
 
 

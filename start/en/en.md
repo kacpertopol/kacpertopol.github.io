@@ -22,7 +22,7 @@ toc-title: TOC
 * [Teaching](#teaching)
 	* [Advanced Statistics I (zima 2020-2021)](./0en.html)
 	* [Numerical calculations using Mathematica (summer 2020-2021)](./000en.html)
-* [Curriculum vitae](./0000en.html)
+* [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
 	* [Blog](#blog)
@@ -50,8 +50,9 @@ toc-title: TOC
 
 
 
-# [Curriculum vitae](./0000en.html)
+# Curriculum vitae
 
+My CV togather with a list of talks and publications is available [here](https://kacpertopol.github.io/cv/).
 
 
 # Fun

@@ -26,7 +26,7 @@ toc-title: TOC
 	* [Numerical calculations using Mathematica (summer 2020-2021)](./0000000pl_inv.html)
 * [COVID](./00000000pl_inv.html)
 * [Konsultacje](#konsultacje)
-* [Curriculum vitae](./000000000pl_inv.html)
+* [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
 	* [Podkasty](#podkasty)
 	* [Blog](#blog)
@@ -76,8 +76,9 @@ w celu umówienia konkretnego terminu. Konsultacje
 mogą odbyć się za pośrednictwem *ZOOM*, *MS Teams* lub *Skype*.
 
 
-# [Curriculum vitae](./000000000pl_inv.html)
+# Curriculum vitae
 
+Mój życiorys, lista wystąpień oraz publikacji dostępna jest [tutaj](https://kacpertopol.github.io/cv/).
 
 
 # Fun

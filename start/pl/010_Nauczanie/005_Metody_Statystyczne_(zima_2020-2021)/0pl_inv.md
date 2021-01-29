@@ -117,7 +117,7 @@ Na kolokwium moga pojawić się następujące zagadnienia:
   - przedział ufności
 - łańcuchy Markova
   - definicja
-  - macierz prawdopodobieństwa
+  - macierz prawdopodobieństw
   - czym jest stan stacjonarny, czy zawsze istnieje?
 - procesy liczące
   - Bernulli
@@ -268,6 +268,8 @@ Czas trwania to około $30$ minut.
 
 - [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)
 - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2020-2021)/010_Wykłady_(Kacper_Topolnicki)/infiniteMatrix.nb)
+  - wystarczy uruchomić notebook (Evaluate Notebook)
+  - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
 
 
 # Ćwiczenia (Vitalii Urbanevych)

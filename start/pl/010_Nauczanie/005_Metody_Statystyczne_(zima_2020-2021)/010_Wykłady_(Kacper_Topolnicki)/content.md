@@ -19,7 +19,7 @@ Na kolokwium moga pojawić się następujące zagadnienia:
   - przedział ufności
 - łańcuchy Markova
   - definicja
-  - macierz prawdopodobieństwa
+  - macierz prawdopodobieństw
   - czym jest stan stacjonarny, czy zawsze istnieje?
 - procesy liczące
   - Bernulli
@@ -170,3 +170,5 @@ Czas trwania to około $30$ minut.
 
 - [slajdy](---ThisDir---/W6.pdf)
 - [notebook](---ThisDir---/infiniteMatrix.nb)
+  - wystarczy uruchomić notebook (Evaluate Notebook)
+  - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie

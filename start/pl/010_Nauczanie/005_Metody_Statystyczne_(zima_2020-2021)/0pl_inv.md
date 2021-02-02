@@ -100,15 +100,15 @@ Zadania zaliczane są podczas trwania zajęć, wystarczy zademonstrować działa
 **ZAGADNIENIA DO KOLOKWIUM**
 </center>
 
-Na kolokwium moga pojawić się następujące zagadnienia:
+Na kolokwium mogę pojawić się następujące zagadnienia:
 
 - aksjomaty prawdopodobieństwa
 - twierdzenie Bayesa
 - ciągłe zmienne losowe
   - rozkład Cauchiego
-    - właściwości, wzór
+    - właściwości, funkcja gęstości prawdopodobieństwa
   - rozkład normalny
-    - właściwości, wzór
+    - właściwości, funkcja gęstości prawdopodobieństwa
   - zamiana zmiennych losowych (przypadek 1D)
 - estymacja punktowa
   - estymator zgodny
@@ -117,7 +117,7 @@ Na kolokwium moga pojawić się następujące zagadnienia:
   - przedział ufności
 - łańcuchy Markova
   - definicja
-  - macierz prawdopodobieństw
+  - macierz prawdopodobieństwa, grafy procesu
   - czym jest stan stacjonarny, czy zawsze istnieje?
 - procesy liczące
   - Bernulli
@@ -127,7 +127,7 @@ Na kolokwium moga pojawić się następujące zagadnienia:
     - jak się ma do Bernulliego?
 - procesy kolejkowe
   - prawo Little'a
-  - klasyfikacja procesów kolejkowych
+  - klasyfikacja procesów kolejkowych (M/M/1, G/M/1, ...)
   - M/M/1
     - podstawowe własności
 

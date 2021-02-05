@@ -12,8 +12,7 @@
 **ĆWICZENIA - ZOOM**
 </center>
 
-- link: <https://us02web.zoom.us/j/86822792090?pwd=QlBuOTBtajVSU204ekhBUE5WU0xnZz09>
+- link: <https://us02web.zoom.us/j/85790609345>
 
-- Meeting ID: 868 2279 2090
+- Meeting ID: 857 9060 9345
 
-- Passcode: 4P3Zcm

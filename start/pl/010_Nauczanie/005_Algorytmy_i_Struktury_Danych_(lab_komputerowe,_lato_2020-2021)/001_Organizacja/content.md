@@ -5,4 +5,6 @@ do zajeć:
 - Meeting ID: `864 7309 3143`
 - Passcode: `ZHA12w`
 
-Zasadu oceniania pojawią się niedługo.
+Zasady oceniania pojawią się niedługo. Zadania, pytania oraz uwagi dotyczące zajęć
+prosze przesyłać na <kacper.topolnicki@uj.edu.pl>, przy czym temat wiadomości 
+powinien zawierać ciąg znaków "AISD20202021".

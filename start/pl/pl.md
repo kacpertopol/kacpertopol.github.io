@@ -22,8 +22,9 @@ toc-title: TOC
 * [Nauczanie](#nauczanie)
 	* [Algebra i Geometria (ćwiczenia, lato 2020-2021)](./0pl.html)
 	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2020-2021)](./000pl.html)
-	* [Advanced Statistics I (zima 2020-2021)](./00000pl.html)
-* [COVID](./0000000pl.html)
+	* [Symulacje w czasie rzeczywistym (lab komputerowe, lato 2020-2021)](./00000pl.html)
+	* [Advanced Statistics I (zima 2020-2021)](./0000000pl.html)
+* [COVID](./000000000pl.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -56,11 +57,15 @@ toc-title: TOC
 
 
 
-## [Advanced Statistics I (zima 2020-2021)](./00000pl.html)
+## [Symulacje w czasie rzeczywistym (lab komputerowe, lato 2020-2021)](./00000pl.html)
 
 
 
-# [COVID](./0000000pl.html)
+## [Advanced Statistics I (zima 2020-2021)](./0000000pl.html)
+
+
+
+# [COVID](./000000000pl.html)
 
 
 

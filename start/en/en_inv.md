@@ -21,7 +21,6 @@ toc-title: TOC
 * [Contact](#contact)
 * [Teaching](#teaching)
 	* [Advanced Statistics I (zima 2020-2021)](./0en_inv.html)
-	* [Numerical calculations using Mathematica (summer 2020-2021)](./000en_inv.html)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
@@ -43,10 +42,6 @@ toc-title: TOC
 
 
 ## [Advanced Statistics I (zima 2020-2021)](./0en_inv.html)
-
-
-
-## [Numerical calculations using Mathematica (summer 2020-2021)](./000en_inv.html)
 
 
 

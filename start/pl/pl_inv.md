@@ -20,11 +20,9 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Metody Statystyczne (zima 2020-2021)](./0pl_inv.html)
-	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./00pl_inv.html)
-	* [Advanced Statistics I (zima 2020-2021)](./00000pl_inv.html)
-	* [Numerical calculations using Mathematica (summer 2020-2021)](./0000000pl_inv.html)
-* [COVID](./00000000pl_inv.html)
+	* [Algebra i Geometria (ćwiczenia, lato 2020-2021)](./0pl_inv.html)
+	* [Advanced Statistics I (zima 2020-2021)](./000pl_inv.html)
+* [COVID](./00000pl_inv.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -49,23 +47,15 @@ toc-title: TOC
 
 
 
-## [Metody Statystyczne (zima 2020-2021)](./0pl_inv.html)
+## [Algebra i Geometria (ćwiczenia, lato 2020-2021)](./0pl_inv.html)
 
 
 
-## [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2020-2021)](./00pl_inv.html)
+## [Advanced Statistics I (zima 2020-2021)](./000pl_inv.html)
 
 
 
-## [Advanced Statistics I (zima 2020-2021)](./00000pl_inv.html)
-
-
-
-## [Numerical calculations using Mathematica (summer 2020-2021)](./0000000pl_inv.html)
-
-
-
-# [COVID](./00000000pl_inv.html)
+# [COVID](./00000pl_inv.html)
 
 
 

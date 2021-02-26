@@ -21,6 +21,10 @@ title : Zestawy zadań
 </center>
 
 <center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+<center>
 (1 punkt)
 </center>
 
@@ -63,6 +67,10 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 </center>
 
 <center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+<center>
 (1 punkt)
 </center>
 
@@ -95,6 +103,10 @@ Uwaga: to zadanie może być zaliczone pod warunkiem prawidłowego wykonania **A
 </center>
 
 <center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+<center>
 (1 punkt)
 </center>
 
@@ -119,4 +131,34 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 Dodatkowo proszę porównać te wyniki do Państwa wyników z **A** oraz **B** i zastanowić się która
 implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź proszę przesłać za pośrednictwem e-mail.
 
-<div style="text-align: center"><a href = #zawartość title = "zawartość">↑</a></div>
+<center>
+**UWAGI**
+</center>
+
+* Dla każdej implementacji typu danych oraz dla każdej zaimplementowanej operacji proszę dodatkowo:
+  * zamieścić w Państwa programie test sprawdzający czy operacje są zaimplementowane prawidłowo
+  * aby ułatwic Państwu pracę możemy się umówić, że w teście będzie sprawdzana niewielka ilość
+	  przypadków - na tyle mała aby można było je wypisać na ekranie komputera i przeanalizować
+		ręcznie
+* Badając złożoność obliczeniową operacji, proszę się zastanowić jak powina
+  wyglądać zależność $t(n)$ czasu wykonania problemu ($t$) od rozmiaru 
+	problemu ($n$)
+	i nanieść tą hipotezę na odpowiedni wykres.
+* Kilka przykładów, w których badana jest złożonosć operacji dodawania elementu
+  do zbioru
+  * [wykres](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/setSimple.pdf) oraz [skrypt gnuplot](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/DATAtestAddElementsSetSimple) i [dane do skryptu](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/DATASS) dla implementacji wykorzystującej tablicę, której elementami są wartości logiczne
+  * dwa wykresy [wykres 1](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/setSorted.pdf), [wykres 2](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/setSortedReversed.pdf) 
+    oraz dwa skrypty gnuplot [skrypt 1](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/DATAtestAddElementsSetLinkedSorted), [skrypt 2](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/DATAtestAddElementsSetLinkedSortedRev) 
+    dla posortowanej listy łączonej. Dodatkowo dane do [skrypt 1](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/DATASLS) oraz [skrypt 2](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/001_Zestaw_1_(25_II_2020)/DATASLSR).
+    * dlaczego te wyniki tak dramatycznie się różnią? Proszę dokładnie przeczytać opis wykresów :-)
+  * proszę się zastanowić jak ma się dopasowanie do otrzymanych wyników odpowiedniej krzywej do złożonoći
+    obliczeniowej
+* Sprawdzenie złożoności obliczeniowej dla każdej z operacji może być trochę pracochłonne.
+  Kryteria zaliczenia zadań są złagodzone: wystarczy jeden wykres dla wybranej operacji.
+  Ale proszę go jednak zrobić porządnie :-)
+* W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. 
+  Nie powinno mieć to większego znaczenia
+  jeżeli pewne warunki są spełnione. Jakie to warunki?
+    * Wskazówka: $\equiv$, $\lt$, $\gt$
+
+

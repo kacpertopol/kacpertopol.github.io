@@ -24,10 +24,6 @@
  
 
 <center>
-**SET 1**
-</center>
-
-<center>
 **A**
 </center>
 

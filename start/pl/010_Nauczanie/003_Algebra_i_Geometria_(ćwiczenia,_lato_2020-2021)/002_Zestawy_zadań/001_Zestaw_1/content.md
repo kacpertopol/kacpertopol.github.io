@@ -1,4 +1,12 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ETXvPeF6xh5Dp5eZlGC5SWABx_-h4QJ6_0AQYpdmV-kJrg?e=8fdEkM) z środowych ćwiczeń
+- [podręcznik](https://www.mimuw.edu.pl/~leszekp/dydaktyka/gal/labook.pdf) na którym zostało oparte nagranie
+- [dodatkowy podręcznik](http://eigenspace.pl/herdegen_algebra.pdf) dostępny online
+
+<center>
 **A**
 </center>
 

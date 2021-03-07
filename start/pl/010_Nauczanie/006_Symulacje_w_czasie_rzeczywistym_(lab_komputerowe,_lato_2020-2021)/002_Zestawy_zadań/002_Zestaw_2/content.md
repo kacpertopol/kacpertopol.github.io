@@ -6,7 +6,7 @@
 (2 punkty)
 </center>
 
-Proszę zaimplementować symulację dwu wymiarowej wersję zabawki:
+Proszę zaimplementować symulację dwu wymiarowej wersji zabawki:
 
 <center>
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bead_roller_coaster.jpg/800px-Bead_roller_coaster.jpg)](https://commons.wikimedia.org/wiki/File:Bead_roller_coaster.jpg)

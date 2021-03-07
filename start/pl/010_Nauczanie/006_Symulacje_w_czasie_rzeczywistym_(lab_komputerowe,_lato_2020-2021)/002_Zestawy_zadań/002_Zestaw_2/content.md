@@ -1,61 +1,3 @@
----
-title : Zestawy zadań
----
-
-<center>
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1024px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg)](https://en.wikipedia.org/wiki/Algorithm)
-</center>
-
-
-
-# Zawartość:
-
-* [Zestaw 1](#zestaw-1)
-* [Zestaw 2](#zestaw-2)
-
-
-
-# Zestaw 1
-
-<center>
-**A** 
-</center>
-
-<center>
-(1 punkt)
-</center>
-
-Proszę zainstalować *GODOT* korzystając z instrukcji na [oficjalnej stronie](https://godotengine.org/) aplikacji.
-
-<center>
-**B** 
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Proszę przyjrzeć się [dokumentacji](https://docs.godotengine.org/en/stable/) i przygotować dwu wymiarową grę
-w której moga Państwo:
-
-- tworzyć nowe figury (mają państwo swobodę, mogą to być okręgi, poligony, ...) w w zadanej pozycji na ekranie
-- kontrola nad tworzeniem tych obiektów powinna być z posiomu skryptu [GDScript](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics.html)
-- zmieniać położenie obiektów w momencie gdy program tworzy nową klatkę animacji
-
-<center>
-**C** 
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Proszę wykonać zadanie **B** ale tym razem w trzech wymiarach.
-
-
-
-# Zestaw 2
-
 <center>
 **A** 
 </center>
@@ -81,7 +23,7 @@ Powinna istnieć możliwość poskładania drutu z
 segmentów w postaci:
 
 <center>
-![](./start/pl/010_Nauczanie/006_Symulacje_w_czasie_rzeczywistym_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/002_Zestaw_2/segment.jpg)
+![](---ThisDir---/segment.jpg)
 </center>
 
 gdzie $x$ oraz $y$ są poziomo oraz pionowo skierowanymi wektorami,
@@ -126,4 +68,3 @@ Teraz paciorek koże również obracać się wzdłów osi
 wyznaczonej przez kierunek drutu. Proszę odpowiednio
 uzupełnić swoją symulację tak aby wydoczny był obrót
 koralika.
-

@@ -140,6 +140,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li><a href="#set-1-25-i-2020">Set 1 (25 I 2020)</a></li>
 <li><a href="#set-2-1-iii-2020">Set 2 (1 III 2020)</a></li>
+<li><a href="#set-3-8-iii-2020">Set 3 (8 III 2020)</a></li>
 </ul>
 <h1 id="set-1-25-i-2020">Set 1 (25 I 2020)</h1>
 <center>
@@ -294,6 +295,54 @@ f(x) = \frac{1}{\pi (1 + x^{2})}
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> formatError(number , pm):</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    ...</span></code></pre></div>
 <p>where <code>numer</code> and <code>pm</code> are floating point numbers related to the value and error of a random variable and the return type of the function is a character string with the appropriately formatted value.</p>
+<h1 id="set-3-8-iii-2020">Set 3 (8 III 2020)</h1>
+<center>
+<strong>Additional Materials</strong>
+</center>
+<ul>
+<li>simple plotting
+<ul>
+<li><a href="./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(Kacper_Topolnicki)/003_Set_3_(8_III_2020)/set_3.py">script</a> with some useful examples</li>
+<li><a href="./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(Kacper_Topolnicki)/003_Set_3_(8_III_2020)/sample_image.png">sample image</a> with some useful examples</li>
+<li><a href="./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(Kacper_Topolnicki)/003_Set_3_(8_III_2020)/set_3.pdf">line by line</a> guide to the script (I suggest that you read this first)
+<ul>
+<li>some comments in the guide do not apply to <em>Windows</em></li>
+</ul></li>
+</ul></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 point)
+</center>
+<p>Convert the script from the <strong>Additional Materials</strong> into a proper python module</p>
+<ul>
+<li>identify which pieces of code can be bunched together into functions</li>
+<li>add <code>if(__name__ == "__main__"):...</code></li>
+</ul>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Construct a 5 by 5 <code>float64</code> matrix (two dimensional array, an array with two axis) in numpy:</p>
+<ul>
+<li>the diagonal elements are <span class="math inline">\(-1\)</span></li>
+<li>the elements just above and just below the diagonal are <span class="math inline">\(\frac{1}{2}\)</span></li>
+<li>the last element in the first row is <span class="math inline">\(\frac{1}{2}\)</span></li>
+<li>the last element in the first column is <span class="math inline">\(\frac{1}{2}\)</span></li>
+<li>all other elements are <span class="math inline">\(0\)</span></li>
+</ul>
+<p><a href="https://numpy.org/doc/stable/reference/generated/numpy.diag.html">tip</a></p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(4 points)
+</center>
+<p>Construct a matrix with elements as in <strong>B</strong> but the size is 100 by 100. Calculate it’s eigenvalues and eigenvectors using <a href="https://numpy.org/doc/stable/reference/generated/numpy.linalg.eig.html"><code>numpy.linalg.eig</code></a>. Draw the eigenvectors using <code>matplotlib</code>. What does the matrix represent?</p>
 </article>
 </body>
 </html>

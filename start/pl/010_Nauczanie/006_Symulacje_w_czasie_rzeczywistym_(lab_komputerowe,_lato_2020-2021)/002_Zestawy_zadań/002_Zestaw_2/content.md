@@ -6,7 +6,7 @@
 (2 punkty)
 </center>
 
-Proszę zaimplementować symulację dwu wymiarowej wersji zabawki:
+Proszę zaimplementować symulację zabawki:
 
 <center>
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bead_roller_coaster.jpg/800px-Bead_roller_coaster.jpg)](https://commons.wikimedia.org/wiki/File:Bead_roller_coaster.jpg)
@@ -14,6 +14,7 @@ Proszę zaimplementować symulację dwu wymiarowej wersji zabawki:
 
 Dla uproszczenia proszę założyć:
 
+- ograniczamy się do dwóch wymiarów przestrzennych
 - mamy tylko jeden koralik
 - mamy jedynie jeden drut
 - koralik porusza się wzdłóż drutu bez tarcia

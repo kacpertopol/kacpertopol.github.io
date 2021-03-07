@@ -7,6 +7,7 @@
   - [sample image](---ThisDir---/sample_image.png) with some useful examples
   - [line by line](---ThisDir---/set_3.pdf) guide to the script (I suggest that you read this first)
     - some comments in the guide do not apply to *Windows*
+  - [module template](---ThisDir---/module_template.py)
 
 
 <center>
@@ -21,6 +22,8 @@ Convert the script from the **Additional Materials** into a proper python module
 
 - identify which pieces of code can be bunched together into functions
 - add `if(__name__ == "__main__"):...`
+
+[tip](---ThisDir---/module_template.py)
 
 <center>
 **B**

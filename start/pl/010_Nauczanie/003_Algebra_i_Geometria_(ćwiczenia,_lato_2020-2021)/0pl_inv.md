@@ -35,6 +35,11 @@ przywołania "do tablicy" z tych zadań. Skutki przyłapania studenta / studentk
 zadeklarowanego zadania są na tyle surowe, że aż strach o tym tutaj pisać! Proszę o uczciwość. 
 Aby zaliczyć ćwiczenia należy mieć zaliczone wszystkie kolokwia oraz pozytywną ocenę z zadań.
 
+**UWAGA:** Wszędzie gdzie to tylko możliwe proszę, przed zadeklarowaniem zadania, sprawdzić wynik. Można
+wstawić rezultat do orginalnego równania, wrzucić problem w dostępne na sieci kalkulatory, spytać się
+kolegów/koleżanek czy dostali taki sam wynik, ...
+
+
 
 # [Zestawy zadań](./00pl_inv.html)
 

@@ -30,7 +30,7 @@ takie przyporządkowanie dla zbiorów:
 </center>
 
 <center>
-(1 punkt)
+(4 punkt)
 </center>
 
 Proszę zaimplementować typ danych `setHashed` reprezentujący
@@ -84,10 +84,8 @@ Można wykorzystać zadanie **A**.
 * Badając złożoność obliczeniową operacji, proszę się zastanowić jak powina
   wyglądać zależność $t(n)$ czasu wykonania problemu ($t$) od rozmiaru 
 	problemu ($n$)
-	i nanieść tą hipotezę na odpowiedni wykres.
-* Sprawdzenie złożoności obliczeniowej dla każdej z operacji może być trochę pracochłonne.
-  Kryteria zaliczenia zadań są złagodzone: wystarczy jeden wykres dla wybranej operacji.
-  Ale proszę go jednak zrobić porządnie :-)
+	i nanieść tą hipotezę na odpowiedni wykres. Wystarczy jeden wykres dla wybranej operacji
+	w danym problemie.
 * Kilka wykresów dla zadania **B** z różną liczbą "klas" albo "porcji" na które może wskazywać funkcja haszująca:
   [1](---ThisDir---/sh1.pdf), [2](---ThisDir---/sh2.pdf), [3](---ThisDir---/sh3.pdf), [4](---ThisDir---/sh4.pdf), 
   [5](---ThisDir---/sh5.pdf), [6](---ThisDir---/sh6.pdf), [7](---ThisDir---/sh7.pdf), [8](---ThisDir---/sh8.pdf), 

@@ -5,6 +5,24 @@ do zajeć:
 - Meeting ID: `864 7309 3143`
 - Passcode: `ZHA12w`
 
-Zasady oceniania pojawią się niedługo. Zadania, pytania oraz uwagi dotyczące zajęć
-prosze przesyłać na <kacper.topolnicki@uj.edu.pl>, przy czym temat wiadomości 
-powinien zawierać ciąg znaków "AISD20202021".
+Ocena z ćwiczeń będzie na podstawie ilości zdobytych punktów:
+
+| zakres punktów | ocena |  
+|----------------|-------|
+| 60 - 67        | dst   |
+| 68 - 75        | dst + |
+| 76 - 83        | db    |
+| 84 - 91        | db+   |
+| 92 -           | bdb   |
+
+Punkty będzie można otrzymywać za implementację (z naciskiem na c++):
+
+- zbioru (8 pkt), kolejki (8 pkt), grafu (14 pkt)
+- zadań związanych z tymi strukturami danych (30 pkt)
+- kolokwium dotyczącego implementacji, pseudokod, zrozumienie
+  algorytmów (40 pkt)
+
+Aby zaliczyć ćwiczenia należy uzyskać przynajmniej połowę punktów
+z implementacji struktur, przynajmniej połowę punktów z zadań
+oraz przynajmniej połowę punktów z kolokwium.
+

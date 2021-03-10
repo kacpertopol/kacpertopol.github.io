@@ -11,6 +11,7 @@ title : Zestawy zadań
 # Zawartość:
 
 * [Zestaw 1](#zestaw-1)
+* [Zestaw 2](#zestaw-2)
 
 
 
@@ -273,4 +274,77 @@ Rozwiązać w liczbach zespolonych równania
 * $z^2 + z + 5 = 0$
 * $(5 - 5 i) z^2 - (3 - 2 i) z + 1 = 0$
 * $z^4 + z^2 + 1 = 0$
+
+
+# Zestaw 2
+
+<center>
+**$\Omega$**
+</center>
+
+Proszę zrobić niedokończone zadania z poprzednich zajęć. 
+Dodatkowo proszę spróbować wykonać następujące ćwiczenia:
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+<center>
+[na podstawie zadań sugerowanych prof. Edwarda Malca]
+</center>
+
+Korzystając reprezentacji liczb zespolonych wykorzystywanej przez Hamiltona
+w postaci par liczb $(a , b)$ ($a$ nazywamy częścią rzeczywistą natomiast
+$b$ nazywamy częścią urojoną liczby zespolonej) z dodawaniem zdefiniowanym w postaci:
+
+$$(a , b) + (c , d) = (a + c , b + d)$$
+
+oraz mnożeniem zdefiniowanym w postaci:
+
+$$(a , b) (c , d) = (a c - b d , a d + b c)$$
+
+Proszę sprawdzić:
+
+* równoważność takiej reprezentacji z reprezentacją Eulera ($(a , b) \equiv a + i b$ gdzie $i$ jest jednostką urojoną)
+* przemienność mnożenia
+* łączność mnożenia względem dodawania
+
+<center>
+**B**
+</center>
+
+<center>
+(3 punkty)
+</center>
+
+Korzystając z definicji eksponenty w postaci nieskończonej sumy:
+
+$$e^{x} = \sum_{n = 0}^{\infty} \frac{1}{n!} x^{n}$$
+
+proszę pokazać, że jeżeli $\phi$ jest liczbą rzeczywistą to
+
+$$e^{i \phi} = \cos(\phi) + i \sin(\phi)$$
+
+[Wskazówka 1](http://mathworld.wolfram.com/Sine.html):
+
+$$\sin(x) = \sum_{n = 1}^{\infty} \frac{(-1)^{n-1}}{(2 n - 1)!} x^{2 n - 1}$$
+
+[Wskazówka 2](http://mathworld.wolfram.com/Cosine.html):
+
+$$\cos(x) = \sum_{n = 0}^{\infty} \frac{(-1)^{n}}{(2 n)!} x^{2 n}$$
+
+<center>
+**C**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Korzystając z wyników zadania **B** proszę policzyć $(\cos(\phi) + i \sin(\phi))^{k}$
+zakładając, że $\phi$ jest liczbą rzeczywistą.
 

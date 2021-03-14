@@ -2,7 +2,7 @@
 **Additional Materials**
 </center>
 
-- simple plotting
+- simpe de-noising, background removal
   - [script](---ThisDir---/set_3.py) with some useful examples
   - [sample image](---ThisDir---/sample_image.png) with some useful examples
   - [line by line](---ThisDir---/set_3.pdf) guide to the script (I suggest that you read this first)

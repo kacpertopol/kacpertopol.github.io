@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkFromCode -i set_4.py -o set_4.md
+pandoc set_4.md -o set_4.pdf

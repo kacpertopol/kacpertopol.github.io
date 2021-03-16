@@ -271,7 +271,7 @@ Można wykorzystać zadanie **A**.
 </center>
 
 <center>
-(1 punkt)
+(2 punkt)
 </center>
 
 Proszę zaimplementować typ `priorotyQueue` będący oparty na matematycznym zbiorze
@@ -296,7 +296,7 @@ zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmn
 </center>
 
 <center>
-(1 punkt)
+(4 punkt)
 </center>
 
 Proszę zaimplementować kolejkę priorytetową `priorityQueueBinary` z operacjami jak w zadaniu **A**

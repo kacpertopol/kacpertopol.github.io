@@ -296,7 +296,7 @@ zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmn
 </center>
 
 <center>
-(4 punkt)
+(6 punkt)
 </center>
 
 Proszę zaimplementować kolejkę priorytetową `priorityQueueBinary` z operacjami jak w zadaniu **A**

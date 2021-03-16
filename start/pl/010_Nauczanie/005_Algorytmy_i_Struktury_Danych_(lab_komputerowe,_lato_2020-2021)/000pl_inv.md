@@ -17,6 +17,10 @@ title : AISD
 
 # Organizacja
 
+<center>
+**ZOOM ORAZ OCENIANIE**
+</center>
+
 Zajęcia będa się odbywać z wykorzystaniem ZOOM. Poniżej znajdują się dane potrzebne do dołączenia
 do zajeć:
 
@@ -59,6 +63,19 @@ UWAGA: jeżeli pod koniec semestru braknie czasu na zaliczenie zadań
 to zadania ... nie zostaną zaliczone. W związku z tym proszę oddawać 
 zadania w miarę regularnie. 
 
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [podręcznik online 1](https://www.programiz.com/dsa/algorithm)
+- [podręcznik online 2](https://bradfieldcs.com/algos/)
+- [rysowanie grafów](https://www.graphviz.org/pdf/dotguide.pdf)
+
+<center>
+**LITERATURA**
+</center>
+
+- [Data Structures and Algorithms, Avo, Hopcroft, Ullman](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)
 
 
 # [Zestawy zadań](./0000pl_inv.html)

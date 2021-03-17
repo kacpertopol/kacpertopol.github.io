@@ -1,4 +1,10 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EZfsVS-ujZ5DnS2gOa6e9SUBTYidF9H7wj735y1mYRuMpQ?e=SdLNlB) z zajęć w środę
+
+<center>
 **$\Omega$**
 </center>
 

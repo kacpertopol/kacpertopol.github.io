@@ -3,6 +3,8 @@
 </center>
 
 - [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EZfsVS-ujZ5DnS2gOa6e9SUBTYidF9H7wj735y1mYRuMpQ?e=SdLNlB) z zajęć w środę
+  - UWAGA: w nagraniu jest kolizja oznaczeń przyrysowaniu pierwiastków na płaszczyźnie zespolonej. Pierwiastki $\sqrt[3]{z} = x$
+    są na rysunku oznaczane jako $z_{0} , z_{1} , z_{2}$ a powinny być raczej $x_{0} , x_{1} , x_{2}$.
 
 <center>
 **$\Omega$**

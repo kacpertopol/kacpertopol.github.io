@@ -142,6 +142,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="#set-2-1-iii-2021">Set 2 (1 III 2021)</a></li>
 <li><a href="#set-3-8-iii-2021">Set 3 (8 III 2021)</a></li>
 <li><a href="#set-4-15-iii-2021">Set 4 (15 III 2021)</a></li>
+<li><a href="#set-5-22-iii-2021">Set 5 (22 III 2021)</a></li>
 </ul>
 <h1 id="set-1-25-i-2021">Set 1 (25 I 2021)</h1>
 <center>
@@ -387,6 +388,42 @@ f(x) = \frac{1}{\pi (1 + x^{2})}
 (3 points)
 </center>
 <p>Extract floating point numbers from the texts of the articles in <strong>B</strong>. Use this data to test <a href="https://en.wikipedia.org/wiki/Benford%27s_law">Benford’s Law</a></p>
+<h1 id="set-5-22-iii-2021">Set 5 (22 III 2021)</h1>
+<p><em>IMPORTANT: This set is ment for students familiar with python. Points from these exercises will not be taken into account when estimating the grading curve. They will only be added to your point total only if you obtained enough points from the other sets.</em></p>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 point)
+</center>
+<p>Using the publication texts from the previous set:</p>
+<ul>
+<li>compile a list of distinct characters in these texts (this includes the various types of whitespaces) and calculate the frequency with which these characters appear in the text</li>
+<li>truncate the text so that it’s length would be a multiple of 2 and compile a list of distinct character pairs, calculate their frequency in the text</li>
+<li>truncate the text so that it’s length would be a multiple of 3 and compile a list of distinct character triplets, calculate their frequency in the text</li>
+</ul>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Compile the same type of data as in <strong>A</strong> but this time using python code for the text. You can use the sample scripts from the previous sets, but since they contain a lot of natural language it would be better to grab code from <a href="https://github.com/search?l=&amp;o=desc&amp;q=language%3APython&amp;s=stars&amp;type=Repositories">online repositories</a>.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(3 points)
+</center>
+<p>Use the results of <strong>A</strong> and <strong>B</strong> to calculate the <a href="https://en.wikipedia.org/wiki/Entropy_(information_theory)">Shanon entropy</a> of these texts</p>
+<p><span class="math display">\[H(X) = - \sum_{i = 1}^{N} P(x_{i}) log_{2}(P(x_{i}))\]</span></p>
+<p>where <span class="math inline">\(X\)</span> is a random variable whose <span class="math inline">\(N\)</span> possible values <span class="math inline">\(x_{i}\)</span> are distributed with probability <span class="math inline">\(P(x_{i})\)</span> and</p>
+<ul>
+<li><span class="math inline">\(x_{i}\)</span> are distinct single characters</li>
+<li><span class="math inline">\(x_{i}\)</span> are distinct character pairs</li>
+<li><span class="math inline">\(x_{i}\)</span> are distinct character triplets</li>
+</ul>
+<p>Discuss the result.</p>
 </article>
 </body>
 </html>

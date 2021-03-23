@@ -13,6 +13,7 @@ title : Zestawy zadań
 * [Zestaw 1](#zestaw-1)
 * [Zestaw 2](#zestaw-2)
 * [Zestaw 3](#zestaw-3)
+* [Zestaw 4](#zestaw-4)
 
 
 
@@ -314,4 +315,32 @@ zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmn
   jeżeli pewne warunki są spełnione. Jakie to warunki?
   * Wskazówka: $\equiv$, $\lt$, $\gt$
 
+
+
+# Zestaw 4
+
+<center>
+**A** 
+</center>
+
+<center>
+(4 punkt)
+</center>
+
+Proszę zaimplementować ADT graph, który dla grafu $G$ oraz wierzchołków $x$, $y$ ma implementacje 
+następujących operacji:
+
+* $\text{adjacent}(G , x , y)$ - sprawdzanie, czy istnieje krawędź pomiędzy $x$ oraz $y$
+* $\text{neighbours}(G , x)$ - zwracja sąsiadów $x$
+* $\text{addVertex}(G , x)$ - dodaje $x$ do $G$
+* $\text{removeVertex}(G , x)$ - usuwa $x$ z $G$
+* $\text{addEdge}(G , x , y)$ - dodaje krawędź pomiędzy $x$ i $y$
+* $\text{removeEdge}(G , x , y)$ - usuwa krawędź pomiędzy $x$ i $y$
+* $\text{getVertexValue}(G , x)$ - zwraca wartość skojarzoną z $x$
+* $\text{setVertexValue}(G , x , v)$ - kojarzy vartość $v$ z wierchołkiem $x$
+* $\text{getEdgeValue}(G , x , y)$ - zwraca wartość skojarzoną z krawędzią pomiędzy $x$ oraz $y$
+* $\text{setEdgeValue}(G , x , y , v)$ - kojarzy vartość $v$ z krawędzią pomiędzy $x$ oraz $y$
+
+Państwa implementację proszę, na początek, oprzeć ma macierzy połączeń. Dodatkowo proszę zbadać złożoność 
+jednej wybranej operacji (wykres oraz opis).
 

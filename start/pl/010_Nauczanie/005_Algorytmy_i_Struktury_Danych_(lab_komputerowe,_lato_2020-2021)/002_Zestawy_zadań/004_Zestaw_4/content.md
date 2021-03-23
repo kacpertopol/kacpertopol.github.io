@@ -3,7 +3,7 @@
 </center>
 
 <center>
-(1 punkt)
+(4 punkt)
 </center>
 
 Proszę zaimplementować ADT graph, który dla grafu $G$ oraz wierzchołków $x$, $y$ ma implementacje 

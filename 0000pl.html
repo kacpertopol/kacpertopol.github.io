@@ -76,6 +76,7 @@ SOFTWARE.
 <li><a href="#zestaw-1">Zestaw 1</a></li>
 <li><a href="#zestaw-2">Zestaw 2</a></li>
 <li><a href="#zestaw-3">Zestaw 3</a></li>
+<li><a href="#zestaw-4">Zestaw 4</a></li>
 </ul>
 <h1 id="zestaw-1">Zestaw 1</h1>
 <center>
@@ -259,6 +260,27 @@ SOFTWARE.
 <li>Wskazówka: <span class="math inline">\(\equiv\)</span>, <span class="math inline">\(\lt\)</span>, <span class="math inline">\(\gt\)</span></li>
 </ul></li>
 </ul>
+<h1 id="zestaw-4">Zestaw 4</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(4 punkt)
+</center>
+<p>Proszę zaimplementować ADT graph, który dla grafu <span class="math inline">\(G\)</span> oraz wierzchołków <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span> ma implementacje następujących operacji:</p>
+<ul>
+<li><span class="math inline">\(\text{adjacent}(G , x , y)\)</span> - sprawdzanie, czy istnieje krawędź pomiędzy <span class="math inline">\(x\)</span> oraz <span class="math inline">\(y\)</span></li>
+<li><span class="math inline">\(\text{neighbours}(G , x)\)</span> - zwracja sąsiadów <span class="math inline">\(x\)</span></li>
+<li><span class="math inline">\(\text{addVertex}(G , x)\)</span> - dodaje <span class="math inline">\(x\)</span> do <span class="math inline">\(G\)</span></li>
+<li><span class="math inline">\(\text{removeVertex}(G , x)\)</span> - usuwa <span class="math inline">\(x\)</span> z <span class="math inline">\(G\)</span></li>
+<li><span class="math inline">\(\text{addEdge}(G , x , y)\)</span> - dodaje krawędź pomiędzy <span class="math inline">\(x\)</span> i <span class="math inline">\(y\)</span></li>
+<li><span class="math inline">\(\text{removeEdge}(G , x , y)\)</span> - usuwa krawędź pomiędzy <span class="math inline">\(x\)</span> i <span class="math inline">\(y\)</span></li>
+<li><span class="math inline">\(\text{getVertexValue}(G , x)\)</span> - zwraca wartość skojarzoną z <span class="math inline">\(x\)</span></li>
+<li><span class="math inline">\(\text{setVertexValue}(G , x , v)\)</span> - kojarzy vartość <span class="math inline">\(v\)</span> z wierchołkiem <span class="math inline">\(x\)</span></li>
+<li><span class="math inline">\(\text{getEdgeValue}(G , x , y)\)</span> - zwraca wartość skojarzoną z krawędzią pomiędzy <span class="math inline">\(x\)</span> oraz <span class="math inline">\(y\)</span></li>
+<li><span class="math inline">\(\text{setEdgeValue}(G , x , y , v)\)</span> - kojarzy vartość <span class="math inline">\(v\)</span> z krawędzią pomiędzy <span class="math inline">\(x\)</span> oraz <span class="math inline">\(y\)</span></li>
+</ul>
+<p>Państwa implementację proszę, na początek, oprzeć ma macierzy połączeń. Dodatkowo proszę zbadać złożoność jednej wybranej operacji (wykres oraz opis).</p>
 </article>
 </body>
 </html>

@@ -5,7 +5,8 @@
 - [notebook Mathematici](---ThisDir---/wire.nb) z przykładem
   - wystarczy uruchomić "Evaluate Notebook"
   - proszę zwrócić uwagę na komentarze
-- koralik poruszający się po drucie gdy krok czasowy jest odpowiednio mały:
+- koralik poruszający się po drucie gdy krok czasowy jest odpowiednio mały 
+  (ciekawsza jest sytuacja w której rozwiązanie numeryczne eksploduje):
 
 <center>
 ![](---ThisDir---/wire_ok.gif)

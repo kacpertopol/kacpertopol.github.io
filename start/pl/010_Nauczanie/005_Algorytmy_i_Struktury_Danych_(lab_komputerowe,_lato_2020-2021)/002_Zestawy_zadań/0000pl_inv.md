@@ -14,6 +14,7 @@ title : Zestawy zadań
 * [Zestaw 2](#zestaw-2)
 * [Zestaw 3](#zestaw-3)
 * [Zestaw 4](#zestaw-4)
+* [Zestaw 5](#zestaw-5)
 
 
 
@@ -343,4 +344,13 @@ następujących operacji:
 
 Państwa implementację proszę, na początek, oprzeć ma macierzy połączeń. Dodatkowo proszę zbadać złożoność 
 jednej wybranej operacji (wykres oraz opis).
+
+
+# Zestaw 5
+
+<center>
+**$\Omega$** 
+</center>
+
+Proszę dokończyć zadania z poprzednich zestawów.
 

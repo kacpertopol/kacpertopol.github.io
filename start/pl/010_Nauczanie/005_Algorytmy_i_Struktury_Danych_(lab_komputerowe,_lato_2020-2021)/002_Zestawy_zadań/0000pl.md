@@ -353,7 +353,7 @@ jednej wybranej operacji (wykres oraz opis).
 </center>
 
 <center>
-(1 punkt)
+(2 punkt)
 </center>
 
 Proszę zapoznać się z pakietem [Graphviz](https://graphviz.gitlab.io/). Następnie
@@ -371,12 +371,13 @@ $ dot -Tjpg smallGraph -o smallGraph.jpg
 
 [Tutaj](https://www.graphviz.org/pdf/dotguide.pdf) można znaleźć przewodnik po programie *dot*. 
 
+
 <center>
 **B** 
 </center>
 
 <center>
-(1 punkt)
+(2 punkt)
 </center>
 
 Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o metodę tworzącą plik,

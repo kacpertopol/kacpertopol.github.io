@@ -349,8 +349,37 @@ jednej wybranej operacji (wykres oraz opis).
 # Zestaw 5
 
 <center>
-**$\Omega$** 
+**A** 
 </center>
 
-Proszę dokończyć zadania z poprzednich zestawów.
+<center>
+(1 punkt)
+</center>
+
+Proszę zapoznać się z pakietem [Graphviz](https://graphviz.gitlab.io/). Następnie
+korzystając z programu *dot* proszę stworzyć plik *jpg* z grafem:
+
+* zawierającym trzy wierzchołki
+* zawierającym połączenia, w obydwu kierunkach, pomiędzy wszystkimi wierzchołkami
+
+Przykładowy [plik z prostrzym grafem](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/005_Zestaw_5/smallGraph) oraz [rezultat](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/005_Zestaw_5/smallGraph.jpg).
+Aby stworzyć obrazek wystarczy w linii komend uruchomić:
+
+```
+$ dot -Tjpg smallGraph -o smallGraph.jpg
+```
+
+[Tutaj](https://www.graphviz.org/pdf/dotguide.pdf) można znaleźć przewodnik po programie *dot*. 
+
+<center>
+**B** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o metodę tworzącą plik,
+który może być wykorzystany przez program *dot* do narysowania grafu.
+
 

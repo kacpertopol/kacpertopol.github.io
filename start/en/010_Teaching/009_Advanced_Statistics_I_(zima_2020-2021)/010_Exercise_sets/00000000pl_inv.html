@@ -476,7 +476,7 @@ f(x) = \frac{1}{\pi (1 + x^{2})}
 <center>
 (3 points)
 </center>
-<p>Create your own version of a function that creates a probablility plot for a given distribution. You can use the various distributions defined in th <code>scipy.stats</code> library (see the <a href="https://docs.scipy.org/doc/scipy/reference/stats.html">documentation</a>). Most of these distributions have methods that implement the precent point function (<code>ppf</code>) and and that allow you to draw random numbers from these distributions (<code>rvs</code>). As the quantile levels you can use: <span class="math inline">\(\frac{1}{N+1}, \frac{2}{N+1}, \ldots, \frac{N}{N+1}\)</span> where <span class="math inline">\(N\)</span> is the sample size.</p>
+<p>Create your own version of a function that creates a probablility plot for a given distribution. You can use the various distributions defined in th <code>scipy.stats</code> library (see the <a href="https://docs.scipy.org/doc/scipy/reference/stats.html">documentation</a>). Most of these distributions have methods that implement the precent point function (<code>ppf</code>) and and that allow you to draw random numbers from these distributions (<code>rvs</code>). As the quantile levels you can use: <span class="math inline">\(\frac{1}{N+1}, \frac{2}{N+1}, \ldots, \frac{N}{N+1}\)</span> where <span class="math inline">\(N\)</span> is the sample size. As theoretical quantiles these for N(0,1) or N(a,b) should be used, where a and b are sample estimators of expectation value and variance, respectively.</p>
 <p>The input to your function should be:</p>
 <ul>
 <li>a list with data</li>
@@ -489,7 +489,7 @@ f(x) = \frac{1}{\pi (1 + x^{2})}
 <center>
 (2 points)
 </center>
-<p>Using <strong>D</strong> compare probability plots and r-values between your implementation and <code>stats.probplot</code>. Use data sampled directly from <span class="math inline">\(N(0 , 1)\)</span> and sample sizes equal to <span class="math inline">\(6 , 15 , 50 , 200\)</span>. Discuss the difference between the r-values.</p>
+<p>Using <strong>D</strong> compare probability plots and r-values between your implementation and <code>stats.probplot</code>. Use data sampled directly from <span class="math inline">\(N(0 , 1)\)</span> and sample sizes equal to <span class="math inline">\(6 , 15 , 30, 50 , 200\)</span>. Discuss the difference between the r-values.</p>
 <center>
 <strong>F</strong>
 </center>
@@ -501,8 +501,8 @@ f(x) = \frac{1}{\pi (1 + x^{2})}
 <li>uniform distribution in the range <span class="math inline">\((-0.8 , 0.8)\)</span></li>
 <li>uniform distribution in the range <span class="math inline">\((-3 , 3)\)</span></li>
 <li>uniform distribution in the range <span class="math inline">\((-15 , 15)\)</span></li>
-<li>t student’s distribution with 3 degrees of freedom</li>
-<li>t student’s distribution with 20 degrees of freedom</li>
+<li>t-Student distribution with 3 degrees of freedom</li>
+<li>t-Student distribution with 20 degrees of freedom</li>
 <li>Weibull distribution with <span class="math inline">\(a = 8.9\)</span> (shape parameter), <span class="math inline">\(b = 1.5\)</span> (scale parameter)</li>
 <li>Weibull distribution with <span class="math inline">\(a = 1.5\)</span> (shape parameter), <span class="math inline">\(b = 5\)</span> (scale parameter)</li>
 <li>a combination of two normal distributions <span class="math inline">\(N(-a , b)\)</span>, <span class="math inline">\(N(k_{1} a , k_{2} b)\)</span> (the sample sizes should be around <span class="math inline">\(30\)</span> for each normal distribution and, initially, <span class="math inline">\(a = 2\)</span>, <span class="math inline">\(b = 1\)</span>, <span class="math inline">\(k_{1} = k_{2} = 1\)</span>)</li>

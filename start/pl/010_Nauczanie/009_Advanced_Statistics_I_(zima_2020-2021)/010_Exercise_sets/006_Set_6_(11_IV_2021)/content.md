@@ -66,7 +66,8 @@ defined in th `scipy.stats` library
 Most of these distributions have methods that implement the precent point function
 (`ppf`) and and that allow you to draw random numbers from these distributions (`rvs`).
 As the quantile levels you can use: $\frac{1}{N+1}, \frac{2}{N+1}, \ldots, \frac{N}{N+1}$
-where $N$ is the sample size.
+where $N$ is the sample size. As theoretical quantiles these for N(0,1) or N(a,b) should be used, where a and b are sample estimators
+of expectation value and variance, respectively.
 
 The input to your function should be:
 
@@ -87,7 +88,7 @@ Additionally the r-value should be returned.
 </center> 
 
 Using **D** compare probability plots and r-values between your implementation and `stats.probplot`.
-Use data sampled directly from $N(0 , 1)$ and sample sizes equal to $6 , 15 , 50 , 200$. 
+Use data sampled directly from $N(0 , 1)$ and sample sizes equal to $6 , 15 , 30, 50 , 200$. 
 Discuss the difference between the r-values.
 
 <center>
@@ -103,8 +104,8 @@ Using `stats.probplot`, investigate the probobility plots for the following dist
 - uniform distribution in the range $(-0.8 , 0.8)$
 - uniform distribution in the range $(-3 , 3)$
 - uniform distribution in the range $(-15 , 15)$
-- t student's distribution with 3 degrees of freedom
-- t student's distribution with 20 degrees of freedom
+- t-Student distribution with 3 degrees of freedom
+- t-Student distribution with 20 degrees of freedom
 - Weibull distribution with $a = 8.9$ (shape parameter), $b = 1.5$ (scale parameter)
 - Weibull distribution with $a = 1.5$ (shape parameter), $b = 5$ (scale parameter)
 - a combination of two normal distributions $N(-a , b)$, $N(k_{1} a , k_{2} b)$ 

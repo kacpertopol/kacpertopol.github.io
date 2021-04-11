@@ -1,8 +1,4 @@
 <center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-<center>
 **A** 
 </center>
 
@@ -12,7 +8,7 @@
 
 Zadania z koralikiem wymagały zaimplementowania skomplikowanego systemu pozwalającego
 na łączenie ze sobą segmentów drutu i odpowiednich metod pozwalających między innymi
-na umiejscowienie koralika w odpowiednim miejsu odpowiedniego segmentu. 
+na umiejscowienie koralika w odpowiednim miejscu odpowiedniego segmentu. 
 W tym zadaniu, korzystając z wyników poprzednich zadań ([wax on, wax off](https://youtu.be/SMCsXl9SGgY)),
 będzie można dramatycznie uprościć całą zabawę i zapomnieć o druciku. 
 
@@ -32,7 +28,7 @@ oraz pewne położenie początkowe:
 $$
 \vec{r}(0) = (x_{0} , y_{0})
 $$
-Zamiast wiązać koralik z położeniem wzdłóż drutu będziemy rozwiązywać równanie różniczkowe:
+Zamiast wiązać koralik z położeniem wzdłuż drutu będziemy rozwiązywać równanie różniczkowe:
 $$
 \ddot{\vec{r}}(t) = \frac{\vec{F}(t)}{m} 
 $$

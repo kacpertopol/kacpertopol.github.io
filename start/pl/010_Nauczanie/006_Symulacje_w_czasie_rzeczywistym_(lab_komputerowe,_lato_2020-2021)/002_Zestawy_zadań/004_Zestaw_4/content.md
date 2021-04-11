@@ -10,7 +10,7 @@
 
 <center>
 ![](---ThisDir---/wire_ok.gif)
-<center>
+</center>
 
 <center>
 **A** 

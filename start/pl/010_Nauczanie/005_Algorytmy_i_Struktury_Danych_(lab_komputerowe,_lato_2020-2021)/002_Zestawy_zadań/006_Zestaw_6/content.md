@@ -3,7 +3,7 @@
 </center>
 
 <center>
-(1 punkt)
+(6 punkt)
 </center>
 
 Proszę zaimplementować ADT graph, posiadający wszystkie operacje z zadania **A** w zestawie 4.
@@ -16,7 +16,7 @@ z zadaniem **A** zestawu 4.
 </center>
 
 <center>
-(1 punkt)
+(2 punkt)
 </center>
 
 <center>
@@ -45,7 +45,7 @@ Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wile
 </center>
 
 <center>
-(1 punkt)
+(3 punkt)
 </center>
 
 <center>

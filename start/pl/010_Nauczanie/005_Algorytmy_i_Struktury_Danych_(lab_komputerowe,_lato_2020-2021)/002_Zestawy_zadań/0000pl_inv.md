@@ -406,7 +406,7 @@ z zadaniem **A** zestawu 4.
 </center>
 
 <center>
-(2 punkt)
+(3 punkt)
 </center>
 
 <center>

@@ -990,13 +990,6 @@ Znak $^{T}$ oznacza operację transponowania.
 # Zestaw 7
 
 <center>
-**$\Omega$**
-</center>
-
-Proszę zrobić niedokończone zadania z poprzednich zajęć. 
-Dodatkowo proszę spróbować wykonać następujące ćwiczenia:
-
-<center>
 **A**
 </center>
 

@@ -10,7 +10,7 @@ title : Exercise sets
 
 
 
-# Zawartość:
+# Content:
 
 * [Set 1 (25 I 2021)](#set-1-25-i-2021)
 * [Set 2 (1 III 2021)](#set-2-1-iii-2021)
@@ -18,6 +18,7 @@ title : Exercise sets
 * [Set 4 (15 III 2021)](#set-4-15-iii-2021)
 * [Set 5 (22 III 2021)](#set-5-22-iii-2021)
 * [Set 6 (11 IV 2021)](#set-6-11-iv-2021)
+* [Set 7 (19 IV 2021)](#set-7-19-iv-2021)
 
 
 
@@ -28,16 +29,16 @@ title : Exercise sets
 </center>
 
 - simple plotting
-  - [script](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/001_Set_1_(25_I_2021)/plots.py) with simple plots
-  - [line by line](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/001_Set_1_(25_I_2021)/plots.pdf) guide to the script (I suggest that you read this first)
+  - [script](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/001_Set_1_(25_I_2021)/plots.py) with simple plots
+  - [line by line](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/001_Set_1_(25_I_2021)/plots.pdf) guide to the script (I suggest that you read this first)
     - some comments in the guide do not apply to *Windows*
 - numerical integration
-  - [script](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/001_Set_1_(25_I_2021)/integrals.py)
-  - [line by line](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/001_Set_1_(25_I_2021)/integrals.pdf) guide to the script (I suggest that you read this first)
+  - [script](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/001_Set_1_(25_I_2021)/integrals.py)
+  - [line by line](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/001_Set_1_(25_I_2021)/integrals.pdf) guide to the script (I suggest that you read this first)
     - some comments in the guide do not apply to *Windows*
 - `csv` import and export
-  - [script](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/001_Set_1_(25_I_2021)/numpycsv.py)
-  - [line by line](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/001_Set_1_(25_I_2021)/numpycsv.pdf) guide to the script (I suggest that you read this first)
+  - [script](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/001_Set_1_(25_I_2021)/numpycsv.py)
+  - [line by line](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/001_Set_1_(25_I_2021)/numpycsv.pdf) guide to the script (I suggest that you read this first)
     - some comments in the guide do not apply to *Windows*
 - additional links
   - [official python 3 tutorial](https://docs.python.org/3/tutorial/)
@@ -67,7 +68,7 @@ and install the *SciPy* python ecosystem.
 (1 point)
 </center>
 
-Download the [basic script](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/001_Set_1_(25_I_2021)/basic_example.py).
+Download the [basic script](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/001_Set_1_(25_I_2021)/basic_example.py).
 Run this script using one of the two following methods:
 
 - navigate to the script directory in the terminal (command line) and run `python basic_example.py`
@@ -83,7 +84,7 @@ You can also try and use `ipython` to execute commands from this script one by o
 (3 points)
 </center>
 
-Download the [more complicated example](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/001_Set_1_(25_I_2021)/more_complex_example.zip).
+Download the [more complicated example](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/001_Set_1_(25_I_2021)/more_complex_example.zip).
 Unpack this directory, carefully read the *README.pdf* file and try running the *compress.py*
 script.
 
@@ -110,8 +111,8 @@ $\int_{0}^{\sqrt{2 \pi}} f(x) dx$ using *SciPy*.
 </center>
 
 - simple plotting
-  - [script](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/002_Set_2_(1_III_2021)/set_2.py) with some usefull examples
-  - [line by line](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/002_Set_2_(1_III_2021)/set_2.pdf) guide to the script (I suggest that you read this first)
+  - [script](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/002_Set_2_(1_III_2021)/set_2.py) with some usefull examples
+  - [line by line](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/002_Set_2_(1_III_2021)/set_2.pdf) guide to the script (I suggest that you read this first)
     - some comments in the guide do not apply to *Windows*
 
 
@@ -232,11 +233,11 @@ and the return type of the function is a character string with the appropriately
 </center>
 
 - simpe de-noising, background removal
-  - [script](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/003_Set_3_(8_III_2021)/set_3.py) with some useful examples
-  - [sample image](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/003_Set_3_(8_III_2021)/sample_image.png) with some useful examples
-  - [line by line](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/003_Set_3_(8_III_2021)/set_3.pdf) guide to the script (I suggest that you read this first)
+  - [script](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/003_Set_3_(8_III_2021)/set_3.py) with some useful examples
+  - [sample image](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/003_Set_3_(8_III_2021)/sample_image.png) with some useful examples
+  - [line by line](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/003_Set_3_(8_III_2021)/set_3.pdf) guide to the script (I suggest that you read this first)
     - some comments in the guide do not apply to *Windows*
-  - [module template](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/003_Set_3_(8_III_2021)/module_template.py)
+  - [module template](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/003_Set_3_(8_III_2021)/module_template.py)
 
 
 <center>
@@ -252,7 +253,7 @@ Convert the script from the **Additional Materials** into a proper python module
 - identify which pieces of code can be bunched together into functions
 - add `if(__name__ == "__main__"):...`
 
-[tip](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/003_Set_3_(8_III_2021)/module_template.py)
+[tip](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/003_Set_3_(8_III_2021)/module_template.py)
 
 <center>
 **B**
@@ -298,8 +299,8 @@ only if you obtained enough points from the other sets.*
 </center>
 
 - regular expressions
-  - [script](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/004_Set_4_(15_III_2021)/set_4.py) with a simple example
-  - [line by line](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/004_Set_4_(15_III_2021)/set_4.pdf) guide to the script
+  - [script](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/004_Set_4_(15_III_2021)/set_4.py) with a simple example
+  - [line by line](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/004_Set_4_(15_III_2021)/set_4.pdf) guide to the script
 
 <center>
 **A**
@@ -309,7 +310,7 @@ only if you obtained enough points from the other sets.*
 (3 point)
 </center>
 
-Have a look at the [script from the previous set](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/004_Set_4_(15_III_2021)/../003_Set_3_(8_III_2021)/set_3.py)
+Have a look at the [script from the previous set](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/004_Set_4_(15_III_2021)/../003_Set_3_(8_III_2021)/set_3.py)
 and try to improve it:
 
 - Separating the text from the background (signal from the noise) assumes that the pixel
@@ -410,8 +411,8 @@ Discuss the result.
 
 - sample script with statistical tests for checking if
   data is sampled from a normal distribution
-  - [script](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/006_Set_6_(11_IV_2021)/set_5.py) with some useful examples
-  - [line by line](./start/pl/010_Nauczanie/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets/006_Set_6_(11_IV_2021)/set_5.pdf) guide to the script (I suggest that you read this first)
+  - [script](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/006_Set_6_(11_IV_2021)/set_5.py) with some useful examples
+  - [line by line](./start/en/010_Teaching/009_Advanced_Statistics_I_(zima_2020-2021)/010_Exercise_sets_(KT_RS)/006_Set_6_(11_IV_2021)/set_5.pdf) guide to the script (I suggest that you read this first)
 - a convenient way of adding a command line interface is by using the [argparse](https://docs.python.org/3/library/argparse.html)
   library
   - as a side effect this can help you document your code
@@ -522,4 +523,96 @@ Use different sample sizes as in **E**.
 
 Tip: see the [documentation](https://docs.scipy.org/doc/scipy/reference/stats.html)
 
+
+
+# Set 7 (19 IV 2021)
+
+<center>
+**A**
+</center>
+
+<center>
+(2 point)
+</center>
+
+Draw a two-sampled Q-Q plot, i.e. a plot with the horizontal axis related to sample 1, the vertical axis related to sample 2.
+The ranges of the axis are the same as the ranges of the samples.
+Each point is given by empirical quantiles, i.e. (X,Y)=(empirical quantile of order i of sample 1, empirical quantile of order i of sample 2).
+If the size of the samples is the same, plot the order of empirical quantiles i(find it as for Normal P-plot) is not important (orders will be the same for both samples)
+Just plot one sample versus another one.
+If sizes of samples are not equal, interpolate quantiles for the bigger sample to orders of quantiles obtained for smaller sample.
+
+Check how it works for:
+
+- two samples of the same size (N=10, N=50) from the same normal distribution
+- two samples of the same size (N=10, N=50) from two normal distributions which differs in EV only.
+- two samples of the same size (N=10, N=50) from two normal distributions which differs in STD only.
+- two samples of the same size (N=10, N=50) from two normal distributions which differs both in EV and STD.
+- two samples of the same size (N=10, N=50), one from normal distribution, another from uniform distribution.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 point)
+</center>
+
+Draw a two-sampled P-P plot, i.e. plot with horizontal axis related to sample 1, vertical axis related to sample 2.
+Ranges of both axes are between 0 and 1.
+Each point is given by the empirical CDF calculated as the order of the corresponding quantile (X,Y)=(order of empirical quantile of sample 1,
+order of empirical quantile of sample 2)
+If sizes of samples are not equal, suitable interpolation is needed.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 point)
+</center>
+
+Probability correlation coefficient plot
+Draw a sample S of size N=30 from a N(0, 0.25) distribution.
+Now, forget that we know the variance of that distribution.
+Find it using the probability correlation coefficient plot. To do that:
+
+- Find the correlation coefficients for Normal P-plots between sample S and theoretical distribution of N(0,v)
+  on a grid of v in a big range (0-...).
+- Next build a probability correlation coefficient plot: 
+    - on the horizontal axis put the v parameter, on the vertical - the obtained correlation coefficient.
+    - The maximum in this plot will point the estimator of v. Compare it with the true value 0.25. 
+
+<center>
+**D**
+</center>
+
+<center>
+(2 point)
+</center>
+
+<center>
+(Additional problem, do only if you solved other problems)
+</center>
+
+In
+<https://en.wikipedia.org/wiki/Tukey_lambda_distribution>
+you can find a formula for quantiles Q of the Tukey-lambda distribution. This distribution covers many other distributions depending on the value of
+its parameter $\lambda$. It can be used to recognize the type of distribution.
+As in Problem 3: Draw a sample S of size N=30 from N(0, 0.25) the distribution.
+Now, forget that we know variance of that distribution, and even the type of distribution.
+
+Find correlation coefficients for P-plots between sample S and theoretical Tukey-lambda distribution with parameter lambda
+on grid of lambda in range (-1,1).
+Next build a probability correlation coefficient plot: on horizontal axis put parameter lambda, on vertical the obtained correlation coefficient.
+The value of lambda for which maximum is observed can be interpreted as
+
+- $\lambda$ = −1 approx. Cauchy C(0,π)
+- $\lambda$ = 0 exactly logistic
+- $\lambda$ = 0.14 approx. normal N(0, 2.142)
+- $\lambda$ = 0.5 strictly concave
+- $\lambda$ = 1 exactly uniform U(−1, 1)
+- $\lambda$ = 2 exactly uniform U(−1/2, 1/2)
+
+See also "comments" section on the same web page.
 

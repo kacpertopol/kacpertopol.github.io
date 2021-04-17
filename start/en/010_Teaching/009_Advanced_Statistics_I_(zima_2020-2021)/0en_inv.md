@@ -11,7 +11,7 @@ title : Advanced Statistics I
 # Content:
 
 * [Lectures (Roman Skibiński)](#lectures-roman-skibiński)
-* [Exercise sets](./00en_inv.html)
+* [Exercise sets (KT RS)](./00en_inv.html)
 
 
 
@@ -21,6 +21,6 @@ Lecture notes and lecture recordings are available
 via MS Teams.
 
 
-# [Exercise sets](./00en_inv.html)
+# [Exercise sets (KT RS)](./00en_inv.html)
 
 

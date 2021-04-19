@@ -27,6 +27,7 @@
       podejście nie jest najlepsze
   - skrypt liczty fizykę w takim samym tempie jak rysowane są na ekranie klatki animacji (maksymalnie 60 fps)
     - zachęcam do modyfikacji skyptu w celu oddzielenia procedur liczących fizykę od procedur zajmujacych się animacją
+- [zapisywanie plików tekstowych w GODOT](https://www.reddit.com/r/godot/comments/ghxlan/save_plain_text_to_a_file/)
 
 <center>
 **A** 

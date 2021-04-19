@@ -216,6 +216,49 @@ SOFTWARE.
 <p>Proszę zbadać omawiane na wykładzie metody poprawy stabilności oraz alternatywne algorytmy w kontekście zadania <strong>A</strong>.</p>
 <h1 id="zestaw-5">Zestaw 5</h1>
 <center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a href="./start/pl/010_Nauczanie/006_Symulacje_w_czasie_rzeczywistym_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/005_Zestaw_5/race.nb">skrypt</a>
+<ul>
+<li>laboratorium do badania róźnych metod rozwiązywania równań róźniczkowych!</li>
+<li>wymagania: <code>python3</code> , <code>pygame</code></li>
+<li>podstawowe uruchomienie:
+<ul>
+<li><code>$ python3 race.py</code></li>
+<li><code>$ ./race.py</code> (linux, po nadaniu uprawnień do wykonywania, jeżeli python3 nie jest domyślną wersją należy zmienić <code>#!</code>)</li>
+</ul></li>
+<li>zapisanie inputu użytkownika (wsad) do <code>INPUT</code>:
+<ul>
+<li><code>$ ./race.py -c INPUT</code></li>
+</ul></li>
+<li>zapisanie trajektorii “dżdżownicy” do <code>STATE</code>:
+<ul>
+<li><code>$ ./race.py -t STATE</code></li>
+<li>w pliku <code>STATE</code> zapisywany jest cały stan “dżdżownicy”, nie tylko jej pozycja na ekranie</li>
+</ul></li>
+<li>input (wsad) czytany z pliku <code>INPUT</code> zamiast z klawiatury:
+<ul>
+<li><code>$ ./race.py -p INPUT</code></li>
+</ul></li>
+<li>ryswanie trajektorii zapisanej w <code>STATE</code>:
+<ul>
+<li><code>$ ./race.py -d STATE</code></li>
+</ul></li>
+<li>więcej informacji:
+<ul>
+<li><code>$ ./race.py -h</code></li>
+</ul></li>
+<li>aby zbadać swoją wersją “dżdżownicy” wystarczy w skrypcie dostarczyc własną wersję <code>updateState</code>:
+<ul>
+<li>argumentem jest stan “dżdżownicy”, krok czasowy oraz lista aktualnie naciśniętych klawiszy (wsad)</li>
+<li>wartością zwracaną jest nowy stan po kroku czasowym</li>
+<li>więcej szczegółów w komentarzach skryptu</li>
+<li>zachęcam do majstrowania i wypróbowywania różych metod całkowania równania różniczkowego, aktualne podejście nie jest najlepsze</li>
+</ul></li>
+</ul></li>
+</ul>
+<center>
 <strong>A</strong>
 </center>
 <center>

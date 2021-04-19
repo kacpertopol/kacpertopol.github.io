@@ -1,4 +1,32 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [skrypt](---ThisDir---/race.nb)
+  - laboratorium do badania róźnych metod rozwiązywania równań róźniczkowych!
+  - wymagania: `python3` , `pygame`
+  - podstawowe uruchomienie:
+    - `$ python3 race.py`
+	- `$ ./race.py` (linux, po nadaniu uprawnień do wykonywania, jeżeli python3 nie jest domyślną wersją należy zmienić `#!`)
+  - zapisanie inputu użytkownika (wsad) do `INPUT`:
+    - `$ ./race.py -c INPUT`
+  - zapisanie trajektorii "dżdżownicy" do `STATE`:
+    - `$ ./race.py -t STATE`
+	- w pliku `STATE` zapisywany jest cały stan "dżdżownicy", nie tylko jej pozycja na ekranie
+  - input (wsad) czytany z pliku `INPUT` zamiast z klawiatury:
+    - `$ ./race.py -p INPUT`
+  - ryswanie trajektorii zapisanej w `STATE`:
+    - `$ ./race.py -d STATE`
+  - więcej informacji:
+    - `$ ./race.py -h`
+  - aby zbadać swoją wersją "dżdżownicy" wystarczy w skrypcie dostarczyc własną wersję `updateState`:
+    - argumentem jest stan "dżdżownicy", krok czasowy oraz lista aktualnie naciśniętych klawiszy (wsad)
+	- wartością zwracaną jest nowy stan po kroku czasowym
+	- więcej szczegółów w komentarzach skryptu
+	- zachęcam do majstrowania i wypróbowywania różych metod całkowania równania różniczkowego, aktualne
+      podejście nie jest najlepsze
+
+<center>
 **A** 
 </center>
 

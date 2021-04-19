@@ -2,8 +2,8 @@
 **MATERIAŁY DODATKOWE**
 </center>
 
-- [skrypt](---ThisDir---/race.nb)
-  - laboratorium do badania róźnych metod rozwiązywania równań róźniczkowych!
+- laboratorium do badania róźnych metod rozwiązywania równań róźniczkowych!
+  - [skrypt](---ThisDir---/race.nb)
   - wymagania: `python3` , `pygame`
   - podstawowe uruchomienie:
     - `$ python3 race.py`

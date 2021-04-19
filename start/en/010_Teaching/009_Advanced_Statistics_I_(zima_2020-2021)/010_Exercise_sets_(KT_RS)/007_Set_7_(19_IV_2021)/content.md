@@ -1,4 +1,14 @@
 <center>
+**ADDITIONAL MATERIALS**
+</center>
+
+Interpolation using `scipy`:
+
+- [1D interpolation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.interp1d.html#scipy.interpolate.interp1d)
+  - see the code examples in the link
+- [2D interpolation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.interp2d.html#scipy.interpolate.interp2d) (for future reference)
+
+<center>
 **A**
 </center>
 

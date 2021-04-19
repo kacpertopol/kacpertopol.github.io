@@ -3,7 +3,7 @@
 </center>
 
 - laboratorium do badania róźnych metod rozwiązywania równań róźniczkowych!
-  - [skrypt](---ThisDir---/race.nb)
+  - [skrypt](---ThisDir---/race.py)
   - wymagania: `python3` , `pygame`
   - podstawowe uruchomienie:
     - `$ python3 race.py`

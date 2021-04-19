@@ -416,6 +416,8 @@ Discuss the result.
 - a convenient way of adding a command line interface is by using the [argparse](https://docs.python.org/3/library/argparse.html)
   library
   - as a side effect this can help you document your code
+- tip vrom V.U:
+  - you can skip the creation of the temporary file by using the `pandas.read_csv` metod directly applied to a URL
 
 <center>
 **A**

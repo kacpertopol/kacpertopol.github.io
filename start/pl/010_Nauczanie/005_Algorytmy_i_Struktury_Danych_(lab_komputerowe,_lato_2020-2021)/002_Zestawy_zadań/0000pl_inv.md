@@ -16,6 +16,7 @@ title : Zestawy zadań
 * [Zestaw 4](#zestaw-4)
 * [Zestaw 5](#zestaw-5)
 * [Zestaw 6](#zestaw-6)
+* [Zestaw 7](#zestaw-7)
 
 
 
@@ -446,5 +447,31 @@ Na szachownicy, na określonej pozycji, znajduje się pojedyncza figura  - skocz
 taką trasę skoczka po szachownicy, aby każde pole było odwiedzone jedynie raz. Można wykorzystać jedną
 z wcześniej zaimplementowanych przez Państwa reprezentacji grafu lub skorzystać z gotowych bibliotek.
 Państwa wynik końcowy proszę przedstawić w formie rysunku.
+
+
+
+# Zestaw 7
+
+<center>
+**A** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+<center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+Korzystając wyników zadania **B** z poprzedniego zestawu, proszę napisać
+program minimalizujący liczbę "faz" sygnalizacji świetlnej dla skrzyżowania:
+
+<center>
+[![](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/007_Zestaw_7/ul.jpg)](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)
+</center>
+
+Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406).
+
 
 

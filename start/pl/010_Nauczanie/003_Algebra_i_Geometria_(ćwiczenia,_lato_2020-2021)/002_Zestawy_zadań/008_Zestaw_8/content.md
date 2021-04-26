@@ -36,8 +36,8 @@ Dane są macierze kwadrawowe $A$ i $B$ o tej samej liczbie wierszy
 i kolumn. Wyznacznik macierzy $A$ jest równy $2$, natomiast 
 $det(B) = 4$. Policzyć:
 
-* $det(B^{T})$
-* $det(A^{-1} B^{3})$
+- $det(B^{T})$
+- $det(A^{-1} B^{3})$
 
 <center>
 **C**
@@ -68,11 +68,10 @@ $$f(t) = a + b t + c t^{2} + d t^{3}$$
 [zadania sugerowane prof. Edwarda Malca]
 </center>
 
-* Czy funkcje $sin(t)$, $cos(t)$ ($0 \leq t \lt 2 \pi$) są liniowo niezależne?
+- Czy funkcje $sin(t)$, $cos(t)$ ($0 \leq t \lt 2 \pi$) są liniowo niezależne?
   Czy ogół kombinacji liniowych tych funkcji, wyposażony w zwykłe operacje dodawania
 	i mnożenia przez liczny rzeczywiste tworzy przestrzeń liniową?
-
-* Czy wektory $(0 , 0)$ i $(1 , 0)$ są liniowo niezależne?
+- Czy wektory $(0 , 0)$ i $(1 , 0)$ są liniowo niezależne?
 
 <center>
 **E**
@@ -86,14 +85,12 @@ $$f(t) = a + b t + c t^{2} + d t^{3}$$
 [zadania sugerowane prof. Edwarda Malca]
 </center>
 
-* Czy operator różniczkowania $\frac{d^{2}}{d t^{2}}$ jest operatorem 
+- Czy operator różniczkowania $\frac{d^{2}}{d t^{2}}$ jest operatorem 
   liniowym w przestrzeni wektorowej opisanej w pierwszym punkcie zadania **D**?
-
-* Znaleźć reprezentację macierzową operatora różniczkowania $A \equiv \frac{d^{2}}{d t^{2}}$
+- Znaleźć reprezentację macierzową operatora różniczkowania $A \equiv \frac{d^{2}}{d t^{2}}$
   w przestrzeni wektorowej opisanej w punkcie pierwszym zadania **D**. Przyjąć jako wektory
   bazowe $sin(t)$, $cos(t)$.
-
-* Policzyć składowe wektora $A x$, gdzie $x = 5 sin(t)$.
+- Policzyć składowe wektora $A x$, gdzie $x = 5 sin(t)$.
 
 <center>
 **F**
@@ -110,12 +107,9 @@ $$f(t) = a + b t + c t^{2} + d t^{3}$$
 Niech przestrzeń wektorowa $V$ oznacza zbiór wszystkich wielomianów 
 co najwyżej drugiego stopnia w zmiennej $t$. Niech $A = \frac{d}{d t}$.
 
-* Pokazać, że $A$ jest operatorem liniowym w $V$.
-
-* Wybrać wektory bazowe $\hat{e}_{1} = 1$, $\hat{e}_{2} = t$,
+- Pokazać, że $A$ jest operatorem liniowym w $V$.
+- Wybrać wektory bazowe $\hat{e}_{1} = 1$, $\hat{e}_{2} = t$,
   $\hat{e}_{3} = \frac{t^{2}}{2}$. Pokazać, że stanowią one bazę w $V$.
-
-* Policzyc macierz operatora $A$ w tej bazie.
-
-* Niech $x = 2 - 3 t^{2}$. Policzyć składowe wektora $A x$ w bazie określonej
+- Policzyc macierz operatora $A$ w tej bazie.
+- Niech $x = 2 - 3 t^{2}$. Policzyć składowe wektora $A x$ w bazie określonej
   w punkcie drugim.

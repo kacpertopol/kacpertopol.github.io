@@ -3,7 +3,7 @@
 </center>
 
 <center>
-(1 punkt)
+(3 punkt)
 </center>
 
 <center>

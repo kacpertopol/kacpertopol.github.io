@@ -488,20 +488,20 @@ Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wile
 </center>
 
 <center>
-[[źródło](https://bradfieldcs.com/algos/)]
+[źródło](https://bradfieldcs.com/algos/)
 </center>
 
 Bierzemy udział w grze, która ma następujęce reguły:
 
-* startuje się z czteroliterowego wyrazu w języku polskim, na przykład "ster"
+- startuje się z czteroliterowego wyrazu w języku polskim, na przykład "ster"
 
-* gra składa się z iteracji, w każdej iteracji można zmienić jedną literę czteroliterowego wyrazu
+- gra składa się z iteracji, w każdej iteracji można zmienić jedną literę czteroliterowego wyrazu
   ale pod warunkiem, że orzymane słowo istnieje w słowniku języka polskiego
 
-* gra kończy się gdy w wynku tych transformacji otrzyma się pewne, z góry ustalone słowo końcowe, 
+- gra kończy się gdy w wynku tych transformacji otrzyma się pewne, z góry ustalone słowo końcowe, 
   na przykład "atom"
 
-* wygrywa osoba, która zamieni słowo startowe na słowo końcowe za pomocą najmniejszej liczny
+- wygrywa osoba, która zamieni słowo startowe na słowo końcowe za pomocą najmniejszej liczny
   operacji
 
 Jeżeli za słowo startowe wybierze się "ster" a za końcowe "atom" gra może wyglądać następująco:
@@ -526,36 +526,36 @@ można pobrać [tutaj](https://sjp.pl/slownik/growy/).
 </center>
 
 <center>
-[[źródło](https://bradfieldcs.com/algos/)]
+[źródło](https://bradfieldcs.com/algos/)
 </center>
 
 Robimy naleśniki. Składniki są następujące:
 
-* $1$ jajko
+- $1$ jajko
 
-* $1$ łyżka oleju
+- $1$ łyżka oleju
 
-* $\frac{3}{4}$ szklanki mleka
+- $\frac{3}{4}$ szklanki mleka
 
-* $1$ szklanka proszku do naleśników
+- $1$ szklanka proszku do naleśników
 
-* syrop klonowy
+- syrop klonowy
 
-* patelnia
+- patelnia
 
 Abu zrobić naleśniki należy:
 
-* nagrzać patelnię 
+- nagrzać patelnię 
 
-* zmieszać jajko, olej, mleko i proszek do naleśników
+- zmieszać jajko, olej, mleko i proszek do naleśników
 
-* wylać część ciasta naleśnikowego na gorącą patelnię 
+- wylać część ciasta naleśnikowego na gorącą patelnię 
 
-* gdy naleśnik jest rumiany od spodu należy przewrócić i podpiec z drugiej strony
+- gdy naleśnik jest rumiany od spodu należy przewrócić i podpiec z drugiej strony
 
-* podgrzać syrop klonowy
+- podgrzać syrop klonowy
 
-* zjeść rumiany (z obydwu stron) naleśnik polany ciepłym syropem klonowym
+- zjeść rumiany (z obydwu stron) naleśnik polany ciepłym syropem klonowym
 
 Proszę zareprezentować ten proces w postaci grafu $G$. Następnie proszę napisać
 program, który na podstawie grafu $G$ decyduje o kolejności wykonywanych czynności kulinarnych.

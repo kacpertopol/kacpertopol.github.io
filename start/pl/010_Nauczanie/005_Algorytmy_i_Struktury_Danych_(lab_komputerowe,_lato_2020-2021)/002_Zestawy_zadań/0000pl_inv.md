@@ -458,7 +458,7 @@ Państwa wynik końcowy proszę przedstawić w formie rysunku.
 </center>
 
 <center>
-(1 punkt)
+(3 punkt)
 </center>
 
 <center>
@@ -484,7 +484,7 @@ Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wile
 </center>
 
 <center>
-(1 punkt)
+(3 punkt)
 </center>
 
 <center>
@@ -522,7 +522,7 @@ można pobrać [tutaj](https://sjp.pl/slownik/growy/).
 </center>
 
 <center>
-(1 punkt)
+(3 punkt)
 </center>
 
 <center>

@@ -46,3 +46,20 @@ Using run test check if two samples come from the same distribution. Use samples
 - one sample $N=15$ from $N(0,1)$, another $N=15$ from uniform distribution $[-10, 10]$
 
 In each  case print (after combinining and ordering two probes) sequences and try to guess answer before doing test.
+
+<center>
+**E**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Create a boxplot for a given sample and in one figure show
+(verticaly, side by side) five boxplots together with the sample elements drawn from:
+
+- $N(0,1)$ with size $N=8$
+- $N(0,1)$ with size $N=30$
+- Cauchy distribution ($x0=0$, $gamma=3$) with size $N=30$
+- same sample as in the first point but supplemented, by hand, with one outlier element far from rest of the sample
+- same sample as in the first point but supplemented, by hand, with group of close five outlier elements far from rest of the sample

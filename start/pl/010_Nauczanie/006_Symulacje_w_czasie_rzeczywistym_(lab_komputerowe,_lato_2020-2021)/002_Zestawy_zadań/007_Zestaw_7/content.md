@@ -11,7 +11,7 @@ konkretnym osobom do krótkiego zreferowania podczas zajęć.
 </center>
 
 <center>
-(3 punkty)
+(2 punkty)
 </center>
 
 Proszę, w ulubionym języku programowania, zaimplementować własną klasę kwaternionów.
@@ -24,18 +24,27 @@ kwaternionowej oraz macierzowej reprezentacji obrotów w trzech wymiarach.
 </center>
 
 <center>
-(3 punkty)
+(2 punkty)
 </center>
 
-Proszę, wykorzystująć reprezentację kwaternionową, zaimplementować symulację [precesji żyroskopu](https://youtu.be/XPUuF_dECVI) w postaci 
-stożka. Stożkowy żyroskop przyczepiony jest do podłoża swoim czubkiem. 
+Proszę, dowolną metodą, oszacować środek masy oraz tensor momentu bezwładności oscypka:
+
+![](---ThisDir---/oscypek.jpg)
+
+Można założyć, że gęstość $\rho$ jest w przybliżeniu równa gęstości wody.
+
+
 
 <center>
 **C** 
 </center>
 
 <center>
-(2 punkty)
+(4 punkty)
 </center>
 
-Proszę wykonać zadanie **B** ale tym razem w podejściu bez wykorzystania reprezentacji kwaternionowej. 
+Proszę zaimplementować symulację oscypka. Powinna istnieć możliwość zadania dowolnych parametrów początkowych
+oraz możliwość interaktywnego przykładania siły do jednego z czubków oscypka. Symulację proszę wykonać w dwóch 
+wersjach, przy czym jedna z nich powinna korzystać z kwaternionowej reprezentacji obrotów. 
+
+

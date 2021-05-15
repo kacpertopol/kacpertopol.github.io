@@ -633,6 +633,16 @@ See also "comments" section on the same web page.
 # Set 8 (10 V 2021)
 
 <center>
+**Additional Materials**
+</center>
+
+- Runs Test 
+  - [link 1](https://online.stat.psu.edu/stat415/book/export/html/837)
+  - [link 2](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35d.htm#:~:text=The%20runs%20test%20(Bradley%2C%201968,is%20from%20a%20random%20process.&text=In%20a%20random%20data%20set,basis%20of%20the%20runs%20test.)
+- box plot
+  - [matplotlib documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html)
+
+<center>
 **A**
 </center> 
 

@@ -12,7 +12,7 @@ Proszę napisać program badający cykliczność grafów i wykorzystać go do zb
 [Wskazówka](https://eduinf.waw.pl/inf/alg/001_search/0132.php).
 
 <center>
-**B** 
+**B**
 </center>
 
 <center>

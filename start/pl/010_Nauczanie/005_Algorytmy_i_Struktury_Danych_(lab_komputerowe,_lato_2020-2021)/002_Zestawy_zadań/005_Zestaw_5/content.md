@@ -27,7 +27,7 @@ $ dot -Tjpg smallGraph -o smallGraph.jpg
 </center>
 
 <center>
-(2 punkt)
+(3 punkt - implementacja grafu)
 </center>
 
 Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o metodę tworzącą plik,

@@ -3,7 +3,7 @@
 </center>
 
 <center>
-(6 punkt)
+(7 punkt - implementacja grafu)
 </center>
 
 Proszę zaimplementować ADT graph, posiadający wszystkie operacje z zadania **A** w zestawie 4.

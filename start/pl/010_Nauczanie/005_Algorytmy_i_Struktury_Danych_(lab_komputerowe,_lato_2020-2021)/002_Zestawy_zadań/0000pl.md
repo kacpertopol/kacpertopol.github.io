@@ -19,6 +19,7 @@ title : Zestawy zadań
 * [Zestaw 7](#zestaw-7)
 * [Zestaw 8](#zestaw-8)
 * [Zestaw 9](#zestaw-9)
+* [Zestaw 10](#zestaw-10)
 
 
 
@@ -33,7 +34,7 @@ title : Zestawy zadań
 </center>
 
 <center>
-(2 punkty)
+(2 punkty - implementacja zbioru)
 </center>
 
 Proszę zaimplementować typ danych `setSimple` reprezentujący
@@ -79,7 +80,7 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 </center>
 
 <center>
-(2 punkty)
+(2 punkty -implementacja zbioru)
 </center>
 
 Proszę zaimplementować typ danych `setLinked` reprezentujący
@@ -203,7 +204,7 @@ takie przyporządkowanie dla zbiorów:
 </center>
 
 <center>
-(4 punkt)
+(4 punkt - implementacja zbioru)
 </center>
 
 Proszę zaimplementować typ danych `setHashed` reprezentujący
@@ -277,7 +278,7 @@ Można wykorzystać zadanie **A**.
 </center>
 
 <center>
-(2 punkt)
+(2 punkt - implementacja kolejki)
 </center>
 
 Proszę zaimplementować typ `priorotyQueue` będący oparty na matematycznym zbiorze
@@ -302,7 +303,7 @@ zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmn
 </center>
 
 <center>
-(6 punkt)
+(6 punkt - implementacja kolejki)
 </center>
 
 Proszę zaimplementować kolejkę priorytetową `priorityQueueBinary` z operacjami jak w zadaniu **A**
@@ -329,7 +330,7 @@ zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmn
 </center>
 
 <center>
-(4 punkt)
+(4 punkt - implementacja grafu)
 </center>
 
 Proszę zaimplementować ADT graph, który dla grafu $G$ oraz wierzchołków $x$, $y$ ma implementacje 
@@ -381,7 +382,7 @@ $ dot -Tjpg smallGraph -o smallGraph.jpg
 </center>
 
 <center>
-(2 punkt)
+(3 punkt - implementacja grafu)
 </center>
 
 Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o metodę tworzącą plik,
@@ -396,7 +397,7 @@ który może być wykorzystany przez program *dot* do narysowania grafu.
 </center>
 
 <center>
-(6 punkt)
+(7 punkt - implementacja grafu)
 </center>
 
 Proszę zaimplementować ADT graph, posiadający wszystkie operacje z zadania **A** w zestawie 4.
@@ -587,7 +588,7 @@ na przejęcie z jednego pomieszczenia do drugiego.
 [[wskazówka](https://bradfieldcs.com/algos/)]
 
 <center>
-**B** 
+**B**
 </center>
 
 <center>
@@ -599,4 +600,47 @@ z zadania **A** proszę znaleźć najkrótszą ścieżkę z aneksu kuchennego *I
 do pokoju szefa *D*.
 
 [[wskazówka](https://bradfieldcs.com/algos/)]
+
+
+# Zestaw 10
+
+<center>
+**A** 
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Średnie czasy przejazdu samochodem pomiędzy polskimi miastami
+można odczytać z [tabelki](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/czasy) (dane pochodzą z google maps). W pierwszych
+dwóch kolumnach znajdują się miasta a w trzeciej kolumnie
+znajduje się czas przejazdu w minutach. Proszę znaleźć
+najkrótszy czas przejazdu pomiędzy wszystkimi parami miast.
+Wynik powinien być w postaci tabeli, której wiersze oraz kolumny
+odpowiadają kolejnym miastom natomiast wartości tabelki 
+odpowiadają najkrótszym czasom przejazdu.
+
+*Wskazówka*: proszę skorzystać z [algorytmu Floyda Warszalla](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm).
+
+<center>
+**B** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Korzystająć z [tabelki czasów przejazdu](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/czasy) (dane pochodzą z google maps)
+proszę znaleźć najszybszą trasę pomiędzy wszystkimi parami miast.
+Korzystając z programu *dot* (lub innego programu) oraz [tabelki ze współrzędnymi geograficznymi miast](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/positions)
+(pierwsza kolumna zawiera nazwę miasta, druga oraz trzecia kolumna zawiera współrzędne geograficzne)
+proszę zaznaczyć na grafie wszystkie miasta oraz najszybsze trasy pomiędzy parami miast (jeden rysunek
+dla każdej pary). 
+
+*Wskazówka 1*: proszę skorzystać z [algorytmu Floyda Warszalla](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm).
+
+*Wskazówka 2*: Przykładowy [plik do programu dot](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/example_dot) gdzie 
+podane są współrzędne wierzchołków. Wykonanie polecenia [[źródło](https://stackoverflow.com/questions/5343899/how-to-force-node-position-x-and-y-in-graphviz)]`dot -Kfdp -n -Tpng example_dot -o example_dot.png`
+powinno skutkować stworzeniem [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/example_dot.png).
 

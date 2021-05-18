@@ -3,7 +3,7 @@
 </center>
 
 <center>
-(2 punkt)
+(2 punkt - implementacja kolejki)
 </center>
 
 Proszę zaimplementować typ `priorotyQueue` będący oparty na matematycznym zbiorze
@@ -28,7 +28,7 @@ zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmn
 </center>
 
 <center>
-(6 punkt)
+(6 punkt - implementacja kolejki)
 </center>
 
 Proszę zaimplementować kolejkę priorytetową `priorityQueueBinary` z operacjami jak w zadaniu **A**

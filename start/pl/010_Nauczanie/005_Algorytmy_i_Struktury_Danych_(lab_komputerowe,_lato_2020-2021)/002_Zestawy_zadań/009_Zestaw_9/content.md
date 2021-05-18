@@ -18,7 +18,7 @@ na przejęcie z jednego pomieszczenia do drugiego.
 [[wskazówka](https://bradfieldcs.com/algos/)]
 
 <center>
-**B** 
+**B**
 </center>
 
 <center>

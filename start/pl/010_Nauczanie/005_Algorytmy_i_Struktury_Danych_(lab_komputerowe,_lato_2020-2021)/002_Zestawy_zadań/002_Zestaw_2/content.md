@@ -30,7 +30,7 @@ takie przyporządkowanie dla zbiorów:
 </center>
 
 <center>
-(4 punkt)
+(4 punkt - implementacja zbioru)
 </center>
 
 Proszę zaimplementować typ danych `setHashed` reprezentujący

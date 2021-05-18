@@ -7,7 +7,7 @@
 </center>
 
 <center>
-(2 punkty)
+(2 punkty - implementacja zbioru)
 </center>
 
 Proszę zaimplementować typ danych `setSimple` reprezentujący
@@ -53,7 +53,7 @@ i skonfrontować Państwa wyniki z wartościami teoretycznymi.
 </center>
 
 <center>
-(2 punkty)
+(2 punkty -implementacja zbioru)
 </center>
 
 Proszę zaimplementować typ danych `setLinked` reprezentujący

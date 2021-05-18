@@ -3,7 +3,7 @@
 </center>
 
 <center>
-(1 punkt)
+(2 punkt)
 </center>
 
 Średnie czasy przejazdu samochodem pomiędzy polskimi miastami

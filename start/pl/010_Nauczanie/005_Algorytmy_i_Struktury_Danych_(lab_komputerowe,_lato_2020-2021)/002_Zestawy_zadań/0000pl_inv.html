@@ -82,6 +82,7 @@ SOFTWARE.
 <li><a href="#zestaw-7">Zestaw 7</a></li>
 <li><a href="#zestaw-8">Zestaw 8</a></li>
 <li><a href="#zestaw-9">Zestaw 9</a></li>
+<li><a href="#zestaw-10">Zestaw 10</a></li>
 </ul>
 <h1 id="zestaw-1">Zestaw 1</h1>
 <center>
@@ -91,7 +92,7 @@ SOFTWARE.
 [<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
 </center>
 <center>
-(2 punkty)
+(2 punkty - implementacja zbioru)
 </center>
 <p>Proszę zaimplementować typ danych <code>setSimple</code> reprezentujący matematyczny zbiór oraz operacje które dla dwóch zbiorów <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span> realizują:</p>
 <ul>
@@ -115,7 +116,7 @@ SOFTWARE.
 [<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
 </center>
 <center>
-(2 punkty)
+(2 punkty -implementacja zbioru)
 </center>
 <p>Proszę zaimplementować typ danych <code>setLinked</code> reprezentujący matematyczny zbiór oraz wszystkie operacje z zadania <strong>A</strong>. Tym razem w implementacji proszę wykorzystać posortowane listy łączone.</p>
 <p>Podobnie jak w poprzednim zadaniu państwa implementację proszę wykorzystać w programie, który bada złożoność obliczeniową poszczególnych operacji. Dla każdej z zaimplementowanych operacji program powinien produkować jeden plik, który może być uruchomiony z wykorzystaniem programu <a href="http://www.gnuplot.info/">gnuplot</a>. W wiadomości e-mail proszę opisać podejście wykorzystane do badania złożoności obliczeniowej i skonfrontować Państwa wyniki z wartościami teoretycznymi.</p>
@@ -192,7 +193,7 @@ SOFTWARE.
 [<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
 </center>
 <center>
-(4 punkt)
+(4 punkt - implementacja zbioru)
 </center>
 <p>Proszę zaimplementować typ danych <code>setHashed</code> reprezentujący matematyczny zbiór oraz operacje które dla dwóch zbiorów <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span> realizują:</p>
 <ul>
@@ -237,7 +238,7 @@ SOFTWARE.
 <strong>A</strong>
 </center>
 <center>
-(2 punkt)
+(2 punkt - implementacja kolejki)
 </center>
 <p>Proszę zaimplementować typ <code>priorotyQueue</code> będący oparty na matematycznym zbiorze i posiadający, dla słownika <span class="math inline">\(A\)</span> oraz elementu <span class="math inline">\(x\)</span>, operacje:</p>
 <ul>
@@ -253,7 +254,7 @@ SOFTWARE.
 [<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
 </center>
 <center>
-(6 punkt)
+(6 punkt - implementacja kolejki)
 </center>
 <p>Proszę zaimplementować kolejkę priorytetową <code>priorityQueueBinary</code> z operacjami jak w zadaniu <strong>A</strong> ale tym razem proszę oprzeć swoją implementacje o kopiec binarny. Proszę zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmniejszym “priorytecie” (wykres, wartość teoretyczna, dyskusja) oraz porównać wyniki z zadaniem <strong>A</strong>.</p>
 <center>
@@ -270,7 +271,7 @@ SOFTWARE.
 <strong>A</strong>
 </center>
 <center>
-(4 punkt)
+(4 punkt - implementacja grafu)
 </center>
 <p>Proszę zaimplementować ADT graph, który dla grafu <span class="math inline">\(G\)</span> oraz wierzchołków <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span> ma implementacje następujących operacji:</p>
 <ul>
@@ -305,7 +306,7 @@ SOFTWARE.
 <strong>B</strong>
 </center>
 <center>
-(2 punkt)
+(3 punkt - implementacja grafu)
 </center>
 <p>Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o metodę tworzącą plik, który może być wykorzystany przez program <em>dot</em> do narysowania grafu.</p>
 <h1 id="zestaw-6">Zestaw 6</h1>
@@ -313,7 +314,7 @@ SOFTWARE.
 <strong>A</strong>
 </center>
 <center>
-(6 punkt)
+(7 punkt - implementacja grafu)
 </center>
 <p>Proszę zaimplementować ADT graph, posiadający wszystkie operacje z zadania <strong>A</strong> w zestawie 4. Tym razem proszę wykorzystać reprezentację w której dla każdego wierzchołka przechowywana jest list sąsiadów. Sprawdzić złożoność obliczeniową wybranej operacji i porównać z zadaniem <strong>A</strong> zestawu 4.</p>
 <center>
@@ -426,6 +427,24 @@ SOFTWARE.
 </center>
 <p>Praca biurowa wzmaga apetyt. Korzystając z algorytmu Dijkstry oraz planu elewacji z zadania <strong>A</strong> proszę znaleźć najkrótszą ścieżkę z aneksu kuchennego <em>I</em> do pokoju szefa <em>D</em>.</p>
 <p>[<a href="https://bradfieldcs.com/algos/">wskazówka</a>]</p>
+<h1 id="zestaw-10">Zestaw 10</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Średnie czasy przejazdu samochodem pomiędzy polskimi miastami można odczytać z <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/czasy">tabelki</a> (dane pochodzą z google maps). W pierwszych dwóch kolumnach znajdują się miasta a w trzeciej kolumnie znajduje się czas przejazdu w minutach. Proszę znaleźć najkrótszy czas przejazdu pomiędzy wszystkimi parami miast. Wynik powinien być w postaci tabeli, której wiersze oraz kolumny odpowiadają kolejnym miastom natomiast wartości tabelki odpowiadają najkrótszym czasom przejazdu.</p>
+<p><em>Wskazówka</em>: proszę skorzystać z <a href="https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm">algorytmu Floyda Warszalla</a>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Korzystająć z <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/czasy">tabelki czasów przejazdu</a> (dane pochodzą z google maps) proszę znaleźć najszybszą trasę pomiędzy wszystkimi parami miast. Korzystając z programu <em>dot</em> (lub innego programu) oraz <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/positions">tabelki ze współrzędnymi geograficznymi miast</a> (pierwsza kolumna zawiera nazwę miasta, druga oraz trzecia kolumna zawiera współrzędne geograficzne) proszę zaznaczyć na grafie wszystkie miasta oraz najszybsze trasy pomiędzy parami miast (jeden rysunek dla każdej pary).</p>
+<p><em>Wskazówka 1</em>: proszę skorzystać z <a href="https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm">algorytmu Floyda Warszalla</a>.</p>
+<p><em>Wskazówka 2</em>: Przykładowy <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/example_dot">plik do programu dot</a> gdzie podane są współrzędne wierzchołków. Wykonanie polecenia [<a href="https://stackoverflow.com/questions/5343899/how-to-force-node-position-x-and-y-in-graphviz">źródło</a>]<code>dot -Kfdp -n -Tpng example_dot -o example_dot.png</code> powinno skutkować stworzeniem <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/example_dot.png">pliku</a>.</p>
 </article>
 </body>
 </html>

@@ -83,6 +83,8 @@ SOFTWARE.
 <li><a href="#zestaw-8">Zestaw 8</a></li>
 <li><a href="#zestaw-9">Zestaw 9</a></li>
 <li><a href="#zestaw-10">Zestaw 10</a></li>
+<li><a href="#zestaw-11">Zestaw 11</a></li>
+<li><a href="#zestaw-12">Zestaw 12</a></li>
 </ul>
 <h1 id="zestaw-1">Zestaw 1</h1>
 <center>
@@ -445,6 +447,36 @@ SOFTWARE.
 <p>Korzystająć z <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/czasy">tabelki czasów przejazdu</a> (dane pochodzą z google maps) proszę znaleźć najszybszą trasę pomiędzy wszystkimi parami miast. Korzystając z programu <em>dot</em> (lub innego programu) oraz <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/positions">tabelki ze współrzędnymi geograficznymi miast</a> (pierwsza kolumna zawiera nazwę miasta, druga oraz trzecia kolumna zawiera współrzędne geograficzne) proszę zaznaczyć na grafie wszystkie miasta oraz najszybsze trasy pomiędzy parami miast (jeden rysunek dla każdej pary).</p>
 <p><em>Wskazówka 1</em>: proszę skorzystać z <a href="https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm">algorytmu Floyda Warszalla</a>.</p>
 <p><em>Wskazówka 2</em>: Przykładowy <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/example_dot">plik do programu dot</a> gdzie podane są współrzędne wierzchołków. Wykonanie polecenia [<a href="https://stackoverflow.com/questions/5343899/how-to-force-node-position-x-and-y-in-graphviz">źródło</a>]<code>dot -Kfdp -n -Tpng example_dot -o example_dot.png</code> powinno skutkować stworzeniem <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/010_Zestaw_10/example_dot.png">pliku</a>.</p>
+<h1 id="zestaw-11">Zestaw 11</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Prowadzicie Państwo serwis internetowy zapewniający dostęp do gier za pośrednictwem strumienia danych. Gry są uruchamiane na serwerach w waszej firmie i chcecie rozsyłać obraz oraz dźwięk do swoich użytkowników z jak najmniejszym opóźnieniem. Zbadaliście sieć połączeń pomiędzy waszą firmą oraz komputerami <span class="math inline">\(127\)</span> klientów (jesteście raczkującą firmą) oraz zapisaliście ją w <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/011_Zestaw_11/randgraph">pliku</a>. Pierwsze dwie kolumny zawierają indywidualne numery komputerów (numer <span class="math inline">\(1\)</span> to wasza firma, numery <span class="math inline">\(2 \ldots 128\)</span> to komputery klientów) pomiędzy, którymi są połączenia. Trzecia kolumna zawiera średnie opóźnienie sygnału z danymi dla danego połączenia. Aby znaleźć optymalną ścieżkę sygnału z danymi od waszej firmy (numerek <span class="math inline">\(1\)</span>) do klientów należy skonstruować minimalne drzewo rozpinające graf połączeń. Proszę korzystając z algorytmu Prima policzyć takie drzewo. <a href="https://bradfieldcs.com/algos/graphs/prims-spanning-tree-algorithm/">Wskazówka</a>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Proszę znaleźć drzewko z poprzedniego zadania korzystając z algorytmu Kruskala. Proszę porównać efektywność obydwu algorytmów. <a href="https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-using-stl-in-c/">Wskazówka</a></p>
+<h1 id="zestaw-12">Zestaw 12</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>[<a href="https://www.wolfram.com/mathematica/">żródło</a>] W <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/012_Zestaw_12/g1">pliku</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/012_Zestaw_12/g2">pliku</a> oraz <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/012_Zestaw_12/g3">pliku</a> zapisane są grafy (skierowane oraz nie skierowane) w postaci macierzowej (1 - oznacza istninie krawędzi). Proszę napisać program badający cykliczność grafów i wykorzystać go do zbadanie tych trzech przykładów. <a href="https://eduinf.waw.pl/inf/alg/001_search/0132.php">Wskazówka</a>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>W <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/012_Zestaw_12/h1">pliku</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/012_Zestaw_12/h2">pliku</a> oraz <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_(lab_komputerowe,_lato_2020-2021)/002_Zestawy_zadań/012_Zestaw_12/h3">pliku</a> zapisane są grafy (skierowane oraz nie skierowane) w postaci macierzowej (1 - oznacza istninie krawędzi). Proszę napisać program badający spójność grafów i wykorzystać go do zbadanie tych trzech przykładów. <a href="https://eduinf.waw.pl/inf/alg/001_search/0128a.php">Wskazówka</a>.</p>
 </article>
 </body>
 </html>

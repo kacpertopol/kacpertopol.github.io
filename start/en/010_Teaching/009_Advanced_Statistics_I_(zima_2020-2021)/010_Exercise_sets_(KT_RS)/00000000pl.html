@@ -146,6 +146,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="#set-6-11-iv-2021">Set 6 (11 IV 2021)</a></li>
 <li><a href="#set-7-19-iv-2021">Set 7 (19 IV 2021)</a></li>
 <li><a href="#set-8-10-v-2021">Set 8 (10 V 2021)</a></li>
+<li><a href="#set-9-24-v-2021">Set 9 (24 V 2021)</a></li>
 </ul>
 <h1 id="set-1-25-i-2021">Set 1 (25 I 2021)</h1>
 <center>
@@ -650,6 +651,56 @@ f(x) = \frac{1}{\pi (1 + x^{2})}
 <li>same sample as in the first point but supplemented, by hand, with one outlier element far from rest of the sample</li>
 <li>same sample as in the first point but supplemented, by hand, with group of close five outlier elements far from rest of the sample</li>
 </ul>
+<h1 id="set-9-24-v-2021">Set 9 (24 V 2021)</h1>
+<center>
+<strong>Additional Materials</strong>
+</center>
+<ul>
+<li><a href="https://towardsdatascience.com/anomaly-detection-with-generalized-extreme-studentized-deviate-in-python-f350075900e2">GESD</a></li>
+<li><a href="https://towardsdatascience.com/outlier-detection-with-hampel-filter-85ddf523c73d">Hampel</a></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Basing on formulas from the lecture program the Hampel (<a href="https://towardsdatascience.com/outlier-detection-with-hampel-filter-85ddf523c73d">additional link</a>) test. Next:</p>
+<ol type="1">
+<li>Apply it to data sampled from <span class="math inline">\(N(0,1)\)</span> with size <span class="math inline">\(N=10\)</span> supplemented, by hand, with one outlier element far (but not very far) from rest of the sample.</li>
+<li>Repeat 1 but add one more datum point between the outlier and its neighbor. Check if result of test depends on position of this new point.</li>
+</ol>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Create a sample <span class="math inline">\(X\)</span> from <span class="math inline">\(N(0,1)\)</span> with size <span class="math inline">\(N=20\)</span> and add four outlier points at the same time: one for small <span class="math inline">\(X\)</span> (e.g. <span class="math inline">\(x = -5\)</span>) and three for big <span class="math inline">\(X\)</span> (e.g. <span class="math inline">\(X = 7.2\)</span>, <span class="math inline">\(X = 7.6\)</span> , <span class="math inline">\(X = 20\)</span>). Use the generalized ESD (<a href="https://towardsdatascience.com/anomaly-detection-with-generalized-extreme-studentized-deviate-in-python-f350075900e2">GESD</a>) test to detect number of outliers (and outliers itself). Check how results of test depend on position of outliers, for example move point <span class="math inline">\(X = 7.2\)</span> towards main group of points, e.g. to <span class="math inline">\(X = 3.5\)</span> or smaller.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Linear regression <span class="math inline">\(Y= a X + b\)</span> including uncertainties of <span class="math inline">\(Y\)</span>.</p>
+<p>Create a sample of <span class="math inline">\((X,Y)\)</span> pairs to simulate linear regression: for <span class="math inline">\(X = 1.0 , 1.2 , 1.4 , ... , 4.8\)</span> (so size is <span class="math inline">\(N=20\)</span>) draw <span class="math inline">\(Y\)</span> from <span class="math inline">\(N(2 X - 0.3 , 0.09)\)</span> (so standard deviation of each <span class="math inline">\(Y_i\)</span> is <span class="math inline">\(0.3\)</span>). Thus “real” parameters of regression are <span class="math inline">\(a=2\)</span> and <span class="math inline">\(b=-0.3\)</span>. Now forget that you know these parameters and find their estimators and uncertainties from prepared data using linear weighted regression.</p>
+<p>Next add outliers:</p>
+<ol type="1">
+<li>one outlier point <span class="math inline">\((10, Y_{0})\)</span> with uncertainty of <span class="math inline">\(Y_{0}\)</span> equals <span class="math inline">\(0.3\)</span>. Apply regression again and plot <span class="math inline">\(a\)</span>, uncertainty(<span class="math inline">\(a\)</span>),<span class="math inline">\(b\)</span>, and uncertainty(<span class="math inline">\(b\)</span>) as a function of <span class="math inline">\(Y_{0}\)</span> in range <span class="math inline">\((5, 25)\)</span></li>
+<li>one outlier point <span class="math inline">\((3.1, Y_{0})\)</span> with uncertainty of <span class="math inline">\(Y_{0}\)</span> equals <span class="math inline">\(0.3\)</span>. Apply regression again and plot 1, uncertainty(<span class="math inline">\(a\)</span>),<span class="math inline">\(b\)</span>, and uncertainty(<span class="math inline">\(b\)</span>) as a function of <span class="math inline">\(Y_{0}\)</span> in range <span class="math inline">\((-10, 10)\)</span>. Compare plots from subpoints 1 and 2.</li>
+<li>as in 1 but with uncertainty of <span class="math inline">\(Y_{0}\)</span> equals <span class="math inline">\(0.03\)</span>. Compare plots from subpoints 1 and 3.</li>
+</ol>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 points)
+</center>
+<center>
+<em>additional exercise</em>
+</center>
+<p>Repeat problem <strong>C</strong>, but use linear regression based on minimizing absolute deviations (LAD Method).</p>
 </article>
 </body>
 </html>

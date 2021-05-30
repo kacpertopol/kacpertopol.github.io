@@ -147,6 +147,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="#set-7-19-iv-2021">Set 7 (19 IV 2021)</a></li>
 <li><a href="#set-8-10-v-2021">Set 8 (10 V 2021)</a></li>
 <li><a href="#set-9-24-v-2021">Set 9 (24 V 2021)</a></li>
+<li><a href="#set-10-31-v-2021">Set 10 (31 V 2021)</a></li>
 </ul>
 <h1 id="set-1-25-i-2021">Set 1 (25 I 2021)</h1>
 <center>
@@ -711,6 +712,58 @@ f(x) = \frac{1}{\pi (1 + x^{2})}
 <em>additional exercise</em>
 </center>
 <p>Repeat problem <strong>C</strong>, but use linear regression based on minimizing absolute deviations (LAD Method).</p>
+<h1 id="set-10-31-v-2021">Set 10 (31 V 2021)</h1>
+<center>
+<strong>Additional Materials</strong>
+</center>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>We will be working with the normal distribution <span class="math inline">\(N(E(X) , var(X))=N(2,4)\)</span>. Please execute the following sub-points for two sizes of sample: <span class="math inline">\(N=15\)</span> and <span class="math inline">\(N=50\)</span>. After doing sub-points a - c please compare the obtained results.</p>
+<ol type="a">
+<li>True characteristics: find (analytically, using Python command) 1st, 2nd (median), and 3rd quartile. Calculate IQR (interquartile range).</li>
+<li>True characteristics based on sampling: sample <span class="math inline">\(M=50000\)</span> <span class="math inline">\(N\)</span>-element samples from <span class="math inline">\(N(2,4)\)</span>. For each sample find estimators of all quartiles and IQR. Basing on <span class="math inline">\(50000\)</span> samples plot their (quartiles and IQR) histograms and find estimators of their standard deviations.</li>
+<li>Bootstrap estimator: sample one more <span class="math inline">\(N\)</span>-element probe from <span class="math inline">\(N(2,4)\)</span>. Find resulting estimators for all quartiles and IQR. Make corresponding boxplot (skip whiskers). Apply to this specific sample bootstrap resampling creating <span class="math inline">\(B=10000\)</span> bootstrap samples of the same size <span class="math inline">\(N\)</span>. For each bootstrap sample find estimators of all quartiles and IQR. Basing on <span class="math inline">\(10000\)</span> bootstrap samples plot their (quartiles and IQR) histograms and find bootstrap estimators of their IQRs.</li>
+</ol>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 points)
+</center>
+<center>
+<em>additional exercise</em>
+</center>
+<p>Repeat A. but for Weibull distribution with parameters <span class="math inline">\(\lambda = 1\)</span> and <span class="math inline">\(k=1.5\)</span> - this is example of asymmetric probability density function.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Like A but for bivariate normal distribution and correlation coefficient.</p>
+<p>We will be working with the bivariate normal distribution with <span class="math inline">\(E(X)=0\)</span>, <span class="math inline">\(E(Y)=2\)</span>, <span class="math inline">\(SDV(X)=1\)</span>, <span class="math inline">\(SDV(Y)=1\)</span>, and two values of correlation coefficient: <span class="math inline">\(CORR(X,Y)=0.9\)</span> and <span class="math inline">\(CORR(X,Y)=0.2\)</span>. Please perform following subpoints for two sizes of sample: <span class="math inline">\(N=15\)</span> and <span class="math inline">\(N=50\)</span> and both <span class="math inline">\(CORR(X,Y)\)</span>. After doing subpoints a - b please compare obtained results.</p>
+<ol type="a">
+<li>Sample N-element bivariate probe. Make a plot. Calculate point estimator for correlation coefficient.</li>
+<li>Apply to sample from a bootstrap resampling creating <span class="math inline">\(B=10000\)</span> bootstrap samples of the same size <span class="math inline">\(N\)</span>. For each bootstrap sample find estimator of correlation coefficient. Plot its histogram and find bootstrap estimators of IQR for correlation coefficient.</li>
+</ol>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>For N(2,1) find the HDPR at 68% degree of belief.</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>For a probability density function <span class="math inline">\(f(x)=0.5 [N(0,1)+N(4,2.25)]\)</span> (where <span class="math inline">\(N(a,b)\)</span> is <span class="math inline">\(N(E(X),var(X))\)</span> so SDV is 1.5 for the second distribution) find the HDPR at 90% degree of belief.</p>
 </article>
 </body>
 </html>

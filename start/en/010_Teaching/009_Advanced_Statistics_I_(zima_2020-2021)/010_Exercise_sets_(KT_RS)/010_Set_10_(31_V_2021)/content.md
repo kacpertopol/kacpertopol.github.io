@@ -2,6 +2,8 @@
 **Additional Materials**
 </center>
 
+- Mathematica [notebook](---ThisDir---/hdpr.nb) and [pdf](---ThisDir---/hdpr.pdf).
+
 <center>
 **A**
 </center> 

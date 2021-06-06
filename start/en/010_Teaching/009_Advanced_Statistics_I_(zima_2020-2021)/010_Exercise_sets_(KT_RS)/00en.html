@@ -777,13 +777,13 @@ f(x) = \frac{1}{\pi (1 + x^{2})}
 </center>
 <p>Create sample of size <span class="math inline">\(N=20\)</span> from the normal distribution <span class="math inline">\(N(4,1)\)</span>. Now forget that we know the expectation value, so treat data as coming from <span class="math inline">\(N(x,1)\)</span> distribution. We are interested in estimation of <span class="math inline">\(x\)</span>.</p>
 <ol type="a">
-<li><p>find sample estimator of the expectation value E(x).</p></li>
-<li><p>find its (usual, frequentists) confidence interval at confidence level gamma=0.9.</p></li>
-<li><p>assume conjugate prior pdf p(x) as N(x_0,1). Under this assumption find:</p>
+<li><p>find sample estimator of the expectation value <span class="math inline">\(E(x)\)</span>.</p></li>
+<li><p>find its (usual, frequentists) confidence interval at confidence level <span class="math inline">\(\gamma = 0.9\)</span>.</p></li>
+<li><p>assume conjugate prior pdf <span class="math inline">\(p(x)\)</span> as <span class="math inline">\(N(x_0,1)\)</span>. Under this assumption find:</p>
 <ol type="1">
 <li>posterior pdf <span class="math inline">\(p(x|data,x_0,1)\)</span></li>
 <li>posterior expectation value <span class="math inline">\(EV(x)\)</span>. Compare with result of <em>a</em>.</li>
-<li>HDPR for x, at <span class="math inline">\(90%\)</span> DoB. Compare with result of b).</li>
+<li>HDPR for x, at <span class="math inline">\(90\%\)</span> DoB. Compare with result of <em>b</em>.</li>
 </ol></li>
 <li><p>make sensitivity analysis, i.e. repeat <em>c</em> for <span class="math inline">\(x_0\)</span> in <span class="math inline">\([1,7]\)</span>, step <span class="math inline">\(0.2\)</span>, make plot showing <em>c 2</em> and <em>c 3</em> as a function of <span class="math inline">\(x_0\)</span>.</p></li>
 </ol>
@@ -803,11 +803,13 @@ f(x) = \frac{1}{\pi (1 + x^{2})}
 <center>
 (2 points)
 </center>
-<p>Patients’ favourable responses to the two drugs were compared. 50 out of 250 respondents responded to drug A, and 40 out of 250 responded to drug B. We would like to compare if one drug is better than another. Both drugs have been tested independently. a) find sample estimator of the expectation values for efficiency of both drugs (fraction of patient with response) <span class="math inline">\(\theta_A\)</span> and <span class="math inline">\(\theta_B\)</span>, respectively. Compare them. Are they equal?</p>
-<ol start="2" type="a">
-<li><p>Assume conjugate bivariate prior pdf for (<span class="math inline">\(\theta_A\)</span>, <span class="math inline">\(\theta_B\)</span>) in form of the product of two Beta distributions with parameters (<span class="math inline">\(\alpha_A\)</span>, <span class="math inline">\(\beta_A\)</span>) and (<span class="math inline">\(\alpha_B\)</span>, <span class="math inline">\(\beta_B\)</span>). Repeat this and following points twice: one assuming uninformative prior, and one assuming any other values of parameters you like (in range of possible values). In both cases:</p>
+<p>Patients’ favourable responses to the two drugs were compared. 50 out of 250 respondents responded to drug A, and 40 out of 250 responded to drug B. We would like to compare if one drug is better than another. Both drugs have been tested independently.</p>
+<ol type="a">
+<li><p>find sample estimator of the expectation values for efficiency of both drugs (fraction of patient with response) <span class="math inline">\(\theta_A\)</span> and <span class="math inline">\(\theta_B\)</span>, respectively. Compare them. Are they equal?</p></li>
+<li><p>Assume conjugate bivariate prior pdf for (<span class="math inline">\(\theta_A\)</span>, <span class="math inline">\(\theta_B\)</span>) in form of the product of two Beta distributions with parameters (<span class="math inline">\(\alpha_A\)</span>, <span class="math inline">\(\beta_A\)</span>) and (<span class="math inline">\(\alpha_B\)</span>, <span class="math inline">\(\beta_B\)</span>). Repeat this and following points twice: one assuming uninformative prior, and one assuming any other values of parameters you like (in range of possible values).</p>
+<p>In both cases:</p>
 <ol type="1">
-<li>find posterior pdf <span class="math inline">\(p(\theta_A,\theta_B | \text{data})\)</span>, prior parameters <span class="math inline">\(\alpha_A\)</span>, <span class="math inline">\(\beta_A\)</span>, <span class="math inline">\(\alpha_B\)</span>, <span class="math inline">\(\beta_B\)</span>). Make its 2-dim plot.</li>
+<li>find posterior pdf <span class="math inline">\(p(\theta_A,\theta_B | \text{data}, \text{prior parameters} \alpha_A, \beta_A, \alpha_B, \beta_B)\)</span>. Make its 2-dim plot.</li>
 <li>find posterior pdf for logarithmic odds ratio Lambda : p(Lambda|data, prior parameters <span class="math inline">\(\alpha_A\)</span>, <span class="math inline">\(\beta_A\)</span>, <span class="math inline">\(\alpha_B\)</span>, <span class="math inline">\(\beta_B\)</span>). Make its plot.</li>
 <li>using <em>b 2</em> find posterior probability <span class="math inline">\(P(\Lambda&gt;0)\)</span> and <span class="math inline">\(P(\Lambda&lt;0)\)</span> (use normal distribution approximation).</li>
 </ol></li>

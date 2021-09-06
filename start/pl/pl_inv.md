@@ -21,7 +21,8 @@ toc-title: TOC
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
 	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2021-2022)](./0pl_inv.html)
-* [COVID](./0000pl_inv.html)
+	* [Metody Numeryczne (lab komputerowe, zima 2021-2022)](./0000pl_inv.html)
+* [COVID](./00000pl_inv.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -50,7 +51,11 @@ toc-title: TOC
 
 
 
-# [COVID](./0000pl_inv.html)
+## [Metody Numeryczne (lab komputerowe, zima 2021-2022)](./0000pl_inv.html)
+
+
+
+# [COVID](./00000pl_inv.html)
 
 
 

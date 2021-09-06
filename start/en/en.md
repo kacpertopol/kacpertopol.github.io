@@ -20,7 +20,6 @@ toc-title: TOC
 
 * [Contact](#contact)
 * [Teaching](#teaching)
-	* [Advanced Statistics I (zima 2020-2021)](./0en.html)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
@@ -38,10 +37,6 @@ toc-title: TOC
 
 
 # Teaching
-
-
-
-## [Advanced Statistics I (zima 2020-2021)](./0en.html)
 
 
 

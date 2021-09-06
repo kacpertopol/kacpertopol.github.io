@@ -52,7 +52,7 @@ SOFTWARE.
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Kacper Topolnicki</title>
+  <title>Symulacje w czasie rzeczywistym</title>
   <style type="text/css">
 @charset "UTF-8";.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#24292e;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body a{color:#0366d6;background-color:transparent;text-decoration:none;-webkit-text-decoration-skip:objects}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body a:hover{text-decoration:underline}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body strong{font-weight:600}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em;margin:.67em 0;padding-bottom:.3em;border-bottom:1px solid #eaecef}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #eaecef}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#6a737d}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body hr{box-sizing:content-box;height:.25em;margin:24px 0;padding:0;overflow:hidden;background-color:#e1e4e8;border:0}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body input{margin:0;overflow:visible;font:inherit;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dd{margin-left:0}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote{padding:0 1em;color:#6a737d;border-left:.25em solid #dfe2e5}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto;border-spacing:0;border-collapse:collapse}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #dfe2e5}.markdown-body table tr{background-color:#fff;border-top:1px solid #c6cbd1}.markdown-body table tr:nth-child(2n){background-color:#f6f8fa}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:" "}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#005cc5;border-color:#005cc5}.markdown-body kbd{box-shadow:inset 0 -1px 0 #959da5;display:inline-block;padding:3px 5px;font:11px/10px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#444d56;vertical-align:middle;background-color:#fcfcfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#0366d6}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.Alert,.Error,.Note,.Success,.Warning{padding:11px;margin-bottom:24px;border-style:solid;border-width:1px;border-radius:4px}.Alert p,.Error p,.Note p,.Success p,.Warning p{margin-top:0}.Alert p:last-child,.Error p:last-child,.Note p:last-child,.Success p:last-child,.Warning p:last-child{margin-bottom:0}.Alert{color:#246;background-color:#e2eef9;border-color:#bac6d3}.Warning{color:#4c4a42;background-color:#fff9ea;border-color:#dfd8c2}.Error{color:#911;background-color:#fcdede;border-color:#d2b2b2}.Success{color:#22662c;background-color:#e2f9e5;border-color:#bad3be}.Note{color:#2f363d;background-color:#f6f8fa;border-color:#d5d8da}.Alert h1,.Alert h2,.Alert h3,.Alert h4,.Alert h5,.Alert h6{color:#246;margin-bottom:0}.Warning h1,.Warning h2,.Warning h3,.Warning h4,.Warning h5,.Warning h6{color:#4c4a42;margin-bottom:0}.Error h1,.Error h2,.Error h3,.Error h4,.Error h5,.Error h6{color:#911;margin-bottom:0}.Success h1,.Success h2,.Success h3,.Success h4,.Success h5,.Success h6{color:#22662c;margin-bottom:0}.Note h1,.Note h2,.Note h3,.Note h4,.Note h5,.Note h6{color:#2f363d;margin-bottom:0}.Alert h1:first-child,.Alert h2:first-child,.Alert h3:first-child,.Alert h4:first-child,.Alert h5:first-child,.Alert h6:first-child,.Error h1:first-child,.Error h2:first-child,.Error h3:first-child,.Error h4:first-child,.Error h5:first-child,.Error h6:first-child,.Note h1:first-child,.Note h2:first-child,.Note h3:first-child,.Note h4:first-child,.Note h5:first-child,.Note h6:first-child,.Success h1:first-child,.Success h2:first-child,.Success h3:first-child,.Success h4:first-child,.Success h5:first-child,.Success h6:first-child,.Warning h1:first-child,.Warning h2:first-child,.Warning h3:first-child,.Warning h4:first-child,.Warning h5:first-child,.Warning h6:first-child{margin-top:0}h1.title,p.subtitle{text-align:center}h1.title.followed-by-subtitle{margin-bottom:0}p.subtitle{font-size:1.5em;font-weight:600;line-height:1.25;margin-top:0;margin-bottom:16px;padding-bottom:.3em}div.line-block{white-space:pre-line}
   </style>
@@ -65,63 +65,87 @@ SOFTWARE.
 <body>
 <article class="markdown-body">
 <header>
-<h1 class="title">Kacper Topolnicki</h1>
+<h1 class="title">Symulacje w czasie rzeczywistym</h1>
 </header>
 <center>
-<a href="https://sites.google.com/view/gr-natalka/main"><img src="./start/en/KacperTopolnicki.jpg" /></a>
+<a href="https://commons.wikimedia.org/wiki/File:Pong_Game_Test2.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Pong_Game_Test2.gif" /></a>
 </center>
-<center>
-☀️ <a href="./pl.html">PL</a> <a href="./en.html">EN</a>
-</center>
-<center>
-🌘 <a href="./pl_inv.html">PL</a> <a href="./en_inv.html">EN</a>
-</center>
-<h1 id="content">Content:</h1>
+<h1 id="zawartość">Zawartość:</h1>
 <ul>
-<li><a href="#contact">Contact</a></li>
-<li><a href="#teaching">Teaching</a></li>
-<li><a href="#curriculum-vitae">Curriculum vitae</a></li>
-<li><a href="#fun">Fun</a>
+<li><a href="#organizacja">Organizacja</a></li>
+<li><a href="./00pl.html">Zestawy zadań</a></li>
+</ul>
+<h1 id="organizacja">Organizacja</h1>
+<p>Zajęcia będa się odbywać z wykorzystaniem ZOOM. Poniżej znajdują się dane potrzebne do dołączenia do zajeć:</p>
 <ul>
-<li><a href="#podcasts">Podcasts</a></li>
-<li><a href="#blog">Blog</a></li>
+<li>link: <a href="https://us02web.zoom.us/j/84466952075?pwd=UFMzMThBd1liK3VBVXlLU0NnYWltdz09" class="uri">https://us02web.zoom.us/j/84466952075?pwd=UFMzMThBd1liK3VBVXlLU0NnYWltdz09</a></li>
+<li>Meeting ID: <code>844 6695 2075</code></li>
+<li>Passcode: <code>t63i53</code></li>
+</ul>
+<p>Zajęcia będą podzielone na dwie części. W pierszej będę tłumaczył nowe zadania, natomiast druga część przeznaczona jest na indywidualne konsultacje i oddawanie zadań. Ocena z ćwiczeń będzie wystawiona na podstawie liczby wykonanych zadań (50%) oraz projektu końcowego (50%). Aby zaliczyć zadanie należy:</p>
+<ul>
+<li>przesłać spakowane pliki na <a href="mailto:kacper.topolnicki@uj.edu.pl" class="email">kacper.topolnicki@uj.edu.pl</a>, w temacie wiadomości powinien znaleźć się ciąg znaków “SYMULACJE20202021”</li>
+<li>połączyć się ze mną na ZOOM, udostepnić ekran, zademonstrować rozwiązanie i opowiedzieć o swojej implementacji</li>
+</ul>
+<p>Aby zaliczyć ćwiczenia trzeba mieć pozytywną ocenę z zadań i projektu.</p>
+<p>Propozycje projektów (można zgłaszać również swoje propozycje):</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Miniature_golf">miniaturowy golf</a>
+<ul>
+<li>minimalistyczne podejście</li>
+<li>przeszkody w postaci ścianek z wielokątów</li>
+<li>wizualizacja w 3D ale fizyka liczona w 2D</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Cue_sports">jedna z odmian bilarda</a>
+<ul>
+<li>minimalistyczne podejście</li>
+<li>wizualizacja w 3D ale fizyka liczone w 2D</li>
+<li>gra powinna podpowiadać graczowi jakie będą skutki potencjalnego uderzenia kijem</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Asteroids_(video_game)">asteroidy</a> ale w 3D
+<ul>
+<li>minimalistyczne podejście</li>
+<li>gra odbywa się w pudle o ustalonych rozmiarach</li>
+<li>można założyć periodyczne warunki (prawa ścianka pudła utożsamiona jest z lewą, górna z dolną, przednia z tylną)</li>
+<li>asteroidy w postaci zlepków sfer</li>
+<li>fizyka oraz wizualizacja w 3D</li>
+</ul></li>
+<li>dobór naturalny na szalce Petriego
+<ul>
+<li>lepiej pogadać o tym, proszę o kontakt</li>
+<li>fizyka w 2D, wizualizacja w 3D</li>
 </ul></li>
 </ul>
-<h1 id="contact">Contact</h1>
-<ul>
-<li>where: Jagiellonian University, Faculty of Physics Astronomy and Applied computer Science</li>
-<li>e-mail: <a href="mailto:kacper.topolnicki@uj.edu.pl" class="email">kacper.topolnicki@uj.edu.pl</a></li>
-<li>adress: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland</li>
-<li>room: B-2-25 (II floor)</li>
-<li>tel.: (+48) 12 664 4869</li>
-</ul>
-<h1 id="teaching">Teaching</h1>
-<h1 id="curriculum-vitae">Curriculum vitae</h1>
-<p>My CV togather with a list of talks and publications is available <a href="https://kacpertopol.github.io/cv/">here</a>.</p>
-<h1 id="fun">Fun</h1>
-<h2 id="podcasts">Podcasts</h2>
-<ul>
-<li><p><a href="https://www.npr.org/podcasts/452538884/radiolab">Radiolab</a> <a href="http://feeds.feedburner.com/radiolab"><img src="./start/en/020_Fun/010_Podcasts/feed-icon-14x14.png" /></a></p>
-<p>Fantastic radio, a temple of curiosity. Various topics ranging from parasites and numbers to cannibals and cowbells.</p></li>
-<li><p><a href="https://www.youtube.com/user/nobani88">The Portal</a> <a href="https://rss.art19.com/the-portal"><img src="./start/en/020_Fun/010_Podcasts/feed-icon-14x14.png" /></a></p>
-<p>Interesting long form conversations with intellectuals, academics, chess grand masters … and many more. The Host <a href="https://en.wikipedia.org/wiki/Eric_W._Weisstein">Eric Weisstein</a> is a physicist and creator of the popular site <a href="http://mathworld.wolfram.com/">MathWorld</a>.</p></li>
-<li><p><a href="https://samharris.org/podcast/">Making Sense</a> <a href="http://wakingup.libsyn.com/rss"><img src="./start/en/020_Fun/010_Podcasts/feed-icon-14x14.png" /></a></p>
-<p>Long form conversations about current events, meditation, atheism, consciousness, nature of reality, artificial intelligence and much more.</p></li>
-<li><p><a href="https://www.youtube.com/user/PowerfulJRE">Joe Rogan Experience</a> <a href="http://joeroganexp.joerogan.libsynpro.com/irss"><img src="./start/en/020_Fun/010_Podcasts/feed-icon-14x14.png" /></a></p>
-<p>Long conversations. From silly to funny to goofy to serious. Lot’s of chimpanzees, Elon Musk smoking weed and Sir Roger Penrose.</p></li>
-<li><p><a href="http://freakonomics.com/">Freakonomics</a> <a href="https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/14a43378-edb2-49be-8511-ab0d000a7030/d1b9612f-bb1b-4b85-9c0c-ab0d004ab37a/podcast.rss"><img src="./start/en/020_Fun/010_Podcasts/feed-icon-14x14.png" /></a></p>
-<p>Various topics around economics. Fascinating stuff. Shorter conversations, around one hour.</p></li>
-<li><p><a href="https://www.npr.org/sections/money/">Planet Money</a> <a href="https://www.npr.org/rss/podcast.php?id=510289"><img src="./start/en/020_Fun/010_Podcasts/feed-icon-14x14.png" /></a></p>
-<p>Dolla dolla bill y’all!</p></li>
-<li><p><a href="https://www.howstuffworks.com/">Stuff You Schould Know</a> <a href="https://feeds.megaphone.fm/stuffyoushouldknow"><img src="./start/en/020_Fun/010_Podcasts/feed-icon-14x14.png" /></a></p>
-<p>Interesting things … that You Schould Know :-)</p></li>
-<li><p><a href="http://99percentinvisible.org/">99% Invisible</a> <a href="http://invisible99.podbean.com/feed/"><img src="./start/en/020_Fun/010_Podcasts/feed-icon-14x14.png" /></a></p>
-<p>Design and architecture.</p></li>
-<li><p><a href="https://themoth.org/">The Moth</a> <a href="http://feeds.themoth.org/themothpodcast"><img src="./start/en/020_Fun/010_Podcasts/feed-icon-14x14.png" /></a></p>
-<p>Wonderfull short stories.</p></li>
-</ul>
-<h2 id="blog">Blog</h2>
-<p>My blog is available <a href="https://kacpertopol.github.io/myblog/">here</a>.</p>
+<p>Pytania na egzamin (lista będzie aktualizowana) [źródło: wykłady do przedmiotu “Programowanie symulacji fizyki w czasie rzeczywistym”]:</p>
+<ol type="1">
+<li>(wykład 1) Omów znaczenie programowania fizyki w kontekście tworzenia gier wideo. Wskaż różnice pomiędzy programowaniem symulacji fizyki w czasie rzeczywistym (real-time) oraz symulacjami autonomicznymi (off-line). Silniki fizyki. Wsparcie obliczeń poprzez <strong>ppu</strong> i <strong>gpgpu</strong>. Wymień układy fizyczne, które są najczęściej obsługiwane przez silniki fizyki czasu rzeczywistego.</li>
+<li>(wykład 2) Przedstaw ogólnie metodykę opisywania ruchu układu fizycznego (stopnie swobody, zmienne stanu, wektor stanu, równanie ewolucji). Opisz ogólnie dyskretyzację równania ewolucji oraz główne zadanie silnika fizyki.</li>
+<li>(wykład 2) Omów problem synchronizacji silnika fizyki z pętlą główną gry. Wyjaśnij, czym różnią się algorytmy fizyki ze stałym krokiem czaso- wym od algorytmów z adaptywnym krokiem czasowym.</li>
+<li>(wykład 3) Omów zagadnienie stabilności algorytmów. Opisz wpływ na stabil- ność takich rzeczy jak jawność/niejawność algorytmów, użycie pochod- nych progresywnych/wstecznych, użycie tłumienia.</li>
+<li>(wykład 3) Przedstaw metodykę numerycznego rozwiązywania równań dyna- miki punktu materialnego. Podaj przykład struktury danych reprezen- tującej punkt materialny. Omów algorytm Eulera.</li>
+<li>(wykład 3) Wskaż najważniejsze cechy algorytmów numerycznego rozwiązy- wania równań różniczkowych w rzeczywistym czasie.</li>
+<li>Omów algorytm Verleta i jego modyfikacje. Przedstaw, jak różnice centralne i średnie centralne poprawiają dokładność obliczeń.</li>
+<li>(wykład 4) Podaj podstawowe algorytmy numerycznego całkowania równań różniczkowych zwyczajnych. Wyjaśnij różnicę pomiędzy schematami jawnymi i niejawnymi.</li>
+<li>(wykład 4) Wyjaśnij różnicę pomiędzy metodami całkowania równań różniczkowych ze stałym i adaptywnym krokiem czasowym. Omów predykcje akumulacji błędu oparte o błąd maksymalny lub błądzenie losowe.</li>
+<li>(wykład 4) Omów modelowanie układów punktów materialnych (modele cząsteczkowe). Podaj postać funkcji stanu i równania ewolucji. Wskaż na różnicę między bezstanowymi i zapamiętującymi stan modelami cząsteczkowymi.</li>
+<li>(wykład 5) Wyjaśnij różnicę między algorytmami dyskretnymi (a posteriori) i ciągłymi (a priori) obsługi kolizji. Podaj przykłady algorytmów.</li>
+<li>(wykład 5) Omów podział algorytmu detekcji kolizji na fazy detekcji kolizji i odpowiedzi kolizji. Uzasadnij znaczenie algorytmów optymalizujących detekcję zderzeń obiektów. Podaj przykłady takich algorytmów.</li>
+<li>(wykład 5) Opisz modelowanie zderzeń punktów materialnych z nieruchomymi obiektami (detekcja kolizji, geometria zderzenia, fizyka zderzenia, odpowiedź kolizji).</li>
+<li>(wykład 5) Omów algorytm Eulera dla punktów materialnych wraz z dyskret nym algorytmem obsługi kolizji punktów z płaszczyzną.</li>
+<li>(wykład 6) Przedstaw model masy na sprężynce. Wyjaśnij, dlaczego sprężynę można traktować jako nieważką. Opisz różne przypadki tłumienia drgań. Omów dowolny algorytm numeryczny wyznaczania ruchu.</li>
+<li>(wykład 6) Omów modele układów mas i sprężynek (ang. <em>mass-spring systems</em>). Zdefiniuj siły wewnętrzne (sprężystości, sztywności, tłumienia drgań), zewnętrzne i kontaktowe. Podaj przykłady zastosowań modelowania z zastosowaniem układów elastycznych.</li>
+<li>(wykład 6) Omów podstawowe zalety i wady modeli układów mas i sprężynek (ang. <em>mass-spring systems</em>). Przedstaw koncepcje najpopularniejszych optymalizacji (metody z dłuższymi krokami czasowymi, szybkie symulacje).</li>
+<li>(wykład 7) Podaj definicję bryły sztywnej i liczbę stopni swobody. Omów mo- del dyskretny i model ciągły. Zdefiniuj współrzędne offsetowe pun- któw bryły sztywnej. Podaj interpretację kierunku, zwrotu i wartości wektora prędkości kątowej. Podaj definicję macierzy tensora momentu bezwładności. Podaj wzór na całkowity moment pędu bryły sztywnej.</li>
+<li>(wykład 7) Wypisz równania Newtona-Eulera ruchu bryły sztywnej. Wyjaśnij, dlaczego nie nadają się na równania ewolucji, które są bezpośrednio rozwiązywane numerycznie w czasie rzeczywistym.</li>
+<li>(wykład 7) Opisz reprezentację struktury danych dla bryły sztywnej z użyciem macierzy obrotu. Podaj pełne równania ewolucji.</li>
+<li>(wykład 8) Opisz reprezentację struktury danych dla bryły sztywnej z użyciem kwaternionów. Podaj pełne równania ewolucji.</li>
+<li>(wykład 8) Opisz reprezentację struktury danych dla bryły sztywnej z użyciem kątów Eulera. Podaj pełne równania ewolucji.</li>
+<li>(wykład 8) Porównaj wady i zalety trzech podstawowych sposobów reprezen- tacji ruchu obrotowego bryły sztywnej (kąty Eulera, macierz obrotu, kwaterniony).</li>
+<li>(wykład 9) Omów etap ogólny (ang. <em>broad phase</em>) oraz etap szczegółowy (ang. <em>narrow phase</em>) algorytmu obsługi detekcji kolizji.</li>
+<li>(wykład 9) Podaj i omów twierdzenie <strong>sat</strong> (ang. <em>separating axis theorem</em>). Podaj definicję funkcji nośnika (ang. <em>support function</em>) i odwzorowania nośni- ka (ang. <em>support mapping</em>). Przedstaw twierdzenie <strong>sat</strong> sformułowane z użyciem funkcji nośnika.</li>
+<li>(wykład 9) Omów wersję twierdzenia <strong>sat</strong> dla wielościanów wypukłych. Podaj, jak tworzyć zbiór kierunków kandydatów na osie separacji (<strong>sac</strong>).</li>
+</ol>
+<h1 id="zestawy-zadań"><a href="./00pl.html">Zestawy zadań</a></h1>
 </article>
 </body>
 </html>

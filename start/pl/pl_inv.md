@@ -20,11 +20,8 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Algebra i Geometria (ćwiczenia, lato 2020-2021)](./0pl_inv.html)
-	* [Algorytmy i Struktury Danych (lab komputerowe, lato 2020-2021)](./000pl_inv.html)
-	* [Symulacje w czasie rzeczywistym (lab komputerowe, lato 2020-2021)](./00000pl_inv.html)
-	* [Advanced Statistics I (zima 2020-2021)](./0000000pl_inv.html)
-* [COVID](./000000000pl_inv.html)
+	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2021-2022)](./0pl_inv.html)
+* [COVID](./0000pl_inv.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -49,23 +46,11 @@ toc-title: TOC
 
 
 
-## [Algebra i Geometria (ćwiczenia, lato 2020-2021)](./0pl_inv.html)
+## [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2021-2022)](./0pl_inv.html)
 
 
 
-## [Algorytmy i Struktury Danych (lab komputerowe, lato 2020-2021)](./000pl_inv.html)
-
-
-
-## [Symulacje w czasie rzeczywistym (lab komputerowe, lato 2020-2021)](./00000pl_inv.html)
-
-
-
-## [Advanced Statistics I (zima 2020-2021)](./0000000pl_inv.html)
-
-
-
-# [COVID](./000000000pl_inv.html)
+# [COVID](./0000pl_inv.html)
 
 
 

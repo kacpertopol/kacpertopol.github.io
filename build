@@ -6,8 +6,8 @@
 #rm -r ./start/en/011_Curriculum_vitae
 #cp -r ./start/pl/014_Curriculum_vitae ./start/en/011_Curriculum_vitae
 
-rm -r ./start/en/010_Teaching/009_Advanced_Statistics_I_\(zima_2020-2021\)
-cp -r ./start/pl/010_Nauczanie/009_Advanced_Statistics_I_\(zima_2020-2021\) ./start/en/010_Teaching/
+#rm -r ./start/en/010_Teaching/009_Advanced_Statistics_I_\(zima_2020-2021\)
+#cp -r ./start/pl/010_Nauczanie/009_Advanced_Statistics_I_\(zima_2020-2021\) ./start/en/010_Teaching/
 
 #rm -r ./start/en/010_Teaching/010_Numerical_calculations_using_Mathematica_\(summer_2020-2021\)
 #cp -r ./start/pl/010_Nauczanie/010_Numerical_calculations_using_Mathematica_\(summer_2020-2021\) ./start/en/010_Teaching/

@@ -1,3 +1,3 @@
 ---
-title : Narzędzia Obliczeniowe Fizyki
+title : Metody Numeryczne
 ---

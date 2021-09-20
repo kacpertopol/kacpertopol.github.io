@@ -1,3 +1,3 @@
 <center>
-[![](https://upload.wikimedia.org/wikipedia/commons/8/8a/Finite_element_sparse_matrix.png)](https://commons.wikimedia.org/wiki/File:Finite_element_sparse_matrix.png)
+[![](http://www.punctum.com/interest/punch/img/c0133.jpg)](http://www.punctum.com/interest/punch/html/c0133.en.html)
 </center>

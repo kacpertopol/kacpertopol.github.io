@@ -3,7 +3,7 @@ title : Metody Numeryczne
 ---
 
 <center>
-[![](http://www.punctum.com/interest/punch/img/c0133.jpg)](http://www.punctum.com/interest/punch/html/c0133.en.html)
+[![](./start/pl/010_Nauczanie/008_Metody_Numeryczne_(lab_komputerowe,_zima_2021-2022)/fortran_punch_card.jpg)](http://www.punctum.com/interest/punch/html/c0133.en.html)
 </center>
 
 
@@ -13,7 +13,6 @@ title : Metody Numeryczne
 * [Organizacja](#organizacja)
 * [Wykład (prof Paweł Góra)](#wykład-prof-paweł-góra)
 * [Zestawy zadań](#zestawy-zadań)
-	* [Ocenianie](#ocenianie)
 	* [Zestaw 1](#zestaw-1)
 
 
@@ -38,12 +37,37 @@ Zadanie uznaje się za rozwiązane gdy student poprawnie rozwiąże zadanie oraz
 - zademonstruje działanie swojego programu
 - opowie o swojej implementacji
 
+Po zaliczeniu, spakowane do `zip` lub `tar.gz` programy należy wysłać
+na <kacper.topolnicki@uj.edu.pl>. Temat wiadomości powinien zawierać ciąg znaków:
+"METODYNUMERYCZNE20212022" (brak spacji, duże litery). Archiwum powinno zawierać plik
+`README.md` z KRÓTKĄ instrukcją kompilacji oraz uruchomienia.
+
 Ocena z ćwiczeń będzie wystawiona na podstawie liczby punktów otrzymanych za 
 rozwiązanie zadań. Konkretna
 skala ocen pojawi się pod koniec semestru gdy dostąpmy będzie szerszy rozkład punktów
 w grupie.
 W przypadku kłopotów będzie możliwość poprawy oceny pisząc projekt końcowy lub
 kolokwium - będzie to ustalane indywidualnie z osobami w tarapatach.
+
+Dodatkowo:
+
+- Ćwiczenia można oddawać na każdych zajęciach,
+  wystarczy zademonstrować działanie programu oraz króciutko
+	o nim opowiedzieć.
+- Ćwiczenia z zestawu przypadającego na dane zajęcia
+  można oddawać do końca semestru ale ...
+  - ... jeżeli pod koniec semestru braknie czasu na zajęciach aby 
+    zadanie oddać to nie zostanie ono zalicone 
+  - W związku z tym proszę nie zwlekać z oddawaniem zadań.
+- Implementacje rozwiązań można pisać w swoim ulubionym języku
+  (w ramach rozsądku, proszę wcześniej to ze mną skonsultować -
+  muszę być w stanie rozszyfrować wasze rozwiązania) ale:
+  - Ideą ćwiczeń jest poznanie algorytmów od podszewki więc
+    nie korzystamy z gotowych bibliotek (w razie wątpliwości proszę
+	to ze mną skonsultować).
+  
+
+
 
 
 
@@ -55,29 +79,6 @@ Wykłady profesora Pawła Góry bedą dostępne na stronie:
 
 
 # Zestawy zadań
-
-
-
-## Ocenianie
-
-- Ćwiczenia można oddawać na każdych zajęciach,
-  wystarczy zademonstrować działanie programu oraz króciutko
-	o nim opowiedzieć.
-- Ćwiczenia z zestawu przypadającego na dane zajęcia
-  można oddawać do końca semestru ale ...
-  - ... jeżeli pod koniec semestru braknie czasu na zajęciach aby 
-    zadanie oddać to nie zostanie ono zalicone 
-  - W związku z tym proszę nie zwlekać z oddawaniem zadań.
-- Ocena z zadań będzie
-  wystawiana na podstawie całkowitej ilości
-  punktów uzyskanych z rozwiązania ćwiczeń.
-- Implementacje rozwiązań można pisać w swoim ulubionym języku
-  (w ramach rozsądku, proszę wcześniej to ze mną skonsultować -
-  muszę być w stanie rozszyfrować wasze rozwiązania) ale:
-  - ideą ćwiczeń jest poznanie algorytmów od podszewki więc
-    nie korzystamy z gotowych bibliotek
-  
-
 
 
 

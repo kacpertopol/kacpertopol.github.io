@@ -32,9 +32,9 @@ potrzeba zmienimy tryb prowadzenia na zdalny.
 </center>
 
 Na każdych zajęciach będzie możliwość oddania zadań z dowolnych poprzednich zestawów.
-Zadanie uznaje się za rozwiązane gdy student poprawnie rozwiąże zadanie oraz:
+Zadanie uznaje się za rozwiązane gdy student:
 
-- zademonstruje działanie swojego programu
+- zademonstruje poprawne działanie swojego programu
 - opowie o swojej implementacji
 
 Po zaliczeniu, spakowane do `zip` lub `tar.gz` programy należy wysłać

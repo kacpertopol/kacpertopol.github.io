@@ -10,4 +10,5 @@
     - bez obawy
     - stopień trudności poszczególnych tematów jest różny i będzie to brane pod uwagę
     - wystarczy każdy temat rozwiązać najlepiej jak się to potrafi
+- Można zaproponować własny temat albo wybrać jedną z propozycji 
 - Przed rozpoczęciem realizacji chciałbym proszę o kontakt, chciałbym z Państwem porozmawiać o szczegółach

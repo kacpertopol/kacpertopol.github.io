@@ -11,7 +11,6 @@ title : Narzędzia Obliczeniowe Fizyki
 # Zawartość:
 
 * [Organizacja](#organizacja)
-* [Link do zajęć](#link-do-zajęć)
 * [Wykład (prof Jacek Golak)](#wykład-prof-jacek-golak)
 * [Zestawy zadań](./00pl_inv.html)
 * [Projekty studenckie](./000pl_inv.html)
@@ -62,17 +61,6 @@ Na ocenę końcową składać się będą:
 - zadania domowe (35% oceny)
 - projekt końcowy (35% oceny)
 
-
-
-# Link do zajęć
-
-<center>
-**ZOOM**
-</center>
-
-- link: <https://us02web.zoom.us/j/84329473679?pwd=OVp4UDVDbWhJTS91bkx4K3hzRnBnUT09>
-- Meeting ID: 843 2947 3679
-- Passcode: 9QY6uX
 
 
 # Wykład (prof Jacek Golak)

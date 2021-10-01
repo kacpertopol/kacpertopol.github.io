@@ -2,10 +2,6 @@
 **RÓWNANIE FALOWE Z PERIODYCZNYMI WARUNKAMI BRZEGOWYMI**
 </center>
 
-<center>
-*D.M. oraz A.K.*
-</center>
-
 Proszę przyjrzeć się zadaniu **E** z zestawu $5$ (05 XI 2020). Korzystając z macierzy
 podobnej do zdefiniowanej w tym zadaniu proszę rozwiązać równanie falowe z periodycznymi
 warunkami brzegowymi w dwóch wymiarach. Można sobie wyobrazić, że fala rozchodzi się 
@@ -40,10 +36,6 @@ END_HTML-->
 
 <center>
 **SYMULACJA UKŁADÓW OPTYCZNYCH**
-</center>
-
-<center>
-*G. Ż. oraz M. J.*
 </center>
 
 Symulacja uładów optycznych w dwóch wymiarach.
@@ -85,10 +77,6 @@ END_HTML-->
 **POTENCJAŁ ORAZ POLE ELEKTRYCZNE W DWÓCH WYMIARACH**
 </center>
 
-<center>
-*R.S. oraz D.S.*
-</center>
-
 Rachunek potencjału oraz pola elektrycznego w systemie
 ze statecznymi ładunkami elektrycznymi. Pakiet powinien 
 implementować następujace funkcje:
@@ -125,10 +113,6 @@ END_HTML-->
 **NAPRĘŻENIA W MAKARONOWYM MOŚCIE**
 </center>
 
-<center>
-*J. K. oraz B. P.*
-</center>
-
 Rachunek naprężeń w dwu wymiarowym moście skonstruowanym z makaronu spaghetti.
 Pakiet powinien implementować następujące funkcje:
 
@@ -161,10 +145,6 @@ END_HTML-->
 **LICZENIE PI**
 </center>
 
-<center>
-*A. B. oraz M. P.*
-</center>
-
 Proszę uważnie obejrzeć film jak również części 2 oraz 3 z opisu na *Youtube*.
 Projekt polega za zaimplementowaniu takiej symulacji. Pakiet powinien
 implementować:
@@ -189,10 +169,6 @@ END_HTML-->
 
 <center>
 **SYMULACJA UKŁADÓW PLANETARNYCH**
-</center>
-
-<center>
-*P.S.*
 </center>
 
 Pakiet powinien implementować symulację ewolucji czasowej kilku ciał oddziaływujących grawitacyjnie.

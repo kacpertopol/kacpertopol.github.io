@@ -31,7 +31,7 @@ FullSimplify
 
 Liczenie objetości bąbelków (proszę zajrzeć równiez do drugiego wykładu profesora):
 
-- [objętość bąbelków](---Thisdir---/nof_15_10_2020_zajecia_1.nb)
+- [objętość bąbelków](---ThisDir---/nof_15_10_2020_zajecia_1.nb)
 
 <center>
 **A**

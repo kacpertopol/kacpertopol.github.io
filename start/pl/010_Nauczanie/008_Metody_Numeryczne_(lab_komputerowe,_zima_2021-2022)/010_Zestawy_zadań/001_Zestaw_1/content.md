@@ -9,6 +9,11 @@ Polecam w szczególności, bardzo dojrzały i popularny program [gnuplot](http:/
 Dla osób korzystających z pythona polecam bibliotekę [matplotlib](https://matplotlib.org/),
 będącą częścią pakietu [scipy](https://scipy.org/).
 
+Dodatkowe przykłady:
+
+- [przykładowe skrypty do programu gnuplot](---ThisDir---/gnuplot_examples.zip)
+- [przykładowy notebook Mathematici z wykresem danych](---ThisDir---/mathematica_examples.zip)
+
 <center>
 **A**
 </center>

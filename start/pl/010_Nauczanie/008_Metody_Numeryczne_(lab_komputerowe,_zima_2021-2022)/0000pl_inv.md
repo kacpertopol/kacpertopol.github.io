@@ -96,6 +96,11 @@ Polecam w szczególności, bardzo dojrzały i popularny program [gnuplot](http:/
 Dla osób korzystających z pythona polecam bibliotekę [matplotlib](https://matplotlib.org/),
 będącą częścią pakietu [scipy](https://scipy.org/).
 
+Dodatkowe przykłady:
+
+- [przykładowe skrypty do programu gnuplot](./start/pl/010_Nauczanie/008_Metody_Numeryczne_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/gnuplot_examples.zip)
+- [przykładowy notebook Mathematici z wykresem danych](./start/pl/010_Nauczanie/008_Metody_Numeryczne_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/mathematica_examples.zip)
+
 <center>
 **A**
 </center>

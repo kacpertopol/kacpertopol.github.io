@@ -20,10 +20,11 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2021-2022)](./0pl.html)
-	* [Metody Numeryczne (lab komputerowe, zima 2021-2022)](./0000pl.html)
-	* [Advanced Statistics I (archiwum)](./00000pl.html)
-* [COVID](./0000000pl.html)
+	* [Metody Statystyczne (zima 2021-2022)](./0pl.html)
+	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2021-2022)](./00pl.html)
+	* [Metody Numeryczne (lab komputerowe, zima 2021-2022)](./00000pl.html)
+	* [Advanced Statistics I (archiwum)](./000000pl.html)
+* [COVID](./00000000pl.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -48,19 +49,23 @@ toc-title: TOC
 
 
 
-## [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2021-2022)](./0pl.html)
+## [Metody Statystyczne (zima 2021-2022)](./0pl.html)
 
 
 
-## [Metody Numeryczne (lab komputerowe, zima 2021-2022)](./0000pl.html)
+## [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2021-2022)](./00pl.html)
 
 
 
-## [Advanced Statistics I (archiwum)](./00000pl.html)
+## [Metody Numeryczne (lab komputerowe, zima 2021-2022)](./00000pl.html)
 
 
 
-# [COVID](./0000000pl.html)
+## [Advanced Statistics I (archiwum)](./000000pl.html)
+
+
+
+# [COVID](./00000000pl.html)
 
 
 

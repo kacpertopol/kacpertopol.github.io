@@ -11,10 +11,8 @@ title : Narzędzia Obliczeniowe Fizyki
 # Zawartość:
 
 * [Organizacja](#organizacja)
-* [Link do zajęć](#link-do-zajęć)
 * [Wykład (prof Jacek Golak)](#wykład-prof-jacek-golak)
 * [Zestawy zadań](./000pl_inv.html)
-* [Konsultacje grupowe](#konsultacje-grupowe)
 * [Projekty studenckie](./0000pl_inv.html)
 
 
@@ -25,10 +23,9 @@ title : Narzędzia Obliczeniowe Fizyki
 **ZAJĘCIA**
 </center>
 
-Zgodnie z nowym [komuniatem](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2020-2021)/001_Organizacja/komunikat.pdf) zajęcia będą prowadzone
-w trybie zdalnym. Bedziemy korzystać z platformy ZOOM.
-Dodatkowe informacje o tym programie znajdują się na [stronie](https://kacpertopol.github.io/0pl.html)
-a poniżej można znaleźć informacje potrzebne do dołączenia do zajęć.
+Zajęcia będą prowadzone w trybie stacjonarnym proszę jednak monitorować 
+zarządzenia związane z sytuacją epidemiologiczną. Jeżeli będzie taka
+potrzeba zmienimy tryb prowadzenia na zdalny. 
 
 <center>
 **MATHEMATICA**
@@ -66,17 +63,6 @@ Na ocenę końcową składać się będą:
 
 
 
-# Link do zajęć
-
-<center>
-**ZOOM**
-</center>
-
-- link: <https://us02web.zoom.us/j/84329473679?pwd=OVp4UDVDbWhJTS91bkx4K3hzRnBnUT09>
-- Meeting ID: 843 2947 3679
-- Passcode: 9QY6uX
-
-
 # Wykład (prof Jacek Golak)
 
 Wykłady profesora Jacka Golaka bedą dostępne na stronie:
@@ -86,13 +72,6 @@ Wykłady profesora Jacka Golaka bedą dostępne na stronie:
 
 # [Zestawy zadań](./000pl_inv.html)
 
-
-
-# Konsultacje grupowe
-
-Dodatkowe konsultacje grupowe odbędą się we wtorek 19 I 2020 o godzinie 14:00.
-Bardzo proszę o uczestnictwo osoby mające kłopoty z zadaniami. Proszę spróbować
-zrobić jak najwięcej zadań a we wtorek porozmawiamy o kłopotach.
 
 
 # [Projekty studenckie](./0000pl_inv.html)

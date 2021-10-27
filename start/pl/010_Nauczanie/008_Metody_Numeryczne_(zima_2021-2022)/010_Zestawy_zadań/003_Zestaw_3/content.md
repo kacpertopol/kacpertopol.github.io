@@ -2,6 +2,14 @@
 **MATERIAŁY DODATKOWE**
 </center>
 
+- [niezbyt efektywny algorytm liczenia rozwinięcia binarnego](---ThisDir---/a.py)
+  - informacje `python a.py -h`, uruchamianie na własną odpowiedzialność :-)
+- [liczenie normy macierzowej w numpy](---ThisDir---/b.py)
+  - informacje `python b.py -h`, uruchamianie na własną odpowiedzialność :-)
+- dodatkowe wykłady związane z normami macierzowymi:
+  - [cornell](https://www.cs.cornell.edu/~bindel/class/cs6210-f09/lec03.pdf)
+  - [mit](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-241j-dynamic-systems-and-control-spring-2011/readings/MIT6_241JS11_chap04.pdf)
+
 <center>
 **A**
 </center>

@@ -2,6 +2,9 @@
 **MATERIAŁY DODATKOWE**
 </center>
 
+- [skrypt do manipulowania macierzą w rozkładzie LU](---ThisDir---/lu.py)
+  - nie jest to arcydzieło programowania ale powinno ładnie ilustrować algorytm
+
 <center>
 **A**
 </center>

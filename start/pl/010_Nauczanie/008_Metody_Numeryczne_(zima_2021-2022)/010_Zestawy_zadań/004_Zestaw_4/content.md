@@ -5,6 +5,8 @@
 - [skrypt do manipulowania macierzą w rozkładzie LU](---ThisDir---/lu.py)
   - nie jest to arcydzieło programowania ale powinno ładnie ilustrować algorytm
 
+- [implementacja faktoryzacji Cholesky'ego w różnych językach programowania](https://www.geeksforgeeks.org/cholesky-decomposition-matrix-decomposition/)
+
 <center>
 **A**
 </center>

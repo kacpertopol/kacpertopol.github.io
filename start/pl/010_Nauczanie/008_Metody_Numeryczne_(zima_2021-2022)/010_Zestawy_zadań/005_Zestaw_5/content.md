@@ -2,6 +2,13 @@
 **MATERIAŁY DODATKOWE**
 </center>
 
+[Notebook Mathematici](---ThisDir---/chol.nb) ilustrujący algorytm Cholesky'ego:
+
+- wystarczy odpalić ``Evaluate Notebook" i przyjrzeć się `Manipulate`
+- zmienna `krok` to numer kroku algorytmu
+- na niebiesko zaznaczone są wartości elementów macierzowych, których jeszcze nie znamy
+- na czarno zaznaczone są wartości elementów macierzowych, które znamy na danym etapie algorytmu
+
 Ciekawostka, nieskończone macierze w Mathematice:
 
 - [część 1](https://kacpertopol.github.io/myblog/2021-01-16_gen_light.html)

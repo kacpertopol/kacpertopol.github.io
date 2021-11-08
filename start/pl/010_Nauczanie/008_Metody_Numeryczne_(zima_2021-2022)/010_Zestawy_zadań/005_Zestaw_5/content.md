@@ -10,6 +10,14 @@
 - na czarno zaznaczone są wartości elementów macierzowych, które znamy na danym etapie algorytmu
 - przykład zajmuje się macierzami 4x4 ale można go łatwo uogólnić
 
+<!--BEGIN_HTML
+<center>
+<video width="480" controls>
+<source src="---ThisDir---/anim.mp4" type="video/mp4">
+</video>
+</center>
+END_HTML-->
+
 Ciekawostka, nieskończone macierze w Mathematice:
 
 - [część 1](https://kacpertopol.github.io/myblog/2021-01-16_gen_light.html)

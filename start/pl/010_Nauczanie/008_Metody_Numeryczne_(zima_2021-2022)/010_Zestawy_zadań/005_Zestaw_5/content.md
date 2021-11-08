@@ -4,7 +4,7 @@
 
 [Notebook Mathematici](---ThisDir---/chol.nb) ilustrujący algorytm Cholesky'ego:
 
-- wystarczy odpalić ``Evaluate Notebook" i przyjrzeć się `Manipulate`
+- wystarczy odpalić "Evaluate Notebook" i przyjrzeć się `Manipulate`
 - zmienna `krok` to numer kroku algorytmu
 - na niebiesko zaznaczone są wartości elementów macierzowych, których jeszcze nie znamy
 - na czarno zaznaczone są wartości elementów macierzowych, które znamy na danym etapie algorytmu

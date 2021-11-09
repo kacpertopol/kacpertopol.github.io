@@ -611,10 +611,11 @@ $$
 **MATERIAŁY DODATKOWE**
 </center>
 
-- [slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/004_Zestaw_4/2020-10-29-Note-19-14.pdf) z zajęć
+- [slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/004_Zestaw_4/2020-10-29-Note-19-14.pdf) z zajęć 2020/2021
 - [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQzo1_M0FJ9HiTFxa9Qpz1kBiR8Mi8Gwqeur09PRbxyv6w?e=NDes4C) z zajęć
 - [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/004_Zestaw_4/poisson.nb) rozwiązujący równanie laplaca
 - chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/004_Zestaw_4/cwiczenia.nb) z zajęć
+- chaotyczne [notatki](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/004_Zestaw_4/cs.pdf)
 
 <center>
 **A**

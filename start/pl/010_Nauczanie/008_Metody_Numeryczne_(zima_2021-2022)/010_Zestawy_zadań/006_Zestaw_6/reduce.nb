@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     41296,       1073]
-NotebookOptionsPosition[     35772,        984]
-NotebookOutlinePosition[     36214,       1001]
-CellTagsIndexPosition[     36171,        998]
+NotebookDataLength[     41859,       1079]
+NotebookOptionsPosition[     36321,        990]
+NotebookOutlinePosition[     36767,       1007]
+CellTagsIndexPosition[     36724,       1004]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -198,10 +198,14 @@ Cell[BoxData[
    RowBox[{"(", 
     RowBox[{"TensorContract", "[", 
      RowBox[{
-      RowBox[{"A", "\[TensorProduct]", "p1"}], " ", ",", " ", 
+      RowBox[{"p1", "\[TensorProduct]", "A", "\[TensorProduct]", "p1"}], " ", 
+      ",", " ", 
       RowBox[{"{", 
-       RowBox[{"{", 
-        RowBox[{"2", " ", ",", " ", "3"}], "}"}], "}"}]}], "]"}], 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", " ", ",", " ", "2"}], "}"}], " ", ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"3", " ", ",", " ", "4"}], "}"}]}], "}"}]}], "]"}], 
     ")"}]}]}]], "Text",
  CellChangeTimes->{{3.8460417205658493`*^9, 3.8460417206261473`*^9}, {
    3.8460423463670607`*^9, 3.846042437384363*^9}, {3.846042477728479*^9, 
@@ -210,19 +214,20 @@ Cell[BoxData[
    3.846043146869072*^9}, {3.846043184019042*^9, 3.8460431842906933`*^9}, {
    3.846043396355502*^9, 3.846043465492435*^9}, {3.846043502428028*^9, 
    3.846043558956572*^9}, 3.846043600773109*^9, {3.84604417083841*^9, 
-   3.8460441845278063`*^9}},ExpressionUUID->"47988d2e-0f42-48a5-84ff-\
+   3.8460441845278063`*^9}, {3.846145493548822*^9, 
+   3.846145501091302*^9}},ExpressionUUID->"47988d2e-0f42-48a5-84ff-\
 1fcdf9c9e619"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"\[Alpha]1", " ", "=", " ", 
-   FractionBox[
+   RowBox[{
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"r1", "\[TensorProduct]", "r1"}], " ", ",", " ", 
       RowBox[{"{", 
        RowBox[{"{", 
-        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], 
+        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], "/", 
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"p1", "\[TensorProduct]", "A", "\[TensorProduct]", "p1"}], " ", 
@@ -232,7 +237,7 @@ Cell[BoxData[
         RowBox[{"{", 
          RowBox[{"1", " ", ",", " ", "2"}], "}"}], " ", ",", " ", 
         RowBox[{"{", 
-         RowBox[{"3", " ", ",", " ", "4"}], "}"}]}], "}"}]}], "]"}]]}], 
+         RowBox[{"3", " ", ",", " ", "4"}], "}"}]}], "}"}]}], "]"}]}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.845981615594507*^9, 3.845981628009568*^9}, {
   3.845987013201795*^9, 3.845987022289105*^9}},
@@ -259,19 +264,19 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{
   RowBox[{"\[Beta]1", " ", "=", " ", 
-   FractionBox[
+   RowBox[{
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"r2", "\[TensorProduct]", "r2"}], " ", ",", " ", 
       RowBox[{"{", 
        RowBox[{"{", 
-        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], 
+        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], "/", 
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"r1", "\[TensorProduct]", "r1"}], " ", ",", " ", 
       RowBox[{"{", 
        RowBox[{"{", 
-        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}]]}], 
+        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}]}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.8459816486193447`*^9, 3.845981694228675*^9}, {
   3.8459818222512503`*^9, 3.845981830147953*^9}, {3.8459870955326223`*^9, 
@@ -339,8 +344,8 @@ Cell[BoxData[
  CellLabel->"In[7]:=",ExpressionUUID->"b33635d5-2e2f-46f7-99f0-dffd874511ed"],
 
 Cell[BoxData["True"], "Output",
- CellChangeTimes->{3.846048064122857*^9},
- CellLabel->"Out[7]=",ExpressionUUID->"b821d354-e629-455c-962a-c60e1b8292e0"]
+ CellChangeTimes->{3.846048064122857*^9, 3.846145641047771*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"f7768549-ffa7-4454-a2d6-4572bd3c04f7"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -368,8 +373,8 @@ Cell[BoxData[
  CellLabel->"In[9]:=",ExpressionUUID->"65b26e26-ed93-47b2-bfaa-da646a957514"],
 
 Cell[BoxData["0"], "Output",
- CellChangeTimes->{3.8460480641652184`*^9},
- CellLabel->"Out[9]=",ExpressionUUID->"0931b607-9b17-499b-8be4-746369824db3"]
+ CellChangeTimes->{3.8460480641652184`*^9, 3.84614564111301*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"ce2a0b9c-dd94-422a-9a56-d1c90e1218af"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -395,8 +400,8 @@ Cell[BoxData[
  CellLabel->"In[11]:=",ExpressionUUID->"b44eba0d-92b2-45e8-b2ad-1f50209691c1"],
 
 Cell[BoxData["0"], "Output",
- CellChangeTimes->{3.8460480642017717`*^9},
- CellLabel->"Out[11]=",ExpressionUUID->"9d0f2111-e7fe-43c2-9baf-af8d2d5ab189"]
+ CellChangeTimes->{3.8460480642017717`*^9, 3.846145641156494*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"7c87d23e-3945-4397-afd6-4a24506f6b0b"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -429,8 +434,8 @@ Cell[BoxData[
  CellLabel->"In[13]:=",ExpressionUUID->"b828b845-c797-47c8-8e82-2eb5d2b8fea3"],
 
 Cell[BoxData["0"], "Output",
- CellChangeTimes->{3.84604806460631*^9},
- CellLabel->"Out[13]=",ExpressionUUID->"0688418a-c30e-4d44-b78f-4d2c9b0fc68e"]
+ CellChangeTimes->{3.84604806460631*^9, 3.846145641878512*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"f6c7f65b-098e-4323-b661-923f893891fd"]
 }, Open  ]]
 }, Open  ]],
 
@@ -444,13 +449,13 @@ Cell["indukcja", "Section",
 Cell[BoxData[
  RowBox[{
   RowBox[{"\[Alpha]k", " ", "=", " ", 
-   FractionBox[
+   RowBox[{
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"rk", "\[TensorProduct]", "rk"}], " ", ",", " ", 
       RowBox[{"{", 
        RowBox[{"{", 
-        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], 
+        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], "/", 
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"pk", "\[TensorProduct]", "A", "\[TensorProduct]", "pk"}], " ", 
@@ -460,7 +465,7 @@ Cell[BoxData[
         RowBox[{"{", 
          RowBox[{"1", " ", ",", " ", "2"}], "}"}], " ", ",", " ", 
         RowBox[{"{", 
-         RowBox[{"3", " ", ",", " ", "4"}], "}"}]}], "}"}]}], "]"}]]}], 
+         RowBox[{"3", " ", ",", " ", "4"}], "}"}]}], "}"}]}], "]"}]}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.845981615594507*^9, 3.845981628009568*^9}, {
   3.845987013201795*^9, 3.845987022289105*^9}, {3.846044520419417*^9, 
@@ -489,19 +494,19 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{
   RowBox[{"\[Beta]k", " ", "=", " ", 
-   FractionBox[
+   RowBox[{
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"rkp", "\[TensorProduct]", "rkp"}], " ", ",", " ", 
       RowBox[{"{", 
        RowBox[{"{", 
-        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], 
+        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], "/", 
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"rk", "\[TensorProduct]", "rk"}], " ", ",", " ", 
       RowBox[{"{", 
        RowBox[{"{", 
-        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}]]}], 
+        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}]}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.8459816486193447`*^9, 3.845981694228675*^9}, {
   3.8459818222512503`*^9, 3.845981830147953*^9}, {3.8459870955326223`*^9, 
@@ -523,13 +528,13 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{
   RowBox[{"\[Alpha]km", " ", "=", " ", 
-   FractionBox[
+   RowBox[{
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"rkm", "\[TensorProduct]", "rkm"}], " ", ",", " ", 
       RowBox[{"{", 
        RowBox[{"{", 
-        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], 
+        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], "/", 
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"pkm", "\[TensorProduct]", "A", "\[TensorProduct]", "pkm"}], 
@@ -539,7 +544,7 @@ Cell[BoxData[
         RowBox[{"{", 
          RowBox[{"1", " ", ",", " ", "2"}], "}"}], " ", ",", " ", 
         RowBox[{"{", 
-         RowBox[{"3", " ", ",", " ", "4"}], "}"}]}], "}"}]}], "]"}]]}], 
+         RowBox[{"3", " ", ",", " ", "4"}], "}"}]}], "}"}]}], "]"}]}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.845981615594507*^9, 3.845981628009568*^9}, {
   3.845987013201795*^9, 3.845987022289105*^9}, {3.846044520419417*^9, 
@@ -571,19 +576,19 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{
   RowBox[{"\[Beta]km", " ", "=", " ", 
-   FractionBox[
+   RowBox[{
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"rk", "\[TensorProduct]", "rk"}], " ", ",", " ", 
       RowBox[{"{", 
        RowBox[{"{", 
-        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], 
+        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}], "/", 
     RowBox[{"TensorContract", "[", 
      RowBox[{
       RowBox[{"rkm", "\[TensorProduct]", "rkm"}], " ", ",", " ", 
       RowBox[{"{", 
        RowBox[{"{", 
-        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}]]}], 
+        RowBox[{"1", " ", ",", " ", "2"}], "}"}], "}"}]}], "]"}]}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.8459816486193447`*^9, 3.845981694228675*^9}, {
   3.8459818222512503`*^9, 3.845981830147953*^9}, {3.8459870955326223`*^9, 
@@ -673,43 +678,10 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{
   RowBox[{
-   FractionBox["1", 
-    RowBox[{"TensorContract", "[", 
-     RowBox[{
-      RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "pk"}], ",", 
-      
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"1", ",", "3"}], "}"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]], 
-   RowBox[{
-    RowBox[{"(", 
-     RowBox[{
-      RowBox[{"TensorContract", "[", 
-       RowBox[{
-        RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "pk"}], 
-        ",", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"1", ",", "3"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}], "-", 
-      RowBox[{"TensorContract", "[", 
-       RowBox[{
-        RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "rk"}], 
-        ",", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"1", ",", "3"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]}], ")"}], " ", 
-    RowBox[{"(", 
-     RowBox[{
-      SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
        RowBox[{"TensorContract", "[", 
         RowBox[{
          RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "pk"}], 
@@ -719,18 +691,7 @@ Cell[BoxData[
            RowBox[{"{", 
             RowBox[{"1", ",", "3"}], "}"}], ",", 
            RowBox[{"{", 
-            RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}], "2"], "-", 
-      RowBox[{"2", " ", 
-       RowBox[{"TensorContract", "[", 
-        RowBox[{
-         RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "pk"}], 
-         ",", 
-         RowBox[{"{", 
-          RowBox[{
-           RowBox[{"{", 
-            RowBox[{"1", ",", "3"}], "}"}], ",", 
-           RowBox[{"{", 
-            RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}], " ", 
+            RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}], "-", 
        RowBox[{"TensorContract", "[", 
         RowBox[{
          RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "rk"}], 
@@ -740,30 +701,74 @@ Cell[BoxData[
            RowBox[{"{", 
             RowBox[{"1", ",", "3"}], "}"}], ",", 
            RowBox[{"{", 
-            RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]}], "+", 
+            RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]}], ")"}], " ", 
+     RowBox[{"(", 
       RowBox[{
-       RowBox[{"TensorContract", "[", 
-        RowBox[{
-         RowBox[{"rk", "\[TensorProduct]", "rk"}], ",", 
-         RowBox[{"{", 
-          RowBox[{"{", 
-           RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}], " ", 
-       RowBox[{"TensorContract", "[", 
-        RowBox[{
+       SuperscriptBox[
+        RowBox[{"TensorContract", "[", 
          RowBox[{
-         "A", "\[TensorProduct]", "A", "\[TensorProduct]", "pk", 
-          "\[TensorProduct]", "pk"}], ",", 
-         RowBox[{"{", 
+          RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "pk"}], 
+          ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "3"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}], "2"], "-", 
+       RowBox[{"2", " ", 
+        RowBox[{"TensorContract", "[", 
+         RowBox[{
+          RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "pk"}], 
+          ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "3"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}], " ", 
+        RowBox[{"TensorContract", "[", 
+         RowBox[{
+          RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "rk"}], 
+          ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "3"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"TensorContract", "[", 
+         RowBox[{
+          RowBox[{"rk", "\[TensorProduct]", "rk"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}], " ", 
+        RowBox[{"TensorContract", "[", 
+         RowBox[{
           RowBox[{
-           RowBox[{"{", 
-            RowBox[{"1", ",", "3"}], "}"}], ",", 
-           RowBox[{"{", 
-            RowBox[{"2", ",", "5"}], "}"}], ",", 
-           RowBox[{"{", 
-            RowBox[{"4", ",", "6"}], "}"}]}], "}"}]}], "]"}]}]}], ")"}]}]}], 
-  "\[Equal]", "0"}]], "Output",
- CellChangeTimes->{3.846048067093861*^9},
- CellLabel->"Out[24]=",ExpressionUUID->"a9b47b37-0af8-4eca-a541-98564a9314ee"]
+          "A", "\[TensorProduct]", "A", "\[TensorProduct]", "pk", 
+           "\[TensorProduct]", "pk"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "3"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"2", ",", "5"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"4", ",", "6"}], "}"}]}], "}"}]}], "]"}]}]}], ")"}]}], 
+    ")"}], "/", 
+   RowBox[{"TensorContract", "[", 
+    RowBox[{
+     RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "pk"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]}], "\[Equal]", 
+  "0"}]], "Output",
+ CellChangeTimes->{3.846048067093861*^9, 3.846145644218603*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"61f51299-9c36-4285-8131-4735ee674727"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -804,24 +809,24 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{"{", 
       RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}], "-", 
-  FractionBox[
-   RowBox[{
-    RowBox[{"TensorContract", "[", 
-     RowBox[{
-      RowBox[{"rk", "\[TensorProduct]", "rk"}], ",", 
-      RowBox[{"{", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"TensorContract", "[", 
+      RowBox[{
+       RowBox[{"rk", "\[TensorProduct]", "rk"}], ",", 
        RowBox[{"{", 
-        RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}], " ", 
-    RowBox[{"TensorContract", "[", 
-     RowBox[{
-      RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "rk"}], ",", 
-      
-      RowBox[{"{", 
-       RowBox[{
         RowBox[{"{", 
-         RowBox[{"1", ",", "3"}], "}"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]}], 
+         RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}], " ", 
+     RowBox[{"TensorContract", "[", 
+      RowBox[{
+       RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "rk"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"1", ",", "3"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]}], ")"}], "/", 
    RowBox[{"TensorContract", "[", 
     RowBox[{
      RowBox[{"A", "\[TensorProduct]", "pk", "\[TensorProduct]", "pk"}], ",", 
@@ -830,9 +835,9 @@ Cell[BoxData[
        RowBox[{"{", 
         RowBox[{"1", ",", "3"}], "}"}], ",", 
        RowBox[{"{", 
-        RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]]}]], "Output",
- CellChangeTimes->{3.8460480672414017`*^9},
- CellLabel->"Out[27]=",ExpressionUUID->"eedb7c05-0fba-4c36-8801-5a3714aa24b2"]
+        RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]}]}]], "Output",
+ CellChangeTimes->{3.8460480672414017`*^9, 3.8461456442730093`*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"bde1060d-6190-4e8f-9e7d-29b21ed0ca9d"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -879,8 +884,8 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{"{", 
       RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}]}]], "Output",
- CellChangeTimes->{3.846048067305551*^9},
- CellLabel->"Out[30]=",ExpressionUUID->"08d0fc5d-16d0-4c8f-b5d5-6c8cc2362a5e"]
+ CellChangeTimes->{3.846048067305551*^9, 3.846145644303096*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"8ce08773-0b61-49f5-97b9-b31a28533d1e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -900,28 +905,29 @@ Cell[BoxData[
  CellLabel->"In[31]:=",ExpressionUUID->"94adf2f6-72f6-4c9e-be05-692dae2fc602"],
 
 Cell[BoxData[
- FractionBox[
-  RowBox[{
-   RowBox[{"TensorContract", "[", 
-    RowBox[{
-     RowBox[{"pkm", "\[TensorProduct]", "rk"}], ",", 
-     RowBox[{"{", 
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"TensorContract", "[", 
+     RowBox[{
+      RowBox[{"pkm", "\[TensorProduct]", "rk"}], ",", 
       RowBox[{"{", 
-       RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}], " ", 
-   RowBox[{"TensorContract", "[", 
-    RowBox[{
-     RowBox[{"rk", "\[TensorProduct]", "rk"}], ",", 
-     RowBox[{"{", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}], " ", 
+    RowBox[{"TensorContract", "[", 
+     RowBox[{
+      RowBox[{"rk", "\[TensorProduct]", "rk"}], ",", 
       RowBox[{"{", 
-       RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}]}], 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}]}], ")"}], "/", 
   RowBox[{"TensorContract", "[", 
    RowBox[{
     RowBox[{"rkm", "\[TensorProduct]", "rkm"}], ",", 
     RowBox[{"{", 
      RowBox[{"{", 
-      RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}]]], "Output",
- CellChangeTimes->{3.846048067526326*^9},
- CellLabel->"Out[31]=",ExpressionUUID->"d7436515-8a1a-441e-b102-2304a34eab58"]
+      RowBox[{"1", ",", "2"}], "}"}], "}"}]}], "]"}]}]], "Output",
+ CellChangeTimes->{3.846048067526326*^9, 3.846145644360564*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"0fb62964-dd47-4e2f-a5ef-26865499b465"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -977,13 +983,13 @@ Cell[BoxData[
        RowBox[{"1", ",", "3"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"2", ",", "4"}], "}"}]}], "}"}]}], "]"}]}]], "Output",
- CellChangeTimes->{3.8460480680164557`*^9},
- CellLabel->"Out[34]=",ExpressionUUID->"84616a62-4f76-400b-bb00-f194d4078359"]
+ CellChangeTimes->{3.8460480680164557`*^9, 3.846145644599115*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"5ec6cb76-0b21-40e0-ade6-29deb22eb77b"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1440, 810},
-WindowMargins->{{1440, Automatic}, {Automatic, 0}},
+WindowSize->{345.75, 792.},
+WindowMargins->{{Automatic, -1431}, {Automatic, 9}},
 TaggingRules->Association["TryRealOnly" -> False],
 FrontEndVersion->"12.3 for Linux x86 (64-bit) (July 9, 2021)",
 StyleDefinitions->"Default.nb",
@@ -1002,77 +1008,77 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 171, 3, 68, "Section",ExpressionUUID->"68964d20-1484-4b5f-ae14-ac8b8c3544cc"],
-Cell[754, 27, 614, 11, 58, "Text",ExpressionUUID->"e4c18155-1b5e-419b-bdec-50590cff6f89"],
-Cell[1371, 40, 1362, 31, 30, "Input",ExpressionUUID->"263654de-df05-427c-ab67-123523455ad6"]
+Cell[754, 27, 614, 11, 173, "Text",ExpressionUUID->"e4c18155-1b5e-419b-bdec-50590cff6f89"],
+Cell[1371, 40, 1362, 31, 154, "Input",ExpressionUUID->"263654de-df05-427c-ab67-123523455ad6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2770, 76, 348, 5, 68, "Section",ExpressionUUID->"ff039637-5e0b-419d-9f7f-c2b7bd6cf7cc"],
-Cell[3121, 83, 1685, 39, 73, "Text",ExpressionUUID->"a9d2e7d7-bf47-4f7f-a929-61f4f31667dd"],
-Cell[4809, 124, 1654, 39, 73, "Text",ExpressionUUID->"1db10ea1-1334-44d1-8b4e-c7e1b6696571"],
-Cell[6466, 165, 1950, 48, 100, "Text",ExpressionUUID->"47988d2e-0f42-48a5-84ff-1fcdf9c9e619"],
-Cell[8419, 215, 878, 23, 48, "Input",ExpressionUUID->"487f011a-b0cc-46de-a3fd-bafe4b43939a"],
-Cell[9300, 240, 733, 16, 29, "Input",ExpressionUUID->"92975e5a-4ac3-47de-af7e-fbb435da0d44"],
-Cell[10036, 258, 791, 20, 48, "Input",ExpressionUUID->"ce1eba7c-a672-4e7a-881a-ab1fdb5a6fcc"],
-Cell[10830, 280, 479, 9, 29, "Input",ExpressionUUID->"22338413-5dad-47bb-a647-e2b4afecef57"],
-Cell[11312, 291, 292, 6, 35, "Text",ExpressionUUID->"a6257077-7244-4872-a63f-9503cd4c9bae"],
-Cell[11607, 299, 237, 4, 29, "Input",ExpressionUUID->"817a5a2b-b8c0-4e39-8d5a-a45d12b30512"],
+Cell[2770, 76, 348, 5, 185, "Section",ExpressionUUID->"ff039637-5e0b-419d-9f7f-c2b7bd6cf7cc"],
+Cell[3121, 83, 1685, 39, 244, "Text",ExpressionUUID->"a9d2e7d7-bf47-4f7f-a929-61f4f31667dd"],
+Cell[4809, 124, 1654, 39, 170, "Text",ExpressionUUID->"1db10ea1-1334-44d1-8b4e-c7e1b6696571"],
+Cell[6466, 165, 2142, 53, 198, "Text",ExpressionUUID->"47988d2e-0f42-48a5-84ff-1fcdf9c9e619"],
+Cell[8611, 220, 880, 23, 71, "Input",ExpressionUUID->"487f011a-b0cc-46de-a3fd-bafe4b43939a"],
+Cell[9494, 245, 733, 16, 29, "Input",ExpressionUUID->"92975e5a-4ac3-47de-af7e-fbb435da0d44"],
+Cell[10230, 263, 793, 20, 48, "Input",ExpressionUUID->"ce1eba7c-a672-4e7a-881a-ab1fdb5a6fcc"],
+Cell[11026, 285, 479, 9, 29, "Input",ExpressionUUID->"22338413-5dad-47bb-a647-e2b4afecef57"],
+Cell[11508, 296, 292, 6, 58, "Text",ExpressionUUID->"a6257077-7244-4872-a63f-9503cd4c9bae"],
+Cell[11803, 304, 237, 4, 29, "Input",ExpressionUUID->"817a5a2b-b8c0-4e39-8d5a-a45d12b30512"],
 Cell[CellGroupData[{
-Cell[11869, 307, 1117, 31, 29, "Input",ExpressionUUID->"b33635d5-2e2f-46f7-99f0-dffd874511ed"],
-Cell[12989, 340, 151, 2, 33, "Output",ExpressionUUID->"b821d354-e629-455c-962a-c60e1b8292e0"]
+Cell[12065, 312, 1117, 31, 154, "Input",ExpressionUUID->"b33635d5-2e2f-46f7-99f0-dffd874511ed"],
+Cell[13185, 345, 173, 2, 33, "Output",ExpressionUUID->"f7768549-ffa7-4454-a2d6-4572bd3c04f7"]
 }, Open  ]],
-Cell[13155, 345, 213, 4, 29, "Input",ExpressionUUID->"f2a089cc-3412-4fe3-a537-98fd9745de65"],
+Cell[13373, 350, 213, 4, 29, "Input",ExpressionUUID->"f2a089cc-3412-4fe3-a537-98fd9745de65"],
 Cell[CellGroupData[{
-Cell[13393, 353, 640, 14, 29, "Input",ExpressionUUID->"65b26e26-ed93-47b2-bfaa-da646a957514"],
-Cell[14036, 369, 150, 2, 33, "Output",ExpressionUUID->"0931b607-9b17-499b-8be4-746369824db3"]
+Cell[13611, 358, 640, 14, 71, "Input",ExpressionUUID->"65b26e26-ed93-47b2-bfaa-da646a957514"],
+Cell[14254, 374, 171, 2, 33, "Output",ExpressionUUID->"ce2a0b9c-dd94-422a-9a56-d1c90e1218af"]
 }, Open  ]],
-Cell[14201, 374, 214, 4, 29, "Input",ExpressionUUID->"9369c3d4-2cdc-4be1-ae94-056677e4fee4"],
+Cell[14440, 379, 214, 4, 29, "Input",ExpressionUUID->"9369c3d4-2cdc-4be1-ae94-056677e4fee4"],
 Cell[CellGroupData[{
-Cell[14440, 382, 495, 12, 29, "Input",ExpressionUUID->"b44eba0d-92b2-45e8-b2ad-1f50209691c1"],
-Cell[14938, 396, 151, 2, 33, "Output",ExpressionUUID->"9d0f2111-e7fe-43c2-9baf-af8d2d5ab189"]
+Cell[14679, 387, 495, 12, 71, "Input",ExpressionUUID->"b44eba0d-92b2-45e8-b2ad-1f50209691c1"],
+Cell[15177, 401, 173, 2, 33, "Output",ExpressionUUID->"7c87d23e-3945-4397-afd6-4a24506f6b0b"]
 }, Open  ]],
-Cell[15104, 401, 213, 4, 29, "Input",ExpressionUUID->"0266eaa2-4935-4417-bcea-7a933a751ed9"],
+Cell[15365, 406, 213, 4, 29, "Input",ExpressionUUID->"0266eaa2-4935-4417-bcea-7a933a751ed9"],
 Cell[CellGroupData[{
-Cell[15342, 409, 810, 19, 29, "Input",ExpressionUUID->"b828b845-c797-47c8-8e82-2eb5d2b8fea3"],
-Cell[16155, 430, 148, 2, 33, "Output",ExpressionUUID->"0688418a-c30e-4d44-b78f-4d2c9b0fc68e"]
+Cell[15603, 414, 810, 19, 71, "Input",ExpressionUUID->"b828b845-c797-47c8-8e82-2eb5d2b8fea3"],
+Cell[16416, 435, 170, 2, 33, "Output",ExpressionUUID->"f6c7f65b-098e-4323-b661-923f893891fd"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16352, 438, 155, 3, 68, "Section",ExpressionUUID->"03383b79-ae46-45bb-b8a7-717d8f30d2ca"],
-Cell[16510, 443, 930, 24, 48, "Input",ExpressionUUID->"9e6d26b4-a0f8-4d89-9ae5-a34c94c3747c"],
-Cell[17443, 469, 785, 17, 29, "Input",ExpressionUUID->"170b6ae3-105d-4785-baec-53c30e575880"],
-Cell[18231, 488, 840, 20, 48, "Input",ExpressionUUID->"4a27875f-38d2-486b-8502-501942c3bdce"],
-Cell[19074, 510, 536, 10, 29, "Input",ExpressionUUID->"f26e34ae-7fc3-4260-9378-cd7e23e6fbde"],
-Cell[19613, 522, 983, 24, 48, "Input",ExpressionUUID->"fca11556-0ebf-4ad7-a64c-7d5268015a8d"],
-Cell[20599, 548, 967, 20, 29, "Input",ExpressionUUID->"6768f9d8-9991-47a2-aa9e-c362bd71a2e2"],
-Cell[21569, 570, 890, 21, 48, "Input",ExpressionUUID->"be0239e0-c433-4b71-a26d-ea5fe6602774"],
-Cell[22462, 593, 753, 14, 29, "Input",ExpressionUUID->"c4741d7e-3980-49c6-beae-a0e09e9997e9"],
-Cell[23218, 609, 238, 4, 29, "Input",ExpressionUUID->"6b99c216-874f-40e3-8658-3d5ea406eda0"],
-Cell[23459, 615, 914, 24, 29, "Input",ExpressionUUID->"58bec43c-ccf1-47ae-9ad6-8a0f24c63058"],
+Cell[16635, 443, 155, 3, 68, "Section",ExpressionUUID->"03383b79-ae46-45bb-b8a7-717d8f30d2ca"],
+Cell[16793, 448, 932, 24, 48, "Input",ExpressionUUID->"9e6d26b4-a0f8-4d89-9ae5-a34c94c3747c"],
+Cell[17728, 474, 785, 17, 29, "Input",ExpressionUUID->"170b6ae3-105d-4785-baec-53c30e575880"],
+Cell[18516, 493, 842, 20, 48, "Input",ExpressionUUID->"4a27875f-38d2-486b-8502-501942c3bdce"],
+Cell[19361, 515, 536, 10, 29, "Input",ExpressionUUID->"f26e34ae-7fc3-4260-9378-cd7e23e6fbde"],
+Cell[19900, 527, 985, 24, 48, "Input",ExpressionUUID->"fca11556-0ebf-4ad7-a64c-7d5268015a8d"],
+Cell[20888, 553, 967, 20, 29, "Input",ExpressionUUID->"6768f9d8-9991-47a2-aa9e-c362bd71a2e2"],
+Cell[21858, 575, 892, 21, 48, "Input",ExpressionUUID->"be0239e0-c433-4b71-a26d-ea5fe6602774"],
+Cell[22753, 598, 753, 14, 29, "Input",ExpressionUUID->"c4741d7e-3980-49c6-beae-a0e09e9997e9"],
+Cell[23509, 614, 238, 4, 29, "Input",ExpressionUUID->"6b99c216-874f-40e3-8658-3d5ea406eda0"],
+Cell[23750, 620, 914, 24, 29, "Input",ExpressionUUID->"58bec43c-ccf1-47ae-9ad6-8a0f24c63058"],
 Cell[CellGroupData[{
-Cell[24398, 643, 985, 27, 29, "Input",ExpressionUUID->"b733d3e8-a325-4b4c-990f-e4ae1148a503"],
-Cell[25386, 672, 3161, 93, 97, "Output",ExpressionUUID->"a9b47b37-0af8-4eca-a541-98564a9314ee"]
+Cell[24689, 648, 985, 27, 133, "Input",ExpressionUUID->"b733d3e8-a325-4b4c-990f-e4ae1148a503"],
+Cell[25677, 677, 3256, 93, 514, "Output",ExpressionUUID->"61f51299-9c36-4285-8131-4735ee674727"]
 }, Open  ]],
-Cell[28562, 768, 216, 4, 29, "Input",ExpressionUUID->"f5ef55d8-2e8f-4a73-b3a4-6a2ec416e490"],
-Cell[28781, 774, 329, 6, 29, "Input",ExpressionUUID->"b859ffe1-49f3-4f9e-97b6-e9cce229a416"],
+Cell[28948, 773, 216, 4, 29, "Input",ExpressionUUID->"f5ef55d8-2e8f-4a73-b3a4-6a2ec416e490"],
+Cell[29167, 779, 329, 6, 29, "Input",ExpressionUUID->"b859ffe1-49f3-4f9e-97b6-e9cce229a416"],
 Cell[CellGroupData[{
-Cell[29135, 784, 514, 12, 29, "Input",ExpressionUUID->"d5f75d58-74f4-43b3-943d-0b35508cc583"],
-Cell[29652, 798, 1220, 36, 51, "Output",ExpressionUUID->"eedb7c05-0fba-4c36-8801-5a3714aa24b2"]
+Cell[29521, 789, 514, 12, 51, "Input",ExpressionUUID->"d5f75d58-74f4-43b3-943d-0b35508cc583"],
+Cell[30038, 803, 1279, 36, 178, "Output",ExpressionUUID->"bde1060d-6190-4e8f-9e7d-29b21ed0ca9d"]
 }, Open  ]],
-Cell[30887, 837, 214, 4, 29, "Input",ExpressionUUID->"7b624794-9cad-40fe-a586-e2945b1bdbeb"],
-Cell[31104, 843, 393, 7, 29, "Input",ExpressionUUID->"8eb22216-12ea-4eb7-b9e4-a262d373a5a0"],
+Cell[31332, 842, 214, 4, 29, "Input",ExpressionUUID->"7b624794-9cad-40fe-a586-e2945b1bdbeb"],
+Cell[31549, 848, 393, 7, 71, "Input",ExpressionUUID->"8eb22216-12ea-4eb7-b9e4-a262d373a5a0"],
 Cell[CellGroupData[{
-Cell[31522, 854, 467, 11, 29, "Input",ExpressionUUID->"2c643706-7cc1-4cf3-ad5c-6c37601111f9"],
-Cell[31992, 867, 541, 15, 33, "Output",ExpressionUUID->"08d0fc5d-16d0-4c8f-b5d5-6c8cc2362a5e"]
+Cell[31967, 859, 467, 11, 51, "Input",ExpressionUUID->"2c643706-7cc1-4cf3-ad5c-6c37601111f9"],
+Cell[32437, 872, 563, 15, 75, "Output",ExpressionUUID->"8ce08773-0b61-49f5-97b9-b31a28533d1e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32570, 887, 493, 12, 29, "Input",ExpressionUUID->"94adf2f6-72f6-4c9e-be05-692dae2fc602"],
-Cell[33066, 901, 762, 22, 51, "Output",ExpressionUUID->"d7436515-8a1a-441e-b102-2304a34eab58"]
+Cell[33037, 892, 493, 12, 71, "Input",ExpressionUUID->"94adf2f6-72f6-4c9e-be05-692dae2fc602"],
+Cell[33533, 906, 822, 23, 117, "Output",ExpressionUUID->"0fb62964-dd47-4e2f-a5ef-26865499b465"]
 }, Open  ]],
-Cell[33843, 926, 216, 4, 29, "Input",ExpressionUUID->"ff730ad6-4ed5-404f-9d63-2c063277c6fe"],
-Cell[34062, 932, 329, 6, 29, "Input",ExpressionUUID->"406e1b9e-4811-4f66-858b-83381841e5e5"],
+Cell[34370, 932, 216, 4, 29, "Input",ExpressionUUID->"ff730ad6-4ed5-404f-9d63-2c063277c6fe"],
+Cell[34589, 938, 329, 6, 71, "Input",ExpressionUUID->"406e1b9e-4811-4f66-858b-83381841e5e5"],
 Cell[CellGroupData[{
-Cell[34416, 942, 566, 15, 29, "Input",ExpressionUUID->"85bf4d5a-9c1e-415b-b007-f78e4f542fca"],
-Cell[34985, 959, 759, 21, 33, "Output",ExpressionUUID->"84616a62-4f76-400b-bb00-f194d4078359"]
+Cell[34943, 948, 566, 15, 71, "Input",ExpressionUUID->"85bf4d5a-9c1e-415b-b007-f78e4f542fca"],
+Cell[35512, 965, 781, 21, 96, "Output",ExpressionUUID->"5ec6cb76-0b21-40e0-ade6-29deb22eb77b"]
 }, Open  ]]
 }, Open  ]]
 }

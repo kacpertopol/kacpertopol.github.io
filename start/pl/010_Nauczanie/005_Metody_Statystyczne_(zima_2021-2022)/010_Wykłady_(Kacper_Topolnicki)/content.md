@@ -80,7 +80,6 @@ Czas trwania to około $30$ minut.
   - [dłuższe wyjaśnienie](https://youtu.be/ugbWqWCcxrg)
   - [artykuł na wikipedii](https://en.wikipedia.org/wiki/Monty_Hall_problem)
 
-<!---
 
 <center>
 **wykład 2**
@@ -102,15 +101,12 @@ Czas trwania to około $30$ minut.
 	  - proszę czytać komentarze
   - [notebook](---ThisDir---/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
 	  - proszę czytać komentarze
-- wyniki eksperymentu:
-  - tak na prawdę interesujące są jedynie dwie sytuacje: 
-    - $12$ osób uznało, że bardziej prawdopodobna jest stytuacja: Linda jest kasjerką oraz aktywną członkinią ruchu feministycznego
-    - $13$ osób uznało, że bardziej prawdopodobna jest sytuacja: Linda jest kasjerką w banku
-  - Czy potraficie Państwo uzasadnić dlaczego $12$ osób, czyli prawie połowa osób, się myli?
-  - [źródło](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) eksperymentu
+- anieta, eksperyment:
+  - pojawi się wkrótce TODO
 - YouTube
   - jest mnóstwo materiałów, proszę sobie wpisać hasła takie jak "Jacobian", "change of variables"
 
+<!---
 <center>
 **wykład 3**
 </center>

@@ -84,6 +84,7 @@ SOFTWARE.
 <li><a href="#zestaw-5">Zestaw 5</a></li>
 <li><a href="#zestaw-6">Zestaw 6</a></li>
 <li><a href="#zestaw-7">Zestaw 7</a></li>
+<li><a href="#zestaw-8">Zestaw 8</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -702,6 +703,66 @@ A = \left(
 (zadanie rachunkowe, 2 punkt)
 </center>
 <p>Macierz (1) można potraktować jako symetryczne, rzeczywiste przedstawienie pewnej macierzy hermitowskiej. Jakiej? Znajdź wartości własne tej macierzy.</p>
+<h2 id="zestaw-8">Zestaw 8</h2>
+<center>
+<strong>A</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Podać dla jakich liczb <span class="math inline">\(a , b , c , d\)</span> funkcja</p>
+<p><span class="math display">\[
+f(x) =
+\begin{cases}
+x^3 - 2 x + 1 &amp; x \in [0 , 1] \\
+a + b (x - 1) + c (x - 1)^2 - \frac{1}{2} (x - 1)^3 &amp; x \in [1 , d] \\
+\end{cases}
+\]</span></p>
+<p>tworzy naturalny splajn kubiczny na przedziale <span class="math inline">\([0 , d]\)</span>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>W każdym przedziale <span class="math inline">\([x_j , x_{j+1}]\)</span> interpolujemy za pomocą wzoru</p>
+<p><span class="math display">\[
+y(x) = A(x) f_j + B(x) f_{j + 1} + C(x) \xi^{&#39;&#39;}_{j} + D(x) \xi^{&#39;&#39;}_{j + 1}
+\]</span></p>
+<p>gdzie</p>
+<p><span class="math display">\[
+A(x) = \frac{x_{j + 1} - x}{x_{j + 1} - x_{j}}
+\]</span></p>
+<p><span class="math display">\[
+B(x) = \frac{x - x_{j}}{x_{j + 1} - x_{j}}
+\]</span></p>
+<p><span class="math display">\[
+C(x) = \frac{1}{6} \left(A^{3} - A\right)\left(x_{j + 1} - x_{j}\right)^{2}
+\]</span></p>
+<p><span class="math display">\[
+D(x) = \frac{1}{6} \left(B^{3} - B\right)\left(x_{j + 1} - x_{j}\right)^{2}
+\]</span></p>
+<p>Pokazać, że <span class="math inline">\(y(x_{j}) = f_{j}\)</span>, <span class="math inline">\(y(x_{j + 1}) = f_{j+1}\)</span>, <span class="math inline">\(y&#39;&#39;(x_{j}) = \xi&#39;&#39;_{j}\)</span>, <span class="math inline">\(y&#39;&#39;(x_{j + 1}) = \xi&#39;&#39;_{j+1}\)</span>. Żądając ciągłości pierwszej pochodnej <span class="math inline">\(y(x)\)</span> w węzłach, wyprowadzić układ równań na nieznane wielkości <span class="math inline">\(\xi&#39;&#39;_{j}\)</span>.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Interpolacja wymierna, algorytm Flootera i Hormanna (wykład 6).</p>
+<ul>
+<li>Pokazać, że w przypadku równoodległych węzłów, wagi <span class="math inline">\({w_{i}}\)</span> są dane wzorem (33).</li>
+<li>Wyliczyć wagi <span class="math inline">\({w_{i}}\)</span> dla <span class="math inline">\(n = 65\)</span> węzłów i parametru <span class="math inline">\(d = 3\)</span>.</li>
+</ul>
 </article>
 </body>
 </html>

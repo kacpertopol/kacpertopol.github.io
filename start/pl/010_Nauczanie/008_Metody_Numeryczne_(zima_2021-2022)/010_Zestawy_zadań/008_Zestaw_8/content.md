@@ -1,4 +1,10 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [notebook](---ThisDir---/plots.nb) Mathematici z przykładami
+
+<center>
 **A**
 </center>
 

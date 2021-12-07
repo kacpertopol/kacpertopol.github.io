@@ -1,8 +1,4 @@
 <center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-<center>
 **A**
 </center>
 

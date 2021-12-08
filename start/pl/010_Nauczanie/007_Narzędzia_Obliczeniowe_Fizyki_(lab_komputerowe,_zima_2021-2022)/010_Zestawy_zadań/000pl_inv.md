@@ -1135,6 +1135,8 @@ oraz aby porozmawiac o projektach.
 
 # Zestaw 9
 
+UWAGA: zestaw jest na 16 XII.
+
 <center>
 **MATERIAŁY DODATKOWE**
 </center>

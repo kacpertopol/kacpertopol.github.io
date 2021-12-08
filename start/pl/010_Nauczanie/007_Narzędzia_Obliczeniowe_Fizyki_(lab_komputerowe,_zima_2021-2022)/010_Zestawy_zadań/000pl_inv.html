@@ -146,6 +146,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="#zestaw-5">Zestaw 5</a></li>
 <li><a href="#zestaw-6">Zestaw 6</a></li>
 <li><a href="#zestaw-7">Zestaw 7</a></li>
+<li><a href="#zestaw-8">Zestaw 8</a></li>
+<li><a href="#zestaw-9">Zestaw 9</a></li>
 </ul>
 <h1 id="ocenianie">Ocenianie</h1>
 <ul>
@@ -856,6 +858,84 @@ z^{4} + z^{2} + 1 == 0
 <p>Proszę policzyć równanie ruchu dla paciorka o masie <span class="math inline">\(1\)</span> nanizanego na poziomy pręt. Paciorek porusza się bez tarcia po pręcie i jest dodatkowo połączony ze ścianą sprężynką o stałej sprężystości <span class="math inline">\(1\)</span>. Rachunek proszę przeprowadzić korzystając z formalizmu Lagrangea w Mathematice. Następnie proszę rozwiązać otrzymane równanie ruchu korzystając z</p>
 <pre><code>NDSolve</code></pre>
 <p>zakładając, że na początku ciało było w pozycji równowagi i miało prędkość początkową <span class="math inline">\(0.5\)</span>. Jednostki masy oraz odległości są dowolne.</p>
+<h1 id="zestaw-8">Zestaw 8</h1>
+<p>Na te zajęcia nie ma nowych zadań. Będziemy mieli więcej czasu na indywidualne konsultacje oraz aby porozmawiac o projektach.</p>
+<h1 id="zestaw-9">Zestaw 9</h1>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem">macierz wymiarowości oraz twierdzenie Buckinghama</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_moments_of_inertia">momenty bezwładności</a></li>
+<li><a href="https://youtu.be/_gaCAFcW6OY">analiza wymiarowa i bomba atomowa</a></li>
+<li><a href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/009_Zestaw_9/notatki.pdf">notatki</a>
+<ul>
+<li>nagrania nie będzie, bardzo przepraszam (nie nagrał się dźwięk, całe szczęście udało mi się rozwiązać ten problem i mam nadzieję, że następnym razem nie będzie już problemów)</li>
+</ul></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(3 punkty)
+</center>
+<p>Kolejne zastosowania macierzy…</p>
+<p>Proszę napisać funkcję, która tworzy macierz wymiarowości. Funkcja powinna pobierać:</p>
+<ul>
+<li>listę jednostek bazowych (np <code>{t , m , l}</code> oznaczające odpowiednio czas, masę oraz odległość)</li>
+<li>listę wielkości fizycznych związanych z danym problemem (pojedyncza wielkość może być np w reprezentacji korzystającej z potęg jednostek bazowych <code>{-2 , 0 , 1}</code> co można rozszyfrować jako <span class="math inline">\(t^{-2} m^{0} l^{1}\)</span> czyli wymiar przyspieszenia)</li>
+</ul>
+<p>Proszę sprawdzić działanie tej funkcji dla problemów:</p>
+<ul>
+<li>oscylacji wahadła matematycznego (interesujące wielkości fizyczne to: okres wahania, masa wahadła , długość wahadła , przyśpieszenie ziemskie)</li>
+<li>ochładzania cieczy z wykorzystaniem kostek lodu (interesujące wielkości fizyczne to: długość charakterystyczna dla kostek lodu, czas , temperatura, przewodnictwo cieplne, objętościowe ciepło właściwe)</li>
+</ul>
+<p>oraz porównać z <a href="https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem">wikipedią</a>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Korzystając z wyników zadania <strong>A</strong> oraz funkcji <code>NullSpace</code> proszę sprawdzić z jakich bezwymiarowych wielkości można skonstruować prawa fizyczne rządzące obydwoma problemami:</p>
+<ul>
+<li>oscylacji wahadła matematycznego (interesujące wielkości fizyczne to: okres wahania, masa wahadła , długość wahadła , przyśpieszenie ziemskie)</li>
+<li>ochładzania cieczy z wykorzystaniem kostek lodu (interesujące wielkości fizyczne to: długość charakterystyczna dla kostek lodu, czas , temperatura, przewodnictwo cieplne, objętościowe ciepło właściwe)</li>
+</ul>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Proszę rozwiązać ponownie zadanie <strong>B</strong> ale tym razem z wykorzystaniem wbudowanej w Mathemaitcę funkcji <code>DimensionalCombinations</code>.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Rozważamy bryły sztywne na płaszczyźnie. Zakładamy, że płaskie bryły znajdują się w płaszczyźnie <span class="math inline">\(x\)</span> - <span class="math inline">\(y\)</span> oraz:</p>
+<ul>
+<li><span class="math inline">\(-1 &lt; x &lt; 1\)</span></li>
+<li><span class="math inline">\(-1 &lt; y &lt; 1\)</span></li>
+</ul>
+<p>Proszę zaimplementować trzy funkcje zwracające:</p>
+<ul>
+<li>masę bryły</li>
+<li>środek masy bryły</li>
+<li>moment bezwładności bryły</li>
+</ul>
+<p>Argumentem wszystkich tych trzech funkcji powinna być funkcja biorąca współrzędne na płaszczyźnie i zwracająca gęstość (powierzchniową) bryły.</p>
+<p>Wyniki proszę porównać z <a href="https://en.wikipedia.org/wiki/List_of_moments_of_inertia">wartościami tablicowymi</a></p>
+<p>Wskazówka: można skorzystać z funkcji <code>NIntegrate</code>.</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Proszę wykorzystać zadanie <strong>D</strong> oraz funkcję <code>DensityPlot</code> do narysowania kilku figur oraz zaznaczenia ich środków masy. W opisie wykresu powinna znaleźć się masa bryły oraz jej moment bezwładności względem środka masy.</p>
 </article>
 </body>
 </html>

@@ -1128,6 +1128,13 @@ $0.5$. Jednostki masy oraz odległości są dowolne.
 
 # Zestaw 8
 
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [kilka przykładów](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/008_Zestaw_8/temp_examples.nb)
+
+
 Na te zajęcia nie ma nowych zadań. 
 Będziemy mieli więcej czasu na indywidualne konsultacje
 oraz aby porozmawiac o projektach.

@@ -124,10 +124,6 @@ Czas trwania to około $30$ minut.
 **wykład 1**
 </center>
 
-<center>
-(17 X 2020)
-</center>
-
 - [slajdy z zeszłego roku](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/wykład_2020-10-17-Note-11-22.pdf)
 - notebooki Mathematici
   - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
@@ -147,10 +143,6 @@ Czas trwania to około $30$ minut.
 **wykład 2**
 </center>
 
-<center>
-(25 X 2020)
-</center>
-
 - nieco mniej chaotyczne [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/ms_2.pdf)
 - nowe, króciutkie, [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EX1qBOu3wMZMsWNJ-P-RwGsBAachwZlIjVar_SU-cAlSEQ)
   - postanowiłem sporządzić od zera nowe nagranie do "mniej chaotycznych" slajdów
@@ -168,13 +160,8 @@ Czas trwania to około $30$ minut.
 - YouTube
   - jest mnóstwo materiałów, proszę sobie wpisać hasła takie jak "Jacobian", "change of variables"
 
-<!---
 <center>
 **wykład 3**
-</center>
-
-<center>
-(5 XII 2020)
 </center>
 
 - [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
@@ -184,6 +171,7 @@ Czas trwania to około $30$ minut.
 - krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
   potrafią Państwo powiedzieć czym jest stan stacjonarny?
 
+<!---
 <center>
 **wykład 4**
 </center>

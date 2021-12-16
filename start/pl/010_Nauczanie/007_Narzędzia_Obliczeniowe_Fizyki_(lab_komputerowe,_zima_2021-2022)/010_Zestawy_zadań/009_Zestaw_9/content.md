@@ -6,8 +6,11 @@ UWAGA: zestaw jest na 16 XII.
 
 - [macierz wymiarowości oraz twierdzenie Buckinghama](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
 - [momenty bezwładności](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
-- [analiza wymiarowa i bomba atomowa](https://youtu.be/_gaCAFcW6OY)
+- youtube:
+  - [analiza wymiarowa i bomba atomowa](https://youtu.be/_gaCAFcW6OY)
+  - [trochę więcej szczegółów](https://youtu.be/SUnAvL-ThMs)
 - [notatki](---ThisDir---/notatki.pdf)
+  - uwaga, w notatkach jest błąd 😊, czy potraficie go znaleźć
   - nagrania nie będzie, bardzo przepraszam (nie nagrał się dźwięk, całe szczęście udało mi się rozwiązać ten problem i mam nadzieję, 
     że następnym razem nie będzie już problemów)
 

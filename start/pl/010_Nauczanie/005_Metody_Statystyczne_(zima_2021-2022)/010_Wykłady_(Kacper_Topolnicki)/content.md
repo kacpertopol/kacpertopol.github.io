@@ -93,8 +93,7 @@ Czas trwania to około $30$ minut.
 	  - proszę czytać komentarze
   - [notebook](---ThisDir---/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
 	  - proszę czytać komentarze
-- anieta, eksperyment:
-  - pojawi się wkrótce TODO
+- [anieta](https://forms.office.com/r/GauqxyJPFU)
 - YouTube
   - jest mnóstwo materiałów, proszę sobie wpisać hasła takie jak "Jacobian", "change of variables"
 

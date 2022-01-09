@@ -108,16 +108,11 @@ Czas trwania to około $30$ minut.
 - krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
   potrafią Państwo powiedzieć czym jest stan stacjonarny?
 
-<!---
 <center>
 **wykład 4**
 </center>
 
-<center>
-(20 XII 2020)
-</center>
-
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=I2YRqC) 
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
 - [slajdy](---ThisDir---/20_12_2020.pdf)
 - wykład korzystał również z:
   - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
@@ -128,22 +123,23 @@ Czas trwania to około $30$ minut.
 - notebooki Mathematici 
   - [Bernulli](---ThisDir---/20_12_2020.nb)
   - [Markov](---ThisDir---/20_12_2020_1.nb)
+<!---
   - TODO: Metoda Funkcji Generującej
+  --->
 
 <center>
 **wykład 5**
 </center>
 
-<center>
-(10 I 2021)
-</center>
-
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=jCgjar)
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
 - [slajdy](---ThisDir---/wyklad_5.pdf)
 - [notebook](---ThisDir---/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
+<!---
   - TODO - pojawi się uzupełniona wersja z wartościami oczekiwanymi dla procesu liczącego Bernulliego
+  --->
 
+<!---
 <center>
 **wykład 6**
 </center>

@@ -89,6 +89,7 @@ Na kolokwium mogę pojawić się następujące zagadnienia:
 	- macierz prawdopodobieństw
   - Poisson
     - jak się ma do Bernulliego?
+
 <!---
 - procesy kolejkowe
   - prawo Little'a

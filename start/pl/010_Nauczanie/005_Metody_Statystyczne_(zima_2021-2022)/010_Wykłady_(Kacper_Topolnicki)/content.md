@@ -1,4 +1,3 @@
-<!---
 <center>
 **ZAGADNIENIA DO KOLOKWIUM**
 </center>
@@ -28,18 +27,18 @@ Na kolokwium mogę pojawić się następujące zagadnienia:
 	- macierz prawdopodobieństw
   - Poisson
     - jak się ma do Bernulliego?
+<!---
 - procesy kolejkowe
   - prawo Little'a
   - klasyfikacja procesów kolejkowych (M/M/1, G/M/1, ...)
   - M/M/1
     - podstawowe własności
-
-Jeżeli zadanie na kolokwium będzie wymagać przeprowadzenia obliczeń to będą to BARDZO proste rachunki.
-Nie przewiduję skomplikowanych wyprowadzeń. Kolokwium pisane jest na karteczkach przy włączonych kamerach. 
-Po ukończeniu będzie należało karteczki zeskanować / sfotografować i przesłać na <kacper.topolnicki@uj.edu.pl>.
-Czas trwania to około $30$ minut.
 --->
 
+Ocena z kolokwium jest zaliczana do oceny z wykładu. Jeżeli zadanie na kolokwium będzie wymagać przeprowadzenia obliczeń to będą to BARDZO proste rachunki.
+Nie przewiduję skomplikowanych wyprowadzeń. Kolokwium pisane jest na karteczkach. 
+Po ukończeniu będzie należało karteczki zeskanować / sfotografować i przesłać na <kacper.topolnicki@uj.edu.pl>.
+Czas trwania to około $30$ minut. 
 <center>
 **LITERATURA**
 </center>

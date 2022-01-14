@@ -141,6 +141,7 @@ Czas trwania to około $30$ minut.
 **wykład 6**
 </center>
 
+- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
 - [slajdy](---ThisDir---/W6.pdf)
 - [notebook](---ThisDir---/infiniteMatrix.nb)
   - wystarczy uruchomić notebook (Evaluate Notebook)

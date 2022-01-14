@@ -198,17 +198,9 @@ Czas trwania to około $30$ minut.
 - [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/wyklad_5.pdf)
 - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
-<!---
-  - TODO - pojawi się uzupełniona wersja z wartościami oczekiwanymi dla procesu liczącego Bernulliego
-  --->
 
-<!---
 <center>
 **wykład 6**
-</center>
-
-<center>
-(23 I 2021)
 </center>
 
 - [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)
@@ -216,5 +208,4 @@ Czas trwania to około $30$ minut.
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
 
---->
 

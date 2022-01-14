@@ -136,17 +136,9 @@ Czas trwania to około $30$ minut.
 - [slajdy](---ThisDir---/wyklad_5.pdf)
 - [notebook](---ThisDir---/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
-<!---
-  - TODO - pojawi się uzupełniona wersja z wartościami oczekiwanymi dla procesu liczącego Bernulliego
-  --->
 
-<!---
 <center>
 **wykład 6**
-</center>
-
-<center>
-(23 I 2021)
 </center>
 
 - [slajdy](---ThisDir---/W6.pdf)
@@ -154,4 +146,3 @@ Czas trwania to około $30$ minut.
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
 
---->

@@ -1148,6 +1148,8 @@ UWAGA: zestaw jest na 16 XII.
 **MATERIAŁY DODATKOWE**
 </center>
 
+- [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/009_Zestaw_9/analizaWymiarowa.nb)
+  - wystarczy uruchomić "Evaluate Notebook"
 - [macierz wymiarowości oraz twierdzenie Buckinghama](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
 - [momenty bezwładności](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
 - youtube:

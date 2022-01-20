@@ -4,6 +4,8 @@ UWAGA: zestaw jest na 16 XII.
 **MATERIAŁY DODATKOWE**
 </center>
 
+- [notebook](---ThisDir---/analizaWymiarowa.nb)
+  - wystarczy uruchomić "Evaluate Notebook"
 - [macierz wymiarowości oraz twierdzenie Buckinghama](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
 - [momenty bezwładności](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
 - youtube:

@@ -20,12 +20,10 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Algebra i Geometria (archiwum)](./0pl_inv.html)
-	* [Metody Statystyczne (zima 2021-2022)](./000pl_inv.html)
-	* [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2021-2022)](./0000pl_inv.html)
-	* [Metody Numeryczne (zima 2021-2022)](./0000000pl_inv.html)
-	* [Advanced Statistics I (archiwum)](./00000000pl_inv.html)
-* [COVID](./0000000000pl_inv.html)
+	* [Algebra i Geometria](./0pl_inv.html)
+	* [Algorytmy i Struktury Danych](./000pl_inv.html)
+	* [Advanced Statistics I (archiwum)](./00000pl_inv.html)
+* [COVID](./0000000pl_inv.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -50,27 +48,19 @@ toc-title: TOC
 
 
 
-## [Algebra i Geometria (archiwum)](./0pl_inv.html)
+## [Algebra i Geometria](./0pl_inv.html)
 
 
 
-## [Metody Statystyczne (zima 2021-2022)](./000pl_inv.html)
+## [Algorytmy i Struktury Danych](./000pl_inv.html)
 
 
 
-## [Narzędzia Obliczeniowe Fizyki (lab komputerowe, zima 2021-2022)](./0000pl_inv.html)
+## [Advanced Statistics I (archiwum)](./00000pl_inv.html)
 
 
 
-## [Metody Numeryczne (zima 2021-2022)](./0000000pl_inv.html)
-
-
-
-## [Advanced Statistics I (archiwum)](./00000000pl_inv.html)
-
-
-
-# [COVID](./0000000000pl_inv.html)
+# [COVID](./0000000pl_inv.html)
 
 
 

@@ -1,13 +1,25 @@
+---
+title : AISD
+---
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1024px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg)](https://en.wikipedia.org/wiki/Algorithm)
+</center>
+
+
+
+# Zawartość:
+
+* [Organizacja](#organizacja)
+* [Zestawy zadań](./0000pl_inv.html)
+
+
+
+# Organizacja
+
 <center>
 **ZOOM ORAZ OCENIANIE**
 </center>
-
-Zajęcia będa się odbywać z wykorzystaniem ZOOM. Poniżej znajdują się dane potrzebne do dołączenia
-do zajeć:
-
-- link: <https://us02web.zoom.us/j/86473093143?pwd=a2lJcjRFVG1nNEpwSDZ2Qnl4OEhxZz09>
-- Meeting ID: `864 7309 3143`
-- Passcode: `ZHA12w`
 
 Ocena z ćwiczeń będzie na podstawie ilości zdobytych punktów:
 
@@ -23,8 +35,8 @@ Punkty będzie można otrzymywać za implementację (z naciskiem na c++):
 
 - zbioru (8 pkt), kolejki (8 pkt), grafu (14 pkt)
 - zadań związanych z tymi strukturami danych (30 pkt)
-- kolokwium dotyczącego implementacji, pseudokod, zrozumienie
-  algorytmów (40 pkt)
+- kolokwium dotyczącego implementacji (pseudokod, zrozumienie
+  algorytmów) (40 pkt)
 
 Aby zaliczyć ćwiczenia należy uzyskać przynajmniej połowę punktów
 z implementacji struktur, przynajmniej połowę punktów z zadań
@@ -57,3 +69,8 @@ zadania w miarę regularnie.
 </center>
 
 - [Data Structures and Algorithms, Avo, Hopcroft, Ullman](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)
+
+
+# [Zestawy zadań](./0000pl_inv.html)
+
+

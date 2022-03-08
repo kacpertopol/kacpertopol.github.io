@@ -74,6 +74,7 @@ SOFTWARE.
 <h1 id="zawartość">Zawartość:</h1>
 <ul>
 <li><a href="#zestaw-1">Zestaw 1</a></li>
+<li><a href="#zestaw-2">Zestaw 2</a></li>
 </ul>
 <h1 id="zestaw-1">Zestaw 1</h1>
 <center>
@@ -155,6 +156,70 @@ SOFTWARE.
 </ul></li>
 <li>proszę się zastanowić jak ma się dopasowanie do otrzymanych wyników odpowiedniej krzywej do złożonoći obliczeniowej</li>
 </ul></li>
+<li>W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. Nie powinno mieć to większego znaczenia jeżeli pewne warunki są spełnione. Jakie to warunki?
+<ul>
+<li>Wskazówka: <span class="math inline">\(\equiv\)</span>, <span class="math inline">\(\lt\)</span>, <span class="math inline">\(\gt\)</span></li>
+</ul></li>
+</ul>
+<h1 id="zestaw-2">Zestaw 2</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+[<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Implementacja zbioru wykorzystująca jednowymiarowe tablice o skończonym rozmiarze z zadania <strong>A</strong> w zestawie 1 zakłada, że każdemu elementowi zbioru można przypisać liczbę naturalną <span class="math inline">\(1 \ldots N\)</span>. Proszę zaimplementować funkcje implementujące takie przyporządkowanie dla zbiorów:</p>
+<ul>
+<li>liczb całkowitych <span class="math inline">\(n , n + 1 , n + 2 , \ldots , m\)</span> gdzie <span class="math inline">\(n &lt; m\)</span></li>
+<li>liczb całkowitych <span class="math inline">\(n , n + 2 , n + 4 , \ldots , m\)</span> gdzie <span class="math inline">\(n &lt; m\)</span></li>
+<li>liter <span class="math inline">\(a , b , c , \ldots , z\)</span>, bez polskich znaków ęóąśłżźć</li>
+<li>dwuliterowych napisów, gdzie każda litera jest z zakresu <span class="math inline">\(a - z\)</span> bez polskich znaków ęóąśłżźć</li>
+</ul>
+<center>
+<strong>B</strong>
+</center>
+<center>
+[<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
+</center>
+<center>
+(4 punkt - implementacja zbioru)
+</center>
+<p>Proszę zaimplementować typ danych <code>setHashed</code> reprezentujący matematyczny zbiór oraz operacje które dla dwóch zbiorów <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span> realizują:</p>
+<ul>
+<li>sumę zbiorów <span class="math inline">\(A \cup B\)</span></li>
+<li>część wspólną zbiorów <span class="math inline">\(A \cap B\)</span></li>
+<li>różnicę zbiorów <span class="math inline">\(A - B\)</span></li>
+<li>sprawdzanie identyczności zbiorów <span class="math inline">\(A \equiv B\)</span></li>
+</ul>
+<p>oraz dla elementu <span class="math inline">\(x\)</span> i zbioru <span class="math inline">\(A\)</span> realizują:</p>
+<ul>
+<li>wstawianie <span class="math inline">\(x\)</span> do zbioru <span class="math inline">\(A\)</span></li>
+<li>usuwanie <span class="math inline">\(x\)</span> ze zbioru <span class="math inline">\(A\)</span></li>
+<li>sprawdzanie czy <span class="math inline">\(x \in A\)</span></li>
+</ul>
+<p>Tym razem proszę wykrzystać haszowanie otwarte. Państwa implementację proszę wykorzystać w programie, który bada złożoność obliczeniową poszczególnych operacji. Dla każdej z zaimplementowanych operacji program powinien produkować jeden plik, który może być uruchomiony z wykorzystaniem programu <a href="http://www.gnuplot.info/">gnuplot</a>. W wiadomości e-mail proszę opisać podejście wykorzystane do badania złożoności obliczeniowej i skonfrontować Państwa wyniki z wartościami teoretycznymi.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Korzystając z wyników zadań <strong>A</strong> oraz <strong>B</strong> z zestawu 1 oraz zadania <strong>B</strong> z obecnego zestawu proszę się zastanowić która implementacja jest lepsza i w jakiej sytuacji. Swoją odpowiedź (popartą odpowiednimi wykresami) proszę przesłać za pośrednictwem e-mail.</p>
+<p>Aby ułatwić Państwu zadanie, proszę założyć, że elementami przechowywanymi we wszystkich zbiorach są słowa składające się z 4 liter (bez polskich znaków). Można wykorzystać zadanie <strong>A</strong>.</p>
+<center>
+<strong>UWAGI</strong>
+</center>
+<ul>
+<li>Dla każdej implementacji typu danych oraz dla każdej zaimplementowanej operacji proszę dodatkowo:
+<ul>
+<li>zamieścić w Państwa programie test sprawdzający czy operacje są zaimplementowane prawidłowo</li>
+<li>aby ułatwic Państwu pracę możemy się umówić, że w teście będzie sprawdzana niewielka ilość przypadków - na tyle mała aby można było je wypisać na ekranie komputera i przeanalizować</li>
+</ul></li>
+<li>Badając złożoność obliczeniową operacji, proszę się zastanowić jak powina wyglądać zależność <span class="math inline">\(t(n)\)</span> czasu wykonania problemu (<span class="math inline">\(t\)</span>) od rozmiaru problemu (<span class="math inline">\(n\)</span>) i nanieść tą hipotezę na odpowiedni wykres. Wystarczy jeden wykres dla wybranej operacji w danym problemie.</li>
+<li>Kilka wykresów dla zadania <strong>B</strong> z różną liczbą “klas” albo “porcji” na które może wskazywać funkcja haszująca: <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh1.pdf">1</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh2.pdf">2</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh3.pdf">3</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh4.pdf">4</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh5.pdf">5</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh6.pdf">6</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh7.pdf">7</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh8.pdf">8</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh9.pdf">9</a>, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh10.pdf">10</a>, …, <a href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych/002_Zestawy_zadań/002_Zestaw_2/sh100.pdf">100</a></li>
 <li>W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. Nie powinno mieć to większego znaczenia jeżeli pewne warunki są spełnione. Jakie to warunki?
 <ul>
 <li>Wskazówka: <span class="math inline">\(\equiv\)</span>, <span class="math inline">\(\lt\)</span>, <span class="math inline">\(\gt\)</span></li>

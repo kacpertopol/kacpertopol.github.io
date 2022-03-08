@@ -12,6 +12,7 @@ title : AISD
 
 * [Organizacja](#organizacja)
 * [Zestawy zadań](./0000pl_inv.html)
+* [Dodatkowe materiały](./00000pl_inv.html)
 
 
 
@@ -45,8 +46,8 @@ implementacja uznawana jest za zaliczoną gdy student:
 
 - prześle swoje rozwiązanie na <kacper.topolnicki@uj.edu.pl>,
   w temacie wiadomości powinien sie znaleźć ciąg znaków 
-  "AISD20202021"
-- podczas zajęć połączy się ze mną przez ZOOM, udostepni ekran,
+  "AISD20212022"
+- podczas zajęć (ewentualnie połączy się ze mną przez ZOOM, udostepni ekran)
   zademonstruje działanie programu oraz opowie o swoim rozwiązaniu
 
 Zadania oraz 
@@ -72,5 +73,9 @@ zadania w miarę regularnie.
 
 
 # [Zestawy zadań](./0000pl_inv.html)
+
+
+
+# [Dodatkowe materiały](./00000pl_inv.html)
 
 

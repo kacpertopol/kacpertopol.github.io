@@ -22,8 +22,8 @@ toc-title: TOC
 * [Nauczanie](#nauczanie)
 	* [Algebra i Geometria](./0pl.html)
 	* [Algorytmy i Struktury Danych](./000pl.html)
-	* [Advanced Statistics I (archiwum)](./00000pl.html)
-* [COVID](./0000000pl.html)
+	* [Advanced Statistics I (archiwum)](./000000pl.html)
+* [COVID](./00000000pl.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -56,11 +56,11 @@ toc-title: TOC
 
 
 
-## [Advanced Statistics I (archiwum)](./00000pl.html)
+## [Advanced Statistics I (archiwum)](./000000pl.html)
 
 
 
-# [COVID](./0000000pl.html)
+# [COVID](./00000000pl.html)
 
 
 

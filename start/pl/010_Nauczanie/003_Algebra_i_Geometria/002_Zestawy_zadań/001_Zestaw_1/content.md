@@ -7,7 +7,7 @@
 - [dodatkowy podręcznik](http://eigenspace.pl/herdegen_algebra.pdf) dostępny online
 
 - [The strange cousin of the complex numbers -- the dual numbers](https://youtu.be/ceaNqdHdqtg) 
-- [rozwiązanie Angelo Norelli](---ThisDir---/AngeloNorelliE1.jpg)
+- [rozwiązanie Angelo Norelli](---ThisDir---/AngeloNorelliE1.jpg) części zadania E
 
 <center>
 **A**

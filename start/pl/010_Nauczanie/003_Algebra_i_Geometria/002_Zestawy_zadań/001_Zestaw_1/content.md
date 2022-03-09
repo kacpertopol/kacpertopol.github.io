@@ -6,6 +6,9 @@
 - [podręcznik](https://www.mimuw.edu.pl/~leszekp/dydaktyka/gal/labook.pdf) na którym zostało oparte nagranie
 - [dodatkowy podręcznik](http://eigenspace.pl/herdegen_algebra.pdf) dostępny online
 
+- [The strange cousin of the complex numbers -- the dual numbers](https://youtu.be/ceaNqdHdqtg) 
+- [rozwiązanie Angelo Norelli](---ThisDir--AngeloNorelliE1.jpg)
+
 <center>
 **A**
 </center>

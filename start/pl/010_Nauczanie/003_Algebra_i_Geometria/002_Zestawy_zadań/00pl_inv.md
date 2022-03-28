@@ -38,6 +38,7 @@ title : Zestawy zadań
 - [dodatkowy podręcznik](http://eigenspace.pl/herdegen_algebra.pdf) dostępny online
 
 - [The strange cousin of the complex numbers -- the dual numbers](https://youtu.be/ceaNqdHdqtg) 
+  - [implementacja liczb dualnych w pythonie](./start/pl/010_Nauczanie/003_Algebra_i_Geometria/002_Zestawy_zadań/001_Zestaw_1/dual.py)
 - [rozwiązanie Angelo Norelli](./start/pl/010_Nauczanie/003_Algebra_i_Geometria/002_Zestawy_zadań/001_Zestaw_1/AngeloNorelliE1.jpg) części zadania E
 
 <center>

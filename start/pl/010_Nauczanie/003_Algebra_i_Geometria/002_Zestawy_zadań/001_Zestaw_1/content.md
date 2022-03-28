@@ -7,6 +7,7 @@
 - [dodatkowy podręcznik](http://eigenspace.pl/herdegen_algebra.pdf) dostępny online
 
 - [The strange cousin of the complex numbers -- the dual numbers](https://youtu.be/ceaNqdHdqtg) 
+  - [implementacja liczb dualnych w pythonie](---ThisDir---/dual.py)
 - [rozwiązanie Angelo Norelli](---ThisDir---/AngeloNorelliE1.jpg) części zadania E
 
 <center>

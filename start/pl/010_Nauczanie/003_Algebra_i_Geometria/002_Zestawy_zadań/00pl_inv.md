@@ -1642,7 +1642,7 @@ Dodatkowo proszę spróbować wykonać następujące ćwiczenia:
 
 Dana jest forma kwadratowa:
 
-$$f(x , y) = (x_{1})^{2} + (x_{2})^{2} + (x_{3})^{2} + 2 x_{1} x_{2}$$
+$$f(x_{1} , x_{1} , x_{3}) = (x_{1})^{2} + (x_{2})^{2} + (x_{3})^{2} + 2 x_{1} x_{2}$$
 
 * Znaleźć macierz formy oraz jej wektory i wartości własne
 

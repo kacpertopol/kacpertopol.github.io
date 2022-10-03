@@ -21,7 +21,7 @@ title : Metody Statystyczne
 **TRYB PROWADZENIA ZAJĘĆ**
 </center>
 
-Zgodnie z nowym [komunikatem](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/001_Organizacja/komunikat.pdf) zarówno wykład jak i ćwiczenia będą prowadzone
+Zgodnie z nowym [komunikatem](./start/pl/010_Nauczanie/005_Metody_Statystyczne/001_Organizacja/komunikat.pdf) zarówno wykład jak i ćwiczenia będą prowadzone
 w trybie zdalnym.
 
 <center>
@@ -114,7 +114,7 @@ Czas trwania to około $30$ minut.
 **MATERIAŁY DODATKOWE**
 </center>
 
-<!---- [wykład dr hab. prof UJ Romana Skibińskiego](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/RomanSkibinskiWyklad.pdf)--->
+<!---- [wykład dr hab. prof UJ Romana Skibińskiego](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/RomanSkibinskiWyklad.pdf)--->
 - [instrukcja](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) installacji programu Mathematica
   ze [strony](https://fais.uj.edu.pl/dla-studentow/studia-z-mathematica)
   - **UWAGA** wszędzie gdzie to konieczne należy wpisywać uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail stanowi metodę weryfikacji, że jesteście państwo studentami uczelni. Informacja o aktywacji studenckich kont pocztowych dostępna jest [tutaj](https://pomocit.uj.edu.pl/poczta_studenci) 
@@ -125,13 +125,13 @@ Czas trwania to około $30$ minut.
 **wykład 1**
 </center>
 
-- [slajdy z zeszłego roku](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/wykład_2020-10-17-Note-11-22.pdf)
+- [slajdy z zeszłego roku](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wykład_2020-10-17-Note-11-22.pdf)
 - notebooki Mathematici
   - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
   - instrukcja instalowania Mathematici dla studentów zajduje się w tekście [strony](https://kacpertopol.github.io/000pl.html), 
 	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony
-  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/mh.zip) Mathematici z symulacją problemu Montiego Halla (źródło obrazków: [samochód](https://commons.wikimedia.org/wiki/File:Blue_old_car.svg), [koza](https://commons.wikimedia.org/wiki/File:Goat_cartoon_04.svg))
-  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/fgp.nb) z rysunkami funkcji gęstości prawdopodobieństwa
+  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/mh.zip) Mathematici z symulacją problemu Montiego Halla (źródło obrazków: [samochód](https://commons.wikimedia.org/wiki/File:Blue_old_car.svg), [koza](https://commons.wikimedia.org/wiki/File:Goat_cartoon_04.svg))
+  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/fgp.nb) z rysunkami funkcji gęstości prawdopodobieństwa
 - prawdopodobieństwo obiektywne i subiektywne, Bayesian and frequentist interpretation
   - link pojawi się wkrótce
 - problem MH
@@ -144,7 +144,7 @@ Czas trwania to około $30$ minut.
 **wykład 2**
 </center>
 
-- nieco mniej chaotyczne [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/ms_2.pdf)
+- nieco mniej chaotyczne [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_2.pdf)
 - nowe, króciutkie, [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EX1qBOu3wMZMsWNJ-P-RwGsBAachwZlIjVar_SU-cAlSEQ)
   - postanowiłem sporządzić od zera nowe nagranie do "mniej chaotycznych" slajdów
   - jest bardzo krótkie, pomijam wiele obliczeń - proszę je jednak dokładnie prześledzić
@@ -152,9 +152,9 @@ Czas trwania to około $30$ minut.
   - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
   - instrukcja instalowania Mathematici dla studentów zajduje się w tekście [strony](https://kacpertopol.github.io/000pl.html), 
 	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony	
-  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/examples.nb) rozkład normalny 2D
+  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples.nb) rozkład normalny 2D
 	  - proszę czytać komentarze
-  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
+  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
 	  - proszę czytać komentarze
 - [anieta](https://forms.office.com/r/GauqxyJPFU)
 - YouTube
@@ -164,9 +164,9 @@ Czas trwania to około $30$ minut.
 **wykład 3**
 </center>
 
-- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
+- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
 - [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
-- [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
+- [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
 - krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
   potrafią Państwo powiedzieć czym jest stan stacjonarny?
@@ -176,7 +176,7 @@ Czas trwania to około $30$ minut.
 </center>
 
 - [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
-- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
+- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
 - wykład korzystał również z:
   - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
   - [unikalność rozwiązania](http://www.stat.yale.edu/~jtc5/251/readings/Basics%20of%20Applied%20Stochastic%20Processes_Serfozo.pdf) 
@@ -184,8 +184,8 @@ Czas trwania to około $30$ minut.
   - [dodatkowy wykład 2](https://siamak.isoperimetric.info/teaching/markov/files/equilibrium-2.pdf)
   - [dodatkowy wykład 3](http://math.uchicago.edu/~may/REU2017/REUPapers/Freedman.pdf)
 - notebooki Mathematici 
-  - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
-  - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
+  - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
+  - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
 <!---
   - TODO: Metoda Funkcji Generującej
   --->
@@ -195,8 +195,8 @@ Czas trwania to około $30$ minut.
 </center>
 
 - [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
-- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/wyklad_5.pdf)
-- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/autocorrelation.nb) Mathematici 
+- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_5.pdf)
+- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
 
 <center>
@@ -204,8 +204,8 @@ Czas trwania to około $30$ minut.
 </center>
 
 - [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
-- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)
-- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/infiniteMatrix.nb)
+- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)
+- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/infiniteMatrix.nb)
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
 

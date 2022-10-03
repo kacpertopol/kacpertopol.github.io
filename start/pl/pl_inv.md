@@ -20,10 +20,11 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Narzędzia Obliczeniowe Fizyki](./0pl_inv.html)
-	* [Metody Numeryczne](./0000pl_inv.html)
-	* [Oprogramowanie użytkowe](./00000pl_inv.html)
-* [COVID](./0000000pl_inv.html)
+	* [Metody Statystyczne](./0pl_inv.html)
+	* [Narzędzia Obliczeniowe Fizyki](./00pl_inv.html)
+	* [Metody Numeryczne](./00000pl_inv.html)
+	* [Oprogramowanie użytkowe](./000000pl_inv.html)
+* [COVID](./00000000pl_inv.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -48,19 +49,23 @@ toc-title: TOC
 
 
 
-## [Narzędzia Obliczeniowe Fizyki](./0pl_inv.html)
+## [Metody Statystyczne](./0pl_inv.html)
 
 
 
-## [Metody Numeryczne](./0000pl_inv.html)
+## [Narzędzia Obliczeniowe Fizyki](./00pl_inv.html)
 
 
 
-## [Oprogramowanie użytkowe](./00000pl_inv.html)
+## [Metody Numeryczne](./00000pl_inv.html)
 
 
 
-# [COVID](./0000000pl_inv.html)
+## [Oprogramowanie użytkowe](./000000pl_inv.html)
+
+
+
+# [COVID](./00000000pl_inv.html)
 
 
 

@@ -5,7 +5,7 @@ title : Projekty studenckie
 <!--BEGIN_HTML
 <center>
 <video controls autoplay muted loop width = 50%>
-<source src = ./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/015_Projekty_studenckie/all.mp4 type = "video/mp4">
+<source src = ./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/015_Projekty_studenckie/all.mp4 type = "video/mp4">
 </video>
 </center>
 END_HTML-->

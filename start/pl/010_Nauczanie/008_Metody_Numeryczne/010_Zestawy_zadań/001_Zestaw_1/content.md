@@ -15,7 +15,7 @@ Dodatkowe przykłady:
 - [przykładowy notebook Mathematici z wykresem danych](---ThisDir---/mathematica_examples.zip)
 
 <center>
-**A**
+**A (obowiązkowe)**
 </center>
 
 <center>

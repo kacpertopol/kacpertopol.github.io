@@ -69,7 +69,7 @@ SOFTWARE.
 <h1 class="title">Metody Numeryczne</h1>
 </header>
 <center>
-<a href="http://www.punctum.com/interest/punch/html/c0133.en.html"><img src="./start/pl/010_Nauczanie/008_Metody_Numeryczne_(lab_komputerowe,_zima_2021-2022)/fortran_punch_card.jpg" /></a>
+<a href="http://www.punctum.com/interest/punch/html/c0133.en.html"><img src="./start/pl/010_Nauczanie/008_Metody_Numeryczne/fortran_punch_card.jpg" /></a>
 </center>
 <h1 id="zawartość">Zawartość:</h1>
 <ul>
@@ -78,7 +78,6 @@ SOFTWARE.
 <li><a href="#zestawy-zadań">Zestawy zadań</a>
 <ul>
 <li><a href="#zestaw-1">Zestaw 1</a></li>
-<li><a href="#zestaw-2">Zestaw 2</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -120,11 +119,11 @@ SOFTWARE.
 <p>Zachęcam do zapoznania się z oprogramowaniem do tworzenia wykresów. Ta umiejętność na pewno przyda się nam na zajęciach. Polecam w szczególności, bardzo dojrzały i popularny program <a href="http://www.gnuplot.info/">gnuplot</a>. Dla osób korzystających z pythona polecam bibliotekę <a href="https://matplotlib.org/">matplotlib</a>, będącą częścią pakietu <a href="https://scipy.org/">scipy</a>.</p>
 <p>Dodatkowe przykłady:</p>
 <ul>
-<li><a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/gnuplot_examples.zip">przykładowe skrypty do programu gnuplot</a></li>
-<li><a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/mathematica_examples.zip">przykładowy notebook Mathematici z wykresem danych</a></li>
+<li><a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/001_Zestaw_1/gnuplot_examples.zip">przykładowe skrypty do programu gnuplot</a></li>
+<li><a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/001_Zestaw_1/mathematica_examples.zip">przykładowy notebook Mathematici z wykresem danych</a></li>
 </ul>
 <center>
-<strong>A</strong>
+<strong>A (obowiązkowe)</strong>
 </center>
 <center>
 (1 punkt)
@@ -142,127 +141,7 @@ SOFTWARE.
 <li>poziome zakresy wszystkich trzech wykresów powinny się ładnie ze sobą pokrywać</li>
 <li>opis osi poziomej powinien znajdować się jedynie na dolnym wykresie</li>
 </ul>
-<p>Do sporządzenia wykresów można wykorzystać <a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/btc.data">plik z cenami BTC</a> oraz <a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/eth.data">plik z cenami ETH</a>. Pierwsza kolumna tych plików zawiera liczbę dni od 01.01.2021 natomiast druga zawiera cenę w USD.</p>
-<h2 id="zestaw-2">Zestaw 2</h2>
-<center>
-<strong>MATERIAŁY DODATKOWE</strong>
-</center>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/IEEE_754">standard IEE 754</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Horner%27s_method">postać Hornera</a></li>
-</ul>
-<center>
-<strong>A</strong>
-</center>
-<center>
-(1 punkt)
-</center>
-<p>Korzystając z ulubionego języka (w przypadku egzotycznych języków proszę o skonsultowanie) proszę napisać program, który będzie testował reprezentacje liczb zmiennoprzecinkowych. Proszę w programie zbadać</p>
-<ul>
-<li>granice reprezentacji “single precision”</li>
-<li>granice reprezentacji “double precision”</li>
-</ul>
-<p>Eksperyment powinien:</p>
-<ul>
-<li>demonstrować co się dzieje w przpadku gdy pojawia się liczba przekraczająca zakres reprezentacji
-<ul>
-<li>liczba może być zarówno zbyt mała jak i zbyt duża</li>
-</ul></li>
-<li>pokazać jak można bezpiecznie obsłużyć sytuacje w których pojawiają się liczby zmiennoprzecinkowe przekraczające granice reprezentacji</li>
-</ul>
-<center>
-<strong>B</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Korzystając z ulubionego języka (z zastrzeżeniem jak wyżej) proszę zaimplementować następujący pseudokod:</p>
-<pre><code>function iteruj(mianownik)
-    dx = 1.0 / float(m)
-    x = 0.0
-    do i = 1 .. mianownik
-        x = x + dx
-    end do
-    return abs(1.0 - x)</code></pre>
-<p>Gdzie <code>mianownik</code> to dodatnia liczba całkowita, <code>1.0</code> oraz <code>0.0</code> to liczby zmiennoprzecinkowe, funkcja <code>float</code> zamienia liczbę całkowitą na liczbę zmiennoprzecinkową natomiast funkcja <code>abs</code> zwraca wartość bezwzględną.</p>
-<p>Korzystając z implementacji:</p>
-<ul>
-<li>proszę zbadać jak zmieni się wynik funkcji gdy <code>mianownik = 1 .. 2048</code></li>
-<li>proszę zbadać jak zmieni się wynik funkcji gdy:
-<ul>
-<li>liczby zmiennoprzecinkowe reprezentowane są w pojedynczej precyzji</li>
-<li>liczby zmiennoprzecinkowe reprezentowane są w podwójnej precyzji</li>
-</ul></li>
-<li>otrzymane wyniki proszę zinterpretować i skomentować :-)</li>
-</ul>
-<center>
-<strong>C</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Proszę (ulubiony język, etc) zaimplementować przykład z wykładu profesora. Mamy zatem ciąg:</p>
-<p><span class="math display">\[
-\left\{
-    \begin{array}{ll}
-        x_{n + 1} = 4 x_n - 1 \\
-        x_{0} = \frac{1}{3}
-    \end{array}
-\right.
-\]</span></p>
-<p>i badamy jego rozbieżność. Proszę w implementacji wykorzystać szeroki wachlarz reprezentacji liczb zmiennoprzecinkowych. Wyniki proszę zilustrować wykresem.</p>
-<center>
-<strong>D</strong>
-</center>
-<center>
-(3 punkt)
-</center>
-<p>Będziemy szukać miejsc zerowych wielomianu:</p>
-<p><span class="math display">\[
-x^{2} - 4 x + (4 + \alpha) = 0
-\]</span></p>
-<p>gdzie <span class="math inline">\(\alpha\)</span> jest niewielkim zaburzeniem, którego wartość jest porównywalna z precyzją maszynową odpowiedniej reprezentacji liczb zmiennoprzecinkowych.</p>
-<p>Proszę zbadać jak czułe są wyliczone numerycznie miejsca zerowe tego wielomianu na drobne (rzędy precyzji maszynowej) zmiany <span class="math inline">\(\alpha\)</span>. Dodatkowo rozwiązanie powinno:</p>
-<ul>
-<li>być zilustrowane wykresem</li>
-<li>zinterpretowane</li>
-<li>wykonane dla różnych reprezentacji liczb zmiennoprzecinkowych (pojedyncza, podwójna precyzja)</li>
-</ul>
-<center>
-<strong>E</strong>
-</center>
-<center>
-(3 punkt)
-</center>
-<p>Mamy dwa wielomiany:</p>
-<p><span class="math display">\[
-p(x) = x^5-\frac{137 x^4}{60}+\frac{15 x^3}{8}-\frac{17 x^2}{24}+\frac{9 x}{8}-\frac{1}{120}
-\]</span></p>
-<p>oraz</p>
-<p><span class="math display">\[
-q(x) = x \left(x \left(x \left(\left(x-\frac{137}{60}\right) x+\frac{15}{8}\right)-\frac{17}{24}\right)+\frac{9}{8}\right)-\frac{1}{120}
-\]</span></p>
-<p>Można sprawdzić, że <span class="math inline">\(p = q\)</span> (warto zajrzeć do <strong>MATERIAŁY DODATKOWE</strong> o postaci Hornera). Proszę, zaimplementować iteracje:</p>
-<p><span class="math display">\[
-\left\{
-    \begin{array}{ll}
-        x_{n + 1} = p(x_{n}) \\
-        x_{0} = \frac{2}{3}  \\
-        y_{n + 1} = q(y_{n}) \\
-        y_{0} = \frac{2}{3}
-    \end{array}
-\right.
-\]</span></p>
-<p>następnie:</p>
-<ul>
-<li>porównać wartości <span class="math inline">\(x\)</span> oraz <span class="math inline">\(y\)</span> w kolejnych iteracjach</li>
-<li>sprawdzić czy dominującym źródłem różnic jest:
-<ul>
-<li>inna kolejność wykonywania mnożenia i dodawania</li>
-<li>reprezentacja numeryczna liczb zmiennoprzecinkowych</li>
-</ul></li>
-</ul>
-<p>Uwaga, implementując obydwie postacie wielomianu należy pamiętać o kolejności wykonywania operacji.</p>
+<p>Do sporządzenia wykresów można wykorzystać <a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/001_Zestaw_1/btc.data">plik z cenami BTC</a> oraz <a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/001_Zestaw_1/eth.data">plik z cenami ETH</a>. Pierwsza kolumna tych plików zawiera liczbę dni od 01.01.2021 natomiast druga zawiera cenę w USD.</p>
 </article>
 </body>
 </html>

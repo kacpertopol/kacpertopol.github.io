@@ -18,20 +18,12 @@ Szablony, wzrce: *Help - Wolfram Documentation* i w okienku:
 - *guide/Patterns*
 - *tutorial/Patterns*
 
-Chaotyczny notebook z zadań (lepiej przyjrzeć się wykładowi profesora):
-
-- [bałagan](---ThisDir---/nof_15_10_2020_zajecia.nb)
-
 Zadanie A:
 
 - proszę dokładnie :-) przyjrzeć się wszystkim rozdziałom dokumentacji  
 ```
 FullSimplify
 ```
-
-Liczenie objetości bąbelków (proszę zajrzeć równiez do drugiego wykładu profesora):
-
-- [objętość bąbelków](---ThisDir---/nof_15_10_2020_zajecia_1.nb)
 
 <center>
 **A**
@@ -96,44 +88,6 @@ RegionPlot
 
 Korzystając z funkcji:
 ```
-Integrate
-```
-proszę policzyć pole pierścienia z zadania **C**.
-Wskazówka: Całka $f(x , y)$ po $x$ oraz $y$ w zakresie od $-1$ do $1$ 
-zwróci pole koła. Dlaczego?
-
-<center>
-**E**
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Ciało o masie $1$ kg porusza się po trajektorii $r(t)$ zaimplementowanej jako:
-```
-(*t - czas w sekundach*)
-(*{x , y} - zwracana pozycja w metrach*)
-r[t_] := {Cos[t] , Sin[t]};
-```
-Proszę policzyć jaka siła musi działać na to ciało jeżeli założymy, że porusza się ono zgodnie
-z zasadami Newtona. Można w tym celu wykrozystać funkcję:
-```
-D
-```
-Proszę skonstruować funkcję, która dla zadanego czasu będzie
-zwracała graficzną reprezentację ciała oraz działającej na niego siły.
-
-<center>
-**F**
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Korzystając z funkcji:
-```
 Import
 ```
 oraz 
@@ -152,26 +106,7 @@ Proszę napisać program który:
 - zwróci wykres nowych przypadków dla Polski z ostatnich czterech tygodni
 
 <center>
-**G**
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Korzystająć z [definicji pochodnej](https://pl.wikipedia.org/wiki/Pochodna_funkcji) oraz
-funkcji:
-```
-Limit
-```
-Proszę policzyc pochodne $f'(x)$ następujacych funkcji:
-
-- $f(x) = ln(x)$
-- $f(x) = exp(x)$
-- $f(x) = x^{2}$
-
-<center>
-**H**
+**E**
 </center>
 
 <center>

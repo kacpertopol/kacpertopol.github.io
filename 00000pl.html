@@ -78,6 +78,7 @@ SOFTWARE.
 <li><a href="#zestawy-zadań">Zestawy zadań</a>
 <ul>
 <li><a href="#zestaw-1">Zestaw 1</a></li>
+<li><a href="#zestaw-2">Zestaw 2</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -142,6 +143,136 @@ SOFTWARE.
 <li>opis osi poziomej powinien znajdować się jedynie na dolnym wykresie</li>
 </ul>
 <p>Do sporządzenia wykresów można wykorzystać <a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/001_Zestaw_1/btc.data">plik z cenami BTC</a> oraz <a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/001_Zestaw_1/eth.data">plik z cenami ETH</a>. Pierwsza kolumna tych plików zawiera liczbę dni od 01.01.2021 natomiast druga zawiera cenę w USD.</p>
+<h2 id="zestaw-2">Zestaw 2</h2>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/002_Zestaw_2/a.py">niezbyt efektywny algorytm liczenia rozwinięcia binarnego</a>
+<ul>
+<li>informacje <code>python a.py -h</code>, uruchamianie na własną odpowiedzialność :-)</li>
+</ul></li>
+<li><a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/002_Zestaw_2/b.py">liczenie normy macierzowej w numpy</a>
+<ul>
+<li>informacje <code>python b.py -h</code>, uruchamianie na własną odpowiedzialność :-)</li>
+</ul></li>
+<li>dodatkowe wykłady związane z normami macierzowymi:
+<ul>
+<li><a href="https://www.cs.cornell.edu/~bindel/class/cs6210-f09/lec03.pdf">cornell</a></li>
+<li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-241j-dynamic-systems-and-control-spring-2011/readings/MIT6_241JS11_chap04.pdf">mit</a></li>
+</ul></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Znajdź rozwinięcie binarne liczb:</p>
+<ul>
+<li><span class="math inline">\(\frac{1}{10}\)</span></li>
+<li><span class="math inline">\(\frac{1}{3}\)</span></li>
+</ul>
+<center>
+<strong>B</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Niech <span class="math inline">\(||\mathbf{x}||\)</span> będzie normą euklidesową wektora <span class="math inline">\(\mathbf{x} \in \mathbb{R}^{n}\)</span>, a <span class="math inline">\(\mathbf{A} \in \mathbb{R}^{n \times n}\)</span> będzie macierzą kwadratową. Normą indukowaną macierzy nazywam wielkość</p>
+<p><span class="math display">\[
+||\mathbf{A}|| = \underset{||\mathbf{x}|| = 1}{\max} || \mathbf{A} \mathbf{x} || 
+\]</span></p>
+<p>Znajdź normy indukowane następujących macierzy:</p>
+<p><span class="math display">\[
+\left(
+\begin{array}{ccc}
+ 2 &amp; 1 &amp; 0 \\
+ 1 &amp; 2 &amp; 1 \\
+ 0 &amp; 1 &amp; 2 \\
+\end{array}
+\right)
+\]</span></p>
+<p><span class="math display">\[
+\left(
+\begin{array}{cc}
+ 1 &amp; 1 \\
+ 0 &amp; 1 \\
+\end{array}
+\right)
+\]</span></p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Udowodnij, że norma indukowana macierzy ortogonalnej wynosi 1.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 3 punkt)
+</center>
+<p>Definicję normy indukowanej można uogólnić także na macierze niekwadratowe. Znajdź normę macierzy</p>
+<p><span class="math display">\[
+\left(
+\begin{array}{ccc}
+ 1 &amp; 0 &amp; 1 \\
+ 0 &amp; 1 &amp; 0 \\
+\end{array}
+\right)
+\]</span></p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Rozwiązać układ równań</p>
+<p><span class="math display">\[
+  \begin{cases}
+    y + z = 1 \\
+    x + y + z = 2 \\
+    2 x - z = 0
+  \end{cases}
+\]</span></p>
+<p>za pomocą eliminacji Gaussa z wyborem elementu podstawowego.</p>
+<center>
+<strong>F</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Za pomocą metody eliminacji Gaussa znajdź macierz <span class="math inline">\(\mathbf{A}^{-1}\)</span>, gdzie:</p>
+<p><span class="math display">\[
+\mathbf{A} =\left(
+\begin{array}{cccc}
+ 4 &amp; 1 &amp; 0 &amp; 0 \\
+ 1 &amp; 4 &amp; 1 &amp; 0 \\
+ 0 &amp; 1 &amp; 4 &amp; 1 \\
+ 0 &amp; 0 &amp; 1 &amp; 4 \\
+\end{array}
+\right)
+\]</span></p>
 </article>
 </body>
 </html>

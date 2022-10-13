@@ -25,6 +25,10 @@ Zadanie A:
 FullSimplify
 ```
 
+Notebook z zajęć 11 X, aby uruchomić wszystkie komórki wystarczy w menu wybrać *Evaluate* - *Evaluate Notebook*:
+
+- [notebook](---ThisDir---/2.nb)
+
 <center>
 **A**
 </center>

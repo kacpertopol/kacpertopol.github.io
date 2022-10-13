@@ -33,6 +33,11 @@ Liczenie objetości bąbelków (proszę zajrzeć równiez do drugiego wykładu p
 
 - [objętość bąbelków](---ThisDir---/nof_15_10_2020_zajecia_1.nb)
 
+Notebooki z zajęć 13 X:
+
+- [rano](---ThisDir---/13_10_2022_rano.nb)
+- [wieczór 1](---ThisDir---/13_10_2022_wieczor.nb), [wieczór 2](---ThisDir---/13_10_2022_wieczor_1.nb)
+
 <center>
 **A**
 </center>

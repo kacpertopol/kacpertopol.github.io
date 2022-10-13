@@ -180,6 +180,11 @@ Liczenie objetości bąbelków (proszę zajrzeć równiez do drugiego wykładu p
 
 - [objętość bąbelków](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/002_Zestaw_2/nof_15_10_2020_zajecia_1.nb)
 
+Notebooki z zajęć 13 X:
+
+- [rano](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/002_Zestaw_2/13_10_2022_rano.nb)
+- [wieczór 1](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/002_Zestaw_2/13_10_2022_wieczor.nb), [wieczór 2](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/002_Zestaw_2/13_10_2022_wieczor_1.nb)
+
 <center>
 **A**
 </center>

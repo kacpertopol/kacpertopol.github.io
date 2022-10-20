@@ -29,6 +29,10 @@ Notebook z zajęć 11 X, aby uruchomić wszystkie komórki wystarczy w menu wybr
 
 - [notebook](---ThisDir---/2.nb)
 
+Notebook z zajęć 18 X, aby uruchomić wszystkie komórki wystarczy w menu wybrać *Evaluate* - *Evaluate Notebook*:
+
+- [notebook](---ThisDir---/3.nb)
+
 <center>
 **A**
 </center>

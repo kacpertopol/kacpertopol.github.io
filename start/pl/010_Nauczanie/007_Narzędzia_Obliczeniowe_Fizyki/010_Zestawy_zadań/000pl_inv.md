@@ -557,7 +557,7 @@ Wykorzystując
 RegionPlot
 Abs
 ```
-proszę narysować funkcję $1 / |k_{5}(x + i y)|$ gdzie $-2 < x < 1$ oraz $-1.5 < y < 1$.
+proszę narysować funkcję $1 / |k_{5}(x + i y)|$ gdzie $-2 < x < 1$ oraz $-1.5 < y < 1.5$.
 Co otrzymujemy? Czy można $1/||$ zastąpić inną funkcją?
 
 <center>

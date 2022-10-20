@@ -361,7 +361,8 @@ Implementacja powinna pozwalać na wykonanie operacji:
 - pisanie pakietów
   - przykład [pakietu](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/003_Zestaw_3/Przyklad.wl)
   - [przykład](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/003_Zestaw_3/przyklad_pakiet.nb) wykorzystania
-- [notebook z 20 X 2022](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/003_Zestaw_3/20_10_2022_rano.nb)
+- [notebook z 20 X 2022, grupa poranna](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/003_Zestaw_3/20_10_2022_rano.nb)
+- [notebook z 20 X 2022, grupa wieczorna](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/003_Zestaw_3/20_10_2022_wieczor.nb)
 
 <center>
 **A**

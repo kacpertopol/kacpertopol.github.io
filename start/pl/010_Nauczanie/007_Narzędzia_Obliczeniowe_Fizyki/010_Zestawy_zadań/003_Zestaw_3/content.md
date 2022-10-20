@@ -13,7 +13,8 @@
 - pisanie pakietów
   - przykład [pakietu](---ThisDir---/Przyklad.wl)
   - [przykład](---ThisDir---/przyklad_pakiet.nb) wykorzystania
-- [notebook z 20 X 2022](---ThisDir---/20_10_2022_rano.nb)
+- [notebook z 20 X 2022, grupa poranna](---ThisDir---/20_10_2022_rano.nb)
+- [notebook z 20 X 2022, grupa wieczorna](---ThisDir---/20_10_2022_wieczor.nb)
 
 <center>
 **A**

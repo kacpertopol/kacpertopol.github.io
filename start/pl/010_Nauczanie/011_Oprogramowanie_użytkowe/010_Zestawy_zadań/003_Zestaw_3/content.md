@@ -6,6 +6,12 @@ rosnące nasiona, np słonecznika:
 </center>
 
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [ciekawy artykuł z którego pochodzi algorytm](http://www.td-grafik.de/artic/talk20030122/overview.html)
+
+<center>
 **A**
 </center>
 

@@ -47,7 +47,7 @@ w trybie zdalnym.
 **WYKŁAD (Kacper Topolnicki)**
 </center>
 
-Wykład będzie prowadzony zdalnie z wykorzystaniem *MS TEAMS*. Na ocenę z wykładu końcową składać się będą:
+Na ocenę z wykładu końcową składać się będą:
 
 - kolokwium końcowe (50% oceny)
 - ocena z ćwiczeń (50% oceny)

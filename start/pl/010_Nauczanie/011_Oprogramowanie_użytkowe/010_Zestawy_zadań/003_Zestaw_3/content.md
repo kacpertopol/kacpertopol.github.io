@@ -119,7 +119,7 @@ singleIteration[seeds_] := ...
 gdzie `seeds` jest listą nasionek, np:
 
 ```
-{{0.01 , 0.0 , 0.01} , {0.02 , 0.01 , 0.013}}
+{ { 0.01 , 0.0 , 0.01 } , { 0.02 , 0.01 , 0.013 } }
 ```
 
 a wartość zwracana zawiera dodatkowe nasionko. To dodatkowe nasionko

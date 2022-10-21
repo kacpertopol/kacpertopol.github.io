@@ -1,3 +1,5 @@
+<!---
+
 <center>
 **ZAGADNIENIA DO KOLOKWIUM**
 </center>
@@ -27,7 +29,7 @@ Na kolokwium mogę pojawić się następujące zagadnienia:
 	- macierz prawdopodobieństw
   - Poisson
     - jak się ma do Bernulliego?
-
+--->
 <!---
 - procesy kolejkowe
   - prawo Little'a
@@ -35,11 +37,12 @@ Na kolokwium mogę pojawić się następujące zagadnienia:
   - M/M/1
     - podstawowe własności
 --->
-
+<!---
 Ocena z kolokwium jest zaliczana do oceny z wykładu. Jeżeli zadanie na kolokwium będzie wymagać przeprowadzenia obliczeń to będą to BARDZO proste rachunki.
 Nie przewiduję skomplikowanych wyprowadzeń. Kolokwium pisane jest na karteczkach. 
 Po ukończeniu będzie należało karteczki zeskanować / sfotografować i przesłać na <kacper.topolnicki@uj.edu.pl>.
 Czas trwania to około $30$ minut. 
+--->
 <center>
 **LITERATURA**
 </center>
@@ -52,17 +55,29 @@ Czas trwania to około $30$ minut.
 **MATERIAŁY DODATKOWE**
 </center>
 
-<!---- [wykład dr hab. prof UJ Romana Skibińskiego](---ThisDir---/RomanSkibinskiWyklad.pdf)--->
+<!--- - [wykład dr hab. prof UJ Romana Skibińskiego](---ThisDir---/RomanSkibinskiWyklad.pdf) --->
 - [instrukcja](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) installacji programu Mathematica
   ze [strony](https://fais.uj.edu.pl/dla-studentow/studia-z-mathematica)
   - **UWAGA** wszędzie gdzie to konieczne należy wpisywać uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail stanowi metodę weryfikacji, że jesteście państwo studentami uczelni. Informacja o aktywacji studenckich kont pocztowych dostępna jest [tutaj](https://pomocit.uj.edu.pl/poczta_studenci) 
     w zakładce “Aktywacja kont pocztowych dla studentów i doktorantów”.
 
-
 <center>
 **wykład 1**
 </center>
 
+- slajdy
+  - [wersja do druku](---ThisDir---/2022-10-12-Note-07-58.pdf), można wydrukować 4 lub 6
+    slajdów na jednej kartce i nanosić własne notatki
+  - [wersja z pauzami](---ThisDir---/2022-10-12-Note-07-58_present_i.pdf)
+- notebooki Mathematici
+  - w materiałach dodatkowych znajduje się instrukcja do otrzymania licencji
+  - [paradoks Montiego Halla](---ThisDir---/monty_hall.nb)
+    - polecam poczytać równiez o roli Pani Vos Savant
+  - [funkcje gęstości prawdopodobieństwa](---ThisDir---/fgp.nb)
+  - [beyesian inference](---ThisDir---/bayes.nb)
+    - dlaczego na końcu nie mamy ostrego piku? o jakich informacjach zapomnieliśmy?
+
+<!---
 - [slajdy z zeszłego roku](---ThisDir---/wykład_2020-10-17-Note-11-22.pdf)
 - notebooki Mathematici
   - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
@@ -76,8 +91,9 @@ Czas trwania to około $30$ minut.
   - [numberphile na youtube](https://youtu.be/4Lb-6rxZxx0)
   - [dłuższe wyjaśnienie](https://youtu.be/ugbWqWCcxrg)
   - [artykuł na wikipedii](https://en.wikipedia.org/wiki/Monty_Hall_problem)
+--->
 
-
+<!---
 <center>
 **wykład 2**
 </center>
@@ -97,7 +113,9 @@ Czas trwania to około $30$ minut.
 - [anieta](https://forms.office.com/r/GauqxyJPFU)
 - YouTube
   - jest mnóstwo materiałów, proszę sobie wpisać hasła takie jak "Jacobian", "change of variables"
+--->
 
+<!---
 <center>
 **wykład 3**
 </center>
@@ -108,7 +126,9 @@ Czas trwania to około $30$ minut.
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
 - krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
   potrafią Państwo powiedzieć czym jest stan stacjonarny?
+--->
 
+<!---
 <center>
 **wykład 4**
 </center>
@@ -124,10 +144,9 @@ Czas trwania to około $30$ minut.
 - notebooki Mathematici 
   - [Bernulli](---ThisDir---/20_12_2020.nb)
   - [Markov](---ThisDir---/20_12_2020_1.nb)
-<!---
-  - TODO: Metoda Funkcji Generującej
-  --->
+--->
 
+<!---
 <center>
 **wykład 5**
 </center>
@@ -146,4 +165,4 @@ Czas trwania to około $30$ minut.
 - [notebook](---ThisDir---/infiniteMatrix.nb)
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
-
+--->

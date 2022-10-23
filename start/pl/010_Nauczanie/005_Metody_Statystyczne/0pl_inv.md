@@ -143,6 +143,8 @@ Czas trwania to około $30$ minut.
   - [funkcje gęstości prawdopodobieństwa](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/fgp.nb)
   - [beyesian inference](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/bayes.nb)
     - dlaczego na końcu nie mamy ostrego piku? o jakich informacjach zapomnieliśmy?
+- youtube
+  - [3Blue1Brown twierdzenie Bayesa](https://youtu.be/HZGCoVF3YvM)
 
 <!---
 - [slajdy z zeszłego roku](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wykład_2020-10-17-Note-11-22.pdf)

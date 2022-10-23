@@ -76,6 +76,8 @@ Czas trwania to około $30$ minut.
   - [funkcje gęstości prawdopodobieństwa](---ThisDir---/fgp.nb)
   - [beyesian inference](---ThisDir---/bayes.nb)
     - dlaczego na końcu nie mamy ostrego piku? o jakich informacjach zapomnieliśmy?
+- youtube
+  - [3Blue1Brown twierdzenie Bayesa](https://youtu.be/HZGCoVF3YvM)
 
 <!---
 - [slajdy z zeszłego roku](---ThisDir---/wykład_2020-10-17-Note-11-22.pdf)

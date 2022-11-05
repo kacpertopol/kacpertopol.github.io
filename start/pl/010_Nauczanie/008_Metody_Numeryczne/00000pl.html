@@ -81,6 +81,7 @@ SOFTWARE.
 <li><a href="#zestaw-2">Zestaw 2</a></li>
 <li><a href="#zestaw-3">Zestaw 3</a></li>
 <li><a href="#zestaw-4">Zestaw 4</a></li>
+<li><a href="#zestaw-5">Zestaw 5</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -461,6 +462,51 @@ A = \left(
 <li>Czy jest to macierz rzadka? Dlaczego tak lub dlaczego nie? Zaproponuj <em>efektywny</em> sposób zapamiętywania tej macierzy.</li>
 <li>Niech <span class="math inline">\(\mathbf{x} \in \mathbb{R}^{N}\)</span> będzie wektorem. Korzystając z wyniku poprzedniego podpunktu, zaproponuj <em>efektywny</em>, to znaczy unikający niepotrzebnych mnożeń przez zera, algorytm obliczania iloczynu <span class="math inline">\(\mathbf{A} \mathbf{x}\)</span>, gdzie <span class="math inline">\(\mathbf{A}\)</span> jest macierzą w postaci jak na początku zadania i oszacuj złożoność obliczeniową tego algorytmu. Przedstaw stosowny kod w wybranym języku programowania lub pseudokod.</li>
 </ul>
+<h2 id="zestaw-5">Zestaw 5</h2>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/006_Zestaw_5/reduce.nb">upraszczanie wyrażeń tensorowych w Mathematice</a>
+<ul>
+<li>notebook zawiera wskazówki do zadania 1</li>
+<li>starałem się wszystko obkomentować więc jeżeli ktoś nie zna Wolfram Language to może poczytać opis w <a href="./start/pl/010_Nauczanie/008_Metody_Numeryczne/010_Zestawy_zadań/006_Zestaw_5/reduce.pdf">wersji pdf</a></li>
+</ul></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 4 punkt)
+</center>
+<p><em>Metoda gradientów sprzężonych</em>. Niech macierz <span class="math inline">\(\mathbf{A} \in \mathbb{R}^{N \times N}\)</span> będzie symetryczna i dodatnio określona. Niech <span class="math inline">\(\mathbf{r}_{1} \in \mathbb{R}^{N}\)</span> będzie dowolnym wektorem takim, że <span class="math inline">\(||\mathbf{r}_{1}|| \ne 0\)</span> i niech <span class="math inline">\(\mathbf{p}_{1} = \mathbf{r}_{1}\)</span>. Definiujemy następującą iterację:</p>
+<p><span class="math display">\[\alpha_{k} = \frac{\mathbf{r}_{k}^{T} \mathbf{r}_{k}}{\mathbf{p}_{k}^{T} \mathbf{A} \mathbf{p}_{k}} \tag{1a}\]</span></p>
+<p><span class="math display">\[\mathbf{r}_{k + 1} = \mathbf{r}_{k} - \alpha_{k} \mathbf{A} \mathbf{p}_{k} \tag{1b}\]</span></p>
+<p><span class="math display">\[\beta_{k} = \frac{\mathbf{r}_{k + 1}^{T} \mathbf{r}_{k + 1}}{\mathbf{r}_{k}^{T} \mathbf{r}_{k}} \tag{1c}\]</span></p>
+<p><span class="math display">\[\mathbf{p}_{k + 1} = \mathbf{r}_{k + 1} + \beta_{k} \mathbf{p}_{k} \tag{1d}\]</span></p>
+<p>Udowodnij indukcyjnie, że dla każdych <span class="math inline">\(i\)</span>, <span class="math inline">\(j\)</span>, <span class="math inline">\(i &gt; j\)</span>, zachodzi (*)</p>
+<p><span class="math display">\[\mathbf{r}_{i}^{T} \mathbf{r}_{j} = 0 \tag{2a}\]</span></p>
+<p><span class="math display">\[\mathbf{r}_{i}^{T} \mathbf{p}_{j} = 0 \tag{2b}\]</span></p>
+<p><span class="math display">\[\mathbf{p}_{i}^{T} \mathbf{A} \mathbf{p}_{j} = 0 \tag{2c}\]</span></p>
+<p>Gdzie w dowodzie wykorzystuje się symetrię, gdzie zaś dodatnią określoność macierzy <span class="math inline">\(\mathbf{A}\)</span>?</p>
+<p><em>Wskazówka</em>: Dowód należy przeprowadzić indukcyjnie. Krok indukcyjny polega na tym, iż zakładamy, że pierwsze <span class="math inline">\(k &lt; N\)</span> wektorów <span class="math inline">\(\mathbf{r}_{j}\)</span>, <span class="math inline">\(\mathbf{p}_{j}\)</span> spełnia (2). Następnie generujemy wektory <span class="math inline">\(\mathbf{r}_{k + 1}, \mathbf{p}_{k + 1}\)</span>. Trzeba pokazać, że one także spełniają (2) korzystając z tego, że poprzednie wektory je spełniają. Dowód ten jest prosty, ale na ćwiczeniach stracimy na niego mnóstwo czasu, jeśli nie <em>spróbujecie</em> go Państwo przeprowadzić samodzielnie.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Dane jest równanie liniowe:</p>
+<p><span class="math display">\[\mathbf{A} \mathbf{x} = \mathbf{b} \tag{3}\]</span></p>
+<p>przy czym macierz <span class="math inline">\(\mathbf{A}\)</span> spełnia założenia z poprzedniego zadania. Niech <span class="math inline">\(\mathbf{x}_{1}\)</span> będzie pierwszym (być może złym) przybliżeniem rozwiązania (3) i niech <span class="math inline">\(\mathbf{r}_{1} = \mathbf{A} \mathbf{x}_{1} - \mathbf{b}\)</span>. W każdym kroku iteracji (1) definiujemy</p>
+<p><span class="math display">\[\mathbf{x}_{k + 1} = x_{k} - \alpha_{k} \mathbf{p}_{k}. \tag{4}\]</span></p>
+<p>Znaleźć związek pomiędzy <span class="math inline">\(\mathbf{x}_{k}\)</span> a <span class="math inline">\(\mathbf{r}_{k}\)</span>. Pokazać, że <span class="math inline">\(\mathbf{x}_{N + 1}\)</span> jest ścisłym rozwiązaniem równania (3) (w arytmetyce dokładnej).</p>
 </article>
 </body>
 </html>

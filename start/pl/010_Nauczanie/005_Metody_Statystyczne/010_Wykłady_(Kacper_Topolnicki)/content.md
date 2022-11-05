@@ -95,11 +95,19 @@ Czas trwania to około $30$ minut.
   - [artykuł na wikipedii](https://en.wikipedia.org/wiki/Monty_Hall_problem)
 --->
 
-<!---
 <center>
 **wykład 2**
 </center>
 
+- slajdy
+  - [wersja do druku](---ThisDir---/2020-10-26-Note-09-09_mod.pdf), można wydrukować 4 lub 6
+    slajdów na jednej kartce i nanosić własne notatki
+  - [wersja z pauzami](---ThisDir---/2020-10-26-Note-09-09_mod_present_i.pdf)
+- notebooki Mathematici
+  - w materiałach dodatkowych znajduje się instrukcja do otrzymania licencji
+  - [zmianna zmiennych losowych w 2D](---ThisDir---/examples2.nb) 
+
+<!---
 - nieco mniej chaotyczne [slajdy](---ThisDir---/ms_2.pdf)
 - nowe, króciutkie, [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EX1qBOu3wMZMsWNJ-P-RwGsBAachwZlIjVar_SU-cAlSEQ)
   - postanowiłem sporządzić od zera nowe nagranie do "mniej chaotycznych" slajdów

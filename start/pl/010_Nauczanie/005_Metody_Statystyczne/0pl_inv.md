@@ -173,6 +173,9 @@ Czas trwania to około $30$ minut.
 - notebooki Mathematici
   - w materiałach dodatkowych znajduje się instrukcja do otrzymania licencji
   - [zmianna zmiennych losowych w 2D](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples2.nb) 
+  - dodatkowe notebooki z wykładu: [1](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples.nb) oraz [2](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples1.nb)
+    - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate Notebook*
+
 
 <!---
 - nieco mniej chaotyczne [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_2.pdf)

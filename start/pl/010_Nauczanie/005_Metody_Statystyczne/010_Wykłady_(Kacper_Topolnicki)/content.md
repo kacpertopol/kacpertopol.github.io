@@ -106,6 +106,9 @@ Czas trwania to około $30$ minut.
 - notebooki Mathematici
   - w materiałach dodatkowych znajduje się instrukcja do otrzymania licencji
   - [zmianna zmiennych losowych w 2D](---ThisDir---/examples2.nb) 
+  - dodatkowe notebooki z wykładu: [1](---ThisDir---/examples.nb) oraz [2](---ThisDir---/examples1.nb)
+    - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate Notebook*
+
 
 <!---
 - nieco mniej chaotyczne [slajdy](---ThisDir---/ms_2.pdf)

@@ -2,10 +2,7 @@
 **MATERIAŁY DODATKOWE**
 </center>
 
-- [upraszczanie wyrażeń tensorowych w Mathematice](---ThisDir---/reduce.nb)
-  - notebook zawiera wskazówki do zadania 1
-  - starałem się wszystko obkomentować więc jeżeli ktoś nie zna Wolfram Language
-    to może poczytać opis w [wersji pdf](---ThisDir---/reduce.pdf)
+- [upraszczanie wyrażeń tensorowych w Mathematice](---ThisDir---/07_11_2022.nb)
 
 <center>
 **A**

@@ -82,6 +82,7 @@ SOFTWARE.
 <li><a href="#zestaw-3">Zestaw 3</a></li>
 <li><a href="#zestaw-4">Zestaw 4</a></li>
 <li><a href="#zestaw-5">Zestaw 5</a></li>
+<li><a href="#zestaw-6">Zestaw 6</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -503,6 +504,76 @@ A = \left(
 <p>przy czym macierz <span class="math inline">\(\mathbf{A}\)</span> spełnia założenia z poprzedniego zadania. Niech <span class="math inline">\(\mathbf{x}_{1}\)</span> będzie pierwszym (być może złym) przybliżeniem rozwiązania (3) i niech <span class="math inline">\(\mathbf{r}_{1} = \mathbf{A} \mathbf{x}_{1} - \mathbf{b}\)</span>. W każdym kroku iteracji (1) definiujemy</p>
 <p><span class="math display">\[\mathbf{x}_{k + 1} = x_{k} - \alpha_{k} \mathbf{p}_{k}. \tag{4}\]</span></p>
 <p>Znaleźć związek pomiędzy <span class="math inline">\(\mathbf{x}_{k}\)</span> a <span class="math inline">\(\mathbf{r}_{k}\)</span>. Pokazać, że <span class="math inline">\(\mathbf{x}_{N + 1}\)</span> jest ścisłym rozwiązaniem równania (3) (w arytmetyce dokładnej).</p>
+<h2 id="zestaw-6">Zestaw 6</h2>
+<center>
+<strong>A</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Niech pewna macierz kwadratowa <span class="math inline">\(\mathbf{A} \in \mathbb{R}^{N \times N}\)</span> posiada <span class="math inline">\(N\)</span> niezależnych liniowo wektorów własnych. Utwórzmy macierz <span class="math inline">\(\mathbf{X}\)</span> w ten sposób, że kolejne wektory własna <span class="math inline">\(\mathbf{A}\)</span> będą kolejnymi kolumnami <span class="math inline">\(\mathbf{X}\)</span>. Udowodnij, że</p>
+<p><span class="math display">\[
+\mathbf{X}^{-1} \mathbf{A} \mathbf{X} = diag\{\lambda_{1}, \lambda_{2}, \ldots, \lambda_{N}\},
+\]</span></p>
+<p>gdzie <span class="math inline">\(\lambda_{1}, \lambda_{2}, \ldots, \lambda_{N}\)</span> są kolejnymi wartościami własnymi <span class="math inline">\(\mathbf{A}\)</span>.</p>
+<p>Wskazówka: Niech dwa wektory własne <span class="math inline">\(\mathbf{A}\)</span> spełniają</p>
+<p><span class="math display">\[
+\mathbf{A} \mathbf{x}_{1} = \lambda_{1} \mathbf{x}_{1}, \mathbf{A} \mathbf{x}_{2} = \lambda_{2} \mathbf{x}_{2}
+\]</span></p>
+<p>Jak zapisać powyższe dwa wyrażenia za pomocą  wyrażenia macierzowego?</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Znajdź wartości własne macierzy:</p>
+<p><span class="math display">\[
+\left(
+\begin{array}{cccc}
+ 0 &amp; 1 &amp; 0 &amp; -i \\
+ 1 &amp; 0 &amp; i &amp; 0 \\
+ 0 &amp; -i &amp; 0 &amp; 1 \\
+ i &amp; 0 &amp; 1 &amp; 0 \\
+\end{array}
+\right)
+\]</span></p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Znajdź wartości własne macierzy:</p>
+<p><span class="math display">\[
+\left(
+\begin{array}{cccc}
+ 0 &amp; 1 &amp; 0 &amp; -1 \\
+ 1 &amp; 0 &amp; 1 &amp; 0 \\
+ 0 &amp; 1 &amp; 0 &amp; 1 \\
+ -1 &amp; 0 &amp; 1 &amp; 0 \\
+\end{array}
+\right) \tag{1}
+\]</span></p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+[<a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/">źródło: dr hab. Paweł Góra, prof. UJ</a>]
+</center>
+<center>
+(zadanie rachunkowe, 2 punkt)
+</center>
+<p>Macierz (1) można potraktować jako symetryczne, rzeczywiste przedstawienie pewnej macierzy hermitowskiej. Jakiej? Znajdź wartości własne tej macierzy.</p>
 </article>
 </body>
 </html>

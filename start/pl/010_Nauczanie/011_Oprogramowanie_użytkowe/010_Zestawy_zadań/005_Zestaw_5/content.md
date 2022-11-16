@@ -1,4 +1,10 @@
 <center>
+**Materiały Dodatkowe**
+</center>
+
+- [notebook z 15 XI 2022](---ThisDir---/15_11_2022.nb)
+
+<center>
 **A**
 </center>
 

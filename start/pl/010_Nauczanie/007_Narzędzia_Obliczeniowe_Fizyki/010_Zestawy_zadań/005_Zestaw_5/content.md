@@ -5,6 +5,7 @@
 - zawartość ["tablicy"](---ThisDir---/zajecia.pdf)
 - włączyłem nagrywanie trochę późno więc [krótkie nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXmBMJJtiGtAv5MUsU--zJ4Bmr50Q07mb1L9aErwpg1DnA?e=w6L47b) z zajęć
 - chaotyczny [notebook](---ThisDir---/zajecia.nb) z zajęć 
+- [rysowanie fali](---ThisDir---/fala.nb)
 
 <center>
 **A**

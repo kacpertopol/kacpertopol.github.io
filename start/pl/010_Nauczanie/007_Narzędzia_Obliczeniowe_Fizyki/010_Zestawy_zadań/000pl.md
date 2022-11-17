@@ -819,6 +819,7 @@ Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzecz
 - zawartość ["tablicy"](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/005_Zestaw_5/zajecia.pdf)
 - włączyłem nagrywanie trochę późno więc [krótkie nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXmBMJJtiGtAv5MUsU--zJ4Bmr50Q07mb1L9aErwpg1DnA?e=w6L47b) z zajęć
 - chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/005_Zestaw_5/zajecia.nb) z zajęć 
+- [rysowanie fali](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/005_Zestaw_5/fala.nb)
 
 <center>
 **A**

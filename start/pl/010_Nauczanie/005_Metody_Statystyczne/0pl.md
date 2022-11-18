@@ -195,18 +195,14 @@ Czas trwania to około $30$ minut.
   - jest mnóstwo materiałów, proszę sobie wpisać hasła takie jak "Jacobian", "change of variables"
 --->
 
-<!---
 <center>
 **wykład 3**
 </center>
 
-- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
+- [slajdy z ubiegłych lat](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
+- [nagranie z ubiegłych lat](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
 - [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
-- krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
-  potrafią Państwo powiedzieć czym jest stan stacjonarny?
---->
 
 <!---
 <center>

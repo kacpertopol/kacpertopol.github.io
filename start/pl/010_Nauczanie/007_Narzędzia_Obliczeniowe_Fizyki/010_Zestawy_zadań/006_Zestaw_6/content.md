@@ -5,6 +5,7 @@
 - [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXpQa3ULMbBEt8whl25KFcoB6CLu1oYHgvTW7GMGNzby4g?e=Zlos8O)
 - chaotyczne [slajdy](---ThisDir---/zajecia.pdf) 
 - ocenzurowany (bez rozwiązania WH) [notebook](---ThisDir---/cenzura.nb) 
+- [notebook z 17 XI 2022](---ThisDir---/17_11_2022.nb)
 
 <center>
 **A**

@@ -2,7 +2,7 @@
 **MATERIAŁY DODATKOWE**
 </center>
 
-- [notebook](---ThisDir---/plots.nb) Mathematici z przykładami
+- [notebook](---ThisDir---/28_11_2022.nb) Mathematici z przykładami
 
 <center>
 **A**

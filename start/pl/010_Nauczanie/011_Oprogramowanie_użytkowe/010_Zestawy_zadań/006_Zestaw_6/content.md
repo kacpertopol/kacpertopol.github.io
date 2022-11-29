@@ -2,6 +2,7 @@
 **Materiały Dodatkowe**
 </center>
 
+- dzisiejszy zestaw jest zaczerpnięty z dokumentacji *Mathematici*
 - dodatkowe informacje można znaleźć w dokumentacji *Mathematici* pod hasłem "tutorial/NeuralNetworksOverview"
 
 <center>

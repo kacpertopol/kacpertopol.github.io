@@ -2,6 +2,8 @@
 **Materiały Dodatkowe**
 </center>
 
+- dodatkowe informacje można znaleźć w dokumentacji *Mathematici* pod hasłem "tutorial/NeuralNetworksOverview"
+
 <center>
 **A**
 </center>
@@ -12,12 +14,10 @@
 
 Proszę:
 
-- korzystając z funkcji `ResourceData` ściągnąć zbiór danych "MNIST" zawierający 
-sklasyfikowane próbki ręcznego pisma - cyfr 0 ... 9. 
-- pobrać zarówno "TrainingData"
-jak i "TestData". Dlaczego dzielimy zbiór danych na dwie części? 
-Proszę narysować kilka przykładów
-- znaleźć przykład trudnego do odczytania pisma.
+- korzystając z funkcji `ResourceData` ściągnąć zbiór danych "MNIST" zawierający sklasyfikowane próbki ręcznego pisma - cyfr 0 ... 9, 
+- pobrać zarówno "TrainingData" jak i "TestData"
+- dlaczego dzielimy zbiór danych na dwie części? 
+- znaleźć przykład trudnego do odczytania pisma
 
 <center>
 **B**

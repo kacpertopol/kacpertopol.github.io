@@ -8,7 +8,7 @@
 - uczenie maszynowe i sztuczne sieci neuronowe to bardzo potężne narzędzia, ten arsenał jest
   dostępny w mathematice! Ale:
     - należy z nich korzystać bardzo roztropnie!
-	- najpierw należy dokładnie wiedzieć jak działają
+	- najpierw należy dokładnie wiedzieć jak działają!
 
 
 <center>

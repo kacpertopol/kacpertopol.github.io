@@ -4,6 +4,12 @@
 
 - dzisiejszy zestaw jest zaczerpnięty z dokumentacji *Mathematici*
 - dodatkowe informacje można znaleźć w dokumentacji *Mathematici* pod hasłem "tutorial/NeuralNetworksOverview"
+	- [przykłaz z tego tutoriala zawierający wiele komentarzy](---ThisDir---/fromDocumentation.nb)
+- uczenie maszynowe i sztuczne sieci neuronowe to bardzo potężne narzędzia, ten arsenał jest
+  dostępny w mathematice! Ale:
+    - należy z nich korzystać bardzo roztropnie!
+	- najpierw należy dokładnie wiedzieć jak działają
+
 
 <center>
 **A**

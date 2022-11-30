@@ -1,0 +1,247 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10337,        239]
+NotebookOptionsPosition[      8687,        211]
+NotebookOutlinePosition[      9085,        227]
+CellTagsIndexPosition[      9042,        224]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "Przyk\[LSlash]ad", " ", "jest", " ", "zaczerpni\:0119ty", " ", "z", " ", 
+   RowBox[{"dokumentacji", ":", " ", 
+    RowBox[{"tutorial", "/", "NeuralNetworksOverview"}]}]}], "*)"}]], "Input",\
+
+ CellChangeTimes->{{3.8788109431333714`*^9, 3.878810974027236*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"09637e71-759f-4e10-b8ee-4cc599c94980"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "Import", " ", "danych", " ", "zawieraj\:0105cych", " ", "pr\[OAcute]bki", 
+   " ", "pisma", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"cyferki", " ", "0"}], " ", ".."}], " ", "9"}], ")"}], " ", 
+   "wraz", " ", "w\[LSlash]a\:015bciw\:0105", " ", 
+   RowBox[{"cyfr\:0119", ".", " ", "Najpierw"}], " ", "importujemy", " ", 
+   "dane", " ", "do", " ", "szkolenia", " ", "sieci", " ", 
+   RowBox[{"neuronowej", ":"}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.878810843157659*^9, 3.8788109040168667`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"097580c2-f5be-4330-a941-c2d8b05fde57"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"trainingData", "=", 
+   RowBox[{"ResourceData", "[", 
+    RowBox[{"\"\<MNIST\>\"", ",", "\"\<TrainingData\>\""}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{3.878713990435528*^9},
+ CellLabel->"In[13]:=",ExpressionUUID->"b335f660-cb27-44b6-a2c4-86ee9ca36e7d"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{
+   "Teraz", " ", "zaimportujemy", " ", "dane", " ", "do", " ", 
+    "veryfikacji"}], " ", "-", " ", 
+   RowBox[{
+   "czy", " ", "nasza", " ", "sie\[CAcute]", " ", "zosta\[LSlash]a", " ", 
+    "prawid\[LSlash]owo", " ", 
+    RowBox[{"przeszkolona", "?"}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.87881090795114*^9, 3.878810932307065*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"ff2e0c37-7b40-47c8-bb82-840d21502ae6"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"testData", "=", 
+   RowBox[{"ResourceData", "[", 
+    RowBox[{"\"\<MNIST\>\"", ",", "\"\<TestData\>\""}], "]"}]}], 
+  ";"}]], "Input",
+ CellLabel->"In[15]:=",ExpressionUUID->"c68e5682-774f-4ea2-9ced-9f4025d893c6"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{
+   "Wypiszmy", " ", "sobie", " ", "jeden", " ", "przyk\[LSlash]ad", " ", "z", 
+    " ", "testData"}], ",", " ", 
+   RowBox[{
+   "RandomChoice", " ", "wybiera", " ", "losowo", " ", "jeden", " ", 
+    "element", " ", 
+    RowBox[{"listy", ":"}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.878810988872897*^9, 
+  3.8788110119760733`*^9}},ExpressionUUID->"30aba7eb-601d-4d42-87d8-\
+d0acafca5a62"],
+
+Cell[BoxData[
+ RowBox[{"sample", " ", "=", " ", 
+  RowBox[{"RandomChoice", "[", "testData", "]"}]}]], "Input",
+ CellChangeTimes->{{3.878811014394145*^9, 3.87881101784762*^9}, {
+  3.878811645738916*^9, 3.8788116465849037`*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"6d457a59-46bd-48a0-b0a2-d0a1c617c3a9"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{"Teraz", " ", "zaimportujemy", " ", "sie\[CAcute]", " ", 
+    RowBox[{"\"\<LeNet\>\"", ".", " ", "Uwaga"}], " ", "wagi", " ", "oraz", 
+    " ", "bias", " ", 
+    RowBox[{"(", "uprzedzenia", ")"}], " ", "nie", " ", "s\:0105", " ", 
+    "jeszcze", " ", "zainicjalizowane", " ", 
+    RowBox[{
+     RowBox[{"(", "uninitialized", ")"}], ".", " ", "Mo\:017cna"}], " ", 
+    "nacisn\:0105\[CAcute]", " ", "symbol"}], " ", "+", " ", 
+   RowBox[{"aby", " ", "zobaczy\[CAcute]", " ", "struktur\:0119", " ", 
+    RowBox[{"sieci", ":"}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.878811039272018*^9, 3.878811045045578*^9}, {
+  3.8788111354006557`*^9, 3.878811195059381*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"d960d35e-e05d-43fe-ac7a-61dac71f7a6d"],
+
+Cell[BoxData[
+ RowBox[{"model", " ", "=", " ", 
+  RowBox[{"NetModel", "[", "\"\<LeNet\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.8788110319143887`*^9, 3.878811037111288*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"4a92b6b6-372b-4269-baad-1eee7b095708"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "Nast\:0119pnym", " ", "krokiem", " ", "jest", " ", "szkolenie", " ", 
+     RowBox[{"modelu", ".", " ", "W"}], " ", "ka\:017cdej", " ", "iteracji", 
+     " ", "algorytmu", " ", "wagi", " ", "oraz", " ", "uprzedzenia", " ", 
+     "b\:0119d\:0105", " ", "podlega\[LSlash]y", " ", "drobnym", " ", 
+     RowBox[{"zmianom", ".", " ", "Te"}], " ", "zmiany", " ", 
+     "parametr\[OAcute]w", " ", "sieci", " ", "s\:0105", " ", "wykonywane", 
+     " ", "w", " ", "bardzo", " ", "sprytny", " ", "spos\[OAcute]b"}], " ", 
+    "-", " ", 
+    RowBox[{
+    "ich", " ", "celem", " ", "jest", " ", "minimalizacja", " ", "tzw", " ", 
+     "funkcji", " ", 
+     RowBox[{"straty", ".", " ", "W"}], " ", "naszym", " ", "wypadku", " ", 
+     "im", " ", "sie\[CAcute]", " ", "gorzej", " ", "sobie", " ", "radzi", 
+     " ", "z", " ", "klasyfikowaniem", " ", "pr\[OAcute]bbek", " ", 
+     "r\:0119cznego", " ", "pisma", " ", "do", " ", "odpowiedniej", " ", 
+     "cyferki"}], " ", "-", " ", 
+    RowBox[{"tym", " ", "wi\:0119ksza", " ", "funkcja", " ", 
+     RowBox[{"straty", ".", " ", "Dodatkowym"}], " ", "parametrem", " ", 
+     "jest", " ", 
+     RowBox[{"ValidationSet", ".", " ", "Dane"}], " ", "podane", " ", "do", 
+     " ", "ValidationSet"}]}], ",", " ", "testData", ",", " ", 
+   RowBox[{
+   "nie", " ", "s\:0105", " ", "wykorzystywane", " ", "w", " ", "szkoleniu", 
+    " ", "ale", " ", "dzi\:0119ki", " ", "nim", " ", "mo\:017cna", " ", "na", 
+    " ", "bierz\:0105co", " ", "sprawdzi\[CAcute]", " ", "jak", " ", 
+    "dobrze"}], ",", " ", 
+   RowBox[{"w", " ", "kolejnych", " ", "iteracjach"}], ",", " ", 
+   RowBox[{"radzi", " ", "sobie", " ", 
+    RowBox[{"sie\[CAcute]", ".", " ", "Dlaczego"}], " ", "w", " ", "tym", " ",
+     "celu", " ", "nie", " ", "powinno", " ", "si\:0119", " ", 
+    "korzysta\[CAcute]", " ", "z", " ", 
+    RowBox[{"trainingData", "?", " ", "Jest"}], " ", "to", " ", 
+    "zwi\:0105zane", " ", "z", " ", "problemem", " ", "nadmiernego", " ", 
+    RowBox[{"dopasowania", ".", " ", "Zach\:0119cam"}], " ", "aby", " ", 
+    "poczyta\[CAcute]", " ", "wi\:0119cej", " ", "o", " ", "tym", " ", 
+    RowBox[{"problemie", "."}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.878811276552012*^9, 
+  3.878811550981929*^9}},ExpressionUUID->"6e36dcfe-6d5a-4fc2-8485-\
+7f366625c206"],
+
+Cell[BoxData[
+ RowBox[{"trainedModel", " ", "=", " ", 
+  RowBox[{"NetTrain", "[", 
+   RowBox[{"model", " ", ",", " ", "trainingData", " ", ",", 
+    RowBox[{"ValidationSet", "->", "testData"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.87881122339884*^9, 3.878811263443787*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"b73aa4ed-6247-4827-9586-c8b8ec02f678"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "sprawd\:017amy", " ", "jak", " ", "wyszkolona", " ", "sie\[CAcute]", " ", 
+   "radzi", " ", "sobie", " ", "z", " ", "losowym", " ", 
+   RowBox[{"przyk\[LSlash]adem", ":"}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.878811651160891*^9, 3.878811675580758*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"c962454b-385f-49f3-8781-1924ce3ba52c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"trainedModel", "[", 
+    RowBox[{"sample", "[", 
+     RowBox[{"[", "1", "]"}], "]"}], "]"}], " ", ",", " ", 
+   RowBox[{"sample", "[", 
+    RowBox[{"[", "2", "]"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.8788116785901117`*^9, 3.878811703188397*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"85eb0bbf-31e8-4fa7-96b5-dc280d83ed13"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{"Narysujmy", " ", "jeszcze", " ", "macierz", " ", 
+   RowBox[{"pomy\[LSlash]ek", ".", " ", "Bardzo"}], " ", "prosz\:0119", " ", 
+   "policzy\[CAcute]", " ", "t\:0105", " ", "macierz", " ", "innym", " ", 
+   RowBox[{"sposobem", ":"}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.878811713409934*^9, 
+  3.8788117611824837`*^9}},ExpressionUUID->"d5e5d11e-6528-4843-b504-\
+0a9868e61012"],
+
+Cell[BoxData[
+ RowBox[{"ClassifierMeasurements", "[", 
+  RowBox[{
+  "trainedModel", " ", ",", " ", "testData", " ", ",", " ", 
+   "\"\<ConfusionMatrixPlot\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8788117675599422`*^9, 3.878811769293298*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"b440d580-ee1d-42df-9726-508319cd7dea"]
+},
+WindowSize->{469.5, 390.75},
+WindowMargins->{{485.25, Automatic}, {9, Automatic}},
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f8eb827e-f400-42d9-a046-ae0afec0c693"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 383, 8, 73, "Input",ExpressionUUID->"09637e71-759f-4e10-b8ee-4cc599c94980"],
+Cell[944, 30, 646, 14, 97, "Input",ExpressionUUID->"097580c2-f5be-4330-a941-c2d8b05fde57"],
+Cell[1593, 46, 298, 7, 51, "Input",ExpressionUUID->"b335f660-cb27-44b6-a2c4-86ee9ca36e7d"],
+Cell[1894, 55, 473, 11, 73, "Input",ExpressionUUID->"ff2e0c37-7b40-47c8-bb82-840d21502ae6"],
+Cell[2370, 68, 248, 6, 29, "Input",ExpressionUUID->"c68e5682-774f-4ea2-9ced-9f4025d893c6"],
+Cell[2621, 76, 446, 12, 73, "Input",ExpressionUUID->"30aba7eb-601d-4d42-87d8-d0acafca5a62"],
+Cell[3070, 90, 305, 5, 32, "Input",ExpressionUUID->"6d457a59-46bd-48a0-b0a2-d0a1c617c3a9"],
+Cell[3378, 97, 795, 15, 117, "Input",ExpressionUUID->"d960d35e-e05d-43fe-ac7a-61dac71f7a6d"],
+Cell[4176, 114, 257, 4, 32, "Input",ExpressionUUID->"4a92b6b6-372b-4269-baad-1eee7b095708"],
+Cell[4436, 120, 2357, 43, 435, "Input",ExpressionUUID->"6e36dcfe-6d5a-4fc2-8485-7f366625c206"],
+Cell[6796, 165, 358, 6, 77, "Input",ExpressionUUID->"b73aa4ed-6247-4827-9586-c8b8ec02f678"],
+Cell[7157, 173, 381, 7, 53, "Input",ExpressionUUID->"c962454b-385f-49f3-8781-1924ce3ba52c"],
+Cell[7541, 182, 389, 9, 33, "Input",ExpressionUUID->"85eb0bbf-31e8-4fa7-96b5-dc280d83ed13"],
+Cell[7933, 193, 421, 8, 53, "Input",ExpressionUUID->"d5e5d11e-6528-4843-b504-0a9868e61012"],
+Cell[8357, 203, 326, 6, 56, "Input",ExpressionUUID->"b440d580-ee1d-42df-9726-508319cd7dea"]
+}
+]
+*)
+

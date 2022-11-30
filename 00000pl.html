@@ -643,7 +643,126 @@ D(x) = \frac{1}{6} \left(B^{3} - B\right)\left(x_{j + 1} - x_{j}\right)^{2}
 <li>Wyliczyć wagi <span class="math inline">\({w_{i}}\)</span> dla <span class="math inline">\(n = 65\)</span> węzłów i parametru <span class="math inline">\(d = 3\)</span>.</li>
 </ul>
 <h2 id="zestaw-8">Zestaw 8</h2>
-<p>Na zajęciach dokańczamy zadania z poprzednich zestawów. Porozmawiamy również o zadaniach programistycznych prof. Pawła Góry, dostępnych <a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/numeryczne.pdf">tutaj</a>. Następny raz spotkamy się dopiero w styczniu i będę prosił Państwa o wykonanie części tych zadań. Proszę nie panikować 😉 , kryteria oceniania będą łagorniejsze niż opisane w tym dokumencie.</p>
+<p>Porozmawiamy o zadaniach programistycznych prof. Pawła Góry, dostępnych <a href="http://th-www.if.uj.edu.pl/zfs/gora/metnum21/numeryczne.pdf">tutaj</a>. Będę prosił Państwa o wykonanie części tych zadań. Proszę nie panikować 😉 , kryteria oceniania będą łagorniejsze niż opisane w tym dokumencie.</p>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IEEE_754">standard IEE 754</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Horner%27s_method">postać Hornera</a></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<p>Korzystając z ulubionego języka (w przypadku egzotycznych języków proszę o skonsultowanie) proszę napisać program, który będzie testował reprezentacje liczb zmiennoprzecinkowych. Proszę w programie zbadać</p>
+<ul>
+<li>granice reprezentacji “single precision”</li>
+<li>granice reprezentacji “double precision”</li>
+</ul>
+<p>Eksperyment powinien:</p>
+<ul>
+<li>demonstrować co się dzieje w przpadku gdy pojawia się liczba przekraczająca zakres reprezentacji
+<ul>
+<li>liczba może być zarówno zbyt mała jak i zbyt duża</li>
+</ul></li>
+<li>pokazać jak można bezpiecznie obsłużyć sytuacje w których pojawiają się liczby zmiennoprzecinkowe przekraczające granice reprezentacji</li>
+</ul>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Korzystając z ulubionego języka (z zastrzeżeniem jak wyżej) proszę zaimplementować następujący pseudokod:</p>
+<pre><code>function iteruj(mianownik)
+    dx = 1.0 / float(m)
+    x = 0.0
+    do i = 1 .. mianownik
+        x = x + dx
+    end do
+    return abs(1.0 - x)</code></pre>
+<p>Gdzie <code>mianownik</code> to dodatnia liczba całkowita, <code>1.0</code> oraz <code>0.0</code> to liczby zmiennoprzecinkowe, funkcja <code>float</code> zamienia liczbę całkowitą na liczbę zmiennoprzecinkową natomiast funkcja <code>abs</code> zwraca wartość bezwzględną.</p>
+<p>Korzystając z implementacji:</p>
+<ul>
+<li>proszę zbadać jak zmieni się wynik funkcji gdy <code>mianownik = 1 .. 2048</code></li>
+<li>proszę zbadać jak zmieni się wynik funkcji gdy:
+<ul>
+<li>liczby zmiennoprzecinkowe reprezentowane są w pojedynczej precyzji</li>
+<li>liczby zmiennoprzecinkowe reprezentowane są w podwójnej precyzji</li>
+</ul></li>
+<li>otrzymane wyniki proszę zinterpretować i skomentować :-)</li>
+</ul>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę (ulubiony język, etc) zaimplementować przykład z wykładu profesora. Mamy zatem ciąg:</p>
+<p><span class="math display">\[
+\left\{
+    \begin{array}{ll}
+        x_{n + 1} = 4 x_n - 1 \\
+        x_{0} = \frac{1}{3}
+    \end{array}
+\right.
+\]</span></p>
+<p>i badamy jego rozbieżność. Proszę w implementacji wykorzystać szeroki wachlarz reprezentacji liczb zmiennoprzecinkowych. Wyniki proszę zilustrować wykresem.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Będziemy szukać miejsc zerowych wielomianu:</p>
+<p><span class="math display">\[
+x^{2} - 4 x + (4 + \alpha) = 0
+\]</span></p>
+<p>gdzie <span class="math inline">\(\alpha\)</span> jest niewielkim zaburzeniem, którego wartość jest porównywalna z precyzją maszynową odpowiedniej reprezentacji liczb zmiennoprzecinkowych.</p>
+<p>Proszę zbadać jak czułe są wyliczone numerycznie miejsca zerowe tego wielomianu na drobne (rzędy precyzji maszynowej) zmiany <span class="math inline">\(\alpha\)</span>. Dodatkowo rozwiązanie powinno:</p>
+<ul>
+<li>być zilustrowane wykresem</li>
+<li>zinterpretowane</li>
+<li>wykonane dla różnych reprezentacji liczb zmiennoprzecinkowych (pojedyncza, podwójna precyzja)</li>
+</ul>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Mamy dwa wielomiany:</p>
+<p><span class="math display">\[
+p(x) = x^5-\frac{137 x^4}{60}+\frac{15 x^3}{8}-\frac{17 x^2}{24}+\frac{9 x}{8}-\frac{1}{120}
+\]</span></p>
+<p>oraz</p>
+<p><span class="math display">\[
+q(x) = x \left(x \left(x \left(\left(x-\frac{137}{60}\right) x+\frac{15}{8}\right)-\frac{17}{24}\right)+\frac{9}{8}\right)-\frac{1}{120}
+\]</span></p>
+<p>Można sprawdzić, że <span class="math inline">\(p = q\)</span> (warto zajrzeć do <strong>MATERIAŁY DODATKOWE</strong> o postaci Hornera). Proszę, zaimplementować iteracje:</p>
+<p><span class="math display">\[
+\left\{
+    \begin{array}{ll}
+        x_{n + 1} = p(x_{n}) \\
+        x_{0} = \frac{2}{3}  \\
+        y_{n + 1} = q(y_{n}) \\
+        y_{0} = \frac{2}{3}
+    \end{array}
+\right.
+\]</span></p>
+<p>następnie:</p>
+<ul>
+<li>porównać wartości <span class="math inline">\(x\)</span> oraz <span class="math inline">\(y\)</span> w kolejnych iteracjach</li>
+<li>sprawdzić czy dominującym źródłem różnic jest:
+<ul>
+<li>inna kolejność wykonywania mnożenia i dodawania</li>
+<li>reprezentacja numeryczna liczb zmiennoprzecinkowych</li>
+</ul></li>
+</ul>
+<p>Uwaga, implementując obydwie postacie wielomianu należy pamiętać o kolejności wykonywania operacji.</p>
 </article>
 </body>
 </html>

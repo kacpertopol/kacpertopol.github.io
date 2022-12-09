@@ -1,5 +1,3 @@
-UWAGA: zestaw jest na 16 XII.
-
 <center>
 **MATERIAŁY DODATKOWE**
 </center>

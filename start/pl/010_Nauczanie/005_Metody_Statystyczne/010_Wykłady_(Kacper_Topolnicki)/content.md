@@ -137,13 +137,12 @@ Czas trwania to około $30$ minut.
 - [notebook Mathematici](---ThisDir---/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
 
-<!---
 <center>
 **wykład 4**
 </center>
 
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
-- [slajdy](---ThisDir---/20_12_2020.pdf)
+- [nagranie z ubiegłych lat](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
+- [slajdy z ubiegłych lat](---ThisDir---/20_12_2020.pdf)
 - wykład korzystał również z:
   - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
   - [unikalność rozwiązania](http://www.stat.yale.edu/~jtc5/251/readings/Basics%20of%20Applied%20Stochastic%20Processes_Serfozo.pdf) 
@@ -153,7 +152,6 @@ Czas trwania to około $30$ minut.
 - notebooki Mathematici 
   - [Bernulli](---ThisDir---/20_12_2020.nb)
   - [Markov](---ThisDir---/20_12_2020_1.nb)
---->
 
 <!---
 <center>

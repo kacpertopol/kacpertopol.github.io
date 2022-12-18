@@ -29,7 +29,7 @@ $-1 \lt x \lt 1$ oraz $-1 \lt y \lt 1$.
 </center>
 
 <center>
-(2 punkty)
+(3 punkty)
 </center>
 
 Rozważamy sztywno względem siebie ułożone masy punktowe w trzech wymiarach:
@@ -58,7 +58,7 @@ Wskazówka: Można skorzystać z `Riffle` , `Partition` , `Map` , `Union` , `Joi
 </center>
 
 <center>
-(2 punkty)
+(4 punkty)
 </center>
 
 Proszę policzyć macierz momentów bezwładności dla systemu z zadania **B**:
@@ -87,7 +87,7 @@ Proszę ten wynik porównać z zadaniem **B**.
 </center>
 
 <center>
-(2 punkty)
+(3 punkty)
 </center>
 
 

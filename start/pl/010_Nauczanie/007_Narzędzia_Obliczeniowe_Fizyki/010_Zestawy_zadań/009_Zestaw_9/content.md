@@ -46,7 +46,7 @@ oraz porównać z [wikipedią](https://en.wikipedia.org/wiki/Buckingham_%CF%80_t
 </center>
 
 <center>
-(2 punkty)
+(3 punkty)
 </center>
 
 Korzystając z wyników zadania **A** oraz funkcji `NullSpace` proszę sprawdzić 
@@ -73,7 +73,7 @@ wbudowanej w Mathemaitcę funkcji `DimensionalCombinations`.
 </center>
 
 <center>
-(2 punkty)
+(3 punkty)
 </center>
 
 Rozważamy bryły sztywne na płaszczyźnie. 

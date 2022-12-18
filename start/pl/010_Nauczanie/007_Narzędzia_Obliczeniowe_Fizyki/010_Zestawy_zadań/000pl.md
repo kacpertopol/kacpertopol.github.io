@@ -1200,7 +1200,7 @@ oraz porównać z [wikipedią](https://en.wikipedia.org/wiki/Buckingham_%CF%80_t
 </center>
 
 <center>
-(2 punkty)
+(3 punkty)
 </center>
 
 Korzystając z wyników zadania **A** oraz funkcji `NullSpace` proszę sprawdzić 
@@ -1227,7 +1227,7 @@ wbudowanej w Mathemaitcę funkcji `DimensionalCombinations`.
 </center>
 
 <center>
-(2 punkty)
+(3 punkty)
 </center>
 
 Rozważamy bryły sztywne na płaszczyźnie. 
@@ -1297,7 +1297,7 @@ $-1 \lt x \lt 1$ oraz $-1 \lt y \lt 1$.
 </center>
 
 <center>
-(2 punkty)
+(3 punkty)
 </center>
 
 Rozważamy sztywno względem siebie ułożone masy punktowe w trzech wymiarach:
@@ -1326,7 +1326,7 @@ Wskazówka: Można skorzystać z `Riffle` , `Partition` , `Map` , `Union` , `Joi
 </center>
 
 <center>
-(2 punkty)
+(4 punkty)
 </center>
 
 Proszę policzyć macierz momentów bezwładności dla systemu z zadania **B**:
@@ -1355,7 +1355,7 @@ Proszę ten wynik porównać z zadaniem **B**.
 </center>
 
 <center>
-(2 punkty)
+(3 punkty)
 </center>
 
 

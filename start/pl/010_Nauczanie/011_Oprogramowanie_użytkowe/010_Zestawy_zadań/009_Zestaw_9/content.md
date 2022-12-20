@@ -1,4 +1,11 @@
 <center>
+**materiały dodatkowe**
+</center>
+
+- [notebook z zajęć](---ThisDir---/20_12_2022_.nb)
+- zachęcam do przyjrzenia się dokumentacji: `guide/HandlingArraysOfData` oraz `guide/ApplyingFunctionsToLists`
+
+<center>
 **A**
 </center>
 

@@ -23,6 +23,7 @@ title : Zestawy zadań
 * [Zestaw 8](#zestaw-8)
 * [Zestaw 9](#zestaw-9)
 * [Zestaw 10](#zestaw-10)
+* [Zestaw 11](#zestaw-11)
 
 
 
@@ -1361,4 +1362,43 @@ Proszę ten wynik porównać z zadaniem **B**.
 
 Proszę przesunąć wszystkie punkty systemu z zadania **B** o $1$ w kierunku $x$. Następnie proszę policzyć,
 metodą z zadania **C**, macierz momentów bezwładności i porównać ją z macierzą liczoną z twierdzenia Steinera.
+
+
+# Zestaw 11
+
+Na zajęciach chciałbym głównie porozmawiać z każdym z Państwa o projektach
+końcowych, kolokwium, zaliczeniach ... oraz złożyć życzenia świąteczne i noworoczne.
+
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [slajdy z zajęć](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/011_Zestaw_11/notatki.pdf)
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Proszę wyobrazić sobie wachadło fizyczne
+stworzone z wykorzystaniem 
+dowolnej, dwu wymiarowej bryły sztywnej z zadania **D** z zestawu 9.
+Wachadło może się swobodnie obracać wokół "idealnego" (brak tarcia oraz masy)
+zawiasu umieszczonego poza środkiem masy bryły. Równania ruchu dla wachadła
+proszę rozwiązać z wykorzystaniem funkcji `NDSolve`.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Wykorzystując zadanie **A** proszę tak dobrać warunki początkowe wachadła
+aby zademonstrować chaos w tym układzie.
+
 

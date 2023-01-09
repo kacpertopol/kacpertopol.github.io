@@ -55,6 +55,14 @@ Można korzystać z ulubionego oprogramowania do robienia wykresów i analizy da
 [gnuplot](http://www.gnuplot.info/) lub [scidavis](https://scidavis.sourceforge.net/)).
 Dopasowaną linię oraz dane proszę nanieść na wykres.
 
+<center>
+**E**
+</center>
 
+<center>
+(1 punkty)
+</center>
+
+Proszę narysować wykres funkji $exp(x)$ w skali logarytmicznej, zakres $x = 0.0 \ldots 5.0$.
 
 

@@ -1,0 +1,58 @@
+#!/usr/bin/gnuplot
+
+# Wykresy na każdą okazję:
+# http://gnuplot.sourceforge.net/demo_5.4/
+
+# Więcej informacji i dokumentacja na stronie:
+# http://www.gnuplot.info/
+
+set title "CRYPTOCURRENCY COMPARISON"
+set xlabel "DAYS SINCE 01.01.2021"
+
+# lw - line width
+# lt - line type
+
+# można manipulować kolumnami danych
+
+plot "ethGnuplot.data" using 1:(10 * $2) , "btcGnuplot.data" with lines lw 5 lt 2 
+
+pause -1
+
+# korzystanie ze skali logarytmicznej
+
+set title "BITCOIN PRICE"
+set xlabel "DAYS SINCE 01.01.2021"
+set ylabel "PRICE IN USD"
+
+# oś oraz podstawa logytmu
+set logscale y 10
+
+plot "btcGnuplot.data" with lines lw 5 lt 3 
+
+pause -1
+
+# leniwy sposób na poukładanie wykresów jeden nad drugim
+
+f(x) = sin(x)
+
+set multiplot layout 3 , 1
+
+unset title
+unset logscale
+
+set xlabel "DAYS"
+
+set ylabel "BTC"
+plot "btcGnuplot.data"
+
+set ylabel "ETH"
+plot "ethGnuplot.data" with lines
+
+set ylabel "SIN"
+plot f(x)
+
+unset multiplot
+
+pause -1
+
+

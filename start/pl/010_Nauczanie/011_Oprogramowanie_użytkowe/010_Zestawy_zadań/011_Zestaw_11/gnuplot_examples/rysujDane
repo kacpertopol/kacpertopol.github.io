@@ -1,0 +1,5 @@
+#!/usr/bin/gnuplot
+
+plot "btcGnuplot.data" using 1:2
+
+pause -1

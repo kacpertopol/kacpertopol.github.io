@@ -1,0 +1,10 @@
+#!/usr/bin/gnuplot
+
+# Dwa rysunki korzystające z podobnych plików
+# z danymi.
+
+plot "btcGnuplotMissingA.data" with lines
+pause -1
+
+plot "btcGnuplotMissingB.data" with lines
+pause -1

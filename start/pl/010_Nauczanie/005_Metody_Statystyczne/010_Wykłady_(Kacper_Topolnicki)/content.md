@@ -153,16 +153,16 @@ Czas trwania to około $30$ minut.
   - [Bernulli](---ThisDir---/20_12_2020.nb)
   - [Markov](---ThisDir---/20_12_2020_1.nb)
 
-<!---
 <center>
 **wykład 5**
 </center>
 
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
-- [slajdy](---ThisDir---/wyklad_5.pdf)
+- [nagranie z ubiegłych lat](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
+- [slajdy z ubiegłych lat](---ThisDir---/wyklad_5.pdf)
 - [notebook](---ThisDir---/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
 
+<!---
 <center>
 **wykład 6**
 </center>

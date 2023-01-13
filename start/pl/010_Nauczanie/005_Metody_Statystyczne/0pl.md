@@ -65,8 +65,6 @@ będzie ono miało wpływ jedynie na ocenę z wykładu.
 
 # Wykłady (Kacper Topolnicki)
 
-<!---
-
 <center>
 **ZAGADNIENIA DO KOLOKWIUM**
 </center>
@@ -96,7 +94,7 @@ Na kolokwium mogę pojawić się następujące zagadnienia:
 	- macierz prawdopodobieństw
   - Poisson
     - jak się ma do Bernulliego?
---->
+
 <!---
 - procesy kolejkowe
   - prawo Little'a

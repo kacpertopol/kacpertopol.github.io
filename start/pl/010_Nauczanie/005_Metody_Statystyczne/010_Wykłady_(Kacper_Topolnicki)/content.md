@@ -160,14 +160,12 @@ Czas trwania to około $30$ minut.
 - [notebook](---ThisDir---/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
 
-<!---
 <center>
 **wykład 6**
 </center>
 
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
-- [slajdy](---ThisDir---/W6.pdf)
+- [nagranie z ubiegłych lat](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
+- [slajdy z ubiegłych lat](---ThisDir---/W6.pdf)
 - [notebook](---ThisDir---/infiniteMatrix.nb)
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
---->

@@ -42,8 +42,6 @@ title : Zestawy zadań
   - przykładowe wykorzystanie znajduje się w `if(__name__ == "__main__"):...`
   - zachęcam do uzupełnienia katalgu funkcji o nowe
 
-- [rozwiązanie Angelo Norelli](./start/pl/010_Nauczanie/003_Algebra_i_Geometria/002_Zestawy_zadań/001_Zestaw_1/AngeloNorelliE1.jpg) części zadania E
-
 <center>
 **A**
 </center>

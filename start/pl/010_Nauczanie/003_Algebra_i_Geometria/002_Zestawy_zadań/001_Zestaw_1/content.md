@@ -11,8 +11,6 @@
   - przykładowe wykorzystanie znajduje się w `if(__name__ == "__main__"):...`
   - zachęcam do uzupełnienia katalgu funkcji o nowe
 
-- [rozwiązanie Angelo Norelli](---ThisDir---/AngeloNorelliE1.jpg) części zadania E
-
 <center>
 **A**
 </center>

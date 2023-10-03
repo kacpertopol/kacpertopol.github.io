@@ -21,6 +21,7 @@ toc-title: TOC
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
 	* [Oprogramowanie użytkowe](./0pl.html)
+	* [Numerical calculatins in Mathematica](./000pl.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -46,6 +47,10 @@ toc-title: TOC
 
 
 ## [Oprogramowanie użytkowe](./0pl.html)
+
+
+
+## [Numerical calculatins in Mathematica](./000pl.html)
 
 
 

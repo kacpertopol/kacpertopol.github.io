@@ -19,6 +19,8 @@ toc-title: TOC
 # Content:
 
 * [Contact](#contact)
+* [Teaching](#teaching)
+	* [Numerical calculatins in Mathematica](./0en.html)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
@@ -33,6 +35,14 @@ toc-title: TOC
 * adress: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland
 * room: B-2-25 (II floor)
 * tel.: (+48) 12 664 4869  
+
+
+# Teaching
+
+
+
+## [Numerical calculatins in Mathematica](./0en.html)
+
 
 
 # Curriculum vitae

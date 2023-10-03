@@ -1,0 +1,936 @@
+---
+title : Zestawy zadań
+---
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Old_Fashioned_Gym_%287981005513%29.jpg/800px-Old_Fashioned_Gym_%287981005513%29.jpg)](https://commons.wikimedia.org/wiki/File:Old_Fashioned_Gym_(7981005513).jpg)
+</center>
+
+
+
+
+
+# Zawartość:
+
+* [Zestaw 1](#zestaw-1)
+* [Zestaw 2](#zestaw-2)
+* [Zestaw 3](#zestaw-3)
+* [Zestaw 4](#zestaw-4)
+* [Zestaw 5](#zestaw-5)
+* [Zestaw 6](#zestaw-6)
+* [Zestaw 7](#zestaw-7)
+* [Zestaw 8](#zestaw-8)
+* [Zestaw 9](#zestaw-9)
+* [Zestaw 10](#zestaw-10)
+* [Zestaw 11](#zestaw-11)
+
+
+
+# Zestaw 1
+
+<center>
+**A**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę zainstalować i uruchomić program *Mathematica*.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Korzystająć z *notebook*a proszę zaimplementować ciąg
+liczb Fibonacciego $0 , 1 , 1 , 2 , 3 , 5 , 8 , 13 , 21, \ldots$.
+
+
+
+
+# Zestaw 2
+
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+W razie kłopotów:
+
+- *Evaluation - Quit Kernel - Local* resetuje jądro mathematici.
+  Wszystkie definicje zmiennych, funkcji, ... zostaną usunięte.
+- *Evaluation - Abort Evaluation* przerywa aktualnie wykonywane zadanie
+
+Ostatnie twierdzenie Fermata:
+
+- [wiki](https://pl.wikipedia.org/wiki/Wielkie_twierdzenie_Fermata), 
+  [youtube](https://youtu.be/qiNcEguuFSA)
+
+Szablony, wzrce: *Help - Wolfram Documentation* i w okienku:
+
+- *guide/Patterns*
+- *tutorial/Patterns*
+
+Zadanie A:
+
+- proszę dokładnie :-) przyjrzeć się wszystkim rozdziałom dokumentacji  
+```
+FullSimplify
+```
+
+Notebook z zajęć 11 X, aby uruchomić wszystkie komórki wystarczy w menu wybrać *Evaluate* - *Evaluate Notebook*:
+
+- [notebook](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/002_Zestaw_2/2.nb)
+
+Notebook z zajęć 18 X, aby uruchomić wszystkie komórki wystarczy w menu wybrać *Evaluate* - *Evaluate Notebook*:
+
+- [notebook](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/002_Zestaw_2/3.nb)
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę, z wykorzystaniem funkcji 
+```
+FullSimplify
+```
+sprawdzić
+czy istnieją liczby całkowite $x$ , $y$ , $z$ oraz $n$, które
+spełniają:
+
+- $x^n + y^n = z^n$
+- $n > 2$
+- $x y z \ne 0$ (żadna z tych liczb nie jest równa 0)
+
+<center>
+**B**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę skonstruować krótki dowód wyniku z zadania **A**. 
+Zeskanowane wyprowadzienie można mi wysłać pocztą elektroniczną.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę z wykorzystaniem funkcji 
+```
+If
+```
+zaimplementować funkcję $f(x , y)$, która przyjmuje wartość $1$
+gdy punkt $(x , y)$ wpada w dwu-wymiarowy pierścień 
+o zewnętrznym promieniu $1$
+oraz wewnętrznym promieniu $\frac{1}{2}$ ze środkiem
+w środku układu współrzędnych. W przeciwnym wypadku funkcja przyjmuje wartość $0$.
+Proszę tą funkcję narysować z wykorzystaniem
+```
+RegionPlot
+```
+
+<center>
+**D**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji:
+```
+Import
+```
+oraz 
+```
+Cases
+```
+Proszę napisać program który:
+
+- pobierze ze [strony](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
+  plik CSV zawierający dane dotyczące liczby potwierdzonych przypadków
+  - można skopiować link <https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv>
+  - wykorzystać go w funkcji 
+  ```
+  Import
+  ```
+- zwróci wykres nowych przypadków dla Polski z ostatnich czterech tygodni
+
+<center>
+**E**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z 
+```
+Manipulate
+```
+proszę napisać program, który będzie manipulował
+wykresem funkcji $f(x) = exp(x) sin(4 x)$.
+Implementacja powinna pozwalać na wykonanie operacji:
+
+- przesunięcia wykresu funkcji w górę lub dół
+- przesunięcia wykresu funkcji w lewo lub prawo
+- odbicie funkcji względem osi pionowej
+- odbicie funkcji względem osi posiomej 
+
+
+# Zestaw 3
+
+Naszym celem będzie stworzenie animacji ilustrującej 
+rosnące nasiona, np słonecznika:
+
+<center>
+![](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/003_Zestaw_3/sunFlower.gif)
+</center>
+
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [ciekawy artykuł z którego pochodzi algorytm](http://www.td-grafik.de/artic/talk20030122/overview.html)
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Pierwszy krok to skonstruowanie funkcji rysującej pojedyncze nasionko.
+Załóżmy, że nasiono ma trzy atrybuty:
+
+- współrzędną x
+- współrzędną y
+- rozmiar nasionka s
+
+Taki obiekt można reprezentować trzy elementową listą:
+
+```
+{x , y , s}
+```
+
+Proszę zaimplementować funkcję:
+
+```
+draw[{x_ , y_ , s_}] := ...
+```
+
+zwracającą listę (ewentualnie zagnieżdżoną listę) wyrażeń (`Disk[...]`, `Circle[...]`, `Gray[...]`, ...)
+opisującydh rysunek nasiona (narazie nie wrzucamy tej listy jeszcze do `Graphics`). Przykładowo
+```
+draw[{1.0 , 2.0 , 0.1}]
+```
+mogłoby zwracać:
+```
+Circle[{1.0 , 2.0} , 0.1]
+```
+
+<center>
+**B**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę zaimplementować funkcję:
+
+```
+grow[{x_ , y_ , s_}] := ...
+```
+
+zwracającą nową listę atrybutów nasiona. 
+Rozmiar nasiona w nowej liście powinien wynosić `mul s`, gdzie `mul = 1.01`
+dodatkowo zdefiniowaną zmienną.
+
+<center>
+**C**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę zaimplementować funkcję:
+
+```
+expand[{x_ , y_ , s_}] := ...
+```
+
+zwracającą nową listę atrybutów nasiona. Tym razem przesuwamy położenie środka nasionka.
+Nowe położenie powinno mieć współrzędne `mul x` oraz `mul y`, gdzie $mul$ jest zmienną
+zdefiniowaną w zadaniu B.
+
+<center>
+**D**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę zaimplementować funkcję:
+
+```
+rotate[{x_ , y_ , s_}] := ...
+```
+
+zwracającą nową listę atrybutów nasiona. Tym razem obracamy nasionko względem
+środka układu współrzędnych. Kąt obrotu powininen wynosić $\alpha = 2 \pi \frac{\sqrt{5} - 1}{2}$.
+Można wykorzystać funkcję `RotationTransform`. 
+
+<center>
+**E**
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+Proszę zaimplementować funkcję:
+
+```
+singleIteration[seeds_] := ...
+```
+
+gdzie `seeds` jest listą nasionek, np:
+
+```
+{ { 0.01 , 0.0 , 0.01 } , { 0.02 , 0.01 , 0.013 } }
+```
+
+a wartość zwracana zawiera dodatkowe nasionko. To dodatkowe nasionko
+powstaje z pierwszego nasiona w `seeds` poprzez aplikację wcześniej zdefiniowanych
+funkcji `grow`, `expand`, `rotate`.
+
+<center>
+**F**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystająć z funkcji `Nest` oraz `Graphics` proszę stworyć obrazek z $5$ nasionkami.
+Można założyć, że pierwsze nasiono ma atrybuty:
+
+```
+{0.01 , 0.0 , 0.12 * 0.01}
+```
+
+Pod koniec zajęć spróbujemy to rozszerzyć i stworzyć animację.
+
+
+# Zestaw 4
+
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [notebook z 8 XI 2022](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/004_Zestaw_4/08_11_2022.nb)
+
+<center>
+**A**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Korzystając z funkcji `Solve` proszę znaleźć wszystkie 
+[trójki pitagorejskie](https://pl.wikipedia.org/wiki/Tr%C3%B3jki_pitagorejskie),
+których wartości są mniejsze lub równe $200$. Trójki pitagorejskie
+to liczby całkowite $x$, $y$, $z$ spełniające równanie pitagorasa $x^{2} + y^{2} = z^{2}$.
+
+<center>
+**B**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Korzystając z wyniku zadania **A** oraz funkcji `Histogram` proszę narysować histogram
+wartości "przyprostokątnych" ($x$, $y$). Szerokość pojedynczego binu histogramu
+niech wynosi $10$. Wysokości słupków niech oznacza prawdopodobieństwo trafienia w bin.
+Dodatkowo proszę opisać rysunek oraz zmienić kolor słupków na inny niż domyślny.
+
+Wskazówka: mogą się przydać funkcje `Flatten` oraz `ReplaceAll` (pisane w skrócie jako operator `/.`).
+Dodatkowo proszę uważnie przeczytać dokumentację funkcji `Histogram`.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystająć z:
+```
+NSolve
+```
+proszę znaleźć wartści $x$ dla których zachodzi:
+
+- $f(x) = 0$, gdzie $f(x) = \frac{\sin{x^{2}}}{x^{2}}$
+- $x < 2 \pi$
+- $x > 0$
+
+<center>
+**D**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji
+```
+Plot
+```
+oraz opcjonalnych argumentów:
+```
+GridLines -> ... ,
+PlotStyle -> ... ,
+Frame -> ... ,
+Axes -> ... ,
+FrameLabel -> ...
+```
+Proszę narysować wykres funkcji $f(x)$ z zadania **A**
+w przedziale o $0$ do $2 \pi$. Wykres powinien:
+
+- być narysowany czerwoną linią
+- zawierać pionowe linie 
+  w miejscach gdzie w **A** wyliczono $f(x) = 0$
+- zamiast osi posiadać ramkę
+- zawiera opis pionowej oraz poziomej osi na ramce
+
+<center>
+**E**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzstając z funkcji `NIntegrate` proszę policzyć powierzchnię
+dwu wymiarowego pierścienia, którego mniejszy promień wynosi $0.5$
+a większy promień $1.0$. Proszę ten pierścień narysować korzystając
+z funkcji `DensityPlot`.
+
+Wskazówka: wystarczy policzyć dwu-wymiarową całkę z funkcji `isIn[x , y]`,
+która przybiera wartość $1$ gdy $(x , y)$ wpada w pierścień oraz $0$
+gdy $(x , y)$ jest poza pierścieniem. Funkcję `isIn` można również wykorzystać
+w funkcji `DensityPlot`.
+
+<center>
+**F**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę przeprowadzić rachunek z zadania **E** wykorzystując `Integrate`. 
+Wynik proszę porównać z zadaniem **E** oraz powierzchnią pierścienia policzoną
+analitycznie (znamy wzór na powierzchnię koła).
+
+<center>
+**G**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Na kolejnych zajęciach poznamy podstawy pisania tekstów oraz prezentacji z wykorzystaniem
+systemu [LaTeX](https://pl.wikipedia.org/wiki/LaTeX) i będziemy korzystać z 
+[Overleaf](https://www.overleaf.com/). Proszę spróbować założyć sobie 
+darmowe konto na serwisie [Overleaf](https://www.overleaf.com/).
+
+
+# Zestaw 5
+
+<center>
+**Materiały Dodatkowe**
+</center>
+
+- [notebook z 15 XI 2022](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/005_Zestaw_5/15_11_2022.nb)
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę napisać krótki (jedna, może dwie strony) opis modelu z poprzedniego zestawu.
+Tekst powinien być napisany w systemie LaTeX oraz zawierać
+
+- krótka bibliografię
+- obrazek utworzony w Mathematice i zapisany w formacie JPG wykorzystując funkcję `Export`
+- dwu wymiarową macierz obrotu utworzoną w Mathematice i zapisaną z wykorzystaniem `TeXForm`
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Podobnie jak w zadaniu **A** ale tym razem proszę stworzyć którką prezentację
+z wykorzystaniem klasy `Beamer`.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę napisać notebook Mathematici, który:
+
+- zaimportuje arkusz kalkulacyjny z dysku
+- policzy wartość oczwkiwaną oraz odchylenie standardowe danych znajdujących się
+  w pierwszej kolumnie
+- ma możliwość narysowania histogramu danych z naniesioną wartością oczekiwaną oraz 
+  odchyleniem standardowym - proszę wykorzystać `OptionsPattern`
+
+
+
+
+
+# Zestaw 6
+
+<center>
+**Materiały Dodatkowe**
+</center>
+
+- dzisiejszy zestaw jest zaczerpnięty z dokumentacji *Mathematici*
+- dodatkowe informacje można znaleźć w dokumentacji *Mathematici* pod hasłem "tutorial/NeuralNetworksOverview"
+	- [przykłaz z tego tutoriala zawierający wiele komentarzy](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/006_Zestaw_6/fromDocumentation.nb)
+- uczenie maszynowe i sztuczne sieci neuronowe to bardzo potężne narzędzia, ten arsenał jest
+  dostępny w mathematice! Ale:
+    - należy z nich korzystać bardzo roztropnie!
+	- najpierw należy dokładnie wiedzieć jak działają!
+
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę:
+
+- korzystając z funkcji `ResourceData` ściągnąć zbiór danych "MNIST" zawierający sklasyfikowane próbki ręcznego pisma - cyfr 0 ... 9, 
+- pobrać zarówno "TrainingData" jak i "TestData"
+- dlaczego dzielimy zbiór danych na dwie części? 
+- znaleźć przykład trudnego do odczytania pisma
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `NetTrain` oraz `NetModel` proszę wytrenować sieć "LeNet" 
+do rozpoznawania ręcznie pisanych cyfr.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z modelu wytrenowanego w **B** proszę stworzyć 
+[tablicę pomyłek (confusion matrix)](https://en.wikipedia.org/wiki/Confusion_matrix).
+
+
+
+
+# Zestaw 7
+
+<center>
+**A**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę pobrać ze [strony](https://www.gapminder.org/data/) dane
+dotyczące oczekiwanej długości życia oraz ilości dzieci 
+przypadających na jedną kobietę. Arkusze proszę pobrać w formacie
+CSV.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `Count` proszę policzyć w ilu państwach
+oczekiwany czas życia w roku 1976 był $>x$ gdzie $x = 0 \ldots 130$.
+Wynik proszę nanieść na wykres.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Podobnie jak w zadaniu **B** proszę policzyć wykres dla roku 1809. 
+Proszę porównać obydwa wykresy ale upewnić się, że w rachunku 
+dla roku 1976 oraz 1809 brane są pod uwagę te same państwa. Można
+w tym celu skorzystać z funkcji `Cases`.
+
+<center>
+**D**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `Transpose` , `Cases`, `Riffle` oraz `Partition`
+proszę odtworzyć wykres z [wykładu](https://youtu.be/hVimVzgtD6w)
+ilustrujący zmieniającą się w czasie korelację liczby dzieci przypadających
+na jedną kobietę oraz długość życia.
+
+
+
+
+# Zestaw 8
+
+<center>
+**A**
+</center>
+
+<center>
+(4 punkt)
+</center>
+
+Proszę pobrać z serwisu [arxiv](https://arxiv.org/) wybraną publikację i 
+odtworzyć bibliografię w `LaTeX`, można korzystać z systemu 
+[Overleaf](https://www.overleaf.com/). Bibliografia powinna zawierać minimum 10
+pozycji i być zapisana w pliku `.bib`. Korzystając z `BibTeX` proszę napisać minimalistyczny
+artykuł w którym cytowanych jest kilka pozycji z bibliografii.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `Table`, `TableForm` oraz `TeXForm` proszę
+stworzyć w w Mathematice tabelkę zawierającą trzy wiersze
+oraz dwie kolumny. Tabelkę proszę zapisać ją w postaci zrozumiałej
+dla `LaTeX`. Tabelka powinna mieć opisane rzędy oraz kolumny.
+Proszę ją umieścić w minimalistycznym artykule z zadania **A**.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `Nest` proszę napisać funkcję implementującą
+ułamek łańcuchowy, czyli ułamek typu:
+
+$$
+\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{x+1}+1}+1}+1}+1}+1}+1}+1}+1}+1}
+$$
+
+Przykład powyżej ma 10 poziomych kresek - ułamków. Proszę skonstruować
+80 - krotny ułamek łańcuchowy i umieścić go w minimalistycznym
+artykule z zadania **A**.
+
+
+# Zestaw 9
+
+<center>
+**materiały dodatkowe**
+</center>
+
+- [notebook z zajęć](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/009_Zestaw_9/20_12_2022_.nb)
+- zachęcam do przyjrzenia się dokumentacji: `guide/HandlingArraysOfData` oraz `guide/ApplyingFunctionsToLists`
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę korzystając z funkcji `Import` zaimportować obraz kota.
+Korzystająć z `ColorConvert` proszę zamienić ten obraz
+na czarno biały. Następnie korzystając z funkcji `ImageData`, `Flatten`
+oraz `Histogram` proszę narysować histogram wartości określających kolor w obrazie.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Morzystając z `Image`, `Map` oraz obrazka z zadania **A** proszę wyzerować kolor
+pikseli obrazka jeżeli wartość koloru jest poniżej wybranego (na podstawie histogramu) koloru.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z `Sort` proszę posortować wartości koloru (właściwie wartości szarości) 
+z obrazu kota od największej do najmniejszej.  
+
+<center>
+**D**
+</center>
+
+<center>
+(4 punkt)
+</center>
+
+Proszę zaimportować obraz na którym znajduje się kartka papieru z tekstem.
+Korzystając z `ListConvolve`, `StandardDeviation` proszę spróbować usunąć tło tekstu.
+
+
+# Zestaw 10
+
+<center>
+**A**
+</center>
+
+<center>
+(4 punkty)
+</center>
+
+Zajmiemy się obiektami typu
+```
+cn[x , y]
+```
+gdzie $x , y$ są liczbami rzeczywistymi. Dla wyrażeń tego typu zdefiniowane są
+operacje
+```
+plus[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 + x2 , y1 + y2]
+```
+```
+times[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 x2 - y1 y2 , x1 y2 + y1 x2]
+```
+```
+re[cn[x_ , y_]] := x
+```
+oraz
+```
+im[cn[x_ , y_]] := y
+```
+które nazywamy dodawaniem, mnożeniem, braniem części rzeczywistej oraz braniem części urojonej.
+
+Łatwo się domyślić, że obiekty tego typu mogą reprezentować liczby zespolone. Proszę to
+sprawdzić i zdefiniować funkcję 
+```
+power
+```
+która dla liczby całkowitej $n$ oraz obiektu typu jak wyżej $z$
+```
+power[n][z]
+```
+zwraca potęgę $z^{n}$. Wskazówka: można skorzystać z funkcji 
+```
+Nest
+```
+ale przypadek podnoszenia do potęgi $0$ trzeba rozważać osobno.
+
+Wiedząc, że 
+$$
+Re(e^{i \phi}) = cos(\phi)
+$$
+oraz
+$$
+Im(e^{i \phi}) = sin(\phi)
+$$
+proszę policzyć $cos(1)$ oraz $sin(1)$ z wykorzystaniem rozwinięcia eksponenty w szereg
+$$
+e^{z} = exp(z) = \sum_{k = 0}^{\infty} \frac{z^{n}}{n!}
+$$
+Proszę szereg obciąć po $100$ wyrazach i skorzystać z własnej implementacji podnoszenia do potęgi.
+Wynik proszę porównać z 
+```
+N[Cos[1]]
+```
+oraz
+```
+N[Sin[1]]
+```
+
+<center>
+**B**
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+Proszę wykorzystać wzorzec:
+```
+f[c_][z_] := ...
+```
+aby zaimplementować funkcję 
+$$
+f_{c}(z) = z^{2} + c
+$$
+
+Następnie, korzystając z wzorca:
+```
+k[n_][c_] := ...
+```
+funkcji:
+```
+Nest
+```
+oraz implementacji funkcji $f$
+proszę zaimplementować funkcję $k_{n}(c)$
+która dla danej liczby zespolonej $c$
+oraz początkowej liczby zespolonej $z_{0} = 0$
+wielokrotnie aplikuje funkcję $f$:
+
+$$k_{1}(c) = f_{c}(z_{0})$$
+$$k_{2}(c) = f_{c}(f_{c}(z_{0}))$$
+$$k_{3}(c) = f_{c}(f_{c}(f_{c}(z_{0})))$$
+$$\ldots$$
+
+Wykorzystując
+```
+RegionPlot
+Abs
+```
+proszę narysować funkcję $1 / |k_{5}(x + i y)|$ gdzie $-2 < x < 1$ oraz $-1.5 < y < 1.5$.
+Co otrzymujemy? Czy można $1/||$ zastąpić inną funkcją?
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę, korzystając z rozwiązania zadania **B**, stworzyć plik GIF z animacją [zbioru Mandelbrota](https://en.wikipedia.org/wiki/Mandelbrot_set).
+Można w tym celu stworzyć tabelkę z rysunkami utworzonymi z wykorzystaniem `RegionPlot`. Każdy rysunek w tabelce może mieć, na przykład,
+inną liczbę iteracji. Tabelkę można wyeksportować do pliku GIF wykorzysując `Export`. Proszę spróbować pozmieniać tempo animacji w pliku.
+
+
+# Zestaw 11
+
+<center>
+**A**
+</center>
+
+<center>
+(1 punkty)
+</center>
+
+Proszę korzystając z ulubionego programu do rysowania wykresów (innego niż Mathematica, np 
+[gnuplot](http://www.gnuplot.info/) lub [scidavis](https://scidavis.sourceforge.net/))
+narysować wykres funkcji $sin(x)$ gdzie $x = -\pi \ldots \pi$.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Proszę korzystając z ulubionego programu do rysowania wykresów (innego niż Mathematica, np 
+[gnuplot](http://www.gnuplot.info/) lub [scidavis](https://scidavis.sourceforge.net/))
+narysować wykres danych z [pliku](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/011_Zestaw_11/btc.data). Plik w pierwszej kolumnie
+zawiera numer dnia a w drugiej cenę za 1 BTC w USD. Wykres powinien mieć tytuł oraz
+opisane osie. Dane powinny być narysowane połączonymi liniami kropkami.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
+Proszę korzystając z ulubionego programu do rysowania wykresów (innego niż Mathematica, np 
+[gnuplot](http://www.gnuplot.info/) lub [scidavis](https://scidavis.sourceforge.net/))
+narysować wykres danych z [pliku](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/011_Zestaw_11/btc.data) oraz wykres danych z 
+[pliku](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/011_Zestaw_11/eth.data). Pliki w pierwszej kolumnie
+zawierają numer dnia a w drugiej cenę za 1 BTC lub ETH w USD. Wykresy proszę umieścić
+na jednym rysunku tak aby jeden był nad drugim. Wykres powinien mieć tytuł oraz
+opisane osie. Dane na górnym wykresie powinny być narsowane w innym stylu niż dane na 
+dolnym wykresie.
+
+<center>
+**D**
+</center>
+
+<center>
+(3 punkty)
+</center>
+
+Proszę dopasować linię prostą do wybranych danych 
+(najlepiej opisywanych w dobrym przybliżeniu linią prostą).
+Można korzystać z ulubionego oprogramowania do robienia wykresów i analizy danych (innego niż Mathematica, np 
+[gnuplot](http://www.gnuplot.info/) lub [scidavis](https://scidavis.sourceforge.net/)).
+Dopasowaną linię oraz dane proszę nanieść na wykres.
+
+<center>
+**E**
+</center>
+
+<center>
+(1 punkty)
+</center>
+
+Proszę narysować wykres funkji $exp(x)$ w skali logarytmicznej, zakres $x = 0.0 \ldots 5.0$.
+
+
+

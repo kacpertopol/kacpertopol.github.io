@@ -1,5 +1,5 @@
 ---
-title : Narzędzia Obliczeniowe Fizyki
+title : Oprogramowanie użytkowe
 ---
 
 <center>
@@ -11,9 +11,7 @@ title : Narzędzia Obliczeniowe Fizyki
 # Zawartość:
 
 * [Organizacja](#organizacja)
-* [Wykład (prof Jacek Golak)](#wykład-prof-jacek-golak)
 * [Zestawy zadań](./00pl_inv.html)
-* [Projekty studenckie](./000pl_inv.html)
 
 
 
@@ -55,25 +53,20 @@ w zakładce "Aktywacja kont pocztowych dla studentów i doktorantów".
 **OCENA**
 </center>
 
-Na ocenę końcową składać się będą:
+- Ćwiczenia można oddawać na każdych zajęciach,
+  wystarczy zademonstrować działanie programu oraz króciutko
+	o nim opowiedzieć.
+- Ćwiczenia z zestawu przypadającego na dane zajęcia
+  można oddawać do końca semestru ale ...
+  - ... jeżeli pod koniec semestru braknie czasu na zajęciach aby 
+    zadanie oddać to nie zostanie ono zalicone 
+  - W związku z tym proszę nie zwlekać z oddawaniem zadań.
+- Ocena z zadań będzie
+  wystawiana na podstawie całkowitej ilości
+  punktów uzyskanych z rozwiązania ćwiczeń. 
 
-- sprawdzian końcowy (30% oceny)
-- zadania domowe (35% oceny)
-- projekt końcowy (35% oceny)
-
-
-
-# Wykład (prof Jacek Golak)
-
-Wykłady profesora Jacka Golaka bedą dostępne na stronie:
-
-<http://users.uj.edu.pl/~golak/>
 
 
 # [Zestawy zadań](./00pl_inv.html)
-
-
-
-# [Projekty studenckie](./000pl_inv.html)
 
 

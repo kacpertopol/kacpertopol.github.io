@@ -20,8 +20,7 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Algebra i Geometria](./0pl_inv.html)
-* [COVID](./000pl_inv.html)
+	* [Oprogramowanie użytkowe](./0pl_inv.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -46,11 +45,7 @@ toc-title: TOC
 
 
 
-## [Algebra i Geometria](./0pl_inv.html)
-
-
-
-# [COVID](./000pl_inv.html)
+## [Oprogramowanie użytkowe](./0pl_inv.html)
 
 
 

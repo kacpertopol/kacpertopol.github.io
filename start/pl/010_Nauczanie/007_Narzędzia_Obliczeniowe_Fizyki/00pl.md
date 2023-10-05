@@ -23,9 +23,9 @@ title : Narzędzia Obliczeniowe Fizyki
 **ZAJĘCIA**
 </center>
 
-Zajęcia będą prowadzone w trybie stacjonarnym proszę jednak monitorować 
-zarządzenia związane z sytuacją epidemiologiczną. Jeżeli będzie taka
-potrzeba zmienimy tryb prowadzenia na zdalny. 
+Zajęcia będą prowadzone głównie w trybie stacjonarnym proszę jednak monitorować 
+infromacje od uczelni. Niektóre zajęcia będą prowadzone zdalnie za
+pośrednictwem MS Teams.
 
 <center>
 **MATHEMATICA**

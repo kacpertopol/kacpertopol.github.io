@@ -12,7 +12,6 @@ title : Zestawy zadań
 
 # Zawartość:
 
-* [Ocenianie](#ocenianie)
 * [Zestaw 1](#zestaw-1)
 * [Zestaw 2](#zestaw-2)
 * [Zestaw 3](#zestaw-3)
@@ -22,96 +21,12 @@ title : Zestawy zadań
 * [Zestaw 7](#zestaw-7)
 * [Zestaw 8](#zestaw-8)
 * [Zestaw 9](#zestaw-9)
-
-
-
-# Ocenianie
-
-- Ćwiczenia można oddawać na każdych zajęciach,
-  wystarczy zademonstrować działanie programu oraz króciutko
-	o nim opowiedzieć.
-- Ćwiczenia z zestawu przypadającego na dane zajęcia
-  można oddawać do końca semestru ale ...
-  - ... jeżeli pod koniec semestru braknie czasu na zajęciach aby 
-    zadanie oddać to nie zostanie ono zalicone 
-  - W związku z tym proszę nie zwlekać z oddawaniem zadań.
-- Ocena z zadań będzie
-  wystawiana na podstawie całkowitej ilości
-  punktów uzyskanych z rozwiązania ćwiczeń. 
-
+* [Zestaw 10](#zestaw-10)
+* [Zestaw 11](#zestaw-11)
 
 
 
 # Zestaw 1
-
-<center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-Tworzenie skryptu, metoda 1 (prostsza):
-
-- po uruchomieniu programu mathematica należy w menu wybrać:
-  *File - New - Package/Script - Wolfram Language Script*
-- w nowym okienku mozna wpisać treść programu
-- po zakończeniu edycji zapisujemy skrypt i zamykamy okienko 
-  (to ważne, Mathematica
-  korzysta z mechanizmu uniemożliwiającego jednoczesną edycję
-  oraz wykonanie skryptu)
-- w terminalu (pod linuxem [tak](https://help.ubuntu.com/community/UsingTheTerminal), pod windows [tak](https://www.wikihow.com/Open-Terminal-in-Windows)) nawigujemy do katalogu gdzie znajduje się skrypt
-  i uruchamiamy komendą (pod linux, pod windows jest trochę inaczej - proszę samodzielnie po eksperymentować):
-	
-  ```bash
-	... $ ./nazwa_skryptu.wls
-	```
-
-Tworzenie skryptu, metoda 2 (linux ale bardziej uniwersalna w tym systemie):
-
-- otwieramy ulubiony edytor tekstu
-- wpisujemy do pliku program
-- w pierwszej linijce (tzw linijka "hash bang!", musi być zawsze pierwsza, nad nią nie mogą się znajdować puste linie) dodatkowo dodajemy:
-  
-  ```bash
-  #!/usr/bin/env wolframscript
-  ```
-
-- linijka ta informuje system operacyjny, który program 
-  powinien być wykorzystany do zinterpretowaniu programu 
-  zawartego w skrypcie
-
-- alternatywnie można zamieścić bezpośrednią ścieżkę do programu,
-  na moim systemie wygląda ona następująco:
-
-  ```bash
-  #!/usr/local/Wolfram/Mathematica/12.1/Executables/wolframscript
-  ```
-
-- teraz wystarczy nawigować w terminalu do katalogu zawierającego skrypt, zezwolilć aby nasz skrypt był wykonany:
-
-  ```bash
-	... $ chmod +x nazwa_skryptu
-	```
-
-- ... i go wykonać:
-
-  ```bash
-	... $ ./nazwa_skryptu
-	```
-
-- skrype można również wykonać z argumentami, np:
-
-  ```bash
-	... $ ./silnia 5
-	```
-
-Kilka przykładowych skryptów:
-
-- [Hello world!](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/hello.wls)
-- [silnia](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/silnia)
-
-Kilka chaotycznych notebooków z zajęć (polecam zaglądnąć najpierw do materiałów profesora Jacka Golaka):
-
-- [pierwszy bałagan](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/nof_08_10_2020_A.nb) 
-- [drugi bałagan](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/001_Zestaw_1/nof_08_10_2020_B.nb)
 
 <center>
 **A**
@@ -134,18 +49,6 @@ Proszę zainstalować i uruchomić program *Mathematica*.
 Korzystająć z *notebook*a proszę zaimplementować ciąg
 liczb Fibonacciego $0 , 1 , 1 , 2 , 3 , 5 , 8 , 13 , 21, \ldots$.
 
-<center>
-**C**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Korzystając z implementacji z zadania **B** proszę stworzyć
-uruchamialny skrypt. Skrypt powinien z linii poleceń pobierać pojedyńczy argument, 
-liczbe wyrazów w ciągu Fibonacciego. Państwa program powinien następnie wypisywać na ekranie
-odpowiednią liczbę początkowych wyrazów tego ciągu.
 
 
 
@@ -171,10 +74,6 @@ Szablony, wzrce: *Help - Wolfram Documentation* i w okienku:
 - *guide/Patterns*
 - *tutorial/Patterns*
 
-Chaotyczny notebook z zadań (lepiej przyjrzeć się wykładowi profesora):
-
-- [bałagan](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/002_Zestaw_2/nof_15_10_2020_zajecia.nb)
-
 Zadanie A:
 
 - proszę dokładnie :-) przyjrzeć się wszystkim rozdziałom dokumentacji  
@@ -182,9 +81,13 @@ Zadanie A:
 FullSimplify
 ```
 
-Liczenie objetości bąbelków (proszę zajrzeć równiez do drugiego wykładu profesora):
+Notebook z zajęć 11 X, aby uruchomić wszystkie komórki wystarczy w menu wybrać *Evaluate* - *Evaluate Notebook*:
 
-- [objętość bąbelków](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/002_Zestaw_2/nof_15_10_2020_zajecia_1.nb)
+- [notebook](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/002_Zestaw_2/2.nb)
+
+Notebook z zajęć 18 X, aby uruchomić wszystkie komórki wystarczy w menu wybrać *Evaluate* - *Evaluate Notebook*:
+
+- [notebook](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/002_Zestaw_2/3.nb)
 
 <center>
 **A**
@@ -249,44 +152,6 @@ RegionPlot
 
 Korzystając z funkcji:
 ```
-Integrate
-```
-proszę policzyć pole pierścienia z zadania **C**.
-Wskazówka: Całka $f(x , y)$ po $x$ oraz $y$ w zakresie od $-1$ do $1$ 
-zwróci pole koła. Dlaczego?
-
-<center>
-**E**
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Ciało o masie $1$ kg porusza się po trajektorii $r(t)$ zaimplementowanej jako:
-```
-(*t - czas w sekundach*)
-(*{x , y} - zwracana pozycja w metrach*)
-r[t_] := {Cos[t] , Sin[t]};
-```
-Proszę policzyć jaka siła musi działać na to ciało jeżeli założymy, że porusza się ono zgodnie
-z zasadami Newtona. Można w tym celu wykrozystać funkcję:
-```
-D
-```
-Proszę skonstruować funkcję, która dla zadanego czasu będzie
-zwracała graficzną reprezentację ciała oraz działającej na niego siły.
-
-<center>
-**F**
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Korzystając z funkcji:
-```
 Import
 ```
 oraz 
@@ -305,26 +170,7 @@ Proszę napisać program który:
 - zwróci wykres nowych przypadków dla Polski z ostatnich czterech tygodni
 
 <center>
-**G**
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Korzystająć z [definicji pochodnej](https://pl.wikipedia.org/wiki/Pochodna_funkcji) oraz
-funkcji:
-```
-Limit
-```
-Proszę policzyc pochodne $f'(x)$ następujacych funkcji:
-
-- $f(x) = ln(x)$
-- $f(x) = exp(x)$
-- $f(x) = x^{2}$
-
-<center>
-**H**
+**E**
 </center>
 
 <center>
@@ -347,24 +193,191 @@ Implementacja powinna pozwalać na wykonanie operacji:
 
 # Zestaw 3
 
+Naszym celem będzie stworzenie animacji ilustrującej 
+rosnące nasiona, np słonecznika:
+
 <center>
-**METRIAŁY DODATKOWE**
+![](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/003_Zestaw_3/sunFlower.gif)
 </center>
 
-- [wprowadzenie](https://youtu.be/5PcpBw5Hbwo) do liczb zespolonych
-  - nie oglądałem tego wykładu do końca ale Grant Sanderson zazwyczaj doskonale tłumaczy, polecam
-- chaotyczne [notatki](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/003_Zestaw_3/2020-10-22-Note-17-36.pdf)
-  - lepiej zerknąć do wykładu *3Blue1Brown* 
-  - ... lub Państwa notatek z matematyki 
-- chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/003_Zestaw_3/Notebook.nb)
-  - lepiej zerknąć do wykładu *3Blue1Brown* 
-  - ... lub Państwa notatek z matematyki 
-- pisanie pakietów
-  - przykład [pakietu](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/003_Zestaw_3/Przyklad.wl)
-  - [przykład](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/003_Zestaw_3/przyklad_pakiet.nb) wykorzystania
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [ciekawy artykuł z którego pochodzi algorytm](http://www.td-grafik.de/artic/talk20030122/overview.html)
 
 <center>
 **A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Pierwszy krok to skonstruowanie funkcji rysującej pojedyncze nasionko.
+Załóżmy, że nasiono ma trzy atrybuty:
+
+- współrzędną x
+- współrzędną y
+- rozmiar nasionka s
+
+Taki obiekt można reprezentować trzy elementową listą:
+
+```
+{x , y , s}
+```
+
+Proszę zaimplementować funkcję:
+
+```
+draw[{x_ , y_ , s_}] := ...
+```
+
+zwracającą listę (ewentualnie zagnieżdżoną listę) wyrażeń (`Disk[...]`, `Circle[...]`, `Gray[...]`, ...)
+opisującydh rysunek nasiona (narazie nie wrzucamy tej listy jeszcze do `Graphics`). Przykładowo
+```
+draw[{1.0 , 2.0 , 0.1}]
+```
+mogłoby zwracać:
+```
+Circle[{1.0 , 2.0} , 0.1]
+```
+
+<center>
+**B**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę zaimplementować funkcję:
+
+```
+grow[{x_ , y_ , s_}] := ...
+```
+
+zwracającą nową listę atrybutów nasiona. 
+Rozmiar nasiona w nowej liście powinien wynosić `mul s`, gdzie `mul = 1.01`
+dodatkowo zdefiniowaną zmienną.
+
+<center>
+**C**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę zaimplementować funkcję:
+
+```
+expand[{x_ , y_ , s_}] := ...
+```
+
+zwracającą nową listę atrybutów nasiona. Tym razem przesuwamy położenie środka nasionka.
+Nowe położenie powinno mieć współrzędne `mul x` oraz `mul y`, gdzie $mul$ jest zmienną
+zdefiniowaną w zadaniu B.
+
+<center>
+**D**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę zaimplementować funkcję:
+
+```
+rotate[{x_ , y_ , s_}] := ...
+```
+
+zwracającą nową listę atrybutów nasiona. Tym razem obracamy nasionko względem
+środka układu współrzędnych. Kąt obrotu powininen wynosić $\alpha = 2 \pi \frac{\sqrt{5} - 1}{2}$.
+Można wykorzystać funkcję `RotationTransform`. 
+
+<center>
+**E**
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+Proszę zaimplementować funkcję:
+
+```
+singleIteration[seeds_] := ...
+```
+
+gdzie `seeds` jest listą nasionek, np:
+
+```
+{ { 0.01 , 0.0 , 0.01 } , { 0.02 , 0.01 , 0.013 } }
+```
+
+a wartość zwracana zawiera dodatkowe nasionko. To dodatkowe nasionko
+powstaje z pierwszego nasiona w `seeds` poprzez aplikację wcześniej zdefiniowanych
+funkcji `grow`, `expand`, `rotate`.
+
+<center>
+**F**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystająć z funkcji `Nest` oraz `Graphics` proszę stworyć obrazek z $5$ nasionkami.
+Można założyć, że pierwsze nasiono ma atrybuty:
+
+```
+{0.01 , 0.0 , 0.12 * 0.01}
+```
+
+Pod koniec zajęć spróbujemy to rozszerzyć i stworzyć animację.
+
+
+# Zestaw 4
+
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [notebook z 8 XI 2022](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/004_Zestaw_4/08_11_2022.nb)
+
+<center>
+**A**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Korzystając z funkcji `Solve` proszę znaleźć wszystkie 
+[trójki pitagorejskie](https://pl.wikipedia.org/wiki/Tr%C3%B3jki_pitagorejskie),
+których wartości są mniejsze lub równe $200$. Trójki pitagorejskie
+to liczby całkowite $x$, $y$, $z$ spełniające równanie pitagorasa $x^{2} + y^{2} = z^{2}$.
+
+<center>
+**B**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Korzystając z wyniku zadania **A** oraz funkcji `Histogram` proszę narysować histogram
+wartości "przyprostokątnych" ($x$, $y$). Szerokość pojedynczego binu histogramu
+niech wynosi $10$. Wysokości słupków niech oznacza prawdopodobieństwo trafienia w bin.
+Dodatkowo proszę opisać rysunek oraz zmienić kolor słupków na inny niż domyślny.
+
+Wskazówka: mogą się przydać funkcje `Flatten` oraz `ReplaceAll` (pisane w skrócie jako operator `/.`).
+Dodatkowo proszę uważnie przeczytać dokumentację funkcji `Histogram`.
+
+<center>
+**C**
 </center>
 
 <center>
@@ -382,7 +395,7 @@ proszę znaleźć wartści $x$ dla których zachodzi:
 - $x > 0$
 
 <center>
-**B**
+**D**
 </center>
 
 <center>
@@ -411,78 +424,6 @@ w przedziale o $0$ do $2 \pi$. Wykres powinien:
 - zawiera opis pionowej oraz poziomej osi na ramce
 
 <center>
-**C**
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Proszę wprowadzić definicje dwóch macierzy 
-w postaci zagnieżdżonych list:
-
-$$
-A =  \left(
-\begin{array}{cc}
- 1 & 0 \\
- 0 & 1 \\
-\end{array}
-\right)
-$$
-
-$$
-B =  \left(
-\begin{array}{cc}
- 0 & -1 \\
- 1 & 0 \\
-\end{array}
-\right)
-$$
-
-oraz sprawdzić z wykorzystaniem funkcji
-```
-Dot
-```
-ile wynoszą [iloczyny macierzy](https://pl.wikipedia.org/wiki/Mno%C5%BCenie_macierzy):
-
-- $A.A$
-- $B.B$
-- $\left( a_{1} A + b_{1} B \right).\left( a_{2} A + b_{2} B \right)$
-- $\left( a_{2} A + b_{2} B \right).\left( a_{1} A + b_{1} B \right)$
-
-gdzie $a_{1}$, $b_{1}$, $a_{2}$, $b_{2}$ są liczbami rzeczywistymi.
-Czy można te wyniki wykorzystać do reprezentacji [liczb zespolonych](https://pl.wikipedia.org/wiki/Liczby_zespolone)?
-Dlaczego?
-
-<center>
-**D**
-</center>
-
-<center>
-(1 punkt)
-</center>
-
-Proszę powtórzyć rachunki z zadania **C** dla macierzy:
-
-$$
-A = \left(
-\begin{array}{cc}
- 1 & 0 \\
- -1 & 1 \\
-\end{array}
-\right)
-$$
-
-$$
-B = \left(
-\begin{array}{cc}
- 1 & 1 \\
- 1 & 0 \\
-\end{array}
-\right)
-$$
-
-<center>
 **E**
 </center>
 
@@ -490,206 +431,317 @@ $$
 (2 punkt)
 </center>
 
-Liczenie eksponenty liczby $x$:
-$$ 
-e^{x}
-$$ 
-można uogólnić do macierzy 
-z wykorzystaniem rozwinięcia
-$$
-e^{x} = \sum_{k = 0}^{\infty} \frac{x^{k}}{k!} = 1 + x + \frac{1}{2} x^{2} + \frac{1}{6} x^{3} + \ldots
-$$
-oraz zastępując mnożenie, mnożeniem macierzowym. W Mathematice eksponentę z macierzy można policzyć
-wykorzystując:
-```
-MatrixExp
-```
+Korzstając z funkcji `NIntegrate` proszę policzyć powierzchnię
+dwu wymiarowego pierścienia, którego mniejszy promień wynosi $0.5$
+a większy promień $1.0$. Proszę ten pierścień narysować korzystając
+z funkcji `DensityPlot`.
 
-Proszę:
-
-- policzyć $e^{B \phi}$ gdzie $B$ jest macierzą z zadania **C**
-- wykorzystując
-  ```
-  Solve
-  ```
-  zapisać ten wynik w postaci $a A + b B$ gdzie macierze $A$, $B$ są z zadania **C**
-  natomiast $a$, $b$ są nieznanymi liczbami
-
-Jak ten wynik ma się do liczb zespolonych?
+Wskazówka: wystarczy policzyć dwu-wymiarową całkę z funkcji `isIn[x , y]`,
+która przybiera wartość $1$ gdy $(x , y)$ wpada w pierścień oraz $0$
+gdy $(x , y)$ jest poza pierścieniem. Funkcję `isIn` można również wykorzystać
+w funkcji `DensityPlot`.
 
 <center>
 **F**
 </center>
 
 <center>
-(3 punkt)
+(1 punkt)
 </center>
 
-Proszę wykorzystać wzorzec:
-```
-f[c_][z_] := ...
-```
-aby zaimplementować funkcję 
-$$
-f_{c}(z) = z^{2} + c
-$$
-
-Następnie, korzystając z wzorca:
-```
-k[n_][c_] := ...
-```
-funkcji:
-```
-Nest
-```
-oraz implementacji funkcji $f$
-proszę zaimplementować funkcję $k_{n}(c)$
-która dla danej liczby zespolonej $c$
-oraz początkowej liczby zespolonej $z_{0} = 0$
-wielokrotnie aplikuje funkcję $f$:
-
-$$k_{1}(c) = f_{c}(z_{0})$$
-$$k_{2}(c) = f_{c}(f_{c}(z_{0}))$$
-$$k_{3}(c) = f_{c}(f_{c}(f_{c}(z_{0})))$$
-$$\ldots$$
-
-Wykorzystując
-```
-RegionPlot
-Abs
-```
-proszę narysować funkcję $1 / |k_{5}(x + i y)|$ gdzie $-2 < x < 1$ oraz $-1.5 < y < 1$.
-Co otrzymujemy? Czy można $1/||$ zastąpić inną funkcją?
+Proszę przeprowadzić rachunek z zadania **E** wykorzystując `Integrate`. 
+Wynik proszę porównać z zadaniem **E** oraz powierzchnią pierścienia policzoną
+analitycznie (znamy wzór na powierzchnię koła).
 
 <center>
 **G**
 </center>
 
 <center>
-(2 punkt)
+(1 punkt)
 </center>
 
-Wykorzystując
-```
-Limit
-```
-proszę policzyć granice (WSKAZÓWKA: proszę zajrzeć do dokumentacji ;-) :
+Na kolejnych zajęciach poznamy podstawy pisania tekstów oraz prezentacji z wykorzystaniem
+systemu [LaTeX](https://pl.wikipedia.org/wiki/LaTeX) i będziemy korzystać z 
+[Overleaf](https://www.overleaf.com/). Proszę spróbować założyć sobie 
+darmowe konto na serwisie [Overleaf](https://www.overleaf.com/).
 
-- $\lim_{x \rightarrow 0^{+}} \frac{|x|}{\sin x}$
-- $\lim_{x \rightarrow 0^{-}} \frac{|x|}{\sin x}$
 
-oraz narysować wykres funkcji $\frac{|x|}{\sin x}$.
+# Zestaw 5
 
 <center>
-**H**
+**Materiały Dodatkowe**
 </center>
 
-<center>
-(2 punkt)
-</center>
-
-Proszę wykonać zadanie **A** biorąc pochodną funkcji $f(x)$, $f'(x)$, zamiast $f(x)$.
-
-<center>
-**I**
-</center>
-
-<center>
-(2 punkt)
-</center>
-Wykorzystując
-```
-DiscretePlot
-DiscreteLimit
-```
-proszę narysować wykres funkcji:
-$$
-f(k) = \sin(k \pi / 16) / k
-$$
-, gdzie $k$ jest liczbą całkowitą, oraz znaleźć jej granicę przy $k \rightarrow \infty$.
-
-
-# Zestaw 4
-
-<center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-- [slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/004_Zestaw_4/2020-10-29-Note-19-14.pdf) z zajęć 2020/2021
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQzo1_M0FJ9HiTFxa9Qpz1kBiR8Mi8Gwqeur09PRbxyv6w?e=NDes4C) z zajęć
-- [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/004_Zestaw_4/poisson.nb) rozwiązujący równanie laplaca
-- chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/004_Zestaw_4/cwiczenia.nb) z zajęć
-- chaotyczne [notatki](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/004_Zestaw_4/cs.pdf)
+- [notebook z 15 XI 2022](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/005_Zestaw_5/15_11_2022.nb)
 
 <center>
 **A**
 </center>
 
 <center>
-(2 punkty)
+(2 punkt)
 </center>
 
-- Korzystając z wyniku zadania **E** z zestawu trzeciego proszę uzasadnić:
-  $$
-  exp(i \phi) = cos(\phi) + i sin(\phi)
-  $$ 
-  gdzie $\phi$ jest liczbą rzeczywistą. 
-- Proszę 
-  potwierdzić tą zależność rozwijając
-  $exp(i \phi)$ z wykorzystaniem:
-  ```
-  ComplexExpand
-  ```
-Funkcja ta rozwija dowolne wyrażenie zakładając, że wszystkie występujące w niej
-niewiadome są rzeczywiste.
+Proszę napisać krótki (jedna, może dwie strony) opis modelu z poprzedniego zestawu.
+Tekst powinien być napisany w systemie LaTeX oraz zawierać
+
+- krótka bibliografię
+- obrazek utworzony w Mathematice i zapisany w formacie JPG wykorzystując funkcję `Export`
+- dwu wymiarową macierz obrotu utworzoną w Mathematice i zapisaną z wykorzystaniem `TeXForm`
 
 <center>
 **B**
 </center>
 
 <center>
-(2 punkty)
+(2 punkt)
 </center>
 
-Proszę uogólnić zadanie **E** z zestawu trzeciego i z wykorzystaniem
-```
-MatrixExp
-```
-policzyć $e^{x A + y B}$ gdzie $x, y$ są liczbami rzeczywistymi. Jak ten wynik ma się
-do liczb zespolonych? 
+Podobnie jak w zadaniu **A** ale tym razem proszę stworzyć którką prezentację
+z wykorzystaniem klasy `Beamer`.
 
 <center>
 **C**
 </center>
 
 <center>
-(3 punkty)
+(2 punkt)
 </center>
 
-Korzystając z równań Cauchiego-Riemana (bez paniki, objaśnię na zajęciach i podam przykład)
-oraz 
-```
-DSolve
-```
-proszę policzyć funkcję 
-$$
-sin(x + i y)
-$$ gdzie $x , y$ są liczbami rzeczywistymi
-przy założeniu, że jest ona analityczna (z założenia tego wynika, między innymi, że posiada ona pochodne)
-i znamy jej wartości dla $sin(x + i 0) = sin(x)$. 
+Proszę napisać notebook Mathematici, który:
 
-Wynik proszę porównać z rozwinięciem $sin(x + i y)$ za pomocą
-```
-ComplexExpand
-```
-dla kilku wartości $x$ oraz $y$. Dodatkowo z wykorzystaniem
-```
-ContourPlot
-```
-proszę narysować wykres części rzeczywistej oraz urojonej $sin(x + i y)$.
+- zaimportuje arkusz kalkulacyjny z dysku
+- policzy wartość oczwkiwaną oraz odchylenie standardowe danych znajdujących się
+  w pierwszej kolumnie
+- ma możliwość narysowania histogramu danych z naniesioną wartością oczekiwaną oraz 
+  odchyleniem standardowym - proszę wykorzystać `OptionsPattern`
+
+
+
+
+
+# Zestaw 6
+
+<center>
+**Materiały Dodatkowe**
+</center>
+
+- dzisiejszy zestaw jest zaczerpnięty z dokumentacji *Mathematici*
+- dodatkowe informacje można znaleźć w dokumentacji *Mathematici* pod hasłem "tutorial/NeuralNetworksOverview"
+	- [przykłaz z tego tutoriala zawierający wiele komentarzy](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/006_Zestaw_6/fromDocumentation.nb)
+- uczenie maszynowe i sztuczne sieci neuronowe to bardzo potężne narzędzia, ten arsenał jest
+  dostępny w mathematice! Ale:
+    - należy z nich korzystać bardzo roztropnie!
+	- najpierw należy dokładnie wiedzieć jak działają!
+
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę:
+
+- korzystając z funkcji `ResourceData` ściągnąć zbiór danych "MNIST" zawierający sklasyfikowane próbki ręcznego pisma - cyfr 0 ... 9, 
+- pobrać zarówno "TrainingData" jak i "TestData"
+- dlaczego dzielimy zbiór danych na dwie części? 
+- znaleźć przykład trudnego do odczytania pisma
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `NetTrain` oraz `NetModel` proszę wytrenować sieć "LeNet" 
+do rozpoznawania ręcznie pisanych cyfr.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z modelu wytrenowanego w **B** proszę stworzyć 
+[tablicę pomyłek (confusion matrix)](https://en.wikipedia.org/wiki/Confusion_matrix).
+
+
+
+
+# Zestaw 7
+
+<center>
+**A**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Proszę pobrać ze [strony](https://www.gapminder.org/data/) dane
+dotyczące oczekiwanej długości życia oraz ilości dzieci 
+przypadających na jedną kobietę. Arkusze proszę pobrać w formacie
+CSV.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `Count` proszę policzyć w ilu państwach
+oczekiwany czas życia w roku 1976 był $>x$ gdzie $x = 0 \ldots 130$.
+Wynik proszę nanieść na wykres.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Podobnie jak w zadaniu **B** proszę policzyć wykres dla roku 1809. 
+Proszę porównać obydwa wykresy ale upewnić się, że w rachunku 
+dla roku 1976 oraz 1809 brane są pod uwagę te same państwa. Można
+w tym celu skorzystać z funkcji `Cases`.
 
 <center>
 **D**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `Transpose` , `Cases`, `Riffle` oraz `Partition`
+proszę odtworzyć wykres z [wykładu](https://youtu.be/hVimVzgtD6w)
+ilustrujący zmieniającą się w czasie korelację liczby dzieci przypadających
+na jedną kobietę oraz długość życia.
+
+
+
+
+# Zestaw 8
+
+<center>
+**A**
+</center>
+
+<center>
+(4 punkt)
+</center>
+
+Proszę pobrać z serwisu [arxiv](https://arxiv.org/) wybraną publikację i 
+odtworzyć bibliografię w `LaTeX`, można korzystać z systemu 
+[Overleaf](https://www.overleaf.com/). Bibliografia powinna zawierać minimum 10
+pozycji i być zapisana w pliku `.bib`. Korzystając z `BibTeX` proszę napisać minimalistyczny
+artykuł w którym cytowanych jest kilka pozycji z bibliografii.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `Table`, `TableForm` oraz `TeXForm` proszę
+stworzyć w w Mathematice tabelkę zawierającą trzy wiersze
+oraz dwie kolumny. Tabelkę proszę zapisać ją w postaci zrozumiałej
+dla `LaTeX`. Tabelka powinna mieć opisane rzędy oraz kolumny.
+Proszę ją umieścić w minimalistycznym artykule z zadania **A**.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z funkcji `Nest` proszę napisać funkcję implementującą
+ułamek łańcuchowy, czyli ułamek typu:
+
+$$
+\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{\frac{1}{x+1}+1}+1}+1}+1}+1}+1}+1}+1}+1}
+$$
+
+Przykład powyżej ma 10 poziomych kresek - ułamków. Proszę skonstruować
+80 - krotny ułamek łańcuchowy i umieścić go w minimalistycznym
+artykule z zadania **A**.
+
+
+# Zestaw 9
+
+<center>
+**materiały dodatkowe**
+</center>
+
+- [notebook z zajęć](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/009_Zestaw_9/20_12_2022_.nb)
+- zachęcam do przyjrzenia się dokumentacji: `guide/HandlingArraysOfData` oraz `guide/ApplyingFunctionsToLists`
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Proszę korzystając z funkcji `Import` zaimportować obraz kota.
+Korzystająć z `ColorConvert` proszę zamienić ten obraz
+na czarno biały. Następnie korzystając z funkcji `ImageData`, `Flatten`
+oraz `Histogram` proszę narysować histogram wartości określających kolor w obrazie.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Morzystając z `Image`, `Map` oraz obrazka z zadania **A** proszę wyzerować kolor
+pikseli obrazka jeżeli wartość koloru jest poniżej wybranego (na podstawie histogramu) koloru.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Korzystając z `Sort` proszę posortować wartości koloru (właściwie wartości szarości) 
+z obrazu kota od największej do najmniejszej.  
+
+<center>
+**D**
+</center>
+
+<center>
+(4 punkt)
+</center>
+
+Proszę zaimportować obraz na którym znajduje się kartka papieru z tekstem.
+Korzystając z `ListConvolve`, `StandardDeviation` proszę spróbować usunąć tło tekstu.
+
+
+# Zestaw 10
+
+<center>
+**A**
 </center>
 
 <center>
@@ -755,100 +807,75 @@ N[Sin[1]]
 ```
 
 <center>
-**E**
+**B**
 </center>
 
 <center>
-(2 punkty)
+(3 punkt)
 </center>
 
-Korzystając z funkcji 
+Proszę wykorzystać wzorzec:
 ```
-Solve
+f[c_][z_] := ...
 ```
-proszę znaleźć współrzędne $(x , y)$ punktów na płaszczyźnie, które
-leżą na przecięciu 
-
-- prostej przechodzącej przez punkty $(-1 , 1)$, $(1 , 2)$
-- okręgu o środku w $(\frac{1}{2} , \frac{1}{2})$ i promieniu $2$
-
-Dodatkowo proszę tą sytuację narysować (w Mathematica).
-
-<center>
-**F**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Proszę znaleźć wszystkie pierwiastki równania:
-
+aby zaimplementować funkcję 
 $$
-z^{4} + z^{2} + 1 == 0
+f_{c}(z) = z^{2} + c
 $$
 
-oraz nanieść rozwiązania na płaszczyznę zespoloną (w Mathematice).
+Następnie, korzystając z wzorca:
+```
+k[n_][c_] := ...
+```
+funkcji:
+```
+Nest
+```
+oraz implementacji funkcji $f$
+proszę zaimplementować funkcję $k_{n}(c)$
+która dla danej liczby zespolonej $c$
+oraz początkowej liczby zespolonej $z_{0} = 0$
+wielokrotnie aplikuje funkcję $f$:
+
+$$k_{1}(c) = f_{c}(z_{0})$$
+$$k_{2}(c) = f_{c}(f_{c}(z_{0}))$$
+$$k_{3}(c) = f_{c}(f_{c}(f_{c}(z_{0})))$$
+$$\ldots$$
+
+Wykorzystując
+```
+RegionPlot
+Abs
+```
+proszę narysować funkcję $1 / |k_{5}(x + i y)|$ gdzie $-2 < x < 1$ oraz $-1.5 < y < 1.5$.
+Co otrzymujemy? Czy można $1/||$ zastąpić inną funkcją?
 
 <center>
-**G**
+**C**
 </center>
 
 <center>
-(3 punkty)
+(2 punkt)
 </center>
 
-Proszę przygotować pakiet który dla danej funkcji $f$ jednego argumentu rzeczywistego $x$:
-
-- rysuje jej wykres z zaznaczonymi, lokalnymi, minimami maksimami (na rysunku powinny pojawić się również współrzędne
-  oraz informacja czy mamy do czynienia z minimum czy z maksimim)
-- rysuje styczną do funkcji w zadanym miejscu
-- liczy pole i zaznacza je na wykresie dla zadanego zakresu $x$
+Proszę, korzystając z rozwiązania zadania **B**, stworzyć plik GIF z animacją [zbioru Mandelbrota](https://en.wikipedia.org/wiki/Mandelbrot_set).
+Można w tym celu stworzyć tabelkę z rysunkami utworzonymi z wykorzystaniem `RegionPlot`. Każdy rysunek w tabelce może mieć, na przykład,
+inną liczbę iteracji. Tabelkę można wyeksportować do pliku GIF wykorzysując `Export`. Proszę spróbować pozmieniać tempo animacji w pliku.
 
 
-# Zestaw 5
-
-<center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-- zawartość ["tablicy"](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/005_Zestaw_5/zajecia.pdf)
-- włączyłem nagrywanie trochę późno więc [krótkie nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXmBMJJtiGtAv5MUsU--zJ4Bmr50Q07mb1L9aErwpg1DnA?e=w6L47b) z zajęć
-- chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/005_Zestaw_5/zajecia.nb) z zajęć 
+# Zestaw 11
 
 <center>
 **A**
 </center>
 
 <center>
-(3 punkty)
+(1 punkty)
 </center>
 
-Proszę policzyć potencjał elektryczny $U$ we wszystkich punktach $(i = 1 \ldots N , j = 1 \ldots N)$ kratownicy:
-
-<center>
-![](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/005_Zestaw_5/kratownica.jpg) 
-</center>
-
-zakładająć: 
-
-- $U_{(1 , 1)} = 0$, 
-- każdy opornik ma $1 \Omega$
-- pomiędzy $(1 , 1)$ oraz $(N , N)$ przepływa prąd o natężeniu $1 A$ ($1 A$ wpływa do $(1,1)$ i wypływa z $(N , N)$)
-- $N$ przybiera różne wartości z zakresu $2 \ldots 100$.
-
-Można do tego podejść na wiele sposobów, ale chciałbym aby Państwo popracowali z macierzami
-dlatego proszę ułożyć odpowiedni układ równań macierzowych i rozwiązać go z wykorzystaniem:
-
-```
-LinearSolve
-```
-
-Wyniki proszę zwizualizować z wykorzystaniem 
-
-```
-MatrixPlot
-```
+Proszę korzystając z ulubionego programu do rysowania wykresów (innego niż Mathematica, np 
+[gnuplot](http://www.gnuplot.info/) lub [scidavis](https://scidavis.sourceforge.net/))
+narysować wykres funkcji $sin(x)$ gdzie $x = -\pi \ldots \pi$.
 
 <center>
 **B**
@@ -858,138 +885,11 @@ MatrixPlot
 (2 punkty)
 </center>
 
-Korzystając z wyników zadania **A** proszę wyznaczyć wartość zastępczą
-oporności takiego układu i zbadać jak zmienia się ona z $N$.
-
-<center>
-**C**
-</center>
-
-<center>
-(3 punkty)
-</center>
-
-Proszę rozwiązać [problem Hanoi](https://pl.wikipedia.org/wiki/Wie%C5%BCe_Hanoi).
-Wszystkie kroki rozwiązania powinny być przedstawione w postaci animacji 
-z wykorzystaniem:
-
-```
-Graphics
-```
-
-oraz:
-
-```
-ListAnimate
-```
-
-<center>
-**D**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Macierz:
-
-$$
-\left(
-\begin{array}{ccc}
- \frac{1}{3} & \frac{1}{3} \left(-1-\sqrt{3}\right) & \frac{1}{3} \left(1-\sqrt{3}\right) \\
- \frac{1}{3} \left(\sqrt{3}-1\right) & \frac{1}{3} & \frac{1}{3} \left(-1-\sqrt{3}\right) \\
- \frac{1}{3} \left(1+\sqrt{3}\right) & \frac{1}{3} \left(\sqrt{3}-1\right) & \frac{1}{3} \\
-\end{array}
-\right)
-$$
-
-obraca wektorem wokół pewnej osi. Proszę znaleźć tą oś.
-
-<center>
-**E**
-</center>
-
-<center>
-(3 punkty)
-</center>
-
-Dana jest macierz $N \times N$ $A$, której elementy $A_{i , j}$ przyjmują wartości równe $0$ wszędzie oprócz:
-
-- $A_{i , i} = -\frac{2}{\Delta^{2}}$
-- $A_{i , i - 1} = \frac{1}{\Delta^{2}}$
-- $A_{i , i + 1} = \frac{1}{\Delta^{2}}$
-
-Przy czym 
-
-- kolumna o numerze $N + 1$ jest utożsamiona z kolumną $1$ 
-- kolumna o numerze $0$ jest utożsamiona z kolumną $N$
-- $\Delta = \frac{1}{N}$
-- proszę rachunek przeprowadzić dla różnych wartości $N$, na początek można przyjąć $N = 100$
-
-Proszę policzyć wartości oraz wektory własne dla tej macierzy. Wektory własne dla wartości własnych 
-o najmniejszej wartości bezwzględnej
-proszę narysować z wykorzystaniem
-```
-ListPlot
-```
-i zastanowić się jakie równanie reprezentuje ta macierz i co tak naprawdę zostało 
-policzone.
-
-
-# Zestaw 6
-
-<center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EXpQa3ULMbBEt8whl25KFcoB6CLu1oYHgvTW7GMGNzby4g?e=Zlos8O)
-- chaotyczne [slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/006_Zestaw_6/zajecia.pdf) 
-- ocenzurowany (bez rozwiązania WH) [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/006_Zestaw_6/cenzura.nb) 
-
-<center>
-**A**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Korzystając z funkcji:
-
-```
-Import[(*URL*) , "Data"]
-```
-proszę ściągnąć z sieci (URL to adres) dane dotyczące wybranego procesu fizycznego. 
-Następnie proszę te dane zwizualizować. 
-
-Opcja "Data" pozwala na importowanie ze stron internetowych tabel z danymi.
-Wynik działania funkcji trzeba będzie najprawdopodobniej przeszukać. Mogą 
-być w tym pomocne:
-
-```
-Position
-```
-```
-Part (*[[]]*)
-```
-
-<center>
-**B**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Proszę przygotować dwie funkcje liczące zbiór Mandelbrota.
-Jedna z wersji powinna korzystać z funkcji:
-```
-Compile
-```
-Proszę zmierzyć czas wykonywania programów z wykorzystaniem 
-```
-Timing
-```
+Proszę korzystając z ulubionego programu do rysowania wykresów (innego niż Mathematica, np 
+[gnuplot](http://www.gnuplot.info/) lub [scidavis](https://scidavis.sourceforge.net/))
+narysować wykres danych z [pliku](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/011_Zestaw_11/btc.data). Plik w pierwszej kolumnie
+zawiera numer dnia a w drugiej cenę za 1 BTC w USD. Wykres powinien mieć tytuł oraz
+opisane osie. Dane powinny być narysowane połączonymi liniami kropkami.
 
 <center>
 **C**
@@ -999,92 +899,14 @@ Timing
 (2 punkty)
 </center>
 
-Proszę zaimplementować własną wersję funkcji liczącej pochodną. 
-W rachunkach proszę stosować symbole rozpoczynające się z małej
-litery (na przykład "sin" zamiast "Sin") aby uniknąć konfliktu
-z wbudowanymi w Mathematicę definicjami. 
-
-
-# Zestaw 7
-
-<center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-- [płaszczyzna](https://mathworld.wolfram.com/Plane.html)
-- [dwie płaszczyzny](https://mathworld.wolfram.com/Plane-PlaneIntersection.html)
-- [chaotyczne slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/007_Zestaw_7/all.pdf)
-- [chaotyczne nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EUX8oe3H3YNBqorS5Gv4MjYBQ0yVeJ874TyZo4TTOcjY4w?e=IH9H4l)
-
-<center>
-**A**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Proszę zdefiniować typ danych opisujący płaszczyznę w przestrzeni
-trój wymiarowej
-
-- płaszczyznę powinien określać zestaw (współrzędnych) trzech punktów do niej należących
-- wzorzec definiujący ten typ danych powinien sprawdzać czy mamy do czynienia z trzema różnymi
-  punktami 
-
-Mając ten typ danych proszę zaimplementować funkcję, która rysyje tą płaszczyznę. Wskazówka,
-proszę zajrzeć do dokumentacji:
-
-```
-InfinitePlane
-```
-
-oraz
-
-```
-Graphics2D
-```
-<center>
-**B**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Korzystając z typu danych zdefiniowanego w zadaniu **A** proszę napisać funkcję zwracającą
-wektor normalny do płaszczyzny. Dodatkowo proszę narysować kilka płaszczyzn oraz
-wykorzystująć:
-```
-Arrow
-```
-kilka odpowiednich wektorów normalnych mających początek zaczeopiony w tych płaszczyznach.
-
-Proszę zwrócić uwagę, że kolejnośc punktów w typie danych 
-z **A** ma znaczenie. 
-
-<center>
-**C**
-</center>
-
-<center>
-(3 punkty)
-</center>
-
-Proszę zaimplementować funkcję, która biorąc jako argument typ danych z zadania **A**
-zwróci *funkcję*, która:
-
-- pobiera dwie liczby rzeczywiste
-- zwraca współrzędne punktu leżącego na płaszczyźnie.
-
-Wzkazówka. Korzystając z funkcji
-```
-Orthogonalize
-```
-oraz 
-```
-Normalize
-```
-proszę wprowadzić dwu wymiarowy układ współrzędnych na tej płaszczyźnie. 
+Proszę korzystając z ulubionego programu do rysowania wykresów (innego niż Mathematica, np 
+[gnuplot](http://www.gnuplot.info/) lub [scidavis](https://scidavis.sourceforge.net/))
+narysować wykres danych z [pliku](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/011_Zestaw_11/btc.data) oraz wykres danych z 
+[pliku](./start/pl/010_Nauczanie/011_Oprogramowanie_użytkowe/010_Zestawy_zadań/011_Zestaw_11/eth.data). Pliki w pierwszej kolumnie
+zawierają numer dnia a w drugiej cenę za 1 BTC lub ETH w USD. Wykresy proszę umieścić
+na jednym rysunku tak aby jeden był nad drugim. Wykres powinien mieć tytuł oraz
+opisane osie. Dane na górnym wykresie powinny być narsowane w innym stylu niż dane na 
+dolnym wykresie.
 
 <center>
 **D**
@@ -1094,164 +916,21 @@ proszę wprowadzić dwu wymiarowy układ współrzędnych na tej płaszczyźnie.
 (3 punkty)
 </center>
 
-Proszę zaimplementować funkcję, która korzystając z typu danych w zadaniu **A**:
-
-- pobierze dwie płaszczyzny
-- zwróci *funkcję* pobierającą jedną liczbę rzeczywistą i zwracającą współrzędne
-  punktu leżącego na przecięciu tych dwóch płaszczyzn
-- proszę sprawdzić czy plaszczyzny nie są przypadkiem równoległe, jeżeli są proszę "rzucić" wyjątek wykorzystująć
-```
-Throw
-```
+Proszę dopasować linię prostą do wybranych danych 
+(najlepiej opisywanych w dobrym przybliżeniu linią prostą).
+Można korzystać z ulubionego oprogramowania do robienia wykresów i analizy danych (innego niż Mathematica, np 
+[gnuplot](http://www.gnuplot.info/) lub [scidavis](https://scidavis.sourceforge.net/)).
+Dopasowaną linię oraz dane proszę nanieść na wykres.
 
 <center>
 **E**
 </center>
 
 <center>
-(2 punkty)
+(1 punkty)
 </center>
 
-Proszę policzyć równanie ruchu dla paciorka o masie $1$ nanizanego na
-poziomy pręt. Paciorek porusza się bez tarcia po pręcie i 
-jest dodatkowo połączony ze ścianą sprężynką o 
-stałej sprężystości $1$.
-Rachunek proszę przeprowadzić korzystając z formalizmu Lagrangea 
-w Mathematice. Następnie proszę rozwiązać
-otrzymane równanie ruchu korzystając z 
-```
-NDSolve
-```
-zakładając, że na początku ciało było w pozycji równowagi i miało prędkość początkową
-$0.5$. Jednostki masy oraz odległości są dowolne.
+Proszę narysować wykres funkji $exp(x)$ w skali logarytmicznej, zakres $x = 0.0 \ldots 5.0$.
 
 
-# Zestaw 8
-
-<center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-- [kilka przykładów](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/008_Zestaw_8/temp_examples.nb)
-
-
-Na te zajęcia nie ma nowych zadań. 
-Będziemy mieli więcej czasu na indywidualne konsultacje
-oraz aby porozmawiac o projektach.
-
-
-# Zestaw 9
-
-UWAGA: zestaw jest na 16 XII.
-
-<center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-- [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/009_Zestaw_9/analizaWymiarowa.nb)
-  - wystarczy uruchomić "Evaluate Notebook"
-- [macierz wymiarowości oraz twierdzenie Buckinghama](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem)
-- [momenty bezwładności](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
-- youtube:
-  - [analiza wymiarowa i bomba atomowa](https://youtu.be/_gaCAFcW6OY)
-  - [trochę więcej szczegółów](https://youtu.be/SUnAvL-ThMs)
-- [notatki](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki_(lab_komputerowe,_zima_2021-2022)/010_Zestawy_zadań/009_Zestaw_9/notatki.pdf)
-  - uwaga, w notatkach jest błąd 😊, czy potraficie go znaleźć
-  - nagrania nie będzie, bardzo przepraszam (nie nagrał się dźwięk, całe szczęście udało mi się rozwiązać ten problem i mam nadzieję, 
-    że następnym razem nie będzie już problemów)
-
-<center>
-**A**
-</center>
-
-<center>
-(3 punkty)
-</center>
-
-Kolejne zastosowania macierzy...
- 
-Proszę napisać funkcję, która tworzy macierz wymiarowości.
-Funkcja powinna pobierać:
-
-- listę jednostek bazowych (np `{t , m , l}` oznaczające odpowiednio czas, masę oraz odległość)
-- listę wielkości fizycznych związanych z danym problemem (pojedyncza wielkość
-  może być np w reprezentacji korzystającej z potęg 
-  jednostek bazowych `{-2 , 0 , 1}` 
-  co można rozszyfrować jako $t^{-2} m^{0} l^{1}$ czyli wymiar przyspieszenia)
-
-Proszę sprawdzić działanie tej funkcji dla problemów:
-
-- oscylacji wahadła matematycznego (interesujące wielkości fizyczne to: okres wahania, masa wahadła , długość wahadła , przyśpieszenie ziemskie)
-- ochładzania cieczy z wykorzystaniem kostek lodu (interesujące wielkości fizyczne to: długość charakterystyczna dla kostek lodu, czas , temperatura,
-  przewodnictwo cieplne, objętościowe ciepło właściwe)
-
-oraz porównać z [wikipedią](https://en.wikipedia.org/wiki/Buckingham_%CF%80_theorem).
-
-<center>
-**B**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Korzystając z wyników zadania **A** oraz funkcji `NullSpace` proszę sprawdzić 
-z jakich bezwymiarowych wielkości można skonstruować prawa fizyczne rządzące
-obydwoma problemami:
-
-- oscylacji wahadła matematycznego (interesujące wielkości fizyczne to: okres wahania, masa wahadła , długość wahadła , przyśpieszenie ziemskie)
-- ochładzania cieczy z wykorzystaniem kostek lodu (interesujące wielkości fizyczne to: długość charakterystyczna dla kostek lodu, czas , temperatura,
-  przewodnictwo cieplne, objętościowe ciepło właściwe)
-
-<center>
-**C**
-</center>
-
-<center>
-(1 punkt)
-</center>
-
-Proszę rozwiązać ponownie zadanie **B** ale tym razem z wykorzystaniem 
-wbudowanej w Mathemaitcę funkcji `DimensionalCombinations`.
-
-<center>
-**D**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Rozważamy bryły sztywne na płaszczyźnie. 
-Zakładamy, że płaskie bryły znajdują się w płaszczyźnie $x$ - $y$ oraz:
-
-- $-1 < x < 1$
-- $-1 < y < 1$
-
-Proszę zaimplementować trzy funkcje
-zwracające:
-
-- masę bryły
-- środek masy bryły
-- moment bezwładności bryły
-
-Argumentem wszystkich tych trzech funkcji powinna być funkcja biorąca 
-współrzędne na płaszczyźnie i zwracająca gęstość (powierzchniową) bryły.
-
-Wyniki proszę porównać z [wartościami tablicowymi](https://en.wikipedia.org/wiki/List_of_moments_of_inertia) 
-
-Wskazówka: można skorzystać z funkcji `NIntegrate`.
-
-<center>
-**E**
-</center>
-
-<center>
-(2 punkty)
-</center>
-
-Proszę wykorzystać zadanie **D** oraz funkcję `DensityPlot`
-do narysowania kilku figur oraz zaznaczenia ich środków masy.
-W opisie wykresu powinna znaleźć się masa bryły oraz jej 
-moment bezwładności względem środka masy.
 

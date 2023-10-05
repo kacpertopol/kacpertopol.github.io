@@ -20,8 +20,10 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Oprogramowanie użytkowe](./0pl.html)
-	* [Numerical calculatins in Mathematica](./000pl.html)
+	* [Metody Statystyczne](./0pl.html)
+	* [Narzędzia Obliczeniowe Fizyki](./00pl.html)
+	* [Oprogramowanie użytkowe](./00000pl.html)
+	* [Numerical calculatins in Mathematica](./0000000pl.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -46,11 +48,19 @@ toc-title: TOC
 
 
 
-## [Oprogramowanie użytkowe](./0pl.html)
+## [Metody Statystyczne](./0pl.html)
 
 
 
-## [Numerical calculatins in Mathematica](./000pl.html)
+## [Narzędzia Obliczeniowe Fizyki](./00pl.html)
+
+
+
+## [Oprogramowanie użytkowe](./00000pl.html)
+
+
+
+## [Numerical calculatins in Mathematica](./0000000pl.html)
 
 
 

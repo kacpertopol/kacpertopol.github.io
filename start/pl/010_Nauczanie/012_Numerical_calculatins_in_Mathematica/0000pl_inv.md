@@ -1,9 +1,9 @@
 ---
-title : Narzędzia Obliczeniowe Fizyki
+title : Oprogramowanie użytkowe
 ---
 
 <center>
-[![](https://upload.wikimedia.org/wikipedia/commons/0/0b/Ybc7289-bw.jpg?1600959211627)](https://en.wikipedia.org/wiki/File:Ybc7289-bw.jpg)
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg/1024px-Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg)](https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg)
 </center>
 
 
@@ -11,9 +11,7 @@ title : Narzędzia Obliczeniowe Fizyki
 # Zawartość:
 
 * [Organizacja](#organizacja)
-* [Wykład (prof Jacek Golak)](#wykład-prof-jacek-golak)
 * [Zestawy zadań](./00000pl_inv.html)
-* [Projekty studenckie](./000000pl_inv.html)
 
 
 
@@ -23,57 +21,51 @@ title : Narzędzia Obliczeniowe Fizyki
 **ZAJĘCIA**
 </center>
 
-Zajęcia będą prowadzone w trybie stacjonarnym proszę jednak monitorować 
-zarządzenia związane z sytuacją epidemiologiczną. Jeżeli będzie taka
-potrzeba zmienimy tryb prowadzenia na zdalny. 
+Zajęcia będą prowadzone głównie w trybie stacjonarnym proszę jednak monitorować 
+zarządzenia oraz strony *www* uczelni. Niektóre zajęcia odbędą się w formie
+zdalnej, za pośrednictwem platformy *MS Teams*.
 
 <center>
 **MATHEMATICA**
 </center>
 
-Na zajęciach będziemy korzystać z programu Mathematica. Bardzo proszę, 
-przed zapoznać się z
+Na zajęciach będziemy korzystać z programu *Mathematica*. Bardzo proszę, 
+przed pierwszymi zajęciami zapoznać się z
 [instrukcją](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) 
 na stronie:
-
 <https://fais.uj.edu.pl/dla-studentow/studia-z-mathematica>
-
-zdobyć licencję i zainstalować program na swoich komputerach. 
-Na zajęciach można pracować z własnym laptopem albo z komputerem 
-w pracowni. 
+Można zdobyć licencję i zainstalować program na swoich komputerach. 
+Na zajęciach można pracować z własnym laptopem (na własną odpowiedzialność) 
+albo z komputerem w pracowni. 
 
 **Uwaga**: wszędzie gdzie to konieczne należy wpisywać
 uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail
 stanowi metodę weryfikacji, że jesteście państwo studentami uczelni. 
 Informacja o aktywacji studenckich kont pocztowych dostępna jest tutaj:
-
 <https://pomocit.uj.edu.pl/poczta_studenci>
-
 w zakładce "Aktywacja kont pocztowych dla studentów i doktorantów".
 
 <center>
 **OCENA**
 </center>
 
-Na ocenę końcową składać się będą:
+- Ocena z ćwiczeń będzie wystawiana na podstawie:
+	- oceny z projektu (50%),
+	- oceny z ilości punktów z zaliczonych zadań (25%),
+	- oceny z kolokwium/egzaminu z podstawowych informacji omawianych na zajęciach (25%).
+- Duży nacisk stawiany jest na pracę samodzielną, szaczunkowo 
+  przynajmniej dwie, trzy godziny tygodniowo.
+- Zadania można oddawać na każdych zajęciach,
+  wystarczy zademonstrować działanie programu oraz króciutko
+	o nim opowiedzieć.
+- Ćwiczenia z zestawu przypadającego na dane zajęcia
+  można oddawać do końca semestru ale ...
+  - ... jeżeli pod koniec semestru braknie czasu na zajęciach aby 
+    zadanie oddać to nie zostanie ono zalicone. 
+	**W związku z tym proszę nie zwlekać z oddawaniem zadań.**
 
-- sprawdzian końcowy (30% oceny)
-- zadania domowe (35% oceny)
-- projekt końcowy (35% oceny)
-
-
-
-# Wykład (prof Jacek Golak)
-
-Wykłady profesora Jacka Golaka bedą dostępne na stronie:
-
-<http://users.uj.edu.pl/~golak/>
 
 
 # [Zestawy zadań](./00000pl_inv.html)
-
-
-
-# [Projekty studenckie](./000000pl_inv.html)
 
 

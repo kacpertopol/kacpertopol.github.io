@@ -1,3 +1,3 @@
 ---
-title : Oprogramowanie użytkowe
+title : Numerical calculations in Mathematica
 ---

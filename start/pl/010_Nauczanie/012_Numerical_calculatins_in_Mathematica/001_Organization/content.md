@@ -1,22 +1,3 @@
----
-title : Numerical calculations in Mathematica
----
-
-<center>
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg/1024px-Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg)](https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg)
-</center>
-
-
-
-# Content:
-
-* [Organization](#organization)
-* [Exercises](./00en.html)
-
-
-
-# Organization
-
 <center>
 **WORKSHOPS**
 </center>
@@ -62,9 +43,4 @@ Information about activating student e-mail can be found at:
   - ... if there is no time to check the exercises at the end
   of the semester you will lose the possibility to obtain points from your solution. 
 	**For this reason: please try to submit exercises as early as possible**
-
-
-
-# [Exercises](./00en.html)
-
 

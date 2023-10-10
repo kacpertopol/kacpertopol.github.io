@@ -61,12 +61,24 @@ $0 , 1 , 1 , 2 , 3 , 5 , 8 , 13 , 21, \ldots$.
 (2 punkty)
 </center>
 
+Suggest a pattern to represent a single configuration of a Hanoi tower.
+This pattern can be used to define a type. Implement a function
+that uses this pattern and draws the configuration.
+
+<center>
+**E**
+</center>
+
+<center>
+(2 punkty)
+</center>
+
 Please write a function that solves the Hanoi tower problem.
 In your solution use Curried versions of functions and try
 to use only pure functions (no side effects).
 
 <center>
-**E**
+**F**
 </center>
 
 <center>

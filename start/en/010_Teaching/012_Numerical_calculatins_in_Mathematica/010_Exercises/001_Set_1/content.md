@@ -1,4 +1,11 @@
 <center>
+**ADDITIONAL METERIALS**
+</center>
+
+- [Hanoi Tower puzzle](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+- [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
+
+<center>
 **A**
 </center>
 

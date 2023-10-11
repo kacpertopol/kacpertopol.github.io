@@ -4,6 +4,7 @@
 
 - [Hanoi Tower puzzle](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 - [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
+- [chaotic notebook from 10 X 2023](---ThisDir---/numerical_10-10-2023.nb)
 
 <center>
 **A**

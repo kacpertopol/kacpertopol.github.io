@@ -19,6 +19,14 @@ title : Zestawy zadań
 # Set 1
 
 <center>
+**ADDITIONAL METERIALS**
+</center>
+
+- [Hanoi Tower puzzle](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+- [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
+- [chaotic notebook from 10 X 2023](./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/001_Set_1/numerical_10-10-2023.nb)
+
+<center>
 **A**
 </center>
 

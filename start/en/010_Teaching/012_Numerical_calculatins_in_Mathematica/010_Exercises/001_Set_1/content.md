@@ -5,6 +5,8 @@
 - [Hanoi Tower puzzle](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 - [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
 - [chaotic notebook from 10 X 2023](---ThisDir---/numerical_10-10-2023.nb)
+  - CAREFULL: the sceleton for the function solving the hanoi tower is wrong! 
+    (First move the top n-1 from A to B, then move largest disk from A to C and finally move n-1 from B to C.)
 
 <center>
 **A**

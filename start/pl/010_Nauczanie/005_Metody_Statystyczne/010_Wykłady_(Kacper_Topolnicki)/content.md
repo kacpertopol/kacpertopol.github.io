@@ -38,7 +38,7 @@
 **wykład 2**
 </center>
 
-- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQTMElY7eEFFhlSUdZgQMZ0BkAKwYw5LbnJ3V5eePvVfQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=bB83NX)
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERySq4MiHk9FmpQjtBUGmqIBrrEig1invy6xg9ZHyT4f_Q)
   - aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail
   - nie można pliku pobrać
 - [notatki z wykładu](---ThisDir---/2.pdf)

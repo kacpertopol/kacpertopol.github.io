@@ -74,6 +74,7 @@ SOFTWARE.
 <h1 id="content">Content:</h1>
 <ul>
 <li><a href="#set-1">Set 1</a></li>
+<li><a href="#set-2">Set 2</a></li>
 </ul>
 <h1 id="set-1">Set 1</h1>
 <center>
@@ -129,6 +130,68 @@ SOFTWARE.
 (2 punkty)
 </center>
 <p>Write a function that calculates the Mandelbrot set (approximation). Try to make your solution as simple as possible and use only functions and methods that are not unique to Mathematica.</p>
+<h1 id="set-2">Set 2</h1>
+<center>
+<strong>ADDITIONAL METERIALS</strong>
+</center>
+<ul>
+<li><a href="https://mathworld.wolfram.com/JuliaSet.html">Julia set</a></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Mathematica is an very flexible language and can be used to prototype different styles of programming. Introduction of types can lead to a style that mimics object oriented programming. More interesting, at least in my opinion, is the possibility to program in a functional style.</p>
+<p>We have seen how to implement the <em>hsif</em> (inverse <em>fish</em>) operator for the Hanoi tower in order to keep track of the history without having to resort to dirty tricks such as side effects.</p>
+<p>Please implement new <em>bind</em> and <em>hsif</em> functions such that, for example if:</p>
+<pre><code>possibilitiesAfter[x_] := {x + 1 , x - 1};
+otherPossibilitiesAfter[x] := {x + I , x - I};</code></pre>
+<p>then</p>
+<pre><code>(otherPossibilitiesAfter ~ hsif ~ possibilitiesAfter)[1]</code></pre>
+<p>results in (some ordering of):</p>
+<pre><code>{2 + I , 2 - I , 1 + I , 1 - I}</code></pre>
+<p>In other words this new <em>bind</em> and <em>hsif</em> allows us to compose functions that return alternative possibilities (for example of things happening).</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>A nice feature of the functional approach is that we can use equational reasoning about our programm. Please check if the <a href="https://wiki.haskell.org/Monad_laws">monad laws</a> are satisfied in <strong>A</strong>.</p>
+<p>Tip: <code>&gt;==</code> is <code>bind</code>.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Similar to <strong>A</strong> but this time <em>bind</em> and <em>hsif</em> allow us to compose functions that can return an error.</p>
+<p>Tip: have a look at <a href="https://wiki.haskell.org/Maybe">the maybe monad</a>.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Turn your implementation of the Mandelbrot set from the <strong>Set 1</strong> into a compiled function. Using <code>AbsoluteTiming</code> compare the speed of the implementation with different <code>CompilationTarget</code> and <code>Parallelization</code>.</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Implement the calculation of the Mandelbrot set using a more traditional compiled language, <code>C</code> or <code>FORTRAN</code>. Try to use the same algorithm. Compare the speed to the compiled functions in <code>Mathematica</code>.</p>
+<center>
+<strong>F</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Create an animation of the solution to the Hanoi tower. First try to implement a function that draws a single state of the puzzle. Next try <code>Manipulate</code> or <code>ListAnimate</code>.</p>
+<p>Try to export this solution as a <code>GIF</code>.</p>
+<p>Tip: Use the built in language for graphics.</p>
 </article>
 </body>
 </html>

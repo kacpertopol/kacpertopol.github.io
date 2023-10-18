@@ -2,10 +2,16 @@
 **ADDITIONAL METERIALS**
 </center>
 
+- [please read this notebook](---ThisDir---/hanoi.nb)
+  - detailed information about the Hanoi Tower puzzle
 - [Julia set](https://mathworld.wolfram.com/JuliaSet.html)
+- exercises **A**-**C** are marked as additional exercises
+  - points from these exercises will not be used when determing 
+    the grading curve
+  - nontheless I encourage you to try and solve them
 
 <center>
-**A**
+**A (additional challenge)**
 </center>
 
 <center>
@@ -41,7 +47,7 @@ In other words this new *bind* and *hsif* allows us to compose functions that
 return alternative possibilities (for example of things happening).
 
 <center>
-**B**
+**B (additional challenge)**
 </center>
 
 <center>
@@ -55,7 +61,7 @@ are satisfied in **A**.
 Tip: `>==` is `bind`.
 
 <center>
-**C**
+**C (additional challenge)**
 </center>
 
 <center>

@@ -109,11 +109,7 @@ and methods that are not unique to Mathematica.
 **ADDITIONAL METERIALS**
 </center>
 
-- [Hanoi Tower puzzle](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
-- [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
-- [chaotic notebook from 10 X 2023](./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/002_Set_2/numerical_10-10-2023.nb)
-  - CAREFULL: the sceleton for the function solving the hanoi tower is wrong! 
-    (Hint: First move the top n-1 from A to B, then move largest disk from A to C and finally move n-1 from B to C.)
+- [Julia set](https://mathworld.wolfram.com/JuliaSet.html)
 
 <center>
 **A**

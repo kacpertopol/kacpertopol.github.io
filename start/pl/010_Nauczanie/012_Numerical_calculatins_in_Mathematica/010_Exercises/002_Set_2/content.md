@@ -4,7 +4,6 @@
 
 - [please read this notebook](---ThisDir---/hanoi.nb)
   - detailed information about the Hanoi Tower puzzle
-- [Julia set](https://mathworld.wolfram.com/JuliaSet.html)
 - exercises **A**-**C** are marked as additional exercises
   - points from these exercises will not be used when determing 
     the grading curve
@@ -75,31 +74,6 @@ Tip: have a look at [the maybe monad](https://wiki.haskell.org/Maybe).
 
 <center>
 **D**
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Turn your implementation of the Mandelbrot set from the **Set 1**
-into a compiled function. Using `AbsoluteTiming` compare the speed
-of the implementation with different `CompilationTarget` and `Parallelization`.
-
-<center>
-**E**
-</center>
-
-<center>
-(2 punkt)
-</center>
-
-Implement the calculation of the Mandelbrot set using
-a more traditional compiled language, `C` or `FORTRAN`.
-Try to use the same algorithm. Compare the speed
-to the compiled functions in `Mathematica`.
-
-<center>
-**F**
 </center>
 
 <center>

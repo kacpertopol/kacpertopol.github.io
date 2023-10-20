@@ -14,6 +14,7 @@ title : Zestawy zadań
 
 * [Set 1](#set-1)
 * [Set 2](#set-2)
+* [Set 3](#set-3)
 
 
 
@@ -109,10 +110,15 @@ and methods that are not unique to Mathematica.
 **ADDITIONAL METERIALS**
 </center>
 
-- [Julia set](https://mathworld.wolfram.com/JuliaSet.html)
+- [please read this notebook](./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/002_Set_2/hanoi.nb)
+  - detailed information about the Hanoi Tower puzzle
+- exercises **A**-**C** are marked as additional exercises
+  - points from these exercises will not be used when determing 
+    the grading curve
+  - nontheless I encourage you to try and solve them
 
 <center>
-**A**
+**A (additional challenge)**
 </center>
 
 <center>
@@ -148,7 +154,7 @@ In other words this new *bind* and *hsif* allows us to compose functions that
 return alternative possibilities (for example of things happening).
 
 <center>
-**B**
+**B (additional challenge)**
 </center>
 
 <center>
@@ -162,7 +168,7 @@ are satisfied in **A**.
 Tip: `>==` is `bind`.
 
 <center>
-**C**
+**C (additional challenge)**
 </center>
 
 <center>
@@ -173,6 +179,33 @@ Similar to **A** but this time *bind* and *hsif* allow us to compose
 functions that can return an error. 
 
 Tip: have a look at [the maybe monad](https://wiki.haskell.org/Maybe).
+
+<center>
+**D**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Create an animation of the solution to the Hanoi tower. 
+First try to implement a function that draws a
+single state of the puzzle. Next try `Manipulate` or `ListAnimate`.
+
+Try to export this solution as a `GIF`.
+
+Tip: Use the built in language for graphics. 
+
+
+# Set 3
+
+<center>
+**ADDITIONAL METERIALS**
+</center>
+
+- [please read this notebook](./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/003_Set_3/julia_fractal.nb)
+  - please run *Evaluate Notebook* before reading
+  - [Julia set](https://mathworld.wolfram.com/JuliaSet.html)
 
 <center>
 **D**
@@ -199,19 +232,5 @@ a more traditional compiled language, `C` or `FORTRAN`.
 Try to use the same algorithm. Compare the speed
 to the compiled functions in `Mathematica`.
 
-<center>
-**F**
-</center>
 
-<center>
-(2 punkt)
-</center>
-
-Create an animation of the solution to the Hanoi tower. 
-First try to implement a function that draws a
-single state of the puzzle. Next try `Manipulate` or `ListAnimate`.
-
-Try to export this solution as a `GIF`.
-
-Tip: Use the built in language for graphics. 
 

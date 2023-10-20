@@ -75,6 +75,7 @@ SOFTWARE.
 <ul>
 <li><a href="#set-1">Set 1</a></li>
 <li><a href="#set-2">Set 2</a></li>
+<li><a href="#set-3">Set 3</a></li>
 </ul>
 <h1 id="set-1">Set 1</h1>
 <center>
@@ -135,10 +136,18 @@ SOFTWARE.
 <strong>ADDITIONAL METERIALS</strong>
 </center>
 <ul>
-<li><a href="https://mathworld.wolfram.com/JuliaSet.html">Julia set</a></li>
+<li><a href="./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/002_Set_2/hanoi.nb">please read this notebook</a>
+<ul>
+<li>detailed information about the Hanoi Tower puzzle</li>
+</ul></li>
+<li>exercises <strong>A</strong>-<strong>C</strong> are marked as additional exercises
+<ul>
+<li>points from these exercises will not be used when determing the grading curve</li>
+<li>nontheless I encourage you to try and solve them</li>
+</ul></li>
 </ul>
 <center>
-<strong>A</strong>
+<strong>A (additional challenge)</strong>
 </center>
 <center>
 (3 punkt)
@@ -154,7 +163,7 @@ otherPossibilitiesAfter[x] := {x + I , x - I};</code></pre>
 <pre><code>{2 + I , 2 - I , 1 + I , 1 - I}</code></pre>
 <p>In other words this new <em>bind</em> and <em>hsif</em> allows us to compose functions that return alternative possibilities (for example of things happening).</p>
 <center>
-<strong>B</strong>
+<strong>B (additional challenge)</strong>
 </center>
 <center>
 (2 punkt)
@@ -162,13 +171,33 @@ otherPossibilitiesAfter[x] := {x + I , x - I};</code></pre>
 <p>A nice feature of the functional approach is that we can use equational reasoning about our programm. Please check if the <a href="https://wiki.haskell.org/Monad_laws">monad laws</a> are satisfied in <strong>A</strong>.</p>
 <p>Tip: <code>&gt;==</code> is <code>bind</code>.</p>
 <center>
-<strong>C</strong>
+<strong>C (additional challenge)</strong>
 </center>
 <center>
 (3 punkt)
 </center>
 <p>Similar to <strong>A</strong> but this time <em>bind</em> and <em>hsif</em> allow us to compose functions that can return an error.</p>
 <p>Tip: have a look at <a href="https://wiki.haskell.org/Maybe">the maybe monad</a>.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Create an animation of the solution to the Hanoi tower. First try to implement a function that draws a single state of the puzzle. Next try <code>Manipulate</code> or <code>ListAnimate</code>.</p>
+<p>Try to export this solution as a <code>GIF</code>.</p>
+<p>Tip: Use the built in language for graphics.</p>
+<h1 id="set-3">Set 3</h1>
+<center>
+<strong>ADDITIONAL METERIALS</strong>
+</center>
+<ul>
+<li><a href="./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/003_Set_3/julia_fractal.nb">please read this notebook</a>
+<ul>
+<li>please run <em>Evaluate Notebook</em> before reading</li>
+<li><a href="https://mathworld.wolfram.com/JuliaSet.html">Julia set</a></li>
+</ul></li>
+</ul>
 <center>
 <strong>D</strong>
 </center>
@@ -183,15 +212,6 @@ otherPossibilitiesAfter[x] := {x + I , x - I};</code></pre>
 (2 punkt)
 </center>
 <p>Implement the calculation of the Mandelbrot set using a more traditional compiled language, <code>C</code> or <code>FORTRAN</code>. Try to use the same algorithm. Compare the speed to the compiled functions in <code>Mathematica</code>.</p>
-<center>
-<strong>F</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Create an animation of the solution to the Hanoi tower. First try to implement a function that draws a single state of the puzzle. Next try <code>Manipulate</code> or <code>ListAnimate</code>.</p>
-<p>Try to export this solution as a <code>GIF</code>.</p>
-<p>Tip: Use the built in language for graphics.</p>
 </article>
 </body>
 </html>

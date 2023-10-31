@@ -76,6 +76,7 @@ SOFTWARE.
 <li><a href="#set-1">Set 1</a></li>
 <li><a href="#set-2">Set 2</a></li>
 <li><a href="#set-3">Set 3</a></li>
+<li><a href="#set-4">Set 4</a></li>
 </ul>
 <h1 id="set-1">Set 1</h1>
 <center>
@@ -212,6 +213,52 @@ otherPossibilitiesAfter[x] := {x + I , x - I};</code></pre>
 (2 punkt)
 </center>
 <p>Implement the calculation of the Mandelbrot set using a more traditional compiled language, <code>C</code> or <code>FORTRAN</code>. Try to use the same algorithm. Compare the speed to the compiled functions in <code>Mathematica</code>.</p>
+<h1 id="set-4">Set 4</h1>
+<center>
+<strong>ADDITIONAL METERIALS</strong>
+</center>
+<ul>
+<li><a href="./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/004_Set_4/schoedinger.nb">this notebook is under construction and will be replaced</a>
+<ul>
+<li>please run <em>Evaluate Notebook</em> before reading</li>
+</ul></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(4 punkt)
+</center>
+<p>Chose a file with data related to your own work or something you are currently interested in. Implement functions that create <code>Graphics[...]</code> or <code>Graphics3D[...]</code> expressions ment to visualize this data. The point is not to use the built in <code>Plot</code>, <code>ListPlot</code>, etc. but create your own implementation from the ground up … this is a bit of work hence the 4 points :)</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Using your implmementation from <strong>A</strong>, write a <em>Wolfram Languate</em> script with a simple Command Line Interface (CLI). In a minimal CLI (you are encouraged to extend this):</p>
+<ul>
+<li>the path of the data files that are to be visualized are passed as positional arguments</li>
+<li><code>--help</code> and <code>-h</code> print information to the standard output about what the script does and what arguments it can take</li>
+<li><code>--verbose</code> and ‘-v’ produce … verbose output from the script this is usefull for debugging purpouses</li>
+</ul>
+<p>Tip: you can use <code>$ScriptCommandLine</code> in conjunction with pattern matching in <code>Cases</code> to parse the command line arguments.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>The notebook in the <strong>Additional Materials</strong> contains a function that soves a certain popular equation in Physics using <code>Compile</code>. Rewrite this function one of the following:</p>
+<ul>
+<li><code>c</code></li>
+<li><code>c++</code></li>
+<li><code>python</code> with <code>numpy</code> or <code>pytorch</code></li>
+<li><code>Fortran</code></li>
+</ul>
+<p>or some other programming language that compiles to native code.</p>
+<p>Use this implementation with in a program with a clean, readable CLI.</p>
+<p>PS If you like you can also chose some other equation to solve numerically. Additionally, if you chose to implmement the function from the <strong>Additional Materials</strong> you can use a simpler integration method - we will be more interested in programming techniques then precission.</p>
 </article>
 </body>
 </html>

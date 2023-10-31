@@ -2,8 +2,10 @@
 **ADDITIONAL METERIALS**
 </center>
 
-- [this notebook is under construction and will be replaced](---ThisDir---/schoedinger.nb)
+- [please read this notebook](---ThisDir---/schoedinger.nb)
   - please run *Evaluate Notebook* before reading
+  - this is not the end of the story, we will be 
+    covering other visualization techniques
 
 <center>
 **A**

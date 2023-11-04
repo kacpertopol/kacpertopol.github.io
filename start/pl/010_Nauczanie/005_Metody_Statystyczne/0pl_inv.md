@@ -127,11 +127,14 @@ Popularne:
 **wykład 3**
 </center>
 
-- [nagranie z wykłady](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
   - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj)
 - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
 - [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
+- youtube
+  - [centralne twierdzenie graniczne](https://youtu.be/zeJD6dqJ5lo?si=d1smDc3LzV7_uzhA)
+    - dostępne są napisy w języku polskim
 
 <center>
 **wykład 4**

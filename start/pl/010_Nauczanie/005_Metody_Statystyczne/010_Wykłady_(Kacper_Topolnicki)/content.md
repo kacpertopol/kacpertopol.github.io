@@ -65,6 +65,9 @@ Popularne:
 - [notatki z wykładu](---ThisDir---/wyklad_3.pdf)
 - [notebook Mathematici](---ThisDir---/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
+- youtube
+  - [centralne twierdzenie graniczne](https://youtu.be/zeJD6dqJ5lo?si=d1smDc3LzV7_uzhA)
+    - dostępne są napisy w języku polskim
 
 <center>
 **wykład 4**

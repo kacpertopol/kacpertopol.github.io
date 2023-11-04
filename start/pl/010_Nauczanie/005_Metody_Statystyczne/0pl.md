@@ -69,9 +69,17 @@ będzie ono miało wpływ jedynie na ocenę z wykładu.
 **LITERATURA**
 </center>
 
+Podręczniki:
+
 - [*Probability, Random Processes, and Statistical Analysis* Hisashi Kobayashi, Brian L. Mark, William Turin](https://www.cambridge.org/core/books/probability-random-processes-and-statistical-analysis/1909C657E4758038B54C4235B3AD0FDF)
 - [*Probability and Statistics for Computer Scientists* Michael Baron](https://www.routledge.com/Probability-and-Statistics-for-Computer-Scientists/Baron/p/book/9781138044487)
+- [*Probability Theory: The Logic of Science*  E. T. Jaynes (Author), G. Larry Bretthorst (Editor)](https://www.amazon.com/Probability-Theory-Science-T-Jaynes/dp/0521592712)
+  - są równiez dostępne  [nagrania](https://youtube.com/playlist?list=PL9v9IXDsJkktefQzX39wC2YG07vw7DsQ_&si=SYkFZQd4WvUxzdRC) wykładów powiązane z tą książką
+
+Popularne:
+
 - [*Thinking, Fast and Slow* Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
+- [*Bernoulies Fallacy* Aubrey Clayton](https://www.amazon.com/Bernoullis-Fallacy-Statistical-Illogic-Science/dp/0231199945)
 
 <center>
 **MATERIAŁY DODATKOWE**
@@ -114,6 +122,32 @@ będzie ono miało wpływ jedynie na ocenę z wykładu.
   - [zmianna zmiennych losowych w 2D](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples2.nb) 
   - dodatkowe notebooki z wykładu: [1](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples.nb) oraz [2](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples1.nb)
     - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate Notebook*
+
+<center>
+**wykład 3**
+</center>
+
+- [nagranie z wykłady](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
+  - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj)
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
+- [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
+  - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
+
+<center>
+**wykład 4**
+</center>
+
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
+- wykład korzystał również z:
+  - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
+  - [unikalność rozwiązania](http://www.stat.yale.edu/~jtc5/251/readings/Basics%20of%20Applied%20Stochastic%20Processes_Serfozo.pdf) 
+  - [dodatkowy wykład 1](https://mast.queensu.ca/~stat455/lecturenotes/set3.pdf)
+  - [dodatkowy wykład 2](https://siamak.isoperimetric.info/teaching/markov/files/equilibrium-2.pdf)
+  - [dodatkowy wykład 3](http://math.uchicago.edu/~may/REU2017/REUPapers/Freedman.pdf)
+- notebooki Mathematici 
+  - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
+  - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
 
 
 

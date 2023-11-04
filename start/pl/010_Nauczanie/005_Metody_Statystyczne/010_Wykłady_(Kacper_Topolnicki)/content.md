@@ -60,7 +60,7 @@ Popularne:
 **wykład 3**
 </center>
 
-- [nagranie z wykłady](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
   - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj)
 - [notatki z wykładu](---ThisDir---/wyklad_3.pdf)
 - [notebook Mathematici](---ThisDir---/05_12_2020.nb)

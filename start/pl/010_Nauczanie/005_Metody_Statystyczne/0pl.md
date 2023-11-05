@@ -135,6 +135,10 @@ Popularne:
 - youtube
   - [centralne twierdzenie graniczne](https://youtu.be/zeJD6dqJ5lo?si=d1smDc3LzV7_uzhA)
     - dostępne są napisy w języku polskim
+- dodatek
+  - [szacowanie parametrów rozkładu Cauchiego z wykorzystaniem łańcuchów Markova](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/cauchy_pymc.py)
+  - wymagana biblioteka [pymc](https://www.pymc.io/welcome.html) oraz [arviz](https://python.arviz.org/en/stable/) 
+    (arviz prawdopodobnie instalowany przy okazji pymc)
 
 <center>
 **wykład 4**

@@ -16,6 +16,7 @@ title : Zestawy zadań
 * [Set 2](#set-2)
 * [Set 3](#set-3)
 * [Set 4](#set-4)
+* [Set 5](#set-5)
 
 
 
@@ -312,4 +313,53 @@ PS If you like you can also chose some other equation to solve numerically.
 Additionally, if you chose to implmement the function from the **Additional Materials**
 you can use a simpler integration method - we will be more interested in programming
 techniques then precission.
+
+
+# Set 5
+
+<center>
+**ADDITIONAL METERIALS**
+</center>
+
+- [notebook and c code](./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/005_Set_5/simplesch.zip)
+  - please read the notebook
+    - please DON't run *Evaluate Notebook* before reading
+    - evaluate cells as you read
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Write a function in Mathematica that runs the shell command `date`
+parses the standard output from this command and returns the time and date.
+
+<center>
+**B**
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+Change the implementation in `sch.c` (alternatively you can use some other programm)
+to write the result to standard output (is this better, faster?). Change the notebook from the **Additional Materials**
+to read and parse the result from standard output.
+
+<center>
+**C**
+</center>
+
+<center>
+(4 punkt)
+</center>
+
+The notebook from the **Additional Materials** runs a single process with `sch`. Please
+modify the code to run `sch` in parallel for different specifications of the potential. 
+Wrap everything up in a single function.
+
+Tip: Have a look at `StartProcess`. 
 

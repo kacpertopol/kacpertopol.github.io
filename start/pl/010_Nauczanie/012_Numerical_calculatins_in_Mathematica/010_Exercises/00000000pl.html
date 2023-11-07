@@ -77,6 +77,7 @@ SOFTWARE.
 <li><a href="#set-2">Set 2</a></li>
 <li><a href="#set-3">Set 3</a></li>
 <li><a href="#set-4">Set 4</a></li>
+<li><a href="#set-5">Set 5</a></li>
 </ul>
 <h1 id="set-1">Set 1</h1>
 <center>
@@ -260,6 +261,42 @@ otherPossibilitiesAfter[x] := {x + I , x - I};</code></pre>
 <p>or some other programming language that compiles to native code.</p>
 <p>Use this implementation with in a program with a clean, readable CLI.</p>
 <p>PS If you like you can also chose some other equation to solve numerically. Additionally, if you chose to implmement the function from the <strong>Additional Materials</strong> you can use a simpler integration method - we will be more interested in programming techniques then precission.</p>
+<h1 id="set-5">Set 5</h1>
+<center>
+<strong>ADDITIONAL METERIALS</strong>
+</center>
+<ul>
+<li><a href="./start/pl/010_Nauczanie/012_Numerical_calculatins_in_Mathematica/010_Exercises/005_Set_5/simplesch.zip">notebook and c code</a>
+<ul>
+<li>please read the notebook
+<ul>
+<li>please DON’t run <em>Evaluate Notebook</em> before reading</li>
+<li>evaluate cells as you read</li>
+</ul></li>
+</ul></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Write a function in Mathematica that runs the shell command <code>date</code> parses the standard output from this command and returns the time and date.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Change the implementation in <code>sch.c</code> (alternatively you can use some other programm) to write the result to standard output (is this better, faster?). Change the notebook from the <strong>Additional Materials</strong> to read and parse the result from standard output.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(4 punkt)
+</center>
+<p>The notebook from the <strong>Additional Materials</strong> runs a single process with <code>sch</code>. Please modify the code to run <code>sch</code> in parallel for different specifications of the potential. Wrap everything up in a single function.</p>
+<p>Tip: Have a look at <code>StartProcess</code>.</p>
 </article>
 </body>
 </html>

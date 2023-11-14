@@ -1,4 +1,10 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [chaotyczny notebook z zajęć](---ThisDir---/14-11-2023.nb)
+
+<center>
 **A**
 </center>
 

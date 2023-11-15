@@ -49,6 +49,7 @@ Popularne:
 - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERySq4MiHk9FmpQjtBUGmqIBrrEig1invy6xg9ZHyT4f_Q)
   - aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail
   - nie można pliku pobrać
+  - dziękuję za zgłoszenie błędu: około 46 minuty w liczniku powinno byc $h$ zamiast $1$
 - [notatki z wykładu](---ThisDir---/2.pdf)
 - notebooki Mathematici
   - w materiałach dodatkowych znajduje się instrukcja do otrzymania licencji

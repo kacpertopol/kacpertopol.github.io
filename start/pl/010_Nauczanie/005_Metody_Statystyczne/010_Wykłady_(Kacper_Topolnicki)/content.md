@@ -89,5 +89,21 @@ Popularne:
   - [Bernulli](---ThisDir---/20_12_2020.nb)
   - [Markov](---ThisDir---/20_12_2020_1.nb)
 
+<center>
+**wykład 5**
+</center>
 
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
+- [notatki z wykładu](---ThisDir---/wyklad_5.pdf)
+- [notebook](---ThisDir---/autocorrelation.nb) Mathematici 
+  - wystarczy uruchomić notebook (Evaluate Notebook)
 
+<center>
+**wykład 6**
+</center>
+
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
+- [notatki z wykładu](---ThisDir---/W6.pdf)
+- [notebook](---ThisDir---/infiniteMatrix.nb)
+  - wystarczy uruchomić notebook (Evaluate Notebook)
+  - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie

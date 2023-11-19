@@ -3,9 +3,7 @@
 </center>
 
 Tryb prowadzenia zajęć jest zgodny z harmonogramem zjazdów. 
-Obecnie, stan na 22 X 2022, część zjazdów jest oznaczona jako zdalne
-ale wykład 23 X 2022 jest w sali A-1-08. Najbliższe ćwiczenia
-będą w sali G-1-03. Tryb prowadzenia zarówno wykładu jak i ćwiczeń 
+Tryb prowadzenia zarówno wykładu jak i ćwiczeń 
 może się zmieniać dlatego proszę na bieżąco
 monitorować harmonogram 
 wszystkich zjazdów przesłany przez organizatorów.

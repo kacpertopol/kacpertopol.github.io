@@ -78,6 +78,7 @@ SOFTWARE.
 <li><a href="#set-3">Set 3</a></li>
 <li><a href="#set-4">Set 4</a></li>
 <li><a href="#set-5">Set 5</a></li>
+<li><a href="#set-6">Set 6</a></li>
 </ul>
 <h1 id="set-1">Set 1</h1>
 <center>
@@ -297,6 +298,52 @@ otherPossibilitiesAfter[x] := {x + I , x - I};</code></pre>
 </center>
 <p>The notebook from the <strong>Additional Materials</strong> runs a single process with <code>sch</code>. Please modify the code to run <code>sch</code> in parallel for different specifications of the potential. Wrap everything up in a single function.</p>
 <p>Tip: Have a look at <code>StartProcess</code>.</p>
+<h1 id="set-6">Set 6</h1>
+<center>
+<strong>ADDITIONAL METERIALS</strong>
+</center>
+<ul>
+<li><a href="./start/pl/010_Nauczanie/012_Numerical_calculatins_in_Mathematica/010_Exercises/006_Set_6/kern.nb">scarry</a>
+<ul>
+<li>please read the notebook</li>
+<li><strong>WARNING</strong>
+<ul>
+<li>please <strong>DO NOT</strong> run <em>Evaluate Notebook</em> before reading</li>
+<li>I’m getting a strange Mathematica bug when running this notebook</li>
+<li>there might be some memory leaks or buffer overflows in to the x window system / graphics card</li>
+<li>mathematica is working so hard on calculating the eigenvalues that the screen goes black …</li>
+<li><strong>RUN AT YOUR OWN RISK</strong></li>
+</ul></li>
+</ul></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>To fix the scary problems outlined in the <strong>ADDITONAL MATERIALS</strong>, delegate the large eigen value problem to <em>numpy</em> or some external tool.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Take apart the final implementation of the function that creates the matrix representation. Figure how the function works. Apply it to a different differential equation.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(4 punkt)
+</center>
+<p>Read <em>tutorial/ModularityAndTheNamingOfThings#5934</em>. Implement a package that solves the wave equation for given initial conditions. Use your immagination - implement the functionality that you yourself would expect from such a package.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Investivate why <em>Compile</em> does not make the function from the notebook in the <strong>Additional Materials</strong> faster.</p>
 </article>
 </body>
 </html>

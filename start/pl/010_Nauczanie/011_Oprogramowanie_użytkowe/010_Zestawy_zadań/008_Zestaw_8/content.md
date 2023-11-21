@@ -4,6 +4,7 @@
 
 - [przykładowa prezentacja](---ThisDir---/prezentacja.tex)
 - [przykładowy artykuł](---ThisDir---/artykul.zip)
+- [minimalistyczne prezentacje programeme sent](https://tools.suckless.org/sent/)
 
 <center>
 **A**

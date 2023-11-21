@@ -1,4 +1,11 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [przykładowa prezentacja](---ThisDir---/prezentacja.tex)
+- [przykładowy artykuł](---ThisDir---/artykul.zip)
+
+<center>
 **A**
 </center>
 

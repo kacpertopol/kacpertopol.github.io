@@ -93,6 +93,7 @@ Popularne:
 </center>
 
 - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/r/personal/kacper_topolnicki_uj_edu_pl/Documents/new_r/1-2023-10-14_08.26.32.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=seN91E)
+  - [alternatywny link](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/Ef98TsOBH21EpOW7a_Y-FnoB2BrPmXaKqZDP0Q-U2rZ4Lw)
   - aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail
   - nie można pliku pobrać
 - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/1.pdf)

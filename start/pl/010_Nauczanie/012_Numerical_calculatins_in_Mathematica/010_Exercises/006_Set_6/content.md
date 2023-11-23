@@ -4,6 +4,9 @@
 
 - [scarry](---ThisDir---/kern.nb)
   - please read the notebook
+  - some changes
+    - fixed en error in the three dimensional laplacian kernel, we need to divide by $hhh^{2}$ and not $hhh^{3}$ 
+	- changed the plot from `Image3D` to `ListContourPlot3D` - looks prettier
   - **WARNING** 
     - please **DO NOT** run *Evaluate Notebook* before reading
 	- I'm getting a strange Mathematica bug when running this notebook

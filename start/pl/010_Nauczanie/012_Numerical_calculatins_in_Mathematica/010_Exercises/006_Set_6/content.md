@@ -13,6 +13,10 @@
 	- there might be some memory leaks or buffer overflows in to the x window system / graphics card
 	- mathematica is working so hard on calculating the eigenvalues that the screen goes black ...
 	- **RUN AT YOUR OWN RISK**
+- [mathemacia package example](---ThisDir---/convolutiontomatrix.zip)
+  -	`ConvolutionToMatrix.wl` - the package
+  - `test.n` - notebook which tests the package
+  - please note that both of these need to be in the same directory 
 
 <center>
 **A**

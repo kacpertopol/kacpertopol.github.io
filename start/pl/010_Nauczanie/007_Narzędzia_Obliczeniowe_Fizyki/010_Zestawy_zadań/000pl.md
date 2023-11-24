@@ -629,6 +629,10 @@ $$
 - [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/004_Zestaw_4/poisson.nb) rozwiązujący równanie laplaca
 - chaotyczny [notebook](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/004_Zestaw_4/cwiczenia.nb) z zajęć
 - chaotyczne [notatki](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/004_Zestaw_4/cs.pdf)
+- [przykładowy pakiet](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/004_Zestaw_4/myfirstpackage.zip)
+  - `MyFirstPackage.wl` - pakiet
+  - `test.nb` - notebook z przykładowym użyciem
+  - uwaga,`MyFirstPackage.wl` oraz `test.nb` powinny być w tym samym katalogu
 
 <center>
 **A**

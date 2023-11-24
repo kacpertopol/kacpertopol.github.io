@@ -7,6 +7,10 @@
 - [notebook](---ThisDir---/poisson.nb) rozwiązujący równanie laplaca
 - chaotyczny [notebook](---ThisDir---/cwiczenia.nb) z zajęć
 - chaotyczne [notatki](---ThisDir---/cs.pdf)
+- [przykładowy pakiet](---ThisDir---/myfirstpackage.zip)
+  - `MyFirstPackage.wl` - pakiet
+  - `test.nb` - notebook z przykładowym użyciem
+  - uwaga,`MyFirstPackage.wl` oraz `test.nb` powinny być w tym samym katalogu
 
 <center>
 **A**

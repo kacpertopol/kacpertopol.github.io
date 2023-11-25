@@ -184,6 +184,10 @@ Popularne:
 </center>
 
 - [zewtaw 1 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/1.pdf)
+- materiały dodatkowe:
+  - [gnuplot](http://www.gnuplot.info/)
+  - [matplotlib](https://matplotlib.org/)
+    - [pyplot tutorial](https://matplotlib.org/stable/tutorials/pyplot.html)
 
 <center>
 **zestaw 2**

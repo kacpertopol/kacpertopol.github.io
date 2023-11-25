@@ -3,6 +3,10 @@
 </center>
 
 - [zewtaw 1 - pdf](---ThisDir---/1.pdf)
+- materiały dodatkowe:
+  - [gnuplot](http://www.gnuplot.info/)
+  - [matplotlib](https://matplotlib.org/)
+    - [pyplot tutorial](https://matplotlib.org/stable/tutorials/pyplot.html)
 
 <center>
 **zestaw 2**

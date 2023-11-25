@@ -12,6 +12,7 @@ title : Metody Statystyczne
 
 * [Organizacja](#organizacja)
 * [Wykłady (Kacper Topolnicki)](#wykłady-kacper-topolnicki)
+* [Ćwiczenia (Kacper Topolnicki)](#ćwiczenia-kacper-topolnicki)
 
 
 
@@ -174,4 +175,27 @@ Popularne:
 - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/infiniteMatrix.nb)
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
+
+
+# Ćwiczenia (Kacper Topolnicki)
+
+<center>
+**zestaw 1**
+</center>
+
+- [zewtaw 1 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/1.pdf)
+
+<center>
+**zestaw 2**
+</center>
+
+- [zestaw 2 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/2.pdf)
+
+<center>
+**zestaw 3**
+</center>
+
+- [zestaw 3 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/3.pdf)
+
+
 

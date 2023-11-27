@@ -1,4 +1,10 @@
 <center>
+**NOTEBOOK NA START Z PROJEKTAMI**
+</center>
+
+- [notebook](---ThisDir---/start.nb) zawiera fragmenty implementacji, które mogą się przydać na start 
+
+<center>
 **RÓWNANIE FALOWE Z PERIODYCZNYMI WARUNKAMI BRZEGOWYMI**
 </center>
 

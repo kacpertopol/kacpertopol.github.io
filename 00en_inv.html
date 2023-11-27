@@ -79,6 +79,7 @@ SOFTWARE.
 <li><a href="#set-4">Set 4</a></li>
 <li><a href="#set-5">Set 5</a></li>
 <li><a href="#set-6">Set 6</a></li>
+<li><a href="#set-7">Set 7</a></li>
 </ul>
 <h1 id="set-1">Set 1</h1>
 <center>
@@ -355,6 +356,43 @@ otherPossibilitiesAfter[x] := {x + I , x - I};</code></pre>
 (2 punkt)
 </center>
 <p>Investivate why <em>Compile</em> does not make the function from the notebook in the <strong>Additional Materials</strong> faster.</p>
+<h1 id="set-7">Set 7</h1>
+<center>
+<strong>ADDITIONAL METERIALS</strong>
+</center>
+<ul>
+<li><a href="./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/007_Set_7/wstp_example.nb">please read this notebook</a>
+<ul>
+<li>please don’t run <code>Evaluate Notebook</code></li>
+<li>evaluate the cells one by one</li>
+<li><a href="./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/007_Set_7/julia_set.c">simple c program</a></li>
+<li><a href="./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/007_Set_7/julia_set.tm">simple template file</a></li>
+</ul></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Please write a C language function (similar to <code>julia_set.c</code>) that can be used to calculate the Mandelbrot set. Use WSTP to call this function from Mathematica.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Write two C language functions (in the same file). Make sure that they are set up in to be called from Mathematica using WSTP.</p>
+<p>The first function <code>setA(int a)</code> sets the value of a global variable to a. Ths second function <code>returnA()</code> returns the value of the global variable.</p>
+<p>Compile and test these functions in Mathemaica. Is the global variable state persistant after we call <code>Install</code> from Mathematica?</p>
+<p>Hint: You can add multiple functions to the template file. Each function starts with <code>:Begin:</code> and ends with <code>:End:</code>. For functions that don’t return a result try <code>WSPutSymbol(stdlink , "Null")</code>.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Collect the code from <strong>A</strong> and <strong>B</strong>. Use a Makefile to compile the code.</p>
 </article>
 </body>
 </html>

@@ -16,6 +16,9 @@
 - [mathemacia package example](---ThisDir---/convolutiontomatrix.zip)
   -	`ConvolutionToMatrix.wl` - the package
   - `test.n` - notebook which tests the package
+    - if you don't get an orthogonal matrix, you can try to change `n2D` from 50 to 30
+	- the way Mathematica calculates eigenvectors and eigenvalues is not consistent 
+	  across different systems, especially for large matrices
   - please note that both of these need to be in the same directory 
 
 <center>

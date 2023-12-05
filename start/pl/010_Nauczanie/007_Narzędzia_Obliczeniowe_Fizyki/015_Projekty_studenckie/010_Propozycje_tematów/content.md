@@ -3,6 +3,8 @@
 </center>
 
 - [notebook](---ThisDir---/start.nb) zawiera fragmenty implementacji, które mogą się przydać na start 
+  - po otwarciu wystarczy `Evaluate Notebook`
+  - podzielony na części odpowiadające projektom
 
 <center>
 **RÓWNANIE FALOWE Z PERIODYCZNYMI WARUNKAMI BRZEGOWYMI**

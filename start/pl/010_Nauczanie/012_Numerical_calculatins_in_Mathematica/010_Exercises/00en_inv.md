@@ -20,6 +20,7 @@ title : Zestawy zadań
 * [Set 6](#set-6)
 * [Set 7](#set-7)
 * [Set 8](#set-8)
+* [Set 9](#set-9)
 
 
 
@@ -550,12 +551,59 @@ Write a Wolfram Language script that uses the model from **C** for some practica
 </center>
 
 Fiven an artificial neural network composed from the following layers:
+
 - linear layer with a 2x2 weight matrix and a 2 dimensional bias vector (two neurons, two inputs)
   - elementwise layer with the ramp funciton
 - linear layer with a 1x2 weight matrix and a 1 dimensional bias vector (one neuron two inputs)
   - elementwise layer with the ramp funciton
+
 Calculate the derivative of the final output with respect to a couple chosen weights and biases.
 Please use dual numbers.
 
+
+
+
+# Set 9
+
+<center>
+**ADDITIONAL METERIALS**
+</center>
+
+- [please read this notebook](./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/009_Set_9/DifferentialEquationsFromDocumnetation.nb)
+  - please don't run `Evaluate Notebook` 
+  - please evaluate the cells one by one
+
+<center>
+**A**
+</center>
+
+<center>
+(2 punkt)
+</center>
+
+Verify that Mathematica properly calculates the kinetic, potential and total energies in 
+the example from *N - Body Simulations* from the notebook in the **ADDITIONAL MATERIALS**.
+
+<center>
+**B**
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+This is a more open exercise. Use the methods from *Partial Differential Equations* from the
+notebook in the **ADDITIONAL MATERIALS** to solve a differential equation of your chosing.
+
+<center>
+**C**
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+Use the results from *One final example* from the notebook in the **ADDITIONAL MATERIALS** to
+simulate the membrane of a circular drum.
 
 

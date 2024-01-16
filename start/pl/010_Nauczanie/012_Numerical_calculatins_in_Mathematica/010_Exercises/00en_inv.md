@@ -570,6 +570,7 @@ Please use dual numbers.
 </center>
 
 - [please read this notebook](./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/010_Exercises/009_Set_9/DifferentialEquationsFromDocumnetation.nb)
+  - contains examples from the *Mathematica* documentation
   - please don't run `Evaluate Notebook` 
   - please evaluate the cells one by one
 

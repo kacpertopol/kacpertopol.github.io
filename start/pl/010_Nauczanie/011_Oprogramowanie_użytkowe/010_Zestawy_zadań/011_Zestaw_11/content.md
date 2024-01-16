@@ -1,4 +1,10 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [przykłady gnuplot](---ThisDir---/gnuplot_examples.zip)
+
+<center>
 **A**
 </center>
 

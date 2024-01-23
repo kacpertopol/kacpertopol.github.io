@@ -3,6 +3,13 @@
 </center>
 
 - [przykłady gnuplot](---ThisDir---/gnuplot_examples.zip)
+- [przykłady matplotlib](---ThisDir---/16-01-2024.zip)
+  - zaczerpnięte z różnych miejsc
+  - w komentarzech url
+- - *scidavis*
+    - [warto zajrzeć tutaj](https://1pf.if.uj.edu.pl/documents/5046939/0/SciDAVis+v.+1-D013-win.pdf/ef7f9556-88ac-489b-a0a9-c0f0c7348ec6)
+    - [lub tutaj](https://home.agh.edu.pl/~dabek/Linki/SciDavis/scidavis.html)
+    - [lub tutaj](https://scidavis.sourceforge.net/)
 
 <center>
 **A**

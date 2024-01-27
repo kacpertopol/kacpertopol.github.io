@@ -180,6 +180,16 @@ Popularne:
 # Ćwiczenia (Kacper Topolnicki)
 
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [bayesian inference metodą chałupniczą](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/metoda_chalupnicza.py)
+  - oparta na książce [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html)
+    - rozdział 1.2 "A DIY Sampler, Do Not Try This at Home"
+  - [chaotyczne notatki](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/2024-01-27-Note-13-04.pdf)
+  - [pymc](https://www.pymc.io/welcome.html)
+
+<center>
 **zestaw 1**
 </center>
 

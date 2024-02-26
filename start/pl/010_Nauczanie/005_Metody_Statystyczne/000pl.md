@@ -12,6 +12,7 @@ title : Metody Statystyczne
 
 * [Organizacja](#organizacja)
 * [Wykłady (Kacper Topolnicki)](#wykłady-kacper-topolnicki)
+* [Ćwiczenia (Kacper Topolnicki)](#ćwiczenia-kacper-topolnicki)
 
 
 
@@ -21,8 +22,11 @@ title : Metody Statystyczne
 **TRYB PROWADZENIA ZAJĘĆ**
 </center>
 
-Zgodnie z nowym [komunikatem](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/001_Organizacja/komunikat.pdf) zarówno wykład jak i ćwiczenia będą prowadzone
-w trybie zdalnym.
+Tryb prowadzenia zajęć jest zgodny z harmonogramem zjazdów. 
+Tryb prowadzenia zarówno wykładu jak i ćwiczeń 
+może się zmieniać dlatego proszę na bieżąco
+monitorować harmonogram 
+wszystkich zjazdów przesłany przez organizatorów.
 
 <center>
 **ZAKRES MATERIAŁU**
@@ -47,7 +51,7 @@ w trybie zdalnym.
 **WYKŁAD (Kacper Topolnicki)**
 </center>
 
-Wykład będzie prowadzony zdalnie z wykorzystaniem *MS TEAMS*. Na ocenę z wykładu końcową składać się będą:
+Na ocenę z wykładu końcową składać się będą:
 
 - kolokwium końcowe (50% oceny)
 - ocena z ćwiczeń (50% oceny)
@@ -61,122 +65,88 @@ będzie ono miało wpływ jedynie na ocenę z wykładu.
 # Wykłady (Kacper Topolnicki)
 
 <center>
-**ZAGADNIENIA DO KOLOKWIUM**
-</center>
-
-Na kolokwium mogę pojawić się następujące zagadnienia:
-
-- aksjomaty prawdopodobieństwa
-- twierdzenie Bayesa
-- ciągłe zmienne losowe
-  - rozkład Cauchiego
-    - właściwości, funkcja gęstości prawdopodobieństwa
-  - rozkład normalny
-    - właściwości, funkcja gęstości prawdopodobieństwa
-  - zamiana zmiennych losowych (przypadek 1D)
-- estymacja punktowa
-  - estymator zgodny
-  - estymator nie obciążony
-- estymacja przedziałowa
-  - przedział ufności
-- łańcuchy Markova
-  - definicja
-  - macierz prawdopodobieństwa, grafy procesu
-  - czym jest stan stacjonarny, czy zawsze istnieje?
-- procesy liczące
-  - Bernulli
-    - przykład
-	- macierz prawdopodobieństw
-  - Poisson
-    - jak się ma do Bernulliego?
-
-<!---
-- procesy kolejkowe
-  - prawo Little'a
-  - klasyfikacja procesów kolejkowych (M/M/1, G/M/1, ...)
-  - M/M/1
-    - podstawowe własności
---->
-
-Ocena z kolokwium jest zaliczana do oceny z wykładu. Jeżeli zadanie na kolokwium będzie wymagać przeprowadzenia obliczeń to będą to BARDZO proste rachunki.
-Nie przewiduję skomplikowanych wyprowadzeń. Kolokwium pisane jest na karteczkach. 
-Po ukończeniu będzie należało karteczki zeskanować / sfotografować i przesłać na <kacper.topolnicki@uj.edu.pl>.
-Czas trwania to około $30$ minut. 
-<center>
 **LITERATURA**
 </center>
 
+Podręczniki:
+
 - [*Probability, Random Processes, and Statistical Analysis* Hisashi Kobayashi, Brian L. Mark, William Turin](https://www.cambridge.org/core/books/probability-random-processes-and-statistical-analysis/1909C657E4758038B54C4235B3AD0FDF)
 - [*Probability and Statistics for Computer Scientists* Michael Baron](https://www.routledge.com/Probability-and-Statistics-for-Computer-Scientists/Baron/p/book/9781138044487)
+- [*Probability Theory: The Logic of Science*  E. T. Jaynes (Author), G. Larry Bretthorst (Editor)](https://www.amazon.com/Probability-Theory-Science-T-Jaynes/dp/0521592712)
+  - są równiez dostępne  [nagrania](https://youtube.com/playlist?list=PL9v9IXDsJkktefQzX39wC2YG07vw7DsQ_&si=SYkFZQd4WvUxzdRC) wykładów powiązane z tą książką
+
+Popularne:
+
 - [*Thinking, Fast and Slow* Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
+- [*Bernoulies Fallacy* Aubrey Clayton](https://www.amazon.com/Bernoullis-Fallacy-Statistical-Illogic-Science/dp/0231199945)
 
 <center>
 **MATERIAŁY DODATKOWE**
 </center>
 
-<!---- [wykład dr hab. prof UJ Romana Skibińskiego](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/RomanSkibinskiWyklad.pdf)--->
 - [instrukcja](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) installacji programu Mathematica
   ze [strony](https://fais.uj.edu.pl/dla-studentow/studia-z-mathematica)
   - **UWAGA** wszędzie gdzie to konieczne należy wpisywać uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail stanowi metodę weryfikacji, że jesteście państwo studentami uczelni. Informacja o aktywacji studenckich kont pocztowych dostępna jest [tutaj](https://pomocit.uj.edu.pl/poczta_studenci) 
     w zakładce “Aktywacja kont pocztowych dla studentów i doktorantów”.
 
-
 <center>
 **wykład 1**
 </center>
 
-- [slajdy z zeszłego roku](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/wykład_2020-10-17-Note-11-22.pdf)
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/r/personal/kacper_topolnicki_uj_edu_pl/Documents/new_r/1-2023-10-14_08.26.32.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=seN91E)
+  - [alternatywny link](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/Ef98TsOBH21EpOW7a_Y-FnoB2BrPmXaKqZDP0Q-U2rZ4Lw)
+  - aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail
+  - nie można pliku pobrać
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/1.pdf)
 - notebooki Mathematici
-  - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
-  - instrukcja instalowania Mathematici dla studentów zajduje się w tekście [strony](https://kacpertopol.github.io/000pl.html), 
-	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony
-  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/mh.zip) Mathematici z symulacją problemu Montiego Halla (źródło obrazków: [samochód](https://commons.wikimedia.org/wiki/File:Blue_old_car.svg), [koza](https://commons.wikimedia.org/wiki/File:Goat_cartoon_04.svg))
-  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/fgp.nb) z rysunkami funkcji gęstości prawdopodobieństwa
-- prawdopodobieństwo obiektywne i subiektywne, Bayesian and frequentist interpretation
-  - link pojawi się wkrótce
-- problem MH
-  - [numberphile na youtube](https://youtu.be/4Lb-6rxZxx0)
-  - [dłuższe wyjaśnienie](https://youtu.be/ugbWqWCcxrg)
-  - [artykuł na wikipedii](https://en.wikipedia.org/wiki/Monty_Hall_problem)
-
+  - w materiałach dodatkowych znajduje się instrukcja do otrzymania licencji
+  - [paradoks Montiego Halla](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/monty_hall.nb)
+    - polecam poczytać równiez o roli Pani Vos Savant
+  - [funkcje gęstości prawdopodobieństwa](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/fgp.nb)
+- youtube
+  - [3Blue1Brown, twierdzenie Bayesa 1](https://youtu.be/U_85TaXbeIo?si=SMrmKcbswmv4Lb71)
+  - [3Blue1Brown, twierdzenie Bayesa 2](https://youtu.be/HZGCoVF3YvM?si=d1c0Pb1I9AgZLq_d)
+  - [Veritasium, problemy 1](https://youtu.be/R13BD8qKeTg?si=wQyXEI_Yrd1VGhzJ)
+  - [Veritasium, problemy 2](https://youtu.be/42QuXLucH3Q?si=Ruep1yX8AQ0pFfDl)
 
 <center>
 **wykład 2**
 </center>
 
-- nieco mniej chaotyczne [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/ms_2.pdf)
-- nowe, króciutkie, [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EX1qBOu3wMZMsWNJ-P-RwGsBAachwZlIjVar_SU-cAlSEQ)
-  - postanowiłem sporządzić od zera nowe nagranie do "mniej chaotycznych" slajdów
-  - jest bardzo krótkie, pomijam wiele obliczeń - proszę je jednak dokładnie prześledzić
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERySq4MiHk9FmpQjtBUGmqIBrrEig1invy6xg9ZHyT4f_Q)
+  - aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail
+  - nie można pliku pobrać
+  - dziękuję za zgłoszenie błędu: około 46 minuty w liczniku powinno byc $h$ zamiast $1$
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/2.pdf)
 - notebooki Mathematici
-  - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate All*
-  - instrukcja instalowania Mathematici dla studentów zajduje się w tekście [strony](https://kacpertopol.github.io/000pl.html), 
-	  proszę uważnie przeczytać tekst jak również PDF, który jest do ściągnięcia z tej strony	
-  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/examples.nb) rozkład normalny 2D
-	  - proszę czytać komentarze
-  - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/examples1.nb) macierz kowariancji oraz zamiana zmiennych w 2D
-	  - proszę czytać komentarze
-- [anieta](https://forms.office.com/r/GauqxyJPFU)
-- YouTube
-  - jest mnóstwo materiałów, proszę sobie wpisać hasła takie jak "Jacobian", "change of variables"
+  - w materiałach dodatkowych znajduje się instrukcja do otrzymania licencji
+  - [zmianna zmiennych losowych w 2D](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples2.nb) 
+  - dodatkowe notebooki z wykładu: [1](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples.nb) oraz [2](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples1.nb)
+    - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate Notebook*
 
 <center>
 **wykład 3**
 </center>
 
-- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
-- [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
+  - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj)
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
+- [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
-- krążyłem wokół tego tematu podczas wykładu ale chyba w końcu nie podałem definicji - czy po wykonaniu ćwiczeń
-  potrafią Państwo powiedzieć czym jest stan stacjonarny?
+- youtube
+  - [centralne twierdzenie graniczne](https://youtu.be/zeJD6dqJ5lo?si=d1smDc3LzV7_uzhA)
+    - dostępne są napisy w języku polskim
+- dodatek
+  - [szacowanie parametrów rozkładu Cauchiego z wykorzystaniem łańcuchów Markova](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/cauchy_pymc.py)
+  - wymagana biblioteka [pymc](https://www.pymc.io/welcome.html) oraz [arviz](https://python.arviz.org/en/stable/) 
+    (arviz prawdopodobnie instalowany przy okazji pymc)
 
 <center>
 **wykład 4**
 </center>
 
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
-- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
 - wykład korzystał również z:
   - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
   - [unikalność rozwiązania](http://www.stat.yale.edu/~jtc5/251/readings/Basics%20of%20Applied%20Stochastic%20Processes_Serfozo.pdf) 
@@ -184,29 +154,62 @@ Czas trwania to około $30$ minut.
   - [dodatkowy wykład 2](https://siamak.isoperimetric.info/teaching/markov/files/equilibrium-2.pdf)
   - [dodatkowy wykład 3](http://math.uchicago.edu/~may/REU2017/REUPapers/Freedman.pdf)
 - notebooki Mathematici 
-  - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
-  - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
-<!---
-  - TODO: Metoda Funkcji Generującej
-  --->
+  - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
+  - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
 
 <center>
 **wykład 5**
 </center>
 
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
-- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/wyklad_5.pdf)
-- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/autocorrelation.nb) Mathematici 
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_5.pdf)
+- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
 
 <center>
 **wykład 6**
 </center>
 
-- [nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
-- [slajdy](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)
-- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne_(zima_2021-2022)/010_Wykłady_(Kacper_Topolnicki)/infiniteMatrix.nb)
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)
+- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/infiniteMatrix.nb)
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
+
+
+# Ćwiczenia (Kacper Topolnicki)
+
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [bayesian inference metodą chałupniczą](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/metoda_chalupnicza.py)
+  - oparta na książce [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html)
+    - rozdział 1.2 "A DIY Sampler, Do Not Try This at Home"
+  - [chaotyczne notatki](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/2024-01-27-Note-13-04.pdf)
+  - [pymc](https://www.pymc.io/welcome.html)
+
+<center>
+**zestaw 1**
+</center>
+
+- [zewtaw 1 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/1.pdf)
+- materiały dodatkowe:
+  - [gnuplot](http://www.gnuplot.info/)
+  - [matplotlib](https://matplotlib.org/)
+    - [pyplot tutorial](https://matplotlib.org/stable/tutorials/pyplot.html)
+
+<center>
+**zestaw 2**
+</center>
+
+- [zestaw 2 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/2.pdf)
+
+<center>
+**zestaw 3**
+</center>
+
+- [zestaw 3 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/3.pdf)
+
 
 

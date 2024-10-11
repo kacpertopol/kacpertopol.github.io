@@ -173,10 +173,15 @@ TODO</li>
 <h1 id="zestawy-zadań">Zestawy zadań</h1>
 <h2 id="zestaw-1">Zestaw 1</h2>
 <center>
+<a
+href="https://commons.wikimedia.org/wiki/File:Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/7/72/Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg" /></a>
+</center>
+<center>
 <strong>A</strong>
 </center>
 <center>
-(1 punkt)
+(3 points)
 </center>
 <p>It’s <span class="math inline">\(3\)</span> o’clock in the morning
 and you need to prepare some formula to feed your newborn baby. The
@@ -207,7 +212,7 @@ from the kettle. How much cool water should you use?</li>
 python function:</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculateVcool(Tcool , Thot , V , T):</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    ...</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">#...</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> Vcool</span></code></pre></div>
 <p>that returns the volume of the cooler water <span
 class="math inline">\(V_{\text{cool}}\)</span> you need to pour into the
@@ -216,6 +221,130 @@ volume is calculated in such a way that when mixed the water has
 temperature <span class="math inline">\(T\)</span>.</p>
 <p>Tip: If you find yourself in this scenario a infrared thermometer is
 a fantastic tool.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(1 points)
+</center>
+<p>Turn the <code>V</code>, <code>T</code>, and <code>Thot</code>
+arguments of function <code>calculateVcool</code> from exercise
+<strong>A</strong> into optional arguments with realistic default values
+for a <span class="math inline">\(3\)</span> month old baby.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Write a python script that asks the user to input the arguments of
+<code>calculateVcool</code> from <strong>A</strong>, runs the function
+and prints the result.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(1 points)
+</center>
+<p>Nobody has time to fiddle around with their laptop at <span
+class="math inline">\(3\)</span> o’clock in the morning. Get the script
+from <strong>C</strong> to run on your phone (at your own risk :-)
+).</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(4 points)
+</center>
+<p>Your significant other (SO) has the early morning shift with the baby
+and asked you to prepare a thermos with pre-boiled water. You have
+determined the temperature coefficient of the thermos (the mathematics
+of this is very simple, see the <strong>APPENDIX</strong>) and need to
+decide on the temperature of the water in the thermos so that in a
+couple of hours, when your SO needs to prepare the formula, the
+temperature of the water in the thermos is appropriate.</p>
+<p>To help with this implement the python function:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculateTemperature(Tfinal , time , Troom , k , </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>        search <span class="op">=</span> (<span class="fl">0.0</span> , <span class="fl">100.0</span> , <span class="dv">1000</span>)):</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">#...</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> T</span></code></pre></div>
+<p>where <code>Tfinal</code> is the desired temperature of the water
+after time <code>time</code>, <code>Troom</code> is the ambient room
+temperature and <code>k</code> is the temperature coefficient. The final
+optional argument <code>search</code> determines the parameters of a
+numerical simulation that will solve the problem. The returned value
+<code>T</code> is the desired temperature of water in the thermos.</p>
+<p>Use a simple numerical simulation to solve the problem. In this
+simulation scan initial water temperature candidates in the range
+<code>search[0]</code> <span class="math inline">\(\ldots\)</span>
+<code>search[1]</code>. The range is divided into <code>search[2]</code>
+temperature values. For each temperature candidate, the final
+temperature after time <code>time</code> is calculated (see
+<strong>APPENDIX</strong>). Finally, out of all the temperature
+candidates, the one whose final temperature is closest to the desired
+<code>Tfinal</code> is returned as <code>T</code>. In your
+implementation please use:</p>
+<ul>
+<li>a list comprehension,</li>
+<li>tuple unpacking,</li>
+<li>the functions and .</li>
+</ul>
+<p>Tip: The exponent is available in the <code>math</code> library.
+There is no need to install anything, it comes built in. Simply use
+<code>from math import exp</code></p>
+<center>
+<strong>APPENDIX</strong>
+</center>
+<p>When mixing water to arrive at a given temperature, approximately
+(the notation is the same as in the exercises): <span
+class="math display">\[
+    V_{\text{cool}} = V \frac{T_{\text{hot}} - T}{T_{\text{hot}} -
+T_{\text{cool}}}
+\]</span> Does it matter if we use <span
+class="math inline">\(^{\circ}C\)</span> or <span
+class="math inline">\(^{\circ}K\)</span>? Is the formula any different
+if you prefer to pour the hot water first?</p>
+<p>When water in a container is left in a room with ambient temperature
+<span class="math inline">\(T_{\text{room}}\)</span> it will gradually,
+over time change it’s temperature to match the ambient temperature. This
+process can be approximately modeled by the formula: <span
+class="math display">\[
+    \tau(t) = T_{\text{room}} - (T_{\text{room}} - \tau(0)) e^{-t/k}
+\]</span> where <span class="math inline">\(\tau(0)\)</span> is the
+initial temperature of water in the thermos and <span
+class="math inline">\(\tau(t)\)</span> is the temperature in the thermos
+after time <span class="math inline">\(t\)</span>. The remaining
+notation is the same as in the exercises. Please note that a
+non-standard definition of the temperature coefficient <span
+class="math inline">\(k\)</span> is used. The value of this coefficient
+can be worked out by measuring the temperature of the water in the
+thermos at two points in time and doing a little algebra. Does it matter
+if we use <span class="math inline">\(^{\circ}C\)</span> or <span
+class="math inline">\(^{\circ}K\)</span>? Is the formula any different
+if you prefer to pour the hot water first?</p>
+<center>
+<strong>ADDITONAL MATERIALS</strong>
+</center>
+<ul>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Zestaw_1/printable.pdf">some
+miscellaneous notes</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Zestaw_1/helloc.c">simple
+program in c</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Zestaw_1/hellopython.py">simple
+program in python</a>
+<ul>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Zestaw_1/myhello.py">…
+and the module used by this program</a></li>
+</ul></li>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Zestaw_1/myFirstScript.py">simple
+python script</a></li>
+</ul>
 </article>
 </body>
 </html>

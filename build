@@ -12,8 +12,8 @@
 #rm -r ./start/en/010_Teaching/010_Numerical_calculations_using_Mathematica_\(summer_2020-2021\)
 #cp -r ./start/pl/010_Nauczanie/010_Numerical_calculations_using_Mathematica_\(summer_2020-2021\) ./start/en/010_Teaching/
 
-rm -rf ./start/pl/010_Nauczanie/012_Numerical_calculations_in_Mathematica
-cp -r ./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/ ./start/pl/010_Nauczanie/
+#rm -rf ./start/pl/010_Nauczanie/012_Numerical_calculations_in_Mathematica
+#cp -r ./start/en/010_Teaching/012_Numerical_calculatins_in_Mathematica/ ./start/pl/010_Nauczanie/
 
 make_light='./make_light'
 make_dark='./make_dark'

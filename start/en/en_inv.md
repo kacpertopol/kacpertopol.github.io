@@ -20,7 +20,6 @@ toc-title: TOC
 
 * [Contact](#contact)
 * [Teaching](#teaching)
-	* [Numerical calculatins in Mathematica](./0en_inv.html)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
 	* [Podcasts](#podcasts)
@@ -38,10 +37,6 @@ toc-title: TOC
 
 
 # Teaching
-
-
-
-## [Numerical calculatins in Mathematica](./0en_inv.html)
 
 
 

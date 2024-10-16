@@ -1,7 +1,9 @@
 <center>
 [![](https://upload.wikimedia.org/wikipedia/commons/7/72/Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg)](https://commons.wikimedia.org/wiki/File:Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg)
 </center>
-
+<center>
+*...functions, numbers, tuples, and lists...*
+</center>
 <center>
 **A**
 </center>

@@ -136,3 +136,19 @@ to save the game progress.
 
 Tip: Don't worry we'll discuss the details during class :-)
 
+<center>
+**ADDITONAL MATERIALS**
+</center>
+
+- [simple guessing game](---ThisDir---/simpleGame.py)
+  - this is the example from class
+  - please have a look at the comments, in particluar they contain additiona
+    information about reading and writing files
+- [game of life](---ThisDir---/ConowayGameOfLife.py)
+  - see [this Wikipedia article](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+    for more details
+  - run the game as usual `python ConowayGameOfLife.py`
+    - first press `c` to change the state of chosen cells
+    - next press `i` to iterate 
+    - finally press `q` to quit
+  - there are many comments

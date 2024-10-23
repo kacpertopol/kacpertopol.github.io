@@ -48,7 +48,7 @@ Make sure the notebook
 has a detailed description of your approach, use [literate programming](https://en.wikipedia.org/wiki/Literate_programming).
 
 <center>
-**C**
+**D**
 </center>
 
 <center>

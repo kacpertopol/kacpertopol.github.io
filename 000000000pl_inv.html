@@ -150,6 +150,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%2868873
 <li><a href="#set-2">Set 2</a></li>
 <li><a href="#set-3">Set 3</a></li>
 <li><a href="#set-4">Set 4</a></li>
+<li><a href="#set-5">Set 5</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -678,6 +679,124 @@ class.</p>
 href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/004_Set_4/python_for_beginners_08-11-2024.zip">some
 miscellaneous materials from class</a></li>
 </ul>
+<h2 id="set-5">Set 5</h2>
+<center>
+<a
+href="https://commons.wikimedia.org/wiki/File:Enigma_(crittografia)_-_Museo_scienza_e_tecnologia_Milano.jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Enigma_%28crittografia%29_-_Museo_scienza_e_tecnologia_Milano.jpg" /></a>
+</center>
+<center>
+<em>…dictionaries, ciphers, and more on files…</em>
+</center>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 points + 1 point)
+</center>
+<p>Implement two functions. The first one encodes the plaintext …
+<code>plaintext</code> (string of characters):</p>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> encode(key , plaintext):</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># return ciphertext</span></span></code></pre></div>
+<p>and the second one decodes the ciphertext … <code>ciphertext</code>
+(string of characters):</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> decode(key , ciphertext):</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># return plaintext</span></span></code></pre></div>
+<p>Both functions take a string of characters, <code>key</code>, as the
+first argument.</p>
+<p>Use any cipher you like. We will discuss options during class. The
+extra point is for interesting solutions.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Rewrite the functions from <strong>A</strong>. Implement
+<code>encoder</code> and <code>decoder</code> so that they can be
+used:</p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>myEncoder <span class="op">=</span> encoder(<span class="st">&quot;secret_key&quot;</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>myDecoder <span class="op">=</span> decoder(<span class="st">&quot;secret_key&quot;</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>plaintext <span class="op">=</span> <span class="st">&quot;this is the plaintext&quot;</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>ciphertext <span class="op">=</span> myEncoder(plaintext)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(myDecoder(ciphertext) <span class="op">==</span> plaintext) <span class="co"># true</span></span></code></pre></div>
+<p>Use two different methods:</p>
+<ul>
+<li><code>encoder</code> and <code>decoder</code> are functions that
+return functions</li>
+<li><code>encoder</code> and <code>decoder</code> are objects of a class
+that has a <code>__call__</code> method</li>
+</ul>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(3 points + 1 point)
+</center>
+<p>Using the <a
+href="https://docs.python.org/3/library/argparse.html">argparse</a>
+library implement a simple note taking application. The application has
+only positional argument:</p>
+<ul>
+<li><code>password</code> will be used as the key to encrypt and decrypt
+messages</li>
+</ul>
+<p>and the following optional arguments:</p>
+<ul>
+<li><code>--keywords</code> or <code>-k</code> will be used to add
+single keywords, this option can be used multiple times</li>
+<li><code>--print</code> or <code>-p</code> will print all notes</li>
+<li><code>--printany</code> or <code>-a</code> will print only those
+notes that contain any of the keywords</li>
+<li><code>--printall</code> or <code>-o</code> will print only those
+notes that contain all of the keywords</li>
+<li><code>--new</code> or <code>-n</code> will ask the user for the text
+of a new note with the appropriate keywords</li>
+<li><code>--delete</code> or <code>-d</code> will delete a note with a
+given number</li>
+</ul>
+<p>In your implementation:</p>
+<ul>
+<li>store the text of the note in encrypted form, use the functions from
+the previous exercises</li>
+<li>store the notes in a single file located in the same directory as
+the script (we will discuss this during class)</li>
+<li>use the <code>json</code> module to save the updated list of notes
+in the same directory as the script</li>
+<li>use a <code>set</code> to store the keywords</li>
+<li>apart from the keywords assign the creation date (using
+<code>datetime</code>) to each note and a unique number</li>
+<li>use formatted string literals when printing a note, make sure that
+the date, number, keywords, and note text are displayed in a clear
+way</li>
+<li>make sure that all the arguments have help information available
+(using <code>argparse</code>)</li>
+<li>make sure that the program has a description information available
+(using <code>argparse</code>)</li>
+</ul>
+<p>Extra point: replace the positional argument <code>password</code>
+with an appropriate function from the <code>getpass</code> modle. Is
+this safer? Why?</p>
+<p>DISCLAMER: This note taking application is only as safe as our
+implmentation makes it. Use at your own risk!</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Next time we will be talking about the <code>numpy</code> module. In
+preparation please write a script that multiplies two <span
+class="math inline">\(1024 \times 1024\)</span> matrices. Use python
+lists and list comprehensions to implement the matrices. Measure how
+much time the script takes to execute.</p>
 </article>
 </body>
 </html>

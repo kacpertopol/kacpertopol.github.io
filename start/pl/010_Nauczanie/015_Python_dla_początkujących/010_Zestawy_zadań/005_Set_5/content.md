@@ -80,7 +80,8 @@ and the following optional arguments:
 
 In your implementation:
 
-- store the text of the note in encrypted form, use the functions from the previous exercises
+- store the text of the note in encrypted form, use the functions from the previous exercises for encrypting and decrypting, 
+  and `password` as the key
 - use the `json` module to store the notes in [JSON](https://en.wikipedia.org/wiki/JSON) format
 - store the notes in a single file located in the same directory as the script (we will discuss this during class)
 - use a `set` to store the keywords

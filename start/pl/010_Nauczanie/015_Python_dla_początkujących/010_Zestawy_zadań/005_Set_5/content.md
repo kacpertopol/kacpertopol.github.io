@@ -65,7 +65,7 @@ Use two different methods:
 </center>
 
 Using the [argparse](https://docs.python.org/3/library/argparse.html) library implement a simple note taking
-application. The application has only positional argument:
+application. The application has only one positional argument:
 
 - `password` will be used as the key to encrypt and decrypt messages
 

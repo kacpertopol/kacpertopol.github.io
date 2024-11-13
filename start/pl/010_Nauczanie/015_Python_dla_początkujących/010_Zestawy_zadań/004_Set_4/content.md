@@ -82,3 +82,9 @@ for additional functions (tip: use the `__dict__` attribute, we will discuss thi
 Implement a simple class that iterates over the [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_sequence).
 The constructor takes one argument - the number of Fibonacci numbers to iterate over. We will discuss
 the details during class.
+
+<center>
+**ADDITONAL MATERIALS**
+</center>
+
+- [some miscellaneous materials from class](---ThisDir---/python_for_beginners_08-11-2024.zip)

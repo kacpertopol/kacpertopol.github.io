@@ -3,7 +3,7 @@
 </center>
 
 <center>
-*...dictionaries, ciphers, and more on files...*
+*...sets, ciphers, and more on files...*
 </center>
 
 <center>

@@ -107,3 +107,9 @@ DISCLAMER: This note taking application is only as safe as our implmentation mak
 Next time we will be talking about the `numpy` module.
 In preparation please write a script that multiplies two $1024 \times 1024$ matrices. Use python lists and list comprehensions to implement 
 the matrices. Measure how much time the script takes to execute. 
+
+<center>
+**ADDITONAL MATERIALS**
+</center>
+
+- [some miscellaneous materials from class](---ThisDir---/python_for_beginners_16-11-2024.zip)

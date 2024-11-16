@@ -71,6 +71,8 @@ Popularne:
   - [szacowanie parametrów rozkładu Cauchiego z wykorzystaniem łańcuchów Markova](---ThisDir---/cauchy_pymc.py)
   - wymagana biblioteka [pymc](https://www.pymc.io/welcome.html) oraz [arviz](https://python.arviz.org/en/stable/) 
     (arviz prawdopodobnie instalowany przy okazji pymc)
+- wykład korzystał również z:
+  - [introduction to probability, statistics and random processes](https://www.probabilitycourse.com/)
 - nagrania i notatki z poprzednich lat
   - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
     <!--- - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj) --->

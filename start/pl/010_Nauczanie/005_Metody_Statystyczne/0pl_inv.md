@@ -12,7 +12,6 @@ title : Metody Statystyczne
 
 * [Organizacja](#organizacja)
 * [Wykłady (Kacper Topolnicki)](#wykłady-kacper-topolnicki)
-* [Ćwiczenia (Kacper Topolnicki)](#ćwiczenia-kacper-topolnicki)
 
 
 
@@ -128,9 +127,6 @@ Popularne:
 **wykład 3**
 </center>
 
-- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
-  - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj)
-- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
 - [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
 - youtube
@@ -140,13 +136,15 @@ Popularne:
   - [szacowanie parametrów rozkładu Cauchiego z wykorzystaniem łańcuchów Markova](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/cauchy_pymc.py)
   - wymagana biblioteka [pymc](https://www.pymc.io/welcome.html) oraz [arviz](https://python.arviz.org/en/stable/) 
     (arviz prawdopodobnie instalowany przy okazji pymc)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
+    <!--- - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj) --->
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
 
 <center>
 **wykład 4**
 </center>
 
-- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
-- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
 - wykład korzystał również z:
   - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
   - [unikalność rozwiązania](http://www.stat.yale.edu/~jtc5/251/readings/Basics%20of%20Applied%20Stochastic%20Processes_Serfozo.pdf) 
@@ -156,60 +154,28 @@ Popularne:
 - notebooki Mathematici 
   - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
   - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
 
 <center>
 **wykład 5**
 </center>
 
-- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
-- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_5.pdf)
 - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_5.pdf)
 
 <center>
 **wykład 6**
 </center>
 
-- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
-- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)
 - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/infiniteMatrix.nb)
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
-
-
-# Ćwiczenia (Kacper Topolnicki)
-
-<center>
-**MATERIAŁY DODATKOWE**
-</center>
-
-- [bayesian inference metodą chałupniczą](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/metoda_chalupnicza.py)
-  - oparta na książce [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html)
-    - rozdział 1.2 "A DIY Sampler, Do Not Try This at Home"
-  - [chaotyczne notatki](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/2024-01-27-Note-13-04.pdf)
-  - [pymc](https://www.pymc.io/welcome.html)
-
-<center>
-**zestaw 1**
-</center>
-
-- [zewtaw 1 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/1.pdf)
-- materiały dodatkowe:
-  - [gnuplot](http://www.gnuplot.info/)
-  - [matplotlib](https://matplotlib.org/)
-    - [pyplot tutorial](https://matplotlib.org/stable/tutorials/pyplot.html)
-
-<center>
-**zestaw 2**
-</center>
-
-- [zestaw 2 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/2.pdf)
-
-<center>
-**zestaw 3**
-</center>
-
-- [zestaw 3 - pdf](./start/pl/010_Nauczanie/005_Metody_Statystyczne/014_Ćwiczenia_(Kacper_Topolnicki)/3.pdf)
-
-
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)
 

@@ -62,9 +62,6 @@ Popularne:
 **wykład 3**
 </center>
 
-- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
-  - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj)
-- [notatki z wykładu](---ThisDir---/wyklad_3.pdf)
 - [notebook Mathematici](---ThisDir---/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
 - youtube
@@ -74,13 +71,15 @@ Popularne:
   - [szacowanie parametrów rozkładu Cauchiego z wykorzystaniem łańcuchów Markova](---ThisDir---/cauchy_pymc.py)
   - wymagana biblioteka [pymc](https://www.pymc.io/welcome.html) oraz [arviz](https://python.arviz.org/en/stable/) 
     (arviz prawdopodobnie instalowany przy okazji pymc)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
+    <!--- - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj) --->
+  - [notatki z wykładu](---ThisDir---/wyklad_3.pdf)
 
 <center>
 **wykład 4**
 </center>
 
-- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
-- [notatki z wykładu](---ThisDir---/20_12_2020.pdf)
 - wykład korzystał również z:
   - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
   - [unikalność rozwiązania](http://www.stat.yale.edu/~jtc5/251/readings/Basics%20of%20Applied%20Stochastic%20Processes_Serfozo.pdf) 
@@ -90,22 +89,27 @@ Popularne:
 - notebooki Mathematici 
   - [Bernulli](---ThisDir---/20_12_2020.nb)
   - [Markov](---ThisDir---/20_12_2020_1.nb)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
+  - [notatki z wykładu](---ThisDir---/20_12_2020.pdf)
 
 <center>
 **wykład 5**
 </center>
 
-- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
-- [notatki z wykładu](---ThisDir---/wyklad_5.pdf)
 - [notebook](---ThisDir---/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
+  - [notatki z wykładu](---ThisDir---/wyklad_5.pdf)
 
 <center>
 **wykład 6**
 </center>
 
-- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
-- [notatki z wykładu](---ThisDir---/W6.pdf)
 - [notebook](---ThisDir---/infiniteMatrix.nb)
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
+  - [notatki z wykładu](---ThisDir---/W6.pdf)

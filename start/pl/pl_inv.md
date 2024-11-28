@@ -23,8 +23,7 @@ toc-title: TOC
 	* [Metody Statystyczne](./0pl_inv.html)
 	* [Narzędzia Obliczeniowe Fizyki](./00pl_inv.html)
 	* [Oprogramowanie użytkowe](./00000pl_inv.html)
-	* [Numerical calculatins in Mathematica](./0000000pl_inv.html)
-	* [Python dla początkujących](./000000000pl_inv.html)
+	* [Python dla początkujących](./0000000pl_inv.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -61,11 +60,7 @@ toc-title: TOC
 
 
 
-## [Numerical calculatins in Mathematica](./0000000pl_inv.html)
-
-
-
-## [Python dla początkujących](./000000000pl_inv.html)
+## [Python dla początkujących](./0000000pl_inv.html)
 
 
 

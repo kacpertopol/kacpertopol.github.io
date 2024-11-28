@@ -47,7 +47,7 @@ the links:
 
 Tip: The function 
 [`convolve2d`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve2d.html) 
-from the `scipy` might be helpful. It works with `numpy arrays`.
+from the `scipy` might be helpful. It works with `numpy` arrays.
 Visualization
 can be achieved using the `matplotlib.pyplot` library functions,
 [`imshow`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html) or
@@ -81,7 +81,7 @@ Be persistent, if the user types an incorrect value prompt him / her again. To d
 (2 points)
 </center>
 
-Wrap everything (**A** + **C** or **A** + **D**) into a class. Place the class
+Wrap everything (**A** + **C** or **B** + **C**) into a class. Place the class
 definition in a separate module and use this module in a script. 
 
 <center>

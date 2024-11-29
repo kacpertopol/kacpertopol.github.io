@@ -60,7 +60,7 @@ SOFTWARE.
   <style type="text/css">p{text-align: justify;}</style>
   <style type="text/css">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -71,7 +71,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -97,7 +97,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -110,7 +110,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -123,7 +123,9 @@ code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -134,7 +136,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1 class="title">Pyton for beginners</h1>
 </header>
 <center>
-<a href="https://commons.wikimedia.org/wiki/File:Burmese_python_(6887388927).jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%286887388927%29.jpg" /></a>
+<a
+href="https://commons.wikimedia.org/wiki/File:Burmese_python_(6887388927).jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%286887388927%29.jpg" /></a>
 </center>
 <h1 id="zawartość">Zawartość:</h1>
 <ul>
@@ -155,26 +159,38 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <strong>OCENA</strong>
 </center>
 <ul>
-<li>Ocena będzie wystawiana na podstawie ilości punktów z zaliczonych zadań.</li>
-<li>Zadania można oddawać na każdych zajęciach, wystarczy zademonstrować działanie programu oraz króciutko o nim opowiedzieć.</li>
-<li>Ćwiczenia z zestawu przypadającego na dane zajęcia można oddawać do końca semestru ale …
+<li>Ocena będzie wystawiana na podstawie ilości punktów z zaliczonych
+zadań.</li>
+<li>Zadania można oddawać na każdych zajęciach, wystarczy zademonstrować
+działanie programu oraz króciutko o nim opowiedzieć.</li>
+<li>Ćwiczenia z zestawu przypadającego na dane zajęcia można oddawać do
+końca semestru ale …
 <ul>
-<li>… jeżeli pod koniec semestru braknie czasu na zajęciach aby zadanie oddać to nie zostanie ono zalicone. <strong>W związku z tym proszę nie zwlekać z oddawaniem zadań.</strong></li>
+<li>… jeżeli pod koniec semestru braknie czasu na zajęciach aby zadanie
+oddać to nie zostanie ono zalicone. <strong>W związku z tym proszę nie
+zwlekać z oddawaniem zadań.</strong></li>
 </ul></li>
 <li>Skala ocen za punkty z zadań pojawi się około 10 tygodnia</li>
-<li>Na ostatnich zajęciach przeprowadzony jest egzamin, zagadnienia do zostaną rozesłane kilka tygodni wcześniej</li>
-<li>Ocena końcowa jest średnią ważoną oceny z zadań oraz egzaminu TODO</li>
+<li>Na ostatnich zajęciach przeprowadzony jest egzamin, zagadnienia do
+zostaną rozesłane kilka tygodni wcześniej</li>
+<li>Ocena końcowa jest średnią ważoną oceny z zadań oraz egzaminu
+TODO</li>
 </ul>
 <h1 id="materiały-dodatkowe">Materiały dodatkowe</h1>
 <ul>
-<li><a href="https://docs.python.org/3/tutorial/index.html">python tutorial from docs.python.org</a></li>
-<li><a href="https://www.tutorialspoint.com/python/index.htm">python tutorial from tutorialspoint.com</a></li>
-<li><a href="https://www.w3schools.com/python/">python tutorial from w3schools.com</a></li>
+<li><a href="https://docs.python.org/3/tutorial/index.html">python
+tutorial from docs.python.org</a></li>
+<li><a href="https://www.tutorialspoint.com/python/index.htm">python
+tutorial from tutorialspoint.com</a></li>
+<li><a href="https://www.w3schools.com/python/">python tutorial from
+w3schools.com</a></li>
 </ul>
 <h1 id="zestawy-zadań">Zestawy zadań</h1>
 <h2 id="set-1">Set 1</h2>
 <center>
-<a href="https://commons.wikimedia.org/wiki/File:Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg" /></a>
+<a
+href="https://commons.wikimedia.org/wiki/File:Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/7/72/Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg" /></a>
 </center>
 <center>
 <em>…functions, numbers, tuples, and lists…</em>
@@ -185,87 +201,177 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (3 points)
 </center>
-<p>It’s <span class="math inline">\(3\)</span> o’clock in the morning and you need to prepare some formula to feed your newborn baby. The instructions on the package are very specific: prepare a certain amount of water at a given temperature, add the correct amount of formula, mix and cool everything down before serving. In order to keep the baby safe from infections, all the water that you use needs to be pre-boiled. Here is your setup:</p>
+<p>It’s <span class="math inline">\(3\)</span> o’clock in the morning
+and you need to prepare some formula to feed your newborn baby. The
+instructions on the package are very specific: prepare a certain amount
+of water at a given temperature, add the correct amount of formula, mix
+and cool everything down before serving. In order to keep the baby safe
+from infections, all the water that you use needs to be pre-boiled. Here
+is your setup:</p>
 <ol type="1">
-<li>You prepared a container of pre-boiled water cooled down to the temperature <span class="math inline">\(T_{\text{cool}}\)</span>.</li>
+<li>You prepared a container of pre-boiled water cooled down to the
+temperature <span class="math inline">\(T_{\text{cool}}\)</span>.</li>
 <li>You prepared an empty, sterile feeding bottle.</li>
-<li>You have an electric kettle and measured that when the water comes out of the spout it has temperature <span class="math inline">\(T_{\text{hot}}\)</span> (it’s slightly cooler then <span class="math inline">\(100^{\circ}C\)</span>).</li>
-<li>You need to prepare <span class="math inline">\(V\)</span> milliliters (or any other unit of volume) water at temperature <span class="math inline">\(T\)</span> to mix up the formula for your little one. You do this by first pouring <span class="math inline">\(V_{\text{cool}}\)</span> milliliters (or any other unit of volume) of the cooler water into the bottle and then filling the bottle up to <span class="math inline">\(V\)</span> with the hot water from the kettle. How much cool water should you use?</li>
+<li>You have an electric kettle and measured that when the water comes
+out of the spout it has temperature <span
+class="math inline">\(T_{\text{hot}}\)</span> (it’s slightly cooler then
+<span class="math inline">\(100^{\circ}C\)</span>).</li>
+<li>You need to prepare <span class="math inline">\(V\)</span>
+milliliters (or any other unit of volume) water at temperature <span
+class="math inline">\(T\)</span> to mix up the formula for your little
+one. You do this by first pouring <span
+class="math inline">\(V_{\text{cool}}\)</span> milliliters (or any other
+unit of volume) of the cooler water into the bottle and then filling the
+bottle up to <span class="math inline">\(V\)</span> with the hot water
+from the kettle. How much cool water should you use?</li>
 </ol>
-<p>The mathematics of this problem is very simple, see the <strong>APPENDIX</strong>. To make things more convenient implement the python function:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculateVcool(Tcool , Thot , V , T):</span>
+<p>The mathematics of this problem is very simple, see the
+<strong>APPENDIX</strong>. To make things more convenient implement the
+python function:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculateVcool(Tcool , Thot , V , T):</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">#...</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> Vcool</span></code></pre></div>
-<p>that returns the volume of the cooler water <span class="math inline">\(V_{\text{cool}}\)</span> you need to pour into the bottle before pouring the remainder of the water from the kettle. This volume is calculated in such a way that when mixed the water has temperature <span class="math inline">\(T\)</span>.</p>
-<p>Tip: If you find yourself in this scenario a infrared thermometer is a fantastic tool.</p>
+<p>that returns the volume of the cooler water <span
+class="math inline">\(V_{\text{cool}}\)</span> you need to pour into the
+bottle before pouring the remainder of the water from the kettle. This
+volume is calculated in such a way that when mixed the water has
+temperature <span class="math inline">\(T\)</span>.</p>
+<p>Tip: If you find yourself in this scenario a infrared thermometer is
+a fantastic tool.</p>
 <center>
 <strong>B</strong>
 </center>
 <center>
 (1 points)
 </center>
-<p>Turn the <code>V</code>, <code>T</code>, and <code>Thot</code> arguments of function <code>calculateVcool</code> from exercise <strong>A</strong> into optional arguments with realistic default values for a <span class="math inline">\(3\)</span> month old baby.</p>
+<p>Turn the <code>V</code>, <code>T</code>, and <code>Thot</code>
+arguments of function <code>calculateVcool</code> from exercise
+<strong>A</strong> into optional arguments with realistic default values
+for a <span class="math inline">\(3\)</span> month old baby.</p>
 <center>
 <strong>C</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>Write a python script that asks the user to input the arguments of <code>calculateVcool</code> from <strong>A</strong>, runs the function and prints the result.</p>
+<p>Write a python script that asks the user to input the arguments of
+<code>calculateVcool</code> from <strong>A</strong>, runs the function
+and prints the result.</p>
 <center>
 <strong>D</strong>
 </center>
 <center>
 (1 points)
 </center>
-<p>Nobody has time to fiddle around with their laptop at <span class="math inline">\(3\)</span> o’clock in the morning. Get the script from <strong>C</strong> to run on your phone (at your own risk :-) ).</p>
+<p>Nobody has time to fiddle around with their laptop at <span
+class="math inline">\(3\)</span> o’clock in the morning. Get the script
+from <strong>C</strong> to run on your phone (at your own risk :-)
+).</p>
 <center>
 <strong>E</strong>
 </center>
 <center>
 (4 points)
 </center>
-<p>Your significant other (SO) has the early morning shift with the baby and asked you to prepare a thermos with pre-boiled water. You have determined the temperature coefficient of the thermos (the mathematics of this is very simple, see the <strong>APPENDIX</strong>) and need to decide on the temperature of the water in the thermos so that in a couple of hours, when your SO needs to prepare the formula, the temperature of the water in the thermos is appropriate.</p>
+<p>Your significant other (SO) has the early morning shift with the baby
+and asked you to prepare a thermos with pre-boiled water. You have
+determined the temperature coefficient of the thermos (the mathematics
+of this is very simple, see the <strong>APPENDIX</strong>) and need to
+decide on the temperature of the water in the thermos so that in a
+couple of hours, when your SO needs to prepare the formula, the
+temperature of the water in the thermos is appropriate.</p>
 <p>To help with this implement the python function:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculateTemperature(Tfinal , time , Troom , k , </span>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculateTemperature(Tfinal , time , Troom , k , </span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>        search <span class="op">=</span> (<span class="fl">0.0</span> , <span class="fl">100.0</span> , <span class="dv">1000</span>)):</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">#...</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> T</span></code></pre></div>
-<p>where <code>Tfinal</code> is the desired temperature of the water after time <code>time</code>, <code>Troom</code> is the ambient room temperature and <code>k</code> is the temperature coefficient. The final optional argument <code>search</code> determines the parameters of a numerical simulation that will solve the problem. The returned value <code>T</code> is the desired temperature of water in the thermos.</p>
-<p>Use a simple numerical simulation to solve the problem. In this simulation scan initial water temperature candidates in the range <code>search[0]</code> <span class="math inline">\(\ldots\)</span> <code>search[1]</code>. The range is divided into <code>search[2]</code> temperature values. For each temperature candidate, the final temperature after time <code>time</code> is calculated (see <strong>APPENDIX</strong>). Finally, out of all the temperature candidates, the one whose final temperature is closest to the desired <code>Tfinal</code> is returned as <code>T</code>. In your implementation please use:</p>
+<p>where <code>Tfinal</code> is the desired temperature of the water
+after time <code>time</code>, <code>Troom</code> is the ambient room
+temperature and <code>k</code> is the temperature coefficient. The final
+optional argument <code>search</code> determines the parameters of a
+numerical simulation that will solve the problem. The returned value
+<code>T</code> is the desired temperature of water in the thermos.</p>
+<p>Use a simple numerical simulation to solve the problem. In this
+simulation scan initial water temperature candidates in the range
+<code>search[0]</code> <span class="math inline">\(\ldots\)</span>
+<code>search[1]</code>. The range is divided into <code>search[2]</code>
+temperature values. For each temperature candidate, the final
+temperature after time <code>time</code> is calculated (see
+<strong>APPENDIX</strong>). Finally, out of all the temperature
+candidates, the one whose final temperature is closest to the desired
+<code>Tfinal</code> is returned as <code>T</code>. In your
+implementation please use:</p>
 <ul>
 <li>a list comprehension,</li>
 <li>tuple unpacking,</li>
-<li>the functions  and .</li>
+<li>the functions and .</li>
 </ul>
-<p>Tip: The exponent is available in the <code>math</code> library. There is no need to install anything, it comes built in. Simply use <code>from math import exp</code></p>
+<p>Tip: The exponent is available in the <code>math</code> library.
+There is no need to install anything, it comes built in. Simply use
+<code>from math import exp</code></p>
 <center>
 <strong>APPENDIX</strong>
 </center>
-<p>When mixing water to arrive at a given temperature, approximately (the notation is the same as in the exercises): <span class="math display">\[
-    V_{\text{cool}} = V \frac{T_{\text{hot}} - T}{T_{\text{hot}} - T_{\text{cool}}}
-\]</span> Does it matter if we use <span class="math inline">\(^{\circ}C\)</span> or <span class="math inline">\(^{\circ}K\)</span>? Is the formula any different if you prefer to pour the hot water first?</p>
-<p>When water in a container is left in a room with ambient temperature <span class="math inline">\(T_{\text{room}}\)</span> it will gradually, over time change it’s temperature to match the ambient temperature. This process can be approximately modeled by the formula: <span class="math display">\[
+<p>When mixing water to arrive at a given temperature, approximately
+(the notation is the same as in the exercises): <span
+class="math display">\[
+    V_{\text{cool}} = V \frac{T_{\text{hot}} - T}{T_{\text{hot}} -
+T_{\text{cool}}}
+\]</span> Does it matter if we use <span
+class="math inline">\(^{\circ}C\)</span> or <span
+class="math inline">\(^{\circ}K\)</span>? Is the formula any different
+if you prefer to pour the hot water first?</p>
+<p>When water in a container is left in a room with ambient temperature
+<span class="math inline">\(T_{\text{room}}\)</span> it will gradually,
+over time change it’s temperature to match the ambient temperature. This
+process can be approximately modeled by the formula: <span
+class="math display">\[
     \tau(t) = T_{\text{room}} - (T_{\text{room}} - \tau(0)) e^{-t/k}
-\]</span> where <span class="math inline">\(\tau(0)\)</span> is the initial temperature of water in the thermos and <span class="math inline">\(\tau(t)\)</span> is the temperature in the thermos after time <span class="math inline">\(t\)</span>. The remaining notation is the same as in the exercises. Please note that a non-standard definition of the temperature coefficient <span class="math inline">\(k\)</span> is used. The value of this coefficient can be worked out by measuring the temperature of the water in the thermos at two points in time and doing a little algebra. Does it matter if we use <span class="math inline">\(^{\circ}C\)</span> or <span class="math inline">\(^{\circ}K\)</span>? Is the formula any different if you prefer to pour the hot water first?</p>
+\]</span> where <span class="math inline">\(\tau(0)\)</span> is the
+initial temperature of water in the thermos and <span
+class="math inline">\(\tau(t)\)</span> is the temperature in the thermos
+after time <span class="math inline">\(t\)</span>. The remaining
+notation is the same as in the exercises. Please note that a
+non-standard definition of the temperature coefficient <span
+class="math inline">\(k\)</span> is used. The value of this coefficient
+can be worked out by measuring the temperature of the water in the
+thermos at two points in time and doing a little algebra. Does it matter
+if we use <span class="math inline">\(^{\circ}C\)</span> or <span
+class="math inline">\(^{\circ}K\)</span>? Is the formula any different
+if you prefer to pour the hot water first?</p>
 <center>
 <strong>ADDITONAL MATERIALS</strong>
 </center>
 <ul>
-<li><a href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/printable.pdf">some miscellaneous notes</a></li>
-<li><a href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/helloc.c">simple program in c</a></li>
-<li><a href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/hellopython.py">simple program in python</a>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/printable.pdf">some
+miscellaneous notes</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/helloc.c">simple
+program in c</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/hellopython.py">simple
+program in python</a>
 <ul>
-<li><a href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/myhello.py">… and the module used by this program</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/myhello.py">…
+and the module used by this program</a></li>
 </ul></li>
-<li><a href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/myFirstScript.py">simple python script</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/myFirstScript.py">simple
+python script</a></li>
 </ul>
 <h2 id="set-2">Set 2</h2>
 <center>
-<a href="https://commons.wikimedia.org/wiki/File:BB-ASCII-art-screenshot-zebra.png"><img src="https://upload.wikimedia.org/wikipedia/commons/4/45/BB-ASCII-art-screenshot-zebra.png" /></a>
+<a
+href="https://commons.wikimedia.org/wiki/File:BB-ASCII-art-screenshot-zebra.png"><img
+src="https://upload.wikimedia.org/wikipedia/commons/4/45/BB-ASCII-art-screenshot-zebra.png" /></a>
 </center>
 <center>
-<em>…to is or not to is, dictionaries, loops, flow control, modules and objects…</em>
+<em>…to is or not to is, dictionaries, loops, flow control, modules and
+objects…</em>
 </center>
 <center>
 <strong>A</strong>
@@ -273,7 +379,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (2 points)
 </center>
-<p>Implement a function that takes an arbitrary number of arguments, say floating point numbers, and returns a dictionary containing:</p>
+<p>Implement a function that takes an arbitrary number of arguments, say
+floating point numbers, and returns a dictionary containing:</p>
 <ul>
 <li>a list containing all the arguments</li>
 <li>the mean of the arguments</li>
@@ -286,30 +393,55 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (3 points)
 </center>
-<p>Implement a simple <a href="https://en.wikipedia.org/wiki/Text-based_game">text based game</a>. The gameplay and objective is completely up to you.</p>
+<p>Implement a simple <a
+href="https://en.wikipedia.org/wiki/Text-based_game">text based
+game</a>. The gameplay and objective is completely up to you.</p>
 <p>Please base your implementation on the following function:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> updateGameState(state)</span>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> updateGameState(state)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...</span></span></code></pre></div>
-<p>that updates the dictionary <code>state</code> in every iteration of the main game loop:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span>(<span class="op">!</span>state[<span class="st">&quot;finished&quot;</span>]):</span>
+<p>that updates the dictionary <code>state</code> in every iteration of
+the main game loop:</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span>(<span class="op">!</span>state[<span class="st">&quot;finished&quot;</span>]):</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...    </span></span></code></pre></div>
-<p>At each iteration of the game loop print the available moves / options available to the player and use the <code>input</code> function to decide on how to proceed with the game play. Use <code>if</code>, <code>else</code>, and <code>elif</code> statements to decide how the game <code>state</code> will evolve. When the game is finished, change the value of <code>"finished"</code> in <code>state</code> to <code>True</code>. This will cause the main loop of the game to terminate.</p>
+<p>At each iteration of the game loop print the available moves /
+options available to the player and use the <code>input</code> function
+to decide on how to proceed with the game play. Use <code>if</code>,
+<code>else</code>, and <code>elif</code> statements to decide how the
+game <code>state</code> will evolve. When the game is finished, change
+the value of <code>"finished"</code> in <code>state</code> to
+<code>True</code>. This will cause the main loop of the game to
+terminate.</p>
 <center>
 <strong>C</strong>
 </center>
 <center>
 (3 points)
 </center>
-<p>Add some elegant <a href="https://en.wikipedia.org/wiki/ASCII_art">ASCI art</a> to your game. To do this please import the <code>sys</code> module and use the <code>sys.stdout.write</code> method to implement the function:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> showGameState(state):</span>
+<p>Add some elegant <a
+href="https://en.wikipedia.org/wiki/ASCII_art">ASCI art</a> to your
+game. To do this please import the <code>sys</code> module and use the
+<code>sys.stdout.write</code> method to implement the function:</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> showGameState(state):</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...</span></span></code></pre></div>
-<p>that will print a beautiful graphical representation of the game state to “standard output”. Add this function to the main game loop. Please assume that we are working in a terminal that is <span class="math inline">\(80\)</span> characters wide and <span class="math inline">\(40\)</span> characters tall.</p>
+<p>that will print a beautiful graphical representation of the game
+state to “standard output”. Add this function to the main game loop.
+Please assume that we are working in a terminal that is <span
+class="math inline">\(80\)</span> characters wide and <span
+class="math inline">\(40\)</span> characters tall.</p>
 <p>Tips:</p>
 <ul>
-<li>use two nested <code>for</code> loops to sweep over all the <span class="math inline">\(80 \times 40\)</span> “pixel” display we use in the game</li>
-<li>use <code>if</code> and / or a dictionary to decide what character to put in each “pixel”</li>
+<li>use two nested <code>for</code> loops to sweep over all the <span
+class="math inline">\(80 \times 40\)</span> “pixel” display we use in
+the game</li>
+<li>use <code>if</code> and / or a dictionary to decide what character
+to put in each “pixel”</li>
 <li>the new line character is <code>\n</code></li>
-<li>this does not have to be very complicated, drawing a map with the location of the player is great but printing some basic information about the game statistics is also fine</li>
+<li>this does not have to be very complicated, drawing a map with the
+location of the player is great but printing some basic information
+about the game statistics is also fine</li>
 </ul>
 <center>
 <strong>D</strong>
@@ -318,12 +450,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 (2 points)
 </center>
 <p>Implement a “smart” function:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> smartFunction(a , b):</span>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> smartFunction(a , b):</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...</span></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> c</span></code></pre></div>
-<p>that returns the result <code>c = a + b</code>. Since this operation is very laborious and time consuming, the function memorizes previous arguments <code>a</code>, <code>b</code> that were passed to it, it also memorizes the result. This is all in the hope that when we pass those arguments to the function again it won’t have to do all that work, it’ll just recall the result.</p>
-<p>In order to achieve this introduce a global variable <code>smartFunctionMemory</code> that will contain a dictionary. The keys in this dictionary are related to the arguments <code>a</code>, <code>b</code>, and the values are related to the results <code>c</code>.</p>
-<p>What types of arguments can we pass into <code>smartFunction</code>?</p>
+<p>that returns the result <code>c = a + b</code>. Since this operation
+is very laborious and time consuming, the function memorizes previous
+arguments <code>a</code>, <code>b</code> that were passed to it, it also
+memorizes the result. This is all in the hope that when we pass those
+arguments to the function again it won’t have to do all that work, it’ll
+just recall the result.</p>
+<p>In order to achieve this introduce a global variable
+<code>smartFunctionMemory</code> that will contain a dictionary. The
+keys in this dictionary are related to the arguments <code>a</code>,
+<code>b</code>, and the values are related to the results
+<code>c</code>.</p>
+<p>What types of arguments can we pass into
+<code>smartFunction</code>?</p>
 <center>
 <strong>E</strong>
 </center>
@@ -331,28 +474,42 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 (2 points)
 </center>
 <p>Implement the function:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> readState(path)</span>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> readState(path)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> state</span></code></pre></div>
-<p>that reads the state from a file located at path <code>path</code>. The contents of this file is processed to obtain the saved state of a previous game.</p>
+<p>that reads the state from a file located at path <code>path</code>.
+The contents of this file is processed to obtain the saved state of a
+previous game.</p>
 <p>Implement the function:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> writeState(state , path)</span>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> writeState(state , path)</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...</span></span></code></pre></div>
-<p>that writes the game state to a file located at path <code>path</code>.</p>
-<p>Add <code>readState</code> before the start of the game loop and <code>writeState</code> after the loop to allow the user to save the game progress.</p>
+<p>that writes the game state to a file located at path
+<code>path</code>.</p>
+<p>Add <code>readState</code> before the start of the game loop and
+<code>writeState</code> after the loop to allow the user to save the
+game progress.</p>
 <p>Tip: Don’t worry we’ll discuss the details during class :-)</p>
 <center>
 <strong>ADDITONAL MATERIALS</strong>
 </center>
 <ul>
-<li><a href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/002_Set_2/simpleGame.py">simple guessing game</a>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/002_Set_2/simpleGame.py">simple
+guessing game</a>
 <ul>
 <li>this is the example from class</li>
-<li>please have a look at the comments, in particluar they contain additiona information about reading and writing files</li>
+<li>please have a look at the comments, in particluar they contain
+additiona information about reading and writing files</li>
 </ul></li>
-<li><a href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/002_Set_2/ConowayGameOfLife.py">game of life</a>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/002_Set_2/ConowayGameOfLife.py">game
+of life</a>
 <ul>
-<li>see <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">this Wikipedia article</a> for more details</li>
+<li>see <a
+href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">this
+Wikipedia article</a> for more details</li>
 <li>run the game as usual <code>python ConowayGameOfLife.py</code>
 <ul>
 <li>first press <code>c</code> to change the state of chosen cells</li>
@@ -364,7 +521,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <h2 id="set-3">Set 3</h2>
 <center>
-<a href="https://en.wikipedia.org/wiki/Literate_programming"><img src="https://upload.wikimedia.org/wikipedia/en/6/62/Literate_Programming_book_cover.jpg" /></a>
+<a href="https://en.wikipedia.org/wiki/Literate_programming"><img
+src="https://upload.wikimedia.org/wikipedia/en/6/62/Literate_Programming_book_cover.jpg" /></a>
 </center>
 <center>
 <em>…literate programming, loops and lambdas, …</em>
@@ -375,15 +533,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (2 points)
 </center>
-<p>Replace the repeated <code>if</code>, <code>elif</code>, <code>else</code> statements from your game in <strong>Set 2</strong> with <code>match</code>. If these statements don’t appear in the game, please add some.</p>
+<p>Replace the repeated <code>if</code>, <code>elif</code>,
+<code>else</code> statements from your game in <strong>Set 2</strong>
+with <code>match</code>. If these statements don’t appear in the game,
+please add some.</p>
 <center>
 <strong>B</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>End your scripts from <strong>Set 1</strong> with an infinite <code>while</code> loop instead of a call similar to <code>input("Hit enter to exit.")</code>. Please use <code>pass</code> in the infinite loop.</p>
-<p>Import the <code>time</code> module and use the <code>time.time()</code> function to measure the time the program spends in the loop. If this time exceeds <span class="math inline">\(10\)</span> seconds, ask the user if the program should exit. If the program is supposed to wait reset the timer and run the loop for another <span class="math inline">\(10\)</span> seconds.</p>
+<p>End your scripts from <strong>Set 1</strong> with an infinite
+<code>while</code> loop instead of a call similar to
+<code>input("Hit enter to exit.")</code>. Please use <code>pass</code>
+in the infinite loop.</p>
+<p>Import the <code>time</code> module and use the
+<code>time.time()</code> function to measure the time the program spends
+in the loop. If this time exceeds <span
+class="math inline">\(10\)</span> seconds, ask the user if the program
+should exit. If the program is supposed to wait reset the timer and run
+the loop for another <span class="math inline">\(10\)</span>
+seconds.</p>
 <p>Tip: use <code>continue</code>, and <code>break</code>.</p>
 <center>
 <strong>C</strong>
@@ -391,20 +561,34 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (4 points)
 </center>
-<p>Using the <a href="https://jupyter.org/">Jupyter notebook</a> please investigate the <a href="https://en.wikipedia.org/wiki/Logistic_map">logistic map</a>.</p>
-<p>Create a function that calculates the logistic map and draw the map using the <code>matplotlib</code> library, we will discuss how this library works during class. Make sure the notebook has a detailed description of your approach, use <a href="https://en.wikipedia.org/wiki/Literate_programming">literate programming</a>.</p>
+<p>Using the <a href="https://jupyter.org/">Jupyter notebook</a> please
+investigate the <a
+href="https://en.wikipedia.org/wiki/Logistic_map">logistic map</a>.</p>
+<p>Create a function that calculates the logistic map and draw the map
+using the <code>matplotlib</code> library, we will discuss how this
+library works during class. Make sure the notebook has a detailed
+description of your approach, use <a
+href="https://en.wikipedia.org/wiki/Literate_programming">literate
+programming</a>.</p>
 <center>
 <strong>D</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>Re-implement the function from <strong>C</strong> to accept a keyword argument <code>drawFunction</code>. If the value of this keyword argument is not the default <code>None</code> then <code>drawFunction</code> points to a function that draws the data and a plot of the logistic map is produced automatically.</p>
+<p>Re-implement the function from <strong>C</strong> to accept a keyword
+argument <code>drawFunction</code>. If the value of this keyword
+argument is not the default <code>None</code> then
+<code>drawFunction</code> points to a function that draws the data and a
+plot of the logistic map is produced automatically.</p>
 <p>Test if this works using a <code>lambda</code> expression.</p>
-<p>Can you use <code>is</code> to check if <code>drawFunction</code> has the default value?</p>
+<p>Can you use <code>is</code> to check if <code>drawFunction</code> has
+the default value?</p>
 <h2 id="set-4">Set 4</h2>
 <center>
-<a href="https://en.wikipedia.org/wiki/Jan_%C5%81ukasiewicz#/media/File:Jan_%C5%81ukasiewicz.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jan_%C5%81ukasiewicz.jpg/320px-Jan_%C5%81ukasiewicz.jpg" /></a>
+<a
+href="https://en.wikipedia.org/wiki/Jan_%C5%81ukasiewicz#/media/File:Jan_%C5%81ukasiewicz.jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jan_%C5%81ukasiewicz.jpg/320px-Jan_%C5%81ukasiewicz.jpg" /></a>
 </center>
 <center>
 <em>…modules, packages, first look at classes and objects, …</em>
@@ -415,24 +599,43 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (3 points)
 </center>
-<p>Implement a <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse Polish Notation</a> calculator. Base your program on a stack implemented as a python <code>list</code>. All operations of the calculator take the stack, modify it and return the modified stack. For example adding two numbers:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> add(stack):</span>
+<p>Implement a <a
+href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse
+Polish Notation</a> calculator. Base your program on a stack implemented
+as a python <code>list</code>. All operations of the calculator take the
+stack, modify it and return the modified stack. For example adding two
+numbers:</p>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> add(stack):</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> stack.pop()      <span class="co"># 1</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> stack.pop()      <span class="co"># 2</span></span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    stack.append(x <span class="op">+</span> y)  <span class="co"># 3</span></span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> stack         <span class="co"># 4</span></span></code></pre></div>
-<p>At <strong>1</strong> a number is popped from the end of the list with <code>pop</code> resulting in a shorter stack. At <strong>2</strong> another number is popped from the stack. Finally in <strong>3</strong> the stack is modified by adding a number to the end of the list with <code>append</code>. The new stack, shorter by one number, is returned in <strong>4</strong>.</p>
+<p>At <strong>1</strong> a number is popped from the end of the list
+with <code>pop</code> resulting in a shorter stack. At
+<strong>2</strong> another number is popped from the stack. Finally in
+<strong>3</strong> the stack is modified by adding a number to the end
+of the list with <code>append</code>. The new stack, shorter by one
+number, is returned in <strong>4</strong>.</p>
 <p>Add more functions:</p>
 <ul>
 <li>multiply two numbers</li>
 <li>print the stack (does not modify the stack)</li>
 <li>print the last value from the stack</li>
-<li>using the <code>math</code> module add several more mathematical operations</li>
+<li>using the <code>math</code> module add several more mathematical
+operations</li>
 <li>print some help information (does not modify the stack)</li>
 <li>“quit” adds <code>None</code> to the stack</li>
 </ul>
-<p>Refer to the functions from a dictionary whose keys are python strings - the names of the functions. The values in the dictionaries are the functions themselves.</p>
-<p>Create a <code>while</code> loop that checks if <code>None</code> is in the stack using <code>in</code>, if it’s in the stack - exit. In the loop ask the user to enter the command name, run the appropriate command from the dictionary to modify the stack. If the command is not in the dictionary keys, assume that the user entered a floating point number and append it to the stack.</p>
+<p>Refer to the functions from a dictionary whose keys are python
+strings - the names of the functions. The values in the dictionaries are
+the functions themselves.</p>
+<p>Create a <code>while</code> loop that checks if <code>None</code> is
+in the stack using <code>in</code>, if it’s in the stack - exit. In the
+loop ask the user to enter the command name, run the appropriate command
+from the dictionary to modify the stack. If the command is not in the
+dictionary keys, assume that the user entered a floating point number
+and append it to the stack.</p>
 <center>
 <strong>B</strong>
 </center>
@@ -441,8 +644,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </center>
 <p>Make the code from <strong>A</strong> a little more bullet proof:</p>
 <ul>
-<li>make sure that the functions from <strong>A</strong> check if there are enough elements on the stack</li>
-<li>make sure that when the user enters a number to push to the stack - it is a properly formatted floating point number (tip: use <code>try</code> and <code>except</code>, we will discuss this during class)</li>
+<li>make sure that the functions from <strong>A</strong> check if there
+are enough elements on the stack</li>
+<li>make sure that when the user enters a number to push to the stack -
+it is a properly formatted floating point number (tip: use
+<code>try</code> and <code>except</code>, we will discuss this during
+class)</li>
 </ul>
 <center>
 <strong>C</strong>
@@ -450,23 +657,34 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (2 points)
 </center>
-<p>Add another module <code>extra.py</code> with additional functions. Modify <strong>A</strong> to look inside this module for additional functions (tip: use the <code>__dict__</code> attribute, we will discuss this during class).</p>
+<p>Add another module <code>extra.py</code> with additional functions.
+Modify <strong>A</strong> to look inside this module for additional
+functions (tip: use the <code>__dict__</code> attribute, we will discuss
+this during class).</p>
 <center>
 <strong>D</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>Implement a simple class that iterates over the <a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Fibonacci numbers</a>. The constructor takes one argument - the number of Fibonacci numbers to iterate over. We will discuss the details during class.</p>
+<p>Implement a simple class that iterates over the <a
+href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Fibonacci
+numbers</a>. The constructor takes one argument - the number of
+Fibonacci numbers to iterate over. We will discuss the details during
+class.</p>
 <center>
 <strong>ADDITONAL MATERIALS</strong>
 </center>
 <ul>
-<li><a href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/004_Set_4/python_for_beginners_08-11-2024.zip">some miscellaneous materials from class</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/004_Set_4/python_for_beginners_08-11-2024.zip">some
+miscellaneous materials from class</a></li>
 </ul>
 <h2 id="set-5">Set 5</h2>
 <center>
-<a href="https://commons.wikimedia.org/wiki/File:Enigma_(crittografia)_-_Museo_scienza_e_tecnologia_Milano.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Enigma_%28crittografia%29_-_Museo_scienza_e_tecnologia_Milano.jpg" /></a>
+<a
+href="https://commons.wikimedia.org/wiki/File:Enigma_(crittografia)_-_Museo_scienza_e_tecnologia_Milano.jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Enigma_%28crittografia%29_-_Museo_scienza_e_tecnologia_Milano.jpg" /></a>
 </center>
 <center>
 <em>…sets, ciphers, and more on files…</em>
@@ -477,24 +695,33 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (2 points + 1 point)
 </center>
-<p>Implement two functions. The first one encodes the plaintext … <code>plaintext</code> (string of characters):</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> encode(key , plaintext):</span>
+<p>Implement two functions. The first one encodes the plaintext …
+<code>plaintext</code> (string of characters):</p>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> encode(key , plaintext):</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...</span></span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># return ciphertext</span></span></code></pre></div>
-<p>and the second one decodes the ciphertext … <code>ciphertext</code> (string of characters):</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> decode(key , ciphertext):</span>
+<p>and the second one decodes the ciphertext … <code>ciphertext</code>
+(string of characters):</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> decode(key , ciphertext):</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ...</span></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># return plaintext</span></span></code></pre></div>
-<p>Both functions take a string of characters, <code>key</code>, as the first argument.</p>
-<p>Use any cipher you like. We will discuss options during class. The extra point is for interesting solutions.</p>
+<p>Both functions take a string of characters, <code>key</code>, as the
+first argument.</p>
+<p>Use any cipher you like. We will discuss options during class. The
+extra point is for interesting solutions.</p>
 <center>
 <strong>B</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>Rewrite the functions from <strong>A</strong>. Implement <code>encoder</code> and <code>decoder</code> so that they can be used:</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>myEncoder <span class="op">=</span> encoder(<span class="st">&quot;secret_key&quot;</span>)</span>
+<p>Rewrite the functions from <strong>A</strong>. Implement
+<code>encoder</code> and <code>decoder</code> so that they can be
+used:</p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>myEncoder <span class="op">=</span> encoder(<span class="st">&quot;secret_key&quot;</span>)</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>myDecoder <span class="op">=</span> decoder(<span class="st">&quot;secret_key&quot;</span>)</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>plaintext <span class="op">=</span> <span class="st">&quot;this is the plaintext&quot;</span></span>
@@ -503,8 +730,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(myDecoder(ciphertext) <span class="op">==</span> plaintext) <span class="co"># true</span></span></code></pre></div>
 <p>Use two different methods:</p>
 <ul>
-<li><code>encoder</code> and <code>decoder</code> are functions that return functions</li>
-<li><code>myEncoder</code> and <code>myDecoder</code> are objects of a class that has a <code>__call__</code> method</li>
+<li><code>encoder</code> and <code>decoder</code> are functions that
+return functions</li>
+<li><code>myEncoder</code> and <code>myDecoder</code> are objects of a
+class that has a <code>__call__</code> method</li>
 </ul>
 <center>
 <strong>C</strong>
@@ -512,48 +741,76 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (3 points + 1 point)
 </center>
-<p>Using the <a href="https://docs.python.org/3/library/argparse.html">argparse</a> library implement a simple note taking application. The application has only one positional argument:</p>
+<p>Using the <a
+href="https://docs.python.org/3/library/argparse.html">argparse</a>
+library implement a simple note taking application. The application has
+only one positional argument:</p>
 <ul>
-<li><code>password</code> will be used as the key to encrypt and decrypt messages</li>
+<li><code>password</code> will be used as the key to encrypt and decrypt
+messages</li>
 </ul>
 <p>and the following optional arguments:</p>
 <ul>
-<li><code>--keywords</code> or <code>-k</code> will be used to add single keywords, this option can be used multiple times</li>
+<li><code>--keywords</code> or <code>-k</code> will be used to add
+single keywords, this option can be used multiple times</li>
 <li><code>--print</code> or <code>-p</code> will print all notes</li>
-<li><code>--printany</code> or <code>-a</code> will print only those notes that contain any of the keywords</li>
-<li><code>--printall</code> or <code>-o</code> will print only those notes that contain all of the keywords</li>
-<li><code>--new</code> or <code>-n</code> will ask the user for the text of a new note with the appropriate keywords</li>
-<li><code>--delete</code> or <code>-d</code> will delete a note with a given number</li>
+<li><code>--printany</code> or <code>-a</code> will print only those
+notes that contain any of the keywords</li>
+<li><code>--printall</code> or <code>-o</code> will print only those
+notes that contain all of the keywords</li>
+<li><code>--new</code> or <code>-n</code> will ask the user for the text
+of a new note with the appropriate keywords</li>
+<li><code>--delete</code> or <code>-d</code> will delete a note with a
+given number</li>
 </ul>
 <p>In your implementation:</p>
 <ul>
-<li>store the text of the note in encrypted form, use the functions from the previous exercises for encrypting and decrypting, and <code>password</code> as the key</li>
-<li>use the <code>json</code> module to store the notes in <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> format</li>
-<li>store the notes in a single file located in the same directory as the script (we will discuss this during class)</li>
+<li>store the text of the note in encrypted form, use the functions from
+the previous exercises for encrypting and decrypting, and
+<code>password</code> as the key</li>
+<li>use the <code>json</code> module to store the notes in <a
+href="https://en.wikipedia.org/wiki/JSON">JSON</a> format</li>
+<li>store the notes in a single file located in the same directory as
+the script (we will discuss this during class)</li>
 <li>use a <code>set</code> to store the keywords</li>
-<li>apart from the keywords assign the creation date (using <code>datetime</code>) to each note and a unique number</li>
-<li>use formatted string literals when printing a note, make sure that the date, number, keywords, and note text are displayed in a clear way</li>
-<li>make sure that all the arguments have help information available (using <code>argparse</code>)</li>
-<li>make sure that the program has a description information available (using <code>argparse</code>)</li>
+<li>apart from the keywords assign the creation date (using
+<code>datetime</code>) to each note and a unique number</li>
+<li>use formatted string literals when printing a note, make sure that
+the date, number, keywords, and note text are displayed in a clear
+way</li>
+<li>make sure that all the arguments have help information available
+(using <code>argparse</code>)</li>
+<li>make sure that the program has a description information available
+(using <code>argparse</code>)</li>
 </ul>
-<p>Extra point: replace the positional argument <code>password</code> with an appropriate function from the <code>getpass</code> modle. Is this safer? Why?</p>
-<p>DISCLAMER: This note taking application is only as safe as our implmentation makes it. Use at your own risk!</p>
+<p>Extra point: replace the positional argument <code>password</code>
+with an appropriate function from the <code>getpass</code> modle. Is
+this safer? Why?</p>
+<p>DISCLAMER: This note taking application is only as safe as our
+implmentation makes it. Use at your own risk!</p>
 <center>
 <strong>D</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>Next time we will be talking about the <code>numpy</code> module. In preparation please write a script that multiplies two <span class="math inline">\(1024 \times 1024\)</span> matrices. Use python lists and list comprehensions to implement the matrices. Measure how much time the script takes to execute.</p>
+<p>Next time we will be talking about the <code>numpy</code> module. In
+preparation please write a script that multiplies two <span
+class="math inline">\(1024 \times 1024\)</span> matrices. Use python
+lists and list comprehensions to implement the matrices. Measure how
+much time the script takes to execute.</p>
 <center>
 <strong>ADDITONAL MATERIALS</strong>
 </center>
 <ul>
-<li><a href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/005_Set_5/python_for_beginners_16-11-2024.zip">some miscellaneous materials from class</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/005_Set_5/python_for_beginners_16-11-2024.zip">some
+miscellaneous materials from class</a></li>
 </ul>
 <h2 id="set-6">Set 6</h2>
 <center>
-<a href="https://en.wikipedia.org/wiki/File:Gospers_glider_gun.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" /></a>
+<a href="https://en.wikipedia.org/wiki/File:Gospers_glider_gun.gif"><img
+src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" /></a>
 </center>
 <center>
 <em>…life, numpy, matplotlib, more on classes and exceptions…</em>
@@ -564,55 +821,190 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <center>
 (2 points)
 </center>
-<p>Using the <code>numpy</code> library please implement <a href="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif">the game of life</a> with periodic boundary conditions (the left half of the grid is glued to the right, the top part of the grid is glued to the bottom … essentially creating a torus). The implementation should be a single script. The grid of cells is represented by a <code>numpy</code> array with an integer <code>dtype</code>. When implementing a single iteration of the game, please stick to the <code>numpy</code> library as strictly as possible to boost performance. Test the performance using large grids (1920 by 1080 and larger).</p>
-<p>Tip: Use the <code>numpy.roll</code> function to obtain the state of neighbouring cells. Visualization can be achieved using the <code>matplotlib.pyplot</code> library functions, <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html"><code>imshow</code></a> or <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.matshow.html"><code>matshow</code></a> function. We will cover the basic usage of <code>matplotlib</code> during class.</p>
+<p>Using the <code>numpy</code> library please implement <a
+href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">the game of
+life</a> with periodic boundary conditions (the left half of the grid is
+glued to the right, the top part of the grid is glued to the bottom …
+essentially creating a torus). The implementation should be a single
+script. The grid of cells is represented by a <code>numpy</code> array
+with an integer <code>dtype</code>. When implementing a single iteration
+of the game, please stick to the <code>numpy</code> library as strictly
+as possible to boost performance. Test the performance using large grids
+(1920 by 1080 and larger).</p>
+<p>Tip: Use the <code>numpy.roll</code> function to obtain the state of
+neighbouring cells. Visualization can be achieved using the
+<code>matplotlib.pyplot</code> library functions, <a
+href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html"><code>imshow</code></a>
+or <a
+href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.matshow.html"><code>matshow</code></a>
+function. We will cover the basic usage of <code>matplotlib</code>
+during class.</p>
 <center>
 <strong>B</strong>
 </center>
 <center>
 (3 points)
 </center>
-<p>Extend <strong>A</strong> to continuous values: the state of the cell can be dead (0), alive (1) or anything in between. There are many sensible ways of doing this. One way is “smooth life”, see the links:</p>
+<p>Extend <strong>A</strong> to continuous values: the state of the cell
+can be dead (0), alive (1) or anything in between. There are many
+sensible ways of doing this. One way is “smooth life”, see the
+links:</p>
 <ul>
-<li><a href="https://smooth-life.netlify.app/">online simulation</a></li>
+<li><a href="https://smooth-life.netlify.app/">online
+simulation</a></li>
 <li><a href="http://arxiv.org/abs/1111.1567">pre-print</a></li>
 </ul>
-<p>Tip: The function <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve2d.html"><code>convolve2d</code></a> from the <code>scipy</code> might be helpful. It works with <code>numpy</code> arrays. Visualization can be achieved using the <code>matplotlib.pyplot</code> library functions, <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html"><code>imshow</code></a> or <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.matshow.html"><code>matshow</code></a> function. We will cover the basic usage of <code>matplotlib</code> during class.</p>
+<p>Tip: The function <a
+href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve2d.html"><code>convolve2d</code></a>
+from the <code>scipy</code> might be helpful. It works with
+<code>numpy</code> arrays. Visualization can be achieved using the
+<code>matplotlib.pyplot</code> library functions, <a
+href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html"><code>imshow</code></a>
+or <a
+href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.matshow.html"><code>matshow</code></a>
+function. We will cover the basic usage of <code>matplotlib</code>
+during class.</p>
 <center>
 <strong>C</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>Add a simple interactive command line interface to <strong>A</strong> or <strong>B</strong>. The program should give the user at least the following options:</p>
+<p>Add a simple interactive command line interface to <strong>A</strong>
+or <strong>B</strong>. The program should give the user at least the
+following options:</p>
 <ul>
-<li>save state of the game (the grid of cells) into a file with specified path</li>
-<li>load state of the game (the grid of cells) from a file with specified path</li>
+<li>save state of the game (the grid of cells) into a file with
+specified path</li>
+<li>load state of the game (the grid of cells) from a file with
+specified path</li>
 <li>run a specified amount of iterations</li>
 <li>quit</li>
 </ul>
-<p>Be persistent, if the user types an incorrect value prompt him / her again. To do this use <code>try</code>, <code>except</code>.</p>
+<p>Be persistent, if the user types an incorrect value prompt him / her
+again. To do this use <code>try</code>, <code>except</code>.</p>
 <center>
 <strong>D</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>Wrap everything (<strong>A</strong> + <strong>C</strong> or <strong>B</strong> + <strong>C</strong>) into a class. Place the class definition in a separate module and use this module in a script.</p>
+<p>Wrap everything (<strong>A</strong> + <strong>C</strong> or
+<strong>B</strong> + <strong>C</strong>) into a class. Place the class
+definition in a separate module and use this module in a script.</p>
 <center>
 <strong>E</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>Write a wrapper for the <code>numpy</code> array representing a grid of cells in the game of life. Try to make this class immutable (is this really possible in python?). Add the <code>__hash__</code> and <code>__eq__</code> methods to the class.</p>
+<p>Write a wrapper for the <code>numpy</code> array representing a grid
+of cells in the game of life. Try to make this class immutable (is this
+really possible in python?). Add the <code>__hash__</code> and
+<code>__eq__</code> methods to the class.</p>
 <center>
 <strong>F</strong>
 </center>
 <center>
 (2 points)
 </center>
-<p>Implement the smart function from exercise <strong>D</strong> in set 2. Use a function decorator. This decorator is a class with a <code>__call__</code> method.</p>
+<p><strong>this exercise will be moved to set 7</strong></p>
+<p>Implement the smart function from exercise <strong>D</strong> in set
+2. Use a function decorator. This decorator is a class with a
+<code>__call__</code> method.</p>
+<center>
+<strong>ADDITIONAL MATERIALS</strong>
+</center>
+<p>… Obtaining the number of neighbours for the basic <a
+href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">game of
+life</a> …</p>
+<p>Let’s assume that we start from random configuration of <span
+class="math inline">\(4 \times 4\)</span> cells:</p>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np                                        <span class="co"># 1</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> <span class="dv">4</span>                                                     <span class="co"># 2</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>state <span class="op">=</span> np.random.randint(<span class="dv">0</span> , high <span class="op">=</span> <span class="dv">2</span> , size <span class="op">=</span> (s , s))  <span class="co"># 3</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(state)                                              <span class="co"># 4</span></span></code></pre></div>
+<p>In <strong>1</strong> we import the <code>numpy</code> library, in
+<strong>2</strong> we set the size of the matrix containing cell states,
+in <strong>3</strong> we draw a random distribution of cells (0 meaning
+a dead cell 1 meaning a live cell, the integers are drawn from a uniform
+distribution between <span class="math inline">\(0\)</span> and
+<code>high - 1</code> <span class="math inline">\(= 1\)</span>). Finally
+<strong>4</strong> prints our result:</p>
+<pre><code>[[0 0 0 0]
+ [0 1 1 0]
+ [1 1 0 1]
+ [0 1 0 1]]</code></pre>
+<p>To get a table whose values at a specific row and column correspond
+the state if the eight neighbors (Up, Down , Right , Left , UpRight ,
+DownLeft , UpLeft, DownRight) we first <code>roll</code> the arrays to
+obtain:</p>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>U <span class="op">=</span> np.roll(state , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>D <span class="op">=</span> np.roll(state , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>R <span class="op">=</span> np.roll(state , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> np.roll(state , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>UR <span class="op">=</span> np.roll(np.roll(state , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>) , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>DL <span class="op">=</span> np.roll(np.roll(state , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>) , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>UL <span class="op">=</span> np.roll(np.roll(state , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>) , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>DR <span class="op">=</span> np.roll(np.roll(state , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>) , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span></code></pre></div>
+<p>and then sum:</p>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>neighbors <span class="op">=</span> U <span class="op">+</span> D <span class="op">+</span> R <span class="op">+</span> L <span class="op">+</span> UR <span class="op">+</span> DL <span class="op">+</span> UL <span class="op">+</span> DR</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(neighbors)</span></code></pre></div>
+<p>as a result, each cell has the following number of neighbors:</p>
+<pre><code>[[3 3 4 2]
+ [4 3 3 3]
+ [5 4 6 3]
+ [5 2 4 2]]</code></pre>
+<p>This should be correct if we assume periodic boundaries (the left
+edge is glued to the right edge and the top edge is glued to the bottom
+edge).</p>
+<p>The next bit is tricky. There are many ways of implementing a single
+iteration of the game. Since we are looking to eliminate regular python
+loops to increase the speed of our program have a look at the following
+functions <code>np.ones</code>, <code>np.zeros</code>,
+<code>np.where</code>, <code>np.logical_and</code>,
+<code>np.logical_or</code> and then have a close look the following
+code:</p>
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>allAlive <span class="op">=</span> np.ones((s , s) , dtype <span class="op">=</span> np.int64)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>allDead <span class="op">=</span> np.zeros((s , s) , dtype <span class="op">=</span> np.int64)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>np.where(np.logical_and(state <span class="op">==</span> <span class="dv">0</span> , neighbors <span class="op">==</span> <span class="dv">3</span>) , allAlive , state)</span></code></pre></div>
+<p>This can be easily extended to include the whole set of rules of the
+game. Remember stick to <code>numpy</code> for performance.</p>
+<p>… The same thing but this time with convolutions …</p>
+<p>Let’s import the <code>convolve2d</code> function from the
+<code>scipy.signal</code> library. Note that we are not importing the
+whole package nut just one function:</p>
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.signal <span class="im">import</span> convolve2d</span></code></pre></div>
+<p>Next let’s try this:</p>
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> np.array([[<span class="dv">1</span> , <span class="dv">1</span> , <span class="dv">1</span>] , [<span class="dv">1</span> , <span class="dv">0</span> , <span class="dv">1</span>] , [<span class="dv">1</span> , <span class="dv">1</span> , <span class="dv">1</span>]])</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>neighborsWithConvolve2D <span class="op">=</span> convolve2d(state , k , mode <span class="op">=</span> <span class="st">&quot;same&quot;</span> , boundary<span class="op">=</span><span class="st">&quot;wrap&quot;</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(neighborsWithConvolve2D)</span></code></pre></div>
+<p>The result should be the same as <code>neighbors</code>:</p>
+<pre><code>[[3 3 4 2]
+ [4 3 3 3]
+ [5 4 6 3]
+ [5 2 4 2]]</code></pre>
+<p>The result is the same but the method is more general. We can look at
+a wider neighborhood of a cell by modifying <code>k</code>.</p>
+<p>… The user input is all wrong …</p>
+<p>Tip: Saving a <code>numpy</code> array can be obtained by running
+<code>np.save</code> (or <code>numpy.save</code> if we used just
+<code>import numpy</code>). Loading a <code>numpy</code> array can be
+obtained by running <code>np.load</code>. Both these methods raise
+exceptions if they get a bad file path. This means that we can use them
+inside <code>try:</code> and <code>except:</code> blocks. The function
+<code>int</code> also raised exceptions when it’s string argument is not
+a correctly formatted integer.</p>
+<p>… Calculating the hash of a numpy array …</p>
+<p>To calculate the hash of the data that is contained inside a
+<code>numpy</code> array <code>a</code> try
+<code>hash(a.data.tobytes())</code>.</p>
 </article>
 </body>
 </html>

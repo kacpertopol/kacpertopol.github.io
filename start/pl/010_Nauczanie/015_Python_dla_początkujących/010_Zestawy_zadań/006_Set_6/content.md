@@ -35,7 +35,7 @@ We will cover the basic usage of `matplotlib` during class.
 </center>
 
 <center>
-(3 points)
+(4 points)
 </center>
 
 Extend **A** to continuous values: the state of the cell can be dead (0), alive (1)

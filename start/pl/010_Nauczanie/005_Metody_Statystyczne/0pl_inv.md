@@ -138,6 +138,9 @@ Popularne:
     (arviz prawdopodobnie instalowany przy okazji pymc)
 - wykład korzystał również z:
   - [introduction to probability, statistics and random processes](https://www.probabilitycourse.com/)
+- nagrania i notatki 2024 / 2025
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_3_2024_2025.pdf)
+  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/ETvhowl_ATJFtdr8u9hQPIYBl0fLkqByr8SkHLisdMi_YQ?e=nVGIbP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - nagrania i notatki z poprzednich lat
   - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
     <!--- - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj) --->
@@ -156,6 +159,9 @@ Popularne:
 - notebooki Mathematici 
   - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
   - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
+- nagrania i notatki 2024 / 2025
+  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EfPXwEXTyeNPixAZkLx23r0BKni2JWSGYCwhMweqgtUeEg?e=0ksFTj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_4_2024_2025.pdf)
 - nagrania i notatki z poprzednich lat
   - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
   - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)

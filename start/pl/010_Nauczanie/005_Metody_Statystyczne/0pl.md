@@ -172,6 +172,8 @@ Popularne:
 
 - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/autocorrelation.nb) Mathematici 
   - wystarczy uruchomić notebook (Evaluate Notebook)
+- nagrania i notatki 2024 / 2025
+  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EfffCsPo0oxJmQhYtwtupZgBMPfJoOsQcVX_lStrEVbi1g?e=S4EBBr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - nagrania i notatki z poprzednich lat
   - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
   - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_5.pdf)
@@ -183,6 +185,8 @@ Popularne:
 - [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/infiniteMatrix.nb)
   - wystarczy uruchomić notebook (Evaluate Notebook)
   - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
+- nagrania i notatki 2024 / 2025
+  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EV6j5NI84vBEtgVF6iWNzngBXNkr5GCGZXAw4vpMplybAA?e=88wpyX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - nagrania i notatki z poprzednich lat
   - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
   - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)

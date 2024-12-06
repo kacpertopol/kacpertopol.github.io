@@ -999,6 +999,13 @@ href="https://www.geeksforgeeks.org/name-mangling-in-python/">geeksforgeeks</a>.
 <p>To calculate the hash of the data that is contained inside a
 <code>numpy</code> array <code>a</code> try
 <code>hash(a.data.tobytes())</code>.</p>
+<p>… Implementation using <a
+href="https://www.pygame.org/docs/">pygame</a> …</p>
+<p>See the <a href="https://www.pygame.org/docs/">pygame</a> website for
+installation instructions. To implement the game of life, both the
+classic version and the smooth version, you can use the <a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/006_Set_6/pygame_game_of_life_template.py">template</a>.
+Please read the comments from the template carefully.</p>
 <h2 id="set-7">Set 7</h2>
 <center>
 <a
@@ -1058,7 +1065,7 @@ class should have the following methods apart from the constructor:</p>
 <li><code>__add__</code>, <code>__sub__</code> “magic” method to add and
 subtract objects of this class using the <code>+</code> and
 <code>-</code> operators</li>
-<li><code>__mul__</code>, <code>__truediv</code> “magic” methods to
+<li><code>__mul__</code>, <code>__truediv__</code> “magic” methods to
 multiply and divide objects of this class using the <code>*</code> and
 <code>/</code> operators</li>
 <li><code>__neg__</code> to get the negative number using the
@@ -1066,16 +1073,28 @@ multiply and divide objects of this class using the <code>*</code> and
 <li><code>__str__</code>, <code>__repr__</code> to return the string
 representation of the number in objects of this class</li>
 </ul>
-<p>Add the following class methods:</p>
+<p>In addition to performing numerical operations <code>__add__</code>,
+<code>__sub__</code>, <code>__mul__</code>, <code>__truediv__</code>,
+and <code>__neg__</code> should appropriately increase the four class
+counters that determine how many additions, multiplications, divisions
+and negations were executed. Add the following class methods:</p>
 <ul>
 <li><code>resetCounters</code> resets two class fields that count the
-number of multiplications and additions</li>
-<li><code>getCounters</code> returns a tuple with two counters that
-count the number of multiplications and additions</li>
+number of multiplications, additions, divisions and negations</li>
+<li><code>getCounters</code> returns a tuple with the counters of
+multiplications, additions, divisions and negations</li>
 </ul>
 <p>Use this class to determine the computational complexity of matrix
 multiplication and calculating the application of a matrix to a
 vector.</p>
+<center>
+<strong>ADDITIONAL MATERIALS</strong>
+</center>
+<ul>
+<li>some <a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/007_Set_7/misc.py">miscellaneous
+code</a> from class, please have a look at the comments</li>
+</ul>
 </article>
 </body>
 </html>

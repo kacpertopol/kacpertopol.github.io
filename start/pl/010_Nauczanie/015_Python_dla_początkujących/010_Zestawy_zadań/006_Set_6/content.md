@@ -214,3 +214,10 @@ A nice article on name mangling at [geeksforgeeks](https://www.geeksforgeeks.org
 
 To calculate the hash of the data that is contained inside a `numpy` array `a` try `hash(a.data.tobytes())`.
 
+... Implementation using [pygame](https://www.pygame.org/docs/) ...
+
+See the [pygame](https://www.pygame.org/docs/) website for installation instructions. 
+To implement the game of life, both the classic version and the smooth version, you can
+use the [template](---ThisDir---/pygame_game_of_life_template.py). Please read the comments
+from the template carefully.
+

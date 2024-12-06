@@ -70,7 +70,7 @@ have the following methods apart from the constructor:
 - `__str__`, `__repr__` to return the string representation of the number in objects of this class
 
 In addition to performing numerical operations `__add__`, `__sub__`, `__mul__`, `__truediv__`, and `__neg__`
-should appropriately increase the four class counters that determine how many additions, multiplications, divisions and 
+should increase the class counters that determines how many additions, multiplications, divisions and 
 negations were executed.
 Add the following class methods:
 

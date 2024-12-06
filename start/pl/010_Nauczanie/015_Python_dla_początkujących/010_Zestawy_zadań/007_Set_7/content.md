@@ -3,7 +3,7 @@
 </center>
 
 <center>
-*...life, numpy, matplotlib, more on classes and exceptions...*
+*...magic methods, class functions and the matrix...*
 </center>
 
 <center>

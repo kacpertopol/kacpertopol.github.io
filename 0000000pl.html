@@ -152,6 +152,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%2868873
 <li><a href="#set-4">Set 4</a></li>
 <li><a href="#set-5">Set 5</a></li>
 <li><a href="#set-6">Set 6</a></li>
+<li><a href="#set-7">Set 7</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -903,16 +904,6 @@ of cells in the game of life. Try to make this class immutable (is this
 really possible in python?). Add the <code>__hash__</code> and
 <code>__eq__</code> methods to the class.</p>
 <center>
-<strong>F</strong>
-</center>
-<center>
-(2 points)
-</center>
-<p><strong>this exercise will be moved to set 7</strong></p>
-<p>Implement the smart function from exercise <strong>D</strong> in set
-2. Use a function decorator. This decorator is a class with a
-<code>__call__</code> method.</p>
-<center>
 <strong>ADDITIONAL MATERIALS</strong>
 </center>
 <p>… Obtaining the number of neighbours for the basic <a
@@ -1008,6 +999,83 @@ href="https://www.geeksforgeeks.org/name-mangling-in-python/">geeksforgeeks</a>.
 <p>To calculate the hash of the data that is contained inside a
 <code>numpy</code> array <code>a</code> try
 <code>hash(a.data.tobytes())</code>.</p>
+<h2 id="set-7">Set 7</h2>
+<center>
+<a
+href="https://commons.wikimedia.org/wiki/File:Digital_rain_animation_medium_letters_shine.gif"><img
+src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif" /></a>
+</center>
+<center>
+<em>…life, numpy, matplotlib, more on classes and exceptions…</em>
+</center>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Implement the smart function from exercise <strong>D</strong> in
+<strong>Set 2</strong>. Use a function decorator. This decorator is a
+class with a <code>__call__</code> method. Objects of this class also
+have a field that contains a dictionary with previous arguments and
+return values.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Expand the decorator from the previous exercise to accept a function
+with an arbitrary number of arguments positional argument.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(1 points)
+</center>
+<p>Expand the decorator from the previous exercise to accept a function
+that has an arbitrary number of positional and keyword arguments.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Define a class <code>BadHash</code> of mutable integer objects. Each
+time a new instance of the object is created, increment a class
+variable. Add with a <code>__hash__</code> method to … CAREFULL THIS IS
+A BIG MISTAKE! But we will go with it to explore the consequences. Use
+this method with functions that use our decorator.</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(4 points)
+</center>
+<p>Define a class whose objects hold a numerical value. At minimum, the
+class should have the following methods apart from the constructor:</p>
+<ul>
+<li><code>__add__</code>, <code>__sub__</code> “magic” method to add and
+subtract objects of this class using the <code>+</code> and
+<code>-</code> operators</li>
+<li><code>__mul__</code>, <code>__truediv</code> “magic” methods to
+multiply and divide objects of this class using the <code>*</code> and
+<code>/</code> operators</li>
+<li><code>__neg__</code> to get the negative number using the
+<code>-</code> operator</li>
+<li><code>__str__</code>, <code>__repr__</code> to return the string
+representation of the number in objects of this class</li>
+</ul>
+<p>Add the following class methods:</p>
+<ul>
+<li><code>resetCounters</code> resets two class fields that count the
+number of multiplications and additions</li>
+<li><code>getCounters</code> returns a tuple with two counters that
+count the number of multiplications and additions</li>
+</ul>
+<p>Use this class to determine the computational complexity of matrix
+multiplication and calculating the application of a matrix to a
+vector.</p>
 </article>
 </body>
 </html>

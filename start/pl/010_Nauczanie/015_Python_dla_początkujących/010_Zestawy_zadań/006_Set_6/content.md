@@ -97,19 +97,6 @@ Try to make this class immutable (is this really possible in python?).
 Add the `__hash__` and `__eq__` methods to the class.
 
 <center>
-**F**
-</center>
-
-<center>
-(2 points)
-</center>
-
-**this exercise will be moved to set 7**
-
-Implement the smart function from exercise **D** in set 2. Use a function decorator.
-This decorator is a class with a `__call__` method. 
-
-<center>
 **ADDITIONAL MATERIALS**
 </center>
 

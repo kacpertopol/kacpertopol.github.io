@@ -1,0 +1,51 @@
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Palmer_Method_sample.jpg/1024px-Palmer_Method_sample.jpg)](https://commons.wikimedia.org/wiki/File:Palmer_Method_sample.jpg)
+</center>
+
+<center>
+*...pretty strings...*
+</center>
+
+<center>
+**A**
+</center>
+
+<center>
+(2 points)
+</center>
+
+In an era before electronic calculators, logarithms were king. 
+Two usefull properties of the logarithm function:
+$$
+\log{a b} = \log{a} + \log{b}
+$$
+$$
+\log{a / b} = \log{a} - \log{b}
+$$
+make it possible to change multiplication and division into 
+addition and subtraction which require much less effort.
+This observation lies at the heart two interesting old calculating methods:
+[the slide rule](https://en.wikipedia.org/wiki/Slide_rule), and
+[tables of logarithms](https://en.wikipedia.org/wiki/Mathematical_table#Tables_of_logarithms).
+We will be focusing on the latter.
+
+Please read [this section](https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting)
+on fancier string formatting and create a table of logarithms. 
+
+```
+1.0   0.0
+...
+1.2 0.0791812460476248
+...
+2.0   0.30102999566398114
+...
+
+```
+<center>
+**B**
+</center>
+
+<center>
+(2 points)
+</center>
+

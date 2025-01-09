@@ -154,6 +154,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%2868873
 <li><a href="#set-6">Set 6</a></li>
 <li><a href="#set-7">Set 7</a></li>
 <li><a href="#set-8">Set 8</a></li>
+<li><a href="#set-9">Set 9</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -1216,6 +1217,78 @@ perform calculations with square roots and trigonometric functions?</p>
 <p>Save the string with your table into a file with a <code>.tex</code>
 extension. Compile it with <span
 class="math inline">\(\LaTeX\)</span>.</p>
+<h2 id="set-9">Set 9</h2>
+<center>
+<a href="https://youtu.be/Az49aNuYeJs?si=8tOncILA2YeXal0U"><img
+src="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/009_Set_9/sb.jpg" /></a>
+</center>
+<center>
+<em>…exceptions…</em>
+</center>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Write a simple calendar application. The calendar events are written
+to a text file with the following style of syntax:</p>
+<pre><code>...
+python for beginners @ 2025-01-10 16:00-18:30 
+lunch @ 2025-01-11 12:00-13:00 
+...</code></pre>
+<p>The application has a simple programming interface. Given a day:</p>
+<pre><code>$ python myCalendarAll.py 2025-01-11</code></pre>
+<p>it returns a list of events and for that day in a nicely formatted
+table with the hours in a separate column.</p>
+<p>Use exceptions and exception chaining when reading the calendar file.
+If there is a syntax error in the file - gracefully handle the
+situation. Don’t crash the program, provide the user with information
+about the error (line number for example) so the problem could be
+fixed.</p>
+<p>Tip: Use the <code>split</code> method for strings and, for now,
+<code>ValueError</code> exceptions. Use the <code>argparse</code>
+library to create a command line interface.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(3 points)
+</center>
+<p>Write custom exceptions to handle the following potential problems in
+<strong>A</strong>:</p>
+<ul>
+<li>badly formatted date</li>
+<li>badly formatted time</li>
+<li>no date specified</li>
+<li>no time specified</li>
+</ul>
+<p>Gracefully handle each of these exceptions in the code.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(3 points)
+</center>
+<p>Create a base class <code>CalendarEvent</code> with the following
+methods:</p>
+<ul>
+<li><code>getDate</code> returns a string with the date for the time of
+the calendar event</li>
+<li><code>getTime</code> returns a string with the time for the calendar
+event</li>
+<li><code>getDescription</code> returns a string with the description of
+the calendar event</li>
+<li><code>getRow</code> returns a elegantly formated string with
+information about the event</li>
+</ul>
+<p>Next create three child classes:</p>
+<ul>
+<li><code>EventWithTimeAndDate</code></li>
+<li><code>EventWithDateAndNoTime</code></li>
+<li><code>EventWithTimeAndNoDate</code></li>
+</ul>
+<p>That hande the situations described by their name.</p>
 </article>
 </body>
 </html>

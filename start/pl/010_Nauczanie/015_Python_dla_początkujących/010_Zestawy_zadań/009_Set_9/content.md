@@ -82,5 +82,10 @@ Next create three child classes:
 
 That hande the situations described by their name.
 
+<center>
+**ADDITIONAL MATERIALS**
+</center>
 
-
+- [python exceptions](https://www.geeksforgeeks.org/python-exception-handling/)
+- [custom exceptions](https://www.geeksforgeeks.org/define-custom-exceptions-in-python/)
+- [built in exceptions](https://www.w3schools.com/python/python_ref_exceptions.asp)

@@ -4,4 +4,23 @@
   - [python tutorial from w3schools.com](https://www.w3schools.com/python/)
 - some interesting books, also available online:
   - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+- miscellaneous 
+  - installing things
+    - see [Appendix A](https://automatetheboringstuff.com/2e/appendixa/) of *Automate the Boring Stuff with Python*
+  - files and folders
+    - see [chapter 10](https://automatetheboringstuff.com/2e/chapter10/) of *Automate the Boring Stuff with Python*
+    - [copying things](https://www.geeksforgeeks.org/shutil-module-in-python/) 
+    - [paths, relative paths, etc.](https://www.geeksforgeeks.org/os-path-module-python/)
+    - [platform independent paths](https://medium.com/nishkoder/mastering-os-path-join-in-python-platform-independent-file-paths-eb4861afb7db)
+  - date and time
+    - ["Never ever deal with time zones if you can help it."](https://youtu.be/-5wpm-gesOY?si=9f5MfeQaDnoGuQHh)
+    - see [chapter 17](https://automatetheboringstuff.com/2e/chapter17/) of *Automate the Boring Stuff with Python*
+    - [geeks for geeks article](https://www.geeksforgeeks.org/python-datetime-module/)
+  - manipulating images
+    - see [chapter 19](https://automatetheboringstuff.com/2e/chapter19/) of *Automate the Boring Stuff with Python*
+    - [opencv](https://www.geeksforgeeks.org/opencv-python-tutorial/)
+  - spreadsheets
+    - see [chapter 13](https://automatetheboringstuff.com/2e/chapter13/) of *Automate the Boring Stuff with Python*
+  - running external programs from python, capturing output
+    - [subprocess](https://www.datacamp.com/tutorial/python-subprocess)
 

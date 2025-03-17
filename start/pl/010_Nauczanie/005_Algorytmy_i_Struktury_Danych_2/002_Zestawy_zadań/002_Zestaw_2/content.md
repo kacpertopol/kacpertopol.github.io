@@ -92,6 +92,4 @@ Można wykorzystać zadanie **A**.
   [9](---ThisDir---/sh9.pdf), [10](---ThisDir---/sh10.pdf), ..., [100](---ThisDir---/sh100.pdf) 
 * W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. 
   Nie powinno mieć to większego znaczenia
-  jeżeli pewne warunki są spełnione. Jakie to warunki?
-    * Wskazówka: $\equiv$, $\lt$, $\gt$
 

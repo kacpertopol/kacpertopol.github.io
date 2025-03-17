@@ -220,7 +220,5 @@ Można wykorzystać zadanie **A**.
   [9](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/002_Zestaw_2/sh9.pdf), [10](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/002_Zestaw_2/sh10.pdf), ..., [100](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/002_Zestaw_2/sh100.pdf) 
 * W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. 
   Nie powinno mieć to większego znaczenia
-  jeżeli pewne warunki są spełnione. Jakie to warunki?
-    * Wskazówka: $\equiv$, $\lt$, $\gt$
 
 

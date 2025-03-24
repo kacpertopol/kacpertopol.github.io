@@ -42,7 +42,4 @@ zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmn
 </center>
 
 * W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. 
-  Nie powinno mieć to większego znaczenia
-  jeżeli pewne warunki są spełnione. Jakie to warunki?
-  * Wskazówka: $\equiv$, $\lt$, $\gt$
 

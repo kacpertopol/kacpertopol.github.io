@@ -103,3 +103,11 @@ implementacja jest lepsza i w jakiej sytuacji.
   Nie powinno mieć to większego znaczenia
   jeżeli pewne warunki są spełnione. Jakie to warunki?
 
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- notacja $O$, uwaga w poniższych linkach dla niektórych przypadków są inne wyniki, 
+  proszę się zastanowic, która informacja jest prawidłowa:
+  - [geeks for geeks](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/)
+  - [mathematics stack exchange](https://math.stackexchange.com/questions/761006/big-o-and-function-composition) 

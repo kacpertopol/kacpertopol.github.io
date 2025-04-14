@@ -80,6 +80,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_c
 <li><a href="#zestaw-2">Zestaw 2</a></li>
 <li><a href="#zestaw-3">Zestaw 3</a></li>
 <li><a href="#zestaw-4">Zestaw 4</a></li>
+<li><a href="#zestaw-5">Zestaw 5</a></li>
 </ul>
 <h1 id="zestaw-1">Zestaw 1</h1>
 <center>
@@ -437,6 +438,77 @@ class="math inline">\(y\)</span></li>
 <p>Państwa implementację proszę, na początek, oprzeć ma macierzy
 połączeń. Dodatkowo proszę zbadać złożoność jednej wybranej operacji
 (wykres oraz opis).</p>
+<h1 id="zestaw-5">Zestaw 5</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę zapoznać się z pakietem <a
+href="https://graphviz.gitlab.io/">Graphviz</a>. Następnie korzystając z
+programu <em>dot</em> proszę stworzyć plik <em>jpg</em> z grafem:</p>
+<ul>
+<li>zawierającym trzy wierzchołki</li>
+<li>zawierającym połączenia, w obydwu kierunkach, pomiędzy wszystkimi
+wierzchołkami</li>
+</ul>
+<p>Przykładowy <a
+href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/005_Zestaw_5/smallGraph">plik
+z prostrzym grafem</a> oraz <a
+href="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/005_Zestaw_5/smallGraph.jpg">rezultat</a>.
+Aby stworzyć obrazek wystarczy w linii komend uruchomić:</p>
+<pre><code>$ dot -Tjpg smallGraph -o smallGraph.jpg</code></pre>
+<p><a href="https://www.graphviz.org/pdf/dotguide.pdf">Tutaj</a> można
+znaleźć przewodnik po programie <em>dot</em>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(3 punkt - implementacja grafu)
+</center>
+<p>Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o
+metodę tworzącą plik, który może być wykorzystany przez program
+<em>dot</em> do narysowania grafu.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(7 punkt - implementacja grafu)
+</center>
+<p>Proszę zaimplementować ADT graph, posiadający wszystkie operacje z
+zadania <strong>A</strong> w zestawie 4. Tym razem proszę wykorzystać
+reprezentację w której dla każdego wierzchołka przechowywana jest list
+sąsiadów. Sprawdzić złożoność obliczeniową wybranej operacji i porównać
+z zadaniem <strong>A</strong> zestawu 4.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<center>
+[<a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
+</center>
+<p>Proszę się zastanowić jak wykorzystać reprezentację grafową do
+rozwiązania problemu znalezienia minimalnej liczby “faz” sygnalizacji
+świetlnej na skrzyżowaniu (strzałeczki oznaczają ulice
+jednokierunkowe):</p>
+<center>
+<a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406"><img
+src="./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/005_Zestaw_5/ul.jpg" /></a>
+</center>
+<p>Sygnalizacja świetlna w każdej “fazie” powinna zezwalać na ruch przez
+skrzyżowanie jedynie tym samochodom, których trajektorie nie będą się
+przecinać. Aby usprawnić działanie skrzyżowania, liczba tych etapów
+powinna być jak najmniejsza.</p>
+<p>Wykorzystując jedną z napisanych przez Państwa implementacji grafów
+oraz zadanie <strong>A</strong> z poprzedniego zestawu proszę narysować
+reprezentację grafową takiego skrzyżowania.</p>
+<p>Wskazówka: proszę zajrzeć na początek <a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródła</a>.</p>
 </article>
 </body>
 </html>

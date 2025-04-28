@@ -71,7 +71,25 @@ jedynie tym samochodom, których trajektorie nie będą się przecinać. Aby usp
 skrzyżowania, liczba tych etapów powinna być jak najmniejsza. 
 
 Wykorzystując jedną z napisanych przez Państwa implementacji grafów oraz zadanie **A** z poprzedniego
-zestawu proszę narysować reprezentację grafową takiego skrzyżowania.
+zestawu proszę narysować reprezentację grafową takiego skrzyżowania. 
 
 Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406).
+
+<center>
+**E** 
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+<center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+Korzystając wyników zadania **D**, proszę napisać
+program minimalizujący liczbę "faz" sygnalizacji świetlnej dla tego skrzyżowania.
+
+Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406).
+
 

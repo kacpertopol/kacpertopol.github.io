@@ -15,6 +15,7 @@ title : Zestawy zadań
 * [Zestaw 3](#zestaw-3)
 * [Zestaw 4](#zestaw-4)
 * [Zestaw 5](#zestaw-5)
+* [Zestaw 6](#zestaw-6)
 
 
 
@@ -386,8 +387,130 @@ jedynie tym samochodom, których trajektorie nie będą się przecinać. Aby usp
 skrzyżowania, liczba tych etapów powinna być jak najmniejsza. 
 
 Wykorzystując jedną z napisanych przez Państwa implementacji grafów oraz zadanie **A** z poprzedniego
-zestawu proszę narysować reprezentację grafową takiego skrzyżowania.
+zestawu proszę narysować reprezentację grafową takiego skrzyżowania. 
 
 Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406).
 
+<center>
+**E** 
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+<center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+Korzystając wyników zadania **D**, proszę napisać
+program minimalizujący liczbę "faz" sygnalizacji świetlnej dla tego skrzyżowania.
+
+Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406).
+
+
+
+
+# Zestaw 6
+
+<center>
+**A** 
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+<center>
+[[źródło](https://bradfieldcs.com/algos/graphs/knights-tour/)]
+</center>
+
+Na szachownicy, na określonej pozycji, znajduje się pojedyncza figura  - skoczek (koń). Proszę znaleźć
+taką trasę skoczka po szachownicy, aby każde pole było odwiedzone jedynie raz. Można wykorzystać jedną
+z wcześniej zaimplementowanych przez Państwa reprezentacji grafu lub skorzystać z gotowych bibliotek.
+Państwa wynik końcowy proszę przedstawić w formie rysunku.
+
+<center>
+**B** 
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+<center>
+[źródło](https://bradfieldcs.com/algos/)
+</center>
+
+Bierzemy udział w grze, która ma następujęce reguły:
+
+- startuje się z czteroliterowego wyrazu w języku polskim, na przykład "ster"
+
+- gra składa się z iteracji, w każdej iteracji można zmienić jedną literę czteroliterowego wyrazu
+  ale pod warunkiem, że orzymane słowo istnieje w słowniku języka polskiego
+
+- gra kończy się gdy w wynku tych transformacji otrzyma się pewne, z góry ustalone słowo końcowe, 
+  na przykład "atom"
+
+- wygrywa osoba, która zamieni słowo startowe na słowo końcowe za pomocą najmniejszej liczny
+  operacji
+
+Jeżeli za słowo startowe wybierze się "ster" a za końcowe "atom" gra może wyglądać następująco:
+
+```
+ster -> step -> stop -> utop -> utom -> atom
+```
+
+Proszę zaimplementować program, szukający najkrótszej ścieżki pomiędzy 
+zadanym słowem startowym i końcowym.
+
+Wskazówka: Proszę zajrzeć do źródła. 
+Słownik języka polskiego, w postaci spakowanego pliku tekstowego, 
+można pobrać [tutaj](https://sjp.pl/slownik/growy/).
+
+<center>
+**C** 
+</center>
+
+<center>
+(3 punkt)
+</center>
+
+<center>
+[źródło](https://bradfieldcs.com/algos/)
+</center>
+
+Robimy naleśniki. Składniki są następujące:
+
+- $1$ jajko
+
+- $1$ łyżka oleju
+
+- $\frac{3}{4}$ szklanki mleka
+
+- $1$ szklanka proszku do naleśników
+
+- syrop klonowy
+
+- patelnia
+
+Abu zrobić naleśniki należy:
+
+- nagrzać patelnię 
+
+- zmieszać jajko, olej, mleko i proszek do naleśników
+
+- wylać część ciasta naleśnikowego na gorącą patelnię 
+
+- gdy naleśnik jest rumiany od spodu należy przewrócić i podpiec z drugiej strony
+
+- podgrzać syrop klonowy
+
+- zjeść rumiany (z obydwu stron) naleśnik polany ciepłym syropem klonowym
+
+Proszę zareprezentować ten proces w postaci grafu $G$. Następnie proszę napisać
+program, który na podstawie grafu $G$ decyduje o kolejności wykonywanych czynności kulinarnych.
+Proszę uogólnić swój program, tak aby przyjmował dowolny graf $G$.
+
+Wskazówka: źródło.
 

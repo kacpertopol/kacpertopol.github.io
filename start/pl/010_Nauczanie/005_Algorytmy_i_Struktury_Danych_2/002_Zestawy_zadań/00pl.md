@@ -16,6 +16,7 @@ title : Zestawy zadań
 * [Zestaw 4](#zestaw-4)
 * [Zestaw 5](#zestaw-5)
 * [Zestaw 6](#zestaw-6)
+* [Zestaw 7](#zestaw-7)
 
 
 
@@ -513,4 +514,40 @@ program, który na podstawie grafu $G$ decyduje o kolejności wykonywanych czynn
 Proszę uogólnić swój program, tak aby przyjmował dowolny graf $G$.
 
 Wskazówka: źródło.
+
+
+# Zestaw 7
+
+<center>
+**A** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Pracujecie Państwo w budynku biurowym w którym plan elewacji wygląda następująco:
+
+![](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/007_Zestaw_7/plan1.png)
+
+Korzystając z algorytmu Dijkstry proszę znaleźć najkrótszy czas
+przejścia z każdego pomieszczenia do klatki chodowej *A* oraz do ubikacji *J*.
+Liczby znajdujące się na strzałeczkach oznaczają średni czas potrzebny
+na przejęcie z jednego pomieszczenia do drugiego.
+
+[[wskazówka](https://bradfieldcs.com/algos/)]
+
+<center>
+**B**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+Praca biurowa wzmaga apetyt. Korzystając z algorytmu Dijkstry oraz planu elewacji
+z zadania **A** proszę znaleźć najkrótszą ścieżkę z aneksu kuchennego *I*
+do pokoju szefa *D*.
+
+[[wskazówka](https://bradfieldcs.com/algos/)]
 

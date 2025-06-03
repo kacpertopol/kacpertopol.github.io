@@ -19,6 +19,7 @@ title : Zestawy zadań
 * [Zestaw 7](#zestaw-7)
 * [Zestaw 8](#zestaw-8)
 * [Zestaw 9](#zestaw-9)
+* [Zestaw 10](#zestaw-10)
 
 
 
@@ -634,4 +635,33 @@ policzyć takie drzewo. [Wskazówka](https://bradfieldcs.com/algos/graphs/prims-
 Proszę znaleźć drzewko z poprzedniego zadania korzystając z algorytmu
 Kruskala. Proszę porównać efektywność obydwu algorytmów. 
 [Wskazówka](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-using-stl-in-c/)
+
+
+# Zestaw 10
+
+<center>
+**A** 
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+[[żródło](https://www.wolfram.com/mathematica/)] W [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/010_Zestaw_10/g1), [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/010_Zestaw_10/g2) oraz [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/010_Zestaw_10/g3)
+zapisane są grafy (skierowane oraz nie skierowane) w postaci macierzowej (1 - oznacza istninie krawędzi).
+Proszę napisać program badający cykliczność grafów i wykorzystać go do zbadanie tych trzech przykładów.
+[Wskazówka](https://eduinf.waw.pl/inf/alg/001_search/0132.php).
+
+<center>
+**B**
+</center>
+
+<center>
+(1 punkt)
+</center>
+
+W [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/010_Zestaw_10/h1), [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/010_Zestaw_10/h2) oraz [pliku](./start/pl/010_Nauczanie/005_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/010_Zestaw_10/h3)
+zapisane są grafy (skierowane oraz nie skierowane) w postaci macierzowej (1 - oznacza istninie krawędzi).
+Proszę napisać program badający spójność grafów i wykorzystać go do zbadanie tych trzech przykładów.
+[Wskazówka](https://eduinf.waw.pl/inf/alg/001_search/0128a.php).
 

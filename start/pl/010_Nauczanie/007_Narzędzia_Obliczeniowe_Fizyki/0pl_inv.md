@@ -1,0 +1,67 @@
+---
+title : Narzędzia Obliczeniowe Fizyki
+---
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/0/0b/Ybc7289-bw.jpg?1600959211627)](https://en.wikipedia.org/wiki/File:Ybc7289-bw.jpg)
+</center>
+
+
+
+# Zawartość:
+
+* [Organizacja](#organizacja)
+* [Wykład (prof Jacek Golak)](#wykład-prof-jacek-golak)
+* [Zestawy zadań](./00pl_inv.html)
+* [Projekty studenckie](./000pl_inv.html)
+
+
+
+# Organizacja
+
+<center>
+**MATHEMATICA**
+</center>
+
+Na zajęciach będziemy korzystać z programu Mathematica. Bardzo proszę, 
+przed zapoznać się z
+[instrukcją instalacji](https://fais.uj.edu.pl/documents/41628/5097967/Oprogramowanie+Mathematica_na_Uniwersytecie_Jagiello%C5%84skim_WFAIS.pdf/e644e1f3-74bb-408e-9f64-529bc329d1e7).
+zdobyć licencję i zainstalować program na swoich komputerach. 
+Na zajęciach można pracować z własnym laptopem albo z komputerem 
+w pracowni. 
+
+**Uwaga**: wszędzie gdzie to konieczne należy wpisywać
+uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail
+stanowi metodę weryfikacji, że jesteście państwo studentami uczelni. 
+Informacja o aktywacji studenckich kont pocztowych dostępna jest tutaj:
+
+<https://pomocit.uj.edu.pl/poczta_studenci>
+
+w zakładce "Aktywacja kont pocztowych dla studentów i doktorantów".
+
+<center>
+**OCENA**
+</center>
+
+Na ocenę końcową składać się będą:
+
+- sprawdzian końcowy (30% oceny)
+- zadania domowe (35% oceny)
+- projekt końcowy (35% oceny)
+
+
+
+# Wykład (prof Jacek Golak)
+
+Wykłady profesora Jacka Golaka bedą dostępne na stronie:
+
+<http://users.uj.edu.pl/~golak/>
+
+
+# [Zestawy zadań](./00pl_inv.html)
+
+
+
+# [Projekty studenckie](./000pl_inv.html)
+
+

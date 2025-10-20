@@ -20,24 +20,12 @@ title : Narzędzia Obliczeniowe Fizyki
 # Organizacja
 
 <center>
-**ZAJĘCIA**
-</center>
-
-Zajęcia będą prowadzone głównie w trybie stacjonarnym proszę jednak monitorować 
-infromacje od uczelni. Niektóre zajęcia będą prowadzone zdalnie za
-pośrednictwem MS Teams.
-
-<center>
 **MATHEMATICA**
 </center>
 
 Na zajęciach będziemy korzystać z programu Mathematica. Bardzo proszę, 
 przed zapoznać się z
-[instrukcją](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) 
-na stronie:
-
-<https://fais.uj.edu.pl/dla-studentow/studia-z-mathematica>
-
+[instrukcją instalacji](https://fais.uj.edu.pl/documents/41628/5097967/Oprogramowanie+Mathematica_na_Uniwersytecie_Jagiello%C5%84skim_WFAIS.pdf/e644e1f3-74bb-408e-9f64-529bc329d1e7).
 zdobyć licencję i zainstalować program na swoich komputerach. 
 Na zajęciach można pracować z własnym laptopem albo z komputerem 
 w pracowni. 

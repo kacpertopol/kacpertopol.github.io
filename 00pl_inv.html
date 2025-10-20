@@ -52,81 +52,12 @@ SOFTWARE.
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Zestawy zadań</title>
+  <title>Narzędzia Obliczeniowe Fizyki</title>
   <style type="text/css">
 @charset "UTF-8";.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#dbd6d1;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body a{color:#fc9928;background-color:transparent;text-decoration:none;-webkit-text-decoration-skip:objects}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body a:hover{text-decoration:underline}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body strong{font-weight:600}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em;margin:.67em 0;padding-bottom:.3em;border-bottom:1px solid #151210}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #151210}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#948c82}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body hr{box-sizing:content-box;height:.25em;margin:24px 0;padding:0;overflow:hidden;background-color:#1e1a17;border:0}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body input{margin:0;overflow:visible;font:inherit;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dd{margin-left:0}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote{padding:0 1em;color:#948c82;border-left:.25em solid #201d19}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto;border-spacing:0;border-collapse:collapse}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #201d19}.markdown-body table tr{background-color:transparent;border-top:1px solid #38342e}.markdown-body table tr:nth-child(2n){background-color:#875}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#000}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:" "}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#875;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#ffa339;border-color:#ffa339}.markdown-body kbd{box-shadow:inset 0 -1px 0 #696159;display:inline-block;padding:3px 5px;font:11px/10px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#bbb2a9;vertical-align:middle;background-color:#222;border:1px solid #38342e;border-bottom-color:#696159;border-radius:3px;box-shadow:inset 0 -1px 0 #696159}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#fc9928}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.Alert,.Error,.Note,.Success,.Warning{padding:11px;margin-bottom:24px;border-style:solid;border-width:1px;border-radius:4px}.Alert p,.Error p,.Note p,.Success p,.Warning p{margin-top:0}.Alert p:last-child,.Error p:last-child,.Note p:last-child,.Success p:last-child,.Warning p:last-child{margin-bottom:0}.Alert{color:#ddbb99;background-color:#1d106;border-color:#45382c}.Warning{color:#b3b4bd;background-color:#0009ea;border-color:#20273d}.Error{color:#66eeee;background-color:#22020;border-color:#2d4d4d}.Success{color:#dd99d3;background-color:#1d619;border-color:#452c41}.Note{color:#d0c9c2;background-color:#875;border-color:#292725}.Alert h1,.Alert h2,.Alert h3,.Alert h4,.Alert h5,.Alert h6{color:#ddbb99;margin-bottom:0}.Warning h1,.Warning h2,.Warning h3,.Warning h4,.Warning h5,.Warning h6{color:#b3b4bd;margin-bottom:0}.Error h1,.Error h2,.Error h3,.Error h4,.Error h5,.Error h6{color:#66eeee;margin-bottom:0}.Success h1,.Success h2,.Success h3,.Success h4,.Success h5,.Success h6{color:#dd99d3;margin-bottom:0}.Note h1,.Note h2,.Note h3,.Note h4,.Note h5,.Note h6{color:#d0c9c2;margin-bottom:0}.Alert h1:first-child,.Alert h2:first-child,.Alert h3:first-child,.Alert h4:first-child,.Alert h5:first-child,.Alert h6:first-child,.Error h1:first-child,.Error h2:first-child,.Error h3:first-child,.Error h4:first-child,.Error h5:first-child,.Error h6:first-child,.Note h1:first-child,.Note h2:first-child,.Note h3:first-child,.Note h4:first-child,.Note h5:first-child,.Note h6:first-child,.Success h1:first-child,.Success h2:first-child,.Success h3:first-child,.Success h4:first-child,.Success h5:first-child,.Success h6:first-child,.Warning h1:first-child,.Warning h2:first-child,.Warning h3:first-child,.Warning h4:first-child,.Warning h5:first-child,.Warning h6:first-child{margin-top:0}h1.title,p.subtitle{text-align:center}h1.title.followed-by-subtitle{margin-bottom:0}p.subtitle{font-size:1.5em;font-weight:600;line-height:1.25;margin-top:0;margin-bottom:16px;padding-bottom:.3em}div.line-block{white-space:pre-line}
   </style>
   <style type="text/css">code{white-space: pre;}</style>
   <style type="text/css">p{text-align: justify;}</style>
-  <style type="text/css">
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-  </style>
-  <script
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
-  type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -134,319 +65,55 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <body bgcolor = "#222222">
 <article class="markdown-body">
 <header>
-<h1 class="title">Zestawy zadań</h1>
+<h1 class="title">Narzędzia Obliczeniowe Fizyki</h1>
 </header>
 <center>
-<a
-href="https://commons.wikimedia.org/wiki/File:Old_Fashioned_Gym_(7981005513).jpg"><img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Old_Fashioned_Gym_%287981005513%29.jpg/800px-Old_Fashioned_Gym_%287981005513%29.jpg" /></a>
+<a href="https://en.wikipedia.org/wiki/File:Ybc7289-bw.jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Ybc7289-bw.jpg?1600959211627" /></a>
 </center>
 <h1 id="zawartość">Zawartość:</h1>
 <ul>
-<li><a href="#ocenianie">Ocenianie</a></li>
-<li><a href="#zestaw-1">Zestaw 1</a></li>
-<li><a href="#zestaw-2">Zestaw 2</a></li>
+<li><a href="#organizacja">Organizacja</a></li>
+<li><a href="#wykład-prof-jacek-golak">Wykład (prof Jacek
+Golak)</a></li>
+<li><a href="./000pl_inv.html">Zestawy zadań</a></li>
+<li><a href="./0000pl_inv.html">Projekty studenckie</a></li>
 </ul>
-<h1 id="ocenianie">Ocenianie</h1>
+<h1 id="organizacja">Organizacja</h1>
+<center>
+<strong>MATHEMATICA</strong>
+</center>
+<p>Na zajęciach będziemy korzystać z programu Mathematica. Bardzo
+proszę, przed zapoznać się z <a
+href="https://fais.uj.edu.pl/documents/41628/5097967/Oprogramowanie+Mathematica_na_Uniwersytecie_Jagiello%C5%84skim_WFAIS.pdf/e644e1f3-74bb-408e-9f64-529bc329d1e7">instrukcją
+instalacji</a>. zdobyć licencję i zainstalować program na swoich
+komputerach. Na zajęciach można pracować z własnym laptopem albo z
+komputerem w pracowni.</p>
+<p><strong>Uwaga</strong>: wszędzie gdzie to konieczne należy wpisywać
+uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail
+stanowi metodę weryfikacji, że jesteście państwo studentami uczelni.
+Informacja o aktywacji studenckich kont pocztowych dostępna jest
+tutaj:</p>
+<p><a href="https://pomocit.uj.edu.pl/poczta_studenci"
+class="uri">https://pomocit.uj.edu.pl/poczta_studenci</a></p>
+<p>w zakładce “Aktywacja kont pocztowych dla studentów i
+doktorantów”.</p>
+<center>
+<strong>OCENA</strong>
+</center>
+<p>Na ocenę końcową składać się będą:</p>
 <ul>
-<li>Ćwiczenia można oddawać na każdych zajęciach, wystarczy
-zademonstrować działanie programu oraz króciutko o nim opowiedzieć.</li>
-<li>Ćwiczenia z zestawu przypadającego na dane zajęcia można oddawać do
-końca semestru ale …
-<ul>
-<li>… jeżeli pod koniec semestru braknie czasu na zajęciach aby zadanie
-oddać to nie zostanie ono zalicone</li>
-<li>W związku z tym proszę nie zwlekać z oddawaniem zadań.</li>
-</ul></li>
-<li>Ocena z zadań będzie wystawiana na podstawie całkowitej ilości
-punktów uzyskanych z rozwiązania ćwiczeń.</li>
+<li>sprawdzian końcowy (30% oceny)</li>
+<li>zadania domowe (35% oceny)</li>
+<li>projekt końcowy (35% oceny)</li>
 </ul>
-<h1 id="zestaw-1">Zestaw 1</h1>
-<center>
-<strong>MATERIAŁY DODATKOWE</strong>
-</center>
-<p>Tworzenie skryptu, metoda 1 (prostsza):</p>
-<ul>
-<li><p>po uruchomieniu programu mathematica należy w menu wybrać:
-<em>File - New - Package/Script - Wolfram Language Script</em></p></li>
-<li><p>w nowym okienku mozna wpisać treść programu</p></li>
-<li><p>po zakończeniu edycji zapisujemy skrypt i zamykamy okienko (to
-ważne, Mathematica korzysta z mechanizmu uniemożliwiającego jednoczesną
-edycję oraz wykonanie skryptu)</p></li>
-<li><p>w terminalu (pod linuxem <a
-href="https://help.ubuntu.com/community/UsingTheTerminal">tak</a>, pod
-windows <a
-href="https://www.wikihow.com/Open-Terminal-in-Windows">tak</a>)
-nawigujemy do katalogu gdzie znajduje się skrypt i uruchamiamy komendą
-(pod linux, pod windows jest trochę inaczej - proszę samodzielnie po
-eksperymentować):</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span> $ ./nazwa_skryptu.wls</span></code></pre></div></li>
-</ul>
-<p>Tworzenie skryptu, metoda 2 (linux ale bardziej uniwersalna w tym
-systemie):</p>
-<ul>
-<li><p>otwieramy ulubiony edytor tekstu</p></li>
-<li><p>wpisujemy do pliku program</p></li>
-<li><p>w pierwszej linijce (tzw linijka “hash bang!”, musi być zawsze
-pierwsza, nad nią nie mogą się znajdować puste linie) dodatkowo
-dodajemy:</p>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/bin/env wolframscript</span></span></code></pre></div></li>
-<li><p>linijka ta informuje system operacyjny, który program powinien
-być wykorzystany do zinterpretowaniu programu zawartego w
-skrypcie</p></li>
-<li><p>alternatywnie można zamieścić bezpośrednią ścieżkę do programu,
-na moim systemie wygląda ona następująco:</p>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/local/Wolfram/Mathematica/12.1/Executables/wolframscript</span></span></code></pre></div></li>
-<li><p>teraz wystarczy nawigować w terminalu do katalogu zawierającego
-skrypt, zezwolilć aby nasz skrypt był wykonany:</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span> $ chmod +x nazwa_skryptu</span></code></pre></div></li>
-<li><p>… i go wykonać:</p>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span> $ ./nazwa_skryptu</span></code></pre></div></li>
-<li><p>skrype można również wykonać z argumentami, np:</p>
-<div class="sourceCode" id="cb6"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span> $ ./silnia 5</span></code></pre></div></li>
-</ul>
-<p>Kilka przykładowych skryptów:</p>
-<ul>
-<li><a
-href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/001_Zestaw_1/hello.wls">Hello
-world!</a></li>
-<li><a
-href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/001_Zestaw_1/silnia">silnia</a></li>
-</ul>
-<p>Kilka chaotycznych notebooków z zajęć (polecam zaglądnąć najpierw do
-materiałów profesora Jacka Golaka):</p>
-<ul>
-<li><a
-href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/001_Zestaw_1/nof_08_10_2020_A.nb">pierwszy
-bałagan</a></li>
-<li><a
-href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/001_Zestaw_1/nof_08_10_2020_B.nb">drugi
-bałagan</a></li>
-</ul>
-<center>
-<strong>A</strong>
-</center>
-<center>
-(1 punkt)
-</center>
-<p>Proszę zainstalować i uruchomić program <em>Mathematica</em>.</p>
-<center>
-<strong>B</strong>
-</center>
-<center>
-(2 punkty)
-</center>
-<p>Korzystająć z <em>notebook</em>a proszę zaimplementować ciąg liczb
-Fibonacciego <span class="math inline">\(0 , 1 , 1 , 2 , 3 , 5 , 8 , 13
-, 21, \ldots\)</span>.</p>
-<center>
-<strong>C</strong>
-</center>
-<center>
-(2 punkty)
-</center>
-<p>Korzystając z implementacji z zadania <strong>B</strong> proszę
-stworzyć uruchamialny skrypt. Skrypt powinien z linii poleceń pobierać
-pojedyńczy argument, liczbe wyrazów w ciągu Fibonacciego. Państwa
-program powinien następnie wypisywać na ekranie odpowiednią liczbę
-początkowych wyrazów tego ciągu.</p>
-<h1 id="zestaw-2">Zestaw 2</h1>
-<center>
-<strong>MATERIAŁY DODATKOWE</strong>
-</center>
-<p>W razie kłopotów:</p>
-<ul>
-<li><em>Evaluation - Quit Kernel - Local</em> resetuje jądro
-mathematici. Wszystkie definicje zmiennych, funkcji, … zostaną
-usunięte.</li>
-<li><em>Evaluation - Abort Evaluation</em> przerywa aktualnie wykonywane
-zadanie</li>
-</ul>
-<p>Ostatnie twierdzenie Fermata:</p>
-<ul>
-<li><a
-href="https://pl.wikipedia.org/wiki/Wielkie_twierdzenie_Fermata">wiki</a>,
-<a href="https://youtu.be/qiNcEguuFSA">youtube</a></li>
-</ul>
-<p>Szablony, wzrce: <em>Help - Wolfram Documentation</em> i w
-okienku:</p>
-<ul>
-<li><em>guide/Patterns</em></li>
-<li><em>tutorial/Patterns</em></li>
-</ul>
-<p>Chaotyczny notebook z zadań (lepiej przyjrzeć się wykładowi
-profesora):</p>
-<ul>
-<li><a
-href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/002_Zestaw_2/nof_15_10_2020_zajecia.nb">bałagan</a></li>
-</ul>
-<p>Zadanie A:</p>
-<ul>
-<li>proszę dokładnie :-) przyjrzeć się wszystkim rozdziałom
-dokumentacji<br />
-</li>
-</ul>
-<pre><code>FullSimplify</code></pre>
-<p>Liczenie objetości bąbelków (proszę zajrzeć równiez do drugiego
-wykładu profesora):</p>
-<ul>
-<li><a
-href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/002_Zestaw_2/nof_15_10_2020_zajecia_1.nb">objętość
-bąbelków</a></li>
-</ul>
-<p>Notebooki z zajęć 13 X, aby uruchomić wszystkie komórki wystarczy w
-menu wybrać <em>Evaluate</em> - <em>Evaluate Notebook</em>:</p>
-<ul>
-<li><a
-href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/002_Zestaw_2/13_10_2022_rano.nb">rano</a></li>
-<li><a
-href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/002_Zestaw_2/13_10_2022_wieczor.nb">wieczór
-1</a>, <a
-href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/002_Zestaw_2/13_10_2022_wieczor_1.nb">wieczór
-2</a></li>
-</ul>
-<center>
-<strong>A</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Proszę, z wykorzystaniem funkcji</p>
-<pre><code>FullSimplify</code></pre>
-<p>sprawdzić czy istnieją liczby całkowite <span
-class="math inline">\(x\)</span> , <span
-class="math inline">\(y\)</span> , <span
-class="math inline">\(z\)</span> oraz <span
-class="math inline">\(n\)</span>, które spełniają:</p>
-<ul>
-<li><span class="math inline">\(x^n + y^n = z^n\)</span></li>
-<li><span class="math inline">\(n &gt; 2\)</span></li>
-<li><span class="math inline">\(x y z \ne 0\)</span> (żadna z tych liczb
-nie jest równa 0)</li>
-</ul>
-<center>
-<strong>B</strong>
-</center>
-<center>
-(1 punkt)
-</center>
-<p>Proszę skonstruować krótki dowód wyniku z zadania <strong>A</strong>.
-Zeskanowane wyprowadzienie można mi wysłać pocztą elektroniczną.</p>
-<center>
-<strong>C</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Proszę z wykorzystaniem funkcji</p>
-<pre><code>If</code></pre>
-<p>zaimplementować funkcję <span class="math inline">\(f(x ,
-y)\)</span>, która przyjmuje wartość <span
-class="math inline">\(1\)</span> gdy punkt <span
-class="math inline">\((x , y)\)</span> wpada w dwu-wymiarowy pierścień o
-zewnętrznym promieniu <span class="math inline">\(1\)</span> oraz
-wewnętrznym promieniu <span class="math inline">\(\frac{1}{2}\)</span>
-ze środkiem w środku układu współrzędnych. W przeciwnym wypadku funkcja
-przyjmuje wartość <span class="math inline">\(0\)</span>. Proszę tą
-funkcję narysować z wykorzystaniem</p>
-<pre><code>RegionPlot</code></pre>
-<center>
-<strong>D</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Korzystając z funkcji:</p>
-<pre><code>Integrate</code></pre>
-<p>proszę policzyć pole pierścienia z zadania <strong>C</strong>.
-Wskazówka: Całka <span class="math inline">\(f(x , y)\)</span> po <span
-class="math inline">\(x\)</span> oraz <span
-class="math inline">\(y\)</span> w zakresie od <span
-class="math inline">\(-1\)</span> do <span
-class="math inline">\(1\)</span> zwróci pole koła. Dlaczego?</p>
-<center>
-<strong>E</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Ciało o masie <span class="math inline">\(1\)</span> kg porusza się
-po trajektorii <span class="math inline">\(r(t)\)</span>
-zaimplementowanej jako:</p>
-<pre><code>(*t - czas w sekundach*)
-(*{x , y} - zwracana pozycja w metrach*)
-r[t_] := {Cos[t] , Sin[t]};</code></pre>
-<p>Proszę policzyć jaka siła musi działać na to ciało jeżeli założymy,
-że porusza się ono zgodnie z zasadami Newtona. Można w tym celu
-wykrozystać funkcję:</p>
-<pre><code>D</code></pre>
-<p>Proszę skonstruować funkcję, która dla zadanego czasu będzie zwracała
-graficzną reprezentację ciała oraz działającej na niego siły.</p>
-<center>
-<strong>F</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Korzystając z funkcji:</p>
-<pre><code>Import</code></pre>
-<p>oraz</p>
-<pre><code>Cases</code></pre>
-<p>Proszę napisać program który:</p>
-<ul>
-<li>pobierze ze <a
-href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">strony</a>
-plik CSV zawierający dane dotyczące liczby potwierdzonych przypadków
-<ul>
-<li>można skopiować link <a
-href="https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
-class="uri">https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv</a></li>
-<li>wykorzystać go w funkcji</li>
-</ul>
-<pre><code>Import</code></pre></li>
-<li>zwróci wykres nowych przypadków dla Polski z ostatnich czterech
-tygodni</li>
-</ul>
-<center>
-<strong>G</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Korzystająć z <a
-href="https://pl.wikipedia.org/wiki/Pochodna_funkcji">definicji
-pochodnej</a> oraz funkcji:</p>
-<pre><code>Limit</code></pre>
-<p>Proszę policzyc pochodne <span
-class="math inline">\(f&#39;(x)\)</span> następujacych funkcji:</p>
-<ul>
-<li><span class="math inline">\(f(x) = ln(x)\)</span></li>
-<li><span class="math inline">\(f(x) = exp(x)\)</span></li>
-<li><span class="math inline">\(f(x) = x^{2}\)</span></li>
-</ul>
-<center>
-<strong>H</strong>
-</center>
-<center>
-(2 punkt)
-</center>
-<p>Korzystając z</p>
-<pre><code>Manipulate</code></pre>
-<p>proszę napisać program, który będzie manipulował wykresem funkcji
-<span class="math inline">\(f(x) = exp(x) sin(4 x)\)</span>.
-Implementacja powinna pozwalać na wykonanie operacji:</p>
-<ul>
-<li>przesunięcia wykresu funkcji w górę lub dół</li>
-<li>przesunięcia wykresu funkcji w lewo lub prawo</li>
-<li>odbicie funkcji względem osi pionowej</li>
-<li>odbicie funkcji względem osi posiomej</li>
-</ul>
+<h1 id="wykład-prof-jacek-golak">Wykład (prof Jacek Golak)</h1>
+<p>Wykłady profesora Jacka Golaka bedą dostępne na stronie:</p>
+<p><a href="http://users.uj.edu.pl/~golak/"
+class="uri">http://users.uj.edu.pl/~golak/</a></p>
+<h1 id="zestawy-zadań"><a href="./000pl_inv.html">Zestawy zadań</a></h1>
+<h1 id="projekty-studenckie"><a href="./0000pl_inv.html">Projekty
+studenckie</a></h1>
 </article>
 </body>
 </html>

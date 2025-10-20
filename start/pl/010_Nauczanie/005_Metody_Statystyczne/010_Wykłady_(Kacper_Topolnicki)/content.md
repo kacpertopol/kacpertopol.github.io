@@ -18,8 +18,7 @@ Popularne:
 **MATERIAŁY DODATKOWE**
 </center>
 
-- [instrukcja](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) installacji programu Mathematica
-  ze [strony](https://fais.uj.edu.pl/dla-studentow/studia-z-mathematica)
+- [Instrukcją instalacji](https://fais.uj.edu.pl/documents/41628/5097967/Oprogramowanie+Mathematica_na_Uniwersytecie_Jagiello%C5%84skim_WFAIS.pdf/e644e1f3-74bb-408e-9f64-529bc329d1e7) programu Mathematica (aka WolframNB).
   - **UWAGA** wszędzie gdzie to konieczne należy wpisywać uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail stanowi metodę weryfikacji, że jesteście państwo studentami uczelni. Informacja o aktywacji studenckich kont pocztowych dostępna jest [tutaj](https://pomocit.uj.edu.pl/poczta_studenci) 
     w zakładce “Aktywacja kont pocztowych dla studentów i doktorantów”.
 
@@ -27,7 +26,8 @@ Popularne:
 **BŁĘDY, UWAGI, SUGESTIE**
 </center>
 
-Błędy, sugestie, uwagi proszę zgłaszać na adres email [kacper.topolnicki@uj.edu.pl](mailto:kacper.topolnicki@uj.edu.pl). Dziękuję
+Błędy, sugestie, uwagi proszę zgłaszać na adres email [kacper.topolnicki@uj.edu.pl](mailto:kacper.topolnicki@uj.edu.pl). 
+Dziękuję!
 
 <center>
 **wykład 1**
@@ -64,6 +64,8 @@ Błędy, sugestie, uwagi proszę zgłaszać na adres email [kacper.topolnicki@uj
   - dodatkowe notebooki z wykładu: [1](---ThisDir---/examples.nb) oraz [2](---ThisDir---/examples1.nb)
     - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate Notebook*
 
+<!--
+
 <center>
 **wykład 3**
 </center>
@@ -84,7 +86,6 @@ Błędy, sugestie, uwagi proszę zgłaszać na adres email [kacper.topolnicki@uj
   - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/ETvhowl_ATJFtdr8u9hQPIYBl0fLkqByr8SkHLisdMi_YQ?e=nVGIbP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - nagrania i notatki z poprzednich lat
   - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
-    <!--- - jest kilka rzeczy do dodania dlatego zrobimy krótkie spotkanie na Ms Teams (nagramy i umieszczę tutaj) --->
   - [notatki z wykładu](---ThisDir---/wyklad_3.pdf)
 
 <center>
@@ -136,3 +137,5 @@ Błędy, sugestie, uwagi proszę zgłaszać na adres email [kacper.topolnicki@uj
 - youtube
   - [page rank](https://youtu.be/JGQe4kiPnrU?si=xTis4SE0u9s5rjMR)
   - [ukryte łańcychy Markova](https://youtu.be/RWkHJnFj5rY?si=RaE37GDhbJLC40cd)
+
+-->

@@ -20,9 +20,10 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Narzędzia Obliczeniowe Fizyki](./0pl.html)
-	* [Oprogramowanie użytkowe](./0000pl.html)
-	* [Python dla początkujących](./000000pl.html)
+	* [Metody Statystyczne](./0pl.html)
+	* [Narzędzia Obliczeniowe Fizyki](./00pl.html)
+	* [Oprogramowanie użytkowe](./00000pl.html)
+	* [Python dla początkujących](./0000000pl.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -47,15 +48,19 @@ toc-title: TOC
 
 
 
-## [Narzędzia Obliczeniowe Fizyki](./0pl.html)
+## [Metody Statystyczne](./0pl.html)
 
 
 
-## [Oprogramowanie użytkowe](./0000pl.html)
+## [Narzędzia Obliczeniowe Fizyki](./00pl.html)
 
 
 
-## [Python dla początkujących](./000000pl.html)
+## [Oprogramowanie użytkowe](./00000pl.html)
+
+
+
+## [Python dla początkujących](./0000000pl.html)
 
 
 

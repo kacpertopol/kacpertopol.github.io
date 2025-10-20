@@ -52,12 +52,15 @@ SOFTWARE.
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Narzędzia Obliczeniowe Fizyki</title>
+  <title>Metody Statystyczne</title>
   <style type="text/css">
 @charset "UTF-8";.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#dbd6d1;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body a{color:#fc9928;background-color:transparent;text-decoration:none;-webkit-text-decoration-skip:objects}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body a:hover{text-decoration:underline}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body strong{font-weight:600}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em;margin:.67em 0;padding-bottom:.3em;border-bottom:1px solid #151210}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #151210}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#948c82}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body hr{box-sizing:content-box;height:.25em;margin:24px 0;padding:0;overflow:hidden;background-color:#1e1a17;border:0}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body input{margin:0;overflow:visible;font:inherit;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dd{margin-left:0}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote{padding:0 1em;color:#948c82;border-left:.25em solid #201d19}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto;border-spacing:0;border-collapse:collapse}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #201d19}.markdown-body table tr{background-color:transparent;border-top:1px solid #38342e}.markdown-body table tr:nth-child(2n){background-color:#875}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#000}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:" "}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#875;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#ffa339;border-color:#ffa339}.markdown-body kbd{box-shadow:inset 0 -1px 0 #696159;display:inline-block;padding:3px 5px;font:11px/10px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#bbb2a9;vertical-align:middle;background-color:#222;border:1px solid #38342e;border-bottom-color:#696159;border-radius:3px;box-shadow:inset 0 -1px 0 #696159}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#fc9928}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.Alert,.Error,.Note,.Success,.Warning{padding:11px;margin-bottom:24px;border-style:solid;border-width:1px;border-radius:4px}.Alert p,.Error p,.Note p,.Success p,.Warning p{margin-top:0}.Alert p:last-child,.Error p:last-child,.Note p:last-child,.Success p:last-child,.Warning p:last-child{margin-bottom:0}.Alert{color:#ddbb99;background-color:#1d106;border-color:#45382c}.Warning{color:#b3b4bd;background-color:#0009ea;border-color:#20273d}.Error{color:#66eeee;background-color:#22020;border-color:#2d4d4d}.Success{color:#dd99d3;background-color:#1d619;border-color:#452c41}.Note{color:#d0c9c2;background-color:#875;border-color:#292725}.Alert h1,.Alert h2,.Alert h3,.Alert h4,.Alert h5,.Alert h6{color:#ddbb99;margin-bottom:0}.Warning h1,.Warning h2,.Warning h3,.Warning h4,.Warning h5,.Warning h6{color:#b3b4bd;margin-bottom:0}.Error h1,.Error h2,.Error h3,.Error h4,.Error h5,.Error h6{color:#66eeee;margin-bottom:0}.Success h1,.Success h2,.Success h3,.Success h4,.Success h5,.Success h6{color:#dd99d3;margin-bottom:0}.Note h1,.Note h2,.Note h3,.Note h4,.Note h5,.Note h6{color:#d0c9c2;margin-bottom:0}.Alert h1:first-child,.Alert h2:first-child,.Alert h3:first-child,.Alert h4:first-child,.Alert h5:first-child,.Alert h6:first-child,.Error h1:first-child,.Error h2:first-child,.Error h3:first-child,.Error h4:first-child,.Error h5:first-child,.Error h6:first-child,.Note h1:first-child,.Note h2:first-child,.Note h3:first-child,.Note h4:first-child,.Note h5:first-child,.Note h6:first-child,.Success h1:first-child,.Success h2:first-child,.Success h3:first-child,.Success h4:first-child,.Success h5:first-child,.Success h6:first-child,.Warning h1:first-child,.Warning h2:first-child,.Warning h3:first-child,.Warning h4:first-child,.Warning h5:first-child,.Warning h6:first-child{margin-top:0}h1.title,p.subtitle{text-align:center}h1.title.followed-by-subtitle{margin-bottom:0}p.subtitle{font-size:1.5em;font-weight:600;line-height:1.25;margin-top:0;margin-bottom:16px;padding-bottom:.3em}div.line-block{white-space:pre-line}
   </style>
   <style type="text/css">code{white-space: pre;}</style>
   <style type="text/css">p{text-align: justify;}</style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -65,55 +68,267 @@ SOFTWARE.
 <body bgcolor = "#222222">
 <article class="markdown-body">
 <header>
-<h1 class="title">Narzędzia Obliczeniowe Fizyki</h1>
+<h1 class="title">Metody Statystyczne</h1>
 </header>
 <center>
-<a href="https://en.wikipedia.org/wiki/File:Ybc7289-bw.jpg"><img
-src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Ybc7289-bw.jpg?1600959211627" /></a>
+<a
+href="https://en.wikipedia.org/wiki/File:Standard_Normal_Distribution.png"><img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Standard_Normal_Distribution.png/800px-Standard_Normal_Distribution.png" /></a>
 </center>
 <h1 id="zawartość">Zawartość:</h1>
 <ul>
 <li><a href="#organizacja">Organizacja</a></li>
-<li><a href="#wykład-prof-jacek-golak">Wykład (prof Jacek
-Golak)</a></li>
-<li><a href="./00pl_inv.html">Zestawy zadań</a></li>
-<li><a href="./000pl_inv.html">Projekty studenckie</a></li>
+<li><a href="#wykłady-kacper-topolnicki">Wykłady (Kacper
+Topolnicki)</a></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
 <center>
-<strong>MATHEMATICA</strong>
+<strong>TRYB PROWADZENIA ZAJĘĆ</strong>
 </center>
-<p>Na zajęciach będziemy korzystać z programu Mathematica. Bardzo
-proszę, przed zapoznać się z <a
-href="https://fais.uj.edu.pl/documents/41628/5097967/Oprogramowanie+Mathematica_na_Uniwersytecie_Jagiello%C5%84skim_WFAIS.pdf/e644e1f3-74bb-408e-9f64-529bc329d1e7">instrukcją
-instalacji</a>. zdobyć licencję i zainstalować program na swoich
-komputerach. Na zajęciach można pracować z własnym laptopem albo z
-komputerem w pracowni.</p>
-<p><strong>Uwaga</strong>: wszędzie gdzie to konieczne należy wpisywać
+<p>Tryb prowadzenia zajęć jest zgodny z harmonogramem zjazdów. Tryb
+prowadzenia zarówno wykładu jak i ćwiczeń może się zmieniać dlatego
+proszę na bieżąco monitorować harmonogram wszystkich zjazdów przesłany
+przez organizatorów.</p>
+<center>
+<strong>ZAKRES MATERIAŁU</strong>
+</center>
+<ul>
+<li>prawdopodobieństwo w podejściu aksjomatycznym</li>
+<li>właściwości prawdopodobieństwa</li>
+<li>interpretacje prawdopodobieństwa</li>
+<li>zmienne losowe</li>
+<li>rozkłady prawdopodobieństwa</li>
+<li>wielowymiarowe zmienne losowe</li>
+<li>zmiana zmiennych losowych</li>
+<li>estymacja punktowa, przedziałowa</li>
+<li>procesy stochastyczne</li>
+<li>łańcuchy Markova</li>
+<li>rodzaje łańcuchów Markova</li>
+<li>stany stacjonarne</li>
+<li>procesy liczące</li>
+<li>procesy kolejkowe</li>
+</ul>
+<center>
+<strong>WYKŁAD (Kacper Topolnicki)</strong>
+</center>
+<p>Na ocenę z wykładu końcową składać się będą:</p>
+<ul>
+<li>kolokwium końcowe (50% oceny)</li>
+<li>ocena z ćwiczeń (50% oceny)</li>
+</ul>
+<p>Kolokwium z zagadnień związanych z wykładem zostanie przeprowadzone
+podczas ostatnich ćwiczeń, będzie ono miało wpływ jedynie na ocenę z
+wykładu.</p>
+<h1 id="wykłady-kacper-topolnicki">Wykłady (Kacper Topolnicki)</h1>
+<center>
+<strong>LITERATURA</strong>
+</center>
+<p>Podręczniki:</p>
+<ul>
+<li><a
+href="https://www.cambridge.org/core/books/probability-random-processes-and-statistical-analysis/1909C657E4758038B54C4235B3AD0FDF"><em>Probability,
+Random Processes, and Statistical Analysis</em> Hisashi Kobayashi, Brian
+L. Mark, William Turin</a></li>
+<li><a
+href="https://www.routledge.com/Probability-and-Statistics-for-Computer-Scientists/Baron/p/book/9781138044487"><em>Probability
+and Statistics for Computer Scientists</em> Michael Baron</a></li>
+<li><a
+href="https://www.amazon.com/Probability-Theory-Science-T-Jaynes/dp/0521592712"><em>Probability
+Theory: The Logic of Science</em> E. T. Jaynes (Author), G. Larry
+Bretthorst (Editor)</a>
+<ul>
+<li>są równiez dostępne <a
+href="https://youtube.com/playlist?list=PL9v9IXDsJkktefQzX39wC2YG07vw7DsQ_&amp;si=SYkFZQd4WvUxzdRC">nagrania</a>
+wykładów powiązane z tą książką</li>
+</ul></li>
+</ul>
+<p>Popularne:</p>
+<ul>
+<li><a
+href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"><em>Thinking,
+Fast and Slow</em> Daniel Kahneman</a></li>
+<li><a
+href="https://www.amazon.com/Bernoullis-Fallacy-Statistical-Illogic-Science/dp/0231199945"><em>Bernoulies
+Fallacy</em> Aubrey Clayton</a></li>
+</ul>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a
+href="https://fais.uj.edu.pl/documents/41628/5097967/Oprogramowanie+Mathematica_na_Uniwersytecie_Jagiello%C5%84skim_WFAIS.pdf/e644e1f3-74bb-408e-9f64-529bc329d1e7">Instrukcją
+instalacji</a> programu Mathematica (aka WolframNB).
+<ul>
+<li><strong>UWAGA</strong> wszędzie gdzie to konieczne należy wpisywać
 uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail
 stanowi metodę weryfikacji, że jesteście państwo studentami uczelni.
-Informacja o aktywacji studenckich kont pocztowych dostępna jest
-tutaj:</p>
-<p><a href="https://pomocit.uj.edu.pl/poczta_studenci"
-class="uri">https://pomocit.uj.edu.pl/poczta_studenci</a></p>
-<p>w zakładce “Aktywacja kont pocztowych dla studentów i
-doktorantów”.</p>
-<center>
-<strong>OCENA</strong>
-</center>
-<p>Na ocenę końcową składać się będą:</p>
-<ul>
-<li>sprawdzian końcowy (30% oceny)</li>
-<li>zadania domowe (35% oceny)</li>
-<li>projekt końcowy (35% oceny)</li>
+Informacja o aktywacji studenckich kont pocztowych dostępna jest <a
+href="https://pomocit.uj.edu.pl/poczta_studenci">tutaj</a> w zakładce
+“Aktywacja kont pocztowych dla studentów i doktorantów”.</li>
+</ul></li>
 </ul>
-<h1 id="wykład-prof-jacek-golak">Wykład (prof Jacek Golak)</h1>
-<p>Wykłady profesora Jacka Golaka bedą dostępne na stronie:</p>
-<p><a href="http://users.uj.edu.pl/~golak/"
-class="uri">http://users.uj.edu.pl/~golak/</a></p>
-<h1 id="zestawy-zadań"><a href="./00pl_inv.html">Zestawy zadań</a></h1>
-<h1 id="projekty-studenckie"><a href="./000pl_inv.html">Projekty
-studenckie</a></h1>
+<center>
+<strong>BŁĘDY, UWAGI, SUGESTIE</strong>
+</center>
+<p>Błędy, sugestie, uwagi proszę zgłaszać na adres email <a
+href="mailto:kacper.topolnicki@uj.edu.pl">kacper.topolnicki@uj.edu.pl</a>.
+Dziękuję!</p>
+<center>
+<strong>wykład 1</strong>
+</center>
+<ul>
+<li><a
+href="https://ujchmura-my.sharepoint.com/:v:/r/personal/kacper_topolnicki_uj_edu_pl/Documents/new_r/1-2023-10-14_08.26.32.mp4?csf=1&amp;web=1&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&amp;e=seN91E">nagranie
+z wykładu</a>
+<ul>
+<li><a
+href="https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/Ef98TsOBH21EpOW7a_Y-FnoB2BrPmXaKqZDP0Q-U2rZ4Lw">alternatywny
+link</a></li>
+<li>aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail</li>
+<li>nie można pliku pobrać</li>
+</ul></li>
+<li><a
+href="./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/1.pdf">notatki
+z wykładu</a></li>
+<li>notebooki Mathematici
+<ul>
+<li>w materiałach dodatkowych znajduje się instrukcja do otrzymania
+licencji</li>
+<li><a
+href="./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/monty_hall.nb">paradoks
+Montiego Halla</a>
+<ul>
+<li>polecam poczytać równiez o roli Pani Vos Savant</li>
+</ul></li>
+<li><a
+href="./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/fgp.nb">funkcje
+gęstości prawdopodobieństwa</a></li>
+</ul></li>
+<li>youtube
+<ul>
+<li><a
+href="https://youtu.be/U_85TaXbeIo?si=SMrmKcbswmv4Lb71">3Blue1Brown,
+twierdzenie Bayesa 1</a></li>
+<li><a
+href="https://youtu.be/HZGCoVF3YvM?si=d1c0Pb1I9AgZLq_d">3Blue1Brown,
+twierdzenie Bayesa 2</a></li>
+<li><a
+href="https://youtu.be/R13BD8qKeTg?si=wQyXEI_Yrd1VGhzJ">Veritasium,
+problemy 1</a></li>
+<li><a
+href="https://youtu.be/42QuXLucH3Q?si=Ruep1yX8AQ0pFfDl">Veritasium,
+problemy 2</a></li>
+</ul></li>
+</ul>
+<center>
+<strong>wykład 2</strong>
+</center>
+<ul>
+<li><a
+href="https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERySq4MiHk9FmpQjtBUGmqIBrrEig1invy6xg9ZHyT4f_Q">nagranie
+z wykładu</a>
+<ul>
+<li>aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail</li>
+<li>nie można pliku pobrać</li>
+<li>dziękuję za zgłoszenie błędu: około 46 minuty w liczniku powinno byc
+<span class="math inline">\(h\)</span> zamiast <span
+class="math inline">\(1\)</span></li>
+</ul></li>
+<li><a
+href="./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/2.pdf">notatki
+z wykładu</a></li>
+<li>notebooki Mathematici
+<ul>
+<li>w materiałach dodatkowych znajduje się instrukcja do otrzymania
+licencji</li>
+<li><a
+href="./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples2.nb">zmianna
+zmiennych losowych w 2D</a></li>
+<li>dodatkowe notebooki z wykładu: <a
+href="./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples.nb">1</a>
+oraz <a
+href="./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples1.nb">2</a>
+<ul>
+<li>wystarczy uruchomić w mathematice pliki <em>.nb</em> i w menu
+<em>Evaluation - Evaluate Notebook</em></li>
+</ul></li>
+</ul></li>
+</ul>
+<!--
+
+<center>
+**wykład 3**
+</center>
+
+- [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
+  - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
+- youtube
+  - [centralne twierdzenie graniczne](https://youtu.be/zeJD6dqJ5lo?si=d1smDc3LzV7_uzhA)
+    - dostępne są napisy w języku polskim
+- dodatek
+  - [szacowanie parametrów rozkładu Cauchiego z wykorzystaniem łańcuchów Markova](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/cauchy_pymc.py)
+  - wymagana biblioteka [pymc](https://www.pymc.io/welcome.html) oraz [arviz](https://python.arviz.org/en/stable/) 
+    (arviz prawdopodobnie instalowany przy okazji pymc)
+- wykład korzystał również z:
+  - [introduction to probability, statistics and random processes](https://www.probabilitycourse.com/)
+- nagrania i notatki 2024 / 2025
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_3_2024_2025.pdf)
+  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/ETvhowl_ATJFtdr8u9hQPIYBl0fLkqByr8SkHLisdMi_YQ?e=nVGIbP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
+
+<center>
+**wykład 4**
+</center>
+
+- wykład korzystał również z:
+  - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
+  - [unikalność rozwiązania](http://www.stat.yale.edu/~jtc5/251/readings/Basics%20of%20Applied%20Stochastic%20Processes_Serfozo.pdf) 
+  - [dodatkowy wykład 1](https://mast.queensu.ca/~stat455/lecturenotes/set3.pdf)
+  - [dodatkowy wykład 2](https://siamak.isoperimetric.info/teaching/markov/files/equilibrium-2.pdf)
+  - [dodatkowy wykład 3](http://math.uchicago.edu/~may/REU2017/REUPapers/Freedman.pdf)
+- notebooki Mathematici 
+  - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
+  - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
+- nagrania i notatki 2024 / 2025
+  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EfPXwEXTyeNPixAZkLx23r0BKni2JWSGYCwhMweqgtUeEg?e=0ksFTj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_4_2024_2025.pdf)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
+
+<center>
+**wykład 5**
+</center>
+
+- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/autocorrelation.nb) Mathematici 
+  - wystarczy uruchomić notebook (Evaluate Notebook)
+- nagrania i notatki 2024 / 2025
+  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EfffCsPo0oxJmQhYtwtupZgBMPfJoOsQcVX_lStrEVbi1g?e=S4EBBr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/2024-12-01-Note-10-25.pdf)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ESgo0-PppftKt6oLnx4561YBeWm8hRXuTRHnwoLyscFX6w?e=35pFRC)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_5.pdf)
+
+<center>
+**wykład 6**
+</center>
+
+- [notebook](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/infiniteMatrix.nb)
+  - wystarczy uruchomić notebook (Evaluate Notebook)
+  - na samym dole jest `Manipulate` z przykładem omawianym na wykładzie
+- nagrania i notatki 2024 / 2025
+  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EV6j5NI84vBEtgVF6iWNzngBXNkr5GCGZXAw4vpMplybAA?e=88wpyX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/2024-12-01-Note-12-02.pdf)
+- nagrania i notatki z poprzednich lat
+  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EW8XbmsK2HdMjL2rzV3EdqsBiiJgUB0z9pwQ0bko0tz09g?e=6ogGLi)
+  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/W6.pdf)
+- youtube
+  - [page rank](https://youtu.be/JGQe4kiPnrU?si=xTis4SE0u9s5rjMR)
+  - [ukryte łańcychy Markova](https://youtu.be/RWkHJnFj5rY?si=RaE37GDhbJLC40cd)
+
+-->
 </article>
 </body>
 </html>

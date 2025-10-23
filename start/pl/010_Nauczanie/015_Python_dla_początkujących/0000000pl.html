@@ -149,6 +149,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%2868873
 <ul>
 <li><a href="#set-1">Set 1</a></li>
 <li><a href="#set-2">Set 2</a></li>
+<li><a href="#set-3">Set 3</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -584,6 +585,71 @@ Wikipedia article</a> for more details</li>
 <li>there are many comments</li>
 </ul></li>
 </ul>
+<h2 id="set-3">Set 3</h2>
+<center>
+<a href="https://en.wikipedia.org/wiki/Literate_programming"><img
+src="https://upload.wikimedia.org/wikipedia/en/6/62/Literate_Programming_book_cover.jpg" /></a>
+</center>
+<center>
+<em>…literate programming, loops and lambdas, …</em>
+</center>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Replace the repeated <code>if</code>, <code>elif</code>,
+<code>else</code> statements from your game in <strong>Set 2</strong>
+with <code>match</code>. If these statements don’t appear in the game,
+please add some.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>End your scripts from <strong>Set 1</strong> with an infinite
+<code>while</code> loop instead of a call similar to
+<code>input("Hit enter to exit.")</code>. Please use <code>pass</code>
+in the infinite loop.</p>
+<p>Import the <code>time</code> module and use the
+<code>time.time()</code> function to measure the time the program spends
+in the loop. If this time exceeds <span
+class="math inline">\(10\)</span> seconds, ask the user if the program
+should exit. If the program is supposed to wait reset the timer and run
+the loop for another <span class="math inline">\(10\)</span>
+seconds.</p>
+<p>Tip: use <code>continue</code>, and <code>break</code>.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(4 points)
+</center>
+<p>Using the <a href="https://jupyter.org/">Jupyter notebook</a> please
+investigate the <a
+href="https://en.wikipedia.org/wiki/Logistic_map">logistic map</a>.</p>
+<p>Create a function that calculates the logistic map and draw the map
+using the <code>matplotlib</code> library, we will discuss how this
+library works during class. Make sure the notebook has a detailed
+description of your approach, use <a
+href="https://en.wikipedia.org/wiki/Literate_programming">literate
+programming</a>.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Re-implement the function from <strong>C</strong> to accept a keyword
+argument <code>drawFunction</code>. If the value of this keyword
+argument is not the default <code>None</code> then
+<code>drawFunction</code> points to a function that draws the data and a
+plot of the logistic map is produced automatically.</p>
+<p>Test if this works using a <code>lambda</code> expression.</p>
+<p>Can you use <code>is</code> to check if <code>drawFunction</code> has
+the default value?</p>
 </article>
 </body>
 </html>

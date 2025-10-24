@@ -62,3 +62,11 @@ logistic map is produced automatically.
 Test if this works using a `lambda` expression.
 
 Can you use `is` to check if `drawFunction` has the default value?
+
+<center>
+**ADDITIONAL MATERIALS**
+</center>
+
+- [Jupyter notebook](---ThisDir---/24-10-2025.ipynb) from 24-10-2025 class.
+
+

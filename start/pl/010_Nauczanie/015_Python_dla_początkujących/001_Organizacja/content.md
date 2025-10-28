@@ -15,5 +15,12 @@
 - Skala ocen za punkty z zadań pojawi się około 10 tygodnia
 - Na ostatnich zajęciach przeprowadzony jest egzamin, zagadnienia
   do zostaną rozesłane kilka tygodni wcześniej
-- Ocena końcowa jest średnią ważoną oceny z zadań oraz egzaminu TODO
+- Ocena końcowa jest średnią ważoną oceny z zadań, projektu oraz egzaminu:
+  - ocena z zadań: $35\%$
+  - ocena z projektu: $35\%$
+  - ocena z egzaminu: $30\%$
+- Tematy projektów powinny być ustalone i skonsultowane
+  z prowadzącym do połowy semestru.
+  - Projekty można wykonywać w grupie. Maksymalny
+  rozmiar grupy to $3$ osoby.
 

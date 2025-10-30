@@ -147,6 +147,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Old_Fashioned_Gym
 <li><a href="#zestaw-1">Zestaw 1</a></li>
 <li><a href="#zestaw-2">Zestaw 2</a></li>
 <li><a href="#zestaw-3">Zestaw 3</a></li>
+<li><a href="#zestaw-4">Zestaw 4</a></li>
 </ul>
 <h1 id="ocenianie">Ocenianie</h1>
 <ul>
@@ -701,6 +702,177 @@ f(k) = \sin(k \pi / 16) / k
 \]</span> , gdzie <span class="math inline">\(k\)</span> jest liczbą
 całkowitą, oraz znaleźć jej granicę przy <span class="math inline">\(k
 \rightarrow \infty\)</span>.</p>
+<h1 id="zestaw-4">Zestaw 4</h1>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a
+href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/004_Zestaw_4/2020-10-29-Note-19-14.pdf">slajdy</a>
+z zajęć 2020/2021</li>
+<li><a
+href="https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EQzo1_M0FJ9HiTFxa9Qpz1kBiR8Mi8Gwqeur09PRbxyv6w?e=NDes4C">nagranie</a>
+z zajęć</li>
+<li><a
+href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/004_Zestaw_4/poisson.nb">notebook</a>
+rozwiązujący równanie laplaca</li>
+<li>chaotyczny <a
+href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/004_Zestaw_4/cwiczenia.nb">notebook</a>
+z zajęć</li>
+<li>chaotyczne <a
+href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/004_Zestaw_4/cs.pdf">notatki</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/004_Zestaw_4/myfirstpackage.zip">przykładowy
+pakiet</a>
+<ul>
+<li><code>MyFirstPackage.wl</code> - pakiet</li>
+<li><code>test.nb</code> - notebook z przykładowym użyciem</li>
+<li>uwaga,<code>MyFirstPackage.wl</code> oraz <code>test.nb</code>
+powinny być w tym samym katalogu</li>
+</ul></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<ul>
+<li><p>Korzystając z wyniku zadania <strong>E</strong> z zestawu
+trzeciego proszę uzasadnić: <span class="math display">\[
+exp(i \phi) = cos(\phi) + i sin(\phi)
+\]</span> gdzie <span class="math inline">\(\phi\)</span> jest liczbą
+rzeczywistą.</p></li>
+<li><p>Proszę potwierdzić tą zależność rozwijając <span
+class="math inline">\(exp(i \phi)\)</span> z wykorzystaniem:</p>
+<pre><code>ComplexExpand</code></pre>
+<p>Funkcja ta rozwija dowolne wyrażenie zakładając, że wszystkie
+występujące w niej niewiadome są rzeczywiste.</p></li>
+</ul>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Proszę uogólnić zadanie <strong>E</strong> z zestawu trzeciego i z
+wykorzystaniem</p>
+<pre><code>MatrixExp</code></pre>
+<p>policzyć <span class="math inline">\(e^{x A + y B}\)</span> gdzie
+<span class="math inline">\(x, y\)</span> są liczbami rzeczywistymi. Jak
+ten wynik ma się do liczb zespolonych?</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(3 punkty)
+</center>
+<p>Korzystając z równań Cauchiego-Riemana (bez paniki, objaśnię na
+zajęciach i podam przykład) oraz</p>
+<pre><code>DSolve</code></pre>
+<p>proszę policzyć funkcję <span class="math display">\[
+sin(x + i y)
+\]</span> gdzie <span class="math inline">\(x , y\)</span> są liczbami
+rzeczywistymi przy założeniu, że jest ona analityczna (z założenia tego
+wynika, między innymi, że posiada ona pochodne) i znamy jej wartości dla
+<span class="math inline">\(sin(x + i 0) = sin(x)\)</span>.</p>
+<p>Wynik proszę porównać z rozwinięciem <span
+class="math inline">\(sin(x + i y)\)</span> za pomocą</p>
+<pre><code>ComplexExpand</code></pre>
+<p>dla kilku wartości <span class="math inline">\(x\)</span> oraz <span
+class="math inline">\(y\)</span>. Dodatkowo z wykorzystaniem</p>
+<pre><code>ContourPlot</code></pre>
+<p>proszę narysować wykres części rzeczywistej oraz urojonej <span
+class="math inline">\(sin(x + i y)\)</span>.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(4 punkty)
+</center>
+<p>Zajmiemy się obiektami typu</p>
+<pre><code>cn[x , y]</code></pre>
+<p>gdzie <span class="math inline">\(x , y\)</span> są liczbami
+rzeczywistymi. Dla wyrażeń tego typu zdefiniowane są operacje</p>
+<pre><code>plus[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 + x2 , y1 + y2]</code></pre>
+<pre><code>times[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 x2 - y1 y2 , x1 y2 + y1 x2]</code></pre>
+<pre><code>re[cn[x_ , y_]] := x</code></pre>
+<p>oraz</p>
+<pre><code>im[cn[x_ , y_]] := y</code></pre>
+<p>które nazywamy dodawaniem, mnożeniem, braniem części rzeczywistej
+oraz braniem części urojonej.</p>
+<p>Łatwo się domyślić, że obiekty tego typu mogą reprezentować liczby
+zespolone. Proszę to sprawdzić i zdefiniować funkcję</p>
+<pre><code>power</code></pre>
+<p>która dla liczby całkowitej <span class="math inline">\(n\)</span>
+oraz obiektu typu jak wyżej <span class="math inline">\(z\)</span></p>
+<pre><code>power[n][z]</code></pre>
+<p>zwraca potęgę <span class="math inline">\(z^{n}\)</span>. Wskazówka:
+można skorzystać z funkcji</p>
+<pre><code>Nest</code></pre>
+<p>ale przypadek podnoszenia do potęgi <span
+class="math inline">\(0\)</span> trzeba rozważać osobno.</p>
+<p>Wiedząc, że <span class="math display">\[
+Re(e^{i \phi}) = cos(\phi)
+\]</span> oraz <span class="math display">\[
+Im(e^{i \phi}) = sin(\phi)
+\]</span> proszę policzyć <span class="math inline">\(cos(1)\)</span>
+oraz <span class="math inline">\(sin(1)\)</span> z wykorzystaniem
+rozwinięcia eksponenty w szereg <span class="math display">\[
+e^{z} = exp(z) = \sum_{k = 0}^{\infty} \frac{z^{n}}{n!}
+\]</span> Proszę szereg obciąć po <span
+class="math inline">\(100\)</span> wyrazach i skorzystać z własnej
+implementacji podnoszenia do potęgi. Wynik proszę porównać z</p>
+<pre><code>N[Cos[1]]</code></pre>
+<p>oraz</p>
+<pre><code>N[Sin[1]]</code></pre>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Korzystając z funkcji</p>
+<pre><code>Solve</code></pre>
+<p>proszę znaleźć współrzędne <span class="math inline">\((x ,
+y)\)</span> punktów na płaszczyźnie, które leżą na przecięciu</p>
+<ul>
+<li>prostej przechodzącej przez punkty <span class="math inline">\((-1 ,
+1)\)</span>, <span class="math inline">\((1 , 2)\)</span></li>
+<li>okręgu o środku w <span class="math inline">\((\frac{1}{2} ,
+\frac{1}{2})\)</span> i promieniu <span
+class="math inline">\(2\)</span></li>
+</ul>
+<p>Dodatkowo proszę tą sytuację narysować (w Mathematica).</p>
+<center>
+<strong>F</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Proszę znaleźć wszystkie pierwiastki równania:</p>
+<p><span class="math display">\[
+z^{4} + z^{2} + 1 == 0
+\]</span></p>
+<p>oraz nanieść rozwiązania na płaszczyznę zespoloną (w
+Mathematice).</p>
+<center>
+<strong>G</strong>
+</center>
+<center>
+(3 punkty)
+</center>
+<p>Proszę przygotować pakiet który dla danej funkcji <span
+class="math inline">\(f\)</span> jednego argumentu rzeczywistego <span
+class="math inline">\(x\)</span>:</p>
+<ul>
+<li>rysuje jej wykres z zaznaczonymi, lokalnymi, minimami maksimami (na
+rysunku powinny pojawić się również współrzędne oraz informacja czy mamy
+do czynienia z minimum czy z maksimim)</li>
+<li>rysuje styczną do funkcji w zadanym miejscu</li>
+<li>liczy pole i zaznacza je na wykresie dla zadanego zakresu <span
+class="math inline">\(x\)</span></li>
+</ul>
 </article>
 </body>
 </html>

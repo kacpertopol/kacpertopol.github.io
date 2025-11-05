@@ -2,6 +2,20 @@
 **Materiały Dodatkowe**
 </center>
 
+Markdown:
+
+- [dodatkowe informacje](https://www.markdownguide.org/)
+- [program do robienia notatek w markdown](https://obsidian.md/)
+- ... strona którą czytacie jest edytowana w języku markdown
+
+Latex:
+
+- [dodatkowe tutoriale](https://docs.overleaf.com/getting-started/latex-tutorials#overleaf-latex-tutorials)
+- [przykładowy artykuł](---ThisDir---/fantastycznyTekst.zip)
+- [przykładowa prezentacja](---ThisDir---/prezentacja.zip)
+
+MISC:
+
 - [notebook z 15 XI 2022](---ThisDir---/15_11_2022.nb)
 
 <center>

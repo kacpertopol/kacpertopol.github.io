@@ -150,6 +150,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%2868873
 <li><a href="#set-1">Set 1</a></li>
 <li><a href="#set-2">Set 2</a></li>
 <li><a href="#set-3">Set 3</a></li>
+<li><a href="#set-4">Set 4</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -668,6 +669,102 @@ the default value?</p>
 <li><a
 href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/003_Set_3/24-10-2025.ipynb">Jupyter
 notebook</a> from 24-10-2025 class.</li>
+</ul>
+<h2 id="set-4">Set 4</h2>
+<center>
+<a
+href="https://en.wikipedia.org/wiki/Jan_%C5%81ukasiewicz#/media/File:Jan_%C5%81ukasiewicz.jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jan_%C5%81ukasiewicz.jpg/320px-Jan_%C5%81ukasiewicz.jpg" /></a>
+</center>
+<center>
+<em>…modules, packages, first look at classes and objects, …</em>
+</center>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(3 points)
+</center>
+<p>Implement a <a
+href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse
+Polish Notation</a> calculator. Base your program on a stack implemented
+as a python <code>list</code>. All operations of the calculator take the
+stack, modify it and return the modified stack. For example adding two
+numbers:</p>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> add(stack):</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> stack.pop()      <span class="co"># 1</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> stack.pop()      <span class="co"># 2</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    stack.append(x <span class="op">+</span> y)  <span class="co"># 3</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> stack         <span class="co"># 4</span></span></code></pre></div>
+<p>At <strong>1</strong> a number is popped from the end of the list
+with <code>pop</code> resulting in a shorter stack. At
+<strong>2</strong> another number is popped from the stack. Finally in
+<strong>3</strong> the stack is modified by adding a number to the end
+of the list with <code>append</code>. The new stack, shorter by one
+number, is returned in <strong>4</strong>.</p>
+<p>Add more functions:</p>
+<ul>
+<li>multiply two numbers</li>
+<li>print the stack (does not modify the stack)</li>
+<li>print the last value from the stack</li>
+<li>using the <code>math</code> module add several more mathematical
+operations</li>
+<li>print some help information (does not modify the stack)</li>
+<li>“quit” adds <code>None</code> to the stack</li>
+</ul>
+<p>Refer to the functions from a dictionary whose keys are python
+strings - the names of the functions. The values in the dictionaries are
+the functions themselves.</p>
+<p>Create a <code>while</code> loop that checks if <code>None</code> is
+in the stack using <code>in</code>, if it’s in the stack - exit. In the
+loop ask the user to enter the command name, run the appropriate command
+from the dictionary to modify the stack. If the command is not in the
+dictionary keys, assume that the user entered a floating point number
+and append it to the stack.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(1 points)
+</center>
+<p>Make the code from <strong>A</strong> a little more bullet proof:</p>
+<ul>
+<li>make sure that the functions from <strong>A</strong> check if there
+are enough elements on the stack</li>
+<li>make sure that when the user enters a number to push to the stack -
+it is a properly formatted floating point number (tip: use
+<code>try</code> and <code>except</code>, we will discuss this during
+class)</li>
+</ul>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Add another module <code>extra.py</code> with additional functions.
+Modify <strong>A</strong> to look inside this module for additional
+functions (tip: use the <code>__dict__</code> attribute, we will discuss
+this during class).</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Implement a simple class that iterates over the <a
+href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Fibonacci
+numbers</a>. The constructor takes one argument - the number of
+Fibonacci numbers to iterate over. We will discuss the details during
+class.</p>
+<center>
+<strong>ADDITONAL MATERIALS</strong>
+</center>
+<ul>
+<li><a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/004_Set_4/python_for_beginners_08-11-2024.zip">some
+miscellaneous materials from class</a></li>
 </ul>
 </article>
 </body>

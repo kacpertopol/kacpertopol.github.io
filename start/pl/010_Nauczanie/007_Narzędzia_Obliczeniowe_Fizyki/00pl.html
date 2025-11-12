@@ -58,6 +58,9 @@ SOFTWARE.
   </style>
   <style type="text/css">code{white-space: pre;}</style>
   <style type="text/css">p{text-align: justify;}</style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -78,6 +81,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Ybc7289-bw.jpg?16009592
 Golak)</a></li>
 <li><a href="./000pl.html">Zestawy zadań</a></li>
 <li><a href="./0000pl.html">Projekty studenckie</a></li>
+<li><a href="#zestaw-dla-grupy-1">Zestaw dla grupy 1</a></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
 <center>
@@ -114,6 +118,118 @@ class="uri">http://users.uj.edu.pl/~golak/</a></p>
 <h1 id="zestawy-zadań"><a href="./000pl.html">Zestawy zadań</a></h1>
 <h1 id="projekty-studenckie"><a href="./0000pl.html">Projekty
 studenckie</a></h1>
+<h1 id="zestaw-dla-grupy-1">Zestaw dla grupy 1</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(mnożenie i porównywanie macierzy , reprezentacja liczb zespolonych)
+</center>
+<p>Proszę sprawdzić czy liczbę zespoloną <span class="math inline">\(x +
+i y\)</span> (<span class="math inline">\(x\)</span>, <span
+class="math inline">\(y\)</span> to liczby rzeczywiste) można
+reprezentować w postaci macierzowej: <span class="math display">\[
+x A + y B
+\]</span> gdzie macierze: <span class="math display">\[
+A =  \left(
+\begin{array}{cc}
+1 &amp; 0 \\
+0 &amp; 1 \\
+\end{array}
+\right)
+\]</span> <span class="math display">\[
+B =  \left(
+\begin{array}{cc}
+0 &amp; -1 \\
+1 &amp; 0 \\
+\end{array}
+\right)
+\]</span></p>
+<p>Wskazówka: proszę sprawdzić czy liczby zespolone zapisane w ten
+sposób spełniają <a
+href="https://mathworld.wolfram.com/FieldAxioms.html">aksjomaty</a>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(Solve, MatrixExp , reprezentacja liczb zespolonych)
+</center>
+<p>Korzystając z reprezentacji liczb zespolonych z zadania
+<strong>A</strong> proszę sprawdzić czy zachodzi (<span
+class="math inline">\(\phi\)</span> to liczba rzeczywista): <span
+class="math display">\[
+\exp{i \phi} = \cos{\phi} + i \sin{\phi}
+\]</span></p>
+<p>Wskazówka: Pierwszym argumentem <code>Solve</code> może być równanie
+macierzowe.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(currying, zaawansowane szablony funkcji, reprezentacja liczb
+zespolonych)
+</center>
+<p>Zajmiemy się obiektami typu</p>
+<pre><code>cn[x , y]</code></pre>
+<p>gdzie <span class="math inline">\(x , y\)</span> są liczbami
+rzeczywistymi. Dla wyrażeń tego typu zdefiniowane są operacje</p>
+<pre><code>plus[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 + x2 , y1 + y2]</code></pre>
+<pre><code>times[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 x2 - y1 y2 , x1 y2 + y1 x2]</code></pre>
+<pre><code>re[cn[x_ , y_]] := x</code></pre>
+<p>oraz</p>
+<pre><code>im[cn[x_ , y_]] := y</code></pre>
+<p>które będziemy nazywać dodawaniem, mnożeniem, braniem części
+rzeczywistej oraz braniem części urojonej.</p>
+<p>Łatwo się domyślić, że obiekty tego typu mogą reprezentować liczby
+zespolone. Proszę to sprawdzić i zdefiniować funkcję</p>
+<pre><code>power</code></pre>
+<p>która dla liczby całkowitej <span class="math inline">\(n\)</span>
+oraz obiektu typu jak wyżej <code>z = cn[a, b]</code></p>
+<pre><code>power[n][z]</code></pre>
+<p>zwraca potęgę <span class="math inline">\(z^{n}\)</span>. Wskazówka:
+można skorzystać z funkcji</p>
+<pre><code>Nest</code></pre>
+<p>Wiedząc, że <span class="math display">\[
+Re(e^{i \phi}) = cos(\phi)
+\]</span> oraz <span class="math display">\[
+Im(e^{i \phi}) = sin(\phi)
+\]</span> proszę policzyć <span class="math inline">\(cos(1)\)</span>
+oraz <span class="math inline">\(sin(1)\)</span> z wykorzystaniem
+rozwinięcia eksponenty w szereg <span class="math display">\[
+e^{z} = exp(z) = \sum_{k = 0}^{\infty} \frac{z^{n}}{n!}
+\]</span> Proszę szereg obciąć po <span
+class="math inline">\(100\)</span> wyrazach i skorzystać z własnej
+implementacji podnoszenia do potęgi. Wynik proszę porównać z</p>
+<pre><code>N[Cos[1]]</code></pre>
+<p>oraz</p>
+<pre><code>N[Sin[1]]</code></pre>
+<p>Wskazówka: <code>re</code> oraz <code>im</code> można wrzucić pod
+sumę.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(DSolve, równania różniczkowe)
+</center>
+<p>Korzystając z równań Cauchiego-Riemana (bez paniki, objaśnię na
+zajęciach i podam przykład) oraz</p>
+<pre><code>DSolve</code></pre>
+<p>proszę policzyć funkcję <span class="math display">\[
+sin(x + i y)
+\]</span> gdzie <span class="math inline">\(x , y\)</span> są liczbami
+rzeczywistymi przy założeniu, że jest ona analityczna (z założenia tego
+wynika, między innymi, że posiada ona pochodne) i znamy jej wartości dla
+<span class="math inline">\(sin(x + i 0) = sin(x)\)</span>.</p>
+<p>Wynik proszę porównać z rozwinięciem <span
+class="math inline">\(sin(x + i y)\)</span> za pomocą</p>
+<pre><code>ComplexExpand</code></pre>
+<p>dla kilku wartości <span class="math inline">\(x\)</span> oraz <span
+class="math inline">\(y\)</span>. Dodatkowo z wykorzystaniem</p>
+<pre><code>ContourPlot</code></pre>
+<p>proszę narysować wykres części rzeczywistej oraz urojonej <span
+class="math inline">\(sin(x + i y)\)</span>.</p>
+<p>Wskazówka: oprócz równania różniczkowego cząstkowego w liście równań
+powinny pojawić się warunki brzegowe.</p>
 </article>
 </body>
 </html>

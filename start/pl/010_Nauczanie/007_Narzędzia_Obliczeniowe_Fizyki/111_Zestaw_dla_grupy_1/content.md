@@ -1,4 +1,11 @@
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [równania Cauchiego - Riemana](https://en.wikipedia.org/wiki/Cauchy%E2%80%93Riemann_equations)
+- [chaotyczny notebook z zajęć](---ThisDir---/nof_13-11-2025_zajecia.nb)
+
+<center>
 **A**
 </center>
 

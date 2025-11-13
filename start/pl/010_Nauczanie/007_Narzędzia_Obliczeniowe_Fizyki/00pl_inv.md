@@ -70,6 +70,13 @@ Wykłady profesora Jacka Golaka bedą dostępne na stronie:
 # Zestaw dla grupy 1
 
 <center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [równania Cauchiego - Riemana](https://en.wikipedia.org/wiki/Cauchy%E2%80%93Riemann_equations)
+- [chaotyczny notebook z zajęć](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/111_Zestaw_dla_grupy_1/nof_13-11-2025_zajecia.nb)
+
+<center>
 **A**
 </center>
 

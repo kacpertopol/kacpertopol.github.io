@@ -113,3 +113,7 @@ the matrices. Measure how much time the script takes to execute.
 </center>
 
 - [some miscellaneous materials from class](---ThisDir---/python_for_beginners_16-11-2024.zip)
+- [minimal example](---ThisDir---/test_try_catch.py)
+  - contains nested `try` - `catch` blocks
+    - this is not very elegant
+  - to exit in linux press CTRL + C 

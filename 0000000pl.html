@@ -152,6 +152,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%2868873
 <li><a href="#set-3">Set 3</a></li>
 <li><a href="#set-4">Set 4</a></li>
 <li><a href="#set-5">Set 5</a></li>
+<li><a href="#set-6">Set 6</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -895,7 +896,7 @@ href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zada�
 miscellaneous materials from class</a></li>
 <li><a
 href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/005_Set_5/test_try_catch.py">minimal
-example</a>
+example of RPN calculator</a>
 <ul>
 <li>contains nested <code>try</code> - <code>catch</code> blocks
 <ul>
@@ -904,6 +905,204 @@ example</a>
 <li>to exit in linux press CTRL + C</li>
 </ul></li>
 </ul>
+<h2 id="set-6">Set 6</h2>
+<center>
+<a href="https://en.wikipedia.org/wiki/File:Gospers_glider_gun.gif"><img
+src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" /></a>
+</center>
+<center>
+<em>…life, numpy, matplotlib, more on classes and exceptions…</em>
+</center>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Using the <code>numpy</code> library please implement <a
+href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">the game of
+life</a> with periodic boundary conditions (the left half of the grid is
+glued to the right, the top part of the grid is glued to the bottom …
+essentially creating a torus). The implementation should be a single
+script. The grid of cells is represented by a <code>numpy</code> array
+with an integer <code>dtype</code>. When implementing a single iteration
+of the game, please stick to the <code>numpy</code> library as strictly
+as possible to boost performance. Test the performance using large grids
+(1920 by 1080 and larger).</p>
+<p>Tip: Use the <code>numpy.roll</code> function to obtain the state of
+neighbouring cells. Visualization can be achieved using the
+<code>matplotlib.pyplot</code> library functions, <a
+href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html"><code>imshow</code></a>
+or <a
+href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.matshow.html"><code>matshow</code></a>
+function. We will cover the basic usage of <code>matplotlib</code>
+during class.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(4 points)
+</center>
+<p>Extend <strong>A</strong> to continuous values: the state of the cell
+can be dead (0), alive (1) or anything in between. There are many
+sensible ways of doing this. One way is “smooth life”, see the
+links:</p>
+<ul>
+<li><a href="https://smooth-life.netlify.app/">online
+simulation</a></li>
+<li><a href="http://arxiv.org/abs/1111.1567">pre-print</a></li>
+</ul>
+<p>Tip: The function <a
+href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve2d.html"><code>convolve2d</code></a>
+from the <code>scipy</code> might be helpful. It works with
+<code>numpy</code> arrays. Visualization can be achieved using the
+<code>matplotlib.pyplot</code> library functions, <a
+href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html"><code>imshow</code></a>
+or <a
+href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.matshow.html"><code>matshow</code></a>
+function. We will cover the basic usage of <code>matplotlib</code>
+during class.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Add a simple interactive command line interface to <strong>A</strong>
+or <strong>B</strong>. The program should give the user at least the
+following options:</p>
+<ul>
+<li>save state of the game (the grid of cells) into a file with
+specified path</li>
+<li>load state of the game (the grid of cells) from a file with
+specified path</li>
+<li>run a specified amount of iterations</li>
+<li>quit</li>
+</ul>
+<p>Be persistent, if the user types an incorrect value prompt him / her
+again. To do this use <code>try</code>, <code>except</code>.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Wrap everything (<strong>A</strong> + <strong>C</strong> or
+<strong>B</strong> + <strong>C</strong>) into a class. Place the class
+definition in a separate module and use this module in a script.</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Write a wrapper for the <code>numpy</code> array representing a grid
+of cells in the game of life. Try to make this class immutable (is this
+really possible in python?). Add the <code>__hash__</code> and
+<code>__eq__</code> methods to the class.</p>
+<center>
+<strong>ADDITIONAL MATERIALS</strong>
+</center>
+<p>… Obtaining the number of neighbours for the basic <a
+href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">game of
+life</a> …</p>
+<p>Let’s assume that we start from random configuration of <span
+class="math inline">\(4 \times 4\)</span> cells:</p>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np                                        <span class="co"># 1</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> <span class="dv">4</span>                                                     <span class="co"># 2</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>state <span class="op">=</span> np.random.randint(<span class="dv">0</span> , high <span class="op">=</span> <span class="dv">2</span> , size <span class="op">=</span> (s , s))  <span class="co"># 3</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(state)                                              <span class="co"># 4</span></span></code></pre></div>
+<p>In <strong>1</strong> we import the <code>numpy</code> library, in
+<strong>2</strong> we set the size of the matrix containing cell states,
+in <strong>3</strong> we draw a random distribution of cells (0 meaning
+a dead cell 1 meaning a live cell, the integers are drawn from a uniform
+distribution between <span class="math inline">\(0\)</span> and
+<code>high - 1</code> <span class="math inline">\(= 1\)</span>). Finally
+<strong>4</strong> prints our result:</p>
+<pre><code>[[0 0 0 0]
+ [0 1 1 0]
+ [1 1 0 1]
+ [0 1 0 1]]</code></pre>
+<p>To get a table whose values at a specific row and column correspond
+the state if the eight neighbors (Up, Down , Right , Left , UpRight ,
+DownLeft , UpLeft, DownRight) we first <code>roll</code> the arrays to
+obtain:</p>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>U <span class="op">=</span> np.roll(state , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>D <span class="op">=</span> np.roll(state , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>R <span class="op">=</span> np.roll(state , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> np.roll(state , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>UR <span class="op">=</span> np.roll(np.roll(state , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>) , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>DL <span class="op">=</span> np.roll(np.roll(state , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>) , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>UL <span class="op">=</span> np.roll(np.roll(state , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>) , <span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>DR <span class="op">=</span> np.roll(np.roll(state , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">0</span>) , <span class="op">-</span><span class="dv">1</span> , axis <span class="op">=</span> <span class="dv">1</span>)</span></code></pre></div>
+<p>and then sum:</p>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>neighbors <span class="op">=</span> U <span class="op">+</span> D <span class="op">+</span> R <span class="op">+</span> L <span class="op">+</span> UR <span class="op">+</span> DL <span class="op">+</span> UL <span class="op">+</span> DR</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(neighbors)</span></code></pre></div>
+<p>as a result, each cell has the following number of neighbors:</p>
+<pre><code>[[3 3 4 2]
+ [4 3 3 3]
+ [5 4 6 3]
+ [5 2 4 2]]</code></pre>
+<p>This should be correct if we assume periodic boundaries (the left
+edge is glued to the right edge and the top edge is glued to the bottom
+edge).</p>
+<p>The next bit is tricky. There are many ways of implementing a single
+iteration of the game. Since we are looking to eliminate regular python
+loops to increase the speed of our program have a look at the following
+functions <code>np.ones</code>, <code>np.zeros</code>,
+<code>np.where</code>, <code>np.logical_and</code>,
+<code>np.logical_or</code> and then have a close look the following
+code:</p>
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>allAlive <span class="op">=</span> np.ones((s , s) , dtype <span class="op">=</span> np.int64)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>allDead <span class="op">=</span> np.zeros((s , s) , dtype <span class="op">=</span> np.int64)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>np.where(np.logical_and(state <span class="op">==</span> <span class="dv">0</span> , neighbors <span class="op">==</span> <span class="dv">3</span>) , allAlive , state)</span></code></pre></div>
+<p>This can be easily extended to include the whole set of rules of the
+game. Remember stick to <code>numpy</code> for performance.</p>
+<p>… The same thing but this time with convolutions …</p>
+<p>Let’s import the <code>convolve2d</code> function from the
+<code>scipy.signal</code> library. Note that we are not importing the
+whole package nut just one function:</p>
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.signal <span class="im">import</span> convolve2d</span></code></pre></div>
+<p>Next let’s try this:</p>
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> np.array([[<span class="dv">1</span> , <span class="dv">1</span> , <span class="dv">1</span>] , [<span class="dv">1</span> , <span class="dv">0</span> , <span class="dv">1</span>] , [<span class="dv">1</span> , <span class="dv">1</span> , <span class="dv">1</span>]])</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>neighborsWithConvolve2D <span class="op">=</span> convolve2d(state , k , mode <span class="op">=</span> <span class="st">&quot;same&quot;</span> , boundary<span class="op">=</span><span class="st">&quot;wrap&quot;</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(neighborsWithConvolve2D)</span></code></pre></div>
+<p>The result should be the same as <code>neighbors</code>:</p>
+<pre><code>[[3 3 4 2]
+ [4 3 3 3]
+ [5 4 6 3]
+ [5 2 4 2]]</code></pre>
+<p>The result is the same but the method is more general. We can look at
+a wider neighborhood of a cell by modifying <code>k</code>.</p>
+<p>… The user input is all wrong …</p>
+<p>Tip: Saving a <code>numpy</code> array can be obtained by running
+<code>np.save</code> (or <code>numpy.save</code> if we used just
+<code>import numpy</code>). Loading a <code>numpy</code> array can be
+obtained by running <code>np.load</code>. Both these functions raise
+exceptions if they get a bad file path. This means that we can use them
+inside <code>try:</code> and <code>except:</code> blocks. The function
+<code>int</code> also raised exceptions when it’s string argument is not
+a correctly formatted integer.</p>
+<p>… Hiding class members …</p>
+<p>A nice article on name mangling at <a
+href="https://www.geeksforgeeks.org/name-mangling-in-python/">geeksforgeeks</a>.</p>
+<p>… Calculating the hash of a numpy array …</p>
+<p>To calculate the hash of the data that is contained inside a
+<code>numpy</code> array <code>a</code> try
+<code>hash(a.data.tobytes())</code>.</p>
+<p>… Implementation using <a
+href="https://www.pygame.org/docs/">pygame</a> …</p>
+<p>See the <a href="https://www.pygame.org/docs/">pygame</a> website for
+installation instructions. To implement the game of life, both the
+classic version and the smooth version, you can use the <a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/006_Set_6/pygame_game_of_life_template.py">template</a>.
+Please read the comments from the template carefully.</p>
 </article>
 </body>
 </html>

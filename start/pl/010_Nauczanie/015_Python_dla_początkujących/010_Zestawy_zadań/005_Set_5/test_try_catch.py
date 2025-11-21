@@ -2,7 +2,7 @@
 
 FUNCTIONS = {
             "+" : lambda s : s[:-2] + [s[-2] + s[-1]] , 
-            "*" : lambda s : s[:-2] + [s[-2] + s[-1]] ,
+            "*" : lambda s : s[:-2] + [s[-2] * s[-1]] ,
             "-" : lambda s : s[:-1] + [-s[-1]]
         }
 

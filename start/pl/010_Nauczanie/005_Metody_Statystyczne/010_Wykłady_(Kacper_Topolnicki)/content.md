@@ -70,7 +70,8 @@ Dziękuję!
 **wykład 3**
 </center>
 
-- [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/ETvhowl_ATJFtdr8u9hQPIYBl0fLkqByr8SkHLisdMi_YQ?e=nVGIbP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+<!--- - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/ETvhowl_ATJFtdr8u9hQPIYBl0fLkqByr8SkHLisdMi_YQ?e=nVGIbP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) --->
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/IQCwKO3gRsLVSJJKqnYzvtGrAXChMbKTxhmhaSHnAu2ezxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HURxuc)
   - aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail
   - nie można pliku pobrać
 - [notatki z wykładu](---ThisDir---/ms_3_2024_2025.pdf)
@@ -90,7 +91,8 @@ Dziękuję!
 **wykład 4**
 </center>
 
-- [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EfPXwEXTyeNPixAZkLx23r0BKni2JWSGYCwhMweqgtUeEg?e=0ksFTj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+<!--- - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EfPXwEXTyeNPixAZkLx23r0BKni2JWSGYCwhMweqgtUeEg?e=0ksFTj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) --->
+- [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/IQAT-mwDuyElQ7JpV4TglloVASFvYH28BVYKsBNFiw9SykM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wKN0GE) 
   - aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail
   - nie można pliku pobrać
 - [notatki z wykładu](---ThisDir---/ms_4_2024_2025.pdf)

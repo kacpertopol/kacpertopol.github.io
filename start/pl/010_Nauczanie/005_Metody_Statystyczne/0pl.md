@@ -135,6 +135,10 @@ Dziękuję!
 **wykład 3**
 </center>
 
+- [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/ETvhowl_ATJFtdr8u9hQPIYBl0fLkqByr8SkHLisdMi_YQ?e=nVGIbP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  - aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail
+  - nie można pliku pobrać
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_3_2024_2025.pdf)
 - [notebook Mathematici](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/05_12_2020.nb)
   - po uruchomieniu w Mathematice wystarczy *Evaluation -> Evaluate Notebook*
 - youtube
@@ -146,17 +150,15 @@ Dziękuję!
     (arviz prawdopodobnie instalowany przy okazji pymc)
 - wykład korzystał również z:
   - [introduction to probability, statistics and random processes](https://www.probabilitycourse.com/)
-- nagrania i notatki 2024 / 2025
-  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_3_2024_2025.pdf)
-  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/ETvhowl_ATJFtdr8u9hQPIYBl0fLkqByr8SkHLisdMi_YQ?e=nVGIbP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- nagrania i notatki z poprzednich lat
-  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EdR3X9a13fxNhbFXGGwTI9sBFe_yGXrUM5M15T8yQN8dRg?e=dHChaG)
-  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/wyklad_3.pdf)
 
 <center>
 **wykład 4**
 </center>
 
+- [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EfPXwEXTyeNPixAZkLx23r0BKni2JWSGYCwhMweqgtUeEg?e=0ksFTj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  - aby obejrzeć trzeba się zalogować uniwersyteckim adresem e-mail
+  - nie można pliku pobrać
+- [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_4_2024_2025.pdf)
 - wykład korzystał również z:
   - [rodzaje łańcuchów](http://wwwf.imperial.ac.uk/~ejm/M3S4/NOTES3.pdf)
   - [unikalność rozwiązania](http://www.stat.yale.edu/~jtc5/251/readings/Basics%20of%20Applied%20Stochastic%20Processes_Serfozo.pdf) 
@@ -166,13 +168,6 @@ Dziękuję!
 - notebooki Mathematici 
   - [Bernulli](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.nb)
   - [Markov](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020_1.nb)
-- nagrania i notatki 2024 / 2025
-  - [nagranie z wykładu](https://ujchmura.sharepoint.com/:v:/t/Section_578887_1/EfPXwEXTyeNPixAZkLx23r0BKni2JWSGYCwhMweqgtUeEg?e=0ksFTj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/ms_4_2024_2025.pdf)
-- nagrania i notatki z poprzednich lat
-  - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
-  - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
-
 
 <!--
 <center>

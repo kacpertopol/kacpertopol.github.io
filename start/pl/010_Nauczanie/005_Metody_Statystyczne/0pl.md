@@ -130,7 +130,6 @@ Dziękuję!
   - dodatkowe notebooki z wykładu: [1](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples.nb) oraz [2](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/examples1.nb)
     - wystarczy uruchomić w mathematice pliki *.nb* i w menu *Evaluation - Evaluate Notebook*
 
-<!--
 
 <center>
 **wykład 3**
@@ -174,6 +173,8 @@ Dziękuję!
   - [nagranie z wykładu](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ERUnK5HhpQRJm6vAz1wvIOMB-dV6CH8OmZU7TyFEcU40iQ?e=PbtAyF)
   - [notatki z wykładu](./start/pl/010_Nauczanie/005_Metody_Statystyczne/010_Wykłady_(Kacper_Topolnicki)/20_12_2020.pdf)
 
+
+<!--
 <center>
 **wykład 5**
 </center>

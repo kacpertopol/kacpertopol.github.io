@@ -150,6 +150,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Old_Fashioned_Gym
 <li><a href="#zestaw-4">Zestaw 4</a></li>
 <li><a href="#zestaw-5">Zestaw 5</a></li>
 <li><a href="#zestaw-6">Zestaw 6</a></li>
+<li><a href="#zestaw-7">Zestaw 7</a></li>
 </ul>
 <h1 id="ocenianie">Ocenianie</h1>
 <ul>
@@ -1052,6 +1053,108 @@ wersji powinna korzystać z funkcji:</p>
 rachunkach proszę stosować symbole rozpoczynające się z małej litery (na
 przykład “sin” zamiast “Sin”) aby uniknąć konfliktu z wbudowanymi w
 Mathematicę definicjami.</p>
+<h1 id="zestaw-7">Zestaw 7</h1>
+<center>
+<strong>MATERIAŁY DODATKOWE</strong>
+</center>
+<ul>
+<li><a
+href="https://mathworld.wolfram.com/Plane.html">płaszczyzna</a></li>
+<li><a
+href="https://mathworld.wolfram.com/Plane-PlaneIntersection.html">dwie
+płaszczyzny</a></li>
+<li><a
+href="./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/007_Zestaw_7/all.pdf">chaotyczne
+slajdy</a></li>
+<li><a
+href="https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EUX8oe3H3YNBqorS5Gv4MjYBQ0yVeJ874TyZo4TTOcjY4w?e=IH9H4l">chaotyczne
+nagranie</a></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Proszę zdefiniować typ danych opisujący płaszczyznę w przestrzeni
+trój wymiarowej</p>
+<ul>
+<li>płaszczyznę powinien określać zestaw (współrzędnych) trzech punktów
+do niej należących</li>
+<li>wzorzec definiujący ten typ danych powinien sprawdzać czy mamy do
+czynienia z trzema różnymi punktami</li>
+</ul>
+<p>Mając ten typ danych proszę zaimplementować funkcję, która rysyje tą
+płaszczyznę. Wskazówka, proszę zajrzeć do dokumentacji:</p>
+<pre><code>InfinitePlane</code></pre>
+<p>oraz</p>
+<pre><code>Graphics2D</code></pre>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Korzystając z typu danych zdefiniowanego w zadaniu <strong>A</strong>
+proszę napisać funkcję zwracającą wektor normalny do płaszczyzny.
+Dodatkowo proszę narysować kilka płaszczyzn oraz wykorzystująć:</p>
+<pre><code>Arrow</code></pre>
+<p>kilka odpowiednich wektorów normalnych mających początek zaczeopiony
+w tych płaszczyznach.</p>
+<p>Proszę zwrócić uwagę, że kolejnośc punktów w typie danych z
+<strong>A</strong> ma znaczenie.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(3 punkty)
+</center>
+<p>Proszę zaimplementować funkcję, która biorąc jako argument typ danych
+z zadania <strong>A</strong> zwróci <em>funkcję</em>, która:</p>
+<ul>
+<li>pobiera dwie liczby rzeczywiste</li>
+<li>zwraca współrzędne punktu leżącego na płaszczyźnie.</li>
+</ul>
+<p>Wzkazówka. Korzystając z funkcji</p>
+<pre><code>Orthogonalize</code></pre>
+<p>oraz</p>
+<pre><code>Normalize</code></pre>
+<p>proszę wprowadzić dwu wymiarowy układ współrzędnych na tej
+płaszczyźnie.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(3 punkty)
+</center>
+<p>Proszę zaimplementować funkcję, która korzystając z typu danych w
+zadaniu <strong>A</strong>:</p>
+<ul>
+<li>pobierze dwie płaszczyzny</li>
+<li>zwróci <em>funkcję</em> pobierającą jedną liczbę rzeczywistą i
+zwracającą współrzędne punktu leżącego na przecięciu tych dwóch
+płaszczyzn</li>
+<li>proszę sprawdzić czy plaszczyzny nie są przypadkiem równoległe,
+jeżeli są proszę “rzucić” wyjątek wykorzystująć</li>
+</ul>
+<pre><code>Throw</code></pre>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(2 punkty)
+</center>
+<p>Proszę policzyć równanie ruchu dla paciorka o masie <span
+class="math inline">\(1\)</span> nanizanego na poziomy pręt. Paciorek
+porusza się bez tarcia po pręcie i jest dodatkowo połączony ze ścianą
+sprężynką o stałej sprężystości <span class="math inline">\(1\)</span>.
+Rachunek proszę przeprowadzić korzystając z formalizmu Lagrangea w
+Mathematice. Następnie proszę rozwiązać otrzymane równanie ruchu
+korzystając z</p>
+<pre><code>NDSolve</code></pre>
+<p>zakładając, że na początku ciało było w pozycji równowagi i miało
+prędkość początkową <span class="math inline">\(0.5\)</span>. Jednostki
+masy oraz odległości są dowolne.</p>
 </article>
 </body>
 </html>

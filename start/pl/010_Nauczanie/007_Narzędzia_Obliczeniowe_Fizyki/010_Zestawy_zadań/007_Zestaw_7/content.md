@@ -6,6 +6,7 @@
 - [dwie płaszczyzny](https://mathworld.wolfram.com/Plane-PlaneIntersection.html)
 - [chaotyczne slajdy](---ThisDir---/all.pdf)
 - [chaotyczne nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EUX8oe3H3YNBqorS5Gv4MjYBQ0yVeJ874TyZo4TTOcjY4w?e=IH9H4l)
+- [chaotyczny notebook z zajęć](---ThisDir---/27-11-2025.nb)
 
 <center>
 **A**

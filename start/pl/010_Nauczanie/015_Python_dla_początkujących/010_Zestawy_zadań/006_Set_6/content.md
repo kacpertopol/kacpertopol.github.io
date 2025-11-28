@@ -100,6 +100,8 @@ Add the `__hash__` and `__eq__` methods to the class.
 **ADDITIONAL MATERIALS**
 </center>
 
+- [some code from class 28-11-2025](---ThisDir---/argparse_example.py)
+
 ... Obtaining the number of neighbours for the basic 
 [game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) ...
 

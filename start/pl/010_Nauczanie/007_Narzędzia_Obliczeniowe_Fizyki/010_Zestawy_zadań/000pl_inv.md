@@ -1026,6 +1026,7 @@ z wbudowanymi w Mathematicę definicjami.
 - [dwie płaszczyzny](https://mathworld.wolfram.com/Plane-PlaneIntersection.html)
 - [chaotyczne slajdy](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/007_Zestaw_7/all.pdf)
 - [chaotyczne nagranie](https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/EUX8oe3H3YNBqorS5Gv4MjYBQ0yVeJ874TyZo4TTOcjY4w?e=IH9H4l)
+- [chaotyczny notebook z zajęć](./start/pl/010_Nauczanie/007_Narzędzia_Obliczeniowe_Fizyki/010_Zestawy_zadań/007_Zestaw_7/27-11-2025.nb)
 
 <center>
 **A**

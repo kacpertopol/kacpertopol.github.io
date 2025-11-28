@@ -2,7 +2,8 @@
 **MATERIAŁY DODATKOWE**
 </center>
 
-- [chaotyczny notebook z zajęć](---ThisDir---/14-11-2023.nb)
+- [chaotyczny notebook z zajęć 14-11-2025](---ThisDir---/14-11-2023.nb)
+- [chaotyczny notebook z zajęć 25-11-2025](---ThisDir---/25-11-2025.nb)
 
 <center>
 **A**

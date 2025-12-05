@@ -153,6 +153,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%2868873
 <li><a href="#set-4">Set 4</a></li>
 <li><a href="#set-5">Set 5</a></li>
 <li><a href="#set-6">Set 6</a></li>
+<li><a href="#set-7">Set 7</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -1111,6 +1112,95 @@ installation instructions. To implement the game of life, both the
 classic version and the smooth version, you can use the <a
 href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/006_Set_6/pygame_game_of_life_template.py">template</a>.
 Please read the comments from the template carefully.</p>
+<h2 id="set-7">Set 7</h2>
+<center>
+<a
+href="https://commons.wikimedia.org/wiki/File:Digital_rain_animation_medium_letters_shine.gif"><img
+src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif" /></a>
+</center>
+<center>
+<em>…magic methods, class functions and the matrix…</em>
+</center>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Implement the smart function from exercise <strong>D</strong> in
+<strong>Set 2</strong>. Use a function decorator. This decorator is a
+class with a <code>__call__</code> method. Objects of this class also
+have a field that contains a dictionary with previous arguments and
+return values.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Expand the decorator from the previous exercise to accept a function
+with an arbitrary number of arguments positional argument.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(1 points)
+</center>
+<p>Expand the decorator from the previous exercise to accept a function
+that has an arbitrary number of positional and keyword arguments.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(2 points)
+</center>
+<p>Define a class <code>BadHash</code> of mutable integer objects. Each
+time a new instance of the object is created, increment a class
+variable. Add with a <code>__hash__</code> method to … CAREFULL THIS IS
+A BIG MISTAKE! But we will go with it to explore the consequences. Use
+this method with functions that use our decorator.</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(4 points)
+</center>
+<p>Define a class whose objects hold a numerical value. At minimum, the
+class should have the following methods apart from the constructor:</p>
+<ul>
+<li><code>__add__</code>, <code>__sub__</code> “magic” method to add and
+subtract objects of this class using the <code>+</code> and
+<code>-</code> operators</li>
+<li><code>__mul__</code>, <code>__truediv__</code> “magic” methods to
+multiply and divide objects of this class using the <code>*</code> and
+<code>/</code> operators</li>
+<li><code>__neg__</code> to get the negative number using the
+<code>-</code> operator</li>
+<li><code>__str__</code>, <code>__repr__</code> to return the string
+representation of the number in objects of this class</li>
+</ul>
+<p>In addition to performing numerical operations <code>__add__</code>,
+<code>__sub__</code>, <code>__mul__</code>, <code>__truediv__</code>,
+and <code>__neg__</code> should appropriately increase the four class
+counters that determine how many additions, multiplications, divisions
+and negations were executed. Add the following class methods:</p>
+<ul>
+<li><code>resetCounters</code> resets counters that count the number of
+multiplications, additions, divisions and negations</li>
+<li><code>getCounters</code> returns a tuple with the counters of
+multiplications, additions, divisions and negations</li>
+</ul>
+<p>Use this class to determine the computational complexity of matrix
+multiplication and calculating the application of a matrix to a
+vector.</p>
+<center>
+<strong>ADDITIONAL MATERIALS</strong>
+</center>
+<ul>
+<li>some <a
+href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/007_Set_7/misc.py">miscellaneous
+code</a> from class, please have a look at the comments</li>
+</ul>
 </article>
 </body>
 </html>

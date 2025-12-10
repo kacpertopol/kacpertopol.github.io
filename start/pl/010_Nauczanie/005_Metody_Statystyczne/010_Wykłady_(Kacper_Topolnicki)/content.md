@@ -131,3 +131,18 @@ Dziękuję!
   - [page rank](https://youtu.be/JGQe4kiPnrU?si=xTis4SE0u9s5rjMR)
   - [ukryte łańcychy Markova](https://youtu.be/RWkHJnFj5rY?si=RaE37GDhbJLC40cd)
 
+<center>
+**meteriały dodatkowe**
+</center>
+
+- procesy kolejkowe
+  - [YouTube Mathemaniac](https://youtu.be/rBIQmwaoZfs?si=NojjyGUyzAOufTHH)
+  - proszę obejrzeć fragment wykładu 6 - jest tam min mowa o notacji Kendalla
+  - ... wikipedia ...
+    - [procesy kolejkowe](https://en.wikipedia.org/wiki/Queueing_theory)
+    - [notacja](https://en.wikipedia.org/wiki/Kendall%27s_notation)
+- ukryte modele Markova oraz algorytm Viterbiego
+  - [YouTube Normalized Nerd](https://youtu.be/RWkHJnFj5rY?si=RaE37GDhbJLC40cd)
+    - jeżeli ktoś ma problemy z językiem angielskim - przetłumaczona automatycznie
+      na polski ścieżka dźwiękowa jest dość dobrej jakości
+  - [YouTube DataMListic](https://youtu.be/LGY4yMWUjL4?si=-P89Az5Qur6cLGpd)

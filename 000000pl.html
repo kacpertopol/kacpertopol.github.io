@@ -86,6 +86,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Old_Fashioned_Gym
 <li><a href="#zestaw-7">Zestaw 7</a></li>
 <li><a href="#zestaw-8">Zestaw 8</a></li>
 <li><a href="#zestaw-9">Zestaw 9</a></li>
+<li><a href="#zestaw-10">Zestaw 10</a></li>
 </ul>
 <h1 id="zestaw-1">Zestaw 1</h1>
 <center>
@@ -737,6 +738,97 @@ najmniejszej.</p>
 <p>Proszę zaimportować obraz na którym znajduje się kartka papieru z
 tekstem. Korzystając z <code>ListConvolve</code>,
 <code>StandardDeviation</code> proszę spróbować usunąć tło tekstu.</p>
+<h1 id="zestaw-10">Zestaw 10</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(4 punkty)
+</center>
+<p>Zajmiemy się obiektami typu</p>
+<pre><code>cn[x , y]</code></pre>
+<p>gdzie <span class="math inline">\(x , y\)</span> są liczbami
+rzeczywistymi. Dla wyrażeń tego typu zdefiniowane są operacje</p>
+<pre><code>plus[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 + x2 , y1 + y2]</code></pre>
+<pre><code>times[cn[x1_ , y1_]][cn[x2_ , y2_]] := cn[x1 x2 - y1 y2 , x1 y2 + y1 x2]</code></pre>
+<pre><code>re[cn[x_ , y_]] := x</code></pre>
+<p>oraz</p>
+<pre><code>im[cn[x_ , y_]] := y</code></pre>
+<p>które nazywamy dodawaniem, mnożeniem, braniem części rzeczywistej
+oraz braniem części urojonej.</p>
+<p>Łatwo się domyślić, że obiekty tego typu mogą reprezentować liczby
+zespolone. Proszę to sprawdzić i zdefiniować funkcję</p>
+<pre><code>power</code></pre>
+<p>która dla liczby całkowitej <span class="math inline">\(n\)</span>
+oraz obiektu typu jak wyżej <span class="math inline">\(z\)</span></p>
+<pre><code>power[n][z]</code></pre>
+<p>zwraca potęgę <span class="math inline">\(z^{n}\)</span>. Wskazówka:
+można skorzystać z funkcji</p>
+<pre><code>Nest</code></pre>
+<p>ale przypadek podnoszenia do potęgi <span
+class="math inline">\(0\)</span> trzeba rozważać osobno.</p>
+<p>Wiedząc, że <span class="math display">\[
+Re(e^{i \phi}) = cos(\phi)
+\]</span> oraz <span class="math display">\[
+Im(e^{i \phi}) = sin(\phi)
+\]</span> proszę policzyć <span class="math inline">\(cos(1)\)</span>
+oraz <span class="math inline">\(sin(1)\)</span> z wykorzystaniem
+rozwinięcia eksponenty w szereg <span class="math display">\[
+e^{z} = exp(z) = \sum_{k = 0}^{\infty} \frac{z^{n}}{n!}
+\]</span> Proszę szereg obciąć po <span
+class="math inline">\(100\)</span> wyrazach i skorzystać z własnej
+implementacji podnoszenia do potęgi. Wynik proszę porównać z</p>
+<pre><code>N[Cos[1]]</code></pre>
+<p>oraz</p>
+<pre><code>N[Sin[1]]</code></pre>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<p>Proszę wykorzystać wzorzec:</p>
+<pre><code>f[c_][z_] := ...</code></pre>
+<p>aby zaimplementować funkcję <span class="math display">\[
+f_{c}(z) = z^{2} + c
+\]</span></p>
+<p>Następnie, korzystając z wzorca:</p>
+<pre><code>k[n_][c_] := ...</code></pre>
+<p>funkcji:</p>
+<pre><code>Nest</code></pre>
+<p>oraz implementacji funkcji <span class="math inline">\(f\)</span>
+proszę zaimplementować funkcję <span
+class="math inline">\(k_{n}(c)\)</span> która dla danej liczby
+zespolonej <span class="math inline">\(c\)</span> oraz początkowej
+liczby zespolonej <span class="math inline">\(z_{0} = 0\)</span>
+wielokrotnie aplikuje funkcję <span
+class="math inline">\(f\)</span>:</p>
+<p><span class="math display">\[k_{1}(c) = f_{c}(z_{0})\]</span> <span
+class="math display">\[k_{2}(c) = f_{c}(f_{c}(z_{0}))\]</span> <span
+class="math display">\[k_{3}(c) = f_{c}(f_{c}(f_{c}(z_{0})))\]</span>
+<span class="math display">\[\ldots\]</span></p>
+<p>Wykorzystując</p>
+<pre><code>RegionPlot
+Abs</code></pre>
+<p>proszę narysować funkcję <span class="math inline">\(1 / |k_{5}(x + i
+y)|\)</span> gdzie <span class="math inline">\(-2 &lt; x &lt; 1\)</span>
+oraz <span class="math inline">\(-1.5 &lt; y &lt; 1.5\)</span>. Co
+otrzymujemy? Czy można <span class="math inline">\(1/||\)</span>
+zastąpić inną funkcją?</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę, korzystając z rozwiązania zadania <strong>B</strong>,
+stworzyć plik GIF z animacją <a
+href="https://en.wikipedia.org/wiki/Mandelbrot_set">zbioru
+Mandelbrota</a>. Można w tym celu stworzyć tabelkę z rysunkami
+utworzonymi z wykorzystaniem <code>RegionPlot</code>. Każdy rysunek w
+tabelce może mieć, na przykład, inną liczbę iteracji. Tabelkę można
+wyeksportować do pliku GIF wykorzysując <code>Export</code>. Proszę
+spróbować pozmieniać tempo animacji w pliku.</p>
 </article>
 </body>
 </html>

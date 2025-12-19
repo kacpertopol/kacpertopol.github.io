@@ -154,6 +154,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%2868873
 <li><a href="#set-5">Set 5</a></li>
 <li><a href="#set-6">Set 6</a></li>
 <li><a href="#set-7">Set 7</a></li>
+<li><a href="#set-8">Set 8</a></li>
 </ul></li>
 </ul>
 <h1 id="organizacja">Organizacja</h1>
@@ -1201,6 +1202,118 @@ vector.</p>
 href="./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/007_Set_7/misc.py">miscellaneous
 code</a> from class, please have a look at the comments</li>
 </ul>
+<h2 id="set-8">Set 8</h2>
+<center>
+<a
+href="https://commons.wikimedia.org/wiki/File:Palmer_Method_sample.jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Palmer_Method_sample.jpg/1024px-Palmer_Method_sample.jpg" /></a>
+</center>
+<center>
+<em>…pretty strings…</em>
+</center>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(1 + 1 points)
+</center>
+<p>In an era before electronic calculators, logarithms were king. Two
+usefull properties of the logarithm function: <span
+class="math display">\[
+\log{a b} = \log{a} + \log{b}
+\]</span> <span class="math display">\[
+\log{a / b} = \log{a} - \log{b}
+\]</span> make it possible to change multiplication and division into
+addition and subtraction which require much less effort. This
+observation lies at the heart two interesting old calculating methods:
+<a href="https://en.wikipedia.org/wiki/Slide_rule">the slide rule</a>,
+and <a
+href="https://en.wikipedia.org/wiki/Mathematical_table#Tables_of_logarithms">tables
+of logarithms</a>. We will be focusing on the latter.</p>
+<p>Please read <a
+href="https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting">this
+section</a> on fancier string formatting and create a string containing
+a table of logarithms:</p>
+<pre><code>-------------------
+| x     |  Log(x) |
+-------------------
+| 1.00  |  0.0000 |
+| 1.01  |  0.0043 |
+| 1.02  |  0.0086 |
+...
+| 1.20  |  0.0792 |
+...
+| 2.00  |  0.3010 |
+...
+| 6.00  |  0.7782 |
+...
+| 10.0  |  1.0000 |
+-------------------
+</code></pre>
+<p>the first column has numbers going from <span
+class="math inline">\(1\)</span> to <span
+class="math inline">\(10\)</span> (the step size is up to you). The
+second columns is a base <span class="math inline">\(10\)</span>
+logarithm of the corresponding number in the first column.</p>
+<p>How can we use this table in practice. Let’s say we want to multiply
+<span class="math inline">\(2\)</span> by <span
+class="math inline">\(6\)</span>: <span class="math display">\[
+\log_{10}{2 \times 6} = \log_{10}{2} + \log_{10}{6} \approx 0.3010 +
+0.7782 = 1.0792 = \log_{10}{x}
+\]</span> where <span class="math inline">\(x\)</span> is our
+approximate result (<span class="math inline">\(\approx 12\)</span>). We
+can approximate the logarithms by looking at our table and addition is
+easy enough (a person equipped with only a book of logarithm tables and
+an abacus is a dangerous calculating machine). There is a problem
+though, if we look at the second column the value <span
+class="math inline">\(1.0792\)</span> is out of range, how do we solve
+this? Simple, just subtract <span class="math inline">\(1\)</span> (or
+divide by <span class="math inline">\(10\)</span> depending on how you
+look at it): <span class="math display">\[
+\log_{10}(x / 10) = \log_{10}{x} - \log_{10}{10} = 1.0792 - 1.0 = 0.0792
+\]</span> The value <span class="math inline">\(0.0792\)</span> is no
+longer out of range in the second column and corresponds to … <span
+class="math inline">\(1.20\)</span> which is our apporximate (we are
+doing approximations here left and right, let’s not forget about this)
+result divided by <span class="math inline">\(10\)</span>. So to
+summarize logarithm tables, plus some extra tricks like dividing by ten
+or subtracting one, are a powerful calculating tool.</p>
+<p>Save your table into a text file. Make sure that:</p>
+<ul>
+<li>the columns have consistent width
+<ul>
+<li>one option is to round the numbers to a set precision</li>
+<li>other options are available <a
+href="https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting">in
+the tutorial</a></li>
+</ul></li>
+<li>the table has a header</li>
+<li>the extra points is for using <a
+href="https://en.wikipedia.org/wiki/Block_Elements">block elements</a>
+instead of <code>|</code> and <code>+</code> in drawing the frame of the
+table</li>
+</ul>
+<p>Hint: logarithms are available in the <code>math</code> library. To
+calculate the base <span class="math inline">\(10\)</span> logarithm of
+<span class="math inline">\(2.0\)</span> you can use
+<code>math.log(2.0 , 10)</code>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(3 points)
+</center>
+<p>Change the formatting of your logarithm table to use <a
+href="https://www.overleaf.com/learn/latex/Tables"><span
+class="math inline">\(\LaTeX\)</span> syntax for tables</a>. Make the
+table larger and split it into multiple separate tables. Each page
+should contain a single table. Add special values for <span
+class="math inline">\(\pi\)</span>, <span
+class="math inline">\(\e\)</span> etc. Can we add more columns to
+perform calculations with square roots and trigonometric functions?</p>
+<p>Save the string with your table into a file with a <code>.tex</code>
+extension. Compile it with <span
+class="math inline">\(\LaTeX\)</span>.</p>
 </article>
 </body>
 </html>

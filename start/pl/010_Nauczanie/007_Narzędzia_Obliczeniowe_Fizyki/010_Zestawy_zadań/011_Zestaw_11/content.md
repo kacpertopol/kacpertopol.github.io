@@ -1,5 +1,5 @@
 Na zajęciach chciałbym głównie porozmawiać z każdym z Państwa o projektach
-końcowych, kolokwium, zaliczeniach ... oraz złożyć życzenia świąteczne i noworoczne.
+końcowych, kolokwium, zaliczeniach.
 
 <center>
 **MATERIAŁY DODATKOWE**

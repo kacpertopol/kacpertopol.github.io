@@ -58,3 +58,4 @@ należy (np. `true` , `1`) do rozpatrywanego zbioru czy nie (np. `false` , `0`).
   proszę się zastanowic, która informacja jest prawidłowa:
   - [geeks for geeks](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/)
   - [mathematics stack exchange](https://math.stackexchange.com/questions/761006/big-o-and-function-composition) 
+- [prosty przykład](---ThisDir---/simple_set.py) + [rec.py](---ThisDir---/simple_set.py)

@@ -1,0 +1,12 @@
+set title "SET implemented using bool tables"
+set label "The first column is the problem size (n). \n\
+The second column is the measured time (t). \n\
+In each problem a series of integers integers 0 ... 511 \n\
+is added to an, initialy empty, set. \n\
+Furthermore, in each single problem this process is repeated 1000 times." at graph 0.1 , 0.9
+set xlabel "n"
+set ylabel "t"
+t(n) = b * n + c 
+fit t(x) "DATASS" using 1:2 via b , c 
+plot "DATASS" using 1:2 , t(x) lw 2 
+pause -1 "Hit any key to continue."

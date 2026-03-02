@@ -1,9 +1,9 @@
 ---
-title : Narzędzia Obliczeniowe Fizyki
+title : Pyton for beginners
 ---
 
 <center>
-[![](https://upload.wikimedia.org/wikipedia/commons/0/0b/Ybc7289-bw.jpg?1600959211627)](https://en.wikipedia.org/wiki/File:Ybc7289-bw.jpg)
+[![](https://upload.wikimedia.org/wikipedia/commons/8/85/Burmese_python_%286887388927%29.jpg)](https://commons.wikimedia.org/wiki/File:Burmese_python_(6887388927).jpg)
 </center>
 
 
@@ -11,69 +11,1213 @@ title : Narzędzia Obliczeniowe Fizyki
 # Zawartość:
 
 * [Organizacja](#organizacja)
-* [Wykład (prof Jacek Golak)](#wykład-prof-jacek-golak)
-* [Zestawy zadań](./00000pl_inv.html)
-* [Projekty studenckie](./000000pl_inv.html)
+* [Materiały dodatkowe](#materiały-dodatkowe)
+* [Zestawy zadań](#zestawy-zadań)
+	* [Set 1](#set-1)
+	* [Set 2](#set-2)
+	* [Set 3](#set-3)
+	* [Set 4](#set-4)
+	* [Set 5](#set-5)
+	* [Set 6](#set-6)
+	* [Set 7](#set-7)
+	* [Set 8](#set-8)
+	* [Set 9](#set-9)
 
 
 
 # Organizacja
 
 <center>
-**ZAJĘCIA**
-</center>
-
-Zajęcia będą prowadzone w trybie stacjonarnym proszę jednak monitorować 
-zarządzenia związane z sytuacją epidemiologiczną. Jeżeli będzie taka
-potrzeba zmienimy tryb prowadzenia na zdalny. 
-
-<center>
-**MATHEMATICA**
-</center>
-
-Na zajęciach będziemy korzystać z programu Mathematica. Bardzo proszę, 
-przed zapoznać się z
-[instrukcją](https://fais.uj.edu.pl/documents/41628/5097967/OprogramowanieMathematica_na_Uniwersytecie_Jagiello%C5%84skim_2018.pdf/eca91225-a7c0-48fb-94a9-a08553de7fd7) 
-na stronie:
-
-<https://fais.uj.edu.pl/dla-studentow/studia-z-mathematica>
-
-zdobyć licencję i zainstalować program na swoich komputerach. 
-Na zajęciach można pracować z własnym laptopem albo z komputerem 
-w pracowni. 
-
-**Uwaga**: wszędzie gdzie to konieczne należy wpisywać
-uniwersytecki adres e-mail. Licencją objęty jest uniwersytet a e-mail
-stanowi metodę weryfikacji, że jesteście państwo studentami uczelni. 
-Informacja o aktywacji studenckich kont pocztowych dostępna jest tutaj:
-
-<https://pomocit.uj.edu.pl/poczta_studenci>
-
-w zakładce "Aktywacja kont pocztowych dla studentów i doktorantów".
-
-<center>
 **OCENA**
 </center>
 
-Na ocenę końcową składać się będą:
+- Ocena będzie wystawiana na podstawie ilości punktów
+  z zaliczonych zadań.
+- Zadania można oddawać na każdych zajęciach,
+  wystarczy zademonstrować działanie programu oraz króciutko
+	o nim opowiedzieć.
+- Ćwiczenia z zestawu przypadającego na dane zajęcia
+  można oddawać do końca semestru ale ...
+  - ... jeżeli pod koniec semestru braknie czasu na zajęciach aby 
+    zadanie oddać to nie zostanie ono zalicone. 
+	**W związku z tym proszę nie zwlekać z oddawaniem zadań.**
+- Skala ocen za punkty z zadań pojawi się około 10 tygodnia
+- Na ostatnich zajęciach przeprowadzony jest egzamin, zagadnienia
+  do zostaną rozesłane kilka tygodni wcześniej
+- Ocena końcowa jest średnią ważoną oceny z zadań, projektu oraz egzaminu:
+  - ocena z zadań: $35\%$
+  - ocena z projektu: $35\%$
+  - ocena z egzaminu: $30\%$
+- Tematy projektów powinny być ustalone i skonsultowane
+  z prowadzącym do połowy semestru.
+  - Projekty można wykonywać w grupie. Maksymalny
+  rozmiar grupy to $3$ osoby.
 
-- sprawdzian końcowy (30% oceny)
-- zadania domowe (35% oceny)
-- projekt końcowy (35% oceny)
+
+
+# Materiały dodatkowe
+
+- some tutorials available online:
+  - [python tutorial from docs.python.org](https://docs.python.org/3/tutorial/index.html)
+  - [python tutorial from tutorialspoint.com](https://www.tutorialspoint.com/python/index.htm)
+  - [python tutorial from w3schools.com](https://www.w3schools.com/python/)
+- exercises in python
+  - [100+ exercises with solutions](https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises%20for%20Python%203.md)
+- some interesting books, also available online:
+  - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+- miscellaneous 
+  - installing things
+    - see [Appendix A](https://automatetheboringstuff.com/2e/appendixa/) of *Automate the Boring Stuff with Python*
+  - files and folders
+    - see [chapter 10](https://automatetheboringstuff.com/2e/chapter10/) of *Automate the Boring Stuff with Python*
+    - [copying things](https://www.geeksforgeeks.org/shutil-module-in-python/) 
+    - [paths, relative paths, etc.](https://www.geeksforgeeks.org/os-path-module-python/)
+    - [platform independent paths](https://medium.com/nishkoder/mastering-os-path-join-in-python-platform-independent-file-paths-eb4861afb7db)
+  - date and time
+    - ["Never ever deal with time zones if you can help it."](https://youtu.be/-5wpm-gesOY?si=9f5MfeQaDnoGuQHh)
+    - see [chapter 17](https://automatetheboringstuff.com/2e/chapter17/) of *Automate the Boring Stuff with Python*
+    - [geeks for geeks article](https://www.geeksforgeeks.org/python-datetime-module/)
+  - manipulating images
+    - see [chapter 19](https://automatetheboringstuff.com/2e/chapter19/) of *Automate the Boring Stuff with Python*
+    - [opencv](https://www.geeksforgeeks.org/opencv-python-tutorial/)
+  - spreadsheets
+    - see [chapter 13](https://automatetheboringstuff.com/2e/chapter13/) of *Automate the Boring Stuff with Python*
+  - running external programs from python, capturing output
+    - [subprocess](https://www.datacamp.com/tutorial/python-subprocess)
 
 
 
-# Wykład (prof Jacek Golak)
-
-Wykłady profesora Jacka Golaka bedą dostępne na stronie:
-
-<http://users.uj.edu.pl/~golak/>
-
-
-# [Zestawy zadań](./00000pl_inv.html)
+# Zestawy zadań
 
 
 
-# [Projekty studenckie](./000000pl_inv.html)
+## Set 1
 
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/7/72/Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg)](https://commons.wikimedia.org/wiki/File:Burr%27s_Improved_Nursing_Bottle_1868_Advertisement.jpg)
+</center>
+<center>
+*...functions, numbers, tuples, and lists...*
+</center>
+<center>
+**A**
+</center>
+
+<center>
+(3 points)
+</center>
+
+It's $3$ o'clock in the morning and you need to prepare some formula to feed your newborn baby. The instructions on the package are
+very specific: prepare a certain amount of water at a given temperature, add the correct amount of formula, mix 
+and cool everything down before serving. In order to keep the baby safe from infections, 
+all the water that you use needs to be pre-boiled. Here is your setup:
+
+1. You prepared a container of pre-boiled water
+   cooled down to the temperature $T_{\text{cool}}$. 
+2. You prepared an empty, sterile feeding bottle.
+3. You have an electric kettle and measured that when the water comes out of the spout it has temperature
+   $T_{\text{hot}}$ (it's slightly cooler then $100^{\circ}C$).
+4. You need to prepare $V$ milliliters (or any other unit of volume) water at temperature $T$ to mix
+   up the formula for your little one. You do this by first pouring $V_{\text{cool}}$ milliliters (or any other unit of volume)
+   of the cooler water into the bottle and then filling the bottle up to $V$ with the hot water from the kettle. How much cool water 
+   should you use?
+
+The mathematics of this problem is very simple, see the **APPENDIX**.
+To make things more convenient implement the python function:
+```python
+def calculateVcool(Tcool , Thot , V , T):
+    #...
+    return Vcool
+```
+that returns the volume of the cooler water $V_{\text{cool}}$ you need to pour into the bottle before pouring the remainder
+of the water
+from the kettle. This volume is calculated in such a way that when mixed the water has temperature $T$. 
+
+Tip: If you find yourself in this scenario a infrared thermometer is a fantastic tool. 
+
+<center>
+**B**
+</center>
+
+<center>
+(1 points)
+</center>
+
+Turn the ``V``, ``T``, and ``Thot`` arguments of function ``calculateVcool`` from exercise **A** into 
+optional arguments with realistic default values for a $3$
+month old baby. 
+
+<center>
+**C**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Write a python script that asks the user to input the arguments of ``calculateVcool`` from **A**,
+runs the function and prints the result.
+
+<center>
+**D**
+</center>
+
+<center>
+(1 points)
+</center>
+
+Nobody has time to fiddle around with their laptop at $3$ o'clock in the morning. Get the script from **C**
+to run on your phone (at your own risk :-) ).
+
+<center>
+**E**
+</center>
+
+<center>
+(4 points)
+</center>
+
+Your significant other (SO) has the early morning shift with the baby and asked you to prepare a thermos
+with pre-boiled water. You have determined the temperature coefficient of the thermos (the mathematics
+of this is very simple, see the **APPENDIX**) and need to decide on the temperature of the water 
+in the thermos so that in a couple of hours, when your SO needs to prepare the formula, the temperature
+of the water in the thermos is appropriate.
+
+To help with this implement the python function:
+```python
+def calculateTemperature(Tfinal , time , Troom , k , 
+        search = (0.0 , 100.0 , 1000)):
+    #...
+    return T
+```    
+where ``Tfinal`` is the desired temperature of the water after time ``time``, ``Troom`` is the 
+ambient room temperature and ``k`` is the temperature coefficient. The final optional argument 
+``search`` determines the parameters
+of a numerical simulation that will solve the problem.
+The returned value ``T`` is the desired temperature
+of water in the thermos.
+
+Use a simple numerical simulation to solve the problem.
+In this simulation scan initial water temperature 
+candidates in the range ``search[0]`` $\ldots$ 
+``search[1]``. The range is divided into ``search[2]`` temperature values. 
+For each temperature candidate, the final temperature after time ``time``
+is calculated (see **APPENDIX**). Finally, out of all the temperature
+candidates, the one whose final temperature is closest to the desired ``Tfinal``
+is returned as ``T``. In your implementation please use:
+
+- a list comprehension,
+- tuple unpacking,
+- the functions \verb|min| and \verb|index|.
+
+Tip: The exponent is available in the ``math`` library. There is no need to install anything, it comes 
+built in. Simply use ``from math import exp``
+
+<center>
+**APPENDIX**
+</center>
+
+When mixing water to arrive at a given temperature, approximately (the notation is the same as in the exercises):
+$$
+	V_{\text{cool}} = V \frac{T_{\text{hot}} - T}{T_{\text{hot}} - T_{\text{cool}}}
+$$
+Does it matter if we use $^{\circ}C$ or $^{\circ}K$? Is the formula any different if you prefer to pour the
+hot water first?
+
+When water in a container is left in a room with ambient temperature $T_{\text{room}}$ it will gradually, 
+over time change it's temperature to match the ambient temperature. This process can be approximately modeled
+by the formula:
+$$
+	\tau(t) = T_{\text{room}} - (T_{\text{room}} - \tau(0)) e^{-t/k}
+$$
+where $\tau(0)$ is the initial temperature of water in the thermos and $\tau(t)$ is the temperature in the 
+thermos after time $t$. The remaining notation is the same as in the exercises. Please note that 
+a non-standard definition of the temperature coefficient $k$ is used. The value of this coefficient
+can be worked out by measuring the temperature of the water in the thermos at two points in time 
+and doing a little algebra.
+Does it matter if we use $^{\circ}C$ or $^{\circ}K$? Is the formula any different if you prefer to pour the
+hot water first?
+
+<center>
+**ADDITONAL MATERIALS**
+</center>
+
+- [some miscellaneous notes](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/printable.pdf)
+- [simple program in c](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/helloc.c)
+- [simple program in python](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/hellopython.py)
+  - [... and the module used by this program](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/myhello.py)
+- [simple python script](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/001_Set_1/myFirstScript.py)
+
+
+## Set 2
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/4/45/BB-ASCII-art-screenshot-zebra.png)](https://commons.wikimedia.org/wiki/File:BB-ASCII-art-screenshot-zebra.png)
+</center>
+<center>
+*...to is or not to is, dictionaries, loops, flow control, modules and objects...*
+</center>
+
+<center>
+**A**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Implement a function that takes an arbitrary number of arguments,
+say floating point numbers,
+and returns a dictionary containing:
+
+- a list containing all the arguments
+- the mean of the arguments
+- the standard deviation of the arguments
+
+Use this function in a script.
+
+<center>
+**B**
+</center>
+
+<center>
+(3 points)
+</center>
+
+Implement a simple [text based game](https://en.wikipedia.org/wiki/Text-based_game). The gameplay
+and objective is completely up to you. 
+
+Please base your implementation on the following function:
+```python
+def updateGameState(state)
+    # ...
+```
+that updates the dictionary `state` in every iteration of the
+main game loop:
+```python
+while(!state["finished"]):
+    # ...    
+```
+
+At each iteration of the game loop print
+the available moves / options available to the player and use the `input`
+function to decide on how to proceed with the game play. Use `if`, `else`, and `elif`
+statements to decide how the game `state` will evolve. When the game is finished, change
+the value of `"finished"` in `state` to `True`. This will cause the main loop of the
+game to terminate.
+
+<center>
+**C**
+</center>
+
+<center>
+(3 points)
+</center>
+
+Add some elegant [ASCI art](https://en.wikipedia.org/wiki/ASCII_art) to your game.
+To do this please import the `sys` module and use the `sys.stdout.write` method
+to implement the function:
+```python
+def showGameState(state):
+    # ...
+```
+that will print a beautiful graphical representation of the game state to "standard output".
+Add this function to the main game loop.
+Please assume that we are working in a terminal that is $80$ characters wide and $40$ characters tall.
+
+Tips:
+
+- use two nested `for` loops to sweep over all the $80 \times 40$ "pixel" display we use in the game
+- use `if` and / or a dictionary to decide what character to put in each "pixel"
+- the new line character is `\n`
+- this does not have to be very complicated, drawing a map with the location of the player is great but 
+  printing some basic information about the game statistics is 
+  also fine
+
+<center>
+**D**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Implement a "smart" function:
+```python
+def smartFunction(a , b):
+    # ...
+    return c
+```
+that returns the result `c = a + b`. Since this
+operation is very laborious and time consuming, the function memorizes previous arguments
+`a`, `b` that were passed to it, it also memorizes the result. This is all in the hope that when 
+we pass those arguments to the function again it won't have to do all that work, it'll 
+just recall the result.
+
+In order to achieve this introduce a global variable `smartFunctionMemory` that will contain a dictionary.
+The keys in this dictionary are related to the arguments `a`, `b`, and the values are related to the
+results `c`.
+
+What types of arguments can we pass into `smartFunction`?
+
+<center>
+**E**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Implement the function:
+```python
+def readState(path)
+    # ...
+    return state
+```
+that reads the state from a file located at path `path`. The contents of this file
+is processed to obtain the saved state of a previous game. 
+
+Implement the function:
+```python
+def writeState(state , path)
+    # ...
+```
+that writes the game state to a file located at path `path`.
+
+Add `readState` before the start of the game loop and `writeState` after the loop to allow the user
+to save the game progress.
+
+Tip: Don't worry we'll discuss the details during class :-)
+
+<center>
+**ADDITONAL MATERIALS**
+</center>
+
+- [simple guessing game](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/002_Set_2/simpleGame.py)
+  - this is the example from class
+  - please have a look at the comments, in particluar they contain additiona
+    information about reading and writing files
+- [game of life](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/002_Set_2/ConowayGameOfLife.py)
+  - see [this Wikipedia article](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+    for more details
+  - run the game as usual `python ConowayGameOfLife.py`
+    - first press `c` to change the state of chosen cells
+    - next press `i` to iterate 
+    - finally press `q` to quit
+  - there are many comments
+
+
+## Set 3
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/en/6/62/Literate_Programming_book_cover.jpg)](https://en.wikipedia.org/wiki/Literate_programming)
+</center>
+<center>
+*...literate programming, loops and lambdas, ...*
+</center>
+
+<center>
+**A**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Replace the repeated `if`, `elif`, `else` statements from your game in **Set 2** with `match`.
+If these statements don't appear in the game, please add some.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 points)
+</center>
+
+End your scripts from **Set 1** with an infinite `while` loop instead of a call similar to `input("Hit enter to exit.")`.
+Please use `pass` in the infinite loop. 
+
+Import the `time` module and use the `time.time()` function to measure the time the program spends in the loop.
+If this time exceeds $10$ seconds, ask the user if the program should exit. If the program is supposed to wait
+reset the timer and run the loop for another $10$ seconds.
+
+Tip: use `continue`, and `break`.
+
+<center>
+**C**
+</center>
+
+<center>
+(4 points)
+</center>
+
+Using the [Jupyter notebook](https://jupyter.org/) please investigate the [logistic map](https://en.wikipedia.org/wiki/Logistic_map).
+
+Create a function that calculates the logistic map and draw the map using the `matplotlib` library, we will discuss how this library works during class. 
+Make sure the notebook
+has a detailed description of your approach, use [literate programming](https://en.wikipedia.org/wiki/Literate_programming).
+
+<center>
+**D**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Re-implement the function from **C** to accept a keyword argument `drawFunction`. If the value of this keyword
+argument is not the default `None` then `drawFunction` points to a function that draws the data and a plot of the 
+logistic map is produced automatically.
+
+Test if this works using a `lambda` expression.
+
+Can you use `is` to check if `drawFunction` has the default value?
+
+<center>
+**ADDITIONAL MATERIALS**
+</center>
+
+- [Jupyter notebook](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/003_Set_3/24-10-2025.ipynb) from 24-10-2025 class.
+
+
+
+
+## Set 4
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jan_%C5%81ukasiewicz.jpg/320px-Jan_%C5%81ukasiewicz.jpg)](https://en.wikipedia.org/wiki/Jan_%C5%81ukasiewicz#/media/File:Jan_%C5%81ukasiewicz.jpg)
+</center>
+<center>
+*...modules, packages, first look at classes and objects, ...*
+</center>
+
+<center>
+**A**
+</center>
+
+<center>
+(3 points)
+</center>
+
+Implement a [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation) calculator. 
+Base your program on a stack implemented as a python `list`. All operations of the calculator 
+take the stack, modify it and return the modified stack. For example adding two numbers:
+
+```python
+def add(stack):
+    x = stack.pop()      # 1
+    y = stack.pop()      # 2
+    stack.append(x + y)  # 3
+    return stack         # 4
+```
+
+At **1** a number is popped from the end of the list with `pop` resulting in a shorter stack. 
+At **2** another number is popped from the stack. Finally in **3** the stack is modified by adding
+a number to the end of the list with `append`. The new stack, shorter by one number, is returned in **4**.
+
+Add more functions:
+
+- multiply two numbers
+- print the stack (does not modify the stack)
+- print the last value from the stack 
+- using the `math` module add several more mathematical operations
+- print some help information (does not modify the stack)
+- "quit" adds `None` to the stack
+
+Refer to the functions from a dictionary whose keys are python strings - the names of the functions.
+The values in the dictionaries are the functions themselves.
+
+Create a `while` loop that checks if `None` is in the stack using `in`, if it's in the stack - exit.
+In the loop ask the user to enter the command name, run the appropriate command from the dictionary
+to modify the stack. If the command is not in the dictionary keys, assume that the user entered
+a floating point number and append it to the stack.
+
+<center>
+**B**
+</center>
+
+<center>
+(1 points)
+</center>
+
+Make the code from **A** a little more bullet proof:
+
+- make sure that the functions from **A** check if there are enough elements on the stack
+- make sure that when the user enters a number to push to the stack - it is a properly formatted floating
+  point number (tip: use `try` and `except`, we will discuss this during class)
+
+<center>
+**C**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Add another module `extra.py` with additional functions. Modify **A** to look inside this module
+for additional functions (tip: use the `__dict__` attribute, we will discuss this during class).
+
+<center>
+**D**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Implement a simple class that iterates over the [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_sequence).
+The constructor takes one argument - the number of Fibonacci numbers to iterate over. We will discuss
+the details during class.
+
+<center>
+**ADDITONAL MATERIALS**
+</center>
+
+- [some miscellaneous materials from class](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/004_Set_4/python_for_beginners_08-11-2024.zip)
+
+
+## Set 5
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/b/bd/Enigma_%28crittografia%29_-_Museo_scienza_e_tecnologia_Milano.jpg)](https://commons.wikimedia.org/wiki/File:Enigma_(crittografia)_-_Museo_scienza_e_tecnologia_Milano.jpg)
+</center>
+
+<center>
+*...sets, ciphers, and more on files...*
+</center>
+
+<center>
+**A**
+</center>
+
+<center>
+(2 points + 1 point)
+</center>
+
+Implement two functions.
+The first one encodes the plaintext ... `plaintext` (string of characters):
+```python
+def encode(key , plaintext):
+    # ...
+    # return ciphertext
+```
+and the second one decodes the ciphertext ... `ciphertext` (string of characters):
+```python
+def decode(key , ciphertext):
+    # ...
+    # return plaintext
+```
+Both functions take a string of characters, `key`, as the first argument.
+
+Use any cipher you like. We will discuss options during class. The extra point is for interesting solutions.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Rewrite the functions from **A**.
+Implement `encoder` and `decoder` so that they can be used:
+```python
+myEncoder = encoder("secret_key")
+myDecoder = decoder("secret_key")
+
+plaintext = "this is the plaintext"
+ciphertext = myEncoder(plaintext)
+
+print(myDecoder(ciphertext) == plaintext) # true
+```
+
+Use two different methods:
+
+- `encoder` and `decoder` are functions that return functions
+- `myEncoder` and `myDecoder` are objects of a class that has a `__call__` method
+
+<center>
+**C**
+</center>
+
+<center>
+(3 points + 1 point)
+</center>
+
+Using the [argparse](https://docs.python.org/3/library/argparse.html) library implement a simple note taking
+application. The application has only one positional argument:
+
+- `password` will be used as the key to encrypt and decrypt messages
+
+and the following optional arguments:
+
+- `--keywords` or `-k` will be used to add single keywords, this option can be used multiple times
+- `--print` or `-p` will print all notes
+- `--printany` or `-a` will print only those notes that contain any of the keywords
+- `--printall` or `-o` will print only those notes that contain all of the keywords
+- `--new` or `-n` will ask the user for the text of a new note with the appropriate keywords
+- `--delete` or `-d` will delete a note with a given number
+
+In your implementation:
+
+- store the text of the note in encrypted form, use the functions from the previous exercises for encrypting and decrypting, 
+  and `password` as the key
+- use the `json` module to store the notes in [JSON](https://en.wikipedia.org/wiki/JSON) format
+- store the notes in a single file located in the same directory as the script (we will discuss this during class)
+- use a `set` to store the keywords
+- apart from the keywords assign the creation date (using `datetime`) to each note and a unique number
+- use formatted string literals when printing a note, make sure that the date, number, keywords, and
+  note text are displayed in a clear way
+- make sure that all the arguments have help information available (using `argparse`)
+- make sure that the program has a description information available (using `argparse`)
+
+Extra point: replace the positional argument `password` with an appropriate function from the `getpass` modle. 
+Is this safer? Why?
+
+DISCLAMER: This note taking application is only as safe as our implmentation makes it. Use at your own risk! 
+
+<center>
+**D**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Next time we will be talking about the `numpy` module.
+In preparation please write a script that multiplies two $1024 \times 1024$ matrices. Use python lists and list comprehensions to implement 
+the matrices. Measure how much time the script takes to execute. 
+
+<center>
+**ADDITONAL MATERIALS**
+</center>
+
+- [some miscellaneous materials from class](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/005_Set_5/python_for_beginners_16-11-2024.zip)
+- [minimal example of RPN calculator](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/005_Set_5/test_try_catch.py)
+  - contains nested `try` - `catch` blocks
+    - this is not very elegant
+  - to exit in linux press CTRL + C 
+- [some miscellaneous materials from 21 XI 2025](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/005_Set_5/python_for_beginners_21-11-2025.zip)
+
+
+## Set 6
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)](https://en.wikipedia.org/wiki/File:Gospers_glider_gun.gif)
+</center>
+
+<center>
+*...life, numpy, matplotlib, more on classes and exceptions...*
+</center>
+
+<center>
+**A**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Using the `numpy` library please implement 
+[the game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+with periodic boundary conditions (the left half of the grid is glued to the right, the 
+top part of the grid is glued to the bottom ... essentially creating a torus).
+The implementation should be a single script.
+The grid of cells is represented by a `numpy` array with an integer `dtype`. 
+When implementing a single iteration of the game, please stick to the `numpy` library
+as strictly as possible to boost performance. Test the performance using large
+grids (1920 by 1080 and larger). 
+
+Tip: Use the `numpy.roll` function to obtain the state of neighbouring cells. Visualization
+can be achieved using the `matplotlib.pyplot` library functions,
+[`imshow`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html) or
+[`matshow`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.matshow.html) function.
+We will cover the basic usage of `matplotlib` during class.
+
+<center>
+**B**
+</center>
+
+<center>
+(4 points)
+</center>
+
+Extend **A** to continuous values: the state of the cell can be dead (0), alive (1)
+or anything in between. There are many sensible ways of doing this. One way is "smooth life", see
+the links:
+
+- [online simulation](https://smooth-life.netlify.app/)
+- [pre-print](http://arxiv.org/abs/1111.1567)
+
+Tip: The function 
+[`convolve2d`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve2d.html) 
+from the `scipy` might be helpful. It works with `numpy` arrays.
+Visualization
+can be achieved using the `matplotlib.pyplot` library functions,
+[`imshow`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html) or
+[`matshow`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.matshow.html) function.
+We will cover the basic usage of `matplotlib` during class.
+
+<center>
+**C**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Add a simple interactive command line interface to **A** or **B**. The program should
+give the user at least the following options:
+
+- save state of the game (the grid of cells) into a file with specified path
+- load state of the game (the grid of cells) from a file with specified path
+- run a specified amount of iterations
+- quit
+
+Be persistent, if the user types an incorrect value prompt him / her again. To do this use `try`,
+`except`.
+
+<center>
+**D**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Wrap everything (**A** + **C** or **B** + **C**) into a class. Place the class
+definition in a separate module and use this module in a script. 
+
+<center>
+**E**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Write a wrapper for the `numpy` array representing a grid of cells in the game of life.
+Try to make this class immutable (is this really possible in python?). 
+Add the `__hash__` and `__eq__` methods to the class.
+
+<center>
+**ADDITIONAL MATERIALS**
+</center>
+
+- [some code from class 28-11-2025](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/006_Set_6/argparse_example.py)
+
+... Obtaining the number of neighbours for the basic 
+[game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) ...
+
+Let's assume that we start from random configuration of $4 \times 4$ cells:
+
+```python
+import numpy as np                                        # 1
+s = 4                                                     # 2
+state = np.random.randint(0 , high = 2 , size = (s , s))  # 3
+print(state)                                              # 4
+```
+
+In **1** we import the `numpy` library, in **2** we set the size of the matrix
+containing cell states, in **3** we draw a random distribution of cells (0 meaning a dead cell
+1 meaning a live cell, the integers
+are drawn from a uniform distribution between $0$ and `high - 1` $= 1$). Finally **4**
+prints our result:
+
+```
+[[0 0 0 0]
+ [0 1 1 0]
+ [1 1 0 1]
+ [0 1 0 1]]
+```
+To get a table whose values at a specific row and column correspond the state if the eight
+neighbors (Up, Down , Right , Left , UpRight , DownLeft , UpLeft, DownRight) we first `roll`
+the arrays to obtain:
+
+```python
+U = np.roll(state , 1 , axis = 0)
+D = np.roll(state , -1 , axis = 0)
+R = np.roll(state , -1 , axis = 1)
+L = np.roll(state , 1 , axis = 1)
+UR = np.roll(np.roll(state , 1 , axis = 0) , -1 , axis = 1)
+DL = np.roll(np.roll(state , -1 , axis = 0) , 1 , axis = 1)
+UL = np.roll(np.roll(state , 1 , axis = 0) , 1 , axis = 1)
+DR = np.roll(np.roll(state , -1 , axis = 0) , -1 , axis = 1)
+```
+and then sum:
+
+```python
+neighbors = U + D + R + L + UR + DL + UL + DR
+print(neighbors)
+```
+as a result, each cell has the following number of neighbors:
+```
+[[3 3 4 2]
+ [4 3 3 3]
+ [5 4 6 3]
+ [5 2 4 2]]
+ ```
+ This should be correct if we assume periodic boundaries
+ (the left edge is glued to the right edge and the top edge is glued to the
+ bottom edge).
+
+ The next bit is tricky. There are many ways of implementing a single iteration of the game.
+ Since we are looking to eliminate regular python loops to increase the speed of our program
+ have a look at the following functions `np.ones`, `np.zeros`, `np.where`, `np.logical_and`,
+ `np.logical_or` and then have a close look the following code:
+
+ ```python
+ allAlive = np.ones((s , s) , dtype = np.int64)
+ allDead = np.zeros((s , s) , dtype = np.int64)
+ np.where(np.logical_and(state == 0 , neighbors == 3) , allAlive , state)
+ ```
+
+This can be easily extended to include the whole set of rules of the game. 
+Remember stick to `numpy` for performance.
+
+... The same thing but this time with convolutions ...
+
+Let's import the `convolve2d` function from the `scipy.signal` library.
+Note that we are not importing the whole package nut just one function:
+
+```python
+from scipy.signal import convolve2d
+```
+
+Next let's try this:
+
+```python
+k = np.array([[1 , 1 , 1] , [1 , 0 , 1] , [1 , 1 , 1]])
+neighborsWithConvolve2D = convolve2d(state , k , mode = "same" , boundary="wrap")
+print(neighborsWithConvolve2D)
+```
+
+The result should be the same as `neighbors`:
+
+```
+[[3 3 4 2]
+ [4 3 3 3]
+ [5 4 6 3]
+ [5 2 4 2]]
+```
+
+The result is the same but the method is more general.
+We can look at a wider neighborhood of a cell by
+modifying `k`.
+
+... The user input is all wrong ...
+
+Tip: Saving a `numpy` array can be obtained by running `np.save` (or `numpy.save` if we used just `import numpy`).
+Loading a `numpy` array can be obtained by running `np.load`. Both these functions raise exceptions if they get a
+bad file path. This means that we can use them inside `try:` and `except:` blocks. The function `int` also
+raised exceptions when it's string argument is not a correctly formatted integer.
+
+... Hiding class members ...
+
+A nice article on name mangling at [geeksforgeeks](https://www.geeksforgeeks.org/name-mangling-in-python/).
+
+... Calculating the hash of a numpy array ...
+
+To calculate the hash of the data that is contained inside a `numpy` array `a` try `hash(a.data.tobytes())`.
+
+... Implementation using [pygame](https://www.pygame.org/docs/) ...
+
+See the [pygame](https://www.pygame.org/docs/) website for installation instructions. 
+To implement the game of life, both the classic version and the smooth version, you can
+use the [template](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/006_Set_6/pygame_game_of_life_template.py). Please read the comments
+from the template carefully.
+
+
+
+## Set 7
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif)](https://commons.wikimedia.org/wiki/File:Digital_rain_animation_medium_letters_shine.gif)
+</center>
+
+<center>
+*...magic methods, class functions and the matrix...*
+</center>
+
+<center>
+**A**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Implement the smart function from exercise **D** in **Set 2**. Use a function decorator.
+This decorator is a class with a `__call__` method. Objects of this class also 
+have a field that contains a dictionary with previous arguments and return values.
+
+<center>
+**B**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Expand the decorator from the previous exercise to accept a function with an 
+arbitrary number of arguments positional argument.
+
+<center>
+**C**
+</center>
+
+<center>
+(1 points)
+</center>
+
+Expand the decorator from the previous exercise to accept a function that has an arbitrary 
+number of positional and keyword arguments.
+
+<center>
+**D**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Define a class `BadHash` of mutable integer objects. Each time a new instance
+of the object is created, increment a class variable. Add with a `__hash__` method to 
+... CAREFULL THIS IS A BIG MISTAKE! But we will go with it to explore the consequences.
+Use this method with functions that use our decorator. 
+
+<center>
+**E**
+</center>
+
+<center>
+(4 points)
+</center>
+
+Define a class whose objects hold a numerical value. At minimum, the class should
+have the following methods apart from the constructor:
+
+- `__add__`, `__sub__` "magic" method to add and subtract objects of this class using the `+` and `-` operators
+- `__mul__`, `__truediv__` "magic" methods to multiply and divide objects of this class using the `*` and `/` operators 
+- `__neg__` to get the negative number using the `-` operator
+- `__str__`, `__repr__` to return the string representation of the number in objects of this class
+
+In addition to performing numerical operations `__add__`, `__sub__`, `__mul__`, `__truediv__`, and `__neg__`
+should appropriately increase the four class counters that determine how many additions, multiplications, divisions and 
+negations were executed.
+Add the following class methods:
+
+- `resetCounters` resets counters that count the number of multiplications, additions, divisions and negations
+- `getCounters` returns a tuple with the counters of multiplications, additions, divisions and negations
+
+Use this class to determine the computational complexity of matrix multiplication and calculating 
+the application of a matrix to a vector.
+
+<center>
+**ADDITIONAL MATERIALS**
+</center>
+
+- some [miscellaneous code](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/007_Set_7/misc.py) from class, please have a look at the comments
+
+
+## Set 8
+
+<center>
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Palmer_Method_sample.jpg/1024px-Palmer_Method_sample.jpg)](https://commons.wikimedia.org/wiki/File:Palmer_Method_sample.jpg)
+</center>
+
+<center>
+*...pretty strings...*
+</center>
+
+<center>
+**A**
+</center>
+
+<center>
+(1 + 1 points)
+</center>
+
+In an era before electronic calculators, logarithms were king. 
+Two usefull properties of the logarithm function:
+$$
+\log{a b} = \log{a} + \log{b}
+$$
+$$
+\log{a / b} = \log{a} - \log{b}
+$$
+make it possible to change multiplication and division into 
+addition and subtraction which require much less effort.
+This observation lies at the heart two interesting old calculating methods:
+[the slide rule](https://en.wikipedia.org/wiki/Slide_rule), and
+[tables of logarithms](https://en.wikipedia.org/wiki/Mathematical_table#Tables_of_logarithms).
+We will be focusing on the latter.
+
+Please read [this section](https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting)
+on fancier string formatting and create a string containing a table of logarithms: 
+
+```
+-------------------
+| x     |  Log(x) |
+-------------------
+| 1.00  |  0.0000 |
+| 1.01  |  0.0043 |
+| 1.02  |  0.0086 |
+...
+| 1.20  |  0.0792 |
+...
+| 2.00  |  0.3010 |
+...
+| 6.00  |  0.7782 |
+...
+| 10.0  |  1.0000 |
+-------------------
+
+```
+the first column has numbers going from $1$ to $10$ (the step size is up to you). The second columns 
+is a base $10$ logarithm of the corresponding number in the first column.
+
+How can we use this table in practice. Let's say we want to multiply $2$ by $6$:
+$$
+\log_{10}{2 \times 6} = \log_{10}{2} + \log_{10}{6} \approx 0.3010 + 0.7782 = 1.0792 = \log_{10}{x}
+$$
+where $x$ is our approximate result ($\approx 12$). 
+We can approximate the logarithms by looking at our table and addition is easy enough
+(a person equipped with only a book of logarithm tables and an abacus is a dangerous
+calculating machine).
+There is a problem though, if we look at the second column the value $1.0792$ is out of range, how do we solve this?
+Simple, just subtract $1$ (or divide by $10$ depending on how you look at it):
+$$
+\log_{10}(x / 10) = \log_{10}{x} - \log_{10}{10} = 1.0792 - 1.0 = 0.0792
+$$
+The value $0.0792$ is no longer out of range in the second column and corresponds to ... $1.20$ which is 
+our apporximate (we are doing approximations here left and right, let's not forget about this)
+result divided by $10$. So to summarize logarithm tables, plus some extra tricks like dividing by ten 
+or subtracting one, are a powerful calculating tool.
+
+Save your table into a text file. Make sure that:
+
+- the columns have consistent width
+  - one option is to round the numbers to a set precision
+  - other options are available [in the tutorial](https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting)
+- the table has a header 
+- the extra points is for using [block elements](https://en.wikipedia.org/wiki/Block_Elements) instead 
+  of `|` and `+` in drawing the frame of the table
+
+Hint: logarithms are available in the `math` library. To calculate the base $10$ logarithm of $2.0$ 
+you can use `math.log(2.0 , 10)`.
+
+<center>
+**B**
+</center>
+
+<center>
+(3 points)
+</center>
+
+Change the formatting of your logarithm table to use 
+[$\LaTeX$ syntax for tables](https://www.overleaf.com/learn/latex/Tables).
+Make the table larger and split it into multiple separate tables.
+Each page should contain a single table.
+Add special values for $\pi$, $\e$ etc.
+Can we add more columns to perform calculations with square roots and trigonometric functions?
+
+Save the string with your table into a file with a `.tex` extension. Compile it with $\LaTeX$.
+
+
+
+## Set 9
+
+<center>
+[![](./start/pl/010_Nauczanie/015_Python_dla_początkujących/010_Zestawy_zadań/009_Set_9/sb.jpg)](https://youtu.be/Az49aNuYeJs?si=8tOncILA2YeXal0U)
+</center>
+
+<center>
+*...exceptions...*
+</center>
+
+<center>
+**A**
+</center>
+
+<center>
+(2 points)
+</center>
+
+Write a simple calendar application. The calendar events are written to a text file
+with the following style of syntax:
+
+```
+...
+python for beginners @ 2025-01-10 16:00-18:30 
+lunch @ 2025-01-11 12:00-13:00 
+...
+```
+
+The application has a simple programming interface. Given a day:
+
+
+```
+$ python myCalendarAll.py 2025-01-11
+```
+
+it returns a list of events and for that day in a nicely formatted table with the hours
+in a separate column.   
+
+Use exceptions and exception chaining when reading the calendar file.
+If there is a syntax error in the file - gracefully handle the situation.
+Don't crash the program, provide the user with information about the error
+(line number for example) so the problem could be fixed.
+
+Tip: Use the `split` method for strings and, for now, `ValueError` exceptions.
+Use the `argparse` library to create a command line interface.
+
+<center>
+**B**
+</center>
+
+<center>
+(3 points)
+</center>
+
+Write custom exceptions to handle the following potential problems in **A**:
+
+- badly formatted date
+- badly formatted time
+- no date specified
+- no time specified
+
+Gracefully handle each of these exceptions in the code.
+
+<center>
+**C**
+</center>
+
+<center>
+(3 points)
+</center>
+
+Create a base class `CalendarEvent` with the following methods:
+
+- `getDate` returns a string with the date for the time of the calendar event
+- `getTime` returns a string with the time for the calendar event
+- `getDescription` returns a string with the description of the calendar event
+- `getRow` returns a elegantly formated string with information about the event
+
+Next create three child classes:
+
+- `EventWithTimeAndDate`
+- `EventWithDateAndNoTime`
+- `EventWithTimeAndNoDate`
+
+That hande the situations described by their name.
+
+<center>
+**ADDITIONAL MATERIALS**
+</center>
+
+- [python exceptions](https://www.geeksforgeeks.org/python-exception-handling/)
+- [custom exceptions](https://www.geeksforgeeks.org/define-custom-exceptions-in-python/)
+- [built in exceptions](https://www.w3schools.com/python/python_ref_exceptions.asp)
 

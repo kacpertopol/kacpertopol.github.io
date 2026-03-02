@@ -20,9 +20,9 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Algorytmy i Struktury Danych 2](./0pl.html)
-	* [Metody Statystyczne](./000pl.html)
-	* [Python dla początkujących](./0000pl.html)
+	* [Algebra i Geometria](./0pl.html)
+	* [Algorytmy i Struktury Danych 2](./000pl.html)
+	* [Metody Statystyczne](./00000pl.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -47,15 +47,15 @@ toc-title: TOC
 
 
 
-## [Algorytmy i Struktury Danych 2](./0pl.html)
+## [Algebra i Geometria](./0pl.html)
 
 
 
-## [Metody Statystyczne](./000pl.html)
+## [Algorytmy i Struktury Danych 2](./000pl.html)
 
 
 
-## [Python dla początkujących](./0000pl.html)
+## [Metody Statystyczne](./00000pl.html)
 
 
 

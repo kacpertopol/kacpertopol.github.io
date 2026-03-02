@@ -71,100 +71,276 @@ SOFTWARE.
 <h1 class="title">Zestawy zadań</h1>
 </header>
 <center>
-<a href="https://en.wikipedia.org/wiki/Algorithm"><img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1024px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg" /></a>
+<a
+href="https://commons.wikimedia.org/wiki/File:Old_Fashioned_Gym_(7981005513).jpg"><img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Old_Fashioned_Gym_%287981005513%29.jpg/800px-Old_Fashioned_Gym_%287981005513%29.jpg" /></a>
 </center>
 <h1 id="zawartość">Zawartość:</h1>
 <ul>
-<li><a href="#zestaw-0">Zestaw 0</a></li>
+<li><a href="#zestaw-1">Zestaw 1</a></li>
 </ul>
-<h1 id="zestaw-0">Zestaw 0</h1>
-<center>
-<strong>A</strong>
-</center>
-<center>
-[<a
-href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
-</center>
-<center>
-(2 punkty - implementacja zbioru)
-</center>
-<p>Proszę zaimplementować typ danych <code>setSimple</code>
-reprezentujący matematyczny zbiór oraz operacje które dla dwóch zbiorów
-<span class="math inline">\(A\)</span>, <span
-class="math inline">\(B\)</span> realizują:</p>
-<ul>
-<li>sumę zbiorów <span class="math inline">\(A \cup B\)</span></li>
-<li>część wspólną zbiorów <span class="math inline">\(A \cap
-B\)</span></li>
-<li>różnicę zbiorów <span class="math inline">\(A - B\)</span></li>
-<li>sprawdzanie identyczności zbiorów <span class="math inline">\(A
-\equiv B\)</span></li>
-</ul>
-<p>oraz dla elementu <span class="math inline">\(x\)</span> i zbioru
-<span class="math inline">\(A\)</span> realizują:</p>
-<ul>
-<li>wstawianie <span class="math inline">\(x\)</span> do zbioru <span
-class="math inline">\(A\)</span></li>
-<li>usuwanie <span class="math inline">\(x\)</span> ze zbioru <span
-class="math inline">\(A\)</span></li>
-<li>sprawdzanie czy <span class="math inline">\(x \in A\)</span></li>
-</ul>
-<p>Proszę założyć, że istnieje skończona liczba <span
-class="math inline">\(N\)</span> możliwych elementów. Można sobie na
-przykład wyobrazić, że wszystkie rozpatrywane przez nas zbiory są
-podzbiorami pewnego zbioru <span class="math inline">\(\Omega\)</span>
-zawierającego <span class="math inline">\(N\)</span> elementów. Dzięki
-takiemu założeniu implementacja każdego z rozpytywanych zbiorów może być
-oparta na jednowymiarowej tablicy o rozmiarze <span
-class="math inline">\(N\)</span>. Każdy index <span
-class="math inline">\(i = 1 \ldots N\)</span> (lub <span
-class="math inline">\(i = 0 \ldots N-1\)</span>) tej tablicy
-odpowiadałby jednemu z elementów <span
-class="math inline">\(\Omega\)</span>. Wartość przechowywana w tablicy
-pod indeksem <span class="math inline">\(i\)</span> (lub <span
-class="math inline">\(i - 1\)</span>) wskazuje na to czy dany element
-należy (np. <code>true</code> , <code>1</code>) do rozpatrywanego zbioru
-czy nie (np. <code>false</code> , <code>0</code>).</p>
-<center>
-<strong>UWAGI</strong>
-</center>
-<ul>
-<li>Implementacje proszę wykorzystać w programach, które badają
-złożoność obliczeniową poszczególnych operacji.</li>
-<li>Proszę opisać podejście wykorzystane do badania złożoności
-obliczeniowej. Jak wygląda zależność czasu wykonania od rozmiaru
-problemu. Jak to się ma (czy to się ma) do teoretycznej złożoności
-obliczeniowej?</li>
-<li>Proszę przetestować działanie wszystkich operacji:
-<ul>
-<li>wystarczy wyniki testów wypisywać na standardowe wyjście</li>
-<li>nie trzeba korzystać z systemów do unit testów</li>
-</ul></li>
-<li>W większości zadań nie jest określony typ danych elementów zbioru.
-Można korzystać na przykład z liczb całkowitych. Nie powinno mieć to
-większego znaczenia jeżeli pewne warunki są spełnione. Jakie to
-warunki?</li>
-</ul>
+<h1 id="zestaw-1">Zestaw 1</h1>
 <center>
 <strong>MATERIAŁY DODATKOWE</strong>
 </center>
 <ul>
-<li>notacja <span class="math inline">\(O\)</span>, uwaga w poniższych
-linkach dla niektórych przypadków są inne wyniki, proszę się zastanowic,
-która informacja jest prawidłowa:
+<li><p><a
+href="https://ujchmura-my.sharepoint.com/:v:/g/personal/kacper_topolnicki_uj_edu_pl/ETXvPeF6xh5Dp5eZlGC5SWABx_-h4QJ6_0AQYpdmV-kJrg?e=8fdEkM">dodatkowe,
+pandemiczne, nagranie</a> z środowych ćwiczeń</p></li>
+<li><p><a
+href="https://www.mimuw.edu.pl/~leszekp/dydaktyka/gal/labook.pdf">podręcznik</a>
+na którym zostało oparte nagranie</p></li>
+<li><p><a href="http://eigenspace.pl/herdegen_algebra.pdf">dodatkowy
+podręcznik</a> dostępny online</p></li>
+<li><p><a href="https://youtu.be/ceaNqdHdqtg">The strange cousin of the
+complex numbers – the dual numbers</a></p>
 <ul>
 <li><a
-href="https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/">geeks
-for geeks</a></li>
-<li><a
-href="https://math.stackexchange.com/questions/761006/big-o-and-function-composition">mathematics
-stack exchange</a></li>
+href="./start/pl/010_Nauczanie/003_Algebra_i_Geometria/002_Zestawy_zadań/001_Zestaw_1/dual.py">implementacja
+liczb dualnych w pythonie</a></li>
+<li>przykładowe wykorzystanie znajduje się w
+<code>if(__name__ == "__main__"):...</code></li>
+<li>zachęcam do uzupełnienia katalgu funkcji o nowe</li>
 </ul></li>
-<li><a
-href="./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/000_Zestaw_0/simple_set.py">prosty
-przykład</a> + <a
-href="./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/000_Zestaw_0/rec.py">rec.py</a></li>
+</ul>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Co oznacza zapis <span class="math inline">\(s(n) = \sum_{i = 1}^{n}
+(2 i^2 - 4 i)\)</span>? Znaleźć <span
+class="math inline">\(s(3)\)</span>, <span
+class="math inline">\(s(5)\)</span>, <span
+class="math inline">\(s(7)\)</span>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Wypisać poniższe sumy dla <span class="math inline">\(n =
+4\)</span>:</p>
+<ul>
+<li><span class="math inline">\(\sum_{k = 1}^{n} k\)</span></li>
+<li><span class="math inline">\(\sum_{k = 1}^{n} \sin(k x)\)</span></li>
+<li><span class="math inline">\(\sum_{k = 1}^{n} k^2 \sin((k + 2)
+x)\)</span></li>
+</ul>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Czym różnią się sumy <span class="math inline">\(\sum_{i = 1}^{n}
+a_{i} b_{i}\)</span> oraz <span class="math inline">\(\sum_{k = 1}^{n}
+a_{k} b_{k}\)</span>?</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Czy w wyrażeniu <span class="math inline">\(\sum_{i = 1}^{n} a_{i}
+b_{i}^{k}\)</span> można zamienić oznaczenia wszystkich indeksów?</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Dowieść metodą indukcji zupełnej:</p>
+<ul>
+<li><span class="math inline">\(\sum_{k = 1}^{n} (2 k - 1) =
+n^{2}\)</span>,</li>
+<li><span class="math inline">\(\sum_{k = 1}^{n} a_{1} q^{k - 1}= a_{1}
+\frac{1 - q^{n}}{1 - q}\)</span>, <span class="math inline">\(q \ne
+1\)</span>,</li>
+<li><span class="math inline">\(\sum_{k = 1}^{n} k^{2} = \frac{1}{6} n
+(n + 1) (2 n + 1)\)</span>.</li>
+</ul>
+<center>
+<strong>F</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Proszę podać części rzeczywiste i urojone liczb zespolonych:</p>
+<ul>
+<li><span class="math inline">\(2 + i\)</span></li>
+<li><span class="math inline">\((2 + i) (3 + 4 i)\)</span></li>
+<li><span class="math inline">\(i^{3}\)</span></li>
+<li><span class="math inline">\((2 - i) / (4 + i)\)</span></li>
+</ul>
+<center>
+<strong>G</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Znaleźć sprzężenia liczb zespolonych z poprzedniego zadania.</p>
+<center>
+<strong>H</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Podać moduły i fazy liczb zespolonych:</p>
+<ul>
+<li><span class="math inline">\(1\)</span></li>
+<li><span class="math inline">\(-1\)</span></li>
+<li><span class="math inline">\(-i\)</span></li>
+<li><span class="math inline">\(1 + i\)</span></li>
+<li><span class="math inline">\(-2 + \frac{2 \sqrt{3}}{3}
+i\)</span></li>
+<li><span class="math inline">\(-3 - \sqrt{3} i\)</span></li>
+</ul>
+<center>
+<strong>I</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Wyrazić moduły i fazy liczb zespolonych <span
+class="math inline">\(z_{1} z_{2}\)</span> oraz <span
+class="math inline">\(z_{1} / z_{2}\)</span> przez moduły i fazy różnych
+od zera liczb zespolonych <span class="math inline">\(z_{1}\)</span> i
+<span class="math inline">\(z_{2}\)</span>.</p>
+<center>
+<strong>J</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Policzyć pierwiastki:</p>
+<ul>
+<li>trzeciego stopnia z liczby <span class="math inline">\(1 - \sqrt{3}
+i\)</span>,</li>
+<li>czwartego stopnia z liczby <span
+class="math inline">\(1\)</span>,</li>
+<li>drugiego stopnia z liczby <span class="math inline">\(-15 + 8
+i\)</span></li>
+</ul>
+<center>
+<strong>K</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Podać miejsce geometryczne punktów na płaszczyźnie zespolonej
+spełniających warunek</p>
+<ul>
+<li><span class="math inline">\(z^{4} = 1\)</span></li>
+<li><span class="math inline">\(| z | \le 2\)</span></li>
+<li><span class="math inline">\(|z - 1 - i| = 2\)</span></li>
+<li><span class="math inline">\(|z + 2 - i| = |z - 3 + 4i|\)</span></li>
+<li><span class="math inline">\(|z + i| + |z - i| = 4\)</span></li>
+<li><span class="math inline">\(\mid \, |z + i| - |z - i| \mid =
+\sqrt{2}\)</span></li>
+</ul>
+<center>
+<strong>L</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Pokazać, że zbiór liczb zespolonych o module 1 stanowi grupę ze
+względu na mnożenie.</p>
+<center>
+<strong>M</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Pokazać, że zbiór pierwiastków <span
+class="math inline">\(n\)</span>-tego stopnia z <span
+class="math inline">\(1\)</span> (czyli zbiór liczb <span
+class="math inline">\(z\)</span> o tej własności, że <span
+class="math inline">\(z^{n} = 1\)</span>, gdzie <span
+class="math inline">\(n\)</span> jest liczbą naturalną większą od zera)
+stanowi grupę ze względu na mnożenie.</p>
+<center>
+<strong>N</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Rozwiązać równanie <span class="math display">\[z \bar{z} + (z -
+\bar{z})^{2} = 3 + 2 i\]</span></p>
+<center>
+<strong>O</strong>
+</center>
+<center>
+(1 punkt)
+</center>
+<center>
+<a href="http://users.uj.edu.pl/~golak/">[źródło: prof. dr hab. Jacek
+Golak]</a>
+</center>
+<p>Rozwiązać w liczbach zespolonych równania</p>
+<ul>
+<li><span class="math inline">\(z^2 + z + 5 = 0\)</span></li>
+<li><span class="math inline">\((5 - 5 i) z^2 - (3 - 2 i) z + 1 =
+0\)</span></li>
+<li><span class="math inline">\(z^4 + z^2 + 1 = 0\)</span></li>
 </ul>
 </article>
 </body>

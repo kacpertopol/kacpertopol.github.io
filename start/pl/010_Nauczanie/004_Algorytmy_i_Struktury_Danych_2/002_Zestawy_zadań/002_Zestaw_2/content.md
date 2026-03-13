@@ -11,7 +11,7 @@
 </center>
 
 Implementacja zbioru wykorzystująca jednowymiarowe tablice
-o skończonym rozmiarze z zadania **A** w zestawie 1 zakłada,
+o skończonym rozmiarze z zadania **A** w zestawie 0 zakłada,
 że każdemu elementowi zbioru można przypisać liczbę naturalną
 $1 \ldots N$. Proszę zaimplementować funkcje implementujące
 takie przyporządkowanie dla zbiorów:
@@ -48,7 +48,12 @@ oraz dla elementu $x$ i zbioru $A$ realizują:
 * usuwanie $x$ ze zbioru $A$
 * sprawdzanie czy $x \in A$
 
-Tym razem proszę wykrzystać haszowanie otwarte.
+Tym razem proszę wykrzystać następujący sposób hashowania:
+
+- Każdy z elementów $x$ wpada do jednego z $N$ "kubełków".
+- Każdy "kubełek" zawiera zbiór zaimplementowany z wykorzystaniem posortowanej listy łączonej.
+- Jeżeli założymy, że wrzucamy liczby całkowite, numer "kubełka" do którego wpada $x$ jest określony przez resztę z dzielenia $mod(x , N)$.
+
 Państwa implementację proszę wykorzystać w programie, który bada
 złożoność obliczeniową poszczególnych operacji.
 Dla każdej z zaimplementowanych operacji program powinien produkować jeden plik,

@@ -54,7 +54,7 @@ Tym razem proszę wykrzystać następujący sposób hashowania:
 - Każdy "kubełek" zawiera zbiór zaimplementowany z wykorzystaniem posortowanej listy łączonej.
 - Jeżeli założymy, że wrzucamy liczby całkowite, numer "kubełka" do którego wpada $x$ jest określony przez resztę z dzielenia $mod(x , N)$.
 
-Przykład dostępny jest [tutaj](---ThisDir---/set_2.zip)
+Przykład dostępny jest [tutaj](---ThisDir---/set_2.zip).
 Państwa implementację proszę wykorzystać w programie, który bada
 złożoność obliczeniową poszczególnych operacji.
 Dla każdej z zaimplementowanych operacji program powinien produkować jeden plik,

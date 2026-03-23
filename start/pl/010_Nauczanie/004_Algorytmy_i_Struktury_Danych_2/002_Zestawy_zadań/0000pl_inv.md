@@ -13,6 +13,7 @@ title : Zestawy zadań
 * [Zestaw 0](#zestaw-0)
 * [Zestaw 1](#zestaw-1)
 * [Zestaw 2](#zestaw-2)
+* [Zestaw 3](#zestaw-3)
 
 
 
@@ -261,5 +262,55 @@ Można wykorzystać zadanie **A**.
   [9](./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/002_Zestaw_2/sh9.pdf), [10](./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/002_Zestaw_2/sh10.pdf), ..., [100](./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/002_Zestaw_2/sh100.pdf) 
 * W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. 
   Nie powinno mieć to większego znaczenia
+
+
+
+# Zestaw 3
+
+<center>
+**A** 
+</center>
+
+<center>
+(2 punkt - implementacja kolejki)
+</center>
+
+Proszę zaimplementować typ `priorotyQueue` będący oparty na matematycznym zbiorze
+i posiadający, dla słownika $A$ oraz elementu $x$, operacje:
+
+* wstawianie elementu $x$ do kolejki $A$
+* zwracanie i jednocześnie usuwanie elementu o najmniejszym "priorytecie" z kolejki $A$
+
+Niech $p(x)$ będzie funkcją zwracającą "priorytet" elementu $x$. Jeżeli w słowniku przechowywane będą liczby 
+całkowite, priorytetem może być identyczność - $p(1) = 1$, $p(2) = 2$, ...
+
+Państwa implementację proszę oprzeć na wybranej, omawianej wcześniej, implementacji zbioru. Proszę
+zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmniejszym "priorytecie" 
+(wykres, wartość teoretyczna, dyskusja).
+
+<center>
+**B** 
+</center>
+
+<center>
+[[źródło](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)]
+</center>
+
+<center>
+(6 punkt - implementacja kolejki)
+</center>
+
+Proszę zaimplementować kolejkę priorytetową `priorityQueueBinary` z operacjami jak w zadaniu **A**
+ale tym razem proszę oprzeć swoją implementacje o kopiec binarny.  Proszę
+zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmniejszym "priorytecie" 
+(wykres, wartość teoretyczna, dyskusja) oraz porównać wyniki z zadaniem **A**.
+
+Prosty przykład znajduje się [tutaj](./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/003_Zestaw_3/set_3.zip)
+
+<center>
+**UWAGI**
+</center>
+
+* W większości zadań nie jest określony typ danych elementów zbioru. Można korzystać na przykład z liczb całkowitych. 
 
 

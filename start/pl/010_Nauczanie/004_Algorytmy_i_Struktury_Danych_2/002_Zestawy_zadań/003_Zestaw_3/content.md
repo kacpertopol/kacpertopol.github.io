@@ -36,6 +36,7 @@ ale tym razem proszę oprzeć swoją implementacje o kopiec binarny.  Proszę
 zbadać złożoność obliczeniową operacji usuwania z kolejki elementu o najmniejszym "priorytecie" 
 (wykres, wartość teoretyczna, dyskusja) oraz porównać wyniki z zadaniem **A**.
 
+Prosty przykład znajduje się [tutaj](---ThisDir---/set_3.zip)
 
 <center>
 **UWAGI**

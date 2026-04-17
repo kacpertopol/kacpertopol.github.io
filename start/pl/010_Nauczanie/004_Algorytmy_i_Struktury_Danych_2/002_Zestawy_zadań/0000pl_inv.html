@@ -80,6 +80,8 @@ src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Diagram_for_the_computa
 <li><a href="#zestaw-1">Zestaw 1</a></li>
 <li><a href="#zestaw-2">Zestaw 2</a></li>
 <li><a href="#zestaw-3">Zestaw 3</a></li>
+<li><a href="#zestaw-4">Zestaw 4</a></li>
+<li><a href="#zestaw-5">Zestaw 5</a></li>
 </ul>
 <h1 id="zestaw-0">Zestaw 0</h1>
 <center>
@@ -444,6 +446,139 @@ href="./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_za
 <li>W większości zadań nie jest określony typ danych elementów zbioru.
 Można korzystać na przykład z liczb całkowitych.</li>
 </ul>
+<h1 id="zestaw-4">Zestaw 4</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(4 punkt - implementacja grafu)
+</center>
+<p>Proszę zaimplementować ADT graph, który dla grafu <span
+class="math inline">\(G\)</span> oraz wierzchołków <span
+class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>
+ma implementacje następujących operacji:</p>
+<ul>
+<li><span class="math inline">\(\text{adjacent}(G , x , y)\)</span> -
+sprawdzanie, czy istnieje krawędź pomiędzy <span
+class="math inline">\(x\)</span> oraz <span
+class="math inline">\(y\)</span></li>
+<li><span class="math inline">\(\text{neighbours}(G , x)\)</span> -
+zwracja sąsiadów <span class="math inline">\(x\)</span></li>
+<li><span class="math inline">\(\text{addVertex}(G , x)\)</span> -
+dodaje <span class="math inline">\(x\)</span> do <span
+class="math inline">\(G\)</span></li>
+<li><span class="math inline">\(\text{removeVertex}(G , x)\)</span> -
+usuwa <span class="math inline">\(x\)</span> z <span
+class="math inline">\(G\)</span></li>
+<li><span class="math inline">\(\text{addEdge}(G , x , y)\)</span> -
+dodaje krawędź pomiędzy <span class="math inline">\(x\)</span> i <span
+class="math inline">\(y\)</span></li>
+<li><span class="math inline">\(\text{removeEdge}(G , x , y)\)</span> -
+usuwa krawędź pomiędzy <span class="math inline">\(x\)</span> i <span
+class="math inline">\(y\)</span></li>
+<li><span class="math inline">\(\text{getVertexValue}(G , x)\)</span> -
+zwraca wartość skojarzoną z <span class="math inline">\(x\)</span></li>
+<li><span class="math inline">\(\text{setVertexValue}(G , x ,
+v)\)</span> - kojarzy vartość <span class="math inline">\(v\)</span> z
+wierchołkiem <span class="math inline">\(x\)</span></li>
+<li><span class="math inline">\(\text{getEdgeValue}(G , x , y)\)</span>
+- zwraca wartość skojarzoną z krawędzią pomiędzy <span
+class="math inline">\(x\)</span> oraz <span
+class="math inline">\(y\)</span></li>
+<li><span class="math inline">\(\text{setEdgeValue}(G , x , y ,
+v)\)</span> - kojarzy vartość <span class="math inline">\(v\)</span> z
+krawędzią pomiędzy <span class="math inline">\(x\)</span> oraz <span
+class="math inline">\(y\)</span></li>
+</ul>
+<p>Państwa implementację proszę, na początek, oprzeć ma macierzy
+połączeń. Dodatkowo proszę zbadać złożoność jednej wybranej operacji
+(wykres oraz opis).</p>
+<h1 id="zestaw-5">Zestaw 5</h1>
+<center>
+<strong>A</strong>
+</center>
+<center>
+(2 punkt)
+</center>
+<p>Proszę zapoznać się z pakietem <a
+href="https://graphviz.gitlab.io/">Graphviz</a>. Następnie korzystając z
+programu <em>dot</em> proszę stworzyć plik <em>jpg</em> z grafem:</p>
+<ul>
+<li>zawierającym trzy wierzchołki</li>
+<li>zawierającym połączenia, w obydwu kierunkach, pomiędzy wszystkimi
+wierzchołkami</li>
+</ul>
+<p>Przykładowy <a
+href="./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/005_Zestaw_5/smallGraph">plik
+z prostrzym grafem</a> oraz <a
+href="./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/005_Zestaw_5/smallGraph.jpg">rezultat</a>.
+Aby stworzyć obrazek wystarczy w linii komend uruchomić:</p>
+<pre><code>$ dot -Tjpg smallGraph -o smallGraph.jpg</code></pre>
+<p><a href="https://www.graphviz.org/pdf/dotguide.pdf">Tutaj</a> można
+znaleźć przewodnik po programie <em>dot</em>.</p>
+<center>
+<strong>B</strong>
+</center>
+<center>
+(3 punkt - implementacja grafu)
+</center>
+<p>Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o
+metodę tworzącą plik, który może być wykorzystany przez program
+<em>dot</em> do narysowania grafu.</p>
+<center>
+<strong>C</strong>
+</center>
+<center>
+(7 punkt - implementacja grafu)
+</center>
+<p>Proszę zaimplementować ADT graph, posiadający wszystkie operacje z
+zadania <strong>A</strong> w zestawie 4. Tym razem proszę wykorzystać
+reprezentację w której dla każdego wierzchołka przechowywana jest list
+sąsiadów. Sprawdzić złożoność obliczeniową wybranej operacji i porównać
+z zadaniem <strong>A</strong> zestawu 4.</p>
+<center>
+<strong>D</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<center>
+[<a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
+</center>
+<p>Proszę się zastanowić jak wykorzystać reprezentację grafową do
+rozwiązania problemu znalezienia minimalnej liczby “faz” sygnalizacji
+świetlnej na skrzyżowaniu (strzałeczki oznaczają ulice
+jednokierunkowe):</p>
+<center>
+<a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406"><img
+src="./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/005_Zestaw_5/ul.jpg" /></a>
+</center>
+<p>Sygnalizacja świetlna w każdej “fazie” powinna zezwalać na ruch przez
+skrzyżowanie jedynie tym samochodom, których trajektorie nie będą się
+przecinać. Aby usprawnić działanie skrzyżowania, liczba tych etapów
+powinna być jak najmniejsza.</p>
+<p>Wykorzystując jedną z napisanych przez Państwa implementacji grafów
+oraz zadanie <strong>A</strong> z poprzedniego zestawu proszę narysować
+reprezentację grafową takiego skrzyżowania.</p>
+<p>Wskazówka: proszę zajrzeć na początek <a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródła</a>.</p>
+<center>
+<strong>E</strong>
+</center>
+<center>
+(3 punkt)
+</center>
+<center>
+[<a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródło</a>]
+</center>
+<p>Korzystając wyników zadania <strong>D</strong>, proszę napisać
+program minimalizujący liczbę “faz” sygnalizacji świetlnej dla tego
+skrzyżowania.</p>
+<p>Wskazówka: proszę zajrzeć na początek <a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406">źródła</a>.</p>
 </article>
 </body>
 </html>

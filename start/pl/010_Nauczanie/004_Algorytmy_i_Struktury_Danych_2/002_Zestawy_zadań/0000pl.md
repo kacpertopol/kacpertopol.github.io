@@ -408,11 +408,15 @@ z zadaniem **A** zestawu 4.
 </center>
 
 Proszę się zastanowić jak wykorzystać reprezentację grafową do rozwiązania problemu 
-znalezienia minimalnej liczby "faz" sygnalizacji świetlnej na skrzyżowaniu (strzałeczki
-oznaczają ulice jednokierunkowe):
+znalezienia minimalnej liczby "faz" sygnalizacji świetlnej na skrzyżowaniu: 
+<!--(strzałeczki
+oznaczają ulice jednokierunkowe):-->
 
-<center>
+<!--<center>
 [![](./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/005_Zestaw_5/ul.jpg)](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406)
+</center>-->
+<center>
+[![](https://i.sstatic.net/cV8xt.png)](https://math.stackexchange.com/questions/2304264/traffic-lights-graph-theory-problems)
 </center>
 
 Sygnalizacja świetlna w każdej "fazie" powinna zezwalać na ruch przez skrzyżowanie

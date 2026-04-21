@@ -94,6 +94,9 @@ Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wile
 Korzystając wyników zadania **D**, proszę napisać
 program minimalizujący liczbę "faz" sygnalizacji świetlnej dla tego skrzyżowania.
 
-Wskazówka: proszę zajrzeć na początek [źródła](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406).
+Wskazówki:
+
+- Przykładowa implementacja algorytmu kolorującego jest dostępna [tutaj](---ThisDir---/set_5.zip)
+- Proszę zajrzeć na początek [źródła](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.4710260406).
 
 

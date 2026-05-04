@@ -98,3 +98,10 @@ program, który na podstawie grafu $G$ decyduje o kolejności wykonywanych czynn
 Proszę uogólnić swój program, tak aby przyjmował dowolny graf $G$.
 
 Wskazówka: źródło.
+
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [przykład algorytmów BFS oraz DFS](---ThisDir---/set_6.zip) 
+  - aby włączyć / wyłączyć pogląd kodu można nacisnąć `c` 

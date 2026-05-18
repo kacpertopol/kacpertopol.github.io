@@ -600,6 +600,13 @@ do pokoju szefa *D*.
 
 [[wskazówka](https://bradfieldcs.com/algos/)]
 
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [przykład](./start/pl/010_Nauczanie/004_Algorytmy_i_Struktury_Danych_2/002_Zestawy_zadań/007_Zestaw_7/set_7.zip) 
+  - aby włączyć / wyłączyć pogląd kodu można nacisnąć `c` 
+
 
 # Zestaw 8
 
@@ -620,7 +627,10 @@ Wynik powinien być w postaci tabeli, której wiersze oraz kolumny
 odpowiadają kolejnym miastom natomiast wartości tabelki 
 odpowiadają najkrótszym czasom przejazdu.
 
-*Wskazówka*: proszę skorzystać z [algorytmu Floyda Warszalla](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm).
+*Wskazówka*: 
+
+- Proszę skorzystać z [algorytmu Floyda Warszalla](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm).
+- Można zajrzeć [tutaj](https://www.geeksforgeeks.org/dsa/floyd-warshall-algorithm-dp-16/).
 
 <center>
 **B** 

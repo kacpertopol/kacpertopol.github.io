@@ -30,3 +30,10 @@ z zadania **A** proszę znaleźć najkrótszą ścieżkę z aneksu kuchennego *I
 do pokoju szefa *D*.
 
 [[wskazówka](https://bradfieldcs.com/algos/)]
+
+<center>
+**MATERIAŁY DODATKOWE**
+</center>
+
+- [przykład](---ThisDir---/set_7.zip) 
+  - aby włączyć / wyłączyć pogląd kodu można nacisnąć `c` 

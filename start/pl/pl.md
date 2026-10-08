@@ -20,9 +20,9 @@ toc-title: TOC
 
 * [Kontakt](#kontakt)
 * [Nauczanie](#nauczanie)
-	* [Algebra i Geometria](./0pl.html)
-	* [Algorytmy i Struktury Danych 2](./000pl.html)
-	* [Metody Statystyczne](./00000pl.html)
+	* [Narzędzia Obliczeniowe Fizyki](./0pl.html)
+	* [Oprogramowanie użytkowe](./0000pl.html)
+	* [Python dla początkujących](./000000pl.html)
 * [Konsultacje](#konsultacje)
 * [Curriculum vitae](#curriculum-vitae)
 * [Fun](#fun)
@@ -47,15 +47,15 @@ toc-title: TOC
 
 
 
-## [Algebra i Geometria](./0pl.html)
+## [Narzędzia Obliczeniowe Fizyki](./0pl.html)
 
 
 
-## [Algorytmy i Struktury Danych 2](./000pl.html)
+## [Oprogramowanie użytkowe](./0000pl.html)
 
 
 
-## [Metody Statystyczne](./00000pl.html)
+## [Python dla początkujących](./000000pl.html)
 
 
 

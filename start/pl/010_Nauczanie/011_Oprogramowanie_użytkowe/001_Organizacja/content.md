@@ -6,7 +6,7 @@ Na zajęciach będziemy korzystać z programu Mathematica. Bardzo proszę,
 przed zapoznać się z
 [instrukcją instalacji](https://fais.uj.edu.pl/documents/41628/5097967/Oprogramowanie+Mathematica_na_Uniwersytecie_Jagiello%C5%84skim_WFAIS.pdf/e644e1f3-74bb-408e-9f64-529bc329d1e7).
 zdobyć licencję i zainstalować program na swoich komputerach. 
-Na zajęciach można pracować z własnym laptopem albo z komputerem 
+Na zajęciach można pracować z własnym laptopem (na własną odpowiedzialność) albo z komputerem 
 w pracowni. 
 
 **Uwaga**: wszędzie gdzie to konieczne należy wpisywać

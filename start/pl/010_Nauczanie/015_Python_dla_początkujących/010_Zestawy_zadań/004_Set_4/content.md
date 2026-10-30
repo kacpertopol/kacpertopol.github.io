@@ -1,5 +1,5 @@
 <center>
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jan_%C5%81ukasiewicz.jpg/320px-Jan_%C5%81ukasiewicz.jpg)](https://en.wikipedia.org/wiki/Jan_%C5%81ukasiewicz#/media/File:Jan_%C5%81ukasiewicz.jpg)
+[![](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Jan_%C5%81ukasiewicz_NAC.jpg/960px-Jan_%C5%81ukasiewicz_NAC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)](https://en.wikipedia.org/wiki/Jan_%C5%81ukasiewicz#/media/File:Jan_%C5%81ukasiewicz.jpg)
 </center>
 <center>
 *...modules, packages, first look at classes and objects, ...*

@@ -1,5 +1,5 @@
 <center>
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Palmer_Method_sample.jpg/1024px-Palmer_Method_sample.jpg)](https://commons.wikimedia.org/wiki/File:Palmer_Method_sample.jpg)
+[![](https://upload.wikimedia.org/wikipedia/commons/7/74/Palmer_Method_sample.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)](https://commons.wikimedia.org/wiki/File:Palmer_Method_sample.jpg)
 </center>
 
 <center>
